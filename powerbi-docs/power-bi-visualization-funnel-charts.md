@@ -1,0 +1,110 @@
+---
+title: "Gráficos de funil (tutorial)"
+description: "Tutorial: gráficos de funil no Power BI"
+services: powerbi
+documentationcenter: 
+author: mihart
+manager: kfile
+backup: 
+editor: 
+tags: 
+featuredvideoid: maTzOJSRB3g
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 09/27/2017
+ms.author: mihart
+ms.openlocfilehash: 231bf7febb19583414d976cc612d06c2caa1e246
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/13/2017
+---
+# <a name="funnel-charts-tutorial"></a>Gráficos de funil (tutorial)
+Um gráfico de funil ajuda você a visualizar um processo linear com estágios conectados sequenciais. Por exemplo, um funil de vendas que acompanha os clientes por estágios: Cliente Potencial \> Cliente Potencial Qualificado \> Cliente Potencial \> Contrato \> Fechar.  Em um relance, a forma do funil transmite a integridade do processo que você está controlando.
+
+Cada estágio de funil representa um percentual do total. Portanto, na maioria dos casos, um gráfico de funil tem a forma de um funil – com o primeiro estágio sendo o maior, e cada estágio subsequente, menor do que seu antecessor.  Um funil em forma de pera também é útil - ele pode identificar um problema no processo.  Mas, em geral, o primeiro estágio, o estágio de "entrada", é o maior.
+
+![](media/power-bi-visualization-funnel-charts/funnelplain.png)
+
+## <a name="when-to-use-a-funnel-chart"></a>Quando usar um gráfico de funil
+Os gráficos de funil são uma ótima opção:
+
+* Quando os dados são sequenciais e se movimentam em pelo menos 4 estágios.
+* Quando o número de "itens" no primeiro for maior que o número no estágio final.
+* calcular o potencial (receita de vendas/negociações/etc.) por estágios.
+* calcular e controlar as taxas de conversão e retenção.
+* revelar afunilamentos em um processo linear.
+* controlar o fluxo de trabalho do carrinho de compras.
+* rastrear o progresso e o sucesso das campanhas de propaganda/marketing.
+
+## <a name="working-with-funnel-charts"></a>Como trabalhar com gráficos de funil
+Gráficos de funil:
+
+* Podem ser fixado por meio dos relatórios e de perguntas e respostas.
+* Podem ser classificados.
+* Vários suportes.
+* Podem ser realçados e cruzados por outras visualizações na mesma página de relatório.
+* Podem ser usados para destacar e cruzar outras visualizações na mesma página de relatório.
+
+## <a name="create-a-basic-funnel-chart"></a>Criar um gráfico de funil básico
+Assista a este vídeo para ver Will criar um gráfico de Funil usando a amostra de Vendas e Marketing.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/maTzOJSRB3g" frameborder="0" allowfullscreen></iframe>
+
+
+Agora crie seu próprio gráfico de funil que mostra o número de oportunidades que temos em cada um de nossos estágios de vendas.
+
+Essas instruções usam o Exemplo de Análise de Oportunidade. Para acompanhar, [baixe a amostra](sample-datasets.md), entre no Power BI e selecione **Obter Dados \> Amostras \> Amostra de Análise de Oportunidades \> Conectar**.
+
+1. Comece em uma [página de relatório em branco ](power-bi-report-add-page.md)no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md) e selecione o campo **SalesStage** \> **Estágio de Vendas**.  
+   
+    ![](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
+2. [Converta o gráfico](power-bi-report-change-visualization-type.md) em um funil. Observe que **Estágio de Vendas** está no contêiner **Grupo** . 
+3. No painel **Campos**, selecione **Fato** \> **Contagem de Oportunidades**.
+   
+    ![](media/power-bi-visualization-funnel-charts/funnelfinal_new.png)
+4. Passar o mouse sobre uma barra exibe uma variedade de informações.
+   
+   * O nome do estágio
+   * Número de oportunidades no momento deste estágio
+   * Taxa de conversão geral (% do cliente potencial) 
+   * Passo a passo (também conhecido como taxa de eliminação) que é % do estágio anterior (nesse caso, Estágio de Proposta/Estágio de Solução)
+     
+     ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
+5. [Adicionar o Funil como um bloco do dashboard](service-dashboard-tiles.md). 
+6. [Salve o relatório](service-report-save.md).
+
+## <a name="highlighting-and-cross-filtering"></a>Realce e filtragem cruzada
+Para obter informações sobre como usar o painel Filtros, veja [Adicionar um filtro a um relatório](power-bi-report-add-filter.md).
+
+Realçar uma barra em um funil faz a filtragem cruzada das outras visualizações na página do relatório e vice-versa. Para acompanhar, adicione mais alguns elementos visuais à página do relatório que contém o gráfico de funil.
+
+1. No funil, selecione a barra **Proposta**. Isso destaca de forma cruzada as outras visualizações na página. Use CTRL para fazer uma seleção múltipla.
+   
+   ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
+2. Para definir as preferências de como os visuais são realçados e filtrados de forma cruzada entre si, veja [Interações de visuais no Power BI](service-reports-visual-interactions.md)
+
+## <a name="create-a-funnel-chart-in-qa"></a>Criar um gráfico de funil em P e R
+Realce o painel que tenha pelo menos uma visualização fixada do conjunto de dados "Controle de oportunidade".  Quando você digitar uma pergunta em P e R, o Power BI procura por respostas em todos os conjuntos de dados associados (blocos fixados) ao o painel selecionado. Para obter mais informações, veja [Power BI – Conceitos básicos](service-basic-concepts.md).
+
+1. Realce o painel que tenha pelo menos uma fixação do conjunto de dados Controle de oportunidade.
+2. Comece a digitar sua pergunta na caixa P e R.
+   
+   ![](media/power-bi-visualization-funnel-charts/funnelfromqna_new.png)
+   
+   Certifique-se de adicionar "como funil" para o que Power BI saiba qual tipo de visualização você prefere.
+
+## <a name="next-steps"></a>Próximas etapas
+[Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+
+[Fixar uma visualização em um dashboard](service-dashboard-pin-tile-from-report.md)
+
+[Power BI – conceitos básicos](service-basic-concepts.md)
+
+Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
+

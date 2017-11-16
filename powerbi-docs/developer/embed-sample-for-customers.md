@@ -1,0 +1,324 @@
+---
+title: "Inserir conteúdo do Power BI em um aplicativo para seus clientes"
+description: "Aprenda a integrar ou inserir um dashboard, bloco ou relatório em um aplicativo Web usando APIs do Power BI para seus clientes."
+services: powerbi
+documentationcenter: 
+author: guyinacube
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: get-started-article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 10/05/2017
+ms.author: asaxton
+ms.openlocfilehash: 8c703b93e87ad32ab3f730979292b85a86fd53c0
+ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 11/13/2017
+---
+# <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Insira um dashboard, bloco ou relatório do Power BI no aplicativo
+Saiba como integrar ou inserir um dashboard, um bloco ou relatório em um aplicativo Web usando o SDK do .NET do Power BI, junto com a API JavaScript do Power BI durante a inserção para os clientes. Normalmente, esse é o cenário de ISV.
+
+![Dashboard inserido](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
+
+Para começar este passo a passo, você precisa de uma conta do **Power BI Pro**. Caso você não tenha uma conta, [inscreva-se em uma conta gratuita do Power BI](../service-self-service-signup-for-power-bi.md) e, depois, inscreva-se em uma [avaliação do Power BI Pro](../service-self-service-signup-for-power-bi.md#in-service-power-bi-pro-60-day-trial) ou crie seu próprio [locatário do Azure Active Directory](create-an-azure-active-directory-tenant.md) para fins de teste.
+
+> [!NOTE]
+> Buscando inserir um dashboard para sua organização em vez disso? Consulte [Inserir um dashboard do Power BI em um aplicativo para sua organização](integrate-dashboard.md).
+> 
+> 
+
+Para integrar um dashboard em um aplicativo Web, você usa a API do **Power BI** e um **token de acesso** de autorização do Azure AD (Azure Active Directory) para obter um dashboard. Em seguida, carregue o dashboard usando um token de inserção. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, consulte [Visão geral da API REST do Power BI](https://msdn.microsoft.com/library/dn877544.aspx), [SDK do .NET do Power BI](https://github.com/Microsoft/PowerBI-CSharp) e [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+
+## <a name="download-the-sample"></a>Baixe o exemplo
+Este artigo mostra o código usado na [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data) no GitHub. Para acompanhar esse passo a passo, baixe a amostra.
+
+## <a name="step-1---register-an-app-in-azure-ad"></a>Etapa 1 – registrar um aplicativo no Azure AD
+Você precisará registrar seu aplicativo no Azure AD para fazer chamadas à API REST. Para obter mais informações, consulte [Registrar um aplicativo do Azure AD para inserir o conteúdo do Power BI](register-app.md).
+
+Se você baixou a [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), use a **ID do Cliente** obtida, após o registro, para que a amostra possa ser autenticada no Azure AD. Para configurar a amostra, altere a **clientId** no arquivo *web.config*.
+
+## <a name="step-2---get-an-access-token-from-azure-ad"></a>Etapa 2 – Obter um token de acesso do Azure AD
+No aplicativo, primeiro você precisará obter um **token de acesso** do Azure AD antes de poder fazer chamadas à API REST do Power BI. Para obter mais informações, consulte [Autenticar usuários e obter um token de acesso do Azure AD para o aplicativo do Power BI](get-azuread-access-token.md).
+
+Veja exemplos disso em cada tarefa do item de conteúdo em **Controllers\HomeController.cs**.
+
+## <a name="step-3---get-a-content-item"></a>Etapa 3 – Obter um item de conteúdo
+Para inserir o conteúdo do Power BI, você precisará realizar algumas tarefas para verificar se ele é inserido corretamente. Embora todas essas etapas possam ser feitas com a API REST diretamente, o aplicativo de exemplo e os exemplos aqui, são feitos com o SDK do .NET.
+
+### <a name="create-the-power-bi-client-with-your-access-token"></a>Criar o Cliente do Power BI com o token de acesso
+Com o token de acesso, crie o objeto de cliente do Power BI que permitirá interagir com as APIs do Power BI. Faça isso encapsulando AccessToken com um objeto *Microsoft.Rest.TokenCredentials*.
+
+```
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using Microsoft.Rest;
+using Microsoft.PowerBI.Api.V2;
+
+var tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bearer");
+
+// Create a Power BI Client object. It will be used to call Power BI APIs.
+using (var client = new PowerBIClient(new Uri(ApiUrl), tokenCredentials))
+{
+    // Your code to embed items.
+}
+```
+
+### <a name="get-the-content-item-you-want-to-embed"></a>Obter o item de conteúdo que você deseja inserir
+Use o objeto de cliente do Power BI para recuperar uma referência ao item que você deseja inserir. Você pode inserir dashboards, blocos ou relatórios. Veja a seguir um exemplo de como recuperar o primeiro dashboard, bloco ou relatório de um espaço de trabalho específico.
+
+Uma amostra disso está disponível em **Controllers\HomeController.cs** da [amostra O Aplicativo Possui Dados](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
+**Dashboards**
+
+```
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You will need to provide the GroupID where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+
+// Get the first report in the group.
+Dashboard dashboard = dashboards.Value.FirstOrDefault();
+```
+
+**Bloco**
+
+```
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// To retrieve the tile, you first need to retrieve the dashboard.
+
+// You will need to provide the GroupID where the dashboard resides.
+ODataResponseListDashboard dashboards = client.Dashboards.GetDashboardsInGroup(GroupId);
+
+// Get the first report in the group.
+Dashboard dashboard = dashboards.Value.FirstOrDefault();
+
+// Get a list of tiles from a specific dashboard
+ODataResponseListTile tiles = client.Dashboards.GetTilesInGroup(GroupId, dashboard.Id);
+
+// Get the first tile in the group.
+Tile tile = tiles.Value.FirstOrDefault();
+```
+
+**Relatório**
+
+```
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// You will need to provide the GroupID where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+
+// Get the first report in the group.
+Report report = reports.Value.FirstOrDefault();
+```
+
+### <a name="create-the-embed-token"></a>Criar o token de inserção
+Um token de inserção precisa ser gerado, o qual pode ser usado por meio da API JavaScript. O token de inserção será específico ao item que estiver sendo inserido. Isso significa que sempre que você inserir uma parte do conteúdo do Power BI, precisará criar um novo token de inserção para ele. Para obter mais informações, incluindo qual **accessLevel** usar, consulte [API GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+
+Uma amostra disso está disponível em **Controllers\HomeController.cs** da [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
+Isso pressupõe que uma classe seja criada para **EmbedConfig** e **TileEmbedConfig**. Uma amostra deles está disponível em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
+
+**Dashboard**
+
+```
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Dashboards.GenerateTokenInGroup(GroupId, dashboard.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = dashboard.EmbedUrl,
+    Id = dashboard.Id
+};
+```
+
+**Bloco**
+
+```
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token for a tile.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Tiles.GenerateTokenInGroup(GroupId, dashboard.Id, tile.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new TileEmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = tile.EmbedUrl,
+    Id = tile.Id,
+    dashboardId = dashboard.Id
+};
+```
+
+**Relatório**
+
+```
+using Microsoft.PowerBI.Api.V2;
+using Microsoft.PowerBI.Api.V2.Models;
+
+// Generate Embed Token.
+var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+
+// Generate Embed Configuration.
+var embedConfig = new EmbedConfig()
+{
+    EmbedToken = tokenResponse,
+    EmbedUrl = report.EmbedUrl,
+    Id = report.Id
+};
+```
+
+## <a name="step-4---load-an-item-using-javascript"></a>Etapa 4 – Carregar um item usando o JavaScript
+Você pode usar o JavaScript para carregar um dashboard em um elemento div na sua página da Web. A amostra usa um modelo de EmbedConfig/TileEmbedConfig, juntamente com as exibições de um dashboard, bloco ou relatório. Para obter uma amostra completa de como usar a API JavaScript, use a [Amostra do Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
+
+Uma amostra de aplicativo disso está disponível na [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
+**Views\Home\EmbedDashboard.cshtml**
+
+```
+<script src="~/scripts/powerbi.js"></script>
+<div id="dashboardContainer"></div>
+<script>
+    // Read embed application token from Model
+    var accessToken = "@Model.EmbedToken.Token";
+
+    // Read embed URL from Model
+    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+
+    // Read dashboard Id from Model
+    var embedDashboardId = "@Model.Id";
+
+    // Get models. models contains enums that can be used.
+    var models = window['powerbi-client'].models;
+
+    // Embed configuration used to describe the what and how to embed.
+    // This object is used when calling powerbi.embed.
+    // This also includes settings and options such as filters.
+    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+    var config = {
+        type: 'dashboard',
+        tokenType: models.TokenType.Embed,
+        accessToken: accessToken,
+        embedUrl: embedUrl,
+        id: embedDashboardId
+    };
+
+    // Get a reference to the embedded dashboard HTML element
+    var dashboardContainer = $('#dashboardContainer')[0];
+
+    // Embed the dashboard and display it within the div container.
+    var dashboard = powerbi.embed(dashboardContainer, config);
+</script>
+```
+
+**Views\Home\EmbedTile.cshtml**
+
+```
+<script src="~/scripts/powerbi.js"></script>
+<div id="tileContainer"></div>
+<script>
+    // Read embed application token from Model
+    var accessToken = "@Model.EmbedToken.Token";
+
+    // Read embed URL from Model
+    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+
+    // Read tile Id from Model
+    var embedTileId = "@Model.Id";
+
+    // Read dashboard Id from Model
+    var embedDashboardeId = "@Model.dashboardId";
+
+    // Get models. models contains enums that can be used.
+    var models = window['powerbi-client'].models;
+
+    // Embed configuration used to describe the what and how to embed.
+    // This object is used when calling powerbi.embed.
+    // This also includes settings and options such as filters.
+    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+    var config = {
+        type: 'tile',
+        tokenType: models.TokenType.Embed,
+        accessToken: accessToken,
+        embedUrl: embedUrl,
+        id: embedTileId,
+        dashboardId: embedDashboardeId
+    };
+
+    // Get a reference to the embedded tile HTML element
+    var tileContainer = $('#tileContainer')[0];
+
+    // Embed the tile and display it within the div container.
+    var tile = powerbi.embed(tileContainer, config);
+</script>
+```
+
+**Views\Home\EmbedReport.cshtml**
+
+```
+<script src="~/scripts/powerbi.js"></script>
+<div id="reportContainer"></div>
+<script>
+    // Read embed application token from Model
+    var accessToken = "@Model.EmbedToken.Token";
+
+    // Read embed URL from Model
+    var embedUrl = "@Html.Raw(Model.EmbedUrl)";
+
+    // Read report Id from Model
+    var embedReportId = "@Model.Id";
+
+    // Get models. models contains enums that can be used.
+    var models = window['powerbi-client'].models;
+
+    // Embed configuration used to describe the what and how to embed.
+    // This object is used when calling powerbi.embed.
+    // This also includes settings and options such as filters.
+    // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
+    var config = {
+        type: 'report',
+        tokenType: models.TokenType.Embed,
+        accessToken: accessToken,
+        embedUrl: embedUrl,
+        id: embedReportId,
+        permissions: models.Permissions.All,
+        settings: {
+            filterPaneEnabled: true,
+            navContentPaneEnabled: true
+        }
+    };
+
+    // Get a reference to the embedded report HTML element
+    var reportContainer = $('#reportContainer')[0];
+
+    // Embed the report and display it within the div container.
+    var report = powerbi.embed(reportContainer, config);
+</script>
+```
+
+## <a name="next-steps"></a>Próximas etapas
+Um aplicativo de exemplo está disponível no GitHub para você examinar. Os exemplos acima baseiam-se nessa amostra. Para obter mais informações, consulte a [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
+
+Mais informações estão disponíveis sobre a API JavaScript em [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+
