@@ -1,0 +1,74 @@
+documentType: Tutorial
+title: Modelagem
+metadata:
+  title: Modelando | Microsoft Power BI
+  description: "Conecte-se a várias fontes de dados e combine-as de maneiras a criar um único modelo de dados que atenda às suas necessidades."
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: visualizations
+  nextTutorialTitle: "Visualizações"
+  displayType: one-column
+  author: davidiseminger
+  manager: kfile
+  ms.service: powerbi
+  ms.topic: get-started-article
+  ms.date: 10/27/2017
+  ms.author: davidi
+items:
+- durationInMinutes: 1
+  content: "Conecte-se a várias fontes de dados e combine-as de maneiras a criar um único modelo de dados que atenda às suas necessidades.\n"
+  ms.openlocfilehash: 6486ec39aa624f4387c6006637b9b77e47fe0c2a
+  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 11/15/2017
+- title: "Introdução à modelagem de dados"
+  durationInMinutes: 3
+  content: >
+    > [!Video https://www.youtube.com/embed/VM1K15aEnm4?rel=0]
+
+
+    [!INCLUDE [](includes/2-1-intro-modeling-data.md)]
+- title: "Como gerenciar relações de dados"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/MqNX5olPGGI?rel=0]
+
+
+    [!INCLUDE [](includes/2-2-manage-data-relationships.md)]
+- title: Criar colunas calculadas
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/GarBXef0Vew?rel=0]
+
+
+    [!INCLUDE [](includes/2-3-create-calculated-columns.md)]
+- title: Otimizando modelos de dados
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/tDcrfnjjlgk?rel=0]
+
+
+    [!INCLUDE [](includes/2-4-optimize-data-models.md)]
+- title: Criar medidas calculadas
+  durationInMinutes: 14
+  content: >
+    > [!Video https://www.youtube.com/embed/yn2bXVQJLx8?rel=0]
+
+
+    [!INCLUDE [](includes/2-5-create-calculated-measures.md)]
+- title: Criar tabelas calculadas
+  durationInMinutes: 4
+  content: >
+    > [!Video https://www.youtube.com/embed/aKX1E3krl4I?rel=0]
+
+
+    [!INCLUDE [](includes/2-6-create-calculated-tables.md)]
+- title: Explorar dados baseados em tempo
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/MNAaHw4PxzE?rel=0]
+
+
+    [!INCLUDE [](includes/2-6a-explore-time-based-data.md)]
+- content: "Você concluiu a seção **Modelagem** da aprendizagem guiada do Microsoft Power BI.\0"
