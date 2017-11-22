@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: 39de6173c88beb1b56092677887b71e603888143
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 5b02f55a14592020e73005e44f8692cdb01693c7
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Criar e usar um parâmetro What if para visualizar variáveis no Power BI Desktop
 A partir da versão de agosto de 2017 do **Power BI Desktop**, é possível criar variáveis **What if** para os relatórios, interagir com a variável como uma segmentação e, portanto, visualizar e quantificar diferentes valores de chave nos relatórios.
@@ -30,7 +30,7 @@ A partir da versão de agosto de 2017 do **Power BI Desktop**, é possível cria
 
 O parâmetro **What if** é encontrado na guia **Modelagem** do **Power BI Desktop**. Quando você fizer isso, será exibida uma caixa de diálogo na qual o parâmetro pode ser configurado.
 
-### <a name="creating-a-what-if-parameter"></a>Criando um parâmetro What if
+## <a name="creating-a-what-if-parameter"></a>Criando um parâmetro What if
 Para criar um parâmetro **What if**, selecione o botão **What if** na guia **Modelagem** do **Power BI Desktop**. Na imagem a seguir, criamos um parâmetro chamado *Percentual de desconto* e definimos seu tipo de dados como *Número decimal.* O valor *Mínimo* é zero e o *Máximo* é 0,50 (50%). Também definimos o *Incremento* como 0,05 ou 5%. Esse é o nível de ajuste que o parâmetro fará ao interagir com um relatório.
 
 ![](media/desktop-what-if/what-if_02.png)

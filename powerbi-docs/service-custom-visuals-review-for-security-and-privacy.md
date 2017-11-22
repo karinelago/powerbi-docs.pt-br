@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 40c2c713615f6e9e5378d36b6b228dc864bcb57c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 20a697cbc4698e237f3ac09b031ea0c4cb734a52
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="review-custom-visuals-for-security-and-privacy"></a>Examinar a segurança e a privacidade dos visuais personalizados
 Antes de habilitar um elemento visual personalizado, você deve examinar tal elemento visual em relação à segurança e à privacidade, para certificar-se de que ele se ajustará aos padrões da sua organização.
@@ -102,9 +102,6 @@ O código **JavaScript** ou **TypeScript** pode conter riscos de segurança ou d
 ## <a name="next-steps"></a>Próximas etapas
 [Visualizações no Power BI](power-bi-report-visualizations.md)  
 [Visualizações personalizadas no Power BI](power-bi-custom-visuals.md)  
-[Baixar e usar visuais personalizados da Office Store](service-custom-visuals-office-store.md)  
-[Adicionar um visualização personalizada a um relatório (Power BI Desktop)](power-bi-custom-visuals-use.md)  
-[Adicionar uma visualização personalizada a um relatório (Serviço do Power BI)](power-bi-report-add-custom-visual.md)  
 [Publicar visuais personalizados na Office Store](developer/office-store.md)  
 [Introdução às ferramentas de desenvolvedor de visuais personalizados](service-custom-visuals-getting-started-with-developer-tools.md)  
 [Como certificar um visual personalizado](power-bi-custom-visuals-certified.md)    

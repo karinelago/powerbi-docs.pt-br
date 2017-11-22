@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 1ef54451275b1c7fe1e84c330a4bea95f0bca820
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de problemas do Gateway de Dados Local
 Esse artigo mostra alguns problemas comuns que você poderá encontrar ao usar o **Gateway de Dados Local**.
@@ -170,10 +170,6 @@ Isso pode ser devido a alguns cenários diferentes.
 2. Sua conta não está listada na guia **Usuários** da fonte de dados na configuração do gateway. Você precisará solicitar ao administrador do gateway para ser adicionado à lista.
 3. O arquivo do Power BI Desktop contém dados de várias fontes e nem todas as fontes de dados estão configuradas com o gateway. Você precisará ter cada fonte de dados definida com o gateway para que o gateway apareça na Atualização Agendada.
 
-> [!WARNING]
-> Se uma das suas fontes de dados exige autenticação OAuth, você não poderá configurá-la com o Gateway de Dados Local. Não há suporte para autenticação OAuth com o Gateway de Dados Local no momento. Você precisará remover do Power BI Desktop a fonte de dados que requer autenticação OAuth para configurar a atualização agendada.
-> 
-> 
 
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Erro: os dados descompactados recebidos no cliente de gateway excederam o limite.
 A limitação exata é de 10 GB de dados descompactados por tabela. Se você estiver tendo esse problema, há boas opções para otimizá-lo e evitá-lo. Especificamente, será útil reduzir o uso de valores de cadeia de caracteres longos e altamente repetitivos e, em vez disso, usar uma chave normalizada ou remover a coluna (se ela não estiver em uso).

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 336ae54d8c8d3226303a415729a7b02ceea6b680
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e84c5045906cb91f028f0c33b5af8164871d8882
+ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/21/2017
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usar ferramentas de desenvolvedor para criar visuais personalizados
 Os visuais personalizados permitem atender às necessidades dos usuários e corresponder ao design do aplicativo. Aprenda como criar um visual personalizado para o Power BI usando as ferramentas de desenvolvedor.
@@ -382,7 +382,6 @@ Para obter mais informações, veja [Executando seu visual](#running-your-visual
 [Visualizações no Power BI](power-bi-report-visualizations.md)  
 [Visualizações personalizadas no Power BI](power-bi-custom-visuals.md)  
 [Publicar visuais personalizados na Office Store](developer/office-store.md)  
-[Baixar e usar visuais personalizados da Office Store](service-custom-visuals-office-store.md)  
 [TypeScript](http://www.typescriptlang.org/)  
 [CSS Less](http://lesscss.org/)  
 

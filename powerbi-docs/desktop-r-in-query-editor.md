@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: c3e8c4d110bccf1ed8a992b22bd1014a770d5bb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c48e7042f16ac43619a7a0a6708a54f0575d795f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="using-r-in-query-editor"></a>Uso de R no Editor de Consultas
 Você pode usar **R**, uma linguagem de programação amplamente usada por estatísticos, cientistas de dados e analistas de dados, no **Editor de Consultas** do Power BI Desktop. Essa integração de R ao **Editor de Consultas** permite executar a limpeza de dados usando R e executar análise e modelagem de dados avançadas em conjuntos de dados, inclusive completar dados ausentes, fazer previsões e clustering, apenas para citar alguns exemplos. **R** é uma linguagem poderosa e pode ser usada no **Editor de Consultas** para preparar seu modelo de dados e criar relatórios.
@@ -56,7 +56,7 @@ Para mostrar como usar **R** no **Editor de consultas**, usaremos um exemplo de 
        output$completedValues <- completedData$"SMI missing values"
    
    > [!NOTE]
-> Instale a biblioteca *mice* em seu ambiente R para que o código do script anterior funcione corretamente. Para instalar mice, execute o seguinte em sua instalação de R: |      > install.packages('mice')
+   > Instale a biblioteca *mice* em seu ambiente R para que o código do script anterior funcione corretamente. Para instalar mice, execute o seguinte em sua instalação de R: |      > install.packages('mice')
    > 
    > 
    
@@ -72,7 +72,6 @@ Para mostrar como usar **R** no **Editor de consultas**, usaremos um exemplo de 
    
    Em seguida, vemos uma nova coluna em **Campos**, chamada *completedValues*. Observe que há alguns elementos de dados ausentes, como nas linhas 15 e 18. Veremos como R lida com isso na próxima seção.
    
-   Aviso
 
 Com apenas cinco linhas de script R, o **Editor de Consultas** preencheu os valores ausentes com um modelo preditivo.
 
