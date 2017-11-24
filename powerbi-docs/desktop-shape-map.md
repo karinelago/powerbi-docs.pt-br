@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 4f3e8c0c8090eb8e5bba9f6058b579c843cfa79c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 772b1959433b3ba8a4d76ac04103f5a479546d0d
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas no Power BI Desktop (Preview)
 No Power BI Desktop, você cria um visual **Mapa de Formas** para mostrar comparações relativas de regiões em um mapa, aplicando cores diferentes a regiões diferentes. Ao contrário do visual **Mapa**, o **Mapa de Formas** não pode mostrar localizações geográficas precisas de pontos de dados em um mapa; em vez disso, sua finalidade principal é mostrar comparações relativas de regiões em um mapa aplicando a elas cores diferentes.
@@ -91,7 +91,7 @@ Você pode inserir uma nova coluna apenas digitando um novo nome de coluna (na c
 > 
 > 
 
-## <a name="preview-behavior-and-requirements"></a>Comportamento e requisitos da Preview
+## <a name="preview-behavior-and-requirements"></a>Comportamento e requisitos da versão prévia
 Há algumas considerações e requisitos para essa versão de Preview do **Mapa de Formas**:
 
 * O visual **Mapa de Formas** está na Preview e deve ser habilitado no Power BI Desktop. Para habilitar o **Mapa de Formas**, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Visualização** e selecione a caixa de seleção **Mapa de Formas**.

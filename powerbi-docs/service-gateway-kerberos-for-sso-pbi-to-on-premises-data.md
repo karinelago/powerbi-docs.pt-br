@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/02/2017
+ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: c69c3baff3c0ce00b06c5a6af43be8488133d42e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c676fafe2274139efdc7b4a5be5174b86ade5b50
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Use o Kerberos para SSO (logon único) do Power BI para fontes de dados locais
 Ao configurar o gateway de dados local com o Kerberos, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI com base em dados locais. O Gateway de dados local facilita o SSO (logon único) com o DirectQuery, que é usado para a conexão às fontes de dados locais.
@@ -60,6 +60,15 @@ Veja abaixo mais detalhes sobre essas etapas:
    > Em relação ao sid de serviço, se o AAD DirSync/Connect estiver configurado e as contas de usuário sincronizadas, o serviço de gateway não precisará realizar pesquisas AD adicionais no tempo de execução e você poderá usar o SID de serviço local (em vez de uma conta de domínio) para o serviço de gateway.  As etapas de configuração de delegação restrita de Kerberos descritas neste documento são as mesmas (são simplesmente aplicadas com base no SID do serviço, em vez da conta de domínio).
    > 
    > 
+
+
+> [!NOTE]
+> Para habilitar o SSO para o SAP HANA, você precisa aplicar as duas correções de configuração específicas do HANA a seguir para SAP:
+>    1. Atualize o servidor SAP HANA com a correção do SAP HANA 122.13, lançado pelo SAP no final de outubro de 2017. 
+>    2. No computador do gateway, instale o driver ODBC do HANA mais recente do SAP.  A versão mínima é o HANA ODBC versão 2.00.020.00 de agosto de 2017.
+> 
+
+
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Erros de configuração insuficiente do Kerberos
 Se o gateway e o servidor de banco de dados subjacente não forem configurados corretamente para a **delegação restrita de Kerberos**, você receberá a seguinte mensagem de erro:

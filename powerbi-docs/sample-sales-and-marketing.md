@@ -17,13 +17,13 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/28/2017
 ms.author: mihart
-ms.openlocfilehash: 42c0e7ad17f9cfd7b4a19862a33c382a608fef3f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ecd984ab23c4480b2e615635a8d2f337e2a9a50f
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
-# <a name="sales--marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de vendas e marketing para o Power BI: faça um tour
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de vendas e marketing para o Power BI: faça um tour
 O **exemplo de Marketing e Vendas** contém um painel de controle e um relatório para uma empresa de fabricação fictícia chamada VanArsdel Ltd. Esse painel foi criado pelo Presidente de Marketing (CMO) da VanArsdel para ficar atento ao setor e sua participação de mercado da empresa, volume de produto, vendas e sensibilidade.
 
 A VanArsdel tem muitos concorrentes, mas é líder do mercado em seu setor. O CMO quer aumentar a participação no mercado e descobrir as oportunidades de crescimento. Mas, por algum motivo, a participação no mercado do VanArsdel começou a cair, com uma queda significativa em junho.

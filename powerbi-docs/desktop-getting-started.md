@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bf1ac9f953dc00422e65f84d25f74bfa54c05628
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 8f009e382321d296191d861245e005c1ffb7ee33
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução ao Power BI Desktop**. Esse breve tour do Power BI Desktop apresentará como ele funciona, demonstrará o que ele pode fazer e acelerará sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam seus esforços de business intelligence. 
@@ -77,7 +77,7 @@ A tela a seguir mostra os três ícones de exibições à esquerda do Power BI D
 
 Com o Power BI Desktop instalado, você está pronto para se conectar a dados, formatá-los e criar relatórios (geralmente nessa ordem). Nas próximas seções, faremos um tour por cada uma dessas etapas individualmente.
 
-## <a name="connect-to-data"></a>Conectar-se a Dados
+## <a name="connect-to-data"></a>Conectar-se a dados
 Com o Power BI Desktop instalado, você está pronto para se conectar ao mundo dos dados, que está em constante expansão. Há *todos os tipos* de fontes de dados disponíveis na janela Consulta. A imagem a seguir mostra como conectar-se a dados selecionando a faixa de opções **Página Inicial** e, em seguida, **Obter Dados \> Mais**.
 
  ![](media/desktop-getting-started/getdatavidsmall.gif)
@@ -108,12 +108,12 @@ Para obter mais informações sobre como se conectar a dados, veja [Conectar-se 
 
 Na próxima seção, vamos ajustar os dados para que eles atendam às nossas necessidades. O processo de ajustar dados aos quais se está conectado é chamado de *formatação* de dados.
 
-## <a name="shape-and-combine-data"></a>Formatar e Combinar Dados
+## <a name="shape-and-combine-data"></a>Formatar e combinar dados
 Agora que nos conectamos a uma fonte de dados, é necessário ajustar os dados para que atendam às nossas necessidades. Às vezes, o ajuste dos dados significa a *transformação* destes – como renomear colunas ou tabelas, converter texto em números, remover linhas, definir a primeira linha como títulos e assim por diante.
 
 O Editor de Consultas no Power BI Desktop faz uso abundante de menus de atalho, além de disponibilizar tarefas na faixa de opções. A maioria das opções que você pode selecionar na faixa de opções **Transformar** também está disponível com um clique do botão direito do mouse em um item (como uma coluna) e a seleção no menu que é exibido.
 
-## <a name="shape-data"></a>Formatar Dados
+## <a name="shape-data"></a>Formatar dados
 Ao formatar dados no **Editor de Consultas**, você fornece instruções passo a passo (que o **Editor de Consultas** executa para você) para ajustar os dados conforme são carregados e apresentados pelo **Editor de Consultas** . A fonte de dados original não é afetada; apenas esta exibição específica dos dados é ajustada, ou *formatada*.
 
 As etapas especificadas (como renomear uma tabela, transformar um tipo de dados ou excluir colunas) são registradas pelo **Editor de Consultas**. Sempre que essa consulta se conectar à fonte de dados, essas etapas serão executadas para que os dados sejam sempre formatados da maneira especificada. Esse processo ocorre sempre que você usa a consulta no Power BI Desktop, ou para qualquer pessoa que usa sua consulta compartilhada, como no serviço do **Power BI**. Essas etapas são capturadas sequencialmente no painel **Configurações de Consulta**, em **Etapas Aplicadas**.
@@ -150,7 +150,7 @@ Precisamos fazer mais algumas alterações para obtermos a consulta onde desejam
 
 Cada uma dessas etapas é demonstrada em **[Formatar e combinar dados no Power BI Desktop](desktop-shape-and-combine-data.md)**. Fique à vontade para verificar essa página, ou prossiga neste documento para ver o que você faria em seguida. A próxima seção retoma após a aplicação das alterações acima.
 
-## <a name="combine-data"></a>Combinar Dados
+## <a name="combine-data"></a>Combinar dados
 Esses dados sobre vários estados são interessantes e serão úteis para a criação de consultas e esforços de análise adicionais. Mas há um problema: a maioria dos dados usam uma abreviação de duas letras para códigos de estado, em vez de utilizar o nome completo do estado. Precisamos de alguma maneira de associar os nomes de estado às suas abreviações.
 
 Estamos com sorte: há outra fonte de dados pública que faz exatamente isso, mas ela também precisa de um tanto considerável de formatação antes que possamos conectá-la à nossa tabela de aposentadoria. Eis o recurso da Web para abreviações de estado:
@@ -182,8 +182,8 @@ Selecionamos **Editar**e depois:
 
 * *Usar a primeira linha como títulos* – já que removemos as três primeiras linhas, a primeira linha atual é a que desejamos para o título.
 
->[!NOTE]
->Esse é um bom momento para destacar que a *sequência* de etapas aplicadas no **Editor de Consultas** é importante e pode afetar o modo de formatação dos dados. Também é importante considerar como uma etapa pode afetar outra etapa subsequente; se você remover uma etapa das **Etapas Aplicadas**, as etapas subsequentes podem não se comportar como pretendido originalmente, devido ao impacto da sequência de etapas da consulta.
+    >[!NOTE]
+    >Esse é um bom momento para destacar que a *sequência* de etapas aplicadas no **Editor de Consultas** é importante e pode afetar o modo de formatação dos dados. Também é importante considerar como uma etapa pode afetar outra etapa subsequente; se você remover uma etapa das **Etapas Aplicadas**, as etapas subsequentes podem não se comportar como pretendido originalmente, devido ao impacto da sequência de etapas da consulta.
 
 * *Renomear as colunas e a própria tabela* – como de costume, há duas maneiras para renomear uma coluna e você pode escolher a que preferir.
 
@@ -218,7 +218,7 @@ Por enquanto, temos dados suficientes para criar alguns relatórios interessante
 
 ![](media/desktop-getting-started/shapecombine_closeandapply.png)
 
-## <a name="build-reports"></a>Criar Relatórios
+## <a name="build-reports"></a>Criar relatórios
 Outras alterações podem ser feitas depois que a tabela for carregada, e você pode recarregar um modelo para aplicar as alterações feitas. Mas, por enquanto, isso será suficiente. Na exibição de **Relatório** do Power BI Desktop, você pode começar a criar relatórios.
 
 A exibição **Relatório** tem quatro áreas principais:
@@ -266,7 +266,7 @@ A página de Relatório voltado para o custo de vida é semelhante ao apresentad
 
 Há todos os tipos de relatórios e visualizações interessantes que você pode criar.
 
-## <a name="share-your-work"></a>Compartilhar Seu Trabalho
+## <a name="share-your-work"></a>Compartilhar seu trabalho
 Agora que temos um relatório do Power BI Desktop razoavelmente concluído, podemos compartilhá-lo com outras pessoas no **serviço do Power BI** . Existem algumas maneiras de compartilhar seu trabalho no Power BI Desktop. É possível publicar o serviço do **Power BI** , carregar o arquivo .pbix diretamente do serviço do Power BI ou salvar o arquivo .pbix e enviá-lo como qualquer outro arquivo.
 
 Primeiro, vamos dar uma olhada na publicação para o serviço do **Power BI** diretamente do Power BI Desktop. Na faixa de opções **Página Inicial** , selecione **Publicar**.

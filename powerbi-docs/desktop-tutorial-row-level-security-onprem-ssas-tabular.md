@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
-ms.openlocfilehash: efbf5998bfc419dbcf5d7f685da128f26fcd70dd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: faaa96ad889b650d1902aa5916c0d9b35c7b49a5
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services
 Este tutorial apresenta as etapas necessárias para implementar a **segurança em nível de linha** no **Modelo de Tabela do Analysis Services** e mostra como usá-la em um relatório do Power BI. As etapas deste tutorial foram projetadas para permitir que você acompanhe e conheça as etapas necessárias preenchendo um conjunto de dados de exemplo.
@@ -166,6 +166,6 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
 ## <a name="considerations"></a>Considerações
 Há algumas considerações para ter em mente ao trabalhar com a segurança em nível de linha, o SSAS e o Power BI.
 
-1. A segurança local em nível de linha com o Power BI só está disponível com a Conexão Dinâmica.
+1. A segurança em nível de linha local com o Power BI só está disponível com a Conexão Dinâmica.
 2. Quaisquer alterações nos dados após o processamento do modelo seriam imediatamente disponibilizadas para os usuários que estão acessando o relatório baseadas na **conexão dinâmica** por meio do serviço do Power BI.
 

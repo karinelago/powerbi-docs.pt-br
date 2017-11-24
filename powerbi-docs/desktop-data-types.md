@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 71822f5d3e40eae4f43df5ab7129796e2a9d87b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: da685cf95adb9d9f5bd4891f9447cbfe76759182
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados com suporte no Power BI Desktop e DAX (Data Analysis Expressions). 
@@ -30,6 +30,7 @@ Quando você carrega dados no Power BI Desktop, ele tenta converter o tipo de da
 
 Isso é importante porque algumas funções DAX têm requisitos especiais de tipo de dados. Embora em muitos casos o DAX converta implicitamente um determinado tipo de dados para você, há alguns casos em que isso não ocorrerá.  Por exemplo, se uma função DAX requer um tipo de dados de Data e o tipo de dados para a coluna é Texto, a função DAX não funcionará corretamente.  Portanto, é importante e útil obter o tipo de dados correto para uma coluna. Conversões implícitas são descritas posteriormente neste artigo.
 
+## <a name="determine-and-specify-a-columns-data-type"></a>Determinar e especificar o tipo de dados da coluna
 Na área de trabalho do Power BI, você pode determinar e especificar o tipo de dados de uma coluna no Editor de Consultas, ou na Exibição de Dados ou de Relatório:
 
 **Tipos de dados no Editor de consultas**
@@ -42,7 +43,7 @@ Na área de trabalho do Power BI, você pode determinar e especificar o tipo de 
 
 O drop-down Tipo de Dados no Editor de Consultas tem dois tipos de dados que não estão presentes atualmente na Exibição de Dados ou de Relatório: **Data/Hora/Fuso horário** e **Duração**. Quando uma coluna com esses tipos de dados é carregada no modelo e exibida na exibição de Dados ou de Relatório, uma coluna com um tipo de dado de Data/Hora/Fuso horário é convertida em um valor de Data/Hora, enquanto uma coluna com um tipo de dados de Duração é convertida em um Número Decimal.
 
-### <a name="number-types"></a>Tipos de Número
+### <a name="number-types"></a>Tipos de número
 O Power BI Desktop dá suporte a três tipos de número:
 
 **Número Decimal** – representa um número de ponto flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como você normalmente os imagina.  Embora seja projetado para lidar com números com valores fracionários, ele também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado em um tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer lugar no número. O tipo de Número Decimal corresponde a como o Excel armazena seus números.
@@ -51,7 +52,7 @@ O Power BI Desktop dá suporte a três tipos de número:
 
 **Número Inteiro** – representa um valor inteiro (oito bytes) de 64 bits. Como é um número inteiro, ele não tem nenhum dígito à direita da casa decimal. Ele permite 19 dígitos; números inteiros positivos ou negativos entre -9.223.372.036.854.775.808 (-2^63) e 9.223.372.036.854.775.807 (2^63-1).  Ele pode representar o maior número possível dos diversos tipos de dados numéricos.  Assim como com o tipo Decimal Fixo, o tipo de Número Inteiro pode ser útil em casos nos quais você precisa controlar o arredondamento. 
 
-### <a name="datetime-types"></a>Tipos de Data/Hora
+### <a name="datetime-types"></a>Tipos de data/hora
 O Power BI Desktop dá suporte a cinco tipos de dados de Data/Hora na Visualização da Consulta e três no modelo e Exibição de Relatório.   Tanto Data/Hora/Fuso horário quanto a Duração são convertidos durante o carregamento para o modelo.
 
 **Data/Hora** – representa um valor de data e um valor temporal.  Nos bastidores, o valor de Data/Hora é armazenado como um Tipo de Número Decimal.  Então, na verdade, é possível converter entre os dois.   A parte de uma data referente à hora é armazenada como uma fração a múltiplos inteiros de 1/300 segundos (3,33 ms).  Há suporte para datas entre os anos de 1900 e 9999.
@@ -67,10 +68,10 @@ O Power BI Desktop dá suporte a cinco tipos de dados de Data/Hora na Visualiza�
 ### <a name="text-type"></a>Tipo de texto
 **Texto** - uma cadeia de caracteres de dados de caractere Unicode. Pode ser composto de cadeias de caracteres, números ou datas representados em um formato de texto. O comprimento máximo da cadeia de caracteres é 268.435.456 caracteres Unicode (caracteres de 256 megabytes) ou 536.870.912 bytes.
 
-### <a name="truefalse-type"></a>Tipo Verdadeiro/Falso
+### <a name="truefalse-type"></a>Tipo verdadeiro/falso
 **Verdadeiro/Falso** – um valor Booliano de Verdadeiro ou Falso.
 
-### <a name="blanksnulls-type"></a>Tipo Em branco/Nulos
+### <a name="blanksnulls-type"></a>Tipo em branco/nulos
 **Em branco** - é um tipo de dados em DAX que representa e substitui nulos SQL. Você também pode gerar um elemento em branco usando a função [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) e testar elementos em branco usando a função lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
 ### <a name="table-data-type"></a>Tipo de dados de tabela
@@ -86,7 +87,7 @@ Se os dados na coluna que você especifica como um argumento são incompatíveis
 * Se você adicionar valores em duas colunas e um valor for representado como texto ("12") e o outro como um número (12), o DAX converte implicitamente a cadeia de caracteres em um número e, em seguida, faz a adição para chegar a um resultado numérico. A expressão a seguir retorna 44: = "22" + 22.
 * Se você tentar concatenar dois números, o Excel vai apresentá-los como cadeias de caracteres e, em seguida, concatenar. A expressão a seguir retorna "1234": = 12 & 34.
 
-### <a name="table-of-implicit-data-conversions"></a>Tabela de Conversões Implícitas de Dados
+### <a name="table-of-implicit-data-conversions"></a>Tabela de conversões implícitas de dados
 O tipo de conversão executada é determinado pelo operador, que transmite os valores que ele requer antes de executar a operação solicitada. Essas tabelas listam os operadores e indicam a conversão que é realizada em cada tipo de dados na coluna quando ele é emparelhado com o tipo de dados na linha que intersecciona essa coluna.
 
 > [!NOTE]

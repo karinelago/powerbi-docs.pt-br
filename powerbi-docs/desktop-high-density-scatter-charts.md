@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 16c39e646c487789de62d0c030150475c8bb8292
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 12a9462a0594c6a52c7319073120cf323910d3e4
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Amostragem de alta densidade em gráficos de dispersão do Power BI
 A partir da versão de setembro de 2017 do **Power BI Desktop** e das atualizações no **serviço do Power BI**, um novo algoritmo de amostragem está disponível, que melhora a maneira como os gráficos de dispersão representam dados de alta densidade.
@@ -73,7 +73,7 @@ Há circunstâncias em que a **Amostragem de Alta Densidade** não pode ser apli
   
   ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
 
-## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Como ativar a **Amostragem de Alta Densidade** em um gráfico de dispersão
+## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Como ativar a amostragem de alta densidade em um gráfico de dispersão
 Para ativar a **Amostragem de Alta Densidade**, selecione um gráfico de dispersão e, em seguida, acesse o painel **Formatação** e expanda o cartão **Geral**. Na parte inferior do cartão, um controle deslizante de alternância chamado **Amostragem de Alta Densidade** está disponível. Para ativá-lo, deslize-o para **Ativado**.
 
 ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)

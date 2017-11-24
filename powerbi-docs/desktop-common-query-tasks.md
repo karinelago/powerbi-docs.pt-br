@@ -17,23 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: f7e7f0df4791fb4f9af67c4a5d885aa0e830f7df
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 06abac9ceba037769f9720dfbc4f0b32d5486686
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, há uma série de tarefas frequentemente usadas. Este documento demonstra as tarefas comuns e fornece links para informações adicionais. 
 
-As tarefas comuns de Consulta demonstradas aqui são as seguintes:
+As tarefas comuns de consulta demonstradas aqui são as seguintes:
 
-* Conectar-se a Dados
-* Formatar e Combinar Dados
-* Agrupar Linhas
-* Dinamizar Colunas
-* Criar Colunas Personalizadas
-* Fórmulas de Consulta
+* Conectar-se a dados
+* Formatar e combinar dados
+* Agrupar linhas
+* Dinamizar colunas
+* Criar colunas personalizadas
+* Fórmulas de consulta
 
 Usaremos algumas conexões de dados para concluir essas tarefas. Os dados estão disponíveis para conexão ou download, caso você deseje executar essas tarefas por conta própria.
 
@@ -43,7 +43,7 @@ A primeira conexão de dados é uma pasta de trabalho do Excel. A outra é um re
 
 É nas etapas necessárias para conectar-se a ambas as fontes de dados que começam as tarefas comuns de Consulta.
 
-## <a name="connect-to-data"></a>Conectar-se a Dados
+## <a name="connect-to-data"></a>Conectar-se a dados
 Para se conectar aos dados no Power BI Desktop, selecione o botão **Obter Dados** da guia **Página Inicial** na faixa de opções. O Power BI Desktop apresenta um menu com as fontes de dados mais comuns. Para obter uma lista completa de fontes de dados às quais o Power BI Desktop pode se conectar, selecione o botão **Mais...** na parte inferior do menu. Para obter mais informações, veja [Fontes de dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471643).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
@@ -68,7 +68,7 @@ Outras conexões de dados são semelhantes. Se for necessário autenticar-se par
 
 Para ver uma demonstração passo a passo da conexão a dados no Power BI Desktop, veja [Conectar-se a dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
-## <a name="shape-and-combine-data"></a>Formatar e Combinar Dados
+## <a name="shape-and-combine-data"></a>Formatar e combinar dados
 Você pode facilmente formatar e combinar dados com o Editor de Consultas. Esta seção inclui alguns exemplos de como você pode formatar dados. Para ver uma demonstração mais completa de formatação e combinação de dados, confira [Formatar e combinar dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644).
 
 Na seção anterior, nós nos conectamos a dois conjuntos de dados – uma pasta de trabalho do Excel e um recurso da Web. Quando carregado no Editor de Consultas, vemos o seguinte, com a consulta da página da Web selecionada (das consultas disponíveis listadas no painel **Consultas** no lado esquerdo da janela do Editor de Consultas).
@@ -83,7 +83,7 @@ No **Editor de Consultas**, vários comandos podem ser encontrados na faixa de o
 
 Há muitas outras maneiras pelas quais eu poderia formatar os dados nessa consulta: eu poderia remover qualquer número de linhas na parte superior ou inferior, adicionar colunas, dividir colunas, substituir valores e executar outras tarefas de formatação para direcionar o Editor de Consultas a obter os dados do modo que desejo.
 
-## <a name="group-rows"></a>Agrupar Linhas
+## <a name="group-rows"></a>Agrupar linhas
 No Editor de Consultas, você pode agrupar os valores de várias linhas em um único valor. Isso pode ser útil ao resumir o número de produtos oferecidos, o total de vendas ou a contagem de alunos.
 
 Neste exemplo, agrupamos linhas em um conjunto de dados de matrículas acadêmicas. Os dados são de uma pasta de trabalho do Excel e foram formatados para que o Editor de Consultas obtenha apenas as colunas de que precisamos; a tabela foi renomeada e algumas outras transformações foram realizadas.
@@ -107,7 +107,7 @@ Quando selecionamos **OK**, a Consulta executa a operação **Agrupar Por** e re
 
 E com o Editor de Consultas, você pode sempre remover a última operação de formatação selecionando o **X** ao lado da etapa recém-concluída. Portanto, vá em frente e experimente, refaça a etapa se você não gostar dos resultados até que o Editor de Consultas formate seus dados do jeito que você deseja.
 
-## <a name="pivot-columns"></a>Dinamizar Colunas
+## <a name="pivot-columns"></a>Dinamizar colunas
 Com o Power BI Desktop, é possível dinamizar colunas e criar uma tabela que contém valores agregados para cada valor exclusivo em uma coluna. Por exemplo, se você precisa saber quantos produtos diferentes você tem em cada categoria de produto, é possível criar rapidamente uma tabela que faz exatamente isso.
 
 Vejamos um exemplo. A tabela **Products** a seguir foi formatada para exibir apenas cada produto exclusivo (por nome) e a qual categoria cada produto pertence. Para criar uma nova tabela que mostra uma contagem de produtos para cada categoria (com base na coluna *CategoryName* ), selecione a coluna e selecione **Dinamizar Coluna** na guia **Transformar** da faixa de opções.
@@ -122,7 +122,7 @@ Ao selecionar **OK**, a Consulta exibe a tabela de acordo com as instruções de
 
 ![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
-## <a name="create-custom-columns"></a>Criar Colunas Personalizadas
+## <a name="create-custom-columns"></a>Criar colunas personalizadas
 No Editor de Consultas, você pode criar fórmulas personalizadas que operam em várias colunas em sua tabela e, em seguida, colocar os resultados de tais fórmulas em uma nova coluna (personalizada). O Editor de Consultas facilita a criação de colunas personalizadas.
 
 No Editor de Consultas, selecione **Adicionar Coluna Personalizada** na guia **Adicionar Coluna** da faixa de opções.
@@ -137,7 +137,7 @@ Assim como com qualquer outra etapa aplicada no Editor de Consultas, se a nova c
 
 ![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
-## <a name="query-formulas"></a>Fórmulas de Consulta
+## <a name="query-formulas"></a>Fórmulas de consulta
 Você pode editar as etapas que o Editor de Consultas gera e também criar fórmulas personalizadas, para obter um controle preciso sobre a conexão aos seus dados e sobre sua formatação. Sempre que o Editor de Consultas executar uma ação nos dados, a fórmula associada à ação é exibida na **Barra de Fórmulas**. Para exibir a **Barra de Fórmulas**, marque a caixa de seleção ao lado da **Barra de Fórmulas** na guia **Exibição** da faixa de opções.
 
 ![](media/desktop-common-query-tasks/queryformulas_formulabar.png)

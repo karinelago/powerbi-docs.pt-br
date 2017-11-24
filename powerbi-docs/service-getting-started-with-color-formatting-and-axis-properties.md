@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a40f1fba503ca9bc76f77381fe977d6944b595a1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 04b9a745d3969ab42c2a02c9b3cc28a65cd4d69c
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Guia de introdução com propriedades de eixo e formatação de cor
 No **Power BI**, altere a cor de série de dados, pontos de dados e até mesmo da tela de fundo das visualizações. Você também pode alterar como os eixos x e y são apresentados, fornecendo a você controle total sobre como seus painéis e relatórios são exibidos.
@@ -44,7 +44,7 @@ Você pode personalizar muitos elementos de cada visualização:
 * Cores de dados
 * Rótulos de dados
 * Formas
-* Área de Plotagem
+* Área de plotagem
 * Título
 * Tela de fundo
 * Fixar proporção
@@ -60,7 +60,7 @@ Observe também que, se você não tiver nenhuma visualização selecionada, ser
 
 Vamos mostrar alguns exemplos: um trabalha com cores, o outro alterando as propriedades de um eixo. Aí, você deve estar pronto para personalizar cores, eixos e rótulos o dia inteiro.
 
-## <a name="working-with-colors"></a>Trabalhar com cores
+## <a name="working-with-colors"></a>Trabalhando com cores
 Vamos percorrer as etapas necessárias para personalizar cores em um gráfico.
 
 1. Selecionei um **gráfico de colunas em cluster** da tela de relatório.
@@ -97,6 +97,7 @@ Existem todos os tipos de cores para escolher e muitas outras personalizações 
 > 
 > 
 
+## <a name="next-step"></a>Próxima etapa
 Para obter mais informações, consulte o seguinte artigo:  
 
 * [Dicas e truques para formatação com cores no Power BI](service-tips-and-tricks-for-color-formatting.md)  

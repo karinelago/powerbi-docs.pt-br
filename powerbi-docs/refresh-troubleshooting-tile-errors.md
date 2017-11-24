@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bb48c764214ba5fbcf1ac825caca798bcf129ba7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed75e0eea452f73017259ec9c86c5a8371853fa3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="troubleshooting-tile-errors"></a>Solucionando problemas de erros de bloco
 Veja abaixo os erros comuns que podem ser encontrados com blocos e uma explicação.
@@ -35,7 +35,7 @@ Veja abaixo os erros comuns que podem ser encontrados com blocos e uma explicaç
 **O Power BI encontrou um erro inesperado ao carregar o modelo. Tente novamente mais tarde.**
 ou **Não foi possível recuperar o modelo de dados. Entre em contato com o proprietário do painel para ter certeza de que as fontes e o modelo de dados existem e estão acessíveis.**
 
-Não conseguimos acessar os dados, porque a fonte de dados não estava acessível. Isso poderia ocorrer se a fonte de dados fosse removida, renomeada, movida, estivesse offline ou se as permissões fossem alteradas. Verifique se a fonte ainda está no local para o qual estamos apontando e se você ainda tem permissão para acessá-la. Se esse não for o problema, a fonte pode estar lenta. Tente novamente mais tarde em um horário em que a carga na fonte é menor. Se for uma origem local, o proprietário da fonte de dados pode conseguir fornecer mais informações.
+Não conseguimos acessar os dados, porque a fonte de dados não estava acessível. Isso poderia ocorrer se a fonte de dados fosse removida, renomeada, movida, estivesse offline ou se as permissões fossem alteradas. Verifique se a fonte ainda está no local para o qual estamos apontando e se você ainda tem permissão para acessá-la. Se esse não for o problema, a fonte pode estar lenta. Tente novamente mais tarde em um horário em que a carga na fonte é menor. Se for uma origem local, o proprietário da fonte de dados poderá conseguir fornecer mais informações.
 
 **Você não tem permissão para exibir este bloco ou abra a pasta de trabalho.**
 

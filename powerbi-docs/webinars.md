@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 11/21/2017
 ms.author: maikelson
-ms.openlocfilehash: ba59c8dffc9ec79b914fac849e30ca2c0b22fc90
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9f825afa7fedcec43626ba9b2f26e20a6408b6d
+ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/22/2017
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -31,47 +31,53 @@ Registre-se para os próximos webinars ao vivo ou assista a nossas sessões grav
 
 Introdução a esses webinars populares
 
-[Introdução ao Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
+- [Introdução ao Power BI](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-[Como projetar visualmente relatórios impressionantes no Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+- [Como projetar visualmente relatórios impressionantes no Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-[Acelerando a adoção de BI moderna com o Power BI Premium](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
+- [Acelerando a adoção de BI moderna com o Power BI Premium](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
+
+- [Novidades e coisas interessantes no Servidor de Relatórios do Power BI – novembro de 2017](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
 
 
 ## <a name="upcoming-webinars"></a>Próximos webinars
 
 Registrar-se para ouvir especialistas do Power BI e participar de sessões ao vivo de P e R
 
-[Participar dos próximos webinars na comunidade do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[Participar dos próximos webinars na comunidade do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-[Inteligência aplicada a vendas e serviço – 15/11/2017](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+- [Melhor juntos: cinco benefícios que os usuários do Excel obterão ao usar o Power BI – 27/11/2017](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
-[Novidades e coisas interessantes no Servidor de Relatórios do Power BI – 21/11/2017](https://info.microsoft.com/whats-new-powerbi-report-server.html?Is=Website)
+- [Fabricantes: seu setor está passando por uma transformação digital – mantenha a liderança aproveitando a análise para maximizar os lucros – 05/12/2017](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
-[Melhor juntos: cinco benefícios que os usuários do Excel obterão ao usar o Power BI – 27/11/2017](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
-
-[Fabricantes: seu setor está passando por uma transformação digital – mantenha a liderança aproveitando a análise para maximizar os lucros – 05/12/2017](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
-
-[Melhorando a lucratividade na saúde – 12/12/2017](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+- [Melhorando a lucratividade na saúde – 12/12/2017](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 ## <a name="on-demand-webinars"></a>Webinars sob demanda
 
 Assista a sessões gravadas a qualquer momento
 
-[Navegue pela biblioteca de webinars do Power BI sob demanda de nossos especialistas da comunidade](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+>[Navegue pela biblioteca de webinars do Power BI sob demanda de nossos especialistas da comunidade](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-[Como implementar uma estratégia de governança de dados bem-sucedida que torna sua organização mais segura](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+- [Como implementar uma estratégia de governança de dados bem-sucedida que torna sua organização mais segura](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 
-[Pergunte a um parceiro: desenvolvimento de visuais personalizados para o Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+- [Pergunte a um parceiro: desenvolvimento de visuais personalizados para o Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
 
-[Como a Microsoft executa o Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
+- [Como a Microsoft executa o Power BI](https://info.microsoft.com/US-PowerBI-WBNR-FY17-11Nov-29-BIATMIcrosoft274828_01Registration-ForminBody.html?Is=Website)
 
-[Detalhamento da segurança do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
+- [Inteligência aplicada a vendas e serviço](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
-## <a name="next-steps"></a>Próximas etapas
+- [Detalhamento da segurança do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-[White papers do Power BI](whitepapers.md)
+## <a name="see-also"></a>Consulte também
 
-[Sessões sob demanda do Microsoft Data Insights Summit 2017](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
+- [White papers do Power BI](whitepapers.md)
 
-[Introdução ao Power BI](service-get-started.md)
+- [Sessões sob demanda do Microsoft Data Insights Summit 2017](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
+
+- [Introdução ao Power BI](service-get-started.md)
+
+- Siga [@MSPowerBI no Twitter](https://twitter.com/mspowerbi)
+
+- Assine nosso [canal no YouTube](https://www.youtube.com/mspowerbi)
+
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: b222addc2e72308e94a3d8836c8e9039c7208bae
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 22c5b8f64ef24f6ef6ff918058a56dc36fefddfa
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Formatar e combinar dados no Power BI Desktop
 Com o **Power BI Desktop**, você pode se conectar a vários tipos diferentes de fontes de dados e formatar esses dados para atender às suas necessidades. *Formatar* dados significa transformá-los – como renomear colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como títulos e assim por diante. *Combinar* dados significa conectar-se a duas ou mais fontes de dados, formatá-las conforme o necessário e consolidá-las em uma consulta útil.
@@ -30,7 +30,7 @@ Este documento demonstra como formatar uma consulta usando o Power BI Desktop, d
 
 É útil saber que o **Editor de Consultas** no Power BI Desktop faz uso abundante tanto de menus de atalho quanto da faixa de opções. A maioria das opções que você pode selecionar na faixa de opções **Transformar** também está disponível com um clique do botão direito do mouse em um item (como uma coluna) e a seleção no menu que é exibido.
 
-## <a name="shape-data"></a>Formatar Dados
+## <a name="shape-data"></a>Formatar dados
 Ao formatar dados no Editor de Consultas, você fornece instruções passo a passo (que o Editor de Consultas executa para você) para ajustar os dados conforme são carregados e apresentados pelo Editor de Consultas. A fonte de dados original não é afetada; apenas esta exibição específica dos dados é ajustada, ou *formatada*.
 
 As etapas especificadas (como renomear uma tabela, transformar um tipo de dados ou excluir colunas) são registradas pelo Editor de Consultas. Sempre que essa consulta se conectar à fonte de dados, essas etapas serão executadas para que os dados sejam sempre formatados da maneira especificada. Esse processo ocorre sempre que você usa o recurso Editor de Consultas no Power BI Desktop, ou para qualquer pessoa que usa sua consulta compartilhada, como no serviço do **Power BI** Essas etapas são capturadas sequencialmente no painel **Configurações de Consulta**, em **Etapas Aplicadas**.
@@ -118,7 +118,7 @@ Por fim, desejamos alterar o nome dessa tabela para algo descritivo. Ao criar re
 
 Muito bem, a formatação desses dados foi realizada na medida necessária. Em seguida, vamos nos conectar a outra fonte de dados e combinar dados.
 
-## <a name="combine-data"></a>Combinar Dados
+## <a name="combine-data"></a>Combinar dados
 Esses dados sobre vários estados são interessantes e serão úteis para a criação de consultas e esforços de análise adicionais. Mas há um problema: a maioria dos dados usam uma abreviação de duas letras para códigos de estado, em vez de utilizar o nome completo do estado. Precisamos de alguma maneira de associar os nomes de estado às suas abreviações.
 
 Estamos com sorte: há outra fonte de dados pública que faz exatamente isso, mas ela também precisa de um tanto considerável de formatação antes que possamos conectá-la à nossa tabela de aposentadoria. Eis o recurso da Web para abreviações de estado:
@@ -160,11 +160,11 @@ A janela **Remover Primeiras Linhas** é exibida, permitindo que você especifiq
 
 ![](media/desktop-shape-and-combine-data/shapecombine_usefirstrowasheaders.png)
 
-    >[!NOTE]
-    >This is a good time to point out that the *sequence* of applied steps in Query Editor is important, and can affect how the data is shaped. It’s also important to consider how one step may impact another subsequent step; if you remove a step from the Applied Steps, subsequent steps may not behave as originally intended, because of the impact of the query’s sequence of steps.
+>[!NOTE]
+>Esse é um bom momento para destacar que a *sequência* de etapas aplicadas no Editor de Consultas é importante e pode afetar o modo de formatação dos dados. Também é importante considerar como uma etapa pode afetar outra etapa subsequente; se você remover uma etapa das Etapas Aplicadas, as etapas subsequentes podem não se comportar como pretendido originalmente, devido ao impacto da sequência de etapas da consulta.
 
-    >[!NOTE]
-    >When you resize the Query Editor window to make the width smaller, some ribbon items are condensed to make the best use of visible space. When you increase the width of the Query Editor window, the ribbon items expand to make the most use of the increased ribbon area.
+>[!NOTE]
+>Ao redimensionar a janela do Editor de Consultas para diminuir a largura, alguns itens de faixa de opções são condensados para fazer o melhor uso do espaço visível. Ao aumentar a largura da janela do Editor de Consultas, os itens da faixa de opções são expandidos para fazer o melhor uso da área aumentada da faixa de opções.
 
 * Renomear as colunas e a própria tabela – como de costume, há duas maneiras de renomear uma coluna: primeiro selecione a coluna e depois selecione **Renomear** na guia **Transformar** da faixa de opções ou clique com o botão direito do mouse e selecione **Renomear...** no menu exibido. A imagem a seguir tem setas apontando para ambas as opções; você precisa escolher apenas uma.
 

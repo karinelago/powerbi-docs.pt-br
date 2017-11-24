@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 68df3ee83a8a9b8268cbced98830a467066add92
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f372903886ab8f92e6954b5bdb370e7f48c204eb
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar visuais do Power BI usando o R
 Com o **Power BI Desktop**, é possível usar o **R** para visualizar seus dados.
@@ -30,7 +30,7 @@ Com o **Power BI Desktop**, é possível usar o **R** para visualizar seus dados
 O **Power BI Desktop** não inclui, implanta ou instala o mecanismo **R**. Para executar scripts R no **Power BI Desktop**, é necessário instalar o **R** em seu computador local separadamente. É possível baixar e instalar o **R** gratuitamente em vários locais, incluindo a [página de download do Revolution Open](https://mran.revolutionanalytics.com/download/) e o [Repositório CRAN](https://cran.r-project.org/bin/windows/base/). A versão atual do script R no **Power BI Desktop** dá suporte a caracteres Unicode, bem como espaços (caracteres vazios) no caminho de instalação.
 
 ## <a name="enable-r-visuals"></a>Habilitar visuais do R
-1. Para habilitar visuais do R, selecione **Arquivo > Opções e configurações > Opções** e, na página **Opções** exibida, verifique se sua instalação local do R está especificada na seção **Script do R** da janela **Opções**, conforme mostrado na imagem a seguir. Na imagem a seguir, a instalação local do caminho de R é **C:\Program Files\R\R-3.2.0** e esse caminho é explicitamente fornecido na caixa de texto. Verifique se o caminho que ele exibe reflete corretamente a instalação local do R que você deseja que o **Power BI Desktop** use.
+Para habilitar visuais do R, selecione **Arquivo > Opções e configurações > Opções** e, na página **Opções** exibida, verifique se sua instalação local do R está especificada na seção **Script do R** da janela **Opções**, conforme mostrado na imagem a seguir. Na imagem a seguir, a instalação local do caminho de R é **C:\Program Files\R\R-3.2.0** e esse caminho é explicitamente fornecido na caixa de texto. Verifique se o caminho que ele exibe reflete corretamente a instalação local do R que você deseja que o **Power BI Desktop** use.
    
    ![](media/desktop-r-visuals/r-visuals-2.png)
 
@@ -42,18 +42,18 @@ Depois de especificar a instalação do R, você estará pronto para começar a 
    ![](media/desktop-r-visuals/r-visuals-3.png)
 2. Quando você adiciona um visual do R a um relatório, o **Power BI Desktop** faz o seguinte:
    
-   a) Uma imagem do visual R no espaço reservado aparece na tela de relatório.
+   - Uma imagem do visual do R no espaço reservado aparece na tela de relatório.
    
-   b) O **editor de script R** aparece na parte inferior do painel central.
+   - O **editor de script R** aparece na parte inferior do painel central.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
 3. Em seguida, adicione os campos que deseja consumir no seu script R à seção **Valores** em **Campos** também, como faria com qualquer outro visual do **Power BI Desktop**. Somente os campos que foram adicionados aos **Campos** estão disponíveis para seu script R e você pode adicionar novos campos ou remover campos desnecessários de **Campos** enquanto trabalha em seu script R no **editor de scripts R do Power BI Desktop**. O **Power BI Desktop** detecta automaticamente os campos que você adicionou ou removeu.
-
-> [!NOTE]
-> O tipo de agregação padrão para visuais R é *não resumir*.
-> 
-> 
-
+   
+   > [!NOTE]
+   > O tipo de agregação padrão para visuais R é *não resumir*.
+   > 
+   > 
+   
 1. Agora você pode usar os dados selecionados para plotar. Ao selecionar campos, o **editor de script R** gera um código de associação de script R com suporte com base em suas seleções na seção cinza na parte superior do painel do editor. Ao selecionar ou remover campos adicionais, o suporte de código no editor de script R é automaticamente gerado ou removido adequadamente.
    
    No exemplo mostrado na imagem a seguir, três campos foram selecionados: hp, preparar e drat. Como resultado dessas seleções, o editor de script R gerou o seguinte código de associação:
@@ -66,7 +66,7 @@ Depois de especificar a instalação do R, você estará pronto para começar a 
    ![](media/desktop-r-visuals/r-visuals-5.png)
    
    > [!TIP]
-> Em certos casos, talvez você não queira que ocorra um agrupamento automático, ou talvez queira exibir todas as linhas, incluindo duplicatas. Nesse caso, você pode adicionar um campo de índice ao conjunto de dados que faz com que todas as linhas sejam consideradas exclusivas, impedindo o agrupamento.
+   > Em certos casos, talvez você não queira que ocorra um agrupamento automático, ou talvez queira exibir todas as linhas, incluindo duplicatas. Nesse caso, você pode adicionar um campo de índice ao conjunto de dados que faz com que todas as linhas sejam consideradas exclusivas, impedindo o agrupamento.
    > 
    > 
    
@@ -76,7 +76,7 @@ Depois de especificar a instalação do R, você estará pronto para começar a 
     Quando **Executar** for selecionado, o **Power BI Desktop** identifica a plotagem e a apresenta na tela.
    Uma vez que o processo é executado em sua instalação local do R, certifique-se de pacotes necessários estão instalados.
    
-    O **Power BI Desktop** plota novamente o visual quando qualquer um dos seguintes eventos ocorre:
+   O **Power BI Desktop** plota novamente o visual quando qualquer um dos seguintes eventos ocorre:
    
    * **Executar** é selecionado na barra de título **Editor de script R**
    * Sempre que ocorre uma alteração de dados, devido à atualização de dados, filtragem ou realce

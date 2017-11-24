@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/08/2017
 ms.author: davidi
-ms.openlocfilehash: b08cf6b2f01252773fdeec07b6a2e135e14101a5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4a348d88bc9613c2d18766ff1ea398538088c9b
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novidades na atualização mais recente do Power BI Desktop
 
@@ -42,7 +42,7 @@ Você também pode assistir o vídeo das **Atualizações mais recentes** desde 
 
 As atualizações a seguir são novas para o **Power BI Desktop** este mês:
 
-### <a name="reporting"></a>Emissão de relatórios:
+### <a name="reporting"></a>Relatórios
 
 -   Baseado em regras de formatação condicional para visuais de tabela e matriz [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=55s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#conditionalFormatting) 
 -   Alinhamento de células para visuais de tabela e matriz [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=4m16s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#alignment) 
@@ -54,17 +54,17 @@ As atualizações a seguir são novas para o **Power BI Desktop** este mês:
 -   Visuais personalizados recentemente lançados [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=20m50s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#customVisuals) 
 
 
-### <a name="analytics"></a>Análise:
+### <a name="analytics"></a>Análise
 
 -   Formatação de nível de célula para modelos multidimensionais para placa de várias linhas  [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=27m25s)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#cellLevelFormatting) 
 
 
-### <a name="data-connectivity"></a>Conectividade de dados:
+### <a name="data-connectivity"></a>Conectividade de dados
 
 -   Conector do Impala – suporte para autenticação do Windows [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m9s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Outros:
+### <a name="other"></a>Outros
 
 -   Edição de consulta – Adicionar coluna de exemplo de melhorias [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m34s)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

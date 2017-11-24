@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: cea38a880ac67208e3b153d9259fd563a3bb8d50
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ecbbcd29a2273810d2e5be5700164008b52c06bd
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Visão geral de Consulta no Power BI Desktop
 Com o **Power BI Desktop** você pode se conectar ao mundo dos dados, criar relatórios atraentes e fundamentais e compartilhar seus esforços com outras pessoas — que poderão se basear em seu trabalho e expandir seus esforços de business intelligence.
@@ -66,7 +66,7 @@ Eis como o **Editor de Consultas** aparece após o estabelecimento de uma conex�
 
 Vamos examinar cada uma destas quatro áreas – a faixa de opções, o painel de consultas, a exibição de dados e o painel de configurações de consulta – nas seções a seguir.
 
-## <a name="the-query-ribbon"></a>A faixa de opções de Consulta
+## <a name="the-query-ribbon"></a>A faixa de opções de consulta
 A faixa de opções no **Editor de Consultas** consiste em quatro guias – **Página Inicial**, **Transformar**, **Adicionar Coluna** e **Exibição**.
 
 A guia **Home** contém as tarefas comuns de consulta, incluindo a primeira etapa em qualquer consulta, que é **Obter Dados.** A imagem a seguir mostra a faixa de opções **Home**  
@@ -95,12 +95,12 @@ A guia **Exibição** na faixa de opções é usada para ativar ou desativar a e
 
 É útil saber que muitas das tarefas disponíveis na faixa de opções também estão disponíveis clicando com o botão direito do mouse em uma coluna ou em outros dados, no painel central.
 
-## <a name="the-left-pane"></a>O Painel Esquerdo
+## <a name="the-left-pane"></a>O painel esquerdo
 O painel esquerdo exibe o número de consultas ativas, bem como o nome da consulta. Quando você seleciona uma consulta no painel à esquerda, seus dados são exibidos no painel central, no qual você pode formatar e transformar os dados para atender às suas necessidades. A imagem a seguir mostra o painel à esquerda com várias consultas.  
 
 ![](media/desktop-query-overview/queryoverview_theleftpane.png)
 
-## <a name="the-center-data-pane"></a>O painel central (Dados)
+## <a name="the-center-data-pane"></a>O painel central (dados)
 No painel central ou painel Dados, a data da consulta selecionada é exibida. É ali que muito do trabalho da Visualização da Consulta é realizado.
 
 Na imagem a seguir, a conexão de dados da Web estabelecida anteriormente é exibida, a coluna **Pontuação geral** está selecionada e seu cabeçalho foi clicado com o botão direito do mouse para exibir os itens de menu disponíveis. Observe que muitos desses itens de menu de atalho são os mesmos botões nas guias da faixa de opções.  
@@ -109,7 +109,7 @@ Na imagem a seguir, a conexão de dados da Web estabelecida anteriormente é exi
 
 Quando você seleciona um item de menu de clique com o botão direito do mouse (ou um botão da faixa de opções), a Consulta aplica a etapa aos dados e salva-a como parte da própria consulta. As etapas são registradas no painel **Configurações de Consulta** em ordem sequencial, conforme descrito na próxima seção.  
 
-## <a name="the-query-settings-pane"></a>O Painel de Configurações de Consulta
+## <a name="the-query-settings-pane"></a>O painel de configurações de consulta
 O painel de **Configurações de Consulta** é o local onde todas as etapas associadas a uma consulta são exibidas. Por exemplo, na imagem a seguir, a seção **Etapas Aplicadas** do painel **Configurações de Consulta** reflete o fato de que acabamos de alterar o tipo da coluna **Pontuação geral** .
 
 ![](media/desktop-query-overview/queryoverview_querysettingspane.png)
@@ -123,12 +123,12 @@ No painel **Configurações de Consulta** , você pode renomear etapas, excluir 
 ![](media/desktop-query-overview/queryoverview_querysettings_rename.png)
 
 ## <a name="the-advanced-editor"></a>O Editor Avançado
-Se você quiser ver o código que a Consulta está criando a cada etapa ou criar seu próprio código de formatação, você pode usar o **Editor Avançado**. Para iniciar o editor avançado, selecione **Exibição** na faixa de opções, então selecione **Editor Avançado**. Uma janela aparece, mostrando o código de Consulta existente.  
+Se você quiser ver o código que a Consulta está criando a cada etapa ou criar seu próprio código de formatação, você pode usar o **Editor Avançado**. Para iniciar o editor avançado, selecione **Exibição** na faixa de opções, então selecione **Editor Avançado**. Uma janela aparece, mostrando o código de consulta existente.  
 ![](media/desktop-query-overview/queryoverview_advancededitor.png)
 
 Você pode editar o código diretamente na janela **Editor Avançado** . Para fechar a janela, selecione o botão **Concluído** ou **Cancelar** .  
 
-## <a name="saving-your-work"></a>Salvando Seu Trabalho
+## <a name="saving-your-work"></a>Salvando seu trabalho
 Quando sua consulta está onde você deseja, é possível fazer com que o Editor de Consulta aplique as alterações ao modelo de dados no Power BI Desktop e feche o Editor de Consulta. Para fazer isso, selecione **Fechar e Aplicar** no menu **Arquivo** do Editor de Consultas.  
 ![](media/desktop-query-overview/queryoverview_closenload.png)
 

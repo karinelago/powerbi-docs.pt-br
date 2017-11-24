@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 761f25f92151c2bc2bd6557757de97e6ad8dd54d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ed0d4087912d1f4f6f1b4f6690c3cacd478beae3
+ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/17/2017
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
 Este artigo é destinado aos novos usuários do Power BI Desktop. O objetivo é oferecer uma introdução rápida e fácil sobre como você pode usar expressões DAX (Data Analysis Expressions) para resolver vários problemas de análise de dados e de cálculo básico. Vamos examinar algumas informações conceituais e uma série de tarefas que você pode executar, além de alguns testes para verificar o que você aprendeu. Depois de ler este artigo, você deve ter uma boa compreensão dos conceitos fundamentais mais importantes no DAX.
@@ -88,46 +88,37 @@ Vamos criar uma fórmula simples. Essa tarefa ajudará você a entender melhor a
 
 ### <a name="task-create-a-measure-formula"></a>Tarefa: criar uma fórmula de medida
 Para concluir esta tarefa, você precisará abrir o arquivo Exemplo de Vendas da Contoso para o Power BI Desktop.
-
-**1.**  Na visualização de Relatório, na lista Campos, clique com o botão direito do mouse na tabela **Sales** e clique em **Nova Medida**.
-
-**2.**  Na barra de fórmulas, substitua **Measure** digitando um novo nome de medida, **Previous Quarter Sales**.
-
-**3.**  Após o sinal de igual, digite **SUM**, seguido de um parêntese de abertura.
-
-> Em vez de digitar um nome de coluna para somar imediatamente, vamos inserir outra função para *filtrar* os dados que desejamos somar.
-> 
-> 
-
-**4.**  Entre os parênteses, digite **CALCULATE**, seguido de um parêntese de abertura.
-
-> Você usará a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. É isso que chamamos de aninhar funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
-> 
-> 
-
-**5.**  Entre os parênteses **()** para a função **CALCULATE**, digite **Sales[SalesAmount]**. Esse é o primeiro argumento de expressão para a função CALCULATE.
-
-**6.** Digite uma vírgula (**,**) para especificar o primeiro filtro e, em seguida, digite **PREVIOUSQUARTER** seguido de um parêntese de abertura.
-
-> Você usará a função de time intelligence PREVIOUSQUARTER para filtrar nossos resultados SUM pelo trimestre anterior.
-> 
-> 
-
-**7.** Entre os parênteses **()**, para a função PREVIOUSQUARTER, digite **Calendar[DateKey]**.
-
-> A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas.
-> 
-> 
-
-**8.** Verifique se ambos os argumentos passados para as funções PREVIOUSQUARTER e CALCULATE estão entre dois parênteses de fechamento **))**.
-
-Sua fórmula agora deve ter essa aparência:
-
-> **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
-> 
-> 
-
-**9.** Clique na marca de seleção ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) na barra de fórmulas ou pressione Enter para validar a fórmula e adicioná-la ao modelo.
+    
+1.  Na visualização de Relatório, na lista Campos, clique com o botão direito do mouse na tabela **Sales** e clique em **Nova Medida**.
+    
+2.  Na barra de fórmulas, substitua **Measure** digitando um novo nome de medida, **Previous Quarter Sales**.
+    
+3.  Após o sinal de igual, digite **SUM**, seguido de um parêntese de abertura.
+    
+    Em vez de digitar um nome de coluna para somar imediatamente, vamos inserir outra função para *filtrar* os dados que desejamos somar.
+    
+4.  Entre os parênteses, digite **CALCULATE**, seguido de um parêntese de abertura.
+    
+    Você usará a função CALCULATE para filtrar os valores que desejamos somar por um argumento que transmitimos à função CALCULATE. É isso que chamamos de aninhar funções. A função CALCULATE tem pelo menos dois argumentos. O primeiro é a expressão a ser avaliada e o segundo é um filtro.
+   
+5.  Entre os parênteses **()** para a função **CALCULATE**, digite **Sales[SalesAmount]**. Esse é o primeiro argumento de expressão para a função CALCULATE.
+    
+6.  Digite uma vírgula (**,**) para especificar o primeiro filtro e, em seguida, digite **PREVIOUSQUARTER** seguido de um parêntese de abertura.
+    
+    Você usará a função de time intelligence PREVIOUSQUARTER para filtrar nossos resultados SUM pelo trimestre anterior.
+    
+7.  Entre os parênteses **()**, para a função PREVIOUSQUARTER, digite **Calendar[DateKey]**.
+    
+    A função PREVIOUSQUARTER tem um argumento, uma coluna contendo um intervalo contíguo de datas.
+    >
+    
+8.  Verifique se ambos os argumentos passados para as funções PREVIOUSQUARTER e CALCULATE estão entre dois parênteses de fechamento **))**.
+    
+   Sua fórmula agora deve ter essa aparência:
+    
+    **Previous Quarter Sales = CALCULATE(SUM(Sales[SalesAmount]), PREVIOUSQUARTER(Calendar[DateKey]))**
+    
+9. Clique na marca de seleção ![](media/desktop-quickstart-learn-dax-basics/qsdax_syntax_taskcheckmark.png) na barra de fórmulas ou pressione Enter para validar a fórmula e adicioná-la ao modelo.
 
 Você conseguiu! Você acabou de criar uma medida usando DAX, e não estamos falando de uma medida fácil. O que essa fórmula fará é calcular o total de vendas do trimestre anterior, dependendo dos filtros aplicados em um relatório. Por exemplo, se colocamos SalesAmount e nossa nova medida Previous Quarter Sales em um gráfico e adicionamos Year e QuarterOfYear como Segmentações de Dados, obteremos algo semelhante ao exemplo abaixo:
 
@@ -176,7 +167,7 @@ Contexto é um dos conceitos do DAX mais importantes para se compreender. Há do
 
 É mais fácil pensar no contexto de linha como a linha atual. Ele se aplica sempre que uma fórmula tem uma função que utiliza filtros para identificar uma única linha em uma tabela. A função aplicará inerentemente um contexto de linha a cada linha da tabela que essa função está filtrando. Esse tipo de contexto de linha geralmente se aplica a medidas.
 
-**Contexto de Filtro**
+**Contexto de filtro**
 
 O contexto do filtro é um pouco mais difícil de entender do que o contexto de linha. É mais fácil pensar no contexto de filtro como um ou mais filtros aplicados em um cálculo que determina um resultado ou valor.
 
