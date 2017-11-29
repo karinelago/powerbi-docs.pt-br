@@ -1,4 +1,4 @@
-### <a name="on-premises-data-gateway"></a>Gateway de Dados Local
+### <a name="on-premises-data-gateway"></a>Gateway de dados local
 | **Fonte de dados** |
 | --- |
 | Tabela do Analysis Services |

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: davidi
-ms.openlocfilehash: c95261c7e29f73b8c68083d2a239e10abaf674e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f157a5efad5af44d4b97149c379211695800cfd9
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Dicas e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo seus dados, às vezes você precisa de uma ajuda extra. Reunimos algumas dicas e truques que você pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot habilitado e o Power Query instalado e habilitado. 
@@ -94,7 +94,10 @@ Verifique se o tipo de dados é um número para a coluna agregada resultante. Ag
 
 Definindo um histograma que dá suporte à varredura - Varredura é quando os elementos visuais são vinculados para que, quando um usuário selecionar um ponto de dados em um elemento visual, os outros elementos visuais na página do relatório realcem ou filtrem pontos de dados relacionados ao ponto de dados selecionado.  Como estamos manipulando dados no momento da consulta, precisaremos criar uma relação entre tabelas e garantir que saibamos qual item detalhado se relaciona ao bucket no histograma e vice-versa.
 
-Inicie o processo usando a opção “Referência” na consulta que contém o campo no qual você deseja criar um histograma.  Nomeie a nova consulta “Buckets”.  Para este exemplo, vamos chamar a consulta original “Detalhes”.  Em seguida, remova todas as colunas, exceto a coluna que você usará como o bucket do histograma.  Agora, use o recurso “Remover Duplicatas” na consulta, no menu de atalho ao selecionar a coluna, para que os valores restantes sejam os valores exclusivos na coluna.   Se você tiver números decimais, primeiro você poderá usar a dica para definir buckets para criar um histograma para obter um conjunto gerenciável de buckets.  Agora, verifique os dados mostrados na visualização da consulta.  Se você vir valores nulos ou em branco, você precisará corrigi-los antes de criar uma relação.  Veja “Criando relações quando os dados contêm valores nulos ou em branco”.   Usar essa abordagem pode ser problemático devido à necessidade de classificação.  Para que os buckets sejam classificados corretamente, veja “Ordem de classificação: fazem com que as categorias apareçam na ordem desejada”.  Observação: é bastante útil pensar sobre a ordem de classificação antes de criar qualquer elemento visual.   
+Inicie o processo usando a opção “Referência” na consulta que contém o campo no qual você deseja criar um histograma.  Nomeie a nova consulta “Buckets”.  Para este exemplo, vamos chamar a consulta original “Detalhes”.  Em seguida, remova todas as colunas, exceto a coluna que você usará como o bucket do histograma.  Agora, use o recurso “Remover Duplicatas” na consulta, no menu de atalho ao selecionar a coluna, para que os valores restantes sejam os valores exclusivos na coluna.   Se você tiver números decimais, primeiro você poderá usar a dica para definir buckets para criar um histograma para obter um conjunto gerenciável de buckets.  Agora, verifique os dados mostrados na visualização da consulta.  Se você vir valores nulos ou em branco, você precisará corrigi-los antes de criar uma relação.  Veja “Criando relações quando os dados contêm valores nulos ou em branco”.   Usar essa abordagem pode ser problemático devido à necessidade de classificação.  Para que os buckets sejam classificados corretamente, veja “Ordem de classificação: fazem com que as categorias apareçam na ordem desejada”.  
+
+>[!NOTE]
+>É útil pensar sobre a ordem de classificação antes de compilar visuais.   
 
 A próxima etapa do processo é definir uma relação entre as consultas de “Buckets” e “Detalhes” na coluna de buckets.  No Power BI Desktop, clique em **Gerenciar Relações** na faixa de opções.  Crie uma relação em que Buckets está na tabela esquerda e Detalhes na tabela direita e selecione o campo que você está usando para o histograma. 
 
