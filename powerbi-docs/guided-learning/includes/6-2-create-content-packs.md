@@ -1,4 +1,4 @@
-Nesta lição, criamos um *pacote de conteúdo* com artefatos existentes que já tínhamos no Power BI e, em seguida, nós os compartilhamos com colegas.
+Nesta lição, criamos um *pacote de conteúdo* com artefatos existentes que já tínhamos no Power BI e, em seguida, nós os compartilhamos com colegas. 
 
 Em **Meu Espaço de Trabalho**, tenho um dashboard, o relatório abaixo e o conjunto de dados. Desejo compartilhá-los como um pacote com as pessoas em minha organização, para que elas possam reutilizá-los.
 

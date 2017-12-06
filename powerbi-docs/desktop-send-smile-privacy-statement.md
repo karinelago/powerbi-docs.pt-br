@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 17215f8a1c9aa0da40c52b5dd957c2a7d8c5613b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ac0dc4919eb8eee2bb4ae4b7d2e3a466dba26bd9
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Política de Privacidade referente ao comentário Enviar um Smiley do Power BI Desktop
 Na Microsoft, estamos trabalhando intensamente para proteger sua privacidade, ao mesmo tempo que entregamos produtos que trazem o desempenho, a capacidade e a conveniência que você deseja. Esta Política de Privacidade explica muitas das práticas de coleta e uso de dados do Comentário *Enviar Comentários Positivos* do Microsoft Power BI Desktop. Ela não se aplica a outros sites online ou offline, produtos ou serviços da Microsoft.

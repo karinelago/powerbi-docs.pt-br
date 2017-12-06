@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 12/04/2017
 ms.author: asaxton
-ms.openlocfilehash: bec336dbc4b028f23acb9ba34f920a10b7869c23
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 03c19f34b9fab240a67cd8ed4d4b7ca3f66bb966
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha do tempo de suporte para Servidor de Relatório do Power BI
 O Servidor de Relatório do Power BI será liberado algumas vezes por ano. As atualizações críticas e de segurança estarão disponíveis até que a próxima versão seja lançada para o público geral (GA). Após a próxima versão, a versão anterior continuará recebendo atualizações de segurança pelo restante da expectativa de vida da versão de 12 meses.
@@ -31,7 +31,7 @@ Essa política de suporte nos permite fornecer inovação para os clientes em ri
 * Fase de manutenção das Atualizações críticas e de segurança – ao executar a última versão atual do Servidor de Relatório do Power BI, você receberá atualizações críticas e de segurança.
 * Fase de manutenção de Atualizações de segurança (somente) – após o lançamento de uma nova versão, o suporte para versões mais antigas reduzirá as atualizações de segurança somente para o restante do ciclo de vida de suporte de 12 (doze) meses (mostrado na Figura 1).
 
-    ![Grafo ilustrando o período de tempo de suporte](media/support-timeline/reportserver-support-lifecycle.png)
+    ![Grafo ilustrando o período de tempo de suporte](media/support-timeline/report-server-support-timeline.png)
 
 ## <a name="version-history"></a>Histórico de versão
 | **Versão** | **Data de disponibilidade** | **Data de término do suporte** |
