@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/02/2017
 ms.author: davidi
-ms.openlocfilehash: 644078dc61a69cf27cb93b29409546d61e1706f2
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 95fccd70b536a26baf93bf4735750e5599e3021f
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---sql-server"></a>Gerenciar sua fonte de dados – SQL Server
-Depois de instalar o Gateway de dados local, é necessário adicionar fontes de dados que possam ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do SQL Server para a atualização agendada ou para o DirectQuery.
+Depois de instalar o gateway de dados local, é necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do SQL Server para a atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Baixar e instalar o gateway
 É possível baixar o gateway no serviço do Power BI. Selecione **Downloads** > **Gateway de Dados** ou vá para a [página de download do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -32,7 +32,7 @@ Depois de instalar o Gateway de dados local, é necessário adicionar fontes de 
 ![](media/service-gateway-enterprise-manage-sql/powerbi-download-data-gateway.png)
 
 ## <a name="add-a-gateway"></a>Adicionar um gateway
-Para adicionar um Gateway, basta [baixar](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway em um servidor de seu ambiente. Depois de instalar o gateway, ele será mostrado na lista de gateways em **Gerenciar gateways**.
+Para adicionar um gateway, basta [baixar](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway em um servidor de seu ambiente. Depois de instalar o gateway, ele será mostrado na lista de gateways em **Gerenciar gateways**.
 
 > [!NOTE]
 > **Gerenciar gateways** não será mostrado até que você seja o administrador de, pelo menos, um gateway. Isso ocorre quando você é adicionado como administrador a um gateway ou a instalação e configuração de um gateway é feita por você mesmo.
@@ -107,7 +107,7 @@ Na guia Usuários, da fonte de dados, você pode adicionar e remover os usuário
 Depois de criar a fonte de dados, ela estará disponível para uso com as conexões do DirectQuery ou por meio da atualização agendada.
 
 > [!NOTE]
-> O nome do servidor e do banco de dados deve corresponder entre o Power BI Desktop e a fonte de dados no gateway de dados local!
+> Os nomes do servidor e do banco de dados devem corresponder entre o Power BI Desktop e a fonte de dados no gateway de dados local!
 > 
 > 
 
@@ -127,8 +127,8 @@ Se você estiver listado na guia **Usuários** da fonte de dados configurada no 
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Gateway de dados local](service-gateway-onprem.md)  
-* [Detalhes sobre o Gateway de dados local](service-gateway-onprem-indepth.md)  
-* [Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)
+* [Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
+* [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)
 * [Use o Kerberos para SSO (logon único) do Power BI para fontes de dados locais](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md). 
 * Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

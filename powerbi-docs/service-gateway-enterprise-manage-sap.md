@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 04c6ecbc1a7802720430c1ee29ec0410abfa54b0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d65bdf17997809cd4bcaa2718da42ba41398bcf4
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="manage-your-sap-hana-data-source"></a>Gerenciar sua fonte de dados do SAP HANA
-Depois de instalar o Gateway de Dados Local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do SAP HANA para a atualização agendada ou para o DirectQuery.
+Depois de instalar o gateway de dados local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do SAP HANA para a atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Baixar e instalar o gateway
 É possível baixar o gateway no serviço do Power BI. Selecione **Downloads** > **Gateway de Dados** ou vá para a [página de download do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -120,7 +120,7 @@ Se você estiver listado na guia **Usuários** da fonte de dados configurada no 
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
-[Detalhes sobre o Gateway de dados local](service-gateway-onprem-indepth.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

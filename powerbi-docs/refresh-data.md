@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: ab8b9810029691c13e668710b651843e685006e4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 053afc2c085a045c3fe0c8ce70a541d132966640
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificando-se de que sempre obterá os dados mais recentes que costumam ser fundamentais para tomar as decisões corretas. Você provavelmente já usou Obter Dados no Power BI para conectar e carregar alguns dados, criou alguns relatórios e um painel de controle. Agora, você deseja certificar-se de que seus dados são realmente mais recentes e maiores.
@@ -161,11 +161,11 @@ As funcionalidades de atualização de um conjunto de dados incluídas em um pac
 Para saber mais, veja [Introdução aos pacotes de conteúdo organizacional](service-organizational-content-pack-introduction.md).
 
 ## <a name="live-connections-and-directquery-to-on-premises-data-sources"></a>Conexões dinâmicas e DirectQuery para fontes de dados locais
-Com o Gateway de Dados Local, é possível emitir consultas do Power BI para suas fontes de dados locais. Quando você interage com uma visualização, as consultas são enviadas do Power BI diretamente para o banco de dados. Os dados atualizados são retornados e as visualizações são atualizadas. Como há uma conexão direta entre o Power BI e o banco de dados, não é necessário atualizar programar a atualização.
+Com o gateway de dados local, é possível emitir consultas do Power BI para fontes de dados locais. Quando você interage com uma visualização, as consultas são enviadas do Power BI diretamente para o banco de dados. Os dados atualizados são retornados e as visualizações são atualizadas. Como há uma conexão direta entre o Power BI e o banco de dados, não é necessário atualizar programar a atualização.
 
 Ao conectar-se a uma fonte de dados do SSAS (SQL Server Analysis Services) usando uma conexão dinâmica, diferentemente do DirectQuery, a conexão dinâmica com uma fonte do SSAS pode ser executada no cache, mesmo após um relatório ser carregado. Esse comportamento melhora o desempenho da carga para o relatório. É possível solicitar os dados mais recentes da fonte de dados do SSAS usando o botão **atualizar**. Os proprietários das fontes de dados do SSAS podem configurar a frequência de atualização agendada do cache para o conjunto de dados para garantir que os relatórios estejam tão atualizados quanto seja necessário. 
 
-Ao configurar uma fonte de dados com o Gateway de Dados Local, é possível usar essa fonte de dados como a opção de atualização agendada. Isso seria usado em vez do gateway pessoal.
+Ao configurar uma fonte de dados com o gateway de dados local, é possível usar essa fonte de dados como a opção de atualização agendada. Isso seria usado em vez do gateway pessoal.
 
 > [!NOTE]
 > Se o conjunto de dados estiver configurado para uma conexão dinâmica ou DirectQuery, os conjuntos de dados serão atualizados aproximadamente a cada hora ou quando ocorrer a interação com os dados. Você pode ajustar manualmente a *frequência de atualização* na opção *Atualização do cache agendada*, no serviço do Power BI.
@@ -181,7 +181,7 @@ Ao configurar uma fonte de dados com o Gateway de Dados Local, é possível usar
 | Oracle |Sim |Sim |Sim |
 | Teradata |Sim |Sim |Sim |
 
-Para obter mais informações, consulte o [Gateway de Dados Local](service-gateway-onprem.md)
+Para obter mais informações, veja [Gateway de dados local](service-gateway-onprem.md)
 
 ## <a name="databases-in-the-cloud"></a>Bancos de dados na nuvem
 Com o DirectQuery, há uma conexão dinâmica entre o Power BI e o banco de dados na nuvem. Quando você interage com uma visualização, as consultas são enviadas do Power BI diretamente para o banco de dados. Os dados atualizados são retornados e as visualizações são atualizadas. E, como o serviço do Power BI e a fonte de dados estão na nuvem, não é necessário  um Gateway de Pessoal.
@@ -243,7 +243,7 @@ Nesse caso, manualmente pode atualizar os dados no conjunto de dados SalesReport
 > 
 > 
 
-Para obter mais informações, consulte [Dados do Excel no Power BI](service-excel-workbook-files.md), [Power BI Gateway - Personal](personal-gateway.md), [Gateway de dados local](service-gateway-onprem.md) e [Atualizar um conjunto de dados criado com base em uma pasta do Excel em uma unidade local](refresh-excel-file-local-drive.md).
+Para obter mais informações, veja [Dados do Excel no Power BI](service-excel-workbook-files.md), [Power BI Gateway – Personal](personal-gateway.md), [Gateway de dados local](service-gateway-onprem.md) e [Atualizar um conjunto de dados criado com base em uma pasta de trabalho do Excel em uma unidade local](refresh-excel-file-local-drive.md).
 
 ### <a name="power-bi-desktop-file-with-data-from-an-odata-feed"></a>Arquivo do Power BI Desktop com dados a partir de um feed OData
 Nesse caso, você usa Obter Dados na área de trabalho do Power BI para conectar e importar dados de censo de um feed OData.  Criar vários relatórios na área de trabalho do Power BI, em seguida, nomeie o arquivo WACensus e salvá-lo em um compartilhamento em sua empresa. Em seguida, você publica o arquivo no serviço do Power BI.

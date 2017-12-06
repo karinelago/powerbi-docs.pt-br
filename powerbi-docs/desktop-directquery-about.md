@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a2e533cccca9ec8748ab1a9c37ce5ff1577b357c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2a499418572582388552e6a258051b2abddfc1bd
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="using-directquery-in-power-bi"></a>Usando o DirectQuery no Power BI
 Você pode conectar-se a todos os tipos de fontes de dados diferentes ao usar o **Power BI Desktop** ou o **serviço do Power BI**, e você pode fazer essas conexões de dados de maneiras diferentes. Você pode *importar* dados ao Power BI, que é a maneira mais comum de se obter dados ou pode se conectar diretamente aos dados em seu repositório fonte original, o que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e seus recursos, incluindo os seguintes tópicos:
@@ -74,7 +74,7 @@ Ao usar **Obter Dados** no **Power BI Desktop** para se conectar a uma fonte de 
 * No entanto, após o carregamento, os dados não serão realmente importados no repositório do Power BI. Em vez disso, após a criação de um visual no **Power BI Desktop**, as consultas serão enviadas à fonte de dados subjacente para recuperar os dados necessários. Dessa forma, o tempo levado para atualizar o visual dependerá do desempenho da fonte de dados subjacente.
 * As alterações nos dados subjacentes não serão imediatamente refletidas em nenhum visual existente. Ainda será preciso Atualizar, momento em que as consultas necessárias serão reenviadas para cada visual e o visual será atualizado conforme a necessidade.
 * Com a publicação do relatório no **serviço do Power BI**, isso resultará novamente em um Conjunto de dados no serviço do Power BI, assim como acontece na importação. No entanto, *nenhum dado* será incluído nesse conjunto de dados.
-* Ao abrir um relatório existente no **serviço do Power BI** ou criar um novo relatório, a fonte de dados subjacente será novamente consultada para recuperar os dados necessários. Dependendo da localização da fonte de dados original, poderá ser necessário configurar um gateway de dados local., assim como é necessário para o modo de Importação, caso os dados sejam atualizados.
+* Ao abrir um relatório existente no **serviço do Power BI** ou criar um novo relatório, a fonte de dados subjacente será novamente consultada para recuperar os dados necessários. Dependendo da localização da fonte de dados original, poderá ser necessário configurar um gateway de dados local, assim como é necessário para o modo de Importação caso os dados sejam atualizados.
 * Páginas inteiras de relatório ou visuais podem ser fixadas como blocos de Dashboard. Para garantir que a abertura de um dashboard seja rápida, os blocos são atualizados automaticamente em um agendamento (por exemplo, a cada hora). A frequência dessa atualização pode ser controlada para refletir a frequência com que os dados são alterados e qual a importância de se ver os dados mais recentes. Assim, ao abrir um dashboard, os blocos refletirão os dados de acordo com o momento da última atualização e não necessariamente as alterações mais recentes feitas na fonte subjacente. Um dashboard aberto sempre poderá ser atualizado para garantir que os dados mais recentes sejam exibidos.    
 
 ### <a name="live-connections"></a>Conexões dinâmicas
@@ -87,7 +87,7 @@ A situação descrita no parágrafo anterior aplica-se à conexão com as seguin
 
 O comportamento de relatórios com base em SSAS, após a publicação no **serviço do Power BI**, é semelhante aos relatórios do DirectQuery das seguintes maneiras:
 
-* Ao abrir um relatório existente no **serviço do Power BI** ou criar um novo relatório, a fonte de dados subjacente do SSAS será consultada (possivelmente exigindo um gateway de dados local)
+* Ao abrir um relatório existente no **serviço do Power BI** ou criar um novo relatório, a fonte subjacente do SSAS será consultada (possivelmente exigindo um gateway de dados local)
 * Os blocos de dashboard serão atualizados automaticamente de acordo com um agendamento (como a cada hora ou qualquer frequência que seja definida)
 
 No entanto, também há diferenças importantes, incluindo que, para conexões dinâmicas, a identidade do usuário que abre o relatório sempre será passada para a fonte de dados subjacente do SSAS.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: ceb39db7a69335e059d958a29fecfa9849fe2ae8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 55caee3b289f187d6b955c216098313b483956f5
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuários do Power BI que entraram
 Se for um administrador de locatários e quiser ver quem entrou no Power BI, você poderá usar os relatórios de acesso e uso do Azure Active Directory para ter essa visibilidade.
@@ -51,7 +51,7 @@ Você pode usar o portal do Azure AD para exibir a atividade de entrada.
     ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
 3. Filtre o aplicativo segundo **Microsoft Power BI** ou **Power BI Gateway** e selecione **Aplicar**.
    
-    **Microsoft Power BI** mostra a atividade de entrada relacionada ao serviço, enquanto **Power BI Gateway** mostra entradas específicas ao Gateway de Dados Local.
+    O **Microsoft Power BI** mostra a atividade de entrada relacionada ao serviço, enquanto o **Power BI Gateway** mostra entradas específicas para o gateway de dados local.
    
     ![](media/service-admin-access-usage/sign-in-filter.png)
 
@@ -67,7 +67,7 @@ Na tela Atividade, você pode selecionar **Baixar** na barra de ferramentas. Iss
 Você pode usar o PowerShell para exportar os dados de entrada. Um [exemplo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) está disponível na documentação do Azure AD.
 
 > [!NOTE]
-> Para que o exemplo do PowerShell funcione, certifique-se de seguir os [pré-requisitos para acessar a API de relatório do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
+> Para que o exemplo do PowerShell funcione, siga os [pré-requisitos para acessar a API de relatório do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
 > 
 > 
 

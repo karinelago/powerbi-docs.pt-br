@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: a96651f55860fd057d50d77dc4dffab4da91cdc5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 3caf9f8aef802e8423f6a3940e55aba99331b912
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implantar um gateway de dados para o Power BI
-Este artigo fornece diretrizes e considerações para implantar um gateway de dados em seu ambiente de rede. Um **gateway** é um software que facilita o acesso a dados que residem em uma rede privada e local, para uso subsequente em um serviço de nuvem como o Power BI. Este artigo explica a implantação e oferece diretrizes para a instalação do **Gateway de dados local**.
+Este artigo fornece diretrizes e considerações para implantar um gateway de dados em seu ambiente de rede. Um **gateway** é um software que facilita o acesso a dados que residem em uma rede privada e local, para uso subsequente em um serviço de nuvem como o Power BI. Este artigo explica as etapas da implantação e fornece diretrizes para a instalação do **gateway de dados local**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Para obter mais informações sobre **Gateway de dados local**, incluindo um link para instalá-lo, veja a [postagem no blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Para obter mais informações sobre o **gateway de dados local**, incluindo um link para instalá-lo, veja a [postagem no blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Considerações de instalação para o gateway de dados local
 Antes de se aprofundar na instalação e implantação, há algumas considerações que você deve ter em mente. As seções a seguir descrevem coisas importantes para se ter em mente.
@@ -52,7 +52,7 @@ Dependendo de qual tipo de conexão for usado, o uso do gateway poderá ser dife
 * Para **Atualização agendada**: dependendo do tamanho da sua consulta e do número de atualizações que ocorrem diariamente, é possível escolher ficar entre os requisitos mínimos de hardware recomendados ou atualizar para um computador de melhor desempenho. Se uma determinada consulta não for fechada, ocorrem transformações no computador do gateway e, dessa forma, ele se beneficia de ter mais RAM disponível.
 * Para **DirectQuery**: uma consulta deverá ser enviada sempre que um usuário abrir o relatório ou examinar dados. Portanto, se você previr que mais de 1.000 usuários acessarão os dados ao mesmo tempo, certifique-se de que seu computador tenha componentes de hardware robustos e compatíveis. Mais núcleos de CPU resultará em uma melhor taxa de transferência para uma conexão do **DirectQuery**.
 
-Os requisitos para um computador no qual você instala um **Gateway de dados local** são os seguintes:
+Os requisitos de um computador para instalar um **gateway de dados local** são os seguintes:
 
 **Mínimos:**
 
@@ -90,7 +90,7 @@ Esses contadores poderão ser acessados no **Monitor de Desempenho do Windows** 
 #### <a name="logs"></a>Logs
 Os logs de configuração e de serviço fornecem outra dimensão sobre o que está acontecendo com seu gateway. Sempre verifique os logs do seu gateway quando a conexão não estiver funcionando conforme o esperado, pois nem todas as mensagens de erro são apresentadas no serviço do Power BI.
 
-Uma maneira fácil de exibir todos os arquivos de log em seu computador local será usar o botão *Exportar logs* no **On-premises-data-gateway quando você reabrir o gateway depois que a instalação inicial for concluída e, em seguida, selecione **Diagnóstico > Exportar logs**.
+Uma maneira fácil de exibir todos os arquivos de log no computador local será usar o botão *Exportar Logs* no **gateway de dados local** ao reabrir o gateway depois que a instalação inicial for concluída e, em seguida, selecionar **Diagnóstico > Exportar Logs**.
 
 #### <a name="additional-logging"></a>Log adicional
 Por padrão, o gateway realiza log básico. Se você estiver investigando problemas de gateway e precisar de mais informações sobre detalhes de conexão de consulta, será possível habilitar temporariamente o *log detalhado* para coletar outras informações de log. Para fazer isso, no gateway instalado, selecione **Diagnóstico > Log adicional**.
@@ -134,7 +134,7 @@ Para recuperar seu gateway, certifique-se de ser um administrador no gateway, de
 Depois de entrar, selecione a opção **Migrar um gateway existente**. Em seguida, é necessário escolher o gateway que você gostaria de recuperar ou migrar e, por fim, fornecer que a chave de recuperação e clicar em configurar. Quando essa etapa for concluída, o gateway antigo será substituído pelo novo gateway e o novo gateway herdará seu nome e todas as fontes de dados configuradas anteriormente. Agora todas as fontes de dados passarão pelo novo computador, sem a necessidade de republicar nada. Ainda não há suporte para o failover automático, mas ele é um recurso que a equipe de gateway está considerando ativamente.
 
 #### <a name="administrators"></a>Administradores
-É possível encontrar uma lista de administradores de gateway no **serviço do Power BI**. Depois de entrar no **serviço do Power BI, selecione **Configurações** (o ícone de engrenagem) > "Gerenciar gateways" -> Interface do usuário do gateway.  
+É possível encontrar uma lista de administradores de gateway no **serviço do Power BI**. Depois de entrar no serviço do **Power BI**, selecione **Configurações** (o ícone de engrenagem) **> Gerenciar Gateways -> Interface do Usuário do Gateway**.  
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_05.png)
 
@@ -144,7 +144,7 @@ Lá, é possível selecionar um gateway e ver a lista de administradores de gate
 
 ## <a name="next-steps"></a>Próximas etapas
 [Definindo as configurações de proxy](service-gateway-proxy.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Perguntas frequentes do gateway de dados local](service-gateway-onprem-faq.md)  
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)

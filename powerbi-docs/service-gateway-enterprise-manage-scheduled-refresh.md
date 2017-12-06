@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 07/20/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: c41035db173c937caedab92b65eeb66dbcfafdb9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 247d6ab4978a9e62573ba9fe2ee19d69fdd793a0
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Gerenciar sua fonte de dados – Importar/Atualização Agendada
-Depois de instalar o Gateway de Dados Local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo examinará como trabalhar com os gateways e fontes de dados que são usadas para a atualização agendada em vez das conexões dinâmicas ou do DirectQuery.
+Depois de instalar o gateway de dados local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo examinará como trabalhar com os gateways e fontes de dados que são usadas para a atualização agendada em vez das conexões dinâmicas ou do DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Baixar e instalar o gateway
 É possível baixar o gateway no serviço do Power BI. Selecione **Downloads** > **Gateway de Dados** ou vá para a [página de download do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -119,11 +119,11 @@ Se você estiver listado na guia **Usuários** da fonte de dados configurada no 
 > 
 
 ## <a name="limitations"></a>Limitações
-* O OAuth não é um esquema de autenticação com suporte no gateway de dados local. Você não pode adicionar fontes de dados que exigem o OAuth. Se seu conjunto de dados tiver uma fonte de dados que exija o OAuth, você não poderá usar o gateway para a atualização agendada.
+* O OAuth não é um esquema de autenticação compatível com o gateway de dados local. Você não pode adicionar fontes de dados que exigem o OAuth. Se seu conjunto de dados tiver uma fonte de dados que exija o OAuth, você não poderá usar o gateway para a atualização agendada.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
-[Detalhes sobre o Gateway de dados local](service-gateway-onprem-indepth.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

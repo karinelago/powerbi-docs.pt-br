@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/25/2017
 ms.author: davidi
-ms.openlocfilehash: 617dcbf1d149966369aa0d1566094f6ce820a40a
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="getting-started-with-power-bi-gateways"></a>Introdução aos Gateways do Power BI
-Bem-vindo ao guia de **Introdução aos Gateways do Power BI**. Este breve passo a passo serve para familiarizá-lo com o que um gateway faz, como ele funciona e como ter seu próprio gateway instalado, configurado e em execução.  
+# <a name="getting-started-with-power-bi-gateways"></a>Introdução aos gateways do Power BI
+Bem-vindo ao guia de **Introdução aos gateways do Power BI**. Este breve passo a passo serve para familiarizá-lo com o que um gateway faz, como ele funciona e como ter seu próprio gateway instalado, configurado e em execução.  
 
 ![](media/service-gateway-getting-started/gw_gettingstarted_0a.png)
 
@@ -42,9 +42,9 @@ Em outras situações, você pode estar em uma organização com todos os tipos 
 Felizmente, o Power BI oferece dois gateways, ajustando-se bem a cada um desses cenários. Essas duas ofertas de gateway do Power BI são as seguintes:
 
 * **Gateway de dados local (modo pessoal)** – permite que um usuário se conecte às fontes e não pode ser compartilhado com outras pessoas. Só pode ser usado com o Power BI.
-* **Gateway de dados local** – permite que vários usuários se conectem a várias fontes de dados locais e pode ser usado pelo Power BI, pelos **PowerApps**, pelo Flow e pelo Aplicativo Lógico do Azure, tudo isso com uma única instalação de gateway.
+* **Gateway de dados local** – permite que vários usuários se conectem a várias fontes de dados locais e pode ser usado pelo Power BI, pelo PowerApps, pelo Flow e pelo Aplicativo Lógico do Azure, tudo isso com uma única instalação de gateway.
 
-Os dois gateways realizam uma função semelhante: eles facilitam o acesso aos dados que residem em uma rede privada local, para que os dados possam ser usados em serviços baseados em nuvem, como o Power BI. O gateway pessoal pode ser usado por uma pessoa e apenas pelo Power BI, o **Gateway de dados local** pode ser usado por vários usuários e por vários serviços.
+Os dois gateways realizam uma função semelhante: eles facilitam o acesso aos dados que residem em uma rede privada local, para que os dados possam ser usados em serviços baseados em nuvem, como o Power BI. O gateway pessoal pode ser usado por uma pessoa e apenas pelo Power BI, o **gateway de dados local** pode ser usado por vários usuários e serviços.
 
 Há três partes ou estágios, para colocar um gateway para trabalhar:
 
@@ -162,7 +162,7 @@ Muito bem, agora você tem um gateway instalado e está pronto para adicionar fo
 [Usando o gateway de dados local](service-gateway-onprem.md)  
 [Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
 [Gateway de dados local (modo pessoal)](service-gateway-personal-mode.md)
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

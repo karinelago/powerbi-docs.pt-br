@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/05/2017
 ms.author: mihart
-ms.openlocfilehash: 901193f396e38a7bce640db36a13dc0e7b998de6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: f189ab5b195a945b6a21ea868cf29257e30c0d20
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Dicas e truques para visualizações de mapa do Power BI
 O Power BI é integrado ao Bing Mapas para fornecer as coordenadas de mapa padrão (um processo chamado codificação geográfica) para a criação de mapas. Juntos, eles usam algoritmos para identificar a localização correta, mas, às vezes, é a melhor estimativa. Se o Power BI tentar, mas não puder criar a visualização de mapa por conta própria, ele conseguirá a ajuda do Bing Mapas.  
@@ -76,7 +76,7 @@ No Power BI, se o conjunto de dados que você estiver usando tiver campos de lon
 
 ![latitude e longitude](media/power-bi-map-tips-and-tricks/pbi_latitude.png) 
 
-## <a name="use-geo-hierarchies-so-you-can-drilldown-to-different-levels-of-location"></a>Usar hierarquias geográficas para fazer drill down de diferentes “níveis” de localização
+## <a name="use-geo-hierarchies-so-you-can-drill-down-to-different-levels-of-location"></a>Usar hierarquias geográficas para fazer drill down de diferentes "níveis" de localização
 Quando o conjunto de dados já tiver diferentes níveis de dados de localização, você e seus colegas poderão usar o Power BI para criar *hierarquias geográficas*. Para fazer isso, arraste mais de um campo para o bucket **Localização**. Usados juntos dessa forma, os campos passam a ser uma hierarquia geográfica. No exemplo abaixo, adicionamos campos geográficos para: País/Região, Estado e Cidade. No Power BI, você e seus colegas podem fazer drill up e drill down usando essa hierarquia geográfica.
 
   ![Campo Local](media/power-bi-map-tips-and-tricks/power-bi-hierarchy.png)

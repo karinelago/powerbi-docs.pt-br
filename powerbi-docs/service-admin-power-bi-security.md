@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b5f1122d405f35df8690390167fbdab2efd8ee8d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2d780c04a207f67b4f0f7c06672f993df3818275
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-security"></a>Segurança do Power BI
 Para obter uma explicação detalhada sobre a segurança do Power BI, [baixe o white paper intitulado Segurança do Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -63,5 +63,5 @@ Para obter mais informações, visite a [Central de Confiabilidade da Microsoft]
 
 Conforme descrito anteriormente neste artigo, o logon do Power BI de um usuário é usado por servidores locais do Active Directory para realizar o mapeamento de um UPN para determinadas credenciais. No entanto, é **importante** observar que os usuários são responsáveis pelos dados que compartilham: se um usuário se conecta a fontes de dados usando suas credenciais e compartilha um relatório (ou um painel ou conjunto de dados) com base nesses dados, os usuários com quem o painel é compartilhado não são autenticados em relação à fonte de dados original; nesse caso, acesso ao relatório será concedido a esses usuários.
 
-Uma exceção ocorre no caso de conexões ao **SQL Server Analysis Services** usando o **Gateway de Dados Local**. Os dashboards são armazenados em cache no Power BI, mas o acesso a relatórios ou conjuntos de dados subjacentes inicia a autenticação para o usuário que está tentando acessar o relatório (ou conjunto de dados); no entanto, o acesso só será concedido se o usuário tiver credenciais suficientes para acessar os dados. Para obter mais informações, consulte [Aprofundamento no Gateway de Dados Local](service-gateway-onprem-indepth.md).
+Uma exceção ocorre no caso de conexões ao **SQL Server Analysis Services** usando o **gateway de dados local**. Os dashboards são armazenados em cache no Power BI, mas o acesso aos relatórios ou aos conjuntos de dados subjacentes inicia a autenticação para o usuário que está tentando acessar o relatório (ou o conjunto de dados), sendo que o acesso só será concedido se o usuário tiver credenciais suficientes para acessar os dados. Para obter mais informações, veja [Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md).
 

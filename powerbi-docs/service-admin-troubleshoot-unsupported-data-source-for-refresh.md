@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9a6c61290255cee5cc6dcbb7e4d9dd42483b5976
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: d95b9d7ca8cae1e4311ef679093814c51a9ba3c0
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Solucionando problemas de fonte de dados sem suporte para atualização
 Você verá um erro ao tentar configurar um conjunto de dados para atualização agendada.
@@ -47,7 +47,7 @@ Se você não tiver certeza de qual fonte de dados foi usada, você pode encontr
 [Atualização de dados](refresh-data.md)  
 [Gateway do Power BI – Pessoal](personal-gateway.md)  
 [Gateway de dados local](service-gateway-onprem.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

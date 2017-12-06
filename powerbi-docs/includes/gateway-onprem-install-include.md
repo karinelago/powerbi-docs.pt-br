@@ -1,4 +1,4 @@
-## <a name="install-the-on-premises-data-gateway"></a>Instalar o Gateway de dados local
+## <a name="install-the-on-premises-data-gateway"></a>Instalar o gateway de dados local
 O gateway de dados é instalado e executado em seu computador. É aconselhável instalar o gateway em um computador que pode ser deixado em execução o tempo todo.
 
 > [!NOTE]
@@ -20,7 +20,7 @@ Há alguns detalhes a serem observados na instalação dos modos do gateway:
 * você pode instalar vários gateways de dados locais em computadores diferentes e gerenciá-los usando a mesma interface de gerenciamento de gateway do Power BI (excluindo o modo pessoal, consulte o item a seguir)
 * Você só pode ter um gateway de modo Pessoal em execução para cada usuário do Power BI. Se você instalar outro gateway de modo Pessoal para o mesmo usuário, mesmo que em um computador diferente, a instalação mais recente substituirá a instalação anterior existente.
 
-![on-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
+![On-prem-data-gateway-install-powerbi](./media/gateway-onprem-install-include/on-prem-data-gateway-install-powerbi.png)
 
 Estes são alguns pontos a serem considerados antes da instalação do gateway.
 
@@ -29,11 +29,11 @@ Estes são alguns pontos a serem considerados antes da instalação do gateway.
 
 Depois de instalar o gateway, você precisará entrar com sua conta corporativa ou de estudante.
 
-![on-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
+![On-prem-data-gateway-install-signin](./media/gateway-onprem-install-include/on-prem-data-gateway-install-signin.png)
 
 Depois de entrar, você terá a opção para configurar um novo gateway, ou de migrar, restaurar ou assumir um gateway existente.
 
-![on-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
+![On-prem-data-gateway-install-register-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-register-recovery.png)
 
 ## <a name="configure-a-new-gateway"></a>Configurar um novo gateway
 1. Insira um **nome** para o gateway
@@ -45,7 +45,7 @@ Depois de entrar, você terá a opção para configurar um novo gateway, ou de m
 > 
 > 
 
-![on-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
+![On-prem-data-gateway-install-recovery](./media/gateway-onprem-install-include/on-prem-data-gateway-install-recovery.png)
 
 ### <a name="migrate-restore-or-take-over-an-existing-gateway"></a>Migrar, restaurar ou assumir um gateway existente
 Você precisará selecionar o gateway que deseja recuperar e fornecer a chave de recuperação que foi usada para primeiro criar o gateway.

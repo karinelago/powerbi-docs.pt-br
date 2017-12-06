@@ -1,5 +1,5 @@
 ## <a name="how-the-gateway-works"></a>Como funciona o gateway
-![on-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
+![On-prem-data-gateway-how-it-works](./media/gateway-onprem-how-it-works-include/on-prem-data-gateway-how-it-works.png)
 
 Primeiro vamos examinar o que acontece quando um usuário interage com um elemento conectado a uma fonte de dados local. 
 

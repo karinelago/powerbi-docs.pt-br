@@ -1,5 +1,5 @@
 ---
-title: "Definindo as configurações de proxy do Gateway de Dados Local"
+title: "Definindo as configurações de proxy do gateway de dados local"
 description: "Informações sobre a definição das configurações de proxy do gateway de dados local."
 services: powerbi
 documentationcenter: 
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 77ae086d4b9c86f0d5ec4c0515ad96919160059d
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 1598a2580c24623abc1bbb5fb5a3590ab0f2a6f6
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/23/2017
 ---
-# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Definindo as configurações de proxy do Gateway de Dados Local
-Seu ambiente de trabalho poderá exigir que você passe por um proxy para acessar a Internet. Isso pode impedir que o Gateway de Dados Local se conecte ao serviço.
+# <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Definindo as configurações de proxy do gateway de dados local
+Seu ambiente de trabalho poderá exigir que você passe por um proxy para acessar a Internet. Isso pode impedir que o gateway de dados local se conecte ao serviço.
 
 ## <a name="does-your-network-use-a-proxy"></a>Sua rede usa um proxy?
 A seguinte postagem no superuser.com discute como você pode tentar determinar se tem um proxy na rede.
@@ -58,7 +58,7 @@ A configuração de proxy padrão é a seguinte:
 
 A configuração padrão funciona com a autenticação do Windows. Se o proxy usar outra forma de autenticação, você precisará alterar as configurações. Se você não tiver certeza, entre em contato com o administrador da rede.
 
-Para saber mais sobre a configuração dos elementos de proxy para os arquivos de configuração do .NET, veja [Elemento defaultProxy (Configurações de Rede)](https://msdn.microsoft.com/library/kd3cf2ex.aspx)
+Para saber mais sobre a configuração dos elementos de proxy para os arquivos de configuração do .NET, veja [Elemento defaultProxy (Configurações de Rede)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 
 ## <a name="changing-the-gateway-service-account-to-a-domain-user"></a>Alterando a conta de serviço do gateway para um usuário de domínio
 Ao definir as configurações de proxy para usar credenciais padrão, conforme explicado acima, você pode ter problemas de autenticação com o proxy. Isso ocorre porque a conta de serviço padrão é o SID de Serviço, não um usuário de domínio autenticado. É possível alterar a conta de serviço do gateway para permitir a autenticação adequada com o proxy.
@@ -68,20 +68,20 @@ Ao definir as configurações de proxy para usar credenciais padrão, conforme e
 > 
 > 
 
-### <a name="change-the-on-premises-data-gateway-service-account"></a>Alterar a conta de serviço do Gateway de Dados Local
-1. Altere a conta do serviço Windows para o **serviço do Gateway de Dados Local**.
+### <a name="change-the-on-premises-data-gateway-service-account"></a>Alterar a conta de serviço do gateway de dados local
+1. Altere a conta de serviço Windows para o **serviço do gateway de dados local**.
    
     A conta padrão para esse serviço é *NT SERVICE\PBIEgwService*. Altere-a para uma conta de usuário do domínio dentro do seu domínio do Active Directory. Ou utilize uma conta de serviço gerenciado para evitar a necessidade de modificar a senha.
    
     Altere a conta na guia **Fazer Logon** dentro das propriedades do serviço Windows.
-2. Reinicie o **serviço do Gateway de Dados Local**.
+2. Reinicie o **serviço do gateway de dados local**.
    
     Em um prompt de comando do administrador, execute os comandos a seguir.
    
         net stop PBIEgwService
    
         net start PBIEgwService
-3. Inicie o **configurador do Gateway de Dados Local**. É possível selecionar o botão Iniciar do Windows e procurar o *Gateway de Dados Local*.
+3. Inicie o **configurador do gateway de dados local**. É possível selecionar o botão Iniciar do Windows e procurar *gateway de dados local*.
 4. Entre no Power BI.
 5. Restaure o gateway usando sua chave de recuperação.
    

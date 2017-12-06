@@ -17,17 +17,17 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: 207a779b38aade4c888a2dced503e25d3e7928f9
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 6925dc9bcf3e500af18cf63c62f6cb33c297392b
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Dados dinâmicos do SQL Server Analysis Services no Power BI
 No Power BI, há duas maneiras pelas quais você pode se conectar a um servidor do SQL Server Analysis Services dinâmico. Em **Obter dados**, você pode se conectar a um servidor do SQL Server Analysis Services ou se conectar [a um arquivo do Power BI Desktop](service-desktop-files.md) ou a uma [pasta de trabalho do Excel](service-excel-workbook-files.md) que já se conecta a um servidor do Analysis Services.
 
  >[!IMPORTANT]
- >* Para conectar a um servidor do Analysis Services, um Gateway de Dados Local deve ser instalado e configurado por um administrador. Para obter mais informações, consulte [Gateway de Dados Local](service-gateway-onprem.md).
+ >* Para conectar-se a um servidor do Analysis Services, um gateway de dados local deverá ser instalado e configurado por um administrador. Para obter mais informações, veja [Gateway de dados local](service-gateway-onprem.md).
  >* Ao usar o gateway, seus dados permanecem locais.  Os relatórios criados com base nesses dados são salvos no serviço do Power BI. 
  >* [A consulta em linguagem natural por perguntas e respostas](service-q-and-a-direct-query.md) está na visualização para conexões dinâmicas do Analysis Services.
 
@@ -54,6 +54,6 @@ Se você fixar visuais de um relatório no painel, os blocos fixos serão atuali
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
 [Gerenciar fontes de dados do Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

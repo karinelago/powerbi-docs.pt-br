@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: e03538061190290b251319a6919b918edc6c38fc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 58cfc6feb510dc9dc335b473b40ee4a7f341ee10
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerenciar sua fonte de dados – Analysis Services
-Depois de instalar o Gateway de Dados Local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do Analysis Services para a atualização agendada ou para conexões em tempo real.
+Depois de instalar o gateway de dados local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do Analysis Services para a atualização agendada ou para conexões em tempo real.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ownIGbcRAAU" frameborder="0" allowfullscreen></iframe>
 
@@ -46,7 +46,7 @@ Você pode usar uma conexão dinâmica em instâncias de tabela ou multidimensio
 * Ações e Conjuntos Nomeados não são expostos no Power BI, mas você ainda pode se conectar a cubos multidimensionais que também contêm Ações ou Conjuntos Nomeados e criar visuais e relatórios.
 
 ## <a name="add-a-gateway"></a>Adicionar um gateway
-Para adicionar um Gateway, basta [baixar](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway em um servidor de seu ambiente. Depois de instalar o gateway, ele será mostrado na lista de gateways em **Gerenciar gateways**.
+Para adicionar um gateway, basta [baixar](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway em um servidor de seu ambiente. Depois de instalar o gateway, ele será mostrado na lista de gateways em **Gerenciar gateways**.
 
 > [!NOTE]
 > **Gerenciar gateways** não será mostrado até que você seja o administrador de, pelo menos, um gateway. Isso pode acontecer ao ser adicionado como um administrador ou ao instalar e configurar um gateway.
@@ -158,7 +158,7 @@ No **serviço do Power BI** ocorre o seguinte:
 > 
 > 
 
-No Gateway de Dados Local com mapeamento de usuário personalizado configurável, faça o seguinte:
+No gateway de dados local com o mapeamento de usuário personalizado configurável, faça o seguinte:
 
 1. Localizar o Active Directory para pesquisar (automático ou configurável)
 2. Consulte o atributo da Pessoa do AD (como *Email*) com base na cadeia de caracteres UPN (“firstName.lastName@contoso.com”) de entrada no **serviço do Power BI**.
@@ -169,14 +169,14 @@ No Gateway de Dados Local com mapeamento de usuário personalizado configurável
 Como configurar seu gateway para executar a Consulta do AD:
 
 1. Baixar e instalar o gateway mais recente
-2. No gateway, é necessário alterar o **Serviço de Gateway de Dados Local** para ser executado com uma conta de domínio (em vez de uma conta de serviço local – caso contrário, a consulta do AD não funcionará corretamente no tempo de execução). Será necessário reiniciar o serviço do Gateway para que a alteração tenha efeito.  Acesse o aplicativo de Gateway em seu computador (pesquise “gateway de dados local”). Para fazer isso, vá para **Configurações de Serviço > Alterar a Conta de Serviço**. Certifique-se de ter a chave de recuperação para esse gateway, uma vez que será preciso restaurá-lo no mesmo computador, a menos que você deseje criar um novo gateway em vez disso. 
+2. No gateway, é necessário alterar o **serviço do gateway de dados local** para ser executado com uma conta de domínio (em vez de uma conta de serviço local, caso contrário, a consulta do AD não funcionará corretamente no tempo de execução). Será necessário reiniciar o serviço do gateway para que a alteração tenha efeito.  Acesse o aplicativo do gateway em seu computador (pesquise “gateway de dados local”). Para fazer isso, vá para **Configurações de Serviço > Alterar a Conta de Serviço**. Certifique-se de ter a chave de recuperação para esse gateway, uma vez que será preciso restaurá-lo no mesmo computador, a menos que você deseje criar um novo gateway em vez disso. 
 3. Navegue até a pasta de instalação do gateway, *C:\Arquivos de Programas\Gateway de dados locais* como um administrador para garantir que você tem permissões de gravação e edite o seguinte arquivo:
    
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Editar os dois valores de configuração a seguir de acordo com *suas* configurações de atributo do Active Directory dos seus usuários do AD. Os valores de configuração mostrados abaixo são apenas exemplos – é necessário especificá-los com base em sua configuração do Active Directory. 
    
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
-5. Reinicie o serviço do **Gateway de Dados Local** para que a alteração da configuração entre em vigor.
+5. Reinicie o serviço do **gateway de dados local** para que a alteração da configuração entre em vigor.
 
 ### <a name="working-with-mapping-rules"></a>Trabalhando com regras de mapeamento
 Para criar uma regra de mapeamento, insira um valor para **Nome original** e **Novo Nome** e, em seguida, selecione **Adicionar**.
@@ -192,7 +192,7 @@ Ao selecionar um item na lista, você poderá optar por reordenar usando os **í
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard"></a>Usando Curinga(*)
+### <a name="using-wildcard-"></a>Usando curinga (*)
 Você pode usar um caractere curinga para sua cadeia de caracteres **Substituir (Nome Original)**. Ele só pode ser usado sozinho e não com qualquer outra parte da cadeia de caracteres. Isso permitirá que você tire todos os usuários e passe um único valor para a fonte de dados. Isso é útil quando você deseja que todos os usuários em sua organização usem o mesmo usuário no seu ambiente local.
 
 ### <a name="test-a-mapping-rule"></a>Testar uma regra de mapeamento
@@ -211,7 +211,7 @@ Você pode usar um caractere curinga para sua cadeia de caracteres **Substituir 
 ## <a name="remove-a-data-source"></a>Remover uma fonte de dados
 A remoção de uma fonte de dados interromperá todos os painéis ou relatórios que dependem da fonte de dados em questão.  
 
-Para remover uma Fonte de Dados, vá para a Fonte de Dados > **Remover**.
+Para remover uma fonte de dados, acesse Fonte de Dados > **Remover**.
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings6.png)
 
@@ -221,7 +221,7 @@ Na guia Administradores, para o gateway, você pode adicionar e remover os usuá
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings8.png)
 
 ## <a name="manage-users"></a>Gerenciar usuários
-Na guia Usuários, da fonte de dados, você pode adicionar e remover os usuários ou grupos de segurança que podem usar essa fonte de dados.
+Na guia Usuários da fonte de dados, você pode adicionar e remover os usuários ou os grupos de segurança que podem usar essa fonte de dados.
 
 > [!NOTE]
 > A lista de usuários só controla quem tem permissão de publicar relatórios. Os proprietários de relatório podem criar painéis ou pacotes de conteúdo e compartilhá-los com outros usuários.
@@ -254,7 +254,7 @@ Se você estiver listado na guia **Usuários** da fonte de dados configurada no 
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
-[Detalhes sobre o Gateway de dados local](service-gateway-onprem-indepth.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

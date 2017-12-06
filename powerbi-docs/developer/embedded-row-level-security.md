@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: asaxton
-ms.openlocfilehash: 1f59bd4e0178b1fe1b67f57b085de69da1b06951
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usar segurança em nível de linha com conteúdo inserido do Power BI
 A RLS (segurança em nível de linha) pode ser usada para restringir o acesso do usuário aos dados em um relatório ou conjunto de dados, permitindo que vários usuários diferentes usem o mesmo relatório, enquanto todos veem dados diferentes. A RLS pode ser aproveitada durante a inserção de relatórios do Power BI.
@@ -132,9 +132,9 @@ A segurança em nível de linha pode ser usada com conexões dinâmicas do Analy
 
 A identidade efetiva fornecida para a propriedade de nome de usuário deve ser um usuário do Windows com permissões no servidor do Analysis Services.
 
-**Configuração do Gateway de Dados Local**
+**Configuração do gateway de dados local**
 
-Um [Gateway de dados local](../service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não aplicará a propriedade aos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
+Um [gateway de dados local](../service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não aplicará a propriedade aos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
 
 **Uso de funções**
 

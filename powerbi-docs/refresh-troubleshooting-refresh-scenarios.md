@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/26/2017
 ms.author: davidi
-ms.openlocfilehash: e7f14ea9334ebaf3b1b42facf03f0ad8055e5bd7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 373a903ceac0e0ff9290a231d5e6eda42a2dcfc1
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solucionar problemas de atualização
 Aqui você pode encontrar informações sobre cenários diferentes que você pode encontrar ao atualizar dados no serviço Power BI.
@@ -66,7 +66,7 @@ A atualização agendada para os conjuntos de dados importados atinge o tempo li
 
 ## <a name="next-steps"></a>Próximas etapas
 [Atualização de dados](refresh-data.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

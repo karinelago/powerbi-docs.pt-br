@@ -1,6 +1,6 @@
 ---
-title: "Resolução de problemas do Gateway de Dados Local"
-description: "Este artigo fornece maneiras de solucionar problemas com o Gateway de Dados Local. Apresenta as possíveis soluções alternativas para problemas conhecidos, bem como ferramentas para ajudá-lo."
+title: "Solução de problemas do gateway de dados local"
+description: "Este artigo fornece maneiras de solucionar problemas com o gateway de dados local. Apresenta as possíveis soluções alternativas para problemas conhecidos, bem como ferramentas para ajudá-lo."
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 2663c9f2adf69ce224de90feb822b7cfedc935a5
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 62405898f06a75fdad9da1f635f01bebdb445d2e
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="troubleshooting-the-on-premises-data-gateway"></a>Resolução de problemas do Gateway de Dados Local
-Esse artigo mostra alguns problemas comuns que você poderá encontrar ao usar o **Gateway de Dados Local**.
+# <a name="troubleshooting-the-on-premises-data-gateway"></a>Solução de problemas do gateway de dados local
+Este artigo aborda alguns problemas comuns que você poderá encontrar ao usar o **gateway de dados local**.
 
 <!-- Shared Community & support links Include -->
 [!INCLUDE [gateway-onprem-tshoot-support-links-include](./includes/gateway-onprem-tshoot-support-links-include.md)]
@@ -82,9 +82,9 @@ Para corrigir esse problema, faça o seguinte:
 4. Se preferir, aplique a chave de recuperação para restaurar um gateway existente.
 
 ### <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
-Com a atualização de agosto de 2017 e as posteriores, o gateway de dados locais usa o protocolo TLS 1.1 ou 1.2 para se comunicar com o **serviço do Power BI** por padrão. As versões anteriores do gateway de dados locais usam o TLS 1.0 por padrão. Em 1º de novembro de 2017, o suporte para o TLS 1.0 será encerrado e, portanto, você deverá atualizar as instalações do gateway de dados locais para a versão de agosto de 2017 ou mais recente para garantir que seus gateways continuem a operar.
+Com a atualização de agosto de 2017 e as posteriores, o gateway de dados local usa o protocolo TLS 1.1 ou 1.2 para comunicar-se com o **serviço do Power BI** por padrão. As versões anteriores do gateway de dados local usam o TLS 1.0 por padrão. Em 1º de novembro de 2017, o suporte para o TLS 1.0 será encerrado. Por isso, você deverá atualizar as instalações do gateway de dados local para a versão de agosto de 2017 ou mais recente para garantir que os gateways continuem a funcionar.
 
-É importante observar que o TLS 1.0 ainda recebe suporte pelo gateway de dados local anterior a 1º de novembro e é usado pelo gateway como um mecanismo de fallback. Para garantir que todo o tráfego de gateway use o TLS 1.1 ou 1.2 (e evite o uso do TLS 1.0 no gateway), você deverá adicionar ou modificar as seguintes chaves do registro no computador que executa o serviço de gateway:
+É importante observar que o TLS 1.0 ainda é compatível com o gateway de dados local antes de 1º de novembro e é usado pelo gateway como um mecanismo de fallback. Para garantir que todo o tráfego de gateway use o TLS 1.1 ou 1.2 (e evite o uso do TLS 1.0 no gateway), você deverá adicionar ou modificar as seguintes chaves do registro no computador que executa o serviço de gateway:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -114,7 +114,7 @@ Esse erro pode ocorrer por diferentes motivos. Não se esqueça de validar que v
 
 Em **Mostrar detalhes**, você verá um código de erro **DM_GWPipeline_UnknownError**.
 
-Você também pode examinar os Logs de Eventos > **Logs de Aplicativos e Serviços** > **Serviço do Gateway de Dados Local** para obter mais detalhes.
+Você também pode examinar os Logs de Eventos > **Logs de Aplicativos e Serviços** > **Serviço do gateway de dados local** para obter mais detalhes.
 
 ### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Erro: encontramos um erro ao tentar conectar-se com <server>. Detalhes: "Alcançamos o gateway de dados, mas o gateway não consegue acessar a fonte de dados local".
 Não é possível se conectar à fonte de dados especificada. Certifique-se de validar as informações fornecidas para essa fonte de dados.
@@ -163,19 +163,18 @@ Isso ocorrerá se você tiver uma única linha com um tamanho maior que 4 MB. Vo
 ### <a name="error-the-server-name-provided-doesnt-match-the-server-name-on-the-sql-server-ssl-certificate"></a>Erro: O nome fornecido para o servidor não corresponde ao nome do servidor no certificado SSL do SQL Server.
 Isso pode ocorrer quando o certificado CN é para o nome de domínio totalmente qualificado (FQDN) do servidor, mas você somente forneceu o nome NetBIOS para o servidor. Isso causará uma incompatibilidade para o certificado. Para resolver esse problema, você precisará criar o nome do servidor e do arquivo PBIX na fonte de dados do gateway, para usar o FQDN do servidor.
 
-### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>Não consigo ver o Gateway de Dados Local presente ao configurar a atualização agendada.
+### <a name="i-dont-see-the-on-premises-data-gateway-persent-when-configuring-scheduled-refresh"></a>Não consigo ver o gateway de dados local presente ao configurar a atualização agendada.
 Isso pode ser devido a alguns cenários diferentes.
 
 1. O nome do servidor e do banco de dados não corresponde entre o que foi inserido no Power BI Desktop e a fonte de dados configurada para o gateway. Eles precisam ter os mesmos valores. Eles não diferenciam maiúsculas de minúsculas.
 2. Sua conta não está listada na guia **Usuários** da fonte de dados na configuração do gateway. Você precisará solicitar ao administrador do gateway para ser adicionado à lista.
 3. O arquivo do Power BI Desktop contém dados de várias fontes e nem todas as fontes de dados estão configuradas com o gateway. Você precisará ter cada fonte de dados definida com o gateway para que o gateway apareça na Atualização Agendada.
 
-
 ### <a name="error-the-received-uncompressed-data-on-the-gateway-client-has-exceeded-limit"></a>Erro: os dados descompactados recebidos no cliente de gateway excederam o limite.
 A limitação exata é de 10 GB de dados descompactados por tabela. Se você estiver tendo esse problema, há boas opções para otimizá-lo e evitá-lo. Especificamente, será útil reduzir o uso de valores de cadeia de caracteres longos e altamente repetitivos e, em vez disso, usar uma chave normalizada ou remover a coluna (se ela não estiver em uso).
 
 ## <a name="reports"></a>Relatórios
-### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não pôde acessar a fonte de dados porque você não tem acesso à nossa fonte de dados por meio de um Gateway de Dados Local.
+### <a name="report-could-not-access-the-data-source-because-you-do-not-have-access-to-our-data-source-via-an-on-premises-data-gateway"></a>O relatório não pôde acessar a fonte de dados porque você não tem acesso à nossa fonte de dados por meio de um gateway de dados local.
 Isso geralmente é causado por um dos motivos a seguir.
 
 1. As informações da fonte de dados não correspondem as que estão no conjunto de dados subjacente. O servidor e o nome do banco de dados precisam corresponder à fonte de dados definida para o gateway de dados local e às informações fornecidas no Power BI Desktop. Se você usar um Endereço IP no Power BI Desktop, a fonte de dados do gateway de dados local também precisará usar um Endereço IP.
@@ -370,9 +369,9 @@ Ao usar o gateway para atualização agendada, o **Histórico de Atualização**
 Para obter informações adicionais sobre como solucionar problemas de cenários de atualização, examine o artigo [Solução de problemas de cenários de atualização](refresh-troubleshooting-refresh-scenarios.md).
 
 ## <a name="next-steps"></a>Próximas etapas
-[Definição das configurações de proxy para Gateways do Power BI](service-gateway-proxy.md)  
+[Definindo as configurações de proxy dos gateways do Power BI](service-gateway-proxy.md)  
 [Gateway de dados local](service-gateway-onprem.md)  
-[Detalhes sobre o Gateway de dados local](service-gateway-onprem-indepth.md)  
+[Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
 [Gerenciar sua fonte de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
 [Gerenciar sua fonte de dados – SAP HANA](service-gateway-enterprise-manage-sap.md)  
 [Gerenciar sua fonte de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  

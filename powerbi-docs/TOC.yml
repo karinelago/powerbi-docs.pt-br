@@ -950,6 +950,10 @@
           href: developer/migrate-tool.md
         - name: Trechos de código de migração
           href: developer/migrate-code-snippets.md
+        - name: Solucionando problemas do aplicativo inserido
+          href: developer/embedded-troubleshoot.md
+        - name: PERGUNTAS FREQUENTES
+          href: developer/embedded-faq.md
     - name: Criar um visual personalizado
       items:
         - name: Criar um visual personalizado com as Ferramentas de Desenvolvedor

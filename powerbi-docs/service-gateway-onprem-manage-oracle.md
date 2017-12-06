@@ -17,14 +17,14 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: bbe163f310eb839a3e815d34c72c981257f5b627
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 820bd1fabbb2770b938160420ac0e5bf97ece703
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="manage-your-data-source---oracle"></a>Gerenciar sua fonte de dados – Oracle
-Depois de instalar o Gateway de Dados Local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do Oracle para uma atualização agendada ou para o DirectQuery.
+Depois de instalar o gateway de dados local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do Oracle para uma atualização agendada ou para o DirectQuery.
 
 ## <a name="download-and-install-the-gateway"></a>Baixar e instalar o gateway
 É possível baixar o gateway no serviço do Power BI. Selecione **Downloads** > **Gateway de Dados** ou vá para a [página de download do gateway](https://go.microsoft.com/fwlink/?LinkId=698861).
@@ -41,7 +41,7 @@ Para versões de **32 bits** do Power BI Desktop, use o seguinte link para baixa
 
 * [ODAC (Oracle Data Access Components) de 32 bits com Ferramentas de desenvolvimento da Oracle para Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
-Para versões de **64 bits** do Power BI Desktop ou para o Gateway de dados local, use o seguinte link para baixar e instalar o cliente Oracle de **64 bits**:
+Para versões de **64 bits** do Power BI Desktop ou para o gateway de dados local, use o seguinte link para baixar e instalar o cliente Oracle de **64 bits**:
 
 * [ODAC de 64 bits, 12.2c versão 1 (12.2.0.1.0) para Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
@@ -72,7 +72,7 @@ CONTOSO =
 ```
 
 ## <a name="add-a-gateway"></a>Adicionar um gateway
-Para adicionar um Gateway, basta [baixar](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway em um servidor de seu ambiente. Depois de instalar o gateway, ele será mostrado na lista de gateways em **Gerenciar gateways**.
+Para adicionar um gateway, basta [baixar](https://go.microsoft.com/fwlink/?LinkId=698861) e instalar o gateway em um servidor de seu ambiente. Depois de instalar o gateway, ele será mostrado na lista de gateways em **Gerenciar gateways**.
 
 > [!NOTE]
 > **Gerenciar gateways** não será mostrado até que você seja o administrador de, pelo menos, um gateway. Isso pode acontecer ao ser adicionado como um administrador ou ao instalar e configurar um gateway.
@@ -142,7 +142,7 @@ Na guia Usuários, da fonte de dados, você pode adicionar e remover os usuário
 Depois de criar a fonte de dados, ela estará disponível para uso com as conexões do DirectQuery ou por meio da atualização agendada.
 
 > [!WARNING]
-> O nome do servidor e do banco de dados deve corresponder entre o Power BI Desktop e a fonte de dados no gateway de dados local!
+> Os nomes do servidor e do banco de dados devem corresponder entre o Power BI Desktop e a fonte de dados no gateway de dados local!
 > 
 > 
 
@@ -176,12 +176,12 @@ Esses erros poderão ocorrer se o cliente Oracle não estiver instalado ou não 
 > 
 > 
 
-Para obter informações adicionais de solução de problemas relativas ao gateway, consulte [Solucionando problemas no gateway de dados local](service-gateway-onprem-tshoot.md).
+Para obter informações adicionais de solução de problemas relativas ao gateway, veja [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
-[Detalhes sobre o Gateway de dados local](service-gateway-onprem-indepth.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Power BI Premium](service-premium.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ed75e0eea452f73017259ec9c86c5a8371853fa3
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: d54e9daadd2df0e78b5c098f83d8e8a19960c45d
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-tile-errors"></a>Solucionando problemas de erros de bloco
 Veja abaixo os erros comuns que podem ser encontrados com blocos e uma explicação.
@@ -69,7 +69,7 @@ Isso geralmente é um problema temporário. Se você tentar novamente mais tarde
 Se ainda estiver tendo problemas, [entre em contato com o suporte](https://support.powerbi.com) para investigá-los mais detalhadamente.
 
 ## <a name="next-steps"></a>Próximas etapas
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Solução de problemas do Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/23/2017
 ms.author: mihart
-ms.openlocfilehash: 42f9ec1dd56c2317bec07abde9822fc2b5340c07
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: c1b926e129e8d82edd9c329a51623908c4e7c9e0
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="aggregates-in-power-bi"></a>Agregações no Power BI
 ## <a name="what-is-an-aggregate"></a>O que é uma agregação?
@@ -115,7 +115,11 @@ R: A explicação provável é que o proprietário do conjunto de dados, acident
 
 R: Outra possibilidade é que você soltou o campo em um *bucket* que permite somente valores categóricos.  Nesse caso, as únicas opções serão contagem e contagem distinta.
 
-R: E uma terceira possibilidade é que você está usando o campo para um eixo. Em um eixo de gráfico de barras, por exemplo, o Power BI mostra uma barra para cada valor distinto – ele não agrega os valores de campo. OBSERVAÇÃO: a exceção para essa regra são os gráficos de dispersão, que *exigem* valores de agregação para os eixos X e Y.
+R: E uma terceira possibilidade é que você está usando o campo para um eixo. Em um eixo de gráfico de barras, por exemplo, o Power BI mostra uma barra para cada valor distinto – ele não agrega os valores de campo. 
+
+>[!NOTE]
+>A exceção a essa regra são os gráficos de dispersão, que *exigem* valores agregados para os eixos X e Y.
+
 
 P: Tenho um diagrama de dispersão e *não* quero que meu campo seja agregado.  Como faço isso?
 

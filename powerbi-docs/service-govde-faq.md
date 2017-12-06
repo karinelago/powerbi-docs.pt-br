@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/28/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a606798e613bbfa4c1f304d89afa5f8ebd02f81d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 79e334a9a890fefd00a53e66fc6f070151587d2f
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Perguntas frequentes de clientes do Power BI para Germany Cloud
 O **serviço do Power BI** tem uma versão disponível para clientes da UE/EFTA (União Europeia/Associação Europeia de Livre Comércio), geralmente mencionada como MCD (Microsoft Cloud Deutschland). A versão de **serviço do Power BI** discutida neste artigo é específica a clientes da UE/EFTA e separada e diferente da versão comercial do **serviço do Power BI**, ou serviços do Power BI fornecidos a clientes do governo.
@@ -42,7 +42,7 @@ As perguntas e respostas a seguir oferecem informações importantes para o serv
 4. **Há um serviço gratuito no serviço do Power BI para Germany Cloud?**
    
    Não. Não oferecemos versões de licença gratuita no serviço do Power BI para Germany Cloud. No entanto, recomendamos que você se inscreva para uma [oferta gratuita do Power BI em nossa nuvem pública](https://powerbi.microsoft.com/get-started/) se suas necessidades de negócios forem atendidas com a oferta gratuita do Power BI.
-5. **Posso usar o Power BI Desktop, Power BI Mobile, Gateway de dados no local e o Power BI Publisher para Excel com o serviço do Power BI para Germany Cloud?**
+5. **Posso usar o Power BI Desktop, o Power BI Mobile, o gateway de dados local e o Publisher para Excel com o serviço do Power BI para a nuvem da Alemanha?**
    
    Sim. Nós atualizamos os produtos de cliente do Power BI para funcionar perfeitamente com o serviço do Power BI para Germany Cloud. Faça logon com sua conta de serviço do Power BI para Germany Cloud e comece a usar os mesmos produtos de cliente com o serviço do Power BI para Germany Cloud. Você pode baixar a versão mais recente de produtos de cliente nos seguintes locais:
    

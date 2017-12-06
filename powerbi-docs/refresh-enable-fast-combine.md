@@ -17,15 +17,15 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ec0e5582de9c93a64b1ff02ef6d7f406b941284
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 11f233321f9be1db5afccad02edbe33900a555ca
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Desabilitar a configuração de privacidade no Gateway do Power BI - Pessoal
 > [!NOTE]
-> Há uma nova versão de gateway pessoal para o Power BI, denominada **Gateway de dados local (modo pessoal)**. O artigo a seguir descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md). A combinação rápida também está disponível na nova versão do gateway pessoal e também é descrita no artigo.
+> Há uma nova versão do gateway pessoal para o Power BI denominada **gateway de dados local (modo pessoal)**. O artigo a seguir descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md). A combinação rápida também está disponível na nova versão do gateway pessoal e também é descrita no artigo.
 > 
 > 
 
@@ -50,7 +50,7 @@ Para saber mais sobre níveis de privacidade e a Combinação Rápida, confira [
 A ativação da Combinação Rápida ignorará a configuração privada e permitirá que a execução ocorra.
 
 ## <a name="turn-on-fast-combine"></a>Ativar Combinação Rápida
-Você pode usar as etapas a seguir para habilitar a Combinação Rápida para o seu gateway pessoal. O Gateway de dados local não tem essa configuração.
+Você pode usar as etapas a seguir para habilitar a Combinação Rápida para o seu gateway pessoal. O gateway de dados local não tem essa configuração.
 
 1. Abra **ConnectorConfig.xml**.  Isso pode estar em um dos dois locais em seu computador.  Se você for um administrador no computador, ele será o seguinte.
    

@@ -15,17 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: b1cb5bda9b80cb08ece111959884b840ff8d42cc
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fc062387282bf01fd06a9e3d2420ac748c0bc592
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-gateway---personal"></a>Gateway do Power BI - Pessoal
 > [!NOTE]
-> Há uma nova versão de gateway pessoal para o Power BI, denominada **Gateway de dados local (modo pessoal)**. O artigo a seguir descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md).
+> Há uma nova versão do gateway pessoal para o Power BI denominada **gateway de dados local (modo pessoal)**. O artigo a seguir descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md).
 > 
 > 
 
@@ -43,7 +43,7 @@ Um *conjunto de dados* são dados carregados no serviço do Power BI de uma font
 
 Na verdade, uma *fonte de dados* é o local do qual os dados carregados em um conjunto de dados são recebidos. Pode ser qualquer coisa: um banco de dados, uma planilha do Excel, um serviço Web, etc. Com as pastas de trabalho do Excel, você pode criar uma planilha simples com linhas de dados, e isso é considerado uma fonte de dados. Você também pode usar o Power Query ou o Power Pivot no Excel para se conectar e consultar dados de fontes de dados online e locais, tudo na mesma pasta de trabalho. Com o Power BI Desktop, você pode usar o recurso Obter Dados para se conectar e consultar dados de fontes de dados online e locais.
 
-O gateway pessoal está instalado por meio do Gateway de dados local. Você pode baixá-lo na [página Power BI Gateway](https://powerbi.microsoft.com/gateway/).
+O gateway pessoal é instalado por meio do gateway de dados local. Você pode baixá-lo na [página Power BI Gateway](https://powerbi.microsoft.com/gateway/).
 
 ## <a name="do-i-need-a-gateway"></a>Preciso de um gateway?
 Antes de instalar um gateway, é importante saber se você realmente precisa de um. Isso realmente depende de suas fontes de dados:
@@ -89,18 +89,18 @@ Vamos examinar mais detalhadamente cada etapa.
 
 ### <a name="download-and-install-a-gateway"></a>Baixar e instalar um gateway
 > [!NOTE]
-> Há uma nova versão de gateway pessoal para o Power BI, denominada **Gateway de dados local (modo pessoal)**. Este artigo descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md).
+> Há uma nova versão do gateway pessoal para o Power BI denominada **gateway de dados local (modo pessoal)**. Este artigo descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md).
 > 
 > 
 
-Será solicitado que você instale um gateway quando clicar pela primeira vez em ATUALIZAR AGORA ou AGENDAR ATUALIZAÇÃO para um conjunto de dados com suporte. Se preferir, para baixar o gateway, selecione **Gateway de Dados** no menu Downloads. Baixe o [Gateway de dados local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Será solicitado que você instale um gateway quando clicar pela primeira vez em ATUALIZAR AGORA ou AGENDAR ATUALIZAÇÃO para um conjunto de dados com suporte. Se preferir, para baixar o gateway, selecione **Gateway de Dados** no menu Downloads. Baixe o [gateway de dados local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
 Você deverá selecionar **Gateway Pessoal** em vez de **Gateway de dados local** para ter um gateway que é por conta própria.
 
 Na verdade, não é muito difícil instalar um gateway. Você selecionará um local para instalá-lo e lerá e aceitará o contrato de licença, assim como qualquer outro aplicativo. No entanto, há algumas coisas importantes que você precisa saber. Em particular, o tipo de computador no qual o gateway é instalado e o tipo de conta ao qual você está conectado ao Windows nesse computador.
 
 > [!NOTE]
-> O gateway precisa ter acesso à fonte de dados. Se o seu computador pessoal não pode se conectar à fonte de dados, talvez você queira considerar a instalação de um [Gateway de dados local](service-gateway-onprem.md) em um computador que tenha acesso à fonte de dados. Um exemplo disso seria o SQL Server instalado em uma VM (máquina virtual) hospedada no Azure. Seu computador pessoal pode não ter acesso à VM. Em vez disso, você pode instalar o Gateway de dados local na VM e configurar uma fonte de dados dentro do serviço do Power BI.
+> O gateway precisa ter acesso à fonte de dados. Se não for possível conectar seu computador pessoal à fonte de dados, considere a instalação de um [gateway de dados local](service-gateway-onprem.md) em um computador que tenha acesso à fonte de dados. Um exemplo disso seria o SQL Server instalado em uma VM (máquina virtual) hospedada no Azure. Seu computador pessoal pode não ter acesso à VM. Em vez disso, você pode instalar o gateway de dados local na VM e configurar uma fonte de dados no serviço do Power BI.
 > 
 > 
 
@@ -187,8 +187,7 @@ Se precisar colocar endereços IP em vez de domínios na lista branca, você pod
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local (modo pessoal) – a nova versão do gateway pessoal](service-gateway-personal-mode.md)
-
-[Definição das configurações de proxy para Gateways do Power BI](service-gateway-proxy.md)  
+[Definindo as configurações de proxy dos gateways do Power BI](service-gateway-proxy.md)  
 [Power BI Premium](service-premium.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

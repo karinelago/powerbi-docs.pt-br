@@ -1,6 +1,6 @@
 ---
 title: Detalhes sobre o gateway de dados local
-description: "Este artigo examina o Gateway local mais detalhadamente. Ele explica como o serviço funciona com o Azure Active Directory e o Active Directory local ao trabalhar com o Analysis Services"
+description: "Este artigo examina o gateway local mais detalhadamente. Ele explica como o serviço funciona com o Azure Active Directory e o Active Directory local ao trabalhar com o Analysis Services"
 services: powerbi
 documentationcenter: 
 author: davidiseminger
@@ -17,18 +17,18 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: c030f1b18b654be6bba6a7bf2d10af322567c4d1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: ca1761c0708681e6b413ba679980bacb3931e01d
+ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/23/2017
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalhes sobre o gateway de dados local
 É possível que os usuários na sua organização acessem dados locais (para os quais eles já têm autorização de acesso), mas antes que eles possam se conectar à fonte de dados local, um gateway de dados local precisa ser instalado e configurado. O gateway facilita a comunicação nos bastidores, de maneira rápida e segura, de um usuário na nuvem para a fonte de dados local, retornando à nuvem em seguida.
 
 A instalação e configuração de um gateway geralmente são feitas por um administrador. Esse processo pode necessitar de conhecimento especial sobre seus servidores locais e, em alguns casos, pode exigir permissões do Administrador do Servidor.
 
-Este artigo não fornece orientações passo a passo sobre como instalar e configurar o gateway. Para fazer isso, não deixe de conferir [Gateway de Dados Local](service-gateway-onprem.md). Este artigo destina-se a fornecer uma compreensão detalhada de como o gateway funciona. Também veremos alguns detalhes sobre nomes de usuário e segurança no Azure Active Directory e no Analysis Services, além de como o serviço de nuvem usa o endereço de email que um usuário usa para entrar no gateway e no Active Directory para se conectar com segurança aos dados locais e consultá-los.
+Este artigo não fornece orientações passo a passo sobre como instalar e configurar o gateway. Para fazer isso, veja [Gateway de dados local](service-gateway-onprem.md). Este artigo destina-se a fornecer uma compreensão detalhada de como o gateway funciona. Também veremos alguns detalhes sobre nomes de usuário e segurança no Azure Active Directory e no Analysis Services, além de como o serviço de nuvem usa o endereço de email que um usuário usa para entrar no gateway e no Active Directory para se conectar com segurança aos dados locais e consultá-los.
 
 <!-- Shared Requirements Include -->
 [!INCLUDE [gateway-onprem-requirements-include](./includes/gateway-onprem-how-it-works-include.md)]
@@ -119,13 +119,13 @@ Depois que o gateway for instalado, você desejará criar fontes de dados para e
 
 Em outros casos, pode haver problemas com o tipo de endereço de email com que os usuários se autenticam, ou com ou incapacidade do Analysis Services de resolver um nome de usuário efetivo. Caso você tenha vários domínios com relações de confiança entre eles, e o gateway estiver em um domínio e o Analysis Services em outro, às vezes, isso poderá causar alguns problemas.
 
-Em vez de explorar a solução de problemas do gateway aqui, apresentamos uma série de etapas de solução de problemas em outro artigo: [Troubleshooting the On-Premises Data Gateway](service-gateway-onprem-tshoot.md) (Solução de problemas do Gateway de Dados Local). Esperamos que você não tenha nenhum problema. Mas se acontecer, um entendimento de como tudo isso funciona e o artigo de solução de problemas devem ajudar.
+Em vez de explorar a solução de problemas do gateway aqui, apresentamos uma série de etapas de solução de problemas em outro artigo: [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md). Esperamos que você não tenha nenhum problema. Mas se acontecer, um entendimento de como tudo isso funciona e o artigo de solução de problemas devem ajudar.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Próximas etapas
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 [Barramento de serviço do Azure](https://azure.microsoft.com/documentation/services/service-bus/)  
 [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 23799e0fcaf2dfc64f8ab7d47aa7d30b3d6ecf17
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 47168f33b8c6aca967b7b4d14248f9ec6b4d0767
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao se conectar à fonte de dados, sempre é possível importar uma cópia dos dados para o **Power BI Desktop**. Para algumas fontes de dados, uma abordagem alternativa está disponível: conectar-se diretamente à fonte de dados usando o **DirectQuery**.
@@ -82,7 +82,7 @@ Os três pontos a seguir devem ser levados em consideração ao usar o **DirectQ
 ## <a name="publish-to-the-power-bi-service"></a>Publicar no serviço do Power BI
 Os relatórios criados com o **DirectQuery** podem ser publicados no Serviço do Power BI.
 
-Se a fonte de dados usada não precisar do **Gateway de dados local** (**Banco de Dados SQL do Azure**, **SQL Data Warehouse do Azure** ou **Redshift**), as credenciais deverão ser fornecidas antes que o relatório publicado seja exibido no serviço do Power BI.
+Se a fonte de dados usada não precisar do **gateway de dados local** (**Banco de Dados SQL do Azure**, **SQL Data Warehouse do Azure** ou **Redshift**), as credenciais deverão ser fornecidas antes que o relatório publicado seja exibido no serviço do Power BI.
 
 Você pode fornecer credenciais, selecionando o ícone de engrenagem **Configurações** no Power BI e, em seguida, selecionar **Configurações**.
 
@@ -94,7 +94,7 @@ O Power BI exibe a janela **Configurações** . Lá, selecione a guia **Conjunto
 
 Até que as credenciais sejam fornecidas, abrir um relatório publicado ou explorar um conjunto de dados criado com uma conexão do **DirectQuery** com os resultados dessas fontes de dados resultará em um erro.
 
-Para fontes de dados diferentes de **Banco de Dados SQL do Azure**, **SQL Data Warehouse do Azure** e **Redshift** que usam o DirectQuery, um **Gateway de dados local** deve ser instalado e a fonte de dados deve ser registrada para estabelecer uma conexão de dados. É possível [saber mais sobre o Gateway de dados local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
+Para fontes de dados diferentes de **Banco de Dados SQL do Azure**, **SQL Data Warehouse do Azure** e **Redshift** que usam o DirectQuery, um **gateway de dados local** deve ser instalado e a fonte de dados deve ser registrada para estabelecer uma conexão de dados. É possível [saber mais sobre o gateway de dados local](http://go.microsoft.com/fwlink/p/?LinkID=627094).
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o **DirectQuery**, confira os seguintes recursos:

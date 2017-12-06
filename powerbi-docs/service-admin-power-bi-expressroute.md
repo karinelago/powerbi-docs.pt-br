@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: bd89c3147a9b782092c211e32a84c17ab1544ebd
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 28380e13646d941a66c0950d0b99ad6ca1ceffe8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="power-bi-and-expressroute"></a>Power BI e ExpressRoute
 Com o **Power BI** e o **ExpressRoute**, é possível criar uma conexão de rede privada de sua organização para o Power BI (ou usando as instalações de colocação de um ISP), ignorando a Internet para proteger melhor seus dados e conexões confidenciais do Power BI.
@@ -48,7 +48,7 @@ As duas exceções gerais ao Power BI com o uso do ExpressRoute são:
 * Arquivos estáticos baixados por meio da **CDN (Rede de Distribuição de Conteúdo)** e de sites
 * Dados **telemétricos** enviados pela Internet pública
 
-O Power BI usa várias **CDNs (Redes de Distribuição de Conteúdo)** ou sites para distribuir com eficiência o conteúdo estático necessário e os arquivos aos usuários com base na localidade geográfica pela Internet pública. Esses arquivos estáticos incluem downloads de produto (como **Power BI Desktop**, **Gateway de Dados Local** ou **Pacotes de Conteúdo do Power BI** de vários provedores de serviço independentes), arquivos de configuração do navegador usados para iniciar e estabelecer quaisquer conexões posteriores com o Power BI, bem como a página inicial de logon seguro do Power BI – as credenciais reais são enviadas somente pelo ExpressRoute.   
+O Power BI usa várias **CDNs (Redes de Distribuição de Conteúdo)** ou sites para distribuir com eficiência o conteúdo estático necessário e os arquivos aos usuários com base na localidade geográfica pela Internet pública. Esses arquivos estáticos incluem downloads de produtos (como o **Power BI Desktop**, o **gateway de dados local** ou os **Pacotes de Conteúdo do Power BI** de vários provedores de serviço independentes), arquivos de configuração do navegador usados para iniciar e estabelecer quaisquer conexões posteriores com o Power BI, bem como a página inicial de logon seguro do Power BI – as credenciais reais são enviadas somente pelo ExpressRoute.   
 
 Alguns **dados telemétricos** também são enviados pela Internet pública e pelo ExpressRoute. Os dados telemétricos incluem estatísticas de uso e dados semelhantes, que são transmitidos aos serviços usados para monitorar o uso e a atividade.
 
@@ -92,6 +92,6 @@ Alguns **visuais personalizados** são criados por terceiros, enquanto outros s�
 ### <a name="power-bi-mobile-and-expressroute"></a>Power BI Mobile e ExpressRoute
 Este documento não aborda o uso de aplicativos móveis do Power BI.  
 
-### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway de Dados Local e ExpressRoute
-Quando um **Gateway de Dados Local** é usado com o Power BI, as transmissões estão em conformidade com o ExpressRoute, exceto as atividades do usuário documentadas na seção **Aplicativo SaaS do Power BI e ExpressRoute** encontradas neste tópico.  
+### <a name="on-premises-data-gateway-and-expressroute"></a>Gateway de dados local e ExpressRoute
+Quando um **gateway de dados local** é usado com o Power BI, as transmissões ocorrem em conformidade com o ExpressRoute, com exceção das atividades do usuário documentadas na seção **Aplicativo SaaS do Power BI e ExpressRoute** encontradas neste tópico.  
 

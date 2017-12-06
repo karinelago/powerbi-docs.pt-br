@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7480acb9583582985b68dadaf3b7b26233796fde
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0adca4316cbb43a2097133a1346948b79b87bdfd
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-a-local-drive"></a>Atualizar um conjunto de dados criado com base em uma pasta do Excel em uma unidade local
 ## <a name="whats-supported"></a>O que tem suporte?
@@ -81,7 +81,7 @@ Lembre-se de deixar a opção **Enviar email de notificação de falha de atuali
 ## <a name="troubleshooting"></a>Solução de problemas
 Às vezes, a atualização de dados pode não ocorrer da maneira esperada. Normalmente, isso será um problema relacionado a um gateway. Examine os artigos de solução de problemas do gateway para ver ferramentas e problemas conhecidos.
 
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)
 
 [Solução de problemas do Gateway do Power BI – Pessoal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 

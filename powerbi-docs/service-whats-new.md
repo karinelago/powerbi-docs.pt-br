@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 81a52b1810b2c35f67420741f3f89585626aa577
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -142,7 +142,7 @@ Para obter todos os detalhes, [visite o blog da Equipe do Power BI](https://powe
 ***Obter dados***
 
 * Aumento do limite de tamanho do arquivo para 1 GB: aumentamos o limite de tamanho do arquivo de pastas de trabalho do Excel e arquivos do Power BI Desktop para 1 GB.
-* Encontre servidores SSAS configurados com o Enterprise Gateway e outras atualizações do Gateway: agora, quando você configura um Enterprise Gateway, os usuários de sua empresa poderão acessar esses servidores no serviço do Power BI por meio da página Obter Dados. Também adicionamos suporte à atualização de conjuntos de dados que incluem dados do SAP Business Warehouse Server usando o gateway e à criação de regras de mapeamento de UPN durante o uso do Analysis Services com o gateway.
+* Encontre servidores SSAS configurados com o gateway Corporativo e outras atualizações do gateway: agora, ao configurar um gateway Corporativo, os usuários de sua empresa poderão acessar esses servidores no serviço do Power BI por meio da página Obter Dados. Também adicionamos suporte à atualização de conjuntos de dados que incluem dados do SAP Business Warehouse Server usando o gateway e à criação de regras de mapeamento de UPN durante o uso do Analysis Services com o gateway.
 
 ***RLS (Segurança em nível de linha)***
 

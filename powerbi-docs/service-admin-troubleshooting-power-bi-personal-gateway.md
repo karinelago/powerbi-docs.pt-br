@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/06/2017
 ms.author: davidi
-ms.openlocfilehash: bcb859fe6364f28a59607f28f675f89e1a562f8e
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que você poderá ter ao usar o Power BI Gateway - Personal.
@@ -86,7 +86,10 @@ Você pode obter esse erro nas configurações de \<conjunto de dados\> se tiver
 Isso ocorrerá se você tiver uma única linha com um tamanho maior que 4 MB. Você precisará determinar qual linha é proveniente da fonte de dados e tentar filtrá-la ou reduzir o tamanho desta linha.
 
 ## <a name="data-sources"></a>Fontes de dados
-**Provedor de dados ausente** – O gateway pessoal BI tem apenas 64 bits. Ele exige a instalação de uma versão de 64 bits dos provedores de dados no mesmo computador em que o gateway pessoal está instalado. Por exemplo, se a fonte de dados no conjunto de dados for o Microsoft Access, será necessário instalar o provedor ACE de 64 bits no mesmo computador em que o gateway pessoal está instalado.  **Observação:** se você tiver o Excel de 32 bits, não é possível instalar um provedor ACE de 64 bits no mesmo computador.
+**Provedor de dados ausente** – O gateway pessoal BI tem apenas 64 bits. Ele exige a instalação de uma versão de 64 bits dos provedores de dados no mesmo computador em que o gateway pessoal está instalado. Por exemplo, se a fonte de dados no conjunto de dados for o Microsoft Access, será necessário instalar o provedor ACE de 64 bits no mesmo computador em que o gateway pessoal está instalado.  
+
+>[!NOTE]
+>Se você tiver o Excel de 32 bits, não será possível instalar um provedor ACE de 64 bits no mesmo computador.
 
 **Não há suporte à autenticação do Windows para o banco de dados do Access** – No momento, o Power BI dá suporte apenas à autenticação anônima para o banco de dados do Access. Estamos trabalhando para habilitar a autenticação do Windows para o banco de dados do Access.
 
@@ -151,6 +154,6 @@ Como alternativa, você pode ir para o **pasta Temp** (%temp%)) e procurar arqui
 [Atualização de dados](refresh-data.md)  
 [Gateway do Power BI – Pessoal](personal-gateway.md)  
 [Solução de problemas de erros de bloco](refresh-troubleshooting-tile-errors.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

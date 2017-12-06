@@ -17,13 +17,13 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: davidi
-ms.openlocfilehash: 063fd92829c6b642fc33e578026d109d891b8fd5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: bf814b03c4e973afce7115ae111da520af498347
+ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 11/27/2017
 ---
-# <a name="on-premises-data-gateway-faq"></a>Perguntas Frequentes do Gateway de Dados Local
+# <a name="on-premises-data-gateway-faq"></a>Perguntas frequentes sobre o gateway de dados local
 <!-- Shared FAQ shared Include -->
 [!INCLUDE [gateway-onprem-faq-shared-include](./includes/gateway-onprem-faq-shared-include.md)]
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/15/2017
 **Resposta:** Não. Não há suporte para isso no momento.
 
 **Pergunta:** Posso usar o gateway para me conectar a uma instância multidimensional (OLAP)?  
-**Resposta:** Sim! O Gateway de Dados Local oferece suporte a conexões ao vivo tanto com modelos Tabulares quanto modelos Multidimensionais do Analysis Services.
+**Resposta:** Sim! O gateway de dados local é compatível com conexões dinâmicas tanto para modelos de Tabela quanto para modelos Multidimensionais do Analysis Services.
 
 **Pergunta:** e se eu instalar o gateway em um computador em um domínio diferente do meu servidor local que usa a autenticação do Windows?  
 **Resposta:** Não há nenhuma garantia nesse caso. Tudo depende a relação de confiança entre os dois domínios. Se os dois domínios diferentes estiverem em um modelo de domínio confiável, o gateway poderá se conectar ao servidor do Analysis Services e o nome de usuário efetivo poderá ser resolvido. Caso contrário, poderá ocorrer uma falha de logon.
@@ -60,7 +60,7 @@ ms.lasthandoff: 11/15/2017
 **Pergunta:** Preciso fazer upgrade do gateway pessoal?
 **Resposta:** Não, você pode continuar usando o gateway pessoal do Power BI.
 
-**Pergunta:** com que frequência os blocos em um painel no Power BI são atualizados quando conectados por meio do Gateway de Dados Local?  
+**Pergunta:** com que frequência os blocos em um dashboard no Power BI são atualizados quando conectados por meio do gateway de dados local?  
 **Resposta:** Cerca de dez minutos. As conexões do DirectQuery são exatamente assim. Isso não significa que um bloco emite uma consulta ao servidor local e mostra novos dados a cada dez minutos.
 
 **Pergunta:** Posso carregar pastas de trabalho do Excel com modelos de dados do Power Pivot que se conectem a fontes de dados locais? Preciso ter um gateway para este cenário?  
@@ -70,7 +70,7 @@ ms.lasthandoff: 11/15/2017
 **Resposta:** Para um painel conectado aos Serviços de Análise, os usuários verão apenas os dados que eles tiverem acesso. Se os usuários não tiverem as mesmas permissões, não poderão ver os dados. Para outras fontes de dados, todos os usuários compartilharão as credenciais inseridas pelo administrador para aquela fonte de dados.
 
 **Pergunta:** por que não consigo me conectar ao servidor do Oracle?  
-**Resposta:** talvez seja necessário instalar o cliente Oracle e configurar o arquivo tnsnames.ora com as informações de servidor apropriadas para se conectar ao servidor Oracle. Essa é uma instalação separada fora do Gateway. Para obter mais informações, consulte [Instalando o cliente Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Resposta:** talvez seja necessário instalar o cliente Oracle e configurar o arquivo tnsnames.ora com as informações de servidor apropriadas para se conectar ao servidor Oracle. Essa é uma instalação separada fora do gateway. Para obter mais informações, consulte [Instalando o cliente Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
 
 **Pergunta:** o gateway funcionará com o ExpressRoute?  
 **Resposta:** Sim. Para obter mais informações sobre o ExpressRoute e o Power BI, consulte [Power BI e ExpressRoute](service-admin-power-bi-expressroute.md).
@@ -78,6 +78,6 @@ ms.lasthandoff: 11/15/2017
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
 [Detalhes sobre o gateway de dados local](service-gateway-onprem-indepth.md)  
-[Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md)  
+[Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 
