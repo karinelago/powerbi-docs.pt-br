@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
+ms.date: 11/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 1ab1590146f8b9714a27735cd556dd0203ecc6bf
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
+ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 12/01/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usar segurança em nível de linha com conteúdo inserido do Power BI
 A RLS (segurança em nível de linha) pode ser usada para restringir o acesso do usuário aos dados em um relatório ou conjunto de dados, permitindo que vários usuários diferentes usem o mesmo relatório, enquanto todos veem dados diferentes. A RLS pode ser aproveitada durante a inserção de relatórios do Power BI.
@@ -141,11 +141,11 @@ Um [gateway de dados local](../service-gateway-onprem.md) é usado ao trabalhar 
 As funções podem ser fornecidas com a identidade em um token de inserção. Se nenhuma função for fornecida, o nome de usuário fornecido será usado para resolver as funções associadas.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
-* A atribuição de usuários a funções, no serviço do Power BI, não afeta a RLS ao usar um token de inserção.
+* A atribuição de usuários a funções no serviço do Power BI não afeta a RLS ao usar um token de inserção.
 * Embora o serviço do Power BI não aplicará a configuração de RLS a administradores ou membros com permissões de edição, ao fornecer uma identidade com um token de inserção, ela será aplicada aos dados.
 * Apenas há suporte para o fornecimento das informações de identidade, durante a chamada à GenerateToken, na leitura/gravação de relatório. O suporte para outros recursos será fornecido posteriormente.
 * Para servidores locais, há suporte para conexões dinâmicas do Analysis Services.
-* Não há suporte para conexões dinâmicas do Azure Analysis Services.
+* As conexões ao vivo do Azure Analysis Services suportam a filtragem por funções, mas não dinâmicas por nome de usuário.
 * Se o conjunto de dados subjacente não exigir a RLS, a solicitação de GenerateToken **não** deverá conter uma identidade efetiva.
 * Se o conjunto de dados subjacente for um modelo de nuvem (modelo armazenado em cache ou DirectQuery), a identidade efetiva deverá incluir, pelo menos, uma função. Caso contrário, a atribuição de função não ocorrerá.
 * Apenas uma identidade pode ser fornecida na lista de identidades. Estamos usando uma lista para permitir tokens de várias identidades para a inserção de dashboard no futuro.

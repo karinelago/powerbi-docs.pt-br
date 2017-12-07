@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 7774153ff73fb67a434ac79016507a2e94cf40f1
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 6fbd9f56099e4053524a04680c0d4c0c366ce068
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que você poderá ter ao usar o Power BI Gateway - Personal.
 
 > [!NOTE]
-> Caso encontre um problema que não esteja listado abaixo, é possível obter assistência no [site da comunidade](http://community.powerbi.com/) ou criar um [tíquete de suporte](https://powerbi.microsoft.com/support/).
+> A versão atual do gateway para uso pessoal é **Gateway de dados local (pessoal)**. Atualize sua instalação para usar essa versão.
 > 
 > 
 
