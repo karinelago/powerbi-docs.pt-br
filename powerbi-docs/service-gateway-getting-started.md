@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 12/065/2017
 ms.author: davidi
-ms.openlocfilehash: a93f24dc621dc5b044473fd16cc635fdef987a62
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: d6dae11aae2e44e1a8d6fe103cf0e20183c0d9d8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="getting-started-with-power-bi-gateways"></a>Introdução aos gateways do Power BI
 Bem-vindo ao guia de **Introdução aos gateways do Power BI**. Este breve passo a passo serve para familiarizá-lo com o que um gateway faz, como ele funciona e como ter seu próprio gateway instalado, configurado e em execução.  
