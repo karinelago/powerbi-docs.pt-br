@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f505b27043e357b5cf1c01a0779634a948905dfc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d8dc99fec9851dc6f5d3786d2fc1d615e4ee22b4
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir usando o serviço do Power BI
 Imprima um dashboard inteiro, um bloco do dashboard, uma página de relatório ou um visual de relatório no serviço do Power BI. Relatórios podem ser impressos somente com uma página por vez – não é possível imprimir o relatório inteiro ao mesmo tempo.
@@ -54,7 +54,7 @@ Observe Amanda imprimir do dashboard e do relatório. Em seguida, siga as instru
 1. [Abra o bloco no modo de foco](service-focus-mode.md) selecionando as reticências e escolhendo o ícone de Foco ![](media/service-print/power-bi-focus-icon.png).
    
     ![](media/service-print/menu-options.png)
-2. Abra o bloco em [modo de tela inteira](service-tile-fullscreen-mode.md), selecionando o ícone de tela inteira ![](media/service-print/power-bi-full-screen-icon.png) na barra de navegação superior.
+2. Abra o bloco em [modo de tela inteira](service-fullscreen-mode.md), selecionando o ícone de tela inteira ![](media/service-print/power-bi-full-screen-icon.png) na barra de navegação superior.
 3. Focalize o bloco para revelar o menu Opções.
    
     ![](media/service-print/menu-options-new.png)

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 7f01ed805358b5b74a32ae26fb757f592c617088
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: 4cf430880ade8bafb345fef3f5d7fec228cb6272
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -167,7 +167,7 @@ Para obter todos os detalhes, [visite o blog da Equipe do Power BI](https://powe
 
 **28 de abril de 2016**
 
-* [Quick Insights em Blocos do Dashboard](service-insights.md#run-quick-insights-on-a-dashboard-tile): ao exibir um bloco no modo Foco, clique em Obter Ideias para pesquisar o bloco e seus dados relacionados em busca de correlações, exceções, tendências, sazonalidade, pontos de mudança em tendências, bem como os principais fatores automaticamente, em questão de segundos.
+* [Quick Insights em Blocos do Dashboard](service-insights.md): ao exibir um bloco no modo Foco, clique em Obter Ideias para pesquisar o bloco e seus dados relacionados em busca de correlações, exceções, tendências, sazonalidade, pontos de mudança em tendências, bem como os principais fatores automaticamente, em questão de segundos.
 
 Para obter todos os detalhes, [visite o blog da Equipe do Power BI](https://powerbi.microsoft.com/blog/find-more-insights-in-your-dashboards-with-quick-insights/)
 
