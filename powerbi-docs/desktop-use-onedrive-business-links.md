@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/06/2017
+ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: dcb262d110025f2c36c4029227b353132c4dafb6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 2c249cac17e8fe6da35634c78837e3ca16e70a5c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-onedrive-for-business-links-in-power-bi-desktop"></a>Usar os links do OneDrive for Business no Power BI Desktop
 Muitas pessoas têm livros de trabalho do Excel armazenados em sua unidade do OneDrive for Business que seriam ótimos para uso com o Power BI Desktop. Com o **Power BI Desktop**, você pode usar links online para arquivos do **Excel** armazenados no **OneDrive for Business** para criar relatórios e visuais. Você pode usar uma conta de grupo do **OneDrive for Business** ou sua conta individual do **OneDrive for Business**.
@@ -37,7 +37,7 @@ Obter um link online do **OneDrive for Business** requer algumas etapas específ
    > 
    
    ![](media/desktop-use-onedrive-business-links/odb-links_02.png)
-2. No **Excel**, selecione **Arquivo > Informações** e selecione o link acima do botão **Proteger Pasta de Trabalho**. Selecione **Copiar link para área de transferência**.
+2. No **Excel**, selecione **Arquivo > Informações** e selecione o link acima do botão **Proteger Pasta de Trabalho**. Selecione **Copiar link para a área de transferência** (pode ser que sua versão diga **Copiar caminho para a área de transferência**).
    
    ![](media/desktop-use-onedrive-business-links/odb-links_03.png)
 

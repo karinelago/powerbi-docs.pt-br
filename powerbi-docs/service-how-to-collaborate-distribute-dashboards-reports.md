@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1ee8cc60d5c18cb09915029088824ade89d2b39f
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a77c9a9816ef47ae4b342b2cd3a08b18c90f70de
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Como devo colaborar e compartilhar relatórios e dashboards no Power BI?
 Você cria dashboards e relatórios. Talvez você colabore neles com seus colegas também. Depois, você quer que outros usuários tenham acesso a eles. Qual é a melhor maneira de distribuí-los?
@@ -54,7 +54,7 @@ Digamos que você deseja distribuir seu dashboard para um público amplo. Você 
 
 ![Ícone Publicar aplicativo](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Os aplicativos são fáceis de descobrir e instalar no serviço do Power BI ([https://powerbi.com](https://powerbi.com)). Você pode enviar aos usuários corporativos um link direto para o aplicativo ou eles podem pesquisar por ele no AppSource. Se o administrador do Power BI lhe der permissão, você poderá instalar um aplicativo automaticamente em contas do Power BI de seus colegas de trabalho. Leia mais sobre [publicação de aplicativos](service-create-distribute-apps.md#publish-your-app). 
+Os aplicativos são fáceis de descobrir e instalar no serviço do Power BI ([https://powerbi.com](https://powerbi.com)). Você pode enviar aos usuários corporativos um link direto para o aplicativo ou eles podem pesquisar por ele no AppSource. Leia mais sobre [publicação de aplicativos](service-create-distribute-apps.md#publish-your-app). 
 
 Após instalarem um aplicativo, eles poderão vê-lo em seu navegador ou dispositivo móvel.
 

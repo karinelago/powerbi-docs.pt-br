@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 3e48f08237767a4c0cc5e1a8ddfc70a9087fbc1c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 11/30/2017
+ms.author: mihart
+ms.openlocfilehash: 22d939dbd0a582611f2f4e90e2306456376e211b
+ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/02/2017
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Criar um locatário do Azure Active Directory para usar com o Power BI
 Saiba como criar um novo locatário do Azure AD (Azure Active Directory) para usar com seu aplicativo personalizado que usa APIs REST do Power BI.
@@ -33,7 +33,7 @@ Quando você tiver um locatário do Azure AD, será possível definir um aplicat
 Sua organização talvez já tenha um locatário do Azure AD que você pode usar para seu aplicativo. É possível usar esse locatário para as necessidades do seu aplicativo ou é possível criar um novo locatário especificamente para o seu aplicativo. Este artigo examina como criar um novo locatário.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crie um locatário do Azure Active Directory
-Para integrar o Power BI em seu aplicativo personalizado, é necessário definir um aplicativo no Azure AD. Para fazer isso, é necessário um diretório dentro do Azure AD. Esse é o seu locatário. Se sua organização ainda não tiver um locatário, porque eles não estão usando o Power BI ou o Office 365, será necessário criar um. Talvez seja necessário também criar um locatário se você não quiser que seu aplicativo se misture com o locatário da sua organização. Isso permite manter as coisas isoladas.
+Para integrar o Power BI em seu aplicativo personalizado, é necessário definir um aplicativo no Azure AD. Para fazer isso, é necessário um diretório dentro do Azure AD. Esse é o seu locatário. Se sua organização ainda não tiver um locatário, porque ela não está usando o Power BI ou o Office 365, [será necessário criar um](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). Talvez seja necessário também criar um locatário se você não quiser que seu aplicativo se misture com o locatário da sua organização. Isso permite manter as coisas isoladas.
 
 Ou talvez você apenas deseje criar um locatário para fins de testes.
 

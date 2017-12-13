@@ -1,6 +1,6 @@
 ---
-title: Publicar visuais personalizados na Office Store
-description: "Saiba como você pode publicar seu visual personalizado na Office Store para que outros possam descobrir e usá-lo."
+title: Publicar visuais personalizados no AppSource
+description: "Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo."
 services: powerbi
 documentationcenter: 
 author: guyinacube
@@ -15,22 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/20/2017
+ms.date: 12/5/2017
 ms.author: asaxton
-ms.openlocfilehash: 13456711e6c3bdce4554df7b7fbc0e4e9943987a
-ms.sourcegitcommit: 12236d08c27c7ee3fabb7ef9d767e9dee693f8aa
+ms.openlocfilehash: 0d3608d30fdf689c2121e65c5c4cafb861c88c2e
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2017
+ms.lasthandoff: 12/06/2017
 ---
-# <a name="publish-custom-visuals-to-the-office-store"></a>Publicar visuais personalizados na Office Store
-Saiba como você pode publicar seu visual personalizado na Office Store para que outros possam descobrir e usá-lo.
+# <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
+Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo. Office
 
-Depois de criar seu visual personalizado, talvez você queira publicá-lo na Office Store para que outros possam descobrir e usá-lo. Mas, há alguns preparativos que precisam ser feitos antes disso. Para obter mais informações sobre como criar um visual personalizado, consulte [Usar ferramentas de desenvolvedor para criar visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
+Depois de criar seu visual personalizado, talvez você queira publicá-lo no AppSource para que outros possam descobrir e usá-lo. Mas, há alguns preparativos que precisam ser feitos antes disso. Para obter mais informações sobre como criar um visual personalizado, consulte [Usar ferramentas de desenvolvedor para criar visuais personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
 
-![](media/office-store/powerbi-custom-visual-store.png)
+![](media/office-store/AppSource_01.jpg)
 
-O que é a Office Store? Em outras palavras, é o lugar para encontrar aplicativos (suplementos) para o software Office 365. A [Office Store](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta milhões de usuários do Office 365 com soluções que os ajudam a realizar seu trabalho com mais eficiência, perspicácia ou harmonia do que antes.
+O que é o AppSource? De forma simples, é o lugar para encontrar aplicativos SaaS e suplementos para os seus produtos e serviços da Microsoft. O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta milhões de usuários do Office 365, Dynamics 365, Cortana Intelligence, e outros, a soluções que os ajudam a realizar seu trabalho com mais eficiência, perspicácia ou harmonia do que antes.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparando-se para enviar seu visual personalizado
 Após terminar de codificar e testar seu visual personalizado e o empacotado em um arquivo pbiviz, você também deverá ter o seguinte pronto para envio.
@@ -57,14 +57,14 @@ Anexe o arquivo .pbiviz e o arquivo .pbix de relatório de exemplo em seu email.
 > 
 > 
 
-## <a name="submitting-to-the-office-store"></a>Envio para a Office Store
-Depois de obter o XML do pacote do aplicativo da equipe do Power BI, acesse a [Central de desenvolvedores do Office](https://sellerdashboard.microsoft.com/Application/Summary) para enviar seu visual à Office Store.
+## <a name="submitting-to-appsource"></a>Enviar para AppSource
+Depois de obter o XML do pacote do aplicativo da equipe do Power BI, navegue até [central de desenvolvedores](https://sellerdashboard.microsoft.com/Application/Summary) para enviar seu visual ao AppSource.
 
 > [!NOTE]
 > Você deve ter uma conta de desenvolvedor do Office válida para efetuar logon na [Central de desenvolvedores do Office](https://dev.office.com/). Uma conta de desenvolvedor do Office deve ser uma Conta da Microsoft (Live ID, por exemplo, hotmail.com ou outlook.com).
 > 
 > [!IMPORTANT]
-> Você deve enviar um email com os arquivos .pbiviz e .pbix para a equipe do Power BI antes de enviar para a Office Store. Dessa forma, a equipe do Power BI fará upload dos arquivos para o servidor de compartilhamento público. Caso contrário, a Office Store não poderá recuperar os arquivos. Você deve enviar os arquivos com cada envio de visual novo, a atualização para o visual existente e as correções para envios rejeitados pela Office Store.
+> Você deve enviar um email com os arquivos .pbiviz e .pbix para a equipe do Power BI antes de enviar para o AppSource. Isso permite à equipe do Power BI carregar os arquivos para o servidor de compartilhamento público. Caso contrário, a loja não poderá recuperar os arquivos. Você deve enviar os arquivos com cada envio de visual novo, a atualização para o visual existente e as correções para envios rejeitados.
 > 
 > 
 

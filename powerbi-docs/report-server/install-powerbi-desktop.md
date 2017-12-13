@@ -3,7 +3,7 @@ title: "Instalar o Power BI Desktop otimizado para o Servidor de Relatório do P
 description: "Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: maggiesMSFT
 manager: kfile
 backup: 
 editor: 
@@ -15,35 +15,51 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/20/2017
-ms.author: asaxton
-ms.openlocfilehash: 5fd5f41523ffcba03eb4749a9560922bcff42a7c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 12/05/2017
+ms.author: maggies
+ms.openlocfilehash: efae785bb063e1bfb1b8333e36447dcaa66a70b4
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI.
 
-Será necessário baixar e instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI. Essa é uma versão diferente do Power BI Desktop usada com o serviço do Power BI. Isso é necessário para certificar-se de que o servidor de relatório pode interagir com uma versão conhecida dos relatórios e do modelo. 
+Para criar relatórios do Power BI para o Servidor de Relatórios do Power BI você precisa baixar e instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Essa versão é diferente do Power BI Desktop usado com o serviço do Power BI. Usar essa versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
 
 > [!NOTE]
-> O Power BI Desktop e o Power BI Desktop otimizado para o Servidor de Relatório do Power BI pode ser instalado lado a lado.
-> 
-> 
+> Instale o Power BI Desktop e o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI lado a lado no mesmo computador.
 
-## <a name="download-and-install"></a>Baixar e instalar
-É possível baixar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI no [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=837581) ou no portal da Web do seu servidor de relatório.
+## <a name="download-and-install-power-bi-desktop"></a>Baixar e instalar o Power BI Desktop
 
-Depois de baixar o instalador, será possível instalar o Power BI Desktop.
+A maneira mais fácil de ter certeza que você tem a versão mais recente do Power BI Desktop otimizado para o Servidor de Relatórios do Power BI é iniciar a partir do portal da Web do seu servidor de relatórios.
+
+1. No portal da Web do servidor de relatórios, selecione a seta **Baixar** > **Power BI Desktop**.
+
+    ![Baixe o Power BI Desktop no portal da Web](media/install-powerbi-desktop/report-server-download-web-portal.png)
+
+    Ou você pode ir diretamente para o [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Otimizado para o Servidor de Relatórios do Power BI - Outubro de 2017) no Centro de Download da Microsoft.
+
+2. Na página do Centro de Download, selecione **Baixar**.
+
+3. Dependendo do seu computador, selecione: 
+
+    - **PBIDesktopRS.msi** (a versão de 32 bits) ou
+
+    - **PBIDesktopRS_x64.msi** (a versão de 64 bits).
+
+1. Depois de baixar o instalador, execute o Assistente de Instalação do Power BI Desktop (Outubro de 2017).
+2. No final da instalação, marque **Iniciar o Power BI Desktop agora**.
+   
+    Ele é iniciado automaticamente e você está pronto para começar.
 
 ## <a name="verify-you-are-using-the-correct-version"></a>Verifique se você está usando a versão correta
-É possível verificar se você está usando o Power BI Desktop correto examinando a tela de inicialização ou a barra de título no Power BI Desktop. A barra de título indicará o mês de lançamento e o ano da versão.
+É possível verificar se você está usando o Power BI Desktop correto examinando a tela de inicialização ou a barra de título no Power BI Desktop. A barra de título indica o mês de lançamento e o ano da versão.
 
-![](media/install-powerbi-desktop/powerbi-desktop-rs-title-bar.png "Barra de título para o Power BI Desktop")
+![Barra de título do Power BI Desktop otimizada para o Servidor de Relatórios do Power BI](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
-A versão do Power BI Desktop para o serviço do Power BI não terá o mês nem o ano na barra de título.
+A versão do Power BI Desktop para o serviço do Power BI não possui o mês nem o ano na barra de título.
 
 ## <a name="file-extension-association"></a>Associação de extensão de arquivo
 Se você instalou o Power BI Desktop e o Power BI Desktop otimizado para o Servidor de Relatório do Power BI no mesmo computador, a última instalação do Power BI Desktop terá a associação de arquivo com .pbix. Isso significa que quando você clicar duas vezes em um arquivo pbix, ele iniciará o Power BI Desktop instalado pela última vez.

@@ -1,3 +1,4 @@
+### YamlMime:YamlDocument
 documentType: Tutorial
 title: Power BI e Excel
 metadata:
@@ -12,16 +13,16 @@ metadata:
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 10/27/2017
+  ms.date: 12/05/2017
   ms.author: davidi
+  ms.openlocfilehash: 696459a8cd0ea243c0eb59548bac4379b403764d
+  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.translationtype: HT
+  ms.contentlocale: pt-BR
+  ms.lasthandoff: 12/06/2017
 items:
 - durationInMinutes: 1
   content: "Use o Excel e Power BI juntos e crie elementos visuais e relatórios avançados e conectados.\n"
-  ms.openlocfilehash: 2d734b12d3ff197addff0a0cf39b1f399d70e3a6
-  ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
-  ms.translationtype: HT
-  ms.contentlocale: pt-BR
-  ms.lasthandoff: 11/15/2017
 - title: "Introdução ao uso de dados do Excel no Power BI"
   durationInMinutes: 2
   content: >
@@ -57,4 +58,4 @@ items:
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Você concluiu a seção **Power BI e Excel** da aprendizagem guiada do Microsoft Power BI.\0"
+- content: "Parabéns por concluir a seção **Power BI e Excel** da aprendizagem guiada do Power BI. Em seguida, você aprenderá sobre publicação e compartilhamento.\0"

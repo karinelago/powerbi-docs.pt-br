@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 72cfae29d00d5612abed6e5de7475dd1c62ab1b6
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e usar aplicativos com dashboards e relatórios no Power BI
 No Power BI, os *aplicativos* reúnem os dashboards e os relatórios relacionados em um só local. As pessoas em sua organização podem criar e distribuir aplicativos com informações comerciais essenciais. Os [serviços externos](service-connect-to-services.md) que talvez você já usa, como o Google Analytics e o Microsoft Dynamics CRM, também oferecem aplicativos do Power BI. 
@@ -34,7 +34,7 @@ Com os aplicativos, sempre que o autor do aplicativo liberar atualizações, voc
 Planejando criar um aplicativo? Consulte [Criar e publicar aplicativos no Power BI](service-create-distribute-apps.md) para obter mais informações.
 
 ## <a name="get-a-new-app"></a>Obter um novo aplicativo
-Você pode obter aplicativos de algumas maneiras diferentes. O autor do aplicativo pode instalá-lo automaticamente na conta do Power BI ou lhe enviar um link direto para um aplicativo, ou você pode pesquisar no AppSource, no qual você vê todos os aplicativos que pode acessar. No Power BI em seu dispositivo móvel, você só pode instalá-lo de um link direto e não do AppSource. Se o autor do aplicativo instalar o aplicativo automaticamente, você o verá na sua lista de aplicativos.
+Você pode obter aplicativos de duas maneiras diferentes. O autor do aplicativo pode enviar a você um link direto para um aplicativo ou você pode pesquisar pelo aplicativo no AppSource, que é o local em que você pode ver todos os aplicativos aos quais você pode acessar. No Power BI em seu dispositivo móvel, você só pode instalá-lo de um link direto e não do AppSource. 
 
 ### <a name="install-an-app-from-a-direct-link"></a>Instalar um aplicativo por meio de um link direto
 A maneira mais fácil de instalar um novo aplicativo é obter um link direto do autor do aplicativo. O Power BI cria um link de instalação, que o autor pode enviar para você.

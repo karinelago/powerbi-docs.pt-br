@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/13/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 58af226f6c3d93fffc805e23fcf1bda0d055058d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e distribuir aplicativos com dashboards e relatórios no Power BI
 
@@ -32,7 +32,7 @@ Os usuários empresariais geralmente precisam de vários dashboards e relatório
 
 Com os aplicativos do Power BI, agora em versão prévia, crie coleções de dashboards e relatórios e distribua esses aplicativos para toda a organização ou para pessoas ou grupos específicos. Para você, como administrador ou criador de relatórios, os aplicativos facilitam o gerenciamento de permissões em coleções de dashboards.
 
-Usuários de negócios obtêm seus aplicativos de algumas maneiras diferentes. Se o administrador do Power BI lhe der permissão, instale-os automaticamente em contas do Power BI de seus colegas. Caso contrário, eles podem instalar seus aplicativos no Microsoft AppSource, ou você pode enviar um link direto. Eles podem facilmente localizar e retornar ao seu conteúdo, porque ele estará em um só lugar. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Leia mais sobre a [experiência de aplicativo para usuários corporativos](service-install-use-apps.md).
+Os usuários empresariais instalam esses aplicativos por meio do Microsoft AppSource ou você pode enviar a eles um link direto. Eles podem facilmente localizar e retornar ao seu conteúdo, porque ele estará em um só lugar. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Leia mais sobre a [experiência de aplicativo para usuários corporativos](service-install-use-apps.md).
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplicativos e pacotes de conteúdo organizacional
 Os aplicativos são a evolução dos pacotes de conteúdo organizacional. Se você já tem pacotes de conteúdo organizacional, eles continuarão a funcionar lado a lado com os aplicativos.
@@ -119,7 +119,7 @@ Quando os dashboards e relatórios no espaço de trabalho do aplicativo estivere
    
      ![Conteúdo do aplicativo](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Finalmente, em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização ou pessoas específicas ou em listas de distribuição de email. Se você tiver permissões, instale o aplicativo automaticamente para os destinatários.
+4. Finalmente, em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização ou pessoas específicas ou em grupos de segurança do Active Directory. 
    
      ![Acesso ao aplicativo](media/service-create-distribute-apps/power-bi-apps-access.png)
 
@@ -127,7 +127,7 @@ Quando os dashboards e relatórios no espaço de trabalho do aplicativo estivere
    
      ![Término do aplicativo](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Os usuário empresariais para os quais você publicou o aplicativo podem encontrá-lo de algumas maneiras diferentes. Primeiro, se você puder instalá-lo automaticamente, ele será exibido em Aplicativos, na conta do Power BI.  Você pode enviá-los o link direto para o aplicativo ou eles podem pesquisar no Microsoft AppSource, local em que eles veem todos os aplicativos que eles podem acessar. Depois disso, sempre que acessarem Aplicativos, eles verão esse aplicativo na lista.
+Os usuários empresariais para os quais você publicou o aplicativo podem encontrá-lo de duas maneiras diferentes. Você pode enviá-los o link direto para o aplicativo ou eles podem pesquisar no Microsoft AppSource, local em que eles veem todos os aplicativos que eles podem acessar. Depois disso, sempre que acessarem Aplicativos, eles verão esse aplicativo na lista.
 
 Leia mais sobre a [experiência de aplicativo para usuários corporativos](service-install-use-apps.md).
 

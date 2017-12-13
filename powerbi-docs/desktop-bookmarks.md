@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: davidi
-ms.openlocfilehash: a5542e7a4c0b1d5014a6fce0042c07fec7398ab4
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e60ff6d06e4ac0cddf398ccfc1d30e4d97e0773c
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI (versão prévia)
 Usando **indicadores** no Power BI, você pode capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, bastando selecionar esse indicador salvo. 
@@ -153,6 +153,7 @@ Nesta versão prévia dos **indicadores**, há algumas limitações e considera�
 * Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Isso também significa que, se você introduzir uma segmentação em uma página em que você tiver criado indicadores anteriormente, a segmentação se comportará em seu estado padrão.
 * A movimentação de visuais após a criação de um indicador se refletirá nele. 
 * Ao publicar um relatório no **serviço do Power BI**, esse relatório *deve* conter pelo menos um indicador para que indicadores estejam disponíveis no serviço. Esse é um requisito para cada relatório que você publicar.
+* Como os indicadores atualmente são um recurso de visualização, eles ainda não estão disponíveis em [**Power BI Desktop para o Servidor de Relatórios**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre os recursos que são semelhantes ou interagem com indicadores, consulte os seguintes artigos:

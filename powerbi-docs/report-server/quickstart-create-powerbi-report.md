@@ -15,32 +15,47 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: e492d31a8e1ed57a769c9a36f515d99369f6d6dc
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fa844004911f41a179542dcfff702f371cc951f8
+ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/06/2017
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Início rápido: criar um relatório do Power BI para o Servidor de Relatório do Power BI
 É possível armazenar e gerenciar relatórios do Power BI localmente no portal da Web do Servidor de Relatórios do Power BI, do mesmo modo que você pode armazenar relatórios do Power BI na nuvem no serviço do Power BI (https://powerbi.com). Você cria e edita relatórios no Power BI Desktop e, em seguida, publica-os no portal da Web. Em seguida, os leitores de relatório em sua organização poderão exibi-los em um navegador ou em um aplicativo móvel do Power BI em um dispositivo móvel.
 
 ![Relatório do Power BI no Portal da Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
-Se você já tiver criado relatórios do Power BI no Power BI Desktop, então você estará pronto para criar relatórios do Power BI para o Servidor de Relatório do Power BI. Caso contrário, veja quatro etapas rápidas para começar.
+Aqui estão quatro etapas rápidas para começar.
 
-## <a name="step-1-install-power-bi-desktop-report-server"></a>Etapa 1: instalar o Power BI Desktop (Servidor de Relatórios)
-Talvez você já tenha instalado o Power BI Desktop para criar relatórios para o serviço do Power BI. É recomendável instalar a versão do Power BI Desktop otimizado para o Servidor de Relatório do Power BI para saber que o servidor e o aplicativo estão sempre em sincronia. É possível ter ambas as versões do Power BI Desktop no mesmo computador.
+## <a name="step-1-install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Etapa 1: Instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI
 
-1. No portal da Web do Servidor de Relatórios do Power BI, selecione **Novo** > **Relatório do Power BI**.
+Se você já tiver criado relatórios do Power BI no Power BI Desktop, então você está quase pronto para criar relatórios do Power BI para o Servidor de Relatórios do Power BI. É recomendável instalar a versão do Power BI Desktop otimizado para o Servidor de Relatório do Power BI para saber que o servidor e o aplicativo estão sempre em sincronia. É possível ter ambas as versões do Power BI Desktop no mesmo computador.
+
+1. No portal da Web do servidor de relatórios, selecione o **Baixar** seta > **Power BI Desktop**.
+
+    ![Baixe o Power BI Desktop do portal da Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
+
+    Ou você pode ir diretamente para o [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Otimizado para o Servidor de Relatórios do Power BI - Outubro de 2017) no Centro de Download da Microsoft.
+
+2. Na página do Centro de Download, selecione **Baixar**.
+
+3. Dependendo do seu computador, selecione:
+
+    - **PBIDesktopRS.msi** (a versão de 32 bits) ou
+
+    - **PBIDesktopRS_x64.msi** (a versão de 64 bits).
+
+4. Depois de baixar o instalador, execute o Assistente de Instalação do Power BI Desktop (Outubro de 2017).
+
+2. No final da instalação, marque **Iniciar o Power BI Desktop agora**.
    
-    ![Novo relatório do Power BI](media/quickstart-create-powerbi-report/report-server-web-portal-new-powerbi-report.png)
-   
-    Se você não tiver acesso a um portal da Web do Servidor de Relatórios do Power BI, acesse o Centro de Download da Microsoft e baixe o [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=837581) (otimizado para o Servidor de Relatórios do Power BI – disponível ao público em geral desde junho de 2017).
-2. No final do processo de instalação, marque **Iniciar o Power BI Desktop agora**.
-   
-    Ele é iniciado automaticamente e você está pronto para começar. Você pode dizer que tem a versão correta, porque "Power BI Desktop (Servidor de Relatórios)" consta na barra de título.
+    Ele é iniciado automaticamente e você está pronto para começar. Você pode saber que tem a versão correta, porque "Power BI Desktop (Outubro de 2017)" consta na barra de título.
+
+    ![Power BI Desktop versão de outubro de 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+
 3. Se você não estiver familiarizado com o Power BI Desktop, considere assistir aos vídeos na tela de boas-vindas.
    
     ![Tela inicial do Power BI Desktop](media/quickstart-create-powerbi-report/report-server-powerbi-desktop-start.png)
