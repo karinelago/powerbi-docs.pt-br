@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 29a089e13c2dd687a2caf19f43b1aae28e397a20
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e distribuir aplicativos com dashboards e relatórios no Power BI
 
@@ -120,8 +120,6 @@ Quando os dashboards e relatórios no espaço de trabalho do aplicativo estivere
      ![Conteúdo do aplicativo](media/service-create-distribute-apps/power-bi-apps-content.png)
 
 4. Finalmente, em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização ou pessoas específicas ou em grupos de segurança do Active Directory. 
-   
-     ![Acesso ao aplicativo](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Ao selecionar **Concluir**, você verá uma mensagem confirmando que ele está pronto para publicar. Na caixa de diálogo de êxito, você pode copiar a URL, que é um link direto para esse aplicativo e enviá-la para as pessoas com as quais você compartilhou.
    
