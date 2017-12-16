@@ -1,5 +1,4 @@
-### YamlMime:YamlDocument
-documentType: Tutorial
+### YamlMime:Tutorial
 title: Explorando dados
 metadata:
   title: Explorando dados | Microsoft Power BI
@@ -7,7 +6,7 @@ metadata:
   audience: Business User
   level: Beginner
   nextTutorialHref: powerbiandexcel
-  nextTutorialTitle: Power BI e Excel
+  nextTutorialTitle: Power BI and Excel
   displayType: one-column
   author: davidiseminger
   manager: kfile
@@ -15,14 +14,15 @@ metadata:
   ms.topic: get-started-article
   ms.date: 12/05/2017
   ms.author: davidi
-  ms.openlocfilehash: 67e0b44ff76a8e32de0e6f460afe1fb45954dbb7
-  ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+  ms.openlocfilehash: aa974a0f3448efde8a4410fabcf0e4f78a5050fd
+  ms.sourcegitcommit: 1791b8f10332c680a1552d5361a6e01b75091385
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 12/06/2017
+  ms.lasthandoff: 12/12/2017
 items:
 - durationInMinutes: 1
-  content: "Bem-vindo ao tutorial para **explorar dados**. Aqui você aprenderá como encontrar, conectar a e interagir com os dados no Power BI.\n"
+  content: >
+    Welcome to the **exploring data** tutorial. Here you'll learn how to find, connect to, and interact with data in Power BI.
 - title: "Introdução ao serviço do Power BI"
   durationInMinutes: 2
   content: >
@@ -93,4 +93,4 @@ items:
 
 
     [!INCLUDE [](includes/4-6-install-configure-personal-gateway.md)]
-- content: "Esta seção sobre como **explorar dados** da aprendizagem guiada preparou você para trabalhar com todos os diferentes tipos de dados. No tutorial a seguir, você aprenderá como usar uma fonte de dados comuns - Excel.\0"
+- content: "This **exploring data** section of Guided Learning has prepared you to work with all sorts of different data types. In the next tutorial, you learn how to use a common data source - Excel.\0"

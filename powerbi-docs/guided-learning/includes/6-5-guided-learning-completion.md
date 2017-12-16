@@ -4,13 +4,13 @@ Você conseguiu! **Parabéns!** Você concluiu o curso **Aprendizagem interativa
 
 Esta é a última seção (e o tópico final, a mesmo que você queira saber mais sobre o DAX) do curso. Portanto, se você acompanhou todas essas seções na ordem, dedique alguns momentos para se parabenizar. Bom trabalho! Agora você está bem familiarizado com todos esses **conceitos importantes**:
 
-* O que é o [Power BI](0-0-what-is-power-bi.md)
-* Os [blocos de construção](0-0b-building-blocks-power-bi.md) do Power BI
-* [Obtendo](1-2-connect-to-data-sources-in-power-bi-desktop.md) e [modelando](2-1-intro-modeling-data.md) dados
-* [Visualizações](3-1-intro-visualizations.md)
-* [Explorando dados](4-0-intro-power-bi-service.md) no serviço do Power BI
-* Usando o [Excel e Power BI](5-1-intro-excel-data.md) juntos
-* E [publicando e compartilhando](6-0-intro-content-packs-groups.md) seu trabalho
+* O que é o [Power BI](../gettingstarted.yml#step-1)
+* Os [blocos de construção](../gettingstarted.yml#step-3) do Power BI
+* [Obtendo](../gettingdata.yml#step-3) e [modelando](../modeling.yml#step-1) dados
+* [Visualizações](../visualizations.yml#step-1)
+* [Explorando dados](../exploringdata.yml#step-1) no serviço do Power BI
+* Usando o [Excel e Power BI](../powerbiandexcel.yml#step-1) juntos
+* E [publicando e compartilhando](../publishingandsharing.yml#step-1) seu trabalho
 
 Isso é muito conhecimento, e agora que você assimilou tudo, você está pronto para começar a colocar isso na prática! Aqui estão alguns **links para downloads** ou para conectar seu navegador **ao serviço do Power BI**:
 
