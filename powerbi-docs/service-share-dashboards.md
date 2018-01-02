@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 12/11/2017
 ms.author: maggies
-ms.openlocfilehash: 0b50568e49df8e2594519028b90d5d833d17c6b7
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
+ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 12/12/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Compartilhe seus dashboards do Power BI com colegas e outras pessoas
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. O Power BI oferece [várias maneiras de colaborar e distribuir seus dashboards](service-how-to-collaborate-distribute-dashboards-reports.md) e o compartilhamento é apenas uma delas.
@@ -91,6 +91,8 @@ Somente o proprietário do painel pode ativar e desativar o novo compartilhament
    * **Ler** para impedir que a pessoa compartilhe-o com outras pessoas.
    * **Remover o acesso** para impedir que a pessoa veja o dashboard.
 
+4. Na caixa de diálogo **Remover acesso**, decida se deseja remover o acesso ao conteúdo relacionado, também, como relatórios e conjuntos de dados. Se você remover os itens com um ![ícone de aviso do Power BI](media/service-share-dashboards/power-bi-warning-icon.png), convém remover o conteúdo relacionado porque ele não será exibido corretamente.
+
 ## <a name="share-a-dashboard-with-people-outside-your-organization"></a>Compartilhar um dashboard com pessoas fora de sua organização
 Quando você compartilha um dashboard com pessoas fora de sua organização, elas recebem um email com um link para o dashboard compartilhado e precisam entrar no Power BI para vê-lo. Se não tiverem uma licença do Power BI Pro, elas podem inscrever-se para receber uma depois de clicar no link.
 
@@ -115,6 +117,33 @@ Coisas para se lembrar a respeito do compartilhamento de dashboards:
 * Os colegas que têm o mesmo domínio de email que você e os colegas cujos domínios são diferentes, mas que estão registrados no mesmo locatário, podem compartilhar o dashboard com outras pessoas. Por exemplo, digamos que os domínios contoso.com e contoso2.com estejam registrados no mesmo locatário. Se seu endereço de email for konrads@contoso.com, ravali@contoso.com e gustav@contoso2.com poderão compartilhar, desde que você tenha dado a eles permissão para compartilhar.
 * Se seus colegas já tiverem acesso a um dashboard específico, você poderá enviar um link direto para esse dashboard apenas copiando a URL quando estiver no dashboard. Por exemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Da mesma forma, se seus colegas já tiverem acesso a um dashboard específico, você poderá [enviar um link direto para o relatório subjacente](service-share-reports.md). 
+
+## <a name="troubleshoot-sharing"></a>Solucionar problemas de compartilhamento
+
+### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Destinatários do meu painel verão um ícone de bloqueio em um bloco ou uma mensagem "A permissão necessária"
+
+Se as pessoas com as quais você compartilha virem um bloco bloqueado em um painel ou uma mensagem "Permissão necessária" ao tentarem exibir um relatório, você precisará conceder permissão para o conjunto de dados subjacente. Aqui está como.
+
+1. Vá para a guia **Conjuntos de dados** na sua lista de conteúdo.
+
+1. Selecione as reticências (**...**) ao lado do conjunto de dados > **Gerenciar permissões**.
+
+    ![Gerenciar permissões](media/service-share-dashboards/power-bi-sharing-manage-permissions.png)
+
+3. Selecione **Adicionar usuário**.
+
+    ![Selecionar Adicionar usuário](media/service-share-dashboards/power-bi-share-dataset-add-user.png)
+
+1. Insira os endereços de email completos dos indivíduos, grupos de distribuição ou grupos de segurança. Você não pode compartilhar com listas de distribuição dinâmicas.
+
+    ![Adicionar endereços de email](media/service-share-dashboards/power-bi-add-user-dataset.png)
+
+5. Selecione **Adicionar**.
+
+### <a name="i-cant-share-a-dashboard"></a>Não consigo compartilhar um painel
+
+Para compartilhar um painel, você precisa ter permissão para compartilhar novamente o conteúdo subjacente – todos os relatórios e conjuntos de dados relacionados. Se você vir uma mensagem informando que não é possível compartilhar, peça ao autor do relatório para dar a você permissão para compartilhar novamente os relatórios e conjuntos de dados.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 * Tem comentários? Vá para o [site da comunidade do Power BI](https://community.powerbi.com/) para fazer sugestões.

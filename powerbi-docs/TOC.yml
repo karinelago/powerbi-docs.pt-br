@@ -380,6 +380,8 @@
           href: service-export-to-pbix.md
         - name: Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL
           href: service-url-filters.md
+        - name: Melhores práticas para a criação de relatórios rápidos e confiáveis no Power BI
+          href: power-bi-reports-performance.md
     - name: Visualizações
       items:
         - name: Visualizações no Power BI
@@ -746,6 +748,8 @@
       items:
         - name: Exibição de relatórios no Power BI Desktop
           href: desktop-report-view.md
+        - name: P e R no Power BI Desktop
+          href: desktop-qna-in-reports.md
         - name: Painel de análise no Power BI Desktop
           href: desktop-analytics-pane.md
         - name: Uso de percepções no Power BI Desktop

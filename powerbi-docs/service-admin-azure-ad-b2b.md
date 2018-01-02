@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 12/07/2017
 ms.author: asaxton
-ms.openlocfilehash: b16bae6cc8932a488920949815833def5980c1f3
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 147ec28e64cf271843fcffdd14abe005345170e0
+ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 
@@ -30,10 +30,7 @@ O Power BI integra-se ao Azure AD B2B (Azure Active Directory Business-to-Busine
 > [!VIDEO https://www.youtube.com/embed/xxQWEQ1NnlY]
 
 > [!NOTE]
-> Este recurso não está disponível atualmente com o Power BI móvel. 
-> 
-> 
-
+> Este recurso não está disponível atualmente com os aplicativos móveis do Power BI. Em um dispositivo móvel, é possível exibir o conteúdo do Power BI compartilhado usando B2B do Azure AD em um navegador. 
 
 ## <a name="invite-guest-users"></a>Convidar usuários convidados
 
@@ -99,6 +96,12 @@ A atribuição de uma licença do Power BI Pro ao usuário convidado, dentro do 
 O usuário convidado já tem uma licença do Power BI Pro atribuída em seu locatário.
 
 ![O usuário convidado traz a própria licença](media/service-admin-azure-ad-b2b/license-approach3.png)
+
+## <a name="limitations"></a>Limitações
+
+* Convidados de B2B externos são limitados somente para consumo de conteúdo. Convidados de B2B externos podem exibir aplicativos, dashboards, relatórios, exportar dados e criar assinaturas de email para dashboards e relatórios. Eles não podem acessar os espaços de trabalho ou publicar seu próprio conteúdo.
+* Este recurso não está disponível atualmente com os aplicativos móveis do Power BI. Em um dispositivo móvel, é possível exibir o conteúdo do Power BI compartilhado usando B2B do Azure AD em um navegador.
+* Não há suporte para usar usuários convidados com o Power BI em nuvens soberanas (governo).
 
 ## <a name="next-steps"></a>Próximas etapas
 

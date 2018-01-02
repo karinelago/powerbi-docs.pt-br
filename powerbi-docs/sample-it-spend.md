@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: f6c1b564bfab99deb35c919de4eb0c365d62c8e5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ebf10d6045bc1d0d0c260dffa7fbc68cfbc4528b
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Gastos de TI para o Power BI: faça um tour
 O [pacote de conteúdo](service-organizational-content-pack-introduction.md) da Análise de Gastos de TI (dashboard, relatório e conjunto de dados) analisa os custos planejados vs. reais de um departamento de TI. Essa comparação nos ajuda a entender como a empresa se preparou para o ano e investigar áreas com grandes desvios do plano. A empresa neste exemplo passa por um ciclo de planejamento anual e, em seguida, gera trimestralmente uma nova LE (Estimativa mais Recente) para ajudar a analisar as alterações nos gastos de TI no ano fiscal.
 
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce (<http://obvience.com/>) que foram mantidos anônimos.
 
-* [obter o pacote de conteúdo de Análise de gastos de TI](sample-tutorial-connect-to-the-samples.md)
-* [baixar apenas o conjunto de dados (pasta de trabalho do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529783).
+>[!Note] 
+É possível [baixar apenas do conjunto de dados (pasta de trabalho do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529783). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos. selecione **Power Pivot > Gerenciar**.
 
 ![](media/sample-it-spend/it1.png)
 

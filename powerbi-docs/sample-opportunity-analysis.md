@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/29/2017
+ms.date: 12/04/2017
 ms.author: mihart
-ms.openlocfilehash: c51984aed112b62143ab132672b331cd0f97c7a1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
+ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/08/2017
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Oportunidade de Análise de Varejo para o Power BI: faça um tour
 O exemplo **de Controle de Oportunidade** contém um painel (e relatório associado) para uma empresa de software que tem 2 canais de vendas: *direta* e *parceiro*. O gerente de vendas criado neste painel para acompanhar oportunidades e receita por região, trabalha com o tamanho do negócio e o canal.
@@ -38,7 +38,8 @@ O gerente de vendas se baseia em 2 medidas de receita:
 
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com)](http://www.obvience.com/) que foram mantidos anônimos.
 
-Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) para este exemplo  
+>[!Note] 
+Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar.  Para ver os dados brutos, selecione **Power Pivot > Gerenciar**. 
 
 ![](media/sample-opportunity-analysis/opportunity1.png)
 

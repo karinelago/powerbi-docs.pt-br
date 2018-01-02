@@ -5,7 +5,7 @@ Bem-vindo à seção **Aprendizado Interativo** do Power BI, desenvolvida para a
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX e essa série de vídeos de Aprendizado Interativo
 O objetivo desta seção **Aprendizado Interativo** é ensinar a você noções básicas e fundamentos do DAX – considerações sobre o DAX, como ele funciona e os recursos mais úteis, explicados (e aprendidos com muita experiência) por um renomado especialista no DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
 
-![](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
+![Retrato de Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
 Os vídeos apresentados nesta seção **Aprendizado Interativo** no **DAX** ensinam os fundamentos do DAX da perspectiva de como funciona a linguagem de fórmula DAX. Isso é útil ao criar fórmulas DAX do zero, mas também é muito útil para entender como o Power BI cria essas fórmulas DAX conforme você cria consultas no **Editor de Consultas**.
 
