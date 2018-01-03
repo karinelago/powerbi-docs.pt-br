@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 757415a2b0ddd8fa7f1d9799e31e4266bfc8076f
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 83b813ccdc9ed0ef232f5eede715ad3a795253d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Dicas para criar um painel bom no Power BI
 Agora que você criou um painel e adicionou alguns blocos, pense em como tornar seu painel não apenas bonito, mas também funcional. Em geral, isso significa fazer destacar as informações mais importantes, e torná-las claras e organizadas.
@@ -54,7 +54,7 @@ Se o texto e visualizações no painel são do mesmo tamanho, os leitores terão
 
 Mas não se esqueça de fornecer contexto.  
 
-Leia sobre como [criar um bloco com apenas um número](power-bi-visualization-big-number.md).
+Leia sobre como [criar um bloco com apenas um número](power-bi-visualization-card.md).
 
 ### <a name="put-the-most-important-information-in-the-upper-corner"></a>Colocar as informações mais importantes no canto superior
 A maioria das pessoas leem de cima para baixo, colocando o nível mais alto de detalhes na parte superior e mostrando mais detalhes à medida que você move na direção que o público-alvo usa para ler (esquerda para direita, direita para esquerda).

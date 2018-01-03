@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 8a4f57a26e3d3ec8fd7b23cd8e4bbd8a359104b5
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ca1ebda762fd86198248d6396233052a12dfa669
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-an-image-to-a-power-bi-dashboard"></a>Adicionar uma imagem a um dashboard do Power BI
 Há várias maneiras de adicionar uma imagem autônoma a um dashboard: uma delas é fixar uma imagem de um relatório em um dashboard e outra é adicioná-la diretamente no dashboard usando **Adicionar bloco**.  Para obter mais informações, consulte estes artigos:

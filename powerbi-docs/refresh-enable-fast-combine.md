@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a622c3f0402e0f8216f64a93cf687eaa63fd8067
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 1e68f7df5214e038df8bcd1584acb815c0af98bf
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Desabilitar a configuração de privacidade no Gateway do Power BI - Pessoal
 > [!NOTE]
@@ -59,6 +59,7 @@ Você pode usar as etapas a seguir para habilitar a Combinação Rápida para o 
     Se você não for um administrador, o local será o seguinte.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
+    
 2. Adicione o elemento **&lt;EnableFastCombine&gt;** com um valor de true ao arquivo de configuração. A adição deste elemento ativará a **Combinação Rápida** .
    
    <pre><code>&lt;EnableFastCombine&gt;true&lt;/EnableFastCombine&gt;</code></pre>
@@ -77,6 +78,7 @@ Você pode usar as etapas a seguir para habilitar a Combinação Rápida para o 
     Se você não for um administrador, o local será o seguinte.
    
     <pre><code>C:\Users\[username]\AppData\Local\Power BI Personal Gateway\1.0\Configurator\Connector</code></pre>
+
 2. Remova o elemento **&lt;EnableFastCombine&gt;** do arquivo de configuração. A remoção deste elemento desativará a **Combinação Rápida** .
 3. Saia e inicie novamente a tela de configuração de gateway.
 4. Você não verá mais o status informando se você sabe que a **Combinação Rápida** está habilitada.

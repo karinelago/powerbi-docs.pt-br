@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/26/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f61ca9c4808cbcf180b60113eeade235b8d28f6d
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 430ff5ad86636d96ca693ff7fc1ac1bb0d16b5cc
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="power-bi-notifications"></a>Notificações do Power BI
 O Centro de Notificações é um feed sequencial de informações relacionadas à sua experiência do Power BI. Abra-o para ver mensagens sobre novos painéis que foram compartilhados com você, alterações no espaço do Grupo, informações sobre reuniões e eventos do Power BI, alertas que você definiu e muito mais. Você pode [definir alertas no serviço do Power BI](service-set-data-alerts.md) e também nos aplicativos móveis do Power BI.
