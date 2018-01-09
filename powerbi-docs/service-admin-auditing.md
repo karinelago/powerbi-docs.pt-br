@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/28/2017
+ms.date: 12/12/2017
 ms.author: asaxton
-ms.openlocfilehash: 49df0d0a44ceae3e36f45f6523f39a0b5bb1b6a0
-ms.sourcegitcommit: 7742f952c20695dfb475f74965c0065b02c01521
+ms.openlocfilehash: c4c62ab5c24b7abe2760535da0a6cf69982c7174
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="using-auditing-within-your-organization"></a>Usando a auditoria dentro da sua organização
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zj4kA39jV_4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Saiba como você pode usar a auditoria com o Power BI para monitorar e investigar as ações executadas. Você pode usar a Central de segurança e conformidade ou usar o PowerShell.
+Saiba como você pode usar a auditoria com o Power BI para monitorar e investigar as ações executadas. Você pode usar a Central de Segurança e Conformidade ou usar o PowerShell.
 
 Saber quem está executando uma ação em qual item em seu locatário do Power BI pode ser essencial para ajudar a organização a atender seus requisitos, como gerenciamento de registros e conformidade regulamentar.
 
@@ -35,6 +35,16 @@ Você pode filtrar os dados de auditoria por intervalo de datas, usuário, dashb
 
 > [!NOTE]
 > O recurso de auditoria no Power BI está em modo de visualização e está disponível em todas as regiões de dados.
+
+## <a name="requirements"></a>Requisitos
+Você deve atender a esses requisitos para acessar logs de auditoria:
+
+- Para acessar a seção de auditoria do Centro de Conformidade e Segurança do Office 365, você deve ter uma licença do Exchange Online (incluída nas assinaturas do Office 365 Enterprise E3 e E5).
+- Você deve ser um administrador global ou ter uma função de administrador do Exchange que fornece acesso ao log de auditoria. 
+
+  As funções de administrador do Exchange são controladas por meio do centro de administração do Exchange. Para obter mais informações, veja [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+
+- Se você tiver acesso ao log de auditoria, mas não for um administrador global ou administrador de serviço do Power BI, você não terá acesso ao portal de administração do Power BI. Nesse caso, você deve obter um link direto para o Centro de Segurança e Conformidade do Office 365.
 
 ## <a name="enabling-auditing-functionality-in-the-power-bi-admin-portal"></a>Habilitando a funcionalidade de auditoria no portal de administração do Power BI
 
@@ -46,7 +56,7 @@ Você precisará habilitar a auditoria para sua organização para trabalhar com
    
    ![](media/service-admin-auditing/powerbi-admin.png)
 
-3. Selecione **Configurações de Locatário**.
+3. Selecione **Configurações de locatário**.
    
    ![](media/service-admin-auditing/powerbi-admin-tenant-settings.png)
 
@@ -70,8 +80,8 @@ Para auditar os logs do Power BI, visite o Centro de Conformidade e Segurança d
    ![](media/service-admin-auditing/powerbi-admin.png)
 
 3. Selecione **Logs de Auditoria**.
-4. 
-5. Selecione **Ir para o Centro de Administração do O365**.
+ 
+4. Selecione **Ir para o Centro de Administração do O365**.
    
    ![](media/service-admin-auditing/audit-log-o365-admin-center.png)
 

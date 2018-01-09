@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/30/2017
+ms.date: 12/21/2017
 ms.author: asaxton
-ms.openlocfilehash: c10ca76ac96090ff1facbdd28210b680392aae8d
-ms.sourcegitcommit: 0f6db65997db604e8e9afc9334cb65bb7344d0dc
+ms.openlocfilehash: 491be8983967b1a5dce6579411f194117602b00c
+ms.sourcegitcommit: 70e9239e375ae03744fb9bc122d5fc029fb83469
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/22/2017
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usar segurança em nível de linha com conteúdo inserido do Power BI
-A RLS (segurança em nível de linha) pode ser usada para restringir o acesso do usuário aos dados em um relatório ou conjunto de dados, permitindo que vários usuários diferentes usem o mesmo relatório, enquanto todos veem dados diferentes. A RLS pode ser aproveitada durante a inserção de relatórios do Power BI.
+Segurança em nível de linha (RLS) pode ser usada para restringir o acesso do usuário aos dados dentro de painéis, blocos, relatórios e conjuntos de dados. Vários usuários diferentes podem trabalhar com esses mesmos artefatos durante a visualização de dados diferentes. Inserir dá suporte a RLS.
 
 Se você está fazendo uma inserção para usuários que não têm o Power BI (o aplicativo possui dados), o que normalmente é um cenário de ISV, este artigo é ideal para você! Você precisará configurar o token de inserção da conta para o usuário e a função. Continue lendo para saber como fazer isso.
 
@@ -34,7 +34,7 @@ Se você está fazendo uma inserção para usuários do Power BI (o usuário pos
 
 Para aproveitar a RLS, é importante entender os três conceitos principais: Usuários, Funções e Regras. Vamos examinar cada um deles mais detalhadamente:
 
-**Usuários** – esses são os usuários finais reais que exibem relatórios. No Power BI Embedded, os usuários são identificados pela propriedade de nome de usuário em um token de inserção.
+**Usuários** – os usuários finais, exibindo o artefato (painel, bloco, relatório ou conjunto de dados). No Power BI Embedded, os usuários são identificados pela propriedade de nome de usuário em um token de inserção.
 
 **Funções** – os usuários pertencem a funções. Uma função é um contêiner de regras e pode ser nomeada como algo parecido com *Gerente de Vendas* ou *Representante de Vendas*. As funções são criadas no Power BI Desktop. Para obter mais informações, consulte [RLS (segurança em nível de linha) com o Power BI Desktop](../desktop-rls.md).
 
@@ -85,11 +85,11 @@ Agora que você tem as funções do Power BI Desktop configuradas, é necessári
 
 Os usuários são autenticados e autorizados pelo aplicativo e os tokens de inserção são usados para conceder o acesso de usuário a um relatório específico do Power BI Embedded. O Power BI Embedded não tem nenhuma informação específica sobre quem é o usuário. Para que a RLS funcione, você precisará passar algum contexto adicional como parte do token de inserção na forma de identidades. Isso é feito pela API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
-A API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) aceita uma lista de identidades com a indicação dos conjuntos de dados relevantes. No momento, apenas uma identidade pode ser fornecida. O suporte a vários conjuntos de dados será adicionado para a inserção de dashboards no futuro. Para que a RLS funcione, você precisará passar os itens a seguir como parte da identidade.
+A API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) aceita uma lista de identidades com a indicação dos conjuntos de dados relevantes. Para que a RLS funcione, você precisará passar os itens a seguir como parte da identidade.
 
 * **nome de usuário (obrigatório)** – isso é uma cadeia de caracteres que pode ser usada para ajudar a identificar o usuário ao aplicar as regras de RLS. Apenas um usuário pode ser listado.
 * **funções (obrigatório)** – uma cadeia de caracteres que contém as funções a serem selecionadas ao aplicar as regras de Segurança em Nível de Linha. Se você estiver passando mais de uma função, elas deverão ser passadas como uma matriz de cadeia de caracteres.
-* **conjunto de dados (obrigatório)** – o conjunto de dados aplicável ao relatório que está sendo inserido. Apenas um conjunto de dados pode ser fornecido na lista de conjuntos de dados. O suporte a vários conjuntos de dados será fornecido para a inserção de dashboards no futuro.
+* **Conjunto de dados (obrigatório)** – o conjunto de dados aplicável ao artefato que está sendo inserido. 
 
 Crie o token de inserção usando o método **GenerateTokenInGroup** em **PowerBIClient.Reports**. Atualmente, há suporte apenas para relatórios.
 
@@ -125,7 +125,7 @@ Se você estiver chamando a API REST, a API atualizada agora aceitará uma matri
 }
 ```
 
-Agora, com todas as informações juntas, quando alguém fizer logon no aplicativo para exibir este relatório, ele só poderá ver os dados que tem permissão para ver, conforme definido por nossa segurança em nível de linha.
+Agora, com todas as informações juntas, quando alguém fizer logon no aplicativo para exibir este artefato, ele só poderá ver os dados que têm permissão para ver, conforme definido por nossa segurança em nível de linha.
 
 ## <a name="working-with-analysis-services-live-connections"></a>Trabalhando com conexões dinâmicas do Analysis Services
 A segurança em nível de linha pode ser usada com conexões dinâmicas do Analysis Services para servidores locais. Há alguns conceitos específicos que você deve compreender ao usar esse tipo de conexão.
@@ -143,12 +143,11 @@ As funções podem ser fornecidas com a identidade em um token de inserção. Se
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 * A atribuição de usuários a funções no serviço do Power BI não afeta a RLS ao usar um token de inserção.
 * Embora o serviço do Power BI não aplicará a configuração de RLS a administradores ou membros com permissões de edição, ao fornecer uma identidade com um token de inserção, ela será aplicada aos dados.
-* Apenas há suporte para o fornecimento das informações de identidade, durante a chamada à GenerateToken, na leitura/gravação de relatório. O suporte para outros recursos será fornecido posteriormente.
 * Para servidores locais, há suporte para conexões dinâmicas do Analysis Services.
 * As conexões ao vivo do Azure Analysis Services suportam a filtragem por funções, mas não dinâmicas por nome de usuário.
 * Se o conjunto de dados subjacente não exigir a RLS, a solicitação de GenerateToken **não** deverá conter uma identidade efetiva.
 * Se o conjunto de dados subjacente for um modelo de nuvem (modelo armazenado em cache ou DirectQuery), a identidade efetiva deverá incluir, pelo menos, uma função. Caso contrário, a atribuição de função não ocorrerá.
-* Apenas uma identidade pode ser fornecida na lista de identidades. Estamos usando uma lista para permitir tokens de várias identidades para a inserção de dashboard no futuro.
+* Uma lista de identidades permite vários tokens de identidade para a inserção de painéis. Para todos os outros artefatos, a lista contém uma única identidade.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

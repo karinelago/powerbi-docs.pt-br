@@ -15,32 +15,33 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 2f428095eb57c5358770f1d6d8572316d2b84c37
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Gráficos de rosca no Power BI (tutorial)
 Um gráfico de rosca é semelhante a um gráfico de pizza, pois mostra a relação das partes com o todo. A única diferença é que o centro está em branco e permite o espaço para um rótulo ou ícone.
 
 ## <a name="create-a-doughnut-chart"></a>Crie um gráfico de rosca
-Para acompanhar, entre no Power BI e selecione **Obter Dados** \> **Amostras** \> **Amostra de Análise de Varejo** \> **Conectar**. 
+Essas instruções usam o Exemplo de Análise de Varejo para criar um gráfico de rosca que exibe as vendas deste ano por categoria. Para acompanhar, [baixe o exemplo](sample-datasets.md) do serviço do Power BI (app.powerbi.com) ou do Power BI Desktop.
 
-1. No painel, selecione o bloco **Armazenamentos Totais** para abrir o relatório "Exemplo de Análise de Varejo".
-2. Selecione **Editar relatório** para abrir o relatório no modo de Exibição de Edição.
-3. [Adicione uma nova página do relatório](power-bi-report-add-page.md).
-4. Criar um gráfico de rosca que exibe as vendas deste ano por categoria.
+1. Comece em uma [página de relatório em branco ](power-bi-report-add-page.md) e selecione o campo **SalesStage** \> **Sales Stage**. Caso esteja usando o serviço do Power BI, certifique-se de abrir o relatório no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md).
+
+2. No painel Campos, selecione **Vendas** \> **Vendas do Ano Passado**.  
    
-   * No painel **Campos**, selecione **Vendas** \> **Vendas do Ano Passado**.
-   * Converter em um gráfico de rosca. Se as vendas do ano passado não estiverem na área **Valores** área, arraste-as para lá.
+3. No painel Visualizações, selecione o ícone de gráfico de rosca ![ícone de gráfico de rosca]() para converter seu gráfico de barras em um gráfico de rosca. Se as **Vendas do Ano Passado** não estiverem na área **Valores**, arraste-as para lá.
      
-       ![](media/power-bi-visualization-doughnut-charts/convertdonut.png)
-   * Selecione **Item** \> **Categoria** para adicioná-lo à área **Legenda**. 
+   ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-chart.png)
+
+4. Selecione **Item** \> **Categoria** para adicioná-lo à área **Legenda**. 
      
-       ![](media/power-bi-visualization-doughnut-charts/doughnuttutorial.png)
+    ![](media/power-bi-visualization-doughnut-charts/power-bi-doughnut-done.png)
+
+5. Opcionalmente, [ajuste o tamanho e a cor do texto do gráfico](power-bi-visualization-customize-title-background-and-legend.md). 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * A soma dos valores do gráfico de rosca deve somar até 100%.

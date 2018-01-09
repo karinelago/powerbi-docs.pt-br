@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/14/2017
 ms.author: asaxton
-ms.openlocfilehash: e6821e20dbbb9b69ec4afa9ef48e1fb78bb8b3f5
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
+ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/14/2017
 ---
 # <a name="whitepapers-for-power-bi"></a>White papers para o Power BI
 
@@ -37,9 +37,9 @@ White papers permitem que você explore os tópicos do Power BI em um nível mai
 | [Análises avançadas com o Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Descreve os recursos analíticos avançados do Power BI, incluindo análise preditiva, visualizações personalizadas, integração com o R e expressões de análise de dados. |
 | [Filtragem bidirecional](desktop-bidirectional-filtering.md) |Explica a filtragem cruzada bidirecional no Power BI Desktop (o white paper também aborda o SQL Server Analysis Services 2016, pois ambos têm o mesmo comportamento). |
 | [DirectQuery no SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |Para SQL Server 2016, o DirectQuery foi reprojetado para melhorar consideravelmente a velocidade e o desempenho, no entanto, agora está também mais complexo de compreender e implementar. |
-| [Governança](service-admin-governance.md) |Fornece uma estrutura para aumentar o retorno sobre o investimento relacionado ao Power BI |
+| [Governança](service-admin-governance.md) |Fornece uma estrutura para aumentar o retorno sobre o investimento relacionado ao Power BI. |
 | [Segurança](service-admin-power-bi-security.md) |Fornece uma explicação detalhada de segurança no Power BI. |
 | [Protegendo o modelo semântico de BI tabular](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Este documento apresenta o modelo de segurança para a semântica de BI tabular e Power BI. Você aprenderá como criar funções, implementar a segurança dinâmica, definir configurações de representação, gerenciar funções e escolher um método para se conectar a modelos que funciona no contexto da segurança de rede. |
 | [Diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI](report-server/capacity-planning.md) |Este documento tem como objetivo oferecer diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI, com o compartilhamento de resultados de diversas execuções de teste de carga de várias cargas de trabalho em um servidor de relatório. |
-
+|[Planejamento e Implantação do Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | Whitepaper técnico sobre as práticas recomendadas e diretrizes de planejamento, implantação e operacionalização do Power BI Premium. 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

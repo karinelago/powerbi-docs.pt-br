@@ -16,16 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/06/2017
+ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: cfbd7d124784b15b432921554c8ac5bbe321846c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2a4134e1a06933927bd2c5453cd8e7a79394c384
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de dados no serviço do Power BI
-Defina alertas para notificá-lo quando os dados em seus dashboards forem alterados além dos limites definidos por você. Os alertas só podem ser configurados em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em visuais criados de conjuntos de dados de streaming que foram fixados de um relatório para um dashboard, mas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**. Apenas você poderá ver os alertas que definir, mesmo se compartilhar seu dashboard. Os alertas de dados são totalmente sincronizados nas plataformas; defina e exiba alertas de dados [nos aplicativos móveis do Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço do Power BI. Eles não estão disponíveis no Power BI Desktop. Os alertas podem até mesmo ser [automatizados e integrados com o Microsoft Flow](https://flow.microsoft.com) - [experimente por conta própria](service-flow-integration.md).
+Defina alertas para notificá-lo quando os dados em seus dashboards forem alterados além dos limites definidos por você. 
+
+Os alertas só podem ser definidos em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em visuais criados de conjuntos de dados de streaming que foram fixados de um relatório para um dashboard, mas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**. 
+
+Apenas você poderá ver os alertas que definir, mesmo se compartilhar seu dashboard. Os alertas de dados são totalmente sincronizados nas plataformas; defina e exiba alertas de dados [nos aplicativos móveis do Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço do Power BI. Eles não estão disponíveis no Power BI Desktop. Os alertas podem até mesmo ser [automatizados e integrados com o Microsoft Flow](https://flow.microsoft.com) - [experimente por conta própria](service-flow-integration.md).
 
 ![](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -46,13 +50,12 @@ Este exemplo usa um bloco de cartões do dashboard de exemplo de Análise de Var
    ![](media/service-set-data-alerts/powerbi-card.png)
 2. Selecione o ícone de sino ![](media/service-set-data-alerts/power-bi-bell-icon.png) para adicionar um ou mais alertas para o **Total de repositórios**.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert.png)
-3. Para começar, verifique se o controle deslizante está definido como **Ligado** e dê um título ao seu alerta. Os títulos ajudam a reconhecer facilmente seus alertas.
+1. Para começar, selecione **+ Adicionar regra de alerta**, verifique se o controle deslizante está definido como **Ativado** e dê um título ao seu alerta. Os títulos ajudam a reconhecer facilmente seus alertas.
    
    ![](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Role para baixo e insira os detalhes do alerta.  Neste exemplo, criaremos um alerta que nos notifica uma vez por dia caso o número do total de repositórios ultrapasse 100. Os alertas serão exibidos em nossa Central de Notificações. Além disso, o Power BI vai nos enviar um email.
    
-   ![](media/service-set-data-alerts/powerbi-set-alert-details.png)
+   ![](media/service-set-data-alerts/power-bi-set-alert-details.png)
 5. Selecione **Salvar**.
 
 ## <a name="receiving-alerts"></a>Recebendo alertas
@@ -76,7 +79,7 @@ Em seguida, o Power BI enviará um alerta para o centro de notificações e, com
    > 
 
 ## <a name="managing-alerts"></a>Gerenciando alertas
-Existem três maneiras de gerenciar seus alertas: no próprio bloco do dashboard, no menu Configurações do Power BI e em um bloco individual no [aplicativo móvel do Power BI no iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) ou no [aplicativo móvel do Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
+Existem várias maneiras de gerenciar seus alertas: no próprio bloco do painel, no menu Configurações do Power BI ou em um bloco individual no [Aplicativo móvel do Power BI no iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) ou no [aplicativo móvel do Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>No próprio bloco
 1. Se você precisar alterar ou remover um alerta para um bloco, abra novamente a janela **Gerenciar alertas** selecionando o ícone de sino ![](media/service-set-data-alerts/power-bi-bell-icon.png). Todos os alertas definidos para esse bloco são exibidos.

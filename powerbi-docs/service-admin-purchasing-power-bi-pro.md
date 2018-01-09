@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: asaxton
-ms.openlocfilehash: 83f143427ce74f593ea6e8d99f8a6b127ee4488d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: cf0eeaa16e7dc3576cb774cb7bb7dfef9c4486d0
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Comprando o Power BI Pro
 O Power BI Pro é voltado para usuários que publicam relatórios, compartilham dashboards, colaboram com colegas em espaços de trabalho e participam de outras atividades relacionadas. Por exemplo, ele possibilita:
@@ -34,7 +34,7 @@ O Power BI Pro é voltado para usuários que publicam relatórios, compartilham 
 
 Os administradores de TI têm algumas opções para usar o Power BI Pro dentro de sua organização. Você pode adquirir o Power BI Pro por meio do centro de administração do Office 365 ou de seu parceiro ou representante Microsoft. Este artigo examinará as duas opções de avaliação disponíveis para o Power BI Pro e, em seguida, como comprar como uma organização.
 
-Para obter mais informações sobre o Power BI Premium e como o Power BI Pro se encaixa na oferta Premium, consulte [Power BI Premium – o que é?](service-premium.md).
+Para obter mais informações sobre o Power BI Premium e como o Power BI Pro se encaixa na oferta Premium, consulte [Power BI Premium – o que é?](service-premium.md)
 
 ## <a name="pricing"></a>Preços
 Para obter as informações de preços mais recentes do Power BI Pro e uma listagem de tabela dos recursos incluídos, consulte [Preços do Power BI](https://powerbi.microsoft.com/pricing/).
@@ -118,6 +118,11 @@ Em **Cobrança** > **Assinaturas**, você verá **Power BI Pro** listado. Se dec
 Quando você estiver conectado ao serviço, será possível verificar se tem uma conta Pro indo até o ícone de **engrenagem** e selecionando **Gerenciar armazenamento pessoal**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro3.png)
+
+## <a name="grace-period"></a>Período de carência
+Há um período de carência de 30 dias após a expiração de uma licença do Power BI Pro. 
+
+O Power BI Pro tem o mesmo ciclo de vida de assinatura que o Office 365. Para obter mais informações, consulte [O que acontece com meus dados e o acesso quando termina minha assinatura do Office 365 para empresas?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Inscrição de autoatendimento no Power BI](service-self-service-signup-for-power-bi.md)  

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 20760bec773c6f1d2a3cbbfaefd0651b97cbe601
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Adicionar imagem, texto, vídeo e muito mais no seu dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ O controle **Adicionar bloco** permite que você adicione diretamente uma imagem
 Digamos que você deseja o logotipo de sua empresa em seu painel, ou alguma outra imagem. Você precisará salvar o arquivo de imagem online e vincular-se a ela. Certifique-se de que não haja necessidade de credenciais especiais para acessar o arquivo de imagem. Por exemplo, o OneDrive e o SharePoint exigem autenticação, portanto, as imagens armazenadas lá não podem ser adicionadas a um painel dessa maneira.  
 
 1. Selecione **Imagem** > **Avançar**.
-2. Adicione informações da imagem ao painel **Detalhes do bloco** .
+2. Adicione informações da imagem à janela **Adicionar bloco de imagem**.
    
     ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
@@ -56,16 +56,16 @@ Digamos que você deseja o logotipo de sua empresa em seu painel, ou alguma outr
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Adicionar um título de painel ou caixa de texto
 1. Selecione **Caixa de texto > Avançar**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-text-box-new.png)
-   
    > **OBESERVAÇÃO**: para adicionar um título do painel, digite o título na caixa de texto e aumentar a fonte.
-   > 
    > 
 2. Formate a caixa de texto:
    
    * para exibir um título acima da caixa de texto, selecione **Exibir título e subtítulo** e digite um título e/ou subtítulo.
    * insira e formate o conteúdo da caixa de texto.  
-   * Opcionalmente, defina um link personalizado para o título.  No entanto, nesse exemplo, como adicionamos hiperlinks na própria caixa de texto, deixe a opção **Definir link personalizado** desmarcada.
+   * Opcionalmente, defina um link personalizado para o título. Um link personalizado pode ser um site externo ou um painel ou relatório no espaço de trabalho. No entanto, nesse exemplo, adicionamos hiperlinks na própria caixa de texto e deixaremos a opção **Definir link personalizado** desmarcada.
+
+     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+   
 3. Selecione **Aplicar**.  No painel, redimensione e mova a caixa de texto, conforme necessário.
    
    ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
@@ -74,7 +74,7 @@ Digamos que você deseja o logotipo de sua empresa em seu painel, ou alguma outr
 Quando você adiciona um bloco de vídeo do YouTube ou Vimeo a seu painel, o vídeo é reproduzido diretamente no painel.
 
 1. Selecione **Vídeo > Avançar**.
-2. Adicione informações do vídeo ao painel **Detalhes do bloco** .
+2. Adicione informações do vídeo ao painel **Adicionar bloco de vídeo**.
    
     ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
@@ -100,7 +100,7 @@ Cole ou digite qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, como u
    
    * para exibir um título acima do bloco, selecione *Exibir título e subtítulo* e digite um título e/ou um subtítulo.
    * insira o código de inserção. Neste exemplo, estamos copiando e colando um feed do Twitter.
-   * Selecione **Aplicar**.  No painel, redimensione e mova o bloco de conteúdo da Web, conforme necessário.
+3. Selecione **Aplicar**.  No painel, redimensione e mova o bloco de conteúdo da Web, conforme necessário.
      
       ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 

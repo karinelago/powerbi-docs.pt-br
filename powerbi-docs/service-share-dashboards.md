@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 276f663b8454ef0938222576cec13fcfb073e2cf
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Compartilhe seus dashboards do Power BI com colegas e outras pessoas
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. O Power BI oferece [várias maneiras de colaborar e distribuir seus dashboards](service-how-to-collaborate-distribute-dashboards-reports.md) e o compartilhamento é apenas uma delas.
@@ -122,7 +122,11 @@ Coisas para se lembrar a respeito do compartilhamento de dashboards:
 
 ### <a name="my-dashboard-recipients-see-a-lock-icon-in-a-tile-or-a-permission-required-message"></a>Destinatários do meu painel verão um ícone de bloqueio em um bloco ou uma mensagem "A permissão necessária"
 
-Se as pessoas com as quais você compartilha virem um bloco bloqueado em um painel ou uma mensagem "Permissão necessária" ao tentarem exibir um relatório, você precisará conceder permissão para o conjunto de dados subjacente. Aqui está como.
+As pessoas com as quais você compartilha poderão ver um bloco bloqueado em um painel ou uma mensagem "Permissão necessária" ao tentarem exibir um relatório.
+
+![Bloco do Power BI bloqueado](media/service-share-dashboards/power-bi-locked_tile_small.png)
+
+Nesse caso, você precisa conceder a permissão para o conjunto de dados subjacente. Aqui está como.
 
 1. Vá para a guia **Conjuntos de dados** na sua lista de conteúdo.
 

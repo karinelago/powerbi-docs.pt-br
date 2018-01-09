@@ -16,17 +16,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: dbf65dba335be077518a46f2a5bafdd7e85dcb79
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: fe85f52bccc164fee896d1fd3e690264867b54fa
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicar uma página de relatório no Power BI
-1. No Power BI, abra um relatório na [exibição de Edição](service-reading-view-and-editing-view.md) e [crie uma visualização](power-bi-report-add-visualizations-i.md) se o relatório ainda não tiver uma. 
-2. Na barra de controle da parte superior, selecione o ícone **Duplicar essa página** .
+Duplicar uma página de relatório requer permissões de edição para o relatório. No serviço do Power BI, isso significa abrir o relatório no [Modo de exibição de edição](service-reading-view-and-editing-view.md). 
+
+
+1. No Power BI, abra um relatório que tenha pelo menos uma página. 
+
+2. Na barra de controle da parte superior, selecione **Duplicar essa página**.
    
    ![](media/power-bi-report-copy-paste-page/pbi_duplicate_new.png)
    
@@ -36,9 +40,10 @@ ms.lasthandoff: 11/15/2017
    <iframe width="560" height="315" src="https://www.youtube.com/embed/UOKbxTXZrWw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="next-steps"></a>Próximas etapas
-Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)
+Saiba mais sobre [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
+[Adicionar uma nova página a um relatório](power-bi-report-add-page.md) 
 
-[Power BI – conceitos básicos](service-basic-concepts.md)
+[Power BI – conceitos básicos](service-basic-concepts.md) 
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

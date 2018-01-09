@@ -1,6 +1,6 @@
 ---
-title: "Power BI - conceitos básicos"
-description: "Power BI - conceitos básicos"
+title: "Serviço do Power BI - conceitos básicos"
+description: "Espaços de trabalho, painéis, relatórios, conjunto de dados e pastas de trabalho do Power BI."
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,34 +16,32 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f20ea18fb46928bf7533caacf55a0cdb3d761571
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 6e1e74f26ab1d0a0a59bc33b9d1068807918e18e
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – conceitos básicos do serviço do Power BI
-<!-- Shared newnav Include -->
-[!INCLUDE [newnavbydefault](./includes/newnavbydefault.md)]
 
-Este artigo pressupõe que você já tenha [se inscrito no Power BI](service-self-service-signup-for-power-bi.md) e [adicionado alguns dados](service-get-data.md).
+Este artigo presume que você já [se inscreveu no serviço do Power BI](service-self-service-signup-for-power-bi.md) e [adicionou alguns dados](service-get-data.md).
 
 Ao abrir o serviço do Power BI, você verá um ***dashboard***. Dashboards são uma coisa que diferencia o serviço do Power BI de Power BI Desktop.
 
-![](media/service-basic-concepts/completenewer.png)
+![](media/service-basic-concepts/completenewest.png)
 
 Os principais recursos da sua interface do usuário de serviço do Power BI são os seguintes:
 
-1. barra de navegação
-2. painel com blocos
+1. painel de navegação (nav esq)
+2. telas (neste caso, painel com blocos)
 3. caixa de perguntas de P e R
-4. botões de ajuda e comentários
-5. título do painel
+4. botões de ícone, incluindo ajuda e comentários
+5. bloco do painel (caminho de navegação, também trilhas)
 6. Iniciador do aplicativo do Office 365
-7. Botões da página inicial do Power BI
-8. Ações adicionais do painel
+7. Botão Página inicial do Power BI
+8. Botões de ícone rotulados
 
 Nos aprofundaremos nesses itens mais tarde, mas primeiro vamos examinar alguns conceitos do Power BI.
 
@@ -53,151 +51,195 @@ Ou, talvez você queira assistir a este vídeo primeiro antes de ler o restante 
 
 
 ## <a name="power-bi-concepts"></a>Conceitos do Power BI
-Os três principais componentes do Power BI são: ***painéis***, ***relatórios*** e ***conjuntos de dados***. Você não pode ter painéis ou relatórios sem dados (bem, você até pode ter painéis vazios e relatórios vazios, mas eles não são muito úteis até que tenham dados), então vamos começar com os **conjuntos de dados**.
+Os quatro maiores blocos de construção do Power BI são: ***painéis***, ***relatórios***, ***pastas de trabalho*** e ***conjuntos de dados***. E eles ficam todos organizados em ***pastas de trabalho***. É importante entender os espaços de trabalho antes de nos aprofundarmos nos quatro blocos de construção, então, vamos começar com essa parte. 
+
+## <a name="workspaces"></a>Espaços de trabalho
+Espaços de trabalho são contêineres para painéis, relatórios, pastas de trabalho e conjunto de dados no Power BI. Há dois tipos de espaços de trabalho: **Meu Espaço de Trabalho* e espaços de trabalho do aplicativo. Então, o que é um *aplicativo*? Um *aplicativo* do Power BI é uma coleção de painéis e relatórios para entregar métricas-chave para sua organização. Aplicativos são interativos, mas não podem ser editados 
+
+- *Meu Espaço de Trabalho* é o espaços de trabalho para qualquer cliente do Power BI trabalhar com seu conteúdo. Apenas você tem acesso ao Meu Espaço de Trabalho pertencente a você. Caso queira compartilhar algum dos seus conteúdos, você tem várias opções: criar um espaço de trabalho do aplicativo no qual você agrupa conteúdos em um *aplicativo* e o torne disponível para outros na sua organização ou criar um espaço de trabalho do aplicativo e permitir o acesso de seus colegas a ele para que vocês possam compartilhar e colaborar.     
+-  *Espaços de trabalho do aplicativo* são usados para colaborar e compartilhar conteúdo com colegas. Eles também são os locais nos quais você cria, publica e gerencia aplicativos para sua organização. Imagine-os como áreas de preparo e contêineres para o conteúdo que vai formar um aplicativo do Power BI. Você pode adicionar colegas aos seus espaços de trabalho do aplicativo e colaborar em painéis, relatórios, pastas de trabalho e conjunto de dados. Todos os membros do espaço de trabalho do aplicativo precisam ter licenças do Power BI Pro, mas clientes do aplicativo (os colegas que têm acesso aos aplicativos) não necessariamente precisam de licenças Pro.  
+
+Para saber mais, consulte a seção **Compartilhar seu trabalho** do Sumário, começando com [Como eu devo colaborar e compartilhar painéis e relatórios](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+
+Agora voltemos aos blocos de construção do Power BI. Você não pode ter painéis ou relatórios sem dados (bem, você até pode ter painéis vazios e relatórios vazios, mas eles não são muito úteis até que tenham dados), então vamos começar com os **conjuntos de dados**.
 
 ## <a name="datasets"></a>Conjuntos de dados
 Um *conjunto de dados* é uma coleção de dados que você *importa* ou a que *se conecta*. O Power BI permite que você se conecte a todos os tipos de conjuntos de dados, os importe e os reúna em um único lugar.  
 
-Na barra de navegação, os conjuntos de dados aos quais você se conectou ou importou estão listados no título **Conjuntos de dados**. Cada conjunto de dados listado representa uma fonte de dados única, por exemplo, uma planilha do Excel no OneDrive, um conjunto de dados de tabela SSAS local ou um conjunto de dados do Salesforce. Há várias diferentes fontes de dados com suporte, e sempre estamos adicionando novas. [Veja a lista de tipos de conjunto de dados que podem ser usados com o Power BI](service-get-data.md).
+Conjuntos de dados estão associados aos *espaços de trabalho*, e um conjunto de dados exclusivo pode ser parte de muitos espaços de trabalho. Ao abrir um espaço de trabalho, os conjuntos de dados associados estarão listados na guia **Conjuntos de Dados**. Cada conjunto de dados listado representa uma fonte de dados única, por exemplo, uma planilha do Excel no OneDrive, um conjunto de dados de tabela SSAS local ou um conjunto de dados do Salesforce. Há várias diferentes fontes de dados com suporte, e sempre estamos adicionando novas. [Veja a lista de tipos de conjunto de dados que podem ser usados com o Power BI](service-get-data.md).
+
+No exemplo abaixo, selecionamos o espaço de trabalho do aplicativo “Vendas e marketing” e clicamos na guia para **Conjuntos de dados**.
+
+![](media/service-basic-concepts/power-bi-datasets.png)
 
 **UM** conjunto de dados...
 
-* pode ser usado repetidas vezes, indefinidamente.
+* pode ser usado repetidamente em um ou mais espaços de trabalho.
 * pode ser usado em vários relatórios diferentes.
 * Visualizações desse único conjunto de dados podem ser exibidas em vários painéis diferentes.
   
   ![](media/service-basic-concepts/drawing2.png)
 
-Para [se conectar a um conjunto de dados ou importá-lo](service-get-data.md), selecione **Obter Dados** (na parte inferior da barra de navegação) ou selecione o ícone de mais ao lado do título **Conjuntos de dados**. Siga as instruções para se conectar à fonte específica ou para importá-la e adicione o conjunto de dados ao seu espaço de trabalho. Novos conjuntos de dados estão listados na barra de navegação esquerda e marcados com um asterisco amarelo. O trabalho que você realiza no Power BI não altera o conjunto de dados subjacente.
+Para [conectar-se a um conjunto de dados ou importá-lo](service-get-data.md), selecione **Obter Dados** (na parte inferior da navegação esquerda) ou selecione **+ Criar > Conjunto de dados** (no canto superior direito). Siga as instruções para se conectar à fonte específica ou importá-la e depois adicionar o conjunto de dados ao espaço de trabalho ativo. Novos conjuntos de dados ficam marcados com um asterisco amarelo. O trabalho que você realiza no Power BI não altera o conjunto de dados subjacente.
 
 Se você fizer [parte de um ***espaço de trabalho do aplicativo***](service-collaborate-power-bi-workspace.md), os conjuntos de dados adicionados por um membro do espaço de trabalho estarão disponíveis para os outros membros do espaço de trabalho.
 
-Os conjuntos de dados podem ser atualizados, renomeados, explorados, usados para criar relatórios e removidos. Para explorar um conjunto de dados, selecione-o. O que você está fazendo é abrir o conjunto de dados no editor de relatórios, onde pode de fato começar a se aprofundar nos dados e criar visualizações. Então, vamos passar para o próximo tópico – relatórios.
+Conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Use um conjunto de dados para criar um relatório do zero ou executando [insights rápidos](service-insights.md).  Para ver quais relatórios e painéis já estão usando um conjunto de dados, selecione **Exibição relacionada**. Para explorar um conjunto de dados, selecione-o. O que você está fazendo é abrir o conjunto de dados no editor de relatórios, onde pode de fato começar a se aprofundar nos dados e criar visualizações. Então, vamos passar para o próximo tópico – relatórios.
 
-### <a name="dig-deeper"></a>Aprofunde-se:
+### <a name="dig-deeper"></a>Mergulhe mais fundo
 * [Power BI Premium – o que é?](service-premium.md)
 * [Obter dados para o Power BI](service-get-data.md)
-* [Conjuntos de dados de exemplo e pacotes de conteúdo para o Power BI](sample-datasets.md)
+* [Conjuntos de dados de amostra para o Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Relatórios
-Um relatório do Power BI é uma ou mais páginas de visualizações (quadros e gráficos como gráficos de linhas, gráficos de pizza, mapas de árvore e muito outros). As visualizações também são chamadas de ***visuais***. Todas as visualizações em um relatório vêm de um único conjunto de dados. Os relatórios podem ser criados do zero com o Power BI, podem ser importados com dashboards que seus colegas compartilham com você ou podem ser criados quando você se conecta a conjuntos de dados do Excel, Power BI Desktop, bancos de dados, aplicativos SaaS e [pacotes de conteúdo](service-organizational-content-pack-introduction.md).  Por exemplo, quando você se conecta a uma pasta de trabalho do Excel que contém planilhas do Power View, o Power BI cria um relatório baseado nessas planilhas. E quando você se conecta a um aplicativo SaaS, o Power BI importa um relatório pré-criado.
+Um relatório do Power BI é uma ou mais páginas de visualizações (quadros e gráficos como gráficos de linhas, gráficos de pizza, mapas de árvore e muito outros). As visualizações também são chamadas de ***visuais***. Todas as visualizações em um relatório vêm de um único conjunto de dados. Relatórios podem ser criados do zero dentro do Power BI, podem ser importados com painéis que colegas compartilharam com você ou podem ser criados quando você se conectar a conjuntos de dados a partir do Excel, Power BI Desktop, banco de dados, aplicativos SaaS e [aplicativos](service-get-data.md).  Por exemplo, quando você se conecta a uma pasta de trabalho do Excel que contém planilhas do Power View, o Power BI cria um relatório baseado nessas planilhas. E quando você se conecta a um aplicativo SaaS, o Power BI importa um relatório pré-criado.
 
 Há dois modos de exibir relatórios e interagir com eles: [Modo de Exibição de Leitura](service-report-open-in-reading-view.md) e [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md).  Somente a pessoa que criou o relatório, co-proprietários e pessoas com permissão têm acesso a todos a todos os recursos de exploração, criação e compartilhamento de recursos do ***Modo de Exibição de Edição*** para esse relatório. E as pessoas com quem eles compartilharem o relatório podem explorar e interagir com o relatório usando o ***Modo de Exibição de Leitura***.   
 
-No painel de navegação, seus relatórios estão listados no título **Relatórios**. Cada relatório listado representa uma ou mais páginas de visualizações, com base em um dos conjuntos de dados subjacentes. Para abrir um relatório, basta selecioná-lo. Por padrão, o relatório é aberto primeiro na Exibição de Leitura.  Selecione apenas **Editar relatório** para abri-lo no Modo de Exibição de Edição (se você tiver as permissões necessárias).  Se um painel compartilhado tiver relatórios, você NÃO verá o relatório listado na barra de navegação. Em vez disso, abra relatórios compartilhados diretamente a partir do painel compartilhado selecionando um bloco do painel (mais informações sobre os blocos serão fornecidas posteriormente).
+Ao abrir um espaço de trabalho, os relatórios associados ficam listados na guia **Relatórios**. Cada relatório listado representa uma ou mais páginas de visualizações baseadas em apenas um conjunto de dados subjacente. Para abrir um relatório, basta selecioná-lo. 
+
+Ao abrir um aplicativo, você verá um painel.  Para acessar um relatório subjacente, selecione um bloco do painel (falaremos mais sobre isso depois) que foi fixado em um relatório. Lembre-se de que nem todos os blocos são fixados em relatórios, então, talvez seja preciso clicar em alguns blocos para encontrar um relatório. 
+
+Por padrão, o relatório abre em Modo de Exibição de Leitura.  Basta selecionar **Editar relatório** para abri-lo no Modo de Exibição de Edição (caso tenha as permissões necessárias). 
+
+No exemplo abaixo, selecionamos o aplicativo de espaço de trabalho “Vendas e marketing” e clicamos na guia **Relatórios**.
+
+![](media/service-basic-concepts/power-bi-reports.png)
 
 **UM** relatório...
 
-* pode ser associado a vários painéis (blocos anexados por meio desse relatório podem aparecer em vários painéis).
+* está contido em um único espaço de trabalho
+* pode ser associado com vários painéis dentro desse espaço de trabalho (blocos fixados a partir desse relatório podem aparecer em diversos painéis).
 * pode ser criado usando os dados de um conjunto de dados. (a pequena exceção é que o Power BI Desktop pode combinar mais de um conjunto de dados em um único relatório que pode, por sua vez, ser importado para o Power BI)
   
   ![](media/service-basic-concepts/drawing3new.png)
 
-## <a name="dashboards"></a>Painéis
-Um *painel* é algo que você cria ou algo que um colega cria e compartilha com você. Trata-se de uma única tela, que contém nenhum ou mais blocos e widgets. Cada bloco exibe uma única [visualização](power-bi-report-visualizations.md), que foi criada a partir de um conjunto de dados e fixada ao painel. Há várias maneiras de adicionar blocos ao seu painel; muitas maneiras para serem abordadas neste tópico de visão geral. Para saber mais, veja [Blocos do painel no Power BI](service-dashboard-tiles.md). 
+### <a name="dig-deeper"></a>Mergulhe mais fundo
+* [Relatórios no serviço do Power BI e Power BI Desktop](service-reports.md)
+* [Relatórios em aplicativos móveis no Power BI](mobile-reports-in-the-mobile-apps.md)
 
-Na barra de navegação, "seus" painéis são listados no título **Painéis** . "Seu" significa que você tem acesso a eles, não necessariamente que você os criou. Cada painel representa uma exibição personalizada de algum subconjunto dos conjuntos de dados subjacentes.  Se possuir o painel, você também terá acesso aos conjuntos de dados subjacentes e eles aparecerão na barra de navegação em **Conjuntos de dados**.  Se o painel foi compartilhado com você, ele tem um ícone de compartilhamento ![](media/service-basic-concepts/sharing-icon.png) ao seu lado e, dependendo de como foi compartilhado, você pode ou não ver os conjuntos de dados subjacentes listados na sua barra de navegação.
+## <a name="dashboards"></a>Painéis
+Um *painel* é algo que você cria **no serviço do Power BI** ou algo que um colega cria **no serviço do Power BI** e compartilha com você. Trata-se de uma única tela, que contém nenhum ou mais blocos e widgets. Cada bloco fixado em um relatório ou uma [P e R](service-q-and-a.md) exibe uma única [visualização](power-bi-report-visualizations.md) que foi criada a partir de um conjunto de dados e fixado ao painel. Páginas inteiras do relatório também podem ser fixadas a um painel como um bloco único. Há várias maneiras de adicionar blocos ao seu painel; muitas maneiras para serem abordadas neste tópico de visão geral. Para saber mais, veja [Blocos do painel no Power BI](service-dashboard-tiles.md). 
+
+Por que as pessoas criam painéis?  Aqui estão apenas alguns dos motivos:
+
+* para ver rapidamente todas as informações necessárias para tomar decisões
+* para monitorar as informações mais importantes sobre seus negócios
+* para garantir que todos os colegas estejam na mesma página, visualizando e usando as mesmas informações
+* para monitorar a integridade uma empresa, produto, unidade de negócios, campanha de marketing, etc.
+* para criar uma exibição personalizada de um painel maior – todas as métricas que importam para você
+
+Ao abrir um espaço de trabalho, os painéis associados ficam listados na guia **Painéis**. Para abrir um painel, basta selecioná-lo. Ao abrir um aplicativo, você verá um painel.  Cada painel representa uma exibição personalizada de algum subconjunto dos conjuntos de dados subjacentes.  Se você possui seu próprio painel, também será preciso editar o acesso aos conjuntos de dados e relatórios subjacentes.  Caso o painel tenha sido compartilhado com você, será possível interagir com ele e quaisquer relatórios subjacentes, mas não será possível salvar quaisquer alterações.
+
+Há muitas maneiras diferentes para você ou um colega [compartilhar um painel](service-share-dashboards.md). É preciso ter o Power BI Pro para compartilhar um painel e pode ser necessário para exibir um painel compartilhado.
+
 
 > [!NOTE]
 > A fixação e os blocos são abordados com mais detalhes abaixo, sob o título "Dashboard com blocos".
 > 
-> 
 
 **UM** painel...
 
+* está associado a um único espaço de trabalho
 * pode exibir visualizações de vários conjuntos de dados diferentes
 * pode exibir visualizações de vários relatórios diferentes
 * pode exibir visualizações fixadas de outras ferramentas (por exemplo, Excel)
   
   ![](media/service-basic-concepts/drawing1.png)
 
-### <a name="dig-deeper"></a>Aprofunde-se:
-**Um painel pode ser [criado do zero](service-dashboard-create.md)** - crie um novo painel em branco e obtenha alguns dados. 
+### <a name="dig-deeper"></a>Mergulhe mais fundo
+* [Criar um novo painel em branco e obter alguns dados](service-dashboard-create.md)
+* [Duplicar um painel](service-dashboard-copy.md) 
+* [Criar um modo de exibição de telefone de um painel](service-create-dashboard-mobile-phone-view.md)
 
-**Você ou um colega pode criar um painel e [compartilhá-lo](service-share-dashboards.md)** - quando você aceita o convite, o painel compartilhado (e qualquer relatório e o conjunto de dados associados) é adicionado à sua barra de navegação. O Power BI Pro é necessário para compartilhar dashboards e para exibir dashboards compartilhados.
 
-**Às vezes, os painéis são importados com o conjunto de dados ou são criados quando você se conecta ao conjunto de dados**. Por exemplo, o assistente **Obter Dados** para o Salesforce pergunta se você deseja que um painel e/ou relatório seja criado por meio do conjunto de dados. 
+## <a name="workbooks"></a>Pastas de Trabalho
+Pastas de Trabalho são um tipo especial de conjunto de dados. Se você leu a seção **Conjuntos de dados** anterior, já deve saber praticamente tudo de que precisa sobre pastas de trabalho. Mas você deve estar se perguntando porque algumas vezes o Power BI classifica uma pasta de trabalho do Excel como um **Conjunto de dados** e outras vezes como uma **Pasta de trabalho**. 
 
-**Por que as pessoas criam dashboards?**  Aqui estão apenas alguns dos motivos:
+Ao usar o **Obter dados** com arquivos de Excel, você tem a opção de *Importar* ou *Conectar-se* ao arquivo. Ao escolher Conectar-se, sua pasta de trabalho vai aparecer no Power BI assim como apareceria no Excel Online. Mas, ao contrário do Excel Online, você terá alguns ótimos recursos para ajudá-lo a fixar elementos de suas planilhas diretamente nos dashboards.
 
-* para ver rapidamente todas as informações necessárias para tomar decisões
-* para monitorar as informações mais importantes sobre seus negócios
-* para garantir que todos os colegas estejam na mesma página, visualizando e usando as mesmas informações
-* para monitorar a integridade uma empresa, produto, unidade de negócios, campanha de marketing, etc.
-* para criar uma exibição personalizada de um painel maior – todas as métricas que são importantes para mim
+Não é possível editar a pasta de trabalho no Power BI. No entanto, se precisar fazer alterações, clique em Editar e escolha a opção para editar a pasta de trabalho no Excel Online ou abri-la no Excel em seu computador. Todas as alterações feitas são salvas na pasta de trabalho no OneDrive.
+
+### <a name="dig-deeper"></a>Mergulhe mais fundo
+* [Obter dados de arquivos de pasta de trabalho do Excel](service-excel-workbook-files.md)
+* [Publicar no Power BI com o Excel](service-publish-from-excel.md)
+
 
 ## <a name="my-workspace"></a>Meu espaço de trabalho
-Nós já voltamos ao seu painel e espaço de trabalho do Power BI. Vamos examinar com mais detalhes as partes que compõem a página de aterrissagem do serviço do Power BI.
+Nós falamos sobre espaços de trabalho e blocos de construção. Vamos ver novamente a interface do Power BI e revisar as peças que formam a página inicial do serviço do Power BI.
 
-![](media/service-basic-concepts/completenewer.png)
+![](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-bar-navbar"></a>1. **Barra de navegação** (navbar)
-Use a barra de navegação para mover-se entre os blocos de construção do Power BI: painéis, relatórios e conjuntos de dados.  
+### <a name="1-navigation-pane-left-nav"></a>1. **Painel de navegação** (nav esq)
+Use o painel de navegação para localizar e se mover entre os espaços de trabalho e os blocos de construção do Power BI: painéis, relatórios, pastas de trabalho e conjuntos de dados.  
 
-  ![](media/service-basic-concepts/navpane-new.png)
+  ![](media/service-basic-concepts/power-bi-navigation.png)
 
 * Selecione **Obter Dados** para [adicionar conjuntos de dados, relatórios e dashboards ao Power BI](service-get-data.md).
 * Expanda e recolha a barra de navegação com este ícone ![](media/service-basic-concepts/expand-icon.png).
-* Use **Pesquisar** para localizar itens específicos na barra de navegação.
-* Selecione um ícone de adição ![](media/service-basic-concepts/pbi_nancy_plus.png) para criar um novo painel ou obter um novo conjunto de dados.
-* Os **Painéis, Relatórios** e **Conjuntos de dados** listados estão disponíveis para uso.  Os painéis compartilhados são somente leitura e exibem o ícone de compartilhado ![](media/service-basic-concepts/sharing-icon.png).
-* Os nomes do painel, relatório e conjunto de dados geralmente correspondem ao nome do arquivo do conjunto de dados subjacente, mas você pode [renomeá-los](service-rename.md).
-* Clique com o botão direito do mouse em um painel, relatório ou conjunto de dados para exibir o menu contextual. 
-  
-  ![](media/service-basic-concepts/menu.png)
+* Abra ou gerencie seu conteúdo favorito selecionando **Favoritos**.
+* Exiba e abra o conteúdo visitado mais recentemente selecionando **Recente**.
+* Exiba, abra ou exclua um aplicativo selecionando **Aplicativos**.
+* Algum colega compartilhou um conteúdo com você? Selecione **Compartilhado comigo** para pesquisar e classificar esse conteúdo para encontrar aquilo de que precisa.
+* Exiba e abra suas pastas de trabalho selecionando **Pastas de trabalho**.
 
 Clique uma vez em
 
-* um título para recolhê-lo ou expandi-lo
-* um painel para exibi-lo
-* um relatório para abri-lo na Exibição de Leitura
+* um ícone ou cabeçalho para abrir a exibição de conteúdo
+* uma seta à direita (>) para abrir um menu do submenu para Favoritos, Recentes e Espaços de trabalho. 
+* um ícone de divisa () para exibir a lista rolável de painéis, relatórios, pastas de trabalho e conjuntos de dados do **Meu Espaço de Trabalho**.
 * um conjunto de dados para explorá-lo
 
-### <a name="2-dashboard-with-tiles"></a>2. **Painel com blocos**
-Os painéis são compostos por [blocos](service-dashboard-tiles.md).  Os blocos são criados no Modo de Exibição de Edição de relatório, P e R, outros dashboards e podem ser fixados no Excel, no SSRS e muito mais. Um tipo especial de bloco chamado de [widget](service-dashboard-add-widget.md) é adicionado diretamente ao painel. Os blocos que aparecem em um painel foram especificamente inseridos ali pelo criador/proprietário de um relatório.  O ato de adicionar um bloco em um painel é chamado *fixação*.
+### <a name="2-canvas"></a>2. **Telas** 
+Como abrimos um painel, a área de telas exibe blocos de visualização. Se, por exemplo, nós tivéssemos aberto o editor de relatório, a área de telas exibiria uma página de relatório. 
 
-![](media/service-basic-concepts/canvas.png)
+Os painéis são compostos por [blocos](service-dashboard-tiles.md).  Blocos são criados no Modo de Exibição de Edição de relatório, P e R e outros painéis e podem ser fixados no Excel, SSRS e outros. Um tipo especial de bloco chamado de [widget](service-dashboard-add-widget.md) é adicionado diretamente ao painel. Os blocos que aparecem em um painel foram especificamente inseridos ali pelo criador/proprietário de um relatório.  O ato de adicionar um bloco em um painel é chamado *fixação*.
+
+![Telas de painel do Power BI](media/service-basic-concepts/canvas.png)
 
 Para obter mais informações, consulte **Dashboards** (acima).
 
 ### <a name="3-qa-question-box"></a>3. **Caixa de perguntas de P e R**
-Uma maneira de explorar seus dados é fazer uma pergunta e deixar que o P e R do Power BI lhe forneça uma resposta, na forma de uma visualização. O P e R não pode ser usado para adicionar conteúdo a um relatório – apenas para adicionar conteúdo a painéis, na forma de blocos.
+Uma maneira de explorar seus dados é fazer uma pergunta e deixar que o P e R do Power BI lhe forneça uma resposta, na forma de uma visualização. O P e R pode ser usado para adicionar conteúdo a um painel ou relatório.
 
 O P e R procura uma resposta no conjunto(s) de dados conectado ao painel.  Um conjunto de dados conectado é aquele que tem pelo menos um bloco anexado a esse painel.
 
-![](media/service-basic-concepts/qna.png)
+![caixa de perguntas de P e R](media/service-basic-concepts/power-bi-qna.png)
 
 Assim que você começa a digitar sua pergunta, o P e R leva você até a página de P e R. Conforme você digita, o P e R ajuda você a fazer a pergunta certa e encontrar a melhor resposta com reformulações, preenchimento automático, sugestões e muito mais. Quando você encontrar uma visualização (resposta) de que gosta, fixe-a em seu painel. Para obter mais informações, veja [P e R no Power BI](service-q-and-a.md).
 
-### <a name="4-full-screen-notifications-settings-downloads-help-and-feedback"></a>4. **Tela inteira, Notificações, Configurações, Downloads, Ajuda e Comentários**
+### <a name="4-icon-buttons"></a>4. **Botões de ícone** 
 Os ícones no canto superior direito são seus recursos para configurações, notificações, downloads, obter ajuda e fornecer comentários à equipe do Power BI. Selecione a seta dupla para abrir o dashboard no modo **Tela inteira**.  
 
-![](media/service-basic-concepts/help-new.png)
+![botões de ícone](media/service-basic-concepts/power-bi-icons.png)
 
-### <a name="5-dashboard-title-aka-what-dashboard-is-active"></a>5. **Título do painel** (também conhecido como “Que painel está ativo?”)
-Nem sempre é fácil descobrir qual painel está ativo.  O título do painel é exibido na página de exibição do painel, na página de P e R, no Modo de Exibição de Edição de relatório, no Modo de Exibição de Leitura de relatório e também quando você abre um conjunto de dados.   
+### <a name="5-dashboard-title-navigation-path-aka-breadcrumbs"></a>5. **Bloco do dashboard** (caminho de navegação, também trilhas)
+Nem sempre é fácil descobrir quais espaços de trabalho e painéis estão ativos, por isso, o Power BI cria um caminho de navegação para você.  Neste exemplo, vemos o espaço de trabalho (Meu espaço de trabalho) e o bloco do painel (Exemplo de Análise de Varejo).  Se abrimos um relatório, o nome dele seria acrescentado ao final do caminho de navegação.  Cada seção do caminho é um hiperlink ativo.  
 
-![](media/service-basic-concepts/dash-title-new.png)
+Observe o ícone “C” após o bloco do painel. Esse painel tem uma [marca de classificação de dados](/service-data-classification.md) do tipo “confidencial”. A marca identifica o nível de confidencialidade e segurança dos dados. Se o Administrador ativou a classificação de dados, todo painel terá uma definição de marca padrão. Os proprietários de painéis devem mudar a marca para corresponder com o nível de segurança adequado do painel.
+
+![](media/service-basic-concepts/power-bi-title.png)
 
 ### <a name="6-office-365-app-launcher"></a>6. **Iniciador do aplicativo do Office 365**
-O iniciador do aplicativo foi projetado para ajudá-lo em seus aplicativos do Office 365.
+Com o iniciador de aplicativos, todos os aplicativos do Office 365 ficam facilmente disponíveis a um clique. A partir daqui, você pode iniciar rapidamente seus emails, documentos, calendários e muito mais. 
 
-![](media/service-basic-concepts/basicconcepts2-newer.png)
+![Iniciador de aplicativo do Office](media/service-basic-concepts/power-bi-waffle.png)
 
 ### <a name="7-power-bi-home"></a>7. **Página inicial do Power BI**
-Selecionar esta opção leva você de volta ao painel exibido mais recentemente.
+Ao selecioná-la, um [painel em destaque](service-dashboard-featured.md) (caso tenha definido um) é aberto, caso contrário, é aberto o último painel exibido.
 
    ![](media/service-basic-concepts/version-new.png)
 
-### <a name="8-options"></a>8. **Opções**
-Esta área do espaço de trabalho contém ícones para interagir com o painel.  Além de **Adicionar bloco**, **Favorito** e **Compartilhar**, selecionar as reticências revela opções para duplicar, imprimir e atualizar o dashboard e muito mais.
+### <a name="8-labeled-icon-buttons"></a>8. **Botões de ícone rotulados**
+Essa área da tela contém opções adicionais para interagir com o conteúdo (neste caso, com o painel).  Além dos ícones rotulados que ficam visíveis, ao selecionar as reticências, são reveladas opções para duplicar, imprimir, atualizar o painel e muito mais.
 
-   ![](media/service-basic-concepts/options.png)
+   ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Introdução ao Power BI](service-get-started.md)  
 [Vídeos do Power BI](videos.md)  
-[Power BI Premium – o que é?](service-premium.md)
+[Editor de relatório - faça um tour](service-the-report-editor-take-a-tour.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 

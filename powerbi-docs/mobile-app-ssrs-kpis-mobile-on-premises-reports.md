@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 12/18/2017
 ms.author: maggies
-ms.openlocfilehash: 99fceab5904deaa510edd213c349dcfb2e38ac28
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5bbd2f09187e9fac16f6cc4b9ac3ff59a888ed7f
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Exibir KPIs e relatórios locais do servidor de relatório nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -63,7 +63,14 @@ Mesmo que você não tenha acesso a um portal da Web do Reporting Services, aind
 3. Toque em **Conectar ao servidor**.
    
     ![Conectar-se ao servidor](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-android-server-sign-in.png)
-4. Preencha o endereço do servidor e seu nome de usuário e senha. Use este formato para o endereço do servidor:
+
+     O aplicativo móvel precisa acessar o servidor de alguma forma. Há algumas maneiras de fazer isso:
+
+    - Permanecer na mesma rede usando VPN é a maneira mais fácil.
+    - É possível usar um proxy de aplicativo Web para se conectar de fora da organização. Consulte [Usando OAuth para se conectar ao Reporting Services](mobile-oauth-ssrs.md) para mais detalhes. 
+    - Abra uma conexão (porta) no firewall.
+
+1. Preencha o endereço do servidor e seu nome de usuário e senha. Use este formato para o endereço do servidor:
    
      `http://<servername>/reports`
    
@@ -71,10 +78,7 @@ Mesmo que você não tenha acesso a um portal da Web do Reporting Services, aind
    
      `https://<servername>/reports`
    
-   > [!NOTE]
-   > Inclua **http** ou **https** na frente a cadeia de conexão.
-   > 
-   > 
+   Inclua **http** ou **https** na frente a cadeia de conexão.
    
     ![Conectar-se à caixa de diálogo do servidor](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ios-connect-to-server-dialog.png)
 5. (Opcional) Em **Opções avançadas**, será possível dar um nome amigável ao servidor, se desejar.
@@ -100,7 +104,7 @@ Relatórios do Power BI, relatórios móveis do Reporting Services e KPIs são e
 
 * Toque em **Favoritos**.
   
-   ![Favoritos no painel de navegação à esquerda](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server.png)
+   ![Favoritos no painel de navegação à esquerda](media/mobile-app-ssrs-kpis-mobile-on-premises-reports/power-bi-ipad-faves-pbi-report-server-update.png)
   
    Seus KPIs e relatórios favoritos do portal da Web estão todos nesta página, juntamente com os dashboards do Power BI no serviço do Power BI:
   

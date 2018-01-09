@@ -1,6 +1,6 @@
 ---
-title: "A página exibe as configurações em um relatório do Power BI"
-description: "A página exibe as configurações em um relatório do Power BI"
+title: "Configurações de exibição de página e configurações de visualização de página para um relatório"
+description: "Configurações de exibição de página e configurações de visualização de página para um relatório"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/27/2017
+ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 1dd9c77d0af4c3f606f195c3f4199f774292d668
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as configurações em um relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Às vezes, isso pode ser desafiador, porque você e seus colegas exibem esses relatórios em telas com taxas de proporção diferentes e tamanhos. 
@@ -32,21 +32,43 @@ O modo de exibição padrão é **Ajustar à página** e o tamanho de exibição
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5tg-OXzxe2g" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="page-view-settings"></a>Configurações de exibição de página
-![](media/power-bi-report-display-settings/power-bi-change-page-view-new.png)
+## <a name="where-to-find-page-view-settings-in-power-bi-service-and-power-bi-desktop"></a>Onde encontrar as Configurações de exibição de página no serviço do Power BI e no Power BI Desktop
+As Configurações de exibição de página estão disponíveis no serviço do Power BI e no Power BI Desktop, mas a interface é um pouco diferente. As duas seções a seguir explicam onde você pode encontrar as Configurações de exibição em cada ferramenta do Power BI.
 
-As configurações do *Modo de exibição da página* controlam a exibição da página do relatório relativa à janela do navegador.  Escolha entre:
+### <a name="in-power-bi-desktop"></a>No Power BI Desktop
+No Modo de Exibição de Relatório, selecione a guia **Exibição** para abrir as Configurações de exibição de página, bem como as configurações de layout do telefone.
+
+  ![painel Seleção](media/power-bi-report-display-settings/power-bi-desktop-view-settings.png)
+
+### <a name="in-power-bi-service-apppowerbicom"></a>No serviço do Power BI (app.powerbi.com)
+No serviço do Power BI, abra um relatório e selecione **Exibição** na barra de menus superior à esquerda.
+
+![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
+
+As configurações do modo de Exibição de página estão disponíveis tanto no [Modo de Exibição de Leitura](service-interact-with-a-report-in-reading-view.md) como no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md). No Modo de Exibição de Edição, o proprietário de um relatório pode atribuir configurações de exibição de página para páginas de relatório individuais, e essas configurações são salvas com o relatório. Quando os colegas abrirem o relatório no Modo de Exibição de Leitura, verão a exibição das páginas do relatório usando as configurações do proprietário.  No Modo de Exibição de Leitura, colegas podem alterar *algumas* das Configurações de exibição de página, mas as alterações não são salvas ao sair do relatório.
+
+##    <a name="page-view-settings"></a>Configurações de exibição de página
+O primeiro conjunto de configurações do *Modo de Exibição da Página* controla a exibição das páginas do relatório com base na janela do navegador.  Escolha entre:
 
 * **Ajustar à Página** (padrão): o conteúdo é dimensionado para um melhor ajuste à página
 * **Ajustar à Largura**: o conteúdo é dimensionado para se ajustar na largura da página
 * **Tamanho Real**: o conteúdo é exibido em tamanho normal
 
-As configurações do modo de Exibição de página estão disponíveis tanto no [Modo de Exibição de Leitura](service-interact-with-a-report-in-reading-view.md) como no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md). No modo de Exibição de Edição, o proprietário de um relatório pode atribuir uma configuração de Exibição de página para páginas de relatório individuais, e essas configurações são salvas com o relatório. Quando um colega abre o relatório no modo de Exibição de leitura, verá as páginas do relatório exibir usando as configurações do proprietário.  No entanto, ao trabalhar com o relatório no de Exibição de Leitura, poderá alterar temporariamente as configurações de exibição de página.  Depois que sair do relatório, as configurações do modo de Exibição da página serão revertidas para aquelas definidas pelo proprietário do relatório.
+O segundo conjunto de configurações do *Modo de Exibição de Página* controla o posicionamento de objetos na tela do relatório.
+
+* **Mostrar linhas de grade**: ativa linhas de grade para ajudar a posicionar objetos na tela do relatório
+* **Ajustar à grade**: use com **Mostrar linhas de grade** para posicionar e alinhar os objetos na tela de relatório de modo preciso 
+* **Bloquear objetos**: bloqueia todos os objetos na tela, de modo que eles não podem ser movidos ou redimensionados
+* **Painel Seleção**: o painel Seleção lista todos os objetos na tela, e você pode decidir quais mostrar e quais ocultar
+
+    ![painel Seleção](media/power-bi-report-display-settings/power-bi-selection-pane.png)
+
+
 
 ## <a name="page-size-settings"></a>Configurações de tamanho de página
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-As configurações do *tamanho da página* controlam a taxa de exibição e o tamanho real (em pixels).  As configurações de Tamanho de Página só estão disponíveis no Modo de Exibição de Edição.
+As configurações de *Tamanho de Página* só ficam disponíveis para proprietários de relatório. No serviço do Power BI (app.powerbi.com), isso significa poder abrir o relatório no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md). Essas configurações controlam a taxa de exibição e o tamanho real (em pixels) da tela do relatório.   
 
 * proporção de 4:3
 * proporção de 16:9 (padrão)

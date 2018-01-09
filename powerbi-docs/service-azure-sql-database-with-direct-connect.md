@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 12/18/2017
 ms.author: asaxton
-ms.openlocfilehash: 83613f0ed915a03b65b90d4bf61e37568b922182
-ms.sourcegitcommit: c2deaff54434da67698a14cc00172a2119ed1a56
+ms.openlocfilehash: 6ee8ab6d30d84857de9cd415ee58caade4e94a57
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/09/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="azure-sql-database-with-directquery"></a>Banco de Dados SQL do Azure com DirectQuery
 Saiba como você pode se conectar diretamente ao banco de dados SQL e criar relatórios que usam dados dinâmicos. Você pode manter os dados na fonte e não no Power BI.
@@ -31,23 +31,30 @@ Com o DirectQuery, as consultas serão enviadas de volta para o Banco de Dados S
 **Observações:**
 
 * Especifique o nome totalmente qualificado do servidor ao estabelecer a conexão (consulte abaixo para obter mais detalhes)
-* Garanta que as regras de firewall para o banco de dados estejam configuradas para "[Permitir acesso aos serviços do Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Garanta que as regras de firewall para o banco de dados estejam configuradas para "[Permitir acesso aos serviços do Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)"
 * Toda ação, como selecionar uma coluna ou adicionar um filtro, enviará uma consulta de volta ao banco de dados
-* Os blocos são atualizados aproximadamente a cada 15 minutos (a atualização não precisa ser agendada). Isso pode ser ajustado nas Configurações avançadas quando você se conectar.
+* Os blocos são atualizados a cada hora (a atualização não precisa ser agendada). Isso pode ser ajustado nas Configurações avançadas quando você se conectar.
 * P e R não estão disponíveis para conjuntos de dados do DirectQuery
-* Alterações de esquema não são aplicadas automaticamente
+* As alterações de esquema não são aplicadas automaticamente
 
 Essas restrições e observações podem mudar conforme continuamos a aprimorar as experiências. As etapas para conectar são detalhadas abaixo. 
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop e DirectQuery
 Para se conectar ao Banco de Dados SQL do Azure usando DirectQuery, você precisará usar o Power BI Desktop. Essa abordagem fornece mais flexibilidade e recursos. Os relatórios criados com o Power BI Desktop podem ser publicados no serviço do Power BI. Você pode aprender mais sobre como se conectar ao [Banco de Dados SQL do Azure usando DirectQuery](desktop-use-directquery.md) dentro do Power BI Desktop. 
 
-## <a name="connecting-through-power-bi"></a>Conectando-se por meio do Power BI
-Você não pode se conectar ao Banco de Dados SQL do Azure diretamente do serviço do Power BI. Quando você selecionar o [Conector do Banco de Dados SQL do Azure](https://app.powerbi.com/getdata/bigdata/azure-sql-database-with-live-connect), será solicitado que você faça a conexão dentro do Power BI Desktop. Em seguida, você poderá publicar seus relatórios do Power BI Desktop para o serviço do Power BI. 
+## <a name="single-sign-on"></a>Logon único
 
-![](media/service-azure-sql-database-with-direct-connect/azure-sql-database-in-power-bi.png)
+Depois de publicar um conjunto de dados DirectQuery do SQL do Azure para o serviço, você pode habilitar o logon único (SSO) por meio do OAuth2 do Azure Active Directory (Azure AD) para os usuários finais. 
 
-### <a name="finding-parameter-values"></a>Localizando Valores de Parâmetro
+Para habilitar o SSO, acesse as configurações para o conjunto de dados, abra a guia **Fontes de dados** e marque a caixa SSO.
+
+![Configure as caixa de diálogo DQ do SQL do Azure](media/service-azure-sql-database-with-direct-connect/sso-dialog.png)
+
+Quando a opção de SSO está habilitada e os usuários acessam relatórios construídos sobre a fonte de dados, o Power BI envia suas credenciais autenticadas do Azure AD às consultas no banco de dados do SQL do Azure. Isso permite que o Power BI respeite as configurações de segurança que são configuradas no nível da fonte de dados.
+
+A opção de SSO entra em vigor em todos os conjuntos de dados que usam essa fonte de dados. Isso não afeta o método de autenticação usado para cenários de importação.
+
+## <a name="finding-parameter-values"></a>Localizando Valores de Parâmetro
 Seu nome do servidor totalmente qualificado e o nome do banco de dados podem ser encontrados no Portal do Azure.
 
 ![](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
@@ -59,4 +66,3 @@ Seu nome do servidor totalmente qualificado e o nome do banco de dados podem ser
 [Introdução ao Power BI](service-get-started.md)  
 [Obter dados para o Power BI](service-get-data.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-

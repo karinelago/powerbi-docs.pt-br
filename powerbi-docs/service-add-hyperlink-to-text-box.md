@@ -1,6 +1,6 @@
 ---
 title: "Adicionar um hiperlink a uma caixa de texto em um relatório"
-description: Adicione um hiperlink a uma caixa de texto no Power BI
+description: "Adicionar um hiperlink a uma caixa de texto no serviço do Power BI e Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 846e6625345bbecb2611615f929f0b55338830e2
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 9533985238fa9fb40bbab4e9ddd459aaaaffc135
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Adicionar um hiperlink a uma caixa de texto em um relatório
-Caixas de texto podem ser adicionadas a relatórios, fixadas em painéis dos relatórios e adicionadas diretamente a painéis. Hiperlinks podem ser adicionados a uma caixa de texto, independentemente de onde ele reside. **Este tópico aborda as caixas de texto em relatórios.**
+Caixas de texto podem ser adicionadas a relatórios, fixadas em painéis dos relatórios e adicionadas diretamente a painéis. Hiperlinks podem ser adicionados a uma caixa de texto, independentemente de onde ele reside. **Este tópico aborda as caixas de texto em relatórios no serviço do Power BI (não no Power BI Desktop).**
 
 > **OBSERVAÇÃO**: para obter informações sobre hiperlinks nas tabelas e nas matrizes do Power BI, consulte [Hiperlinks em tabelas](power-bi-hyperlinks-in-tables.md). Para obter informações sobre como adicionar caixas de texto a seu **painel**, veja [Adicionar um bloco diretamente do painel](service-dashboard-add-widget.md). 
 > 
@@ -47,7 +47,7 @@ Caixas de texto podem ser adicionadas a relatórios, fixadas em painéis dos rel
    
    ![](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
    
-   * Na caixa de texto, selecione o hiperlink para exibir a URL
+   * Coloque o cursor em qualquer lugar no texto realçado para exibir a URL.  
      
       ![](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
    * Selecione a URL para abrir a página em uma nova janela do navegador.

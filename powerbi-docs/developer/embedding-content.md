@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 14d4954cd747e7c578c693212401f57806001228
-ms.sourcegitcommit: 6e8fbbbcbe3e1a38207b29a9ca66ea94fb2a51fb
+ms.openlocfilehash: 76435200df843acc4ba60ebab09633aa8f5c258d
+ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/19/2017
+ms.lasthandoff: 12/20/2017
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserir os dashboards, relatórios e blocos do Power BI
 
@@ -140,9 +140,9 @@ Se você estiver inserindo para os clientes, convém fazer o descrito a seguir.
 
 | Nó de capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de back-end | Núcleos de front-end | Limites de conexão dinâmica/DirectQuery | Máx. de renderizações de página no horário de pico |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 v-cores |0,5 núcleo, 3 GB de RAM |0,5 núcleo | |1-300 |
-| A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | |301-600 |
-| A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | |601-1.200 |
+| A1 |1 v-cores |0,5 núcleo, 3 GB de RAM |0,5 núcleo | 5 por segundo |1-300 |
+| A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |301-600 |
+| A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |601-1.200 |
 | A4 |8 v-cores |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1.201-2.400 |
 | A5 |16 v-cores |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2.401-4.800 |
 | A6 |32 v-cores |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4.801-9.600 |

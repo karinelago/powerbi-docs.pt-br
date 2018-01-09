@@ -1,6 +1,6 @@
 ---
-title: Tipos de Quick Insights com suporte do Power BI
-description: Quick Insights com o Power BI.
+title: Tipos de Insights com suporte para o Power BI
+description: Quick Insights e View Insights com o Power BI.
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/03/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 13f5614cf121b17d8ae4dff9653f5789372f7f49
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 53e5e67da9bacd9fc9dcbb770747823647aa3a3c
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="types-of-quick-insights-supported-by-power-bi"></a>Tipos de Quick Insights com suporte do Power BI
-## <a name="how-does-quick-insights-work"></a>Como o Quick Insights funciona?
+# <a name="types-of-insights-supported-by-power-bi"></a>Tipos de Insights com suporte para o Power BI
+## <a name="how-does-insights-work"></a>Como o Insights funciona?
 O Power BI pesquisa com rapidez diferentes subconjuntos do conjunto de dados durante a aplicação de um conjunto de algoritmos sofisticados para descobrir informações que possam ser interessantes. Ele examina ao máximo possível um conjunto de dados no período de tempo designado.
 
-Você pode executar Insights Rápidos em um conjunto de dados ou bloco (Insights relacionados).   
+Você pode executar insights em um conjunto de dados ou bloco de painel.   
 
-## <a name="what-types-of-quick-insights-can-we-find"></a>Que tipos de Insights Rápidos podemos encontrar?
+## <a name="what-types-of-insights-can-we-find"></a>Que tipos de informações é possível encontrar?
 Estes são alguns dos algoritmos que usamos:
 
 ## <a name="category-outliers-topbottom"></a>Exceções de categoria (superior/inferior)
@@ -78,9 +78,9 @@ Para dados em uma série temporal, detecta quando há datas ou horas específica
 ![](media/service-insight-types/pbi_auto_insight_types_time_series_outliers.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-[Power BI Quick Insights](service-insights.md)
+[Insights do Power BI](service-insights.md)
 
-Se você é proprietário de um conjunto de dados, [otimize-o para os Insights Rápidos](service-insights-optimize.md)
+Se você é proprietário de um conjunto de dados, [otimize-o para Insights](service-insights-optimize.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

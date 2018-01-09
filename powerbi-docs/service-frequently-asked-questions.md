@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 1fc6e666753ae45931604a1113f340115ec18269
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: c82b5c302511d5c82ae0048b8dce4f227f6fc5b1
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se você tiver outras dúvidas, [experimente perguntar à comunidade do Power BI](http://community.powerbi.com/).
@@ -125,7 +125,7 @@ Os seguintes recursos estão disponíveis para ajudá-lo a começar:
 * Vídeos de introdução em nosso [Canal do YouTube](https://www.youtube.com/user/mspowerbi)
 * Artigo [Introdução ao Power BI](service-get-started.md)
 * [Participe de nossa comunidade](https://community.powerbi.com/) e faça perguntas
-* Consulte [10 dicas para obter ajuda](service-tips-for-finding-help.md) para obter mais sugestões.
+* Para mais sugestões, consulte [10 dicas para obter ajuda](service-tips-for-finding-help.md)
 
 ## <a name="what-browsers-does-power-bi-support"></a>Quais navegadores dão suporte ao Power BI?
 Veja uma lista completa de [navegadores com suporte para o Power BI](service-browser-support.md).
@@ -137,6 +137,11 @@ Veja uma lista completa de [regiões e idiomas com suporte no Power BI](supporte
 É possível comprar licenças do Power BI Pro diretamente ou conversar com um representante no [www.powerbi.com](http://www.powerbi.com).
 
 Você também pode encontrar um [Microsoft Partner](https://partner.microsoft.com/) para ajudá-lo com a implementação do Power BI.
+
+## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>O que acontece se minha licença do Power BI Pro expirar?
+Há um período de carência de 30 dias após a expiração de uma licença do Power BI Pro.
+
+O Power BI Pro tem o mesmo ciclo de vida de assinatura que o Office 365. Para obter mais informações, consulte [O que acontece com meus dados e o acesso quando termina minha assinatura do Office 365 para empresas?](https://support.office.com/en-us/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>O Power BI atende aos requisitos de conformidade regional, nacional e específicos do setor?
 Para saber mais sobre a conformidade do Power BI, veja na [Central de Confiabilidade da Microsoft](http://go.microsoft.com/fwlink/?LinkId=785324).

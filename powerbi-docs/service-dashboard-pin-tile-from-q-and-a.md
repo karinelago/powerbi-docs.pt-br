@@ -1,5 +1,5 @@
 ---
-title: Fixar um bloco em um dashboard do Power BI de P e R
+title: Fixar um bloco em um dashboard de P e R
 description: "Documentação sobre como fixar um bloco em um dashboard do Power BI por meio da caixa de P e R"
 services: powerbi
 documentationcenter: 
@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/09/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: f37c0f9e433f1ac8c6bb8f7f3fa4b513fb4b4652
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8a876c5a05fcdadff1a874148f5d56465bcc8c62
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Fixar um bloco em um dashboard de P e R
 ## <a name="how-to-pin-a-tile-from-qa"></a>Como fixar um bloco de P e R
 P e R é a ferramenta de geração de relatórios ad hoc do Power BI. Precisa encontrar uma visão particular? Faça uma pergunta sobre os dados e receba uma resposta na forma de uma visualização.
 
-> **OBSERVAÇÃO**: para acompanhar, abra o [exemplo Análise de Varejo](sample-retail-analysis.md).
+P e R está disponível em painéis e relatórios. Neste artigo, abriremos P e R de um painel. Estão disponíveis painéis no serviço do Power BI, mas não no Power BI Desktop. Para acompanhar, abra o [painel de exemplo da Análise de Varejo](sample-retail-analysis.md).
 > 
 > 
 
@@ -40,8 +40,10 @@ P e R é a ferramenta de geração de relatórios ad hoc do Power BI. Precisa en
    a caixa de perguntas oferece sugestões.
 4. Para adicionar o gráfico ao dashboard como um bloco, selecione o pino ![](media/service-dashboard-pin-tile-from-q-and-a/pbi_pintile.png) no lado superior direito da tela.
 5. Fixe o bloco em um painel existente ou em um novo painel. 
-   
-   * Painel existente: selecione o nome do painel no menu suspenso. Suas opções serão limitadas apenas aos dashboards no espaço de trabalho atual.
+
+   ![](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin-to-dashboard.png)
+
+   * Painel existente: selecione o nome do painel no menu suspenso. Suas opções serão limitadas apenas aos painéis no espaço de trabalho atual.
    * Novo dashboard: digite o nome do novo dashboard e ele será adicionado ao seu espaço de trabalho atual.
 6. Selecione **Fixar**.
    

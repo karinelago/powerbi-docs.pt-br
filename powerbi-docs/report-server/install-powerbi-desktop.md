@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 12/15/2017
 ms.author: maggies
-ms.openlocfilehash: 589a77624169e9fb59999109668439c5f729c5f5
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: c1c38d9d98c92963534081049cdcc6a557313639
+ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 12/19/2017
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI.
 
-Para criar relatórios do Power BI para o Servidor de Relatórios do Power BI você precisa baixar e instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Essa versão é diferente do Power BI Desktop usado com o serviço do Power BI. Por exemplo, a versão do Power BI Desktop para o serviço do Power BI inclui a versão prévia dos recursos que ficam disponíveis na versão do Servidor de Relatórios do Power BI após serem liberados. Usar essa versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
+Para criar relatórios do Power BI para o Servidor de Relatórios do Power BI você precisa baixar e instalar o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI. Essa versão é diferente do Power BI Desktop usado com o serviço do Power BI. Por exemplo, a versão do Power BI Desktop para o serviço do Power BI inclui a versão prévia dos recursos que só ficam disponíveis na versão do Servidor de Relatórios do Power BI após serem liberados. Usar essa versão garante que o servidor de relatórios pode interagir com uma versão conhecida dos relatórios e do modelo. 
 
 > [!NOTE]
 > Instale o Power BI Desktop e o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI lado a lado no mesmo computador.
@@ -69,6 +69,36 @@ Se você tinha o Power BI Desktop e, em seguida, instalou o Power BI Desktop oti
 Sempre é possível abrir a versão do Power BI Desktop que você deseja usar primeiro. E, em seguida, abra o arquivo no Power BI Desktop.
 
 Editar um relatório do Power BI no Servidor de Relatório do Power BI ou criar um novo relatório do Power BI no portal da Web sempre abrirá a versão correta do Power BI Desktop.
+
+## <a name="considerations-and-limitations"></a>Considerações e limitações
+Os relatórios no Servidor de Relatório do Power BI e no serviço do Power BI (http://powerbi.com) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
+
+### <a name="in-a-browser"></a>Em um navegador
+Os relatórios do Servidor de Relatório do Power BI dão suporte a todas as visualizações, inclusive:
+
+* Elementos visuais personalizados
+
+Os relatórios do Servidor de Relatório do Power BI não dão suporte a:
+
+* Visuais do R
+* Mapas ArcGIS
+* Trilhas
+* Recursos de visualização do Power BI Desktop
+
+### <a name="in-the-power-bi-mobile-apps"></a>Nos aplicativos móveis do Power BI
+Os relatórios do Servidor de Relatório do Power BI dão suporte a toda a funcionalidade básica nos [aplicativos móveis do Power BI](../mobile-apps-for-mobile-devices.md), incluindo:
+
+* [Layout de relatório de telefone](../desktop-create-phone-report.md): é possível otimizar um relatório para os aplicativos móveis do Power BI. Em seu telefone celular, os relatórios otimizados têm um ícone especial chamado ![Ícone de layout de relatório para telefone](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) e um layout.
+  
+    ![Relatórios otimizado para telefones](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+
+Os relatórios do Servidor de Relatório do Power BI não dão suporte a estes recursos nos aplicativos móveis do Power BI:
+
+* Visuais do R
+* Mapas ArcGIS
+* Elementos visuais personalizados
+* Trilhas
+* Filtragem geográfica ou códigos de barra
 
 ## <a name="next-steps"></a>Próximas etapas
 Agora que o Power BI Desktop foi instalado, é possível começar a criar relatórios do Power BI.

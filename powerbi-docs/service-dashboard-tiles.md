@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: d1960ea42bee8b00cc6dd095e94ebf6f6303bce8
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
+ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Blocos de painel no Power BI
 Os dashboards e blocos de dashboard são um recurso do serviço do Power BI e não do Power BI Desktop. Os blocos de dashboards não podem ser criados ou fixados no Power BI Mobile, mas [podem ser exibidos e compartilhados](mobile-tiles-in-the-mobile-apps.md). E, no Power BI Mobile, você pode [adicionar imagens ao seu dashboard com seu aplicativo de iPhone](mobile-iphone-app-get-started.md).
@@ -100,9 +100,7 @@ Ao selecionar um bloco, o que ocorre em seguida depende de como o bloco foi cria
 * Se a visualização original usada para criar o bloco for alterada, o bloco não será alterado.  Por exemplo, se você fixou um gráfico de linhas de um relatório e, em seguida, você alterar o gráfico de linhas para um gráfico de barras, o bloco do painel continuará mostrando um gráfico de linhas. Os dados são atualizados, mas o tipo de visualização não.
 
 ## <a name="next-steps"></a>Próximas etapas
-[Criar um bloco de número grande por meio de um relatório](power-bi-visualization-big-number-report.md)
-
-[Criar um bloco de número grande por meio das perguntas e respostas](power-bi-visualization-big-number.md)
+[Criar um cartão (bloco de número grande) para seu painel](power-bi-visualization-card.md)
 
 [Dashboards no Power BI](service-dashboards.md)  
 

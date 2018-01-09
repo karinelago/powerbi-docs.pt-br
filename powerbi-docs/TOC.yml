@@ -454,10 +454,8 @@
           href: power-bi-visualization-treemaps.md
         - name: 'Tutorial: Gráficos de cascata no Power BI'
           href: power-bi-visualization-waterfall-charts.md
-        - name: 'Crie um bloco de número grande para um painel do Power BI, fazendo uma pergunta'
-          href: power-bi-visualization-big-number.md
-        - name: Crie um bloco de número grande por meio de um relatório do Power BI
-          href: power-bi-visualization-big-number-report.md
+        - name: 'Tutorial: Cartões (blocos de número grandes) no Power BI'
+          href: power-bi-visualization-card.md
         - name: Criar visualizações e análise avançadas usando scripts do R no Power BI
           href: service-r-visuals.md
     - name: Dados de arquivos
@@ -938,6 +936,8 @@
           href: developer/integrate-report.md
         - name: Integrar um conteúdo em um aplicativo (aplicativo possui dados)
           href: developer/embed-sample-for-customers.md
+        - name: Inserir layouts personalizados em um aplicativo
+          href: developer/embedded-custom-layout.md
         - name: Crie um locatário do Azure Active Directory
           href: developer/create-an-azure-active-directory-tenant.md
         - name: Registrar um aplicativo

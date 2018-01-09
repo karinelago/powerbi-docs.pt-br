@@ -1,6 +1,6 @@
 ---
-title: "Filtre uma página em um relatório do Power BI"
-description: "Filtre uma página em um relatório do Power BI"
+title: "Adicionar uma página ou duplicar uma página em um relatório"
+description: "Adicionar uma página a um relatório no serviço do Power BI e no Power BI Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,24 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: c40f13975d06879701d8966ef5f97b43a298cce0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 36962e85528668139a4d5d460936212965032233
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="add-a-page-to-a-power-bi-report"></a>Filtre uma página em um relatório do Power BI
-## <a name="add-a-new-blank-page"></a>Adicionar uma nova página em branco
-Não há motivo para unir uma página de relatório - adicione uma nova página em branco.
+# <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Adicionar uma página a um relatório no serviço do Power BI e no Power BI Desktop
+Não há motivo para unir uma página de relatório - adicione uma nova página em branco. 
 
+Adicionar e duplicar páginas de relatório requer permissões de edição para o relatório. No serviço do Power BI, isso significa abrir o relatório no [Modo de exibição de edição](service-reading-view-and-editing-view.md). 
+
+## <a name="add-a-new-blank-page"></a>Adicionar uma nova página em branco
 Selecione o ícone de adição amarelo e, em seguida, digite um novo nome para a página.  
 
 ![](media/power-bi-report-add-page/reorderpages2.gif)
 
 ## <a name="duplicate-a-page"></a>Duplicar uma página
-Na barra de controle da parte superior, em [Modo de edição](service-interact-with-a-report-in-editing-view.md), selecione o ícone **Duplicar essa página**.
+Na barra de controle da parte superior, em [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md), selecione o ícone **Duplicar esta página**.
 
 ![](media/power-bi-report-add-page/pbi_duplicate.png)
 

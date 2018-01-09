@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: d39fd80b834afc37fb1db43a083f9037a3b83ef1
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Renomear quase tudo no serviço do Power BI
 Este artigo ensina como renomear um dashboard, um relatório, uma página de relatório, uma pasta de trabalho, um conjunto de dados, um aplicativo e um espaço de trabalho no serviço do Power BI.
@@ -35,12 +35,12 @@ Este artigo ensina como renomear um dashboard, um relatório, uma página de rel
 | Pasta de trabalho em um espaço de trabalho |Sim |Não |
 | Conjunto de dados em um espaço de trabalho |Sim |Não |
 | Espaço de trabalho de aplicativo |Sim, se você for o proprietário ou tiver permissões de Administrador |Não |
-| Aplicativos publicados |Não na Tela do aplicativo, mas o Nome do aplicativo pode ser alterado no Espaço de trabalho do aplicativo e publicado novamente com um novo nome, se você tiver permissões de Administrador |Não |
-| Conteúdo do aplicativo (dashboard, relatório, pasta de trabalho, conjunto de dados) |Não na Tela do aplicativo, mas o conteúdo do Aplicativo pode ser renomeado no Espaço de trabalho do aplicativo e publicado novamente com um novo nome, se você tiver permissões de Administrador |Não |
+| Aplicativos publicados |Não na Tela do aplicativo, mas o nome do aplicativo pode ser alterado no espaço de trabalho do aplicativo e publicado novamente com um novo nome, se você tiver permissões de Administrador |Não |
+| Conteúdo do aplicativo (dashboard, relatório, pasta de trabalho, conjunto de dados) |Não na Tela do aplicativo, mas o conteúdo do aplicativo pode ser renomeado no espaço de trabalho do aplicativo e publicado novamente com um novo nome, se você tiver permissões de Administrador |Não |
 | Conteúdo em **Compartilhado comigo** |Não |Não |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Renomear um dashboard, um relatório ou uma pasta de trabalho
-1. Inicie em um espaço de trabalho e selecione a guia **Dashboards**, **Relatórios** ou **Pastas de trabalho**. Focalize o item a ser renomeado e selecione o ícone de engrenagem ![](media/service-rename/powerbi-cog-icon.png).
+1. Inicie em um espaço de trabalho e selecione a guia **Dashboards**, **Relatórios** ou **Pastas de trabalho**. Focalize o item a ser renomeado e selecione o ícone de engrenagem ![](media/service-rename/powerbi-cog-icon.png). Se não houver nenhum ícone de engrenagem, você não tem permissões para renomear.
    
    ![](media/service-rename/power-bi-workspace-dashboards.png)
 2. Na página de Configurações, digite o novo nome e selecione **Salvar**.
@@ -64,10 +64,10 @@ Este artigo ensina como renomear um dashboard, um relatório, uma página de rel
      ![](media/service-rename/power-bi-rename.png)
 
 ## <a name="rename-an-app-workspace"></a>Renomear um Espaço de trabalho de aplicativo
-Qualquer pessoa com permissões de Administrador pode renomear um Espaço de trabalho de aplicativo.
+Qualquer pessoa com permissões de Administrador pode renomear um espaço de trabalho de aplicativo.
 
 1. Inicie no espaço de trabalho que você deseja renomear.
-2. No canto superior direito, selecione as reticências (...) e escolha **Editar espaço de trabalho**.  
+2. No canto superior direito, selecione as reticências (...) e escolha **Editar espaço de trabalho**. Se essa opção não aparecer, você não tem permissões para renomear este espaço de trabalho. 
    
     ![](media/service-rename/power-bi-edit-workspace.png)
 3. Digite um novo nome de espaço de trabalho e selecione **Salvar**.

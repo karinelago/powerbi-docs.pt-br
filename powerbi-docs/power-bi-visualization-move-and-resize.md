@@ -1,6 +1,6 @@
 ---
 title: "Mover, redimensionar e retirar uma visualização"
-description: "Mova e redimensione uma visualização em um relatório do Power BI"
+description: "Mova e redimensione uma visualização em um relatório no serviço do Power BI e Desktop"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6d2f6c013399c7777b1e866c75b3023e4e20a2b7
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: c5226c791a97c87c4c4759052149d8744f94d0ac
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 12/21/2017
 ---
-# <a name="move-and-resize-a-visualization-in-a-report"></a>Mover e redimensionar uma visualização em um relatório
+# <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Mova e redimensione uma visualização em um relatório no serviço do Power BI Desktop
+Somente os criadores de relatório e proprietários podem mover e redimensionar visualizações. No serviço do Power BI (app.powerbi.com), isso significa abrir o relatório no [Modo de exibição de edição](service-reading-view-and-editing-view.md).
+
 ## <a name="open-the-report"></a>Abra o relatório
-No Power BI, abra um relatório no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md) e [crie uma visualização](power-bi-report-add-visualizations-i.md) se o relatório ainda não tiver uma.
+No Power BI, abra um relatório que tenha pelo menos uma visualização, ou [crie uma nova visualização](power-bi-report-add-visualizations-i.md). 
 
 ## <a name="move-the-visualization"></a>Mova a visualização
-* Selecione (com um clique com o botão esquerdo) qualquer área da visualização e arraste até a nova localização. 
+* Selecione (com um clique com o botão esquerdo) qualquer área da visualização e arraste até a nova localização.
 
 ## <a name="resize-the-visualization"></a>Redimensione a visualização
 * Selecione a visualização para exibir a borda e clique e arraste as alças do quadro escuro para redimensionar.  
@@ -39,13 +41,10 @@ No Power BI, abra um relatório no [Modo de Exibição de Edição](service-read
   ![](media/power-bi-visualization-move-and-resize/pbi_popouticon.jpg)
 
 ## <a name="next-steps"></a>Próximas etapas
-[Redimensionar uma visualização em um dashboard](service-dashboard-edit-tile.md)
+[Redimensionar uma visualização em um dashboard](service-dashboard-edit-tile.md)  
 
-[Exibir um bloco do dashboard no modo de tela inteira (Em foco)](service-focus-mode.md)
-
-[Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)
+[Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)  
 
 [Power BI – conceitos básicos](service-basic-concepts.md)  
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-

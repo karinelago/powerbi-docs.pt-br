@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/08/2017
+ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 9dc9cb883e1d62c282501e628f52c13267d830b6
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
+ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 12/21/2017
 ---
 # <a name="favorite-dashboards-in-the-power-bi-service"></a>Criar dashboards no serviço do Power BI
 Quando você adicionar um dashboard a *Favoritos*, poderá acessá-lo de todos os espaços de trabalho.  Os favoritos normalmente são aqueles que você visita com mais frequência.
@@ -32,7 +32,7 @@ Quando você adicionar um dashboard a *Favoritos*, poderá acessá-lo de todos o
 > 
 > 
 
-Também é possível selecionar um único dashboard como um [Dashboard em destaque](service-dashboard-featured.md) no Power BI.
+Você também pode selecionar um único painel como um [painel em destaque](service-dashboard-featured.md) no serviço do Power BI.
 
 ## <a name="add-a-dashboard-as-a-favorite"></a>Adicionar um dashboard como um *favorito*
 Assista à Amanda adicionar favoritos ao seu espaço de trabalho e, em seguida, siga as instruções passo a passo abaixo do vídeo para testar por conta própria.
@@ -40,7 +40,7 @@ Assista à Amanda adicionar favoritos ao seu espaço de trabalho e, em seguida, 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-1. Abra um dashboard que você usa com frequência. Até mesmo os dashboards que foram compartilhados com você podem ser um *favorito*.
+1. Abra um dashboard que você usa com frequência. Até mesmo os painéis que foram compartilhados com você podem ser *favoritos*.
 2. No canto superior direito do serviço do Power BI, selecione **Favoritos** ou o ícone de estrela ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
    
    ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
@@ -50,7 +50,7 @@ Assista à Amanda adicionar favoritos ao seu espaço de trabalho e, em seguida, 
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="working-with-favorites"></a>Trabalhando com *favoritos*
-1. Para ver os cinco favoritos mais recentes, em qualquer espaço de trabalho, selecione a seta à direita de **Favoritos**.  Deste local, você pode selecionar um dashboard favorito para abri-lo. Apenas os cinco favoritos mais recentes são listados (em ordem alfabética). Se você tem mais de cinco favoritos, selecione **Ver todos** para abrir a tela Favoritos (consulte o item 2 abaixo). 
+1. Para acessar seus favoritos, em qualquer espaço de trabalho, selecione a seta do submenu à direita de **Favoritos**.  Deste local, você pode selecionar um dashboard favorito para abri-lo. Apenas cinco favoritos são listados (em ordem alfabética). Se você tem mais de cinco favoritos, selecione **Ver todos** para abrir a tela Favoritos (consulte o item 2 abaixo). 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
 2. Para ver **todos** os dashboards que você adicionou como favoritos, no painel de navegação esquerdo, selecione **Favoritos** ou o ícone de Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
@@ -60,7 +60,7 @@ Assista à Amanda adicionar favoritos ao seu espaço de trabalho e, em seguida, 
    Nele, é possível selecionar um dashboard para abri-lo ou compartilhar um dashboard com seus colegas.
 
 ## <a name="unfavorite-a-dashboard"></a>Remover um dashboard de Favoritos
-Você não usa mais um dashboard com tanta frequência como costumava?  É possível removê-los de Favoritos. Quando você remove um dashboard dos favoritos, ele é removido dos seus Favoritos, mas não do Power BI.
+Você não usa mais um dashboard com tanta frequência como costumava?  É possível removê-los de Favoritos. Quando você remove um painel dos favoritos, ele é removido de sua lista de Favoritos, mas não do Power BI.
 
 1. No painel de navegação esquerdo, selecione **Favoritos** para abrir a tela **Favoritos**.
    
