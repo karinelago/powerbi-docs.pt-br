@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/10/2017
+ms.date: 01/05/2017
 ms.author: asaxton
-ms.openlocfilehash: e62b08614a38502fb79f48f369013d32fd538659
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: aba135a0a790025f732379ecb07157f1150d999c
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push a um conjunto de dados do Power BI
 Com a API do Power BI, você pode enviar dados por push para um conjunto de dados do Power BI. Por exemplo, você deseja estender um fluxo de trabalho de negócios existente para enviar por push dados de chave para seu conjunto de dados. Nesse caso, você deseja enviar por push um conjunto de dados de Marketing de vendas, que tem uma Tabela de produto, para um conjunto de dados.
@@ -38,7 +38,7 @@ Antes de começar a enviar dados por push a um conjunto de dados, é necessário
 A próxima seção é uma discussão geral sobre as operações da API do Power BI que enviam dados por push.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operações da API do Power BI para enviar dados por push
-Com a API REST do Power BI, você pode enviar por push fontes de dados para o Power BI. Quando um aplicativo adiciona linhas a um conjunto de dados, os blocos no painel são atualizados automaticamente com os dados atualizados. Para enviar dados por push, você usa a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx) juntamente com a operação [Adicionar Linhas](https://msdn.microsoft.com/library/mt203561.aspx). Para encontrar um conjunto de dados, você usa a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx). Para qualquer uma dessas operações, você pode passar uma ID de grupo para trabalhar com um grupo. Use a operação [Obter Grupos](https://msdn.microsoft.com/library/mt243842.aspx) para obter uma lista de IDs de grupo. Para obter exemplos de como usar a API REST do Power BI, consulte [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Com a API REST do Power BI, você pode enviar por push fontes de dados para o Power BI. Quando um aplicativo adiciona linhas a um conjunto de dados, os blocos no painel são atualizados automaticamente com os dados atualizados. Para enviar dados por push, você usa a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx) juntamente com a operação [Adicionar Linhas](https://msdn.microsoft.com/library/mt203561.aspx). Para encontrar um conjunto de dados, você usa a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx). Para qualquer uma dessas operações, você pode passar uma ID de grupo para trabalhar com um grupo. Use a operação [Obter Grupos](https://msdn.microsoft.com/library/mt243842.aspx) para obter uma lista de IDs de grupo.
 
 Estas são as operações para enviar dados por push a um conjunto de dados:
 
@@ -126,6 +126,5 @@ Para começar a enviar dados por push a um conjunto de dados, veja [Etapa 1: reg
 [Obter grupos](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Introdução ao JSON](http://json.org/)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-[API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: f0ca594b6f87ab2e186909f10a8ba4b7e1bce062
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a9dd782931904ada208b68ccbceeb7e1c0d95ec6
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Etapa 4: Obter um conjunto de dados para adicionar linhas em uma tabela do Power BI
 Este artigo faz parte do passo a passo para [enviar dados por push a um conjunto de dados](walkthrough-push-data.md).
 
-Na **etapa 3**, [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md), de Enviar dados por push a um conjunto de dados, você chamou a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx) para criar um conjunto de dados no Power BI. Nesta etapa, você usa a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx) e o Newtonsoft.Json para obter uma ID de conjunto de dados. Você pode usar a ID do conjunto de dados na etapa 4 para adicionar linhas a um conjunto de dados. Para obter exemplos de como usar a API REST do Power BI, consulte [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Na **etapa 3**, [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md), de Enviar dados por push a um conjunto de dados, você chamou a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx) para criar um conjunto de dados no Power BI. Nesta etapa, você usa a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx) e o Newtonsoft.Json para obter uma ID de conjunto de dados. Você pode usar a ID do conjunto de dados na etapa 4 para adicionar linhas a um conjunto de dados. 
 
 Para enviar dados por push para um conjunto de dados do Power BI, você precisa fazer referência à tabela no conjunto de dados. Para fazer referência a uma tabela em um conjunto de dados, é necessário primeiro obter uma **ID do Conjunto de Dados**. Você obtém uma **ID de Conjunto de Dados** usando a operação [Obter Conjunto de Dados](https://msdn.microsoft.com/library/mt203567.aspx). A operação **Obter Conjunto de Dados** retorna uma cadeia de caracteres JSON que contém uma lista de todos os conjuntos de dados no Power BI. A maneira recomendada para desserializar uma cadeia de caracteres JSON é com o [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
@@ -278,7 +278,6 @@ Apresentamos abaixo a [listagem de código completa](#code).
 [Enviar dados por push ao Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/)  
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

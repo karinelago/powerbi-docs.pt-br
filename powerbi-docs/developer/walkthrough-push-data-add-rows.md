@@ -17,16 +17,16 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: asaxton
-ms.openlocfilehash: d9fa2984eecfac026cf01a47d73ec6c5950e02d3
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 02c0ac505f542d9c4a346ae7aee72533789d5599
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Etapa 5: Adicionar linhas a uma tabela do Power BI
 Este artigo faz parte do passo a passo para [enviar dados por push a um conjunto de dados](walkthrough-push-data.md).
 
-Na **etapa 4**, [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md), de Enviar dados por push a um conjunto de dados, você usou a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx) e Newtonsoft.Json para obter uma ID de conjunto de dados. Nesta etapa, você usa a ID do conjunto de dados com a operação [Adicionar Linhas](https://msdn.microsoft.com/library/mt203561.aspx) para adicionar linhas a um conjunto de dados do **Power BI**. Para obter exemplos de como usar a API REST do Power BI, consulte [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Na **etapa 4**, [Obter um conjunto de dados para adicionar linhas a uma tabela do Power BI](walkthrough-push-data-get-datasets.md), de Enviar dados por push a um conjunto de dados, você usou a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx) e Newtonsoft.Json para obter uma ID de conjunto de dados. Nesta etapa, você usa a ID do conjunto de dados com a operação [Adicionar Linhas](https://msdn.microsoft.com/library/mt203561.aspx) para adicionar linhas a um conjunto de dados do **Power BI**. 
 
 Ao chamar a operação [Adicionar Linhas](https://msdn.microsoft.com/library/mt203561.aspx), você adiciona linhas a um conjunto de dados.
 
@@ -319,6 +319,5 @@ Apresentamos abaixo a [listagem de código completa](#code).
 [Enviar dados por push a um Dashboard do Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
 [Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
-[API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

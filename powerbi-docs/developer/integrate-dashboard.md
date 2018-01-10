@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: f3968fd9fb89e868754bb6025a23fdbd028a3965
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: fdcefb11187e92063f239967cf4d245347f54683
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrar um dashboard do Power BI em um aplicativo para sua organização
 Saiba como integrar ou inserir um dashboard em um aplicativo Web usando chamadas à API REST, junto com a API JavaScript do Power BI durante a inserção para a organização.
@@ -56,7 +56,7 @@ Para obter um dashboard do **Power BI**, você usa a operação [Obter Dashboard
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Obter dashboards usando um token de acesso
-Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). A operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) retorna uma lista de dashboards. É possível obter um dashboard individual na lista de dashboards. Veja abaixo um método do C# completo para obter um dashboard. Para obter exemplos de como usar a API REST do Power BI, consulte [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx). A operação [Obter Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) retorna uma lista de dashboards. É possível obter um dashboard individual na lista de dashboards. Veja abaixo um método do C# completo para obter um dashboard. 
 
 Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}*.
 

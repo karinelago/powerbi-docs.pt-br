@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
 ms.author: asaxton
-ms.openlocfilehash: 4dd18fba5b5e3da0f8973a77166551086cc3f3cf
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrar um relatório em um aplicativo para sua organização
 Saiba como integrar ou inserir um relatório em um aplicativo Web usando chamadas à API REST, junto com a API JavaScript do Power BI durante a inserção para a organização.
@@ -54,7 +54,7 @@ No aplicativo, primeiro você precisará obter um **token de acesso** do Azure A
 Para obter um relatório do **Power BI**, você usa a operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx) que obtém uma lista de relatórios do **Power BI**. Na lista de relatórios, obtenha uma ID de relatório.
 
 ### <a name="get-reports-using-an-access-token"></a>Obter relatórios usando um token de acesso
-Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx). A operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx) retorna uma lista de relatórios. É possível obter um relatório individual na lista de relatórios. Veja abaixo um método do C# completo para obter um relatório. Para obter exemplos de como usar a API REST do Power BI, consulte [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx). A operação [Obter Relatórios](https://msdn.microsoft.com/library/mt634543.aspx) retorna uma lista de relatórios. É possível obter um relatório individual na lista de relatórios. Veja abaixo um método do C# completo para obter um relatório. 
 
 Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}*.
 

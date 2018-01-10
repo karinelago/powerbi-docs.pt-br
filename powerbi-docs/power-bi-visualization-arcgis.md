@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/04/2018
 ms.author: mihart
-ms.openlocfilehash: 83d569c071d70576856ff301c8e0967ef607d512
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a1f424229a05b7f4b5507100287719f8d4cac005
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Mapas do ArcGIS no serviço do Power BI e no Power BI Desktop pelo ESRI
 Este tutorial foi escrito do ponto de vista de uma pessoa que está criando um mapa do ArcGIS. Depois que um criador compartilha um mapa do ArcGIS com um colega, esse colega pode exibir e interagir com o mapa, mas não salvar as alterações. Para saber mais sobre como exibir um mapa do ArcGIS, consulte [Interagindo com mapas do ArcGIS](power-bi-visualizations-arcgis.md).
@@ -33,8 +33,7 @@ A combinação de mapas do ArcGIS e do Power BI leva o mapeamento para além da 
 
 > [!TIP]
 > GIS significa Geographic Information Science (Ciência de Informações Geográficas).
-> 
-> 
+
 
 O exemplo a seguir usa uma tela cinza escura para mostrar as vendas regionais como um mapa de dados em uma camada demográfica do rendimento médio disponível de 2016. Como você verá durante a leitura, o uso do ArcGIS Maps oferece capacidade de mapeamento aprimorada quase ilimitada, dados demográficos e visualizações de mapa ainda mais atraentes para que você possa fazer a melhor apresentação possível.
 

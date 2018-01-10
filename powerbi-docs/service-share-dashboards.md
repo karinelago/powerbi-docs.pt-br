@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 01/08/2018
 ms.author: maggies
-ms.openlocfilehash: 4cc7f12eb4964c67ae9f91cfcb51eac77d690555
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: d0fbe2ca891096cf8b1ae2145260c3341c451658
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="share-your-power-bi-dashboards-with-coworkers-and-others"></a>Compartilhe seus dashboards do Power BI com colegas e outras pessoas
 O *compartilhamento* é uma boa maneira de conceder acesso a algumas pessoas aos dashboards e relatórios. O Power BI oferece [várias maneiras de colaborar e distribuir seus dashboards](service-how-to-collaborate-distribute-dashboards-reports.md) e o compartilhamento é apenas uma delas.
@@ -110,7 +110,7 @@ Se você enviar um link em um aplicativo móvel do Power BI para pessoas fora de
 Coisas para se lembrar a respeito do compartilhamento de dashboards:
 
 * Em geral, você e seus colegas veem os mesmos dados no dashboard. Portanto, se você tiver permissões para ver mais dados do que eles, eles poderão ver todos os seus dados no seu painel. No entanto, se a [RLS (segurança em nível de linha)](service-admin-rls.md) for aplicada ao conjunto de dados subjacente a um dashboard, as credenciais de cada pessoa serão usadas para determinar quais dados elas podem acessar.
-* Todas as pessoas com quem você compartilha o dashboard podem vê-lo e interagir com os relatórios no [Modo de Exibição de Leitura](service-report-open-in-reading-view.md). Elas não podem criar relatórios nem salvar alterações nos relatórios existentes.
+* Todas as pessoas com quem você compartilha o dashboard podem vê-lo e interagir com os relatórios no [Modo de Exibição de Leitura](service-reading-view-and-editing-view.md). Elas não podem criar relatórios nem salvar alterações nos relatórios existentes.
 * Ninguém pode ver ou baixar o conjunto de dados.
 * Qualquer pessoa pode [atualizar os dados do dashboard](refresh-data.md) manualmente.
 * Se você usar o Office 365 para email, poderá compartilhar com os membros de um grupo de distribuição inserindo o endereço de email associado ao grupo de distribuição.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/19/2017
 ms.author: asaxton
-ms.openlocfilehash: 0b2e0208814fdd68ef7c6f0bcc1cf6ffa1fe42da
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 70ffefa9845f8440205460ee0083f8dc334b7c81
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrar um bloco em um aplicativo (o usuário possui dados)
 Saiba como integrar ou inserir um bloco em um aplicativo Web usando chamadas à API REST, junto com a API JavaScript do Power BI durante a inserção para a organização.
@@ -56,7 +56,7 @@ Para obter um bloco do **Power BI**, use a operação [Obter Blocos](https://msd
 Uma ID de dashboard precisará ser recuperada primeiro antes que você possa obter o bloco. Para obter informações sobre como recuperar um dashboard, consulte [Integrar um dashboard em um aplicativo (o usuário possui dados)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Obter blocos usando um token de acesso
-Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx). A operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx) retorna uma lista de blocos. É possível obter um bloco individual na lista de blocos. Veja abaixo um método completo do C# para obter um bloco. Para obter exemplos de como usar a API REST do Power BI, consulte [API REST do Power BI no APIARY](http://docs.powerbi.apiary.io/).
+Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx). A operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx) retorna uma lista de blocos. É possível obter um bloco individual na lista de blocos. Veja abaixo um método completo do C# para obter um bloco. 
 
 Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}*.
 

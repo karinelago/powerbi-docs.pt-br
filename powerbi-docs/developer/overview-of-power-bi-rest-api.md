@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 07/20/2017
 ms.author: asaxton
-ms.openlocfilehash: 23a77e2b8ac8754b122888e3d0d64f2c3886b61b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 5a6d760667608feb07932b9175b6949387b33f9a
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>O que os desenvolvedores podem fazer com o Power BI?
 O Power BI exibe painéis interativos e que podem ser criados e atualizados por meio de várias fontes de dados diferentes em tempo real. Ao usar qualquer linguagem de programação que dá suporte a chamadas REST, você pode criar aplicativos que se integram a um painel do Power BI em tempo real. Você também pode integrar blocos do Power BI e relatórios a aplicativos.
@@ -59,7 +59,6 @@ Os exemplos para desenvolvedores do Power BI incluem itens para inserir dashboar
 ## <a name="developer-tools"></a>Ferramentas de desenvolvedor
 Veja a seguir as ferramentas que você pode usar para ajudar no desenvolvimento de itens do Power BI.
 
-* [Console de API interativo Apiari](http://docs.powerbi.apiary.io/)
 * [Exemplo inserido do JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo)
 
 ## <a name="next-steps"></a>Próximas etapas

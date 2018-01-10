@@ -16,11 +16,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: maggies
-ms.openlocfilehash: 87fd7f9b881c6af482cc3a644e77b0a95ea1743c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 604aed25b4702525cfbecde9c6fe18ded8c41994
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e usar aplicativos com dashboards e relatórios no Power BI
 No Power BI, os *aplicativos* reúnem os dashboards e os relatórios relacionados em um só local. As pessoas em sua organização podem criar e distribuir aplicativos com informações comerciais essenciais. Os [serviços externos](service-connect-to-services.md) que talvez você já usa, como o Google Analytics e o Microsoft Dynamics CRM, também oferecem aplicativos do Power BI. 
@@ -63,7 +63,7 @@ Você também pode encontrar e instalar aplicativos aos quais você tenha acesso
 3. Selecione **Obter agora** para adicioná-lo à sua Página de aplicativos. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interagir com os dashboards e relatórios no aplicativo
-Agora você pode explorar os dados nos dashboards e relatórios do aplicativo. Você tem acesso a todas as interações padrão do Power BI, como filtragem, realce, classificação e busca detalhada. Leia sobre como [interagir com relatórios no Power BI](service-interact-with-a-report-in-reading-view.md). 
+Agora você pode explorar os dados nos dashboards e relatórios do aplicativo. Você tem acesso a todas as interações padrão do Power BI, como filtragem, realce, classificação e busca detalhada. Leia sobre como [interagir com relatórios no Power BI](service-reading-view-and-editing-view.md). 
 
 Não é possível salvar as alterações feitas, mas você pode sempre [exportar os dados para o Excel ](power-bi-visualization-export-data.md) de uma tabela ou de outro visual em um relatório.
 

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 05/09/2017
 ms.author: mihart
-ms.openlocfilehash: dac5628756898a20fe139447bc2d165ba804320c
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 67cc9508d71fa29303d09e8901294a2d6b7f8a56
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Criar um dashboard do Power BI de um relatório
 Você já leu [Dashboards no Power BI](service-dashboards.md) e agora deseja criar o seu próprio. Há várias maneiras diferentes de criar um dashboard de controle – de um relatório, desde o início, de um conjunto de dados, duplicando um dashboard existente e muito mais.  Este tópico e vídeo mostram como criar um novo dashboard fixando visualizações de um relatório existente.
@@ -64,7 +64,7 @@ Vamos importar um dos conjuntos de dados de exemplo do Power BI e usá-lo para c
 1. Permanecendo no mesmo espaço de trabalho, selecione a guia **Relatórios**. O relatório importado recentemente é exibido com um asterisco amarelo. Selecione o nome do relatório para abri-lo.
    
     ![](media/service-dashboard-create/power-bi-reports.png)
-2. O relatório é aberto no [Modo de exibição de leitura](service-interact-with-a-report-in-reading-view.md). Observe que ele tem duas guias na parte inferior: Análise de desconto e Visão geral de gastos. Cada guia representa uma página do relatório.
+2. O relatório é aberto no [Modo de exibição de leitura](service-reading-view-and-editing-view.md). Observe que ele tem duas guias na parte inferior: Análise de desconto e Visão geral de gastos. Cada guia representa uma página do relatório.
    
     ![](media/service-dashboard-create/power-bi-reading-view.png)
 3. Passe o mouse sobre uma visualização para revelar as opções disponíveis. Para adicionar a visualização a um dashboard, selecione o ícone ![](media/service-dashboard-create/power-bi-pin-icon.png) de fixação.
