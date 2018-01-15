@@ -2,7 +2,7 @@
   items:
     - name: Introdução
       items:
-        - name: Power BI - conceitos básicos
+        - name: Power BI – conceitos básicos
           href: service-basic-concepts.md
         - name: Introdução ao Power BI
           href: service-get-started.md
@@ -12,7 +12,7 @@
           href: service-free-vs-pro.md
         - name: Fontes de dados do Power BI
           href: service-get-data.md
-        - name: A nova experiência de navegação com o Power BI
+        - name: Conheça o Power BI – experiência de navegação
           href: service-the-new-power-bi-experience.md
         - name: 10 dicas para obter ajuda
           href: service-tips-for-finding-help.md
@@ -68,7 +68,7 @@
           href: sample-retail-analysis.md
     - name: Tarefas comuns
       items:
-        - name: Dashboards favoritos no Power BI
+        - name: 'Adicione painéis, relatórios e aplicativos aos favoritos no Power BI'
           href: service-dashboard-favorite.md
         - name: 'Imprimir um dashboard, um bloco de dashboard, uma página de relatório'
           href: service-print.md
@@ -228,7 +228,7 @@
           href: service-pin-tile-to-another-dashboard.md
         - name: Fixar um bloco em um painel do Power BI a partir do Excel
           href: service-dashboard-pin-tile-from-excel.md
-        - name: Editor do Power BI para Excel
+        - name: Power BI Publisher para Excel
           href: publisher-for-excel.md
         - name: Fixar um bloco a um painel do Power BI da caixa de P e R
           href: service-dashboard-pin-tile-from-q-and-a.md
@@ -780,7 +780,7 @@
           href: desktop-add-custom-column.md
         - name: Crie elementos visuais responsivos no Power BI
           href: desktop-create-responsive-visuals.md
-        - name: Usar rótulos de hierarquia embutido no Power BI Desktop (Preview)
+        - name: Usar rótulos de hierarquia embutidos no Power BI Desktop (Prévia)
           href: desktop-inline-hierarchy-labels.md
         - name: Usar a segmentação de intervalo numérico
           href: desktop-slicer-numeric-range.md
