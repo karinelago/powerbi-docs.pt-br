@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 4610523d7c18246394974083c948b7bc018b4da1
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 692bcad734c2c011fc81fedf9fb8870d518cab06
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Exibir conteúdo relacionado no serviço do Power BI
 O painel **Conteúdo relacionado** mostra como o conteúdo do serviço do Power BI (dashboards, relatórios e conjuntos de dados) está interconectado.  E não para por aí: nesse painel, é possível realizar tarefas comuns como atualizar, renomear, gerar insights e muito mais. Selecione um dashboard ou relatório relacionado e abra-o no espaço de trabalho do Power BI.   
@@ -74,7 +74,7 @@ Em um espaço de trabalho, selecione a guia **Relatórios** e, em seguida, selec
 <br>
 **Método 2**
 
-Abra o relatório em [exibição de Leitura](service-interact-with-a-report-in-reading-view.md) e selecione ![](media/service-related-content/power-bi-view-related-new.png) na barra de menus superior.
+Abra o relatório no [modo de exibição de Leitura](service-reading-view-and-editing-view.md) e selecione ![](media/service-related-content/power-bi-view-related-new.png) na barra de menus superior.
 
 O painel **Conteúdo relacionado** é aberto. O painel mostra o conjunto de dados associado e todos os dashboards com pelo menos um bloco fixado extraído do relatório. Neste relatório, há visualizações fixadas em dois dashboards diferentes.
 
@@ -97,7 +97,7 @@ Neste ponto, você pode controlar diretamente o conteúdo relacionado.  Por exem
 
 ## <a name="limitations-and-troubleshooting"></a>Limitações e solução de problemas
 * Se não houver espaço suficiente no navegador, não será possível visualizar uma opção de **Exibir relacionados**, mas ainda será possível visualizar o ícone Exibir relacionados ![](media/service-related-content/power-bi-view-related-icon-new.png). Selecione o ícone para abrir o painel **Conteúdo relacionado**.
-* Para abrir o Conteúdo relacionado de um relatório, é preciso estar na [exibição de Leitura](service-interact-with-a-report-in-reading-view.md).
+* Para abrir o Conteúdo relacionado de um relatório, é preciso estar na [exibição de Leitura](service-reading-view-and-editing-view.md).
 * O Conteúdo relacionado não está disponível no Power BI Desktop.
 * O recurso Conteúdo relacionado não funciona em conjuntos de dados de streaming.
 

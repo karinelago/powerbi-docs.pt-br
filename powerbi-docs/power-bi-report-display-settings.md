@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/24/2017
 ms.author: mihart
-ms.openlocfilehash: 650e02ea7d6f31fce9e5a0a458c41d6daa3fa9e1
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 57c441c489bf71db4b45bdfb96821b3cc2dcdec3
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>A página exibe as configurações em um relatório do Power BI
 Compreendemos que é essencial manter o pixel de layout de relatório perfeito. Às vezes, isso pode ser desafiador, porque você e seus colegas exibem esses relatórios em telas com taxas de proporção diferentes e tamanhos. 
@@ -45,7 +45,7 @@ No serviço do Power BI, abra um relatório e selecione **Exibição** na barra 
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-As configurações do modo de Exibição de página estão disponíveis tanto no [Modo de Exibição de Leitura](service-interact-with-a-report-in-reading-view.md) como no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md). No Modo de Exibição de Edição, o proprietário de um relatório pode atribuir configurações de exibição de página para páginas de relatório individuais, e essas configurações são salvas com o relatório. Quando os colegas abrirem o relatório no Modo de Exibição de Leitura, verão a exibição das páginas do relatório usando as configurações do proprietário.  No Modo de Exibição de Leitura, colegas podem alterar *algumas* das Configurações de exibição de página, mas as alterações não são salvas ao sair do relatório.
+As configurações de Exibição de Página estão disponíveis no [modo de exibição de Leitura e no modo de exibição de Edição](service-reading-view-and-editing-view.md). No Modo de Exibição de Edição, o proprietário de um relatório pode atribuir configurações de exibição de página para páginas de relatório individuais, e essas configurações são salvas com o relatório. Quando os colegas abrirem o relatório no Modo de Exibição de Leitura, verão a exibição das páginas do relatório usando as configurações do proprietário.  No Modo de Exibição de Leitura, colegas podem alterar *algumas* das Configurações de exibição de página, mas as alterações não são salvas ao sair do relatório.
 
 ##    <a name="page-view-settings"></a>Configurações de exibição de página
 O primeiro conjunto de configurações do *Modo de Exibição da Página* controla a exibição das páginas do relatório com base na janela do navegador.  Escolha entre:

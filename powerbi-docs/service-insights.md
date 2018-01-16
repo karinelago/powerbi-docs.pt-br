@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mihart
-ms.openlocfilehash: fb498f2b3320b96958467a9db851f119dba20ce7
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 01e4f19cc1a3a57179be37cf0f36adf15ac47fdc
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Gerar automaticamente as informações sobre os dados com o Power BI
 Tem um novo conjunto de dados e não sabe exatamente por onde começar?  Você precisa criar um painel rapidamente?  Deseja procurar informações que você pode ter perdido?
@@ -71,7 +71,7 @@ Agora é sua vez. Explore insights usando o [exemplo de análise de qualidade de
     ![](media/service-insights/power-bi-insight-focus.png)
 3. No modo de Foco você pode:
    
-   * [filtrar](service-interact-with-a-report-in-reading-view.md) as visualizações.  Para exibir os filtros, no canto superior direito, selecione a seta para expandir o painel Filtros.
+   * Filtrar as visualizações.  Para exibir os filtros, no canto superior direito, selecione a seta para expandir o painel Filtros.
      
         ![](media/service-insights/power-bi-insights-filter-new.png)
    * Fixe o cartão de insight em um dashboard, selecionando o ícone de fixar ![](media/service-insights/power-bi-pin-icon.png) ou **Fixar visual**.

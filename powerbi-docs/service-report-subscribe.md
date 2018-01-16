@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 8faa60dee8c1785d5560ac34c5eb50288488e893
-ms.sourcegitcommit: 910258a5ad8b6861e81ae02c57286db221c37375
+ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Assinar um relatório ou um dashboard do Power BI
 Nunca foi tão fácil manter-se atualizado sobre seus dashboards e relatórios mais importantes. Assine os dashboards e as páginas de relatório mais importantes para você e o Power BI enviará um email com um instantâneo para sua caixa de entrada. Informe ao Power BI a frequência com que deseja receber os emails: de uma vez por dia a uma vez por semana. O instantâneo e o email usarão o idioma definido nas configurações do Power BI. Se nenhum idioma for definido, o Power BI usa o idioma do navegador atual.
@@ -65,7 +65,7 @@ A **criação** de uma assinatura é um recurso do Power BI Pro e você deve ter
    ![](media/service-report-subscribe/power-bi-view-related-screen.png)
 
 ## <a name="subscribe-to-a-report-page"></a>Assinar uma página de relatório
-1. Abra o relatório no [modo de exibição de Leitura](service-report-open-in-reading-view.md).
+1. Abra o relatório no [modo de exibição de Leitura](service-reading-view-and-editing-view.md).
 2. Na barra de menus superior, selecione **Assinar**.
    
    ![](media/service-report-subscribe/power-bi-subscribe-icon.png)
@@ -109,6 +109,7 @@ Uma assinatura será encerrada se a licença Pro expirar, se o dashboard ou o re
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * No momento, a assinatura não está disponível para dashboards ou relatórios provenientes de pacotes de conteúdo ou de aplicativos do Power BI. Mas existe uma solução alternativa: faça uma cópia do relatório/dashboard e adicione assinaturas a essa versão.
+* As assinaturas da página de relatório são vinculadas ao nome da página de relatório. Se você assinar uma página de relatório e renomeá-la, precisará recriar sua assinatura
 * Para assinaturas de email em conjuntos de dados de conexão dinâmica, você só receberá emails quando os dados mudarem. Assim, se ocorrer uma atualização, mas os dados não mudarem, o Power BI não enviará um email.
 * Assinaturas de email não dão suporte à maioria dos [visuais personalizados](power-bi-custom-visuals.md).  A única exceção é para os elementos visuais personalizados que foram [certificados](power-bi-custom-visuals-certified.md).  
 * Assinaturas de email são enviadas com estados de segmentação e filtro padrão do relatório. Nenhuma mudança feita nos padrões antes de assinar aparecerá no email.    

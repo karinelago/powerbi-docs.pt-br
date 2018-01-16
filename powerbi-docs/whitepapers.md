@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/14/2017
+ms.date: 01/05/2018
 ms.author: asaxton
-ms.openlocfilehash: a4ceeda4d56853df42da8e5c644b3946878a89f0
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 893f9a9b539b2facd62f74f8ecaebe42a4e7fcaa
+ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="whitepapers-for-power-bi"></a>White papers para o Power BI
 
@@ -41,5 +41,6 @@ White papers permitem que você explore os tópicos do Power BI em um nível mai
 | [Segurança](service-admin-power-bi-security.md) |Fornece uma explicação detalhada de segurança no Power BI. |
 | [Protegendo o modelo semântico de BI tabular](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx) |Este documento apresenta o modelo de segurança para a semântica de BI tabular e Power BI. Você aprenderá como criar funções, implementar a segurança dinâmica, definir configurações de representação, gerenciar funções e escolher um método para se conectar a modelos que funciona no contexto da segurança de rede. |
 | [Diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI](report-server/capacity-planning.md) |Este documento tem como objetivo oferecer diretrizes de planejamento de capacidade do Servidor de Relatórios do Power BI, com o compartilhamento de resultados de diversas execuções de teste de carga de várias cargas de trabalho em um servidor de relatório. |
-|[Planejamento e Implantação do Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) | Whitepaper técnico sobre as práticas recomendadas e diretrizes de planejamento, implantação e operacionalização do Power BI Premium. 
+| [Planejamento e Implantação do Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment)| Este documento fornece diretrizes e as melhores práticas para o planejamento e a implantação da capacidade premium para cargas de trabalho bem definidas.|
+
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)

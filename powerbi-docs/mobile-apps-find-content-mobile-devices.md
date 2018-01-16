@@ -1,6 +1,6 @@
 ---
 title: "Localizar dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI"
-description: "Leia sobre onde encontrar seus dashboards e relatórios nos aplicativos móveis do Power BI, dependendo de onde eles vieram."
+description: "Leia mais sobre onde encontrar seus dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI, dependendo de sua origem."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: 6dca860e4711d85b4b53c31c91ba4cba20bbe6e7
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63ef5ad9ee59901917fb9bf9c28358c9aa542e8
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Localize seus dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -49,7 +49,7 @@ Talvez você tenha conexões com um ou mais servidores locais do Servidor de Rel
 ## <a name="3-apps"></a>3 Aplicativos
 Um aplicativo é uma coleção de dashboards e relatórios desenvolvidos pela sua organização com uma finalidade específica, para fornecer métricas-chave para decisões mais rápidas e fáceis, orientadas por dados. Os aplicativos são fáceis de descobrir e instalar no serviço do Power BI ([https://powerbi.com](https://powerbi.com)). Após a instalação, você pode exibi-los em qualquer dispositivo. 
 
-![Nova navegação do Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-mobile-apps.png)
+![Nova navegação do Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-apps-mobile-apps.png)
 
 Com os aplicativos, você obtém automaticamente todas as atualizações feitas pelo autor e o autor também controla a frequência com que os dados são agendados para atualizar. Você não precisa se preocupar em manter-se atualizado com as alterações do autor.
 

@@ -15,16 +15,23 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/04/2018
 ms.author: maggies
-ms.openlocfilehash: f3e02da2c0e793f3eb334c39852f5cd23534ad3f
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
+ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/05/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Exibir relatórios do Power BI otimizados para seu telefone
-Quando você cria um relatório do Power BI no Power BI Desktop, você também pode criar uma versão deste [relatório otimizado para exibição no aplicativo Power BI em um telefone](desktop-create-phone-report.md).
+
+Aplica-se a:
+
+| ![iPhone](media/mobile-apps-view-phone-report/ios-logo-40-px.png) | ![Telefone Android](media/mobile-apps-view-phone-report/android-logo-40-px.png) |
+|:--- |:--- |
+| iPhones |Telefones Android |
+
+Quando você cria um relatório do Power BI no Power BI Desktop, você também pode [criar uma versão desse relatório otimizada para exibição](desktop-create-phone-report.md) no aplicativo do Power BI em um telefone.
 
 Em seguida, quando você abrir um relatório do Power BI em um telefone, o Power BI detectará se o relatório foi otimizado para telefones e abrirá automaticamente o relatório otimizado no modo de exibição de retrato.
 

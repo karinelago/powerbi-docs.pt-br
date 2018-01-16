@@ -15,36 +15,71 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 7c0c09bd04eac31bac00e4562853c99befe9715f
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Modo de Exibição de Leitura e Modo de Exibição de Edição em relatórios de serviço do Power BI
-No serviço do Power BI (não o Power BI Desktop), há dois modos para exibir e interagir com relatórios: Modo de Exibição de Leitura e Modo de Exibição de Edição.  
+No serviço do Power BI (não o Power BI Desktop), há dois modos para exibir e interagir com relatórios: Modo de Exibição de Leitura e Modo de Exibição de Edição. O modo de exibição de Leitura está disponível para todos os usuários e foi especialmente projetado para *consumidores de dados*, enquanto o modo de exibição de Edição só está disponível para *criadores* e proprietários de relatórios. 
 
-O Modo de Exibição de Leitura está disponível a todos os usuários, enquanto o Modo de Exibição de Edição só está disponível aos criadores e proprietários de relatório. O Modo de Exibição de Leitura foi criado para os *consumidores* do relatório, aqueles colegas que abrem relatórios em Aplicativos ou com quem os relatórios são compartilhados. O Modo de Exibição de Leitura garante que cada consumidor de um relatório específico esteja vendo o mesmo relatório, as mesmas visualizações, com os mesmos filtros aplicados.  Os consumidores podem interagir com os relatórios, mas não conseguem salvar alterações.
+![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+
+## <a name="report-reading-view"></a>Modo de exibição de Leitura do relatório
+
+ O modo de exibição de Leitura é a sua maneira de explorar e interagir com o relatório – é uma forma divertida e segura de experimentar e conhecer seus dados. O modo de exibição de Leitura foi criado para *consumidores* de relatórios, aqueles que abrem relatórios em Aplicativos ou com quem os relatórios são [compartilhados](service-share-dashboards.md). O Modo de Exibição de Leitura garante que cada consumidor de um relatório específico esteja vendo o mesmo relatório, as mesmas visualizações, com os mesmos filtros aplicados.  Os consumidores podem interagir com os relatórios, mas não conseguem salvar alterações.
 
 >**OBSERVAÇÃO**: há determinadas circunstâncias em que pode ser que os consumidores de relatório vejam dados diferentes devido ao nível de linha de segurança e a permissões de dados. 
 
-O Modo de Exibição de Edição só fica disponível para aqueles que criaram o relatório ou que são seus coproprietários por serem um membro ou administrador de um espaço de trabalho do aplicativo.
+## <a name="report-editing-view"></a>Modo de exibição de Edição do relatório
 
-## <a name="reading-view"></a>Modo de Exibição de Leitura
+O modo de exibição de Edição só fica disponível para aqueles que criaram o relatório ou que são [coproprietários de um relatório, por serem um membro ou administrador de um espaço de trabalho do aplicativo](service-create-distribute-apps.md).
 
-O Modo de Exibição de Leitura é um modo divertido e seguro de experimentar e conhecer seus dados. O Modo de Exibição de Leitura não é tão interativo quanto o [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md), mas ainda oferece muitas opções para explorar os dados. Isso é útil ao exibir relatórios, por exemplo, ao visualizar relatórios [compartilhados com você](service-share-dashboards.md), que podem ser abertos somente no Modo de Exibição de Leitura.
+O modo de exibição de Edição foi projetado para *criadores* de relatórios. É o lugar em que os criadores importam e conectam-se a conjuntos de dados, exploram os dados e criam relatórios e dashboards. No modo de exibição de Edição, os *criadores* podem se aprofundar ainda mais em seus dados adicionando e removendo campos, alterando o tipo de visualização, criando novas visualizações e adicionando e excluindo visualizações e páginas do relatório. Eles podem então compartilhar os relatórios criados com colegas.
 
-Para saber mais, consulte [Modo de Exibição de Leitura para relatórios do Power BI](service-interact-with-a-report-in-reading-view.md).
+## <a name="reading-view-versus-editing-view"></a>Modo de exibição de Leitura versus modo de exibição de Edição
+Este gráfico não lista todos os recursos de relatórios do serviço do Power BI. Lista somente as tarefas de relatório que não estão disponíveis no modo de exibição de Leitura **nem** no modo de exibição de Edição. 
 
-## <a name="editing-view"></a>Modo de Exibição de Edição
-No Modo de Exibição de Edição do Power BI (comparado ao [Modo de Exibição de Leitura](service-interact-with-a-report-in-reading-view.md)), é possível se aprofundar ainda mais em seus dados adicionando e removendo campos, alterando o tipo de visualização, criando novas visualizações e adicionando e excluindo visualizações e páginas do relatório.
 
-Para saber mais, consulte [Modo de Exibição de Edição para relatórios do Power BI](service-interact-with-a-report-in-editing-view.md)
+|Tarefa  | Modo de Exibição de Leitura  | Modo de Exibição de Edição |
+|-------------------------|-------|-------|
+|**Relatórios, como um todo**  |
+||||
+| [Criar ou editar um relatório](service-report-create-new.md) | Não  | Sim |
+| [Compartilhar um relatório](service-share-reports.md)| Sim | Sim e também pode gerenciar permissões, incluindo conceder permissões de *proprietário* a outras pessoas. |
+| [Criar filtros persistentes (permanentes) no nível do visual, de detalhamento, no nível da página e no nível do relatório no painel Filtros](power-bi-report-add-filter.md) | Não  | Sim |
+| [Usar o painel Filtros do relatório](power-bi-how-to-report-filter.md) | Sim, pode usar os filtros existentes, mas as alterações não são salvas com o relatório. | Sim |
+| [Usar o painel Análise do relatório](service-analytics-pane.md) | Não | Sim |
+| [Opções de **Exibição** do relatório](power-bi-report-display-settings.md) | Sim, com algumas exceções. | Sim, todas, incluindo linhas de grade, alinhamento e bloqueio. |
+| [Criar um agendamento de atualização](refresh-data.md) | Não  | Sim |
+| [Assinar um relatório](service-report-subscribe.md) | Sim | Não |
+| [P e R – fazer perguntas em relatórios](service-q-and-a.md) | Não  | Sim |
+| [Exibir Métricas de uso ](service-usage-metrics.md) | Sim, na tela do relatório. | Sim, na lista do relatório (exibição de conteúdo) |
+| [Exibição relacionada](service-related-content.md) | Sim, na tela do relatório. | Sim, na lista do relatório (exibição de conteúdo) |
+| [Salvar um relatório](service-report-save.md) | Sim, mas apenas com **Salvar como**. | Sim |
+| [Excluir um relatório](service-delete.md) | Não  | Sim |
+|**Páginas de relatório** |
+||||
+| [Adicionar ou renomear uma página de relatório](power-bi-report-add-page.md)  | Não  | Sim  |
+| [Duplicar uma página de relatório](power-bi-report-copy-paste-page.md) | Não  | Sim |
+| [Excluir página de relatório](service-delete.md) | não | sim |
+|**Trabalhando com visualizações de relatório**|
+||||
+| [Adicionar visualizações a um relatório](power-bi-report-add-visualizations-i.md) | Não  | Sim |
+| [Adicionar caixas de texto e formas a um relatório](power-bi-reports-add-text-and-shapes.md) | Não  | Sim |
+| [Usar o painel Formatação do relatório](service-the-report-editor-take-a-tour.md) | Não | Sim |
+| [Definir interações visuais](service-reports-visual-interactions.md) | Não  | Sim |
+| [Mostrar os dados usados para criar a visualização](service-reports-show-data.md) | Não  | Sim |
+| [Configurar drilling](power-bi-visualization-drill-down.md) | Não  | Sim |
+| [Alterar a visualização utilizada](power-bi-report-change-visualization-type.md) | Não | Sim|
+| [Excluir uma visualização, caixa de texto ou forma](service-delete.md)| Não | Sim |
+
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>Navegando entre o Modo de Exibição de Edição e o Modo de Exibição de Leitura
-Lembre-se de que somente os criadores e os proprietários de relatório poderão abrir um relatório no Modo de Exibição de Edição.
+Lembre-se de que somente o criador e os proprietários do relatório poderão abrir um relatório no modo de exibição de Edição.
 
 1. Por padrão, geralmente um relatório é aberto no Modo de Exibição de Leitura. Você consegue saber se está no Modo de Exibição de Leitura, se vir uma opção para **Editar relatório**. Se a opção **Editar relatório** estiver acinzentada, você não tem permissões para abrir o relatório no Modo de Exibição de Edição.
 
@@ -54,16 +89,16 @@ Lembre-se de que somente os criadores e os proprietários de relatório poderão
    
    ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
-   Agora o relatório está no Modo de Exibição de Edição e usa as mesmas [configurações de exibição](power-bi-report-display-settings.md) usadas por você no Modo de Exibição de Leitura.
+   Agora o relatório está no modo de exibição de Edição e usa as mesmas [configurações de vídeo](power-bi-report-display-settings.md) usadas por você na última vez no modo de exibição de Leitura.
 
 2. Para retornar ao Modo de Exibição de Leitura, selecione **Modo de Exibição de Leitura** na barra de navegação superior.
    
     ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
-Há muitas maneiras de interagir com um relatório no Modo de Exibição de Leitura, segmentando e repartindo os dados para descobrir informações e obter respostas às perguntas.  O próximo tópico, [Interagir com um relatório no Modo de Exibição de Leitura](service-interact-with-a-report-in-editing-view.md), lista e descreve tudo isso detalhadamente.
+
 
 ### <a name="next-steps"></a>Próximas etapas
-[Interagir com um relatório no Modo de Exibição de Leitura](service-interact-with-a-report-in-editing-view.md)    
+Há muitas maneiras de interagir com um relatório no Modo de Exibição de Leitura, segmentando e repartindo os dados para descobrir informações e obter respostas às perguntas.  O próximo tópico, [Interagir com um relatório no modo de exibição de Leitura](service-interact-with-a-report-in-editing-view.md), descreve alguns desses aspectos detalhadamente.    
 Voltar para [relatórios no Power BI](service-reports.md)    
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/) 
 

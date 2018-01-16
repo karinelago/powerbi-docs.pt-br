@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/4/2017
+ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 80a5a668056d1a3f3f2b53600e80f399be4a5e08
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8a818c26a6f9afd134133464b972091faaad093d
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL
 Ao abrir um relatório no serviço do Power BI, cada página do relatório tem sua própria URL exclusiva. Para filtrar essa página do relatório, é possível usar o painel Filtros na tela de relatório.  Outra opção é adicionar parâmetros da cadeia de caracteres de consulta na URL para filtrar o relatório. Talvez você tenha um relatório que gostaria de mostrar aos colegas, mas antes deseja filtrá-lo previamente para enviar a eles. Uma maneira de fazer isso é iniciar com a URL padrão correspondente ao relatório, adicionar os parâmetros de filtro à URL e, em seguida, enviar a URL inteira por email aos usuários.
@@ -41,7 +41,7 @@ URL?filter=***Table***/***Field*** eq '***value***'
 * Os nomes da **Tabela** e do **Campo** diferenciam maiúsculas de minúsculas, e o **valor** é Não.
 * Os campos ocultos na exibição de relatório ainda podem ser filtrados.
 * O **Valor** deve estar entre aspas simples.
-* O tipo de campo deve ser uma cadeia de caracteres.
+* O tipo de campo deve ser um número ou uma cadeia de caracteres
 * Os nomes de tabelas e campos não podem conter espaços.
 
 Se ainda estiver confuso, continue lendo e nós explicaremos detalhadamente.  
@@ -108,7 +108,7 @@ Pode haver casos em que isso será útil, isto é, quando você desejar obter re
 Há alguns pontos a serem considerados ao usar os parâmetros da cadeia de caracteres de consulta.
 
 * A filtragem da cadeia de caracteres de consulta não funciona com [Publicar na Web](service-publish-to-web.md) nem com o Power BI Embedded.   
-* O tipo de campo deve ser uma cadeia de caracteres.
+* O tipo de campo deve ser um número ou uma cadeia de caracteres.
 * Os nomes de tabelas e campos não podem conter espaços.
 
 ## <a name="next-steps"></a>Próximas etapas

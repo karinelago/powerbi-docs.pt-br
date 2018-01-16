@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 6e1e74f26ab1d0a0a59bc33b9d1068807918e18e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
+ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/09/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – conceitos básicos do serviço do Power BI
 
@@ -95,7 +95,7 @@ Conjuntos de dados podem ser atualizados, renomeados, explorados e removidos. Us
 ## <a name="reports"></a>Relatórios
 Um relatório do Power BI é uma ou mais páginas de visualizações (quadros e gráficos como gráficos de linhas, gráficos de pizza, mapas de árvore e muito outros). As visualizações também são chamadas de ***visuais***. Todas as visualizações em um relatório vêm de um único conjunto de dados. Relatórios podem ser criados do zero dentro do Power BI, podem ser importados com painéis que colegas compartilharam com você ou podem ser criados quando você se conectar a conjuntos de dados a partir do Excel, Power BI Desktop, banco de dados, aplicativos SaaS e [aplicativos](service-get-data.md).  Por exemplo, quando você se conecta a uma pasta de trabalho do Excel que contém planilhas do Power View, o Power BI cria um relatório baseado nessas planilhas. E quando você se conecta a um aplicativo SaaS, o Power BI importa um relatório pré-criado.
 
-Há dois modos de exibir relatórios e interagir com eles: [Modo de Exibição de Leitura](service-report-open-in-reading-view.md) e [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md).  Somente a pessoa que criou o relatório, co-proprietários e pessoas com permissão têm acesso a todos a todos os recursos de exploração, criação e compartilhamento de recursos do ***Modo de Exibição de Edição*** para esse relatório. E as pessoas com quem eles compartilharem o relatório podem explorar e interagir com o relatório usando o ***Modo de Exibição de Leitura***.   
+Há dois modos de exibir relatórios e interagir com eles: [modo de exibição de Leitura e modo de exibição de Edição](service-reading-view-and-editing-view.md).  Somente a pessoa que criou o relatório, co-proprietários e pessoas com permissão têm acesso a todos a todos os recursos de exploração, criação e compartilhamento de recursos do ***Modo de Exibição de Edição*** para esse relatório. E as pessoas com quem eles compartilharem o relatório podem explorar e interagir com o relatório usando o ***Modo de Exibição de Leitura***.   
 
 Ao abrir um espaço de trabalho, os relatórios associados ficam listados na guia **Relatórios**. Cada relatório listado representa uma ou mais páginas de visualizações baseadas em apenas um conjunto de dados subjacente. Para abrir um relatório, basta selecioná-lo. 
 
