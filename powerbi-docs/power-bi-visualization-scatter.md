@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 17073390cf19b742730712a8d39a353c7d541cd6
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersão e gráficos de bolhas no Power BI (tutorial)
 Um gráfico de dispersão sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos em um eixo horizontal e outro conjunto de valores numéricos em um eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos de maneira uniforme ou não pelo eixo horizontal, dependendo dos dados.
@@ -75,6 +75,14 @@ Agora temos um gráfico de dispersão que plota o % da Variação do Total de Ve
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Opcionalmente, [formate as cores de visualização, os rótulos, os títulos, a tela de fundo e muito mais](service-getting-started-with-color-formatting-and-axis-properties.md).
+
+## <a name="accessibility"></a>Acessibilidade
+
+Você pode tornar o gráfico de dispersão ou o gráfico de bolhas mais acessível para pessoas com deficiências usando *Formas de marcador*. 
+
+Para selecionar a forma do marcador, selecione a seção **Formato** no painel de **Visualizações**, expanda a seção **Formas**, em seguida, selecione uma forma de marcador.
+
+![Forma do marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**O gráfico de dispersão tem apenas um ponto de dados**

@@ -1,6 +1,6 @@
 ---
-title: "Exibir painéis nos aplicativos móveis do Power BI"
-description: "Criar e conectar-se aos dashboards no serviço do Power BI. Em seguida, exiba-os nos aplicativos móveis do Power BI."
+title: "Exibir painéis e relatórios nos aplicativos móveis do Power BI"
+description: "Criar e conectar-se aos painéis e relatórios no serviço do Power BI. Em seguida, exiba-os nos aplicativos móveis do Power BI."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,15 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/18/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 07a514f5d5c5046f8046bb231aef941f201a829b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/17/2018
 ---
-# <a name="view-your-dashboards-in-the-power-bi-mobile-apps"></a>Exiba seus dashboards nos aplicativos móveis do Power BI
+# <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
 
 | ![iPhone](media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Telefone Android](media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tablet Android](media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Dispositivos Windows 10](media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
@@ -35,10 +35,10 @@ Painéis são um portal para o ciclo de vida e processos de sua empresa. Um pain
 ## <a name="create-dashboards-in-the-power-bi-service-httpspowerbicom"></a>Criar dashboards no serviço do Power BI (https://powerbi.com)
 **Você não cria dashboards nos aplicativos móveis.** 
 
-Para ver mais dashboards em seu dispositivo móvel, é necessário criar ou se conectar a eles em um navegador da Web. 
+Para ver painéis e relatórios em seu dispositivo móvel, é necessário criar ou se conectar a eles em um navegador da Web. 
 
 1. Vá para o serviço do Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para obter uma conta](service-self-service-signup-for-power-bi.md).
-2. [Crie seus próprios dashboards do Power BI](service-dashboard-create.md) ou conecte-se a [pacotes de conteúdo existentes para uma variedade de serviços](service-connect-to-services.md).
+2. [Crie seus próprios painéis e relatórios do Power BI](service-get-started.md) ou conecte-se a [aplicativos Power BI](service-connect-to-services.md) existentes para uma variedade de serviços, como [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) e [Adobe Analyics](service-connect-to-adobe-analytics.md).
 
 Este é um dashboard do Power BI no serviço do Power BI:
 

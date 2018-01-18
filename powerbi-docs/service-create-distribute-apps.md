@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/11/2017
+ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 27ead0a3104693aff4a6fc3c2641c207ad44dc09
-ms.sourcegitcommit: bb577045145b2e6e5807622a53cefa2d46574618
+ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/12/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e distribuir aplicativos com dashboards e relatórios no Power BI
 
@@ -51,14 +51,9 @@ Como criador de aplicativos, você precisa de uma licença do Power BI Pro. Para
 ## <a name="app-workspaces"></a>Espaços de trabalho de aplicativo
 *Espaços de trabalho de aplicativo* são os locais em que você cria aplicativos. Portanto, para criar um aplicativo, primeiro é necessário criar o espaço de trabalho do aplicativo. Se você já trabalhou em um espaço de trabalho de grupo no Power BI, os espaços de trabalho de aplicativo serão familiares. Eles são a evolução dos espaços de trabalho de grupo – áreas de preparo e contêineres para o conteúdo no aplicativo. 
 
-Você pode adicionar colegas a esses espaços de trabalho como membros ou administradores. Todos os administradores e membros do espaço de trabalho de aplicativo precisam de licenças do Power BI Pro. No espaço de trabalho, todos podem colaborar em dashboards, relatórios e outros artigos que queiram distribuir para um público maior ou até mesmo para toda a organização. 
+Você pode adicionar colegas a esses espaços de trabalho como membros ou administradores. Todos os administradores e membros do espaço de trabalho de aplicativo precisam de licenças do Power BI Pro. No espaço de trabalho, todos podem colaborar em painéis, relatórios e outros artigos que queiram distribuir para um público maior ou até mesmo para toda a organização. 
 
-Quando o conteúdo está pronto, você publica o aplicativo. Você pode enviar um link direto para esse público mais amplo ou eles podem encontrar seu aplicativo na guia Aplicativos acessando **Baixar e explorar mais aplicativos no AppSource**. As pessoas não podem modificar o conteúdo do aplicativo, mas podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis, filtrando, realçando e classificando os dados. 
-
-### <a name="how-are-app-workspaces-different-from-group-workspaces"></a>Qual a diferença entre os espaços de trabalho de aplicativo e os espaços de trabalho de grupo?
-Todos os espaços de trabalho de grupo existentes podem servir como espaços de trabalho de aplicativo e você pode publicar aplicativos através de qualquer um desses espaços de trabalho. Aqui está uma diferença entre os espaços de trabalho de aplicativo e os espaços de trabalho de grupo: você cria um espaço de trabalho de aplicativo como um local para criar e hospedar um aplicativo específico. Há uma relação um-para-um entre o aplicativo e o conteúdo do espaço de trabalho do aplicativo. Tudo o que está no espaço de trabalho do aplicativo estará no aplicativo quando você o publicar. 
-
-Agora que você entende os aplicativos e espaços de trabalho de aplicativo, vamos começar a criar e publicar um aplicativo. 
+Quando o conteúdo estiver pronto, escolha quais painéis e relatórios você deseja publicar e, em seguida, publique o aplicativo. Você pode enviar um link direto para esse público mais amplo ou eles podem encontrar seu aplicativo na guia Aplicativos acessando **Baixar e explorar mais aplicativos no AppSource**. As pessoas não podem modificar o conteúdo do aplicativo, mas podem interagir com ele no serviço do Power BI ou em um dos aplicativos móveis, filtrando, realçando e classificando os dados. 
 
 ## <a name="create-an-app-workspace"></a>Criar um espaço de trabalho de aplicativo
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]

@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: bebd31bbdbd2a571d565c6939199eedd7ecdb049
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: be245be7c8f83cb363e93a5d2bc452418f436e37
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – conceitos básicos do serviço do Power BI
 
@@ -166,7 +166,7 @@ Não é possível editar a pasta de trabalho no Power BI. No entanto, se precisa
 * [Publicar no Power BI com o Excel](service-publish-from-excel.md)
 
 
-## <a name="my-workspace"></a>Meu espaço de trabalho
+## <a name="my-workspace"></a>Meu Espaço de Trabalho
 Nós falamos sobre espaços de trabalho e blocos de construção. Vamos ver novamente a interface do Power BI e revisar as peças que formam a página inicial do serviço do Power BI.
 
 ![](media/service-basic-concepts/completenewest.png)
@@ -238,6 +238,7 @@ Essa área da tela contém opções adicionais para interagir com o conteúdo (n
 
 ## <a name="next-steps"></a>Próximas etapas
 [Introdução ao Power BI](service-get-started.md)  
+[Navegação: como explorar o serviço do Power BI](service-the-new-power-bi-experience.md)
 [Vídeos do Power BI](videos.md)  
 [Editor de relatório - faça um tour](service-the-report-editor-take-a-tour.md)
 

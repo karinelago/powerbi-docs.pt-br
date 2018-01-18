@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/16/2018
 ms.author: davidi
-ms.openlocfilehash: 70cb015b0f5c4aa952c33c6dd94da5292f9678d7
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 258962cbc9ea60b31676a1bcfb10f7906c6e0f74
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas no Power BI Desktop (Preview)
 No Power BI Desktop, você cria um visual **Mapa de Formas** para mostrar comparações relativas de regiões em um mapa, aplicando cores diferentes a regiões diferentes. Ao contrário do visual **Mapa**, o **Mapa de Formas** não pode mostrar localizações geográficas precisas de pontos de dados em um mapa; em vez disso, sua finalidade principal é mostrar comparações relativas de regiões em um mapa aplicando a elas cores diferentes.
 
-Os visuais **Mapa de Formas** baseiam-se nos mapas ESRI/TopoJSON, que têm a incrível capacidade de usar mapas personalizados que você pode criar, como mapas geográficos, distribuição de assentos, plantas baixas e outros. A capacidade de usar mapas personalizados não está disponível nesta versão de Preview do **Mapa de Formas**, porém, os mapas personalizados serão habilitados quando esse recurso sair da Preview, previsto na próxima atualização mensal do Power BI Desktop.
+Os visuais **Mapa de Formas** baseiam-se nos mapas ESRI/TopoJSON, que têm a incrível capacidade de usar mapas personalizados que você pode criar, como mapas geográficos, distribuição de assentos, plantas baixas e outros. A capacidade de usar mapas personalizados não está disponível nesta versão prévia do **Mapa de Formas**.
 
 ## <a name="creating-shape-maps"></a>Criando Mapas de Formas
 Você pode testar o controle de **Mapa de Formas** com os mapas que são fornecidos com esta versão de visualização ou pode usar seu próprio mapa personalizado, desde que ele atende aos requisitos descritos na seção a seguir, chamada **Usar mapas personalizados**.
@@ -95,8 +95,9 @@ Você pode inserir uma nova coluna apenas digitando um novo nome de coluna (na c
 Há algumas considerações e requisitos para essa versão de Preview do **Mapa de Formas**:
 
 * O visual **Mapa de Formas** está na Preview e deve ser habilitado no Power BI Desktop. Para habilitar o **Mapa de Formas**, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Visualização** e selecione a caixa de seleção **Mapa de Formas**.
-* No momento, você também deve ter o bucket **Valores** definido para que a classificação de **Legenda** funcione corretamente. A melhoria desse comportamento está prevista para versão final do **Mapa de Formas**.
-* A versão de liberação do **Mapa de Formas** terá uma interface do usuário que mostrará as chaves do mapa atualmente selecionado; nesta Preview, é possível consultar as chaves de região do mapa nas tabelas localizadas na seção **Chaves de região** deste artigo.
+* No momento, você também deve ter o bucket **Valores** definido para que a classificação de **Legenda** funcione corretamente
+* A versão de liberação final do **Mapa de Formas** terá uma interface do usuário que mostrará as chaves do mapa atualmente selecionado (não há uma data definida para a versão final e o **Mapa de Formas** ainda está na Versão prévia); nesta Versão prévia, é possível consultar as chaves de região do mapa nas tabelas localizadas na seção **Chaves de região** deste artigo.
+* O visual do **Mapa de Formas** plotará até um máximo de 1.000 pontos de dados.
 
 ## <a name="region-keys"></a>Chaves de região
 Use as **Chaves de região** a seguir nesta versão de Preview para testar o **Mapa de Formas**.

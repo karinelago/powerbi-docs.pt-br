@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 01/15/2018
 ms.author: asaxton
-ms.openlocfilehash: 5f884c9c45627ee3c129daca77e38d17f1223909
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: aa4401a6c913d38e471f83b88fec351308d25870
+ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -56,6 +56,10 @@ A recomendação da Microsoft é que as empresas comprem o Power BI Premium (sol
 
 Pode haver alguns casos em que um ISV (normalmente de grande porte) deseja usar uma SKU P para obter os benefícios adicionais do serviço do Power BI predefinido na organização, bem como inseri-los nos aplicativos. E claro, algumas empresas poderão decidir usar SKUs A no Azure se só estiverem interessadas em criar aplicativos de linha de negócios e em inserir análise neles, e não em usar o serviço do Power BI predefinido.
 
+### <a name="how-many-embed-tokens-can-i-create"></a>Quantos tokens inseridos posso criar?
+
+Tokens inseridos com licença PRO destinam-se para desenvolvimento e teste de desenvolvimento, portanto, o número de tokens inseridos que uma conta mestre do Power BI pode gerar é limitado. Você deve [adquirir uma capacidade](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para incorporar em um ambiente de produção. Não há nenhum limite para a quantidade de tokens inseridos que você pode gerar quando uma capacidade é adquirida.
+
 ### <a name="when-will-power-bi-embedded-be-available-in-azure"></a>Quando o Power BI Embedded estará disponível no Azure?
 
 O Power BI Embedded já está disponível.
@@ -87,6 +91,12 @@ Veja aqui uma lista parcial das diferenças que você pode usar com cada um dele
 |Cobrança |A cada hora |Mensal |Mensal |
 |Compromisso  |Sem compromisso |Anual  |Mensal/anual |
 |Diferença |Elasticidade completa: pode aumentar/reduzir, pausar/retomar recursos no Portal do Azure ou por meio da API  |Pode ser usado para inserir conteúdo no SharePoint Online e no Microsoft Teams |Combine inserção em aplicativos e use a mesma capacidade do serviço do Power BI |
+
+### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>Quais são os pré-requisitos para criar uma capacidade de PBIE no Azure?
+
+- Você precisa entrar no seu diretório organizacional (não há suporte para contas MSA).
+- Você precisa ter um locatário do Power BI, ou seja, pelo menos um usuário em seu diretório deve estar inscrito no Power BI. 
+- Você precisa ter uma assinatura do Azure em seu diretório organizacional.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>Como posso monitorar o consumo da capacidade?
 
@@ -130,7 +140,7 @@ O Power BI Embedded terá um medidor por hora.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>Como o uso do Power BI Embedded aparece na minha fatura?
 
-O Power BI Embedded é cobrado em uma taxa por hora previsível com base nos tipos de nós implantados.
+O Power BI Embedded é cobrado em uma taxa por hora previsível com base nos tipos de nós implantados. Observe que enquanto o recurso estiver ativo, você será cobrado mesmo se não houver nenhum uso. Para interromper a cobrança, é necessário pausar ativamente o recurso. Pausar pode ser feito por meio do Azure ou por meio de APIs de ARM.
 
 ### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>O que acontece se já comprei o Power BI Premium e agora quero alguns dos benefícios do Power BI Embedded no Azure?
 

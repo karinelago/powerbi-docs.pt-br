@@ -66,7 +66,7 @@ Para referência futura, você pode reiniciar o *gateway do serviço Windows* na
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ## <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
-Com a atualização de agosto de 2017 e as posteriores, o gateway de dados local usa o protocolo TLS 1.1 ou 1.2 para comunicar-se com o **serviço do Power BI** por padrão. As versões anteriores do gateway de dados local usam o TLS 1.0 por padrão. Em 15 de janeiro de 2018, o suporte para o TLS 1.0 será encerrado, incluindo a capacidade do gateway de interagir com o **serviço do Power BI** usando o TLS 1.0. Por isso, você deverá atualizar as instalações do gateway de dados local para a versão de agosto de 2017 ou mais recente para garantir que os gateways continuem a funcionar.
+Com a atualização de agosto de 2017 e as posteriores, o gateway de dados local usa o protocolo TLS 1.1 ou 1.2 para comunicar-se com o **serviço do Power BI** por padrão. As versões anteriores do gateway de dados local usam o TLS 1.0 por padrão. Em 15 de março de 2018, o suporte para o TLS 1.0 será encerrado, incluindo a capacidade do gateway de interagir com o **serviço do Power BI** usando o TLS 1.0. Por isso, você deverá atualizar as instalações do gateway de dados local para a versão de agosto de 2017 ou mais recente para garantir que os gateways continuem a funcionar.
 
 É importante observar que o TLS 1.0 ainda é compatível com o gateway de dados local antes de 1º de novembro e é usado pelo gateway como um mecanismo de fallback. Para garantir que todo o tráfego de gateway use o TLS 1.1 ou 1.2 (e evite o uso do TLS 1.0 no gateway), você deverá adicionar ou modificar as seguintes chaves do registro no computador que executa o serviço de gateway:
 

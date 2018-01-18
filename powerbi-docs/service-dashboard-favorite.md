@@ -1,6 +1,6 @@
 ---
-title: "Favoritos no serviço do Power BI (dashboards)"
-description: "Documentação sobre como definir dashboards como favoritos no serviço do Power BI"
+title: "Favoritos no serviço do Power BI (painéis, relatórios, aplicativos)"
+description: "Documentação sobre como definir painéis, relatórios e aplicativos como favoritos no serviço do Power BI"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -16,16 +16,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 4c4c31f6289f6b3d12b619b7c6c297d861177fbf
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: 79a47126c43f61d3495a948bf1a30f3d918429f3
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/11/2018
 ---
-# <a name="favorite-dashboards-in-the-power-bi-service"></a>Criar dashboards no serviço do Power BI
-Quando você adicionar um dashboard a *Favoritos*, poderá acessá-lo de todos os espaços de trabalho.  Os favoritos normalmente são aqueles que você visita com mais frequência.
+# <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Adicione painéis, relatórios e aplicativos aos favoritos no serviço do Power BI
+Quando você adicionar um conteúdo a *Favoritos*, poderá acessá-lo de todos os espaços de trabalho.  Os favoritos normalmente são o conteúdo que você visita com mais frequência.
 
 > [!NOTE]
 > Este tópico se aplica ao serviço do Power BI, e não ao Power BI Desktop.
@@ -34,40 +34,50 @@ Quando você adicionar um dashboard a *Favoritos*, poderá acessá-lo de todos o
 
 Você também pode selecionar um único painel como um [painel em destaque](service-dashboard-featured.md) no serviço do Power BI.
 
-## <a name="add-a-dashboard-as-a-favorite"></a>Adicionar um dashboard como um *favorito*
+## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Adicionar um painel ou relatório como um *favorito*
 Assista à Amanda adicionar favoritos ao seu espaço de trabalho e, em seguida, siga as instruções passo a passo abaixo do vídeo para testar por conta própria.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
 
-1. Abra um dashboard que você usa com frequência. Até mesmo os painéis que foram compartilhados com você podem ser *favoritos*.
+1. Abra um painel ou relatório que você usa com frequência. Até mesmo o conteúdo que foi compartilhado com você pode ser um *favorito*.
 2. No canto superior direito do serviço do Power BI, selecione **Favoritos** ou o ícone de estrela ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
    
    ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
-   Você também pode adicionar um dashboard aos favoritos na guia **Dashboards** do seu espaço de trabalho.
+   Também é possível adicionar um painel ou relatório como favorito da guia de exibição de conteúdo de **Painéis** ou **Relatórios** do seu espaço de trabalho.
    
    ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
+## <a name="add-an-app-as-a-favorite"></a>Adicionar um aplicativo como *favorito*
+
+1. No painel de navegação esquerdo, selecione **Aplicativos**.
+
+  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+
+2. Passe o mouse sobre um aplicativo para exibir mais detalhes.  Selecione o ícone de estrela ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) para definir como um favorito.
+   
+   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+
 ## <a name="working-with-favorites"></a>Trabalhando com *favoritos*
-1. Para acessar seus favoritos, em qualquer espaço de trabalho, selecione a seta do submenu à direita de **Favoritos**.  Deste local, você pode selecionar um dashboard favorito para abri-lo. Apenas cinco favoritos são listados (em ordem alfabética). Se você tem mais de cinco favoritos, selecione **Ver todos** para abrir a tela Favoritos (consulte o item 2 abaixo). 
+1. Para acessar seus favoritos, em qualquer espaço de trabalho, selecione a seta do submenu à direita de **Favoritos**.  Deste local, você pode selecionar um favorito para abri-lo. Apenas cinco favoritos são listados (em ordem alfabética). Se você tiver mais de cinco, selecione **Ver todos** para abrir a tela Favoritos (consulte o item 2 abaixo). 
    
    ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. Para ver **todos** os dashboards que você adicionou como favoritos, no painel de navegação esquerdo, selecione **Favoritos** ou o ícone de Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
+2. Para ver **todo** o conteúdo que você adicionou como favorito, no painel de navegação esquerdo, selecione **Favoritos** ou o ícone de Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
    
     ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
-   Nele, é possível selecionar um dashboard para abri-lo ou compartilhar um dashboard com seus colegas.
+   Aqui, você pode tomar uma ação: abrir, identificar os proprietários e até compartilhar com seus colegas.
 
-## <a name="unfavorite-a-dashboard"></a>Remover um dashboard de Favoritos
-Você não usa mais um dashboard com tanta frequência como costumava?  É possível removê-los de Favoritos. Quando você remove um painel dos favoritos, ele é removido de sua lista de Favoritos, mas não do Power BI.
+## <a name="unfavorite-content"></a>Remover conteúdo dos favoritos
+Você não usa mais um relatório com tanta frequência como costumava?  É possível removê-los de Favoritos. Quando você remove um conteúdo dos favoritos, ele é removido de sua lista de Favoritos, mas não do Power BI.
 
 1. No painel de navegação esquerdo, selecione **Favoritos** para abrir a tela **Favoritos**.
    
    ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
-2. Selecione a estrela amarela ao lado do dashboard para removê-lo dos favoritos.
+2. Selecione a estrela amarela ao lado do conteúdo para removê-lo dos favoritos.
 
-> **OBSERVAÇÃO**: você pode também remover um dashboard dos favoritos no próprio dashboard. No canto superior direito do dashboard você verá uma estrela amarela e a palavra **remover de Favoritos**. Selecione uma delas para remover esse dashboard da sua lista de favoritos. 
+> **OBSERVAÇÃO**: você pode também remover um painel, um relatório ou o próprio aplicativo dos favoritos. Basta abrir e desmarcar o ícone amarelo.   
 > 
 > 
 

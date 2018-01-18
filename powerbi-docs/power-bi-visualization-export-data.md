@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/19/2017
+ms.date: 01/10/2018
 ms.author: mihart
-ms.openlocfilehash: 2e5f72b0eb2507f8d2c7df7fc8a57817bb6ce79f
-ms.sourcegitcommit: a658b1c936e382f46a19eeb9cc26016cd7b1d756
+ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
+ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/11/2018
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de uma visualização
 Se desejar ver os dados usados para criar uma visualização, você poderá [exibi-los no Power BI](service-reports-show-data.md) ou exportá-los para o Excel como um arquivo .xlsx ou .csv.   
@@ -46,7 +46,7 @@ Assista a Will exportar os dados de uma das visualizações de seu relatório, s
 ## <a name="from-a-visualization-in-a-report"></a>De uma visualização em um relatório
 Para continuar, abra o [Relatório de exemplo de análise de aquisições](sample-procurement.md) no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md). [Adicionar uma nova página de relatório em branco](power-bi-report-add-page.md). Em seguida, siga as etapas abaixo para adicionar uma agregação e um filtro de nível de visualização.
 
-1. Criar um novo gráfico de coluna.  No painel Campos, selecione **Localização > Cidade** e **Fatura > Porcentagem de Desconto**.   
+1. Criar um novo gráfico de coluna.  No painel Campos, selecione **Localização > Cidade** e **Fatura > Porcentagem de Desconto**.  Talvez você precise mover a **Porcentagem de desconto** para o valor também. 
    
     ![](media/power-bi-visualization-export-data/power-bi-export-data3.png)
 2. Alterar a agregação de **Porcentagem de Desconto** de **Contagem** para **Média**. Na seção Valor, selecione a seta à direita de **Porcentagem de Desconto** (poderá estar como **Contagem de porcentagem de desconto**) e escolha **Média**.

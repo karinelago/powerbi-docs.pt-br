@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 01/11/2018
 ms.author: asaxton
-ms.openlocfilehash: 8c703b93e87ad32ab3f730979292b85a86fd53c0
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 86d7a7fae9437bca3c116fb12ccf439339c1f0c0
+ms.sourcegitcommit: e623f8e5f715bd40a049b6448ca57b80de998cb4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/13/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Insira um dashboard, bloco ou relatório do Power BI no aplicativo
 Saiba como integrar ou inserir um dashboard, um bloco ou relatório em um aplicativo Web usando o SDK do .NET do Power BI, junto com a API JavaScript do Power BI durante a inserção para os clientes. Normalmente, esse é o cenário de ISV.
@@ -125,6 +125,9 @@ Report report = reports.Value.FirstOrDefault();
 ### <a name="create-the-embed-token"></a>Criar o token de inserção
 Um token de inserção precisa ser gerado, o qual pode ser usado por meio da API JavaScript. O token de inserção será específico ao item que estiver sendo inserido. Isso significa que sempre que você inserir uma parte do conteúdo do Power BI, precisará criar um novo token de inserção para ele. Para obter mais informações, incluindo qual **accessLevel** usar, consulte [API GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
+> [!IMPORTANT]
+> Como os tokens inseridos destinam-se apenas para teste de desenvolvimento, o número de tokens inseridos que uma conta mestre do Power BI pode gerar é limitado. Uma [capacidade deve ser adquirida](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de integração de produção. Não há nenhum limite para a geração de tokens inseridos quando uma capacidade é adquirida.
+
 Uma amostra disso está disponível em **Controllers\HomeController.cs** da [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 
 Isso pressupõe que uma classe seja criada para **EmbedConfig** e **TileEmbedConfig**. Uma amostra deles está disponível em **Models\EmbedConfig.cs** e **Models\TileEmbedConfig.cs**.
@@ -186,6 +189,8 @@ var embedConfig = new EmbedConfig()
     Id = report.Id
 };
 ```
+
+
 
 ## <a name="step-4---load-an-item-using-javascript"></a>Etapa 4 – Carregar um item usando o JavaScript
 Você pode usar o JavaScript para carregar um dashboard em um elemento div na sua página da Web. A amostra usa um modelo de EmbedConfig/TileEmbedConfig, juntamente com as exibições de um dashboard, bloco ou relatório. Para obter uma amostra completa de como usar a API JavaScript, use a [Amostra do Microsoft Power BI Embedded](https://microsoft.github.io/PowerBI-JavaScript/demo).
