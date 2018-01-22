@@ -2,7 +2,7 @@
   items:
     - name: Introdução
       items:
-        - name: Power BI – conceitos básicos
+        - name: Power BI - conceitos básicos
           href: service-basic-concepts.md
         - name: Introdução ao Power BI
           href: service-get-started.md
@@ -266,26 +266,36 @@
           href: service-data-classification.md
     - name: Fazer perguntas sobre seus dados
       items:
-        - name: P e R no Power BI
-          href: service-q-and-a.md
-        - name: Como usar o P e R do Power BI
-          href: service-how-to-q-and-a.md
-        - name: 'Tutorial: Introdução às P e R do Power BI'
-          href: power-bi-visualization-introduction-to-q-and-a.md
-        - name: Uso de P e R junto aos dados do Power BI Gateway – Enterprise (Versão prévia)
-          href: service-q-and-a-direct-query.md
-        - name: Faça seus dados funcionarem bem com P e R no Power BI
-          href: service-prepare-data-for-q-and-a.md
-        - name: Introdução ao Cortana para o Power BI
-          href: service-cortana-intro.md
-        - name: Habilitar o Cortana para o Power BI
-          href: service-cortana-enable.md
-        - name: Criar perguntas em destaque para as P e R do Power BI
-          href: service-q-and-a-create-featured-questions.md
-        - name: Dicas e truques para fazer perguntas com a P e R no Power BI
-          href: service-q-and-a-tips.md
-        - name: Solucionar problemas da Cortana
-          href: service-cortana-troubleshoot.md
+        - name: Visão Geral
+          items:
+            - name: P e R no Power BI
+              href: power-bi-q-and-a.md
+            - name: Introdução ao Cortana para o Power BI
+              href: service-cortana-intro.md
+        - name: Guia de início rápido
+          items:
+            - name: Introdução à P e R do Power BI
+              href: power-bi-visualization-introduction-to-q-and-a.md
+        - name: Tutoriais
+          items:
+            - name: Usar P e R para criar visualizações e relatórios
+              href: power-bi-tutorial-q-and-a.md
+        - name: Como
+          items:
+            - name: Uso de P e R junto aos dados do Power BI Gateway – Enterprise (Versão prévia)
+              href: service-q-and-a-direct-query.md
+            - name: Faça seus dados funcionarem bem com P e R no Power BI
+              href: service-prepare-data-for-q-and-a.md
+            - name: Habilitar o Cortana para o Power BI
+              href: service-cortana-enable.md
+            - name: Criar perguntas em destaque para as P e R do Power BI
+              href: service-q-and-a-create-featured-questions.md
+        - name: Recursos
+          items:
+            - name: Dicas e truques para fazer perguntas com a P e R no Power BI
+              href: service-q-and-a-tips.md
+            - name: Solucionar problemas da Cortana
+              href: service-cortana-troubleshoot.md
     - name: Compartilhar seu trabalho
       items:
         - name: Como devo colaborar e compartilhar dashboards e relatórios?
