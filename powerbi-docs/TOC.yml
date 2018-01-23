@@ -524,6 +524,8 @@
           href: service-gateway-onprem.md
         - name: Detalhes sobre o gateway de dados local
           href: service-gateway-onprem-indepth.md
+        - name: Clusters de alta disponibilidade para gateway de dados locais
+          href: service-gateway-high-availability-clusters.md
         - name: Perguntas frequentes sobre o gateway de dados local
           href: service-gateway-onprem-faq.md
         - name: Gateway de dados local (modo pessoal)
@@ -766,6 +768,10 @@
           href: desktop-quick-measures.md
         - name: Uso dos parâmetros E Se
           href: desktop-what-if.md
+        - name: Usar detalhamento
+          href: desktop-drillthrough.md
+        - name: Usar um filtro e uma segmentação de datas relativas
+          href: desktop-slicer-filter-date-range.md
         - name: Acessibilidade nos relatórios do Power BI
           href: desktop-accessibility.md
         - name: Usar agrupamento e compartimentalização
