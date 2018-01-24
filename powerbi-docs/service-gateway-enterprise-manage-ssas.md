@@ -192,7 +192,7 @@ Ao selecionar um item na lista, você poderá optar por reordenar usando os **í
 
 ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names-entry-selected.png)
 
-### <a name="using-wildcard-"></a>Usando curinga (*)
+### <a name="using-wildcard-"></a>Usando curinga (\*)
 Você pode usar um caractere curinga para sua cadeia de caracteres **Substituir (Nome Original)**. Ele só pode ser usado sozinho e não com qualquer outra parte da cadeia de caracteres. Isso permitirá que você tire todos os usuários e passe um único valor para a fonte de dados. Isso é útil quando você deseja que todos os usuários em sua organização usem o mesmo usuário no seu ambiente local.
 
 ### <a name="test-a-mapping-rule"></a>Testar uma regra de mapeamento
