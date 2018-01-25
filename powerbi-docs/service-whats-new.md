@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/01/2017
 ms.author: sirsu
-ms.openlocfilehash: 8b03eb9659d4f2c984200db16daa6de017e73de7
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -470,7 +470,7 @@ Confira nosso [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/13/power-bi
 
 **6 de outubro de 2015**
 
-* Com a P e R do Power BI, é possível explorar os dados usando perguntas simples e intuitivas e receber respostas na forma de gráficos e grafos interativos. Com esta versão, adicionamos um recurso para ajudá-lo a começar a usar a P e R do Power BI, mesmo quando você não sabe nada sobre os dados. Para começar isso, [navegue até algum painel e clique no link “Como fazer perguntas” próximo a caixa de pergunta de P e R](service-how-to-q-and-a.md). O Power BI apresenta a você diversas sugestões baseadas em seus dados.
+* Com a P e R do Power BI, é possível explorar os dados usando perguntas simples e intuitivas e receber respostas na forma de gráficos e grafos interativos. Com esta versão, adicionamos um recurso para ajudá-lo a começar a usar a P e R do Power BI, mesmo quando você não sabe nada sobre os dados. Para começar isso, [navegue até algum painel e clique no link “Como fazer perguntas” próximo a caixa de pergunta de P e R](power-bi-tutorial-q-and-a.md). O Power BI apresenta a você diversas sugestões baseadas em seus dados.
 * Duas semanas atrás, introduzimos o suporte para a inserção de formas na tela de relatório no Power BI Desktop. Nesta semana, estamos felizes em anunciar que agora você pode adicionar formas à tela de relatório ao criar e/ou editar relatórios no aplicativo Web do Power BI.
 * Adicionamos a opção para desativar a notificação por email ao compartilhar um painel. Basta desmarcar a caixa de seleção “Enviar notificação por email aos destinatários” no diálogo de compartilhamento do Power BI. Você verá uma URL – copie e compartilhe essa URL com seus colegas para lhes fornecer acesso ao painel.
 * O Microsoft Dynamics NAV é uma solução de gerenciamento de negócios para organizações de pequeno a médio porte. Ele oferece aos clientes uma solução completa para seus negócios com um maior controle sobre suas finanças e processos de negócios. O pacote de conteúdo do Power BI fornece relatórios prontos para uso para os usuários do Dynamics NAV, como vendas e lucros, pipeline de oportunidades, lucratividade e muito mais. Essas métricas são organizadas em um painel que pode ser totalmente personalizado, permitindo que você se conecte facilmente e comece a explorar seus dados.
@@ -616,7 +616,7 @@ Confira o [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 **31 de março de 2015**
 
 * Os painéis **GitHub** têm novos visuais que se concentram na criação de uma comunidade, cálculos aprimorados e layout aprimorado
-* Os painéis **SendGrid** têm novos visuais e um novo layout para ajudá-lo a encontrar os melhores resultados
+* Os painéis * * SendGrid * * têm novos visuais e um novo layout para ajudá-lo a encontrar os melhores resultados
 * Você pode agora usar **treemaps em P e R** usando a frase 'como treemap' no final da consulta
 * Agora você pode **fixar treemaps** de P e R e relatórios 
 * Várias correções de bugs

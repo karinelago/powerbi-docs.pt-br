@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: d052bc054e55eabfab53ad3b1ac9229f0a750785
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: e26a26d7cba2ae3d68586a2e0dcdf87481009bd6
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-azure-security-center-with-power-bi"></a>Conectar-se à Central de Segurança do Azure com o Power BI
 Obtenha informações sobre a segurança de carga de trabalho do Azure conectando seus dados de segurança do Azure ao Power BI. O Power BI cria automaticamente um painel e relatórios sobre seus dados da Central de Segurança do Azure, permitindo que você analise e explore os dados.
@@ -50,7 +50,7 @@ Conectar-se ao [Pacote de conteúdo da Central de Segurança do Azure](https://a
 
 **E agora?**
 
-* Tente [fazer uma pergunta na caixa de P e R](service-q-and-a.md) na parte superior do dashboard
+* Tente [fazer uma pergunta na caixa de P e R](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os blocos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Enquanto seu conjunto de dados será agendado para ser atualizado diariamente, você pode alterar o agendamento de atualização ou tentar atualizá-lo sob demanda usando **Atualizar Agora**

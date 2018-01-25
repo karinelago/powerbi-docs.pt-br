@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 13da4602306b1218baee81909d37897524f6dfc9
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+ms.openlocfilehash: aeb22c23b0ef22afd44592c1ceb90537878042d9
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Altere como um gráfico é classificado em um relatório do Power BI
 Em um relatório do Power BI, você pode classificar a maioria das visualizações em ordem alfabética pelos nomes das categorias no gráfico, ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico é classificado por nome de loja.
@@ -32,11 +32,12 @@ Em um relatório do Power BI, você pode classificar a maioria das visualizaçõ
 
 1. Selecione as reticências (...) e escolha **Classificar por Vendas por metros quadrados**.
 2. Se necessário, selecione o ícone de classificação ![](media/power-bi-report-change-sort/sorticon.png) para alterar para **Decrescente**.
-   
+
    ![](media/power-bi-report-change-sort/sortby.gif)
-   
+
    **OBSERVAÇÃO**: nem todos os visuais podem ser classificados.  Por exemplo, os seguintes visuais não podem ser classificados: Mapa de Árvore, Mapa, Mapa Coroplético, Dispersão, Medidor, Cartão, Cartão de Múltiplas Linhas e Cascata.
 
+<a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Classificando o uso de outros critérios
 Às vezes, você deseja classificar seu visual usando um campo diferente ou outros critérios.  Por exemplo, talvez você queira classificar por mês (e não em ordem alfabética) ou talvez queira classificar por números inteiros em vez de por dígitos (exemplo, 0, 1, 9, 20 e não 0, 1, 20, 9).  
 
@@ -52,4 +53,3 @@ Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visuali
 [Power BI – conceitos básicos](service-basic-concepts.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-

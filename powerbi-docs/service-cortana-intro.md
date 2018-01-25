@@ -11,13 +11,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/13/2017
+ms.date: 01/13/2018
 ms.author: mihart
-ms.openlocfilehash: d64ab6b9a94171c99eb0956efce89f59b5174d41
-ms.sourcegitcommit: 2bd3c16fd300e41c6e3de29a24543491c1d53354
+ms.openlocfilehash: 648880925f343032c24cda612da58ef2fdadcf80
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Localize e exiba rapidamente seus dados do Power BI usando a Cortana para o Power BI
 Use a Cortana em seus dispositivos Windows 10 para obter respostas instantâneas para suas perguntas de negócios importantes. Ao se integrar ao Power BI, a Cortana pode recuperar informações importantes diretamente dos relatórios e dashboards do Power BI. Tudo o que você vai precisar é do Windows 10 com a versão de novembro de 2015 ou posterior, da Cortana, do Power BI e de acesso a, pelo menos, um conjunto de dados.
@@ -70,7 +70,7 @@ Se o dashboard tiver um título com mais de uma palavra, a Cortana retornará es
 ### <a name="cortana-and-reports"></a>Cortana e Relatórios
  A Cortana pode encontrar respostas nos relatórios que têm [páginas criadas especificamente para exibição pela Cortana](service-cortana-answer-cards.md). Basta fazer perguntas usando o título ou palavras-chave de uma dessas páginas de relatórios de especialidade.  
 
-A tecnologia subjacente para relatórios está usando [P e R do Microsoft Power BI](service-q-and-a.md).
+A tecnologia subjacente para relatórios está usando [P e R do Microsoft Power BI](power-bi-q-and-a.md).
 
 Quando você faz uma pergunta na Cortana, o Power BI responde das páginas do relatório projetadas especificamente para a Cortana. As respostas possíveis são determinadas pela Cortana no mesmo instante, diretamente dos *cartões de resposta* da Cortana já criados no Power BI.  Para explorar mais uma resposta, basta abrir um resultado no Power BI.
 

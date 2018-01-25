@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: yshoukry
-ms.openlocfilehash: 93d124bef56bbb6aeb266844e9b3b633df057fa0
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 0547f288649ef9d2c494d979c39bb9661b8b35f4
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="connect-to-sparkpost-with-power-bi"></a>Conectar-se ao SparkPost com o Power BI
 O pacote de conteúdo do Power BI para SparkPost permite extrair conjuntos de dados valiosos de sua conta do SparkPost em um painel interessante. Com o pacote de conteúdo do SparkPost, é possível visualizar as estatísticas gerais de email, incluindo domínios, campanhas e envolvimento por ISP.
@@ -47,7 +47,7 @@ Conecte-se ao [pacote de conteúdo do SparkPost para o Power BI](https://app.pow
 
 **E agora?**
 
-* Tente [fazer uma pergunta na caixa de P e R](service-q-and-a.md) na parte superior do dashboard
+* Tente [fazer uma pergunta na caixa de P e R](power-bi-q-and-a.md) na parte superior do dashboard
 * [Altere os blocos](service-dashboard-edit-tile.md) no dashboard.
 * [Selecione um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente.
 * Enquanto seu conjunto de dados será agendado para ser atualizado diariamente, você pode alterar o agendamento de atualização ou tentar atualizá-lo sob demanda usando **Atualizar Agora**

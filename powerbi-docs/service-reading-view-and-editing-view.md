@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: e9fda17bd9560ac564cb6b3ae6c34b986a6bc2aa
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Modo de Exibição de Leitura e Modo de Exibição de Edição em relatórios de serviço do Power BI
 No serviço do Power BI (não o Power BI Desktop), há dois modos para exibir e interagir com relatórios: Modo de Exibição de Leitura e Modo de Exibição de Edição. O modo de exibição de Leitura está disponível para todos os usuários e foi especialmente projetado para *consumidores de dados*, enquanto o modo de exibição de Edição só está disponível para *criadores* e proprietários de relatórios. 
@@ -44,7 +44,7 @@ O modo de exibição de Edição foi projetado para *criadores* de relatórios. 
 Este gráfico não lista todos os recursos de relatórios do serviço do Power BI. Lista somente as tarefas de relatório que não estão disponíveis no modo de exibição de Leitura **nem** no modo de exibição de Edição. 
 
 
-|Tarefa  | Modo de Exibição de Leitura  | Modo de Exibição de Edição |
+|Tarefa  | Modo de exibição de leitura  | Modo de Exibição de Edição |
 |-------------------------|-------|-------|
 |**Relatórios, como um todo**  |
 ||||
@@ -56,7 +56,7 @@ Este gráfico não lista todos os recursos de relatórios do serviço do Power B
 | [Opções de **Exibição** do relatório](power-bi-report-display-settings.md) | Sim, com algumas exceções. | Sim, todas, incluindo linhas de grade, alinhamento e bloqueio. |
 | [Criar um agendamento de atualização](refresh-data.md) | Não  | Sim |
 | [Assinar um relatório](service-report-subscribe.md) | Sim | Não |
-| [P e R – fazer perguntas em relatórios](service-q-and-a.md) | Não  | Sim |
+| [P e R – fazer perguntas em relatórios](power-bi-q-and-a.md) | Não  | Sim |
 | [Exibir Métricas de uso ](service-usage-metrics.md) | Sim, na tela do relatório. | Sim, na lista do relatório (exibição de conteúdo) |
 | [Exibição relacionada](service-related-content.md) | Sim, na tela do relatório. | Sim, na lista do relatório (exibição de conteúdo) |
 | [Salvar um relatório](service-report-save.md) | Sim, mas apenas com **Salvar como**. | Sim |

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/31/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 81f7b4a68b66a2bfbdf285007ff4ff636c326a6c
-ms.sourcegitcommit: f2b38777ca74c28f81b25e2f739e4835a0ffa75d
+ms.openlocfilehash: 800808a8c09166b8a5b1389b9a54fb57cfa13b12
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="dashboards-in-power-bi-service"></a>Dashboards no serviço do Power BI
 
@@ -82,7 +82,7 @@ O Power BI Pro é necessário para compartilhar dashboards e para exibir dashboa
 * Saiba mais sobre [blocos de dashboard](service-dashboard-tiles.md) e o que acontece quando você seleciona um.
 * Não gosta da aparência de um dashboard?  Você pode [redimensionar, mover e renomear os blocos](service-dashboard-edit-tile.md).
 * Deseja acompanhar um bloco de dashboard individual e receber um email quando ele alcançar um certo limite? [Criar alertas em blocos](service-set-data-alerts.md).
-* Divirta-se fazendo perguntas ao seu dashboard. Aprenda como usar o [Power BI Q&A](service-how-to-q-and-a.md) para fazer perguntas sobre os dados e receba uma resposta na forma de uma visualização.
+* Divirta-se fazendo perguntas ao seu dashboard. Aprenda como usar o [Power BI Q&A](power-bi-tutorial-q-and-a.md) para fazer perguntas sobre os dados e receba uma resposta na forma de uma visualização.
 
 > [!TIP]
 > Se você não encontrar o que está procurando aqui, use o Sumário à esquerda.
