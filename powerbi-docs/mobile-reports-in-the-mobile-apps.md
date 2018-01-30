@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/23/2018
 ms.author: maggies
-ms.openlocfilehash: 3515a57f88db1c8a7b12706680c0aade8b2cdbfa
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 610234a221c5ab1de976f9d554292395760efa0f
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -50,7 +50,7 @@ Os relatórios do Power BI são armazenados em locais diferentes no aplicativo m
   ![Relatório para telefone no modo paisagem](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Exibir relatórios otimizados para telefones
-Os autores de relatório do Power BI podem criar um layout de relatório especificamente otimizado para telefones. Em uma lista de relatórios, um relatório otimizado tem um ícone especial ![Ícone de relatório para telefone](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
+Os autores de relatório do Power BI podem criar um layout de relatório especificamente otimizado para telefones. As páginas de relatório otimizadas para telefones têm funcionalidade adicionada: por exemplo, você pode fazer uma busca detalhada de visuais e classificá-los em modo de foco, além de acessar os [filtros que o autor do relatório adicionou à página do relatório](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). Em uma lista de relatórios, um relatório otimizado tem um ícone especial ![Ícone de relatório do telefone](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
 ![Abrir relatório para telefone](media/mobile-reports-in-the-mobile-apps/power-bi-android-phone-report.png)
 
@@ -58,7 +58,7 @@ Quando você exibe esse relatório em um telefone, ele é aberto no modo retrato
 
 ![Relatório no modo de exibição de retrato](media/mobile-reports-in-the-mobile-apps/07-power-bi-phone-report-portrait.png)
 
-Um relatório pode ter uma combinação de páginas que são e não são otimizadas para telefones. Nesse caso, quando você percorre o relatório, a exibição será alternada de retrato para paisagem em cada página.
+ Um relatório pode ter uma combinação de páginas que são e não são otimizadas para telefones. Nesse caso, quando você percorre o relatório, a exibição será alternada de retrato para paisagem em cada página.
 
 Leia mais sobre os [relatórios otimizados para exibição do telefone](mobile-apps-view-phone-report.md).
 

@@ -15,24 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7ff8ba4557c829551b97e51f411269e3ba8fbdea
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de vendas e marketing para o Power BI: faça um tour
+
+## <a name="overview-of-the-sales-and-marketing-sample"></a>Visão geral do exemplo de Vendas e Marketing
 O **exemplo de Marketing e Vendas** contém um painel de controle e um relatório para uma empresa de fabricação fictícia chamada VanArsdel Ltd. Esse painel foi criado pelo Presidente de Marketing (CMO) da VanArsdel para ficar atento ao setor e sua participação de mercado da empresa, volume de produto, vendas e sensibilidade.
 
 A VanArsdel tem muitos concorrentes, mas é líder do mercado em seu setor. O CMO quer aumentar a participação no mercado e descobrir as oportunidades de crescimento. Mas, por algum motivo, a participação no mercado do VanArsdel começou a cair, com uma queda significativa em junho.
 
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce (www.obvience.com) que foram mantidos anônimos.
 
-[!Note] Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529785) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
-
 ![](media/sample-sales-and-marketing/sales1.png)
+
+## <a name="prerequisites"></a>Pré-requisitos
+
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
+
+1. Abra o serviço do Power BI (app.powerbi.com) e faça logon.
+2. No canto inferior esquerdo, selecione **Obter dados**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na página Obter Dados que aparece, selecione o ícone **Exemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecione o **Exemplo de Marketing e Vendas** e, em seguida, escolha **Conectar**.  
+  
+   ![Exemplo de Vendas e Marketing](media/sample-sales-and-marketing/sales9.png)
+   
+5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
+   
+   ![Asterisco](media/sample-sales-and-marketing/sales10.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
+
+Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é projetado para uso com o Power BI Desktop. 
+
+ * [Exemplo de Vendas e Marketing](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
+Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529785) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 Vamos começar nosso tour no painel e examinar as peças que o CMO decidiu fixar. Podemos ver informações sobre nossa participação no mercado, vendas e sensibilidade. E podemos ver esses dados divididos por região, hora e concorrência.
@@ -48,21 +78,21 @@ Vamos começar nosso tour no painel e examinar as peças que o CMO decidiu fixar
 #### <a name="which-segments-drive-our-sales-does-it-match-the-industry-trend"></a>Quais segmentos conduzem nossas vendas? Correspondem à tendência do setor?
 1. Selecione o bloco “Visão geral de unidades totais por segmento” que abrirá o P e R.
 2. Digite **para VanArsdel** ao final da consulta existente. P e R interpreta a pergunta e exibe um gráfico atualizado com a resposta. Nosso volume do produto vem de conveniência e a moderação.
-   
+
    ![](media/sample-sales-and-marketing/sales2.png)
 3. Nossa participação nas categorias **Moderação** e **Conveniência** é muito alta; esses são os segmentos nos quais podemos concorrer.
 4. Navegue de volta para o dashboard, selecionando o nome do dashboard na barra de navegação superior (trilhas).
 
 #### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>Com o que aparece participação de mercado total para a categoria (versus região)?
-1. Observe o bloco “Unidades totais no ano por fabricante, região”. Gostaria de saber como está a participação no mercado em unidades totais por categoria. 
-   
+1. Observe o bloco “Unidades totais no ano por fabricante, região”. Gostaria de saber como está a participação no mercado em unidades totais por categoria.
+
    ![](media/sample-sales-and-marketing/sales3.png)
-2. Na caixa de perguntas na parte superior do dashboard, digite a pergunta **total de unidades por fabricante e categoria em 2014 como um mapa de árvore**. Observe como a visualização atualiza conforme você digita a pergunta.
+2. Na caixa de perguntas na parte superior do dashboard, digite a pergunta **total de unidades por fabricante e categoria em 2014 como um mapa de árvore**. Observe como a visualização é atualizada conforme você digita a pergunta.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Para comparar as descobertas, fixe o gráfico até o painel. Muito interessante; em 2014 VanArsdel vendeu apenas produtos que se enquadram na categoria **Urbana** .
 4. Navegue de volta para o painel.
 
-Os painéis de controle também são um ponto de entrada em relatórios.  Se um bloco for criado por meio de um relatório subjacente, clicar em um bloco abre o relatório. 
+Os painéis de controle também são um ponto de entrada em relatórios.  Se um bloco for criado por meio de um relatório subjacente, clicar em um bloco abre o relatório.
 
 Em nosso painel, a linha R12M (12 meses sem interrupção) mostra que a nossa participação no mercado não está aumentando ao longo do tempo, ainda está diminuindo um pouco. E por que temos uma grande queda na participação do mercado em junho? Para investigar melhor, clique nesta visualização para abrir o relatório subjacente.
 
@@ -72,7 +102,7 @@ Em nosso painel, a linha R12M (12 meses sem interrupção) mostra que a nossa pa
 
 1. Examine o gráfico de colunas "Total de unidades por mês e isVanArsdel" na parte inferior. A coluna preta representa VanArsdel (nossos produtos) e a concorrência é verde. A queda em junho de 2014 que VanArsdel teve não é apresentada pelos concorrentes.
 2. O gráfico de barras "Volume de Categoria Total por Segmento” no meio à direita, é filtrado para mostrar os 2 principais segmentos de VanArsdel. Dê uma olhada em como esse filtro foi criado:  
-   
+
    a.  Expanda o painel de filtros à direita.  
    b.  Clique para selecionar a visualização.  
    c.  Em Filtros de nível Visual, observe que o **Segmento** é filtrado para incluir somente **Conveniência** e **Moderação**.  
@@ -112,4 +142,3 @@ Este é um ambiente seguro para experimentar. Você pode optar por não salvar a
 
 ## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: conectar-se aos seus dados
 Esperamos que este tour tenha mostrado como os painéis, P e R e relatórios do Power BI podem fornecer informações sobre os dados de vendas e marketing. Agora é sua vez - conecte-se aos seus próprios dados. Com o Power BI, é possível se conectar a uma grande variedade de fontes de dados. Saiba mais sobre como [começar a usar o Power BI](service-get-started.md)  
-

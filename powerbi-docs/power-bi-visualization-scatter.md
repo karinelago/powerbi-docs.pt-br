@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: 44c248d1a99a10c69b3fb7c78e68320fdc5cd2b2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2d8ed3c30d289646504071daca098df1f41f6aab
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi-tutorial"></a>Gráficos de dispersão e gráficos de bolhas no Power BI (tutorial)
 Um gráfico de dispersão sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos em um eixo horizontal e outro conjunto de valores numéricos em um eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos de maneira uniforme ou não pelo eixo horizontal, dependendo dos dados.
@@ -31,15 +31,17 @@ Um gráfico de bolhas substitui os pontos de dados por bolhas, com o *tamanho* d
 
 ![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
+Você pode definir o número de pontos de dados  
+
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Quando usar um gráfico de dispersão ou de bolhas
 ### <a name="scatter-charts-are-a-great-choice"></a>Os gráficos de dispersão são uma ótima opção:
 * para mostrar as relações entre dois (dispersão) ou três (bolhas) valores **numéricos** .
-* Para plotar dois grupos de números como uma série de coordenadas xy.
+* para plotar dois grupos de números como uma série de coordenadas xy.
 * em vez de um gráfico de linhas quando desejar alterar a escala do eixo horizontal    
 * para transformar o eixo horizontal em uma escala logarítmica.
 * para exibir os dados da planilha que incluem pares ou conjuntos de valores agrupados. Em um gráfico de dispersão, é possível ajustar as escalas independentes dos eixos para exibir mais informações sobre os valores agrupados.
 * para mostrar padrões em grandes conjuntos de dados, por exemplo, mostrando exceções, clusters e tendências lineares ou não lineares.
-* para comparar grandes números de pontos de dados sem considerar o tempo    Quanto mais dados você incluir em um gráfico de dispersão, melhores serão as comparações que você poderá fazer.
+* para comparar grandes números de pontos de dados sem preocupação com o tempo.  Quanto mais dados você incluir em uma dispersão, melhores serão as comparações que você poderá fazer.
 
 ### <a name="bubble-charts-are-a-great-choice"></a>Os gráficos de Bolhas são uma ótima opção:
 * Se os dados tiverem três séries de dados que contêm um conjunto de valores cada um.
@@ -76,13 +78,20 @@ Agora temos um gráfico de dispersão que plota o % da Variação do Total de Ve
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 3. Opcionalmente, [formate as cores de visualização, os rótulos, os títulos, a tela de fundo e muito mais](service-getting-started-with-color-formatting-and-axis-properties.md).
 
-## <a name="accessibility"></a>Acessibilidade
+   Você também pode alterar a forma do marcador para losango, triângulo ou quadrado:
 
-Você pode tornar o gráfico de dispersão ou o gráfico de bolhas mais acessível para pessoas com deficiências usando *Formas de marcador*. 
+   ![Marcador quadrado](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
-Para selecionar a forma do marcador, selecione a seção **Formato** no painel de **Visualizações**, expanda a seção **Formas**, em seguida, selecione uma forma de marcador.
+4. Opcionalmente, para definir o número de pontos de dados para mostrar em seu gráfico de bolha, na seção **Formato** do painel **Visualizações**, expanda o cartão **Geral** e ajuste o **Volume de Dados**. O padrão é 3500. 
+ 
+    ![Volume de Dados](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-![Forma do marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+   > [!NOTE]
+   > Já que mais pontos de dados podem significar um tempo de carregamento mais longo, se você optar por publicar relatórios com limites na extremidade mais elevada da escala, certifique-se de testar seus relatórios na Web e em dispositivos móveis, além de garantir que o desempenho corresponda às expectativas dos usuários.
+
+5.   Opcionalmente, para selecionar a forma do marcador, expanda o cartão **Formas** e, em seguida, selecione uma forma de marcador.
+
+      ![Forma do marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 ### <a name="your-scatter-chart-has-only-one-data-point"></a>**O gráfico de dispersão tem apenas um ponto de dados**

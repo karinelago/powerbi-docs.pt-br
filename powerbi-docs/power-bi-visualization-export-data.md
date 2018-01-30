@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 1df7eb485ac9b9de1007cc2fccbf8141ee4fdcc1
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+ms.openlocfilehash: 8567326cb685a03fd1af618aad5310234677ab6d
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-data-from-visualizations"></a>Exportar dados de uma visualização
 Se desejar ver os dados usados para criar uma visualização, você poderá [exibi-los no Power BI](service-reports-show-data.md) ou exportá-los para o Excel como um arquivo .xlsx ou .csv.   
@@ -74,8 +74,7 @@ Para continuar, abra o [Relatório de exemplo de análise de aquisições](sampl
    
    >[!WARNING]
    >A exportação de dados subjacentes permite que os usuários vejam todos os dados detalhados – todas as colunas nos dados. Os administradores de serviço do Power BI podem desativar esse recurso para sua organização. Se for o proprietário de um conjunto de dados, você poderá definir colunas proprietárias como "ocultas" para que elas não apareçam na lista Campos no serviço do Power BI ou na área de trabalho.
-   > 
-   > 
+   
    
    **Dados subjacentes**: selecione essa opção se a visualização tiver uma agregação e você desejar ver todos os detalhes subjacentes. Basicamente, selecionar *Dados subjacentes* remove a agregação. Ao selecionar **Exportar**, os dados são exportados para um arquivo .xlsx e o navegador solicita que você salve o arquivo. Após salvá-lo, abra o arquivo no Excel.
    
@@ -85,7 +84,9 @@ Para continuar, abra o [Relatório de exemplo de análise de aquisições](sampl
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 * O número máximo de linhas que pode ser exportado do **Power BI Desktop** e do **serviço do Power BI** para .csv é 30.000.
-* O número máximo de linhas que pode ser exportado para .xlsx durante o **serviço do Power BI** é 150.000 para usuários Pro e 30.000 para usuários gratuitos.
+* O número máximo de linhas que pode ser exportado para .xlsx é de 150.000.
+* Exportar usando *Dados subjacentes* não funcionará se a fonte de dados for uma conexão dinâmica do Analysis Services, a versão for anterior a 2016 e as tabelas no modelo não tiverem uma chave exclusiva.  
+* Exportar usando *Dados subjacentes* não funcionará se a opção *Mostrar itens sem dados* estiver habilitada para a visualização sendo exportada.
 * Ao usar o DirectQuery, a quantidade máxima de dados que podem ser exportados é 16 MB. Isso pode resultar na exportação de um número de linhas menor que o máximo, especialmente se houver muitas colunas, dados que são difíceis de compactar e outros fatores que aumentam o tamanho do arquivo e diminuem o número de linhas exportadas.
 * O Power BI dá suporte apenas à exportação em elementos visuais que utilizam agregações básicas. A exportação não está disponível em visuais que utilizam medidas de modelo ou de relatório.
 * No momento, não há suporte para visuais personalizados e visuais do R.

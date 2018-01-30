@@ -15,27 +15,54 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 0bb540a4c27729999bbb1780a7d5a203d67d3a7c
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 19795cc3dd04fbba8db9c154631751f7dbe6a2ef
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos para o Power BI: faça um tour
+
+## <a name="overview-of-the-human-resources-sample"></a>Visão geral do exemplo de Recursos Humanos
 O departamento de RH tem o mesmo modelo de relatório em diferentes empresas, mesmo quando eles diferem em setor ou tamanho. Este exemplo examina novas contratações, funcionários ativos e funcionários que saíram e tenta descobrir tendências na estratégia de contratação. Nossos principais objetivos devem entender:
 
 * Quem contratamos
 * Desvios em nossa estratégia de contratação
 * Tendências nas separações voluntárias
 
-Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com)](http://www.obvience.com/) que foram mantidos anônimos.
-
 ![](media/sample-human-resources/hr1.png)
 
-Quer me acompanhar? No [Serviço do Power BI](https://powerbi.com), vá para **Obter Dados > Exemplos > Exemplo de Recursos Humanos > Conectar** para obter sua própria cópia do exemplo.
+Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com)](http://www.obvience.com/) que foram mantidos anônimos.
 
+## <a name="prerequisites"></a>Pré-requisitos
+
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
+
+1. Abra o serviço do Power BI (app.powerbi.com) e faça logon.
+2. No canto inferior esquerdo, selecione **Obter dados**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na página Obter Dados que aparece, selecione o ícone **Exemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecione o **Exemplo de Recursos Humanos** e, em seguida, escolha **Conectar**.  
+   
+   ![Obter Dados](media/sample-human-resources/pbi_hr_sample_connect.png)
+5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
+   
+   ![Asterisco](media/sample-human-resources/human-resources-sample-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
+
+Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é projetado para uso com o Power BI Desktop. 
+
+ * [Exemplo de Recursos Humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human Resources Sample PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529780) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
 
 ## <a name="new-hires"></a>Novas contratações
@@ -44,9 +71,9 @@ Primeiro, vamos explorar as novas contratações.
 1. No seu espaço de trabalho, selecione a guia **Dashboards** e abra o dashboard Recursos Humanos.
 2. No dashboard, selecione o bloco **Contagem de novas contratações, Novas contratações no mesmo período do ano passado, Alteração de % de YoY de funcionários ativos** **Por mês**.  
    ![](media/sample-human-resources/hr2.png)  
-   
+
    O relatório de Exemplo de Recursos Humanos é aberto na página **Novas contratações** .  
-   
+
    ![](media/sample-human-resources/hr3.png)
 
 Observe o seguinte:
@@ -75,10 +102,10 @@ O relatório de Exemplo de Recursos Humanos é aberto na página **Funcionários
 
 * Os gráficos de combinação no lado esquerdo mostraram alteração de ano a ano para funcionários ativos e separações. Temos mais ativos deste ano devido a contratação rápida, mas também mais separações do que o último ano.
 * Em agosto tivemos que separar mais em comparação com outros meses. Selecione as diferentes faixas etárias, gêneros ou regiões para ver se você consegue encontrar quaisquer exceções.
-* Examinando os gráficos de pizza, observamos que temos uma divisão boa, até mesmo em nossos funcionários ativos por grupos de idade e gênero. Selecione diferentes faixas etárias para ver que a divisão de gênero é distinta por idade. Temos uma divisão até mesmo por gênero em cada faixa etária? 
+* Examinando os gráficos de pizza, observamos que temos uma divisão boa, até mesmo em nossos funcionários ativos por grupos de idade e gênero. Selecione diferentes faixas etárias para ver que a divisão de gênero é distinta por idade. Temos uma divisão até mesmo por gênero em cada faixa etária?
 
 ## <a name="reasons-for-separation"></a>Motivos para separação
-Abra novamente no relatório no modo de Exibição de Edição. Selecione **Editar relatório** no canto superior esquerdo. 
+Abra novamente no relatório no modo de Exibição de Edição. Selecione **Editar relatório** no canto superior esquerdo.
 
 Altere os gráficos de pizza para mostrar os dados Separados em vez de ativos.
 
@@ -87,10 +114,10 @@ Altere os gráficos de pizza para mostrar os dados Separados em vez de ativos.
 3. Marque a caixa de seleção ao lado de **Contagem de separação** na tabela Funcionários para adicioná-la à caixa **Valores** bem no contêiner do campo.
 4. De volta à tela do relatório, selecione a barra **Voluntário** no gráfico de barras **Contagem de separações por motivo de separação**. Isso realça os funcionários que deixaram a empresa voluntariamente nos outros visuais do relatório.
 5. Clique na fatia +50 do gráfico de pizza Contagem de separações por faixa etária.
-   
+
    Examine as separações pelo gráfico de linhas do Motivo no canto inferior direito. Este gráfico é filtrado para mostrar separações voluntárias.  
    ![](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
-   
+
    Observa a tendência no grupo etário 50+? Durante a última parte do ano, mais funcionários acima de 50 anos estão deixando a empresa voluntariamente. É uma área para investigar melhor com mais dados.
 6. Você também pode seguir as mesmas etapas para o gráfico de pizza **Contagem de funcionários ativos por gênero** , alterando-o para “separações” em vez de “funcionários ativos”. Examine os dados de separação voluntário por gênero para ver se você encontrar quaisquer outras informações.
 7. Clique no **Power BI** na barra de navegação superior para retornar ao painel. Você pode salvar as alterações feitas no relatório ou não.
@@ -99,7 +126,7 @@ Altere os gráficos de pizza para mostrar os dados Separados em vez de ativos.
 A última área para explorar são as contratações incorretas. Contratações incorretas são definidas como funcionários que não duraram mais de 60 dias. Estamos contratando rapidamente. Estamos contratando bons candidatos?
 
 1. Selecione o bloco do painel **Contratações incorretas como % de funcionários ativos por faixa etária** . Isso abre o relatório na página 3, “Contratações Incorretas”.
-   
+
    ![](media/sample-human-resources/hr7.png)  
 2. Selecione a caixa de seleção **Noroeste** na segmentação Região à esquerda e a fatia **Masculino** no gráfico de rosca Contagem de Contratações Incorretas por Sexo.  Examine outros gráficos na página “Contratações Incorretas”. Mais contratações incorretas de homens do que mulheres, em muitas contratações incorretas do Grupo A.
    ![](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
@@ -107,19 +134,18 @@ A última área para explorar são as contratações incorretas. Contratações 
 4. Selecione o nome do dashboard na barra de navegação superior para retornar ao dashboard.
 
 ## <a name="asking-a-question-in-the-qa-box"></a>Faça uma pergunta na caixa de perguntas e respostas
-A [caixa de P e R](service-how-to-q-and-a.md) é onde você digita uma pergunta usando a linguagem natural. A P e R reconhece as palavras que você digita e descobre onde, em seu conjunto de dados, a resposta será encontrada.
+A [caixa de P e R](power-bi-tutorial-q-and-a.md) é onde você digita uma pergunta usando a linguagem natural. A P e R reconhece as palavras que você digita e descobre onde, em seu conjunto de dados, a resposta será encontrada.
 
 1. Clique na caixa de P e R. Observe que, antes mesmo de começar a digitar, a caixa de P e R contém sugestões:
-   
+
    ![](media/sample-human-resources/pbi_hr_sample_qabox.png)
 2. Você pode escolher uma dessas sugestões ou digitar: **mostrar faixa etária, gênero e contratações incorretas no mesmo período do ano passado na região é leste**.  
-   
+
    ![](media/sample-human-resources/pbi_hr_sample_qa_answer.png)
-   
+
    Observe que a maioria das contratações incorretas de mulheres estão abaixo de 30 anos.
 
 Este é um ambiente seguro para experimentar. Você pode optar por não salvar as alterações. Se você salvá-las, sempre é possível acessar **Obter Dados** para obter uma nova cópia desse exemplo.
 
 ## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: conectar-se aos seus dados
 Esperamos que este tour tenha mostrado como os painéis, P e R e relatórios do Power BI podem fornecer informações sobre os dados de recursos humanos. Agora é sua vez, conecte-se aos seus próprios dados. Com o Power BI, é possível se conectar a uma grande variedade de fontes de dados. Saiba mais sobre como [começar a usar o Power BI](service-get-started.md)  
-

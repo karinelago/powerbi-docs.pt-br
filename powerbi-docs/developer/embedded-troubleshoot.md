@@ -15,17 +15,52 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
+ms.date: 1/17/2018
 ms.author: asaxton
-ms.openlocfilehash: f6ffc56f524da84e865d17981faddef58534c785
-ms.sourcegitcommit: 8f72ce6b35aa25979090a05e3827d4937dce6a0d
+ms.openlocfilehash: b9917b515971d16cb54a09deff1202c382eb7ef0
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solucionando problemas do aplicativo inserido
 
 Este artigo aborda alguns problemas comuns que podem ser encontrados ao inserir conteúdo do Power BI.
+
+## <a name="tools-for-troubleshooting"></a>Ferramentas para solução de problemas
+
+### <a name="fiddler-trace"></a>Rastreamento do Fiddler
+
+[Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP.  Você pode ver tudo com as APIs do Power BI no computador cliente. Isso pode mostrar erros e outras informações relacionadas.
+
+![Rastreamento do Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+
+### <a name="f12-in-browser-for-front-end-debugging"></a>F12 no navegador para depuração de front-end
+
+A tecla F12 iniciará a janela do desenvolvedor no navegador. Nela é possível examinar o tráfego de rede e outras informações.
+
+![Depuração de navegador com F12](media/embedded-troubleshoot/browser-f12.png)
+
+### <a name="extracting-error-details-from-power-bi-response"></a>Extração de detalhes do erro da resposta do Power BI
+
+Este trecho de código mostra como extrair os detalhes do erro da exceção HTTP:
+
+```
+public static string GetExceptionText(this HttpOperationException exc)
+{
+    var errorText = string.Format("Request: {0}\r\nStatus: {1} ({2})\r\nResponse: {3}",
+    exc.Request.Content, exc.Response.StatusCode, (int)exc.Response.StatusCode, exc.Response.Content);
+    if (exc.Response.Headers.ContainsKey("RequestId"))
+    {
+        var requestId = exc.Response.Headers["RequestId"].FirstOrDefault();
+        errorText += string.Format("\r\nRequestId: {0}", requestId);
+    }
+
+    return errorText;
+}
+```
+É recomendável registrar em log as IDs de solicitação (e detalhes do erro para solução de problemas).
+Forneça a ID da solicitação ao entrar em contato com o Suporte da Microsoft.
 
 ## <a name="app-registration"></a>Registro de aplicativo
 
@@ -105,19 +140,6 @@ Se o usuário não puder visualizar o relatório ou o dashboard, verifique se o 
 
 Abra o arquivo no Power BI Desktop ou no powerbi.com e verifique se o desempenho é aceitável para eliminar problemas com o aplicativo ou as APIs de inserção.
 
-## <a name="tools-for-troubleshooting"></a>Ferramentas para solução de problemas
-
-### <a name="fiddler-trace"></a>Rastreamento do Fiddler
-
-[Fiddler](http://www.telerik.com/fiddler) é uma ferramenta gratuita da Telerik que monitora o tráfego HTTP.  Você pode ver tudo com as APIs do Power BI no computador cliente. Isso pode mostrar erros e outras informações relacionadas.
-
-![Rastreamento do Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
-
-### <a name="f12-in-browser-for-front-end-debugging"></a>F12 no navegador para depuração de front-end
-
-A tecla F12 iniciará a janela do desenvolvedor no navegador. Nela é possível examinar o tráfego de rede e outras informações.
-
-![Depuração de navegador com F12](media/embedded-troubleshoot/browser-f12.png)
 
 Para obter respostas para perguntas frequentes, veja as [Perguntas frequentes sobre o Power BI Embedded](embedded-faq.md).
 

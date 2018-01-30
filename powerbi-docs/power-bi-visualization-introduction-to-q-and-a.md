@@ -1,6 +1,6 @@
 ---
-title: "P e R de introdução ao Power BI (tutorial)"
-description: "Tutorial: introdução com P e R no serviço do Power BI usando o exemplo Análise de Varejo"
+title: "Início rápido – introdução à P e R do Power BI"
+description: "Início rápido: introdução à P e R no serviço do Power BI usando o exemplo de Análise de Varejo"
 services: powerbi
 documentationcenter: 
 author: mihart
@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/25/2017
+ms.date: 01/16/2018
 ms.author: mihart
-ms.openlocfilehash: 2038fb5bd4a21235c3026c8506ae30b8c3e287e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: d63c6479ed5f0bb9e882900fc5a653f08ad6a823
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/19/2018
 ---
-# <a name="get-started-with-power-bi-qa-tutorial"></a>P e R de introdução ao Power BI (tutorial)
-## <a name="tutorial-use-power-bi-qa-with-the-retail-analysis-sample"></a>Tutorial: usar o P e R do Power BI com o exemplo de Análise de Varejo
-Às vezes, a maneira mais rápida de obter uma resposta de seus dados é fazer uma pergunta usando o idioma natural.  Neste tutorial, examinaremos 2 formas diferentes de criar a mesma visualização: compilá-la em um relatório e fazer uma pergunta com perguntas e respostas.  
+# <a name="get-started-with-power-bi-qa-quickstart"></a>Introdução à P e R do Power BI (Início rápido)
+## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usar a P e R do Power BI com o exemplo de Análise de Varejo
+Às vezes, a maneira mais rápida de obter uma resposta de seus dados é fazer uma pergunta usando o idioma natural.  Neste início rápido, examinaremos 2 formas diferentes de criar a mesma visualização: primeira, compilá-la em um relatório e, segunda, fazer uma pergunta com P e R. Usaremos um serviço do Power BI, mas o processo é quase idêntico usando o Power BI Desktop.
+
+Para acompanhar, você deve usar um relatório que você possa editar, então usaremos um dos exemplos disponíveis com o Power BI.
 
 ## <a name="method-1-using-the-report-editor"></a>Método 1: usando o editor de relatórios
 1. Em seu espaço de trabalho do Power BI, selecione **Obter Dados** \> **Amostras** \> **Amostra de Análise de Varejo** > **Conectar**.
@@ -61,13 +63,9 @@ Como podemos criar esse mesmo gráfico de linha usando perguntas e respostas?
 4. Fixar o gráfico para o painel de controle, selecione o ícone de pino ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Próximas etapas
-[Que tipo de perguntas posso fazer em P e R?](service-q-and-a.md)
-
-[P e R no Power BI](service-q-and-a.md)
+[P e R no Power BI](power-bi-q-and-a.md)
 
 [Faça seus dados funcionarem bem com P e R no Power BI](service-prepare-data-for-q-and-a.md)
-
-[preparo de uma pasta de trabalho para P e R](service-prepare-data-for-q-and-a.md)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

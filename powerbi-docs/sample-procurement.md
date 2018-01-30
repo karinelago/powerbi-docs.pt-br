@@ -15,15 +15,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 957e7c05907f1fc75eddeb271c664f898203e591
-ms.sourcegitcommit: 7248b5e449b2495d6baef385470d18edfacec457
+ms.openlocfilehash: f349f5f987b779c33dfe1a3a93ee8bc69487110a
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Varejo para o Power BI: faça um tour
+
+## <a name="overview-of-the-procurement-analysis-sample"></a>Visão geral do exemplo de Análise de Compras
 Este painel de exemplo do setor e relatório subjacente analisam as despesas da empresa fabricante com fornecedores por categoria e local. No exemplo, exploraremos essas áreas:
 
 * Quem são os principais fornecedores
@@ -34,16 +36,43 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
 
 ![](media/sample-procurement/procurement1.png)
 
-Quer me acompanhar? No [Serviço do Power BI](https://powerbi.com), vá para **Obter Dados > Exemplos > Exemplo de Análise de compras > Conectar** para obter sua própria cópia do exemplo.
+## <a name="prerequisites"></a>Pré-requisitos
 
-[!Note] Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
+
+1. Abra o serviço do Power BI (app.powerbi.com) e faça logon.
+2. No canto inferior esquerdo, selecione **Obter dados**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na página Obter Dados que aparece, selecione o ícone **Exemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecione o **exemplo de Análise de Compras** e, em seguida, escolha **Conectar**.  
+  
+   ![Obter Dados](media/sample-procurement/procurement1a.png)
+   
+5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
+   
+   ![Asterisco](media/sample-procurement/procurement1b.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
+
+Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é projetado para uso com o Power BI Desktop. 
+
+ * [Exemplo de Análise de Compras](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
+Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
+
 
 ## <a name="spending-trends"></a>Tendências de gastos
 Primeiro, vamos analisar as tendências em gastos por categoria e local.  
 
 1. Em seu espaço de trabalho, abra a guia **Dashboards** e selecione o dashboard de Análise de Compras.
 2. Selecione o bloco do painel **Total da nota fiscal por país/região**. Abre a página "Visão Geral de Gasto" do relatório "Exemplo de análise de compras".
-   
+
     ![](media/sample-procurement/procurement2.png)
 
 Observe algumas coisas:
@@ -57,18 +86,18 @@ Observe algumas coisas:
 Vamos explorar as áreas de gastos no México.
 
 1. No gráfico de pizza, selecione a bolha do **México** no mapa. Observe que, no gráfico de colunas “Total da fatura por subcategoria”, a maior parte dos gastos está concentrada na subcategoria **Serviços e produtos indiretos**.
-   
+
    ![](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. Faça uma busca detalhada na coluna **Serviços e produtos indiretos**:
-   
+
    * Selecione a seta de busca detalhada ![](media/sample-procurement/pbi_drilldown_icon.png) no canto superior direito do gráfico.
    * Selecione a coluna **Serviços e produtos indiretos**.
-     
+
       Por uma grande margem de diferença, os maiores gastos nesta categoria geral são os de Vendas e marketing.
    * Selecione **México** no mapa novamente.
-     
+
       Os maiores gastos nessa categoria no México são os de Manutenção e reparo.
-     
+
       ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Selecione a seta para cima no canto superior esquerdo do gráfico para fazer drill up.
 4. Selecione a seta novamente para desativar os detalhes.  
@@ -79,11 +108,11 @@ Podemos usar o realce para avaliar cidades diferentes.
 
 1. Selecione o bloco do painel **Total da nota fiscal, % de desconto por mês**. O relatório é aberto para a página de "Análise de desconto".
 2. Selecione as cidades diferentes no mapa de árvore **Total da fatura por cidade** para ver uma comparação delas. Quase todas as faturas de Miami são provenientes de fornecedores da Camada 1.
-   
+
    ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Descontos de fornecedor
-Também vamos explorar os descontos disponíveis de fornecedores e os períodos de tempo quando chegarmos a maioria dos descontos. 
+Também vamos explorar os descontos disponíveis de fornecedores e os períodos de tempo quando chegarmos a maioria dos descontos.
 
 ![](media/sample-procurement/procurement4.png)
 
@@ -99,7 +128,7 @@ Observe que quando o volume aumenta, o desconto é reduzido e quando o volume es
 ![](media/sample-procurement/procurement5.png)
 
 ### <a name="discount-by-city"></a>Desconto por cidade
-Outra área para explorar é desconto por cidade. Selecione cada cidade no mapa de árvore e veja como os outros gráficos são alterados. 
+Outra área para explorar é desconto por cidade. Selecione cada cidade no mapa de árvore e veja como os outros gráficos são alterados.
 
 * St. Louis, MO tinha um grande aumento no total da nota fiscal em fevereiro e uma grande diminuição de economia de desconto em abril.
 * Cidade do México no México tem a maior porcentagem de desconto (% 11,05) e Atlanta, GA tem a menor (% 0,08).
@@ -118,4 +147,3 @@ Este é um ambiente seguro para experimentar. Você pode optar por não salvar a
 
 ## <a name="next-steps-connect-to-your-data"></a>Próximas etapas: conectar-se aos seus dados
 Esperamos que esse tour tenha mostrado como os painéis e relatórios do Power BI podem fornecer informações sobre os dados de compras. Agora é sua vez &#151; conecte-se aos seus próprios dados. Com o Power BI, é possível se conectar a uma grande variedade de fontes de dados. Saiba mais sobre como [começar a usar o Power BI](service-get-started.md)
-

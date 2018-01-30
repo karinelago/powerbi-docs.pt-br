@@ -15,18 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/04/2017
+ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 878738eb3f588c461b687451062a1641479e77ed
-ms.sourcegitcommit: 54da95f184dd0f7bb59bb0bc8775a1d93129b195
+ms.openlocfilehash: 8ee889246c7ceae82195faa62232a987a541b076
+ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Oportunidade de Análise de Varejo para o Power BI: faça um tour
-O exemplo **de Controle de Oportunidade** contém um painel (e relatório associado) para uma empresa de software que tem 2 canais de vendas: *direta* e *parceiro*. O gerente de vendas criado neste painel para acompanhar oportunidades e receita por região, trabalha com o tamanho do negócio e o canal.
 
-O gerente de vendas se baseia em 2 medidas de receita:
+## <a name="overview-of-the-opportunity-analysis-sample"></a>Visão geral do exemplo de Análise de Oportunidade
+O **Exemplo de Análise de Oportunidade** contém um dashboard (e um relatório associado) de uma empresa de software que tem dois canais de vendas: *direta* e de *parceiro*. O gerente de vendas criado neste painel para acompanhar oportunidades e receita por região, trabalha com o tamanho do negócio e o canal.
+
+O gerente de vendas se baseia em duas medidas de receita:
 
 * **Receita** – esta é uma estimativa por vendedor sobre o que ele acredita que será a receita da empresa.
 * **Receita Fatorada** – esta é calculada como a porcentagem (%) entre a Receita x Probabilidade e é aceita normalmente como sendo uma previsão mais precisa da receita de vendas real. A probabilidade é determinada pelo ***Estágio de Venda do negócio*** em andamento.
@@ -36,23 +38,51 @@ O gerente de vendas se baseia em 2 medidas de receita:
   * Proposta — 60%  
   * Finalizar – 80%
 
+  ![](media/sample-opportunity-analysis/opportunity1.png)
+
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com)](http://www.obvience.com/) que foram mantidos anônimos.
 
->[!Note] 
-Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar.  Para ver os dados brutos, selecione **Power Pivot > Gerenciar**. 
+## <a name="prerequisites"></a>Pré-requisitos
 
-![](media/sample-opportunity-analysis/opportunity1.png)
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+
+### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
+
+1. Abra o serviço do Power BI (app.powerbi.com) e faça logon.
+2. No canto inferior esquerdo, selecione **Obter dados**.
+   
+    ![](media/sample-datasets/power-bi-get-data.png)
+3. Na página Obter Dados que aparece, selecione o ícone **Exemplos**.
+   
+   ![](media/sample-datasets/power-bi-samples-icon.png)
+4. Selecione o **Exemplo de Análise de Oportunidades** e escolha **Conectar**.  
+  
+   ![Obter Dados](media/sample-opportunity-analysis/opportunity-connect.png)
+   
+5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
+   
+   ![Asterisco](media/sample-opportunity-analysis/opportunity-asterisk.png)
+  
+### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
+
+Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é projetado para uso com o Power BI Desktop. 
+
+ * [Exemplo de Análise de Oportunidade](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+
+### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
+Também é possível [baixar apenas o conjunto de dados (pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) para este exemplo A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 Nossa gerente de vendas criou um painel para acompanhar as métricas mais importantes para ela. Quando ela vir algo interessante, pode selecionar um bloco para examinar os dados.
 
 1. A receita da empresa é de US $2 bilhões e a receita fatorada é de US $461 milhões.
 2. Receita e contagem de oportunidade seguem um padrão de funil familiar, com tos otais diminuindo cada estágio subsequente.
-3. A maioria de nossas oportunidades são na região leste. 
+3. A maioria de nossas oportunidades são na região leste.
 4. As grandes oportunidades geram receita maior do que as oportunidades de pequenas ou médias.
-5. Ofertas de grande parceiro geram mais receita: US $8 milhões em média contra US $6 milhões de vendas direta. 
+5. Ofertas de grande parceiro geram mais receita: US $8 milhões em média contra US $6 milhões de vendas direta.
 
-Uma vez que o esforço necessário para colocar um acordo é o mesmo se o problema é classificado como grande, médio e pequeno. nossa empresa deve examinar os dados para saber mais sobre grandes oportunidades. 
+Uma vez que o esforço necessário para colocar um acordo é o mesmo se o problema é classificado como grande, médio e pequeno. nossa empresa deve examinar os dados para saber mais sobre grandes oportunidades.
 
 Selecione o bloco **Contagem de oportunidades controlada por parceiro e estágio de venda** para abrir a página 1 do relatório.  
 ![](media/sample-opportunity-analysis/opportunity2.png)
@@ -63,8 +93,8 @@ Selecione o bloco **Contagem de oportunidades controlada por parceiro e estágio
 
 * Leste é nossa região maior em termos de contagens de oportunidade.  
 * No gráfico de pizza, selecione uma região por vez para filtrar a página. Para cada região, os parceiros estão buscando significativamente mais oportunidades grandes.   
-* A contagem de oportunidade, controlada por parceiro e tamanho da oportunidade de gráfico de colunas mostra claramente que a maioria das grandes oportunidades são controladas por parceiro e mais oportunidades de pequenas e médias não são controladas por parceiro. 
-* Selecione cada estágio de vendas no gráfico de barras na parte inferior esquerda para ver a diferença na contagem regional e observe que, embora leste seja nossa região maior em termos de contagens, nos estágios de Solução, Proposta e Finalizar, todas as 3 regiões têm contagens comparáveis. Isso significa que podemos fechar uma porcentagem maior de acordos na região central e oeste. 
+* A contagem de oportunidade, controlada por parceiro e tamanho da oportunidade de gráfico de colunas mostra claramente que a maioria das grandes oportunidades são controladas por parceiro e mais oportunidades de pequenas e médias não são controladas por parceiro.
+* Selecione cada estágio de vendas no gráfico de barras na parte inferior esquerda para ver a diferença na contagem regional e observe que, embora leste seja nossa região maior em termos de contagens, nos estágios de Solução, Proposta e Finalizar, todas as 3 regiões têm contagens comparáveis. Isso significa que podemos fechar uma porcentagem maior de acordos na região central e oeste.
 
 ### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>A página 2 do nosso relatório é intitulada "Visão geral da receita".
 Esta página examina de modo semelhante os dados, mas usando uma perspectiva de receita em vez de contagem.  
@@ -82,8 +112,8 @@ Claramente, nossos parceiros estão fazendo um trabalho melhor de venda aos clie
 Esta página analisa dados semelhantes, mas divide-os por região e estágio.  
 ![](media/sample-opportunity-analysis/opportunity5.png)
 
-* Ao filtrar a região leste (selecione **Leste** no gráfico de pizza) revela que as oportunidades na região leste são divididas quase iguais entre parceiros e não parceiros. 
-* Grandes oportunidades são mais comuns na região central, pequena oportunidades são as mais comuns na região leste e oportunidades de médio porte são as mais comuns na região oeste. 
+* Ao filtrar a região leste (selecione **Leste** no gráfico de pizza) revela que as oportunidades na região leste são divididas quase iguais entre parceiros e não parceiros.
+* Grandes oportunidades são mais comuns na região central, pequena oportunidades são as mais comuns na região leste e oportunidades de médio porte são as mais comuns na região oeste.
 
 ### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>A página 4 do nosso relatório é intitulada "Oportunidades futuras"
 Novamente, estamos analisando fatores semelhantes, mas desta vez de uma perspectiva de data/hora.  
@@ -101,4 +131,3 @@ Este é um ambiente seguro para experimentar. Você pode optar por não salvar a
 Esperamos que este tour tenha mostrado como os painéis, P e R e relatórios do Power BI podem fornecer informações sobre os dados de controle de oportunidade. Agora é sua vez - conecte-se aos seus próprios dados. Com o Power BI, é possível se conectar a uma grande variedade de fontes de dados. Saiba mais sobre como [começar a usar o Power BI](service-get-started.md)
 
 [Baixar exemplos](sample-datasets.md)  
-

@@ -15,19 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 01/22/2018
 ms.author: davidi
-ms.openlocfilehash: ec5d5de3d29ccbe857f6fd40320353c357e6539e
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 6b2002348ae7e8ef2bb2e112eb8be967d0c68545
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Exportar relatórios do Power BI para o PowerPoint (Visualização)
 Com o Power BI, agora você pode publicar seu relatório no **Microsoft PowerPoint** e criar facilmente um conjunto de slides com base em seu relatório do Power BI. Quando você **exporta para o PowerPoint**, ocorre o seguinte:
 
 * Cada página no relatório do Power BI se torna um slide individual no PowerPoint
-* Cada elemento visual no relatório do Power BI é exportado como uma imagem de alta resolução no PowerPoint
+* Cada página no relatório do Power BI é exportada como uma única imagem de alta resolução no PowerPoint
 * As caixas de texto no relatório do Power BI se tornam caixas de texto editáveis no PowerPoint
 * É criado um link no PowerPoint que é vinculado ao relatório do Power BI
 
@@ -65,7 +65,11 @@ Quando você abre o arquivo do PowerPoint que o Power BI exportou, encontra algu
 2. Você também obtém algumas informações úteis sobre o relatório, incluindo a *última atualização dos dados* em que o relatório exportado é baseado e a hora e data do *download*, que é a hora e a data em que o relatório do Power BI foi exportado para um arquivo PowerPoint.
 3. Cada página do relatório é um slide separado, conforme mostrado no painel de navegação esquerdo.
 
-Quando você entrar em um slide individual, perceberá que cada elemento visual é uma imagem independente (conforme mencionado anteriormente). Dessa forma, você pode copiar a imagem e colá-la em outro slide ou em qualquer lugar que desejar.
+Quando você entrar em um slide individual, perceberá que cada página de relatório é uma imagem independente.
+
+>[!NOTE]
+> Ter um visual para cada página do relatório é um novo comportamento. O comportamento anterior, que fornecia uma imagem independente para cada visual, não está mais implementado. 
+ 
 
 ![](media/service-publish-to-powerpoint/powerbi_to_powerpoint_6.png)
 
@@ -85,6 +89,7 @@ Há algumas considerações e limitações para ter em mente ao trabalhar com o 
 * As páginas no PowerPoint sempre são criadas com o tamanho padrão 9:16, independentemente do tamanho ou das dimensões da página original no relatório do Power BI.
 * Os relatórios que são propriedade de um usuário fora de seu domínio de locatário do Power BI (como um relatório de alguém fora de sua organização e compartilhado com você) não podem ser publicados no PowerPoint.
 * Se você compartilhar um dashboard com alguém fora de sua organização (e, portanto, um usuário que não está em seu locatário do Power BI), esse usuário não poderá exportar os relatórios associados ao dashboard compartilhado para o PowerPoint. Por exemplo, se você for aaron@contoso.com, poderá compartilhar com david@cohowinery.com. No entanto, david@cohowinery.com não poderá exportar os relatórios associados para o PowerPoint.
+* Conforme mencionado anteriormente, cada página do relatório é exportada como uma única imagem no arquivo do PowerPoint. 
 
 ## <a name="next-steps"></a>Próximas etapas
 [Analisar no Excel](service-analyze-in-excel.md)

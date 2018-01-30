@@ -1,5 +1,5 @@
 ---
-title: "Gráficos de medidor radial no Power BI (tutorial)"
+title: "Tutorial – gráficos de medidor radial no Power BI"
 description: "Tutorial: Gráficos de medidor radial no Power BI"
 services: powerbi
 documentationcenter: 
@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/27/2017
+ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 7299b95cb3dd1fab4edce1764c69e1b2657ef547
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 354bfc01231f0f11aabd533bf29f987dec7c9771
+ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/23/2018
 ---
 # <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Gráficos de medidor radial no Power BI (tutorial)
 Um gráfico de medidor radial tem um arco circular e exibe um único valor que acompanha o progresso em relação a um objetivo/KPI.  A meta, ou o valor de destino, é representada pela linha (agulha). Progresso em relação a esse objetivo é representado pelo sombreamento.  E o valor que representa o progresso é mostrado em negrito dentro do arco. Todos os valores possíveis são distribuídos uniformemente ao longo do arco, do mínimo (valor mais à esquerda) para o máximo (valor mais à direita).
@@ -39,17 +39,25 @@ Os medidores radiais são uma ótima opção para:
 * mostrar a integridade de uma única medida.
 * exibir informações que podem ser examinadas e compreendidas rapidamente.
 
+### <a name="prerequisites"></a>Pré-requisitos
+ - Serviço do Power BI ou Power BI Desktop
+ - Pasta de trabalho do Excel de exemplo financeiro: [baixe o exemplo diretamente](http://go.microsoft.com/fwlink/?LinkID=521962).
+
 ## <a name="create-a-basic-radial-gauge"></a>Criar um medidor radial básico
-Nessas instruções, usamos o Exemplo Financeiro. Para acompanhar, [baixe a amostra](http://go.microsoft.com/fwlink/?LinkID=521962) em seu computador, entre no Power BI e selecione **Obter Dados \> Arquivos \> Arquivo Local > Abrir**. 
+Estas instruções usam o serviço do Power BI. Para acompanhar, entre no Power BI e abra o arquivo Exemplo Financeiro do Excel.  
 
 Ou veja Will mostrando como criar elementos visuais de métrica únicos: medidores, cartões e KPIs.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-### <a name="step-1-open-the-financial-sample-excel-file"></a>Etapa 1: abra o arquivo do Excel de exemplo financeiro.
-1. [Baixe o arquivo de exemplo Financeiro do Excel](sample-financial-download.md).
-2. Abra o arquivo no Power BI selecionando **Obter dados \> Arquivos** e navegando até o local em que você salvou o arquivo. Selecione **Importar**. A Amostra Financeira é adicionada a seu espaço de trabalho como um conjunto de dados.
-3. Selecione **Exemplo Financeiro** para abri-lo no modo de explorar.
+### <a name="step-1-open-the-financial-sample-excel-file"></a>Etapa 1: abrir o arquivo do Excel de Exemplo Financeiro
+1. [Baixe o arquivo do Excel de exemplo Financeiro](sample-financial-download.md) se ainda não tiver feito isso. Lembre-se do local em que você o salvou.
+
+2. Abra o arquivo no ***serviço do Power BI*** selecionando **Obter dados \> Arquivos** e navegando até o local em que você salvou o arquivo. Selecione **Importar**. A Amostra Financeira é adicionada a seu espaço de trabalho como um conjunto de dados.
+
+3. Da lista de conteúdo **Conjunto de dados**, selecione **Exemplo Financeiro** para abri-lo no modo de Explorar.
+
+    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-dataset.png)
 
 ### <a name="step-2-create-a-gauge-to-track-gross-sales"></a>Etapa 2: criar um medidor para acompanhar as Vendas Brutas
 1. No painel **Campos** , selecione **Vendas Brutas**.

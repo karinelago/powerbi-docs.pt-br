@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 453a2a9dd4ea5e41d404d3e81cebbff7c35f1b6c
-ms.sourcegitcommit: b3ee37e1587f1269ee7dd9daf1685a06dea3b50c
+ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
+ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2017
+ms.lasthandoff: 01/19/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitar P e R para conexões dinâmicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados local?  O que é uma conexão dinâmica?
@@ -39,7 +39,7 @@ Como a P e R do Power BI usa os valores de texto e de esquema da fonte de dados 
 Para obter mais informações, veja:
 
 * O que é o [gateway de dados local](service-gateway-onprem.md)?
-* [Introdução a P e R do Power BI](service-q-and-a.md)
+* [Introdução a P e R do Power BI](power-bi-q-and-a.md)
 
 ## <a name="enable-qa"></a>Habilitar a P e R
 Depois que o gateway de dados estiver configurado, conecte-se aos seus dados por meio do Power BI.  Crie um dashboard usando seus dados locais ou carregue um arquivo .pbix que usa dados locais.  Talvez você também já tenha dados locais em dashboards, relatórios e conjuntos de dados que foram compartilhados com você.
@@ -55,22 +55,20 @@ Depois que o gateway de dados estiver configurado, conecte-se aos seus dados por
     ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Quais dados são armazenados em cache e como a privacidade é protegida?
-Quando você habilita a P e R para seus dados locais, um subconjunto dos dados é armazenado em cache no serviço. Isso é feito para garantir que a P e R funcione com um desempenho razoável. Excluímos valores com mais de 24 caracteres do cache. O cache é excluído em algumas horas quando você desabilita a P e R desmarcando **Ativar P e R neste conjunto de dados** ou quando você exclui o conjunto de dados.
+Quando você habilita a P e R para seus dados locais, um subconjunto dos dados é armazenado em cache no serviço. Isso é feito para garantir que a P e R funcione com um desempenho razoável. O Power BI exclui valores com mais de 24 caracteres do cache. O cache é excluído em algumas horas quando você desabilita a P e R desmarcando **Ativar P e R neste conjunto de dados** ou quando você exclui o conjunto de dados.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 Durante a fase de Visualização deste recurso, existem várias limitações:
 
-* Inicialmente, o recurso só está disponível para fontes de dados tabulares do SQL Server 2016 Analysis Services. O recurso é otimizado para funcionar com dados de tabela. Algumas funcionalidades estão disponíveis para fontes de dados multidimensionais, mas ainda não há suporte para a experiência completa de P e R para dados multidimensionais. Fontes de dados adicionais compatíveis com o gateway de dados local serão lançadas durante a visualização pública.
+* Inicialmente, o recurso só está disponível para fontes de dados tabulares do SQL Server 2016 Analysis Services. O recurso é otimizado para funcionar com dados de tabela. Algumas funcionalidades estão disponíveis para fontes de dados multidimensionais, mas ainda não há suporte para a experiência completa de P e R para dados multidimensionais. Fontes de dados adicionais compatíveis com o gateway de dados local serão distribuídas ao longo do tempo.
 * O suporte completo para a segurança em nível de linha definida no SQL Server Analysis Services não está disponível inicialmente na visualização pública. Ao fazer perguntas na P e R, o “preenchimento automático” de perguntas durante a digitação pode mostrar valores de cadeia de caracteres aos quais um usuário não tem acesso. No entanto, a RLS definida no modelo é respeitada em relação a visuais de relatório e de gráfico e, portanto, nenhum dado numérico subjacente pode ser exposto. Opções para controlar esse comportamento serão lançadas em atualizações futuras.
 * As conexões dinâmicas são compatíveis somente com o gateway de dados local. Sendo assim, elas não podem ser usadas com o gateway pessoal.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  
 [Gerenciar sua fonte de dados – Analysis Services](service-gateway-enterprise-manage-ssas.md)  
-[Power BI Quick Insights](service-insights.md)  
-[Otimizar seus dados para o Power BI Quick Insights](service-insights-optimize.md)  
 [Power BI – conceitos básicos](service-basic-concepts.md)  
-[Dashboards no Power BI](service-dashboards.md)  
+[Visão geral de P e R do Power BI](power-bi-q-and-a.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
