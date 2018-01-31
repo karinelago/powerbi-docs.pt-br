@@ -3,7 +3,7 @@ title: "Usando um endereço de email alternativo"
 description: "Usando um endereço de email alternativo"
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/09/2017
-ms.author: asaxton
-ms.openlocfilehash: 4d58c0dfb07153b9061aa572416be2d8bc7858bd
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: dd9e146b22c95d8c915ea653ee287bb7a51e6b06
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="using-an-alternate-email-address"></a>Usando um endereço de email alternativo
 Por padrão, o endereço de email usado para inscrição no Power BI é usado para enviar atualizações sobre a atividade no Power BI.  Por exemplo, quando alguém enviar um convite de compartilhamento ele irá para esse endereço.

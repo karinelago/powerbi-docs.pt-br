@@ -3,7 +3,7 @@ title: "Autenticar usuários e obter um token de acesso do Azure AD para o aplic
 description: "Saiba como registrar um aplicativo no Azure Active Directory para uso com a inserção de conteúdo do Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/11/2017
-ms.author: asaxton
-ms.openlocfilehash: ad6f48f5abca9be6f25cfcaab783fdd0829cab46
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 3ff0fa3c83654ac577e98e730dc68ce3686e1198
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="authenticate-users-and-get-an-azure-ad-access-token-for-your-power-bi-app"></a>Autenticar usuários e obter um token de acesso do Azure AD para o aplicativo Power BI
 Saiba como você pode autenticar usuários no aplicativo do Power BI e recuperar um token de acesso para usar com a API REST.

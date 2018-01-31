@@ -3,7 +3,7 @@ title: "Integrar um relatório do Power BI em um aplicativo para sua organizaç�
 description: "Aprenda a integrar ou inserir um relatório em um aplicativo Web usando APIs do Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/05/2017
-ms.author: asaxton
-ms.openlocfilehash: 8285cbbc2d8dee653863cad50036da58362c32d1
-ms.sourcegitcommit: 7517c068db806f12bb0b953e9a1bd4249ca12da5
+ms.author: maghan
+ms.openlocfilehash: 9ed341eb4428795bb4714ae8f1a34fd11c1bcbcd
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integrar um relatório em um aplicativo para sua organização
 Saiba como integrar ou inserir um relatório em um aplicativo Web usando chamadas à API REST, junto com a API JavaScript do Power BI durante a inserção para a organização.

@@ -3,7 +3,7 @@ title: "Abordagens de governança e implantação"
 description: "White paper para saber mais sobre conceitos, opções e sugestões para governança no ecossistema do Power BI."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 06/28/2017
-ms.author: asaxton
-ms.openlocfilehash: 2a26106bcd27f3be05ff1f0d195c605da8b13c90
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: maghan
+ms.openlocfilehash: 574e54aa423c9cdc9b9146fde1a16686303e73f6
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="governance-and-deployment-approaches"></a>Abordagens de governança e implantação
 Nas últimas décadas, empresas se tornaram cada vez mais conscientes sobre a necessidade de utilizar estrategicamente ativos de dados para tirar proveito de oportunidades de mercado. Seja ao executar análise competitiva ou ao compreender padrões operacionais, muitas organizações entendem agora que eles podem se beneficiar de uma estratégia de dados como uma maneira de se manter à frente da concorrência.  
