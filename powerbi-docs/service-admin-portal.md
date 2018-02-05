@@ -3,7 +3,7 @@ title: "Portal de administração do Power BI"
 description: "O portal de administração permite o gerenciamento de locatário do Power BI em sua organização. Inclui itens como métricas de uso, o acesso ao centro de administração do Office 365 e configurações."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/27/2017
-ms.author: asaxton
-ms.openlocfilehash: d831363d6afa88aa94d78776f59f81ba8ba96299
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.date: 01/02/2018
+ms.author: maghan
+ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -209,6 +209,16 @@ Os usuários na organização podem usar o Excel para exibir e interagir com con
 ### <a name="user-arcgis-maps-for-power-bi-preview"></a>Usuário do ArcGIS Maps para o Power BI (Versão prévia)
 
 Os usuários na organização podem usar a visualização dos Mapas do ArcGIS para o Power BI (Versão prévia) fornecida pelo Esri. [Saiba mais](power-bi-visualization-arcgis.md)
+
+
+## <a name="custom-visuals-settings"></a>Configurações visuais personalizadas
+### <a name="enable-custom-visuals-for-the-entire-organization"></a>Habilitar visuais personalizados para toda a organização
+Os usuários na organização podem interagir com e compartilhar elementos visuais personalizados. [Saiba mais](power-bi-custom-visuals.md)
+
+![Configurações visuais personalizadas](media/service-admin-portal/powerbi-admin-custom-visuals.png)
+
+> [!NOTE]
+> Essa configuração se aplica a toda a organização e não pode ser limitada a grupos específicos.
 
 ## <a name="r-visuals-settings"></a>Configurações de elementos visuais do R
 

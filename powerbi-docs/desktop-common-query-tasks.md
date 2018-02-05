@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: a707a7b590804d24d60d17590408afbdf8f81f4c
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: ef2e89ba2bac451ce0230829bbf4aa0b60713899
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tarefas comuns de consulta no Power BI Desktop
 Ao trabalhar na janela do **Editor de Consultas** do Power BI Desktop, há uma série de tarefas frequentemente usadas. Este documento demonstra as tarefas comuns e fornece links para informações adicionais. 
@@ -69,7 +69,7 @@ Outras conexões de dados são semelhantes. Se for necessário autenticar-se par
 Para ver uma demonstração passo a passo da conexão a dados no Power BI Desktop, veja [Conectar-se a dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471635).
 
 ## <a name="shape-and-combine-data"></a>Formatar e combinar dados
-Você pode facilmente formatar e combinar dados com o Editor de Consultas. Esta seção inclui alguns exemplos de como você pode formatar dados. Para ver uma demonstração mais completa de formatação e combinação de dados, confira [Formatar e combinar dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644).
+Você pode facilmente formatar e combinar dados com o Editor de Consultas. Esta seção inclui alguns exemplos de como você pode formatar dados. Para ver uma demonstração mais completa de formatação e combinação de dados, confira **[Formatar e combinar dados no Power BI Desktop](https://powerbi.uservoice.com/knowledgebase/articles/471644)**.
 
 Na seção anterior, nós nos conectamos a dois conjuntos de dados – uma pasta de trabalho do Excel e um recurso da Web. Quando carregado no Editor de Consultas, vemos o seguinte, com a consulta da página da Web selecionada (das consultas disponíveis listadas no painel **Consultas** no lado esquerdo da janela do Editor de Consultas).
 
@@ -217,7 +217,7 @@ As categorias de fórmula do Editor de Consultas são as seguintes:
 * Splitter
 * Combiner
 * Replacer
-* Type
+* Tipo
 
 ## <a name="next-steps"></a>Próximas etapas
 Há inúmeras coisas que você pode fazer com o Power BI Desktop. Para obter mais informações sobre seus recursos, consulte as seguintes fontes:

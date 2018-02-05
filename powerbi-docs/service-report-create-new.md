@@ -1,5 +1,5 @@
 ---
-title: "Criar um novo relatório por meio de um conjunto de dados "
+title: "Tutorial – Criar um novo relatório por meio de um conjunto de dados "
 description: "Criar um novo relatório do Power BI com base em um conjunto de dados."
 services: powerbi
 documentationcenter: 
@@ -15,20 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/24/2018
 ms.author: mihart
-ms.openlocfilehash: f4afb1eaa1b3012fdbdb0eff35e9eff695cc32e4
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 7405f2c5663c071d58253f2103c9c7d778ea8299
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Criar um novo relatório do Power BI importando um conjunto de dados
 Você já leu [Relatórios no Power BI](service-reports.md) e agora deseja criar o seu próprio relatório. Há muitas maneiras diferentes para criar um relatório e, neste artigo, vamos começar criando um relatório muito básico com base em um conjunto de dados do Excel. Depois de compreender os fundamentos da criação de um relatório, as **Próximas etapas** no final vão direcioná-lo para tópicos mais avançados sobre relatórios.  
 
 > **DICA**: para criar um relatório copiando um relatório existente, consulte [Copiar um relatório](power-bi-report-copy.md)
 > 
-> 
+### <a name="prerequisites"></a>Pré-requisitos
+- Serviço do Power BI (para criar relatórios usando o Power BI Desktop, confira [Exibição de relatório do Desktop](desktop-report-view.md)   
+- Conjunto de dados Exemplo de Análise de Varejo
 
 ## <a name="import-the-dataset"></a>Importar o conjunto de dados
 Esse método para a criação de um relatório começa com um conjunto de dados e uma tela de relatório em branco. Para acompanhar, [baixe o conjunto de dados de exemplo do Excel, Análise de Varejo](http://go.microsoft.com/fwlink/?LinkId=529778) e salve-o no OneDrive for Business (de preferência) ou localmente.
@@ -36,7 +38,7 @@ Esse método para a criação de um relatório começa com um conjunto de dados 
 1. Criaremos o relatório em um espaço de trabalho do serviço do Power BI, portanto, selecione um espaço de trabalho existente ou crie um novo.
    
    ![](media/service-report-create-new/power-bi-workspaces2.png)
-2. Na parte inferior da barra de navegação à esquerda, selecione **Obter dados**.
+2. Na parte inferior do painel de navegação à esquerda, selecione **Obter dados**.
    
    ![](media/service-report-create-new/power-bi-get-data3.png)
 3. Selecione **Arquivos** e navegue até o local em que você salvou o exemplo Análise de Varejo.
@@ -83,7 +85,7 @@ Nossa CMO tem algumas perguntas adicionais para respondermos. Ela gostaria de ve
 4. Selecione **Tempo** > **Período** para adicionar ao **Eixo** também.
    
     ![](media/service-report-create-new/power-bi-report-step5.png)
-5. Para classificar a visualização, selecione as reticências e escolha **Classificar por Período**.
+5. Para classificar a visualização por período de tempo, selecione as reticências e escolha **Classificar por Período**.
 6. Agora vamos adicionar a segmentação de dados. Selecione uma área vazia na tela e escolha o modelo de segmentação de dados ![](media/service-report-create-new/power-bi-slicer-icon.png). Isso adiciona uma segmentação de dados vazia à nossa tela.
    
     ![](media/service-report-create-new/power-bi-report-step6.png)    
@@ -93,12 +95,11 @@ Nossa CMO tem algumas perguntas adicionais para respondermos. Ela gostaria de ve
 8. Use a segmentação de dados para procurar por padrões e insights por Distrito.
    
    ![](media/service-report-create-new/power-bi-slicer-video2.gif)  
-9. Opcionalmente, você pode continuar adicionando visualizações.
+
+Continue explorando seus dados e adicionando visualizações. Quando você encontrar insights especialmente interessantes, [fixe-os em um painel](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Próximas etapas
-* [Criar uma cópia de um relatório](power-bi-report-copy.md)
-* [Salvar o relatório](service-report-save.md)    
 * [Adicionar uma nova página ao relatório](power-bi-report-add-page.md)  
-* Saiba como [fixar visualizações em um dashboard](service-dashboard-pin-tile-from-report.md)    
+* Saiba como [fixar visualizações em um dashboard](service-dashboard-pin-tile-from-report.md)   
 * Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

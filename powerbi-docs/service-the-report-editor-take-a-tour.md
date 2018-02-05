@@ -1,5 +1,5 @@
 ---
-title: "O editor de relatório... Faça um tour"
+title: "Início rápido – O editor de relatório... Faça um tour"
 description: "O editor de relatório... Faça um tour"
 services: powerbi
 documentationcenter: 
@@ -16,20 +16,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: e5ee6db22fe0fa7fd1e61ebbfb7dbee9d3458159
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8ecee2c5de9959937b5afa56cdf5b3679c5b9a5e
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>O editor de relatório... Faça um tour
+## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Editar relatórios no serviço Power BI e Power BI Desktop
 O editor de relatório no serviço do Power BI e o editor de relatório no Power BI Desktop são muito semelhantes. O vídeo mostra o editor de relatório no Power BI Desktop e este artigo mostra o editor de relatório no serviço do Power BI. 
+
+## <a name="the-difference-between-report-creators-and-report-consumers"></a>A diferença entre *criadores* de relatório e *consumidores* de relatório
+A capacidade de criar e editar um relatório está restrita a proprietários do relatório (também conhecidos como *criadores*). Se você estiver *consumindo* um relatório que foi compartilhado com você, ainda poderá abrir e interagir com o relatório no [modo de exibição somente leitura](service-reading-view-and-editing-view.md) do serviço Power BI, mas não terá todos os recursos robustos e abrangentes disponíveis para o criador do relatório.  
+
+Para saber mais sobre o modo de exibição de leitura do relatório, confira [Modo de exibição de leitura e modo de exibição de edição no serviço Power BI](service-reading-view-and-editing-view.md) 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-No serviço de Power BI, o *editor de relatório* só está disponível no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md). Para abrir um relatório no Modo de Exibição de Edição, você deve ser o proprietário de um relatório.
+No serviço de Power BI, o *editor de relatório* só está disponível no [Modo de Exibição de Edição](service-reading-view-and-editing-view.md). Para abrir um relatório no Modo de Exibição de Edição, você deve ser o proprietário ou criador de um relatório.
 
 O editor de relatório do Power BI é composto de 3 seções:  
 
@@ -87,7 +93,9 @@ Com o painel Análise no serviço do Power BI, você pode adicionar linhas de re
 
 - - -
 ## <a name="the-filters-pane"></a>O painel Filtros
-Exiba, defina e modifique filtros de nível de página, de relatório, de detalhamento e de visual.
+Use o painel de filtros para exibir, configurar e modificar filtros persistentes para seus relatórios no nível de página, relatórios, detalhamento e visual. Sim, você pode fazer a filtragem local nas páginas de relatório e nos elementos visuais selecionando os elementos visuais ou usando ferramentas como as segmentações, mas ao usar o painel Filtros, o estado dos filtros é salvo com o relatório. 
+
+O painel Filtros tem outro recurso eficiente, a capacidade de filtrar usando um campo ***que ainda não está sendo usado em um dos elementos visuais em seu relatório***. Deixe-me explicar. Quando você cria uma página de relatório, o Power BI adiciona automaticamente todos os campos que você usa nas suas visualizações para a área de filtros de nível visual do painel Filtros.  Porém, se quiser definir um visual, página, detalhamento ou relatório, filtre usando um campo que não esteja sendo usado em uma visualização, simplesmente arrastando-o para um dos buckets de filtros.   
 
 ![](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
@@ -125,11 +133,7 @@ A tela de relatório é o local em que seu trabalho é exibido. Quando você usa
 ## <a name="next-steps"></a>Próximas etapas:
 [Criar um relatório](service-report-create-new.md)
 
-[Editar um relatório](service-interact-with-a-report-in-editing-view.md)
-
-Leia mais sobre [relatórios no Power BI](service-reports.md)
-
-[Introdução ao Power BI](service-get-started.md)
+Leia mais sobre relatórios no [serviço Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) e [Power BI Mobile](mobile-apps-view-phone-report.md).
 
 [Power BI – conceitos básicos](service-basic-concepts.md)
 

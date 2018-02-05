@@ -3,7 +3,7 @@ title: "Como migrar o conteúdo da coleção do espaço de trabalho do Power BI 
 description: "Saiba como migrar do Power BI Embedded para o serviço do Power BI e aproveitar os avanços para inserir em aplicativos."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 07/21/2017
-ms.author: asaxton
-ms.openlocfilehash: 430f1d1a49e510bac66c448b2dceaad1f2537073
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.date: 08/24/2018
+ms.author: maghan
+ms.openlocfilehash: 59d395d11839903108f811ff4a6022ea04cadc8f
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="how-to-migrate-power-bi-embedded-workspace-collection-content-to-power-bi"></a>Como migrar o conteúdo da coleção do espaço de trabalho do Power BI Embedded para o Power BI
 Saiba como migrar do Power BI Embedded para o serviço do Power BI e aproveitar os avanços para inserir em aplicativos.
@@ -130,7 +130,7 @@ Conjuntos de dados armazenados em cache referem-se a arquivos PBIX que tinham im
 2. Chame Baixar API de PBIX no espaço de trabalho PaaS.
 3. Salve o PBIX.
 4. Chame Importar PBIX para o espaço de trabalho SaaS.
-5. Atualize a cadeia de conexão chamando – POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+5. Atualize a cadeia de conexão chamando – POST https://api.powerbi.com/v1.0/myorg/datasets/ {dataset_id}/Default.SetAllConnections
 6. Obtenha a ID GW e a ID da fonte de dados chamando – GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Atualize as credenciais do usuário chamando – PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
@@ -174,14 +174,11 @@ No aplicativo, você mapeará os usuários que gerencia dentro do aplicativo par
 Quando estiver pronto para passar para a produção, você precisará fazer o seguinte.
 
 * Se você estiver usando um locatário separado para desenvolvimento, então será preciso certificar-se de que seus espaços de trabalho do aplicativo, juntamente com dashboards e relatórios, estão disponíveis em seu ambiente de produção. Também será preciso certificar-se de ter criado o aplicativo no Azure AD para seu locatário de produção e ter atribuído as permissões de aplicativo adequadas conforme indicado na Etapa 1.
-* Adquira uma capacidade que atenda às suas necessidades. É possível usar o [Embedded analytics capacity planning whitepaper (White paper de planejamento de capacidade de análise inserida)](https://aka.ms/pbiewhitepaper) para ajudar a entender o que pode ser preciso. Quando você estiver pronto para a compra, será possível fazê-la dentro do [Centro de administração do Office 365](https://portal.office.com/adminportal/home#/catalog).
-  
-  > [AZURE.INFORMATION] Para obter informações sobre como adquirir o Power BI Premium, consulte [How to purchase Power BI Premium (Como comprar o Power BI Premium)](../service-admin-premium-purchase.md).
-  > 
-  > 
+* Adquira uma capacidade que atenda às suas necessidades. Para entender melhor a quantidade e o tipo de capacidade necessários, confira o [White paper de planejamento de capacidade de análise inserida](https://aka.ms/pbiewhitepaper). Você pode [adquirir capacidade](https://portal.azure.com/#create/Microsoft.PowerBIDedicated) no Azure.
 * Edite o espaço de trabalho do aplicativo e atribua-o a uma capacidade Premium em avançado.
-  
+ 
     ![](media/migrate-from-powerbi-embedded/powerbi-embedded-premium-capacity.png)
+    
 * Implante seu aplicativo atualizado para a produção e comece a inserir relatórios do serviço do Power BI.
 
 ## <a name="after-migration"></a>Após a migração

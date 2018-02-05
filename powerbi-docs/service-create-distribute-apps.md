@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: 89c376451199aec0a6f464f3298df44d468f37d2
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e distribuir aplicativos com dashboards e relatórios no Power BI
 
@@ -32,7 +32,13 @@ Os usuários empresariais geralmente precisam de vários dashboards e relatório
 
 Com os aplicativos do Power BI, agora em versão prévia, crie coleções de dashboards e relatórios e distribua esses aplicativos para toda a organização ou para pessoas ou grupos específicos. Para você, como administrador ou criador de relatórios, os aplicativos facilitam o gerenciamento de permissões em coleções de dashboards.
 
-Os usuários empresariais instalam esses aplicativos por meio do Microsoft AppSource ou você pode enviar a eles um link direto. Eles podem facilmente localizar e retornar ao seu conteúdo, porque ele estará em um só lugar. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Leia mais sobre a [experiência de aplicativo para usuários corporativos](service-install-use-apps.md).
+Usuários de negócios obtêm seus aplicativos de algumas maneiras diferentes. Se o administrador do Power BI lhe der permissão, instale-os automaticamente em contas do Power BI de seus colegas. Caso contrário, eles podem instalar seus aplicativos no Microsoft AppSource, ou você pode enviar um link direto. Eles podem facilmente localizar e retornar ao seu conteúdo, porque ele estará em um só lugar. Eles recebem atualizações automaticamente e você pode controlar a frequência com que os dados são atualizados. Leia mais sobre a [experiência de aplicativo para usuários corporativos](service-install-use-apps.md).
+
+### <a name="licenses-for-apps"></a>Licenças para aplicativos
+Como criador de aplicativos, você precisa de uma licença do Power BI Pro. Para os usuários do aplicativo, há duas opções.
+
+* Opção 1: todos os usuários empresariais precisam de licenças do **Power BI Pro** para exibir seu aplicativo. 
+* Opção 2: usuários gratuitos de sua organização podem exibir o conteúdo do aplicativo se o aplicativo residir em uma capacidade do Power BI Premium. Leia [O que é o Power BI Premium?](service-premium.md) para obter detalhes.
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplicativos e pacotes de conteúdo organizacional
 Os aplicativos são a evolução dos pacotes de conteúdo organizacional. Se você já tem pacotes de conteúdo organizacional, eles continuarão a funcionar lado a lado com os aplicativos.
@@ -41,12 +47,6 @@ Agora que você tem uma visão geral sobre os aplicativos, vamos falar sobre os 
 
 ## <a name="video-apps-and-app-workspaces"></a>Vídeo: Aplicativos e espaços de trabalho de aplicativo
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Ey5pyrr7Lk8?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-## <a name="licenses-for-apps"></a>Licenças para aplicativos
-Como criador de aplicativos, você precisa de uma licença do Power BI Pro. Para os usuários do aplicativo, há duas opções.
-
-* Opção 1: todos os usuários empresariais precisam de licenças do **Power BI Pro** para exibir seu aplicativo. 
-* Opção 2: usuários gratuitos de sua organização podem exibir o conteúdo do aplicativo se o aplicativo residir em uma capacidade do Power BI Premium. Leia [O que é o Power BI Premium?](service-premium.md) para obter detalhes.
 
 ## <a name="app-workspaces"></a>Espaços de trabalho de aplicativo
 *Espaços de trabalho de aplicativo* são os locais em que você cria aplicativos. Portanto, para criar um aplicativo, primeiro é necessário criar o espaço de trabalho do aplicativo. Se você já trabalhou em um espaço de trabalho de grupo no Power BI, os espaços de trabalho de aplicativo serão familiares. Eles são a evolução dos espaços de trabalho de grupo – áreas de preparo e contêineres para o conteúdo no aplicativo. 
@@ -106,21 +106,23 @@ Quando os dashboards e relatórios no espaço de trabalho do aplicativo estivere
    
      ![Publicar aplicativo](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Primeiro, em **Detalhes**, preencha a descrição para ajudar as pessoas a localizar o aplicativo. Você pode definir uma cor da tela de fundo para personalizá-la.
+2. Em **Detalhes**, preencha a descrição para ajudar as pessoas a localizar o aplicativo. Você pode definir uma cor da tela de fundo para personalizá-la.
    
      ![Detalhes do aplicativo](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Em seguida, em **Conteúdo**, você vê o conteúdo que será publicado como parte do aplicativo, ou seja, tudo o que você selecionou nesse espaço de trabalho. Você também pode definir a página de aterrissagem do aplicativo – que é o dashboard ou relatório que as pessoas verão primeiro ao acessarem o aplicativo. Você pode escolher **Nenhuma**. Então, as pessoas entrarão em uma lista de todo o conteúdo do aplicativo. 
+3. Em **Conteúdo**, você vê o conteúdo que será publicado como parte do aplicativo, ou seja, tudo o que você selecionou nesse espaço de trabalho. Você também pode definir a página de aterrissagem do aplicativo – que é o dashboard ou relatório que as pessoas verão primeiro ao acessarem o aplicativo. Você pode escolher **Nenhuma**. Então, as pessoas entrarão em uma lista de todo o conteúdo do aplicativo. 
    
      ![Conteúdo do aplicativo](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Finalmente, em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização ou pessoas específicas ou em grupos de segurança do Active Directory. 
+4. Em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização, pessoas específicas, grupos de segurança do Active Directory. Se você tiver permissões, instale o aplicativo automaticamente para os destinatários.
+
+    ![Acesso ao aplicativo](media/service-create-distribute-apps/power-bi-apps-access.png)
 
 5. Ao selecionar **Concluir**, você verá uma mensagem confirmando que ele está pronto para publicar. Na caixa de diálogo de êxito, você pode copiar a URL, que é um link direto para esse aplicativo e enviá-la para as pessoas com as quais você compartilhou.
    
      ![Término do aplicativo](media/service-create-distribute-apps/power-bi-apps-success.png)
 
-Os usuários empresariais para os quais você publicou o aplicativo podem encontrá-lo de duas maneiras diferentes. Você pode enviá-los o link direto para o aplicativo ou eles podem pesquisar no Microsoft AppSource, local em que eles veem todos os aplicativos que eles podem acessar. Depois disso, sempre que acessarem Aplicativos, eles verão esse aplicativo na lista.
+Os usuário empresariais para os quais você publicou o aplicativo podem encontrá-lo de algumas maneiras diferentes. Se você puder instalá-lo automaticamente, ele será exibido em Aplicativos, na conta do Power BI. Você pode enviá-los o link direto para o aplicativo ou eles podem pesquisar no Microsoft AppSource, local em que eles veem todos os aplicativos que eles podem acessar. De qualquer forma, depois disso, sempre que acessarem Aplicativos, eles verão esse aplicativo em sua lista.
 
 Leia mais sobre a [experiência de aplicativo para usuários corporativos](service-install-use-apps.md).
 
@@ -137,6 +139,7 @@ Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-l
 1. Volte para a lista de conteúdo do espaço de trabalho do aplicativo e selecione **Atualizar aplicativo**.
    
      ![Botão Atualizar aplicativo](media/service-create-distribute-apps/power-bi-app-update-button.png)
+
 4. Atualize **Detalhes**, **Conteúdo** e **Acesso**, se necessário, e selecione **Atualizar aplicativo**.
    
      ![Botão Atualizar aplicativo](media/service-create-distribute-apps/power-bi-app-update-complete.png)
@@ -167,7 +170,9 @@ Os aplicativos são uma evolução e simplificação dos pacotes de conteúdo, c
 * Ao longo do tempo, pretendemos descontinuar os pacotes de conteúdo organizacional, portanto, é recomendável que você crie aplicativos de agora em diante.  
 
 ### <a name="what-about-read-only-members-in-groups"></a>E sobre os membros somente leitura nos grupos?
-Em grupos, você pode adicionar membros somente leitura que só podem exibir o conteúdo. O principal problema com essa abordagem era que você não podia adicionar grupos de segurança como membros. Com os aplicativos, você pode publicar uma versão somente leitura do seu espaço de trabalho de aplicativo para grandes públicos, incluindo grupos de segurança. Você pode testar as alterações aos dashboards e relatórios no aplicativo sem afetar os usuários finais. É recomendável usar aplicativos dessa maneira no futuro. A longo prazo, planejamos descontinuar membros somente leitura de espaços de trabalho também.  
+Em grupos, você pode adicionar membros somente leitura que só podem exibir o conteúdo. O principal problema com essa abordagem era que você não podia adicionar grupos de segurança como membros. 
+
+Com os aplicativos, você pode publicar uma versão somente leitura do seu espaço de trabalho de aplicativo para grandes públicos, incluindo grupos de segurança. Você pode testar as alterações aos dashboards e relatórios no aplicativo sem afetar os usuários finais. É recomendável usar aplicativos dessa maneira no futuro. A longo prazo, planejamos descontinuar membros somente leitura de espaços de trabalho também.  
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Instalar e usar aplicativos no Power BI](service-install-use-apps.md)

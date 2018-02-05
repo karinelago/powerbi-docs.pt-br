@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: b9bdde9e258af733dd182f3ea3bd814520a31e8c
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introdução ao aplicativo móvel do Power BI em um iPad
 O Microsoft Power BI para iOS no iPad oferece a experiência móvel do BI para Power BI, Servidor de Relatório do Power BI e Reporting Services. Exiba e interaja com os dashboards de sua empresa localmente e na nuvem em qualquer lugar, com acesso móvel dinâmico e habilitado para toque. Explore os dados em dashboards e compartilhe com seus colegas em mensagens de email ou de texto. 
@@ -41,7 +41,7 @@ Descubra as [novidades nos aplicativos móveis do Power BI](mobile-whats-new-in-
 [Baixe o aplicativo de iPad](http://go.microsoft.com/fwlink/?LinkId=522062) da Apple App Store.
 
 > [!NOTE]
-> Seu iPad precisa estar executando, no mínimo, o iOS 9.0. 
+> Seu iPad precisa estar executando, no mínimo, o iOS 10. 
 > 
 > 
 

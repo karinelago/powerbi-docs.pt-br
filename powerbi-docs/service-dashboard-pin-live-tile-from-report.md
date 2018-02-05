@@ -1,5 +1,5 @@
 ---
-title: "Fixar uma página inteira do relatório em um painel do Power BI "
+title: "Como fixar uma página inteira do relatório em um painel do Power BI "
 description: "Documentação sobre como fixar uma página dinâmica inteira do relatório em um dashboard do Power BI por meio de um relatório."
 services: powerbi
 documentationcenter: 
@@ -16,16 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: ee8e7541db7f40a5d01607c6551ee734eb9f3d5b
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 8174a3043d544191032ec65e3b9a1710547b18ab
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Fixar uma página inteira do relatório, como um bloco dinâmico, em um painel do Power BI
-Outra maneira de adicionar um novo [bloco do dashboard](service-dashboard-tiles.md) é fixar uma página inteira do relatório.  Essa é uma maneira fácil de fixar mais de uma visualização por vez.  Além disso, quando você fixa uma página inteira, os blocos são *dinâmicos*, sendo possível interagir com eles diretamente no painel. E as alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos usados no gráfico, também são refletidas no bloco do painel.  
+Outra maneira de adicionar um novo [bloco do dashboard](service-dashboard-tiles.md) é fixar uma página inteira do relatório. Essa é uma maneira fácil de fixar mais de uma visualização por vez.  Além disso, quando você fixa uma página inteira, os blocos são *dinâmicos*, sendo possível interagir com eles diretamente no painel. E as alterações feitas a qualquer uma das visualizações no editor de relatórios, como adicionar um filtro ou alterar os campos usados no gráfico, também são refletidas no bloco do painel.  
+
+Fixar blocos dinâmicos de relatórios nos painéis só está disponível no serviço Power BI (app.powerbi.com).
 
 > [!NOTE]
 > Não é possível fixar blocos de relatórios que são compartilhados com você.

@@ -1,5 +1,5 @@
 ---
-title: "Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour"
+title: "Tutorial – Exemplo de Lucratividade do Cliente para o Power BI: faça um tour"
 description: "Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour"
 services: powerbi
 documentationcenter: 
@@ -17,20 +17,23 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 82e909962a0ed1db50f2ba3729988fd7aacadc80
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+ms.openlocfilehash: 1e53fd4b22710909e300a61b4c03aae01cff8973
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
-O pacote de conteúdo “Exemplo de lucratividade do cliente”" contém um painel, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Esse dashboard foi criado por um diretor financeiro para ver as métricas-chave sobre seus cinco gerentes de unidade de negócios (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ele pode ver rapidamente quais fatores têm impacto sobre a lucratividade.
 
-Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anônimos.
+## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
+O pacote de conteúdo “Exemplo de lucratividade do cliente”" contém um painel, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Esse painel foi criado por um diretor financeiro para ver as métricas chave sobre seu 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ele pode ver rapidamente quais fatores têm impacto sobre a lucratividade.
+
+<<<<<<< CABEÇALHO ![](media/sample-customer-profitability/power-bi-dash.png)
+
+Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anônimos. Os dados estão disponíveis em vários formatos: aplicativo/pacote de conteúdo, a pasta de trabalho do Excel ou arquivo do Power BI Desktop .pbix. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
 
 ## <a name="prerequisites"></a>Pré-requisitos
-
-Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+Quer me acompanhar? Este tutorial usa o serviço Power BI e o pacote de conteúdo de exemplo "Lucratividade do Cliente".  Como as experiências de relatório são tão semelhantes, você também pode acompanhar usando o Power BI Desktop e o arquivo de exemplo PBIX. A seguir, as instruções para conexão com o pacote de conteúdo e o arquivo PBIX.
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
 
@@ -43,20 +46,26 @@ Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteú
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **Exemplo de Rentabilidade do Cliente** e, em seguida, escolha **Conectar**.  
    
-   ![Obter Dados](media/sample-customer-profitability/get-supplier-sample.png)
+   ![Obter dados](media/sample-customer-profitability/get-supplier-sample.png)
 5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. Use os exemplos para realizar uma execução de teste no Power BI.  
    
    ![Asterisco](media/sample-customer-profitability/supplier-sample-asterisk.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obter o arquivo. pbix para este exemplo
 
-Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é projetado para uso com o Power BI Desktop. 
-
-- [Exemplo de Rentabilidade do Cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer Profitability Sample PBIX.pbix)
+Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é projetado para uso com o Power BI Desktop. [Exemplo de Lucratividade do Cliente](<http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer>> Profitability Sample PBIX.pbix)
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-Também é possível baixar apenas o conjunto de dados [(pasta de trabalho do Excel) para este exemplo](http://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
+<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Se você quiser examinar a fonte de dados para este exemplo, observe que ela também está disponível como uma [(pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
+=======
+
+Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anônimos. Os dados estão disponíveis em vários formatos: aplicativo/pacote de conteúdo, a pasta de trabalho do Excel ou arquivo do Power BI Desktop .pbix. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
+
+### <a name="prerequisites"></a>Pré-requisitos
+Quer me acompanhar? No [Serviço do Power BI](https://powerbi.com), vá para **Obter Dados > Exemplos > Rentabilidade do Cliente > Conectar** para obter sua própria cópia do exemplo.
+>>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?
 
@@ -65,26 +74,64 @@ Em **Meu Espaço de Trabalho**, localize o dashboard para o exemplo de Rentabili
 ![Dashboard para o exemplo de Rentabilidade do Cliente](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Blocos de painel de toda a empresa
-Esses blocos dão ao nosso diretor financeiro métricas de empresa de alto nível importante para ela.  Quando ela vir algo interessante, pode selecionar um bloco para examinar os dados.
+1. Abra o painel no serviço Power BI. Esses blocos de painel dão ao nosso diretor financeiro métricas de empresa de alto nível importante para ela.  Quando ela vir algo interessante, pode selecionar um bloco para examinar os dados.
 
-1. A margem bruta da nossa empresa é de 42,5%.
-2. Temos 80 clientes.
-3. Vendemos 5 produtos diferentes.
-4. Tivemos nossa menor % de variação de receita para o orçamento de Fevereiro, seguida por nossa maior alta em março.
-5. A maioria da nossa receita é proveniente das regiões leste e norte. A margem bruta nunca excedeu o orçamento, com ER-0 e MA-0 exigindo mais investigações.
-6. A receita total para o ano é quase o orçamento.
+2. Examine os blocos no lado esquerdo do painel.
+
+    ![](media/sample-customer-profitability/power-bi-manager.png)
+
+- A margem bruta da nossa empresa é de 42,5%.
+- Temos 80 clientes.
+- Vendemos 5 produtos diferentes.
+- Tivemos nossa menor % de variação de receita para o orçamento de Fevereiro, seguida por nossa maior alta em março.
+- A maioria da nossa receita é proveniente das regiões leste e norte. A margem bruta nunca excedeu o orçamento, com ER-0 e MA-0 exigindo mais investigações.
+- A receita total para o ano é quase o orçamento.
+
 
 ### <a name="manager-specific-dashboard-tiles"></a>Blocos do painel específico do gerente
-Esses blocos fornecem uma pontuação da equipe. O diretor financeiro precisa manter o controle de seus gerentes e essas peças apresentam uma visão geral de alto nível do lucro – usando GM %. Se a tendência de % GM é inesperada para qualquer gerenciador, poderá investigar mais.
+Os blocos no lado direito do painel fornecem uma pontuação da equipe. O diretor financeiro precisa manter o controle de seus gerentes e essas peças apresentam uma visão geral de alto nível do lucro – usando GM %. Se a tendência de % GM é inesperada para qualquer gerenciador, poderá investigar mais.
 
-O percentual de GM de Annelie é o mais baixo, mas podemos ver um aumento gradual desde março. Valery, por outro lado, teve queda na % de GM significante. E Andrew teve um ano volátil. Clique em qualquer um dos blocos específicos de gerente para abrir o relatório subjacente. O relatório tem três páginas e é aberto na página “Análise de Margem do Setor”.
+![](media/sample-customer-profitability/power-bi-manager2.png)
 
-## <a name="explore-the-pages-in-the-report"></a>Explore outras páginas no relatório
-Nosso relatório tem três páginas:
+- Todos os executivos, exceto Carlos, já excederam suas metas de vendas. Mas as vendas reais do Carlos são as mais altas. 
+- O percentual de GM de Annelie é o mais baixo, mas podemos ver um aumento gradual desde março.
+- Valery, por outro lado, teve queda na % de GM significante. 
+- E Andrew teve um ano volátil. 
 
-* “Scorecard da Equipe” enfoca o desempenho dos cinco gerentes e seus “livros de negócios”.
-* “Análise de Margem do Setor” fornece uma maneira para analisar nossa rentabilidade comparado ao que está acontecendo em todo nosso setor.
-* “Scorecard Executivo” fornece uma exibição de cada um dos nossos gerentes formatados para exibição na Cortana.
+## <a name="explore-the-dashboards-underlying-data"></a>Explore os dados subjacentes do painel
+Este painel tem blocos que vinculam a um relatório e a uma pasta de trabalho do Excel. 
+
+### <a name="open-the-excel-online-data-source"></a>Abra a fonte de dados do Excel Online
+Dois blocos neste painel "Destino vs Real" e "Crescimento de receita ano a ano" foram fixados de uma pasta de trabalho do Excel. Assim, quando você seleciona qualquer um desses blocos, o Power BI abre a fonte de dados – nesse caso, o Excel Online.
+
+![](media/sample-customer-profitability/power-bi-excel-online.png)
+
+1. Selecione qualquer um dos blocos que foram fixados do Excel. O Excel Online é aberto dentro do serviço Power BI.
+2. Observe que a pasta de trabalho tem três guias de dados. Abrir "Receita".
+3. Vamos dar uma olhada para saber por que Carlos ainda não atingiu sua meta.  
+    a. No controle deslizante "Executivo", selecione **Carlos Lima**.   
+    b. A primeira Tabela Dinâmica informa que a receita de Carlos para seu principal produto, Primus, diminuiu 152% desde o ano passado. E o gráfico de ano a ano mostra que na maioria dos meses ele está abaixo do orçamento.  
+
+    ![](media/sample-customer-profitability/power-bi-pivotchart.png)
+
+    ![](media/sample-customer-profitability/power-bi-carlos.png)
+
+4. Continuar explorando e, se você encontrar algo interessante, selecione **Fixar** ![](media/sample-customer-profitability/power-bi-excel-pin.png) do canto superior direito para [fixá-lo a um painel](service-dashboard-pin-tile-from-excel.md).
+
+5. Use a seta Voltar do navegador para retornar ao painel. 
+
+### <a name="open-the-underlying-power-bi-report"></a>Abra o relatório subjacente do Power BI
+A maioria dos blocos no painel de exemplo Lucratividade do Cliente foi fixada do relatório de exemplo Lucratividade do Cliente. 
+
+1. Selecione um desses blocos para abrir o relatório no modo de exibição de leitura. 
+
+2. O relatório tem três páginas. Cada guia na parte inferior do relatório representa uma página. 
+
+    ![](media/sample-customer-profitability/power-bi-report-tabs.png)
+
+    * “Scorecard da Equipe” enfoca o desempenho dos cinco gerentes e seus “livros de negócios”.
+    * “Análise de Margem do Setor” fornece uma maneira para analisar nossa rentabilidade comparado ao que está acontecendo em todo nosso setor.
+    * “Scorecard Executivo” fornece uma exibição de cada um dos nossos gerentes formatados para exibição na Cortana.
 
 ### <a name="team-scorecard-page"></a>Página de pontuação da equipe
 ![](media/sample-customer-profitability/customer2.png)
@@ -126,33 +173,35 @@ Esta página é formatada como um Cartão de Respostas para a Cortana. Para obte
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Investigue os dados fazendo perguntas em P e R
 Para nossa análise, seria útil determinar qual setor gera a maior parte da receita para Valery. Vamos usar P e R.
 
-1. Selecione **Power BI** na barra de navegação superior para retornar ao painel.
-2. Selecione a caixa de pergunta de P e R na parte superior do painel.
-   
-    ![](media/sample-customer-profitability/customer4.png)
+1. Abra o relatório no modo de exibição Editar selecionado **Editar Relatório**. O modo de exibição de edição só estará disponível se você for o "dono" do relatório; às vezes, isso é conhecido como modo do **criador**. Se esse relatório tivesse sido compartilhado com você, você não poderia abri-lo no modo de exibição de edição.
+
+2.  Na barra de menus superior, selecione **Fazer uma pergunta** para abrir a caixa de perguntas e respostas.
+
+    ![](media/sample-customer-profitability/power-bi-ask-question.png)
+
 3. Digite **receita total pelo setor de Valery**. Observe como a visualização atualiza conforme você digita a pergunta.
    
-    ![](media/sample-customer-profitability/customer5.png)
+    ![](media/sample-customer-profitability/power-bi-qna.png)
    
    A distribuição é a maior área de receita para Valery.
 
 ### <a name="dig-deeper-by-adding-filters"></a>Aprofunde-se adicionando filtros
 Vamos dar uma olhada na *distribuição* do setor.  
 
-1. Retorne ao painel e selecione o gráfico de área com tendência de Andrew de margem bruta. Isso abre o relatório para a página de "Análise de margem do setor".
-2. Sem selecionar nenhuma visualização na página do relatório, expanda o painel de filtro à direita. O Painel de filtros deve exibir apenas filtros de Nível de página.  
+1. Abra a página de relatório de "Análise de margem do setor".
+2. Sem selecionar nenhuma visualização na página do relatório, expanda o painel de filtro à direita (se já não estiver expandido). O Painel de filtros deve exibir apenas filtros de Nível de página.  
    
    ![](media/sample-customer-profitability/power-bi-filters.png)
-3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o Setor de distribuição. Primeiro, limpe todas as seleções, desmarcando a caixa de seleção **Selecionar tudo**. Em seguida, selecione **Distribuição.**  
+3. Localize o filtro para **Setor** e selecione a seta para expandir a lista. Vamos adicionar um filtro de página para o Setor de distribuição. Primeiro, limpe todas as seleções, desmarcando a caixa de seleção **Selecionar tudo**. Em seguida, selecione apenas **Distribuição.**  
    
    ![](media/sample-customer-profitability/customer7.png)
 4. O gráfico de área "Margem bruta por mês e o nome do executivo" informa que apenas Valery e Tina têm clientes neste setor e Valery só trabalhou com o setor de junho a novembro.   
 5. Selecione **Tina** e **Valery** na legenda do gráfico da área “Margem bruta por mês e executivo”. Observe a parte de Tina "Receita Total por produto" é muito pequeno se comparada a Valery. 
-6. Para ver a receita real, retorne ao dashboard e use a P e R para perguntar a **receita total da distribuição por cenário e executivo**.  
+6. Para ver a receita real, use as perguntas e respostas para perguntar a **receita total da distribuição por cenário e executivo**.  
    
-   ![](media/sample-customer-profitability/customer8.png)
+     ![](media/sample-customer-profitability/power-bi-qna2.png)
 
-Podemos explorar de forma semelhante a outros setores e até mesmo adicionar clientes a nossos visuais para compreender as causas para o desempenho de Valery.
+    Podemos explorar de forma semelhante a outros setores e até mesmo adicionar clientes a nossos visuais para compreender as causas para o desempenho de Valery.
 
 Este é um ambiente seguro para experimentar. Você pode optar por não salvar as alterações. Mas se você salvá-las, sempre é possível acessar **Obter Dados** para ter uma nova cópia deste exemplo.
 

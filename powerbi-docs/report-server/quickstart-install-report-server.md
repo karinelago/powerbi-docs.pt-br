@@ -3,7 +3,7 @@ title: "Início rápido: instalar o Servidor de Relatório do Power BI"
 description: "Instalar o próprio Servidor de Relatórios do Power BI é muito rápido. Do download a instalação e configuração, você deve entrar em funcionamento em poucos minutos."
 services: powerbi
 documentationcenter: 
-author: guyinacube
+author: markingmyname
 manager: kfile
 backup: 
 editor: 
@@ -15,22 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 06/28/2017
+ms.date: 01/29/2018
 ms.author: maghan
-ms.openlocfilehash: 934b4d3f2da44a161cd76d14c9f042aaf697f26d
-ms.sourcegitcommit: eec6b47970bf69ed30638d1a20051f961ba792f2
+ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
+ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2018
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Início rápido: instalar o Servidor de Relatório do Power BI
 Instalar o próprio Servidor de Relatório do Power BI é muito rápido. Do download a instalação e configuração, você deve entrar em funcionamento em poucos minutos.
 
-Esta é uma visão geral de como instalar um servidor de relatório, se você apenas desejar entrar em funcionamento com um novo servidor. Para obter mais informações detalhadas sobre como instalar o servidor de relatório, consulte [Install Power BI Report Server (Instalar o Servidor de Relatório do Power BI)](install-report-server.md).
+Esta é uma visão geral de como instalar um servidor de relatório, se você apenas desejar entrar em funcionamento com um novo servidor. Para obter mais informações detalhadas sobre como instalar o servidor de relatório, confira [Install Power BI Report Server (Instalar o Servidor de Relatórios do Power BI)](install-report-server.md).
 
  **Baixe** ![baixe](media/quickstart-install-report-server/download.png "baixe")
 
-Para baixar o Servidor de Relatório do Power BI, acesse [On-premises reporting with Power BI Report Server (Relatórios locais com o Servidor de Relatório do Power BI)](https://powerbi.microsoft.com/report-server/). Para o Power BI Desktop otimizado para o Servidor de Relatório do Power BI, acesse o [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=837581).
+Para baixar o Servidor de Relatório do Power BI, acesse [On-premises reporting with Power BI Report Server (Relatórios locais com o Servidor de Relatório do Power BI)](https://powerbi.microsoft.com/report-server/). 
+
+Vá até o Centro de Download da Microsoft para fazer o download do [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (otimizado para Power BI Report Server – outubro de 2017).
 
 ![dica](media/quickstart-install-report-server/fyi-tip.png "dica") Para ver as notas de versão atuais, consulte [Power BI Report Server – Release notes (Servidor de Relatório do Power BI – Notas de versão)](release-notes.md).
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/07/2017
+ms.date: 01/24/2018
 ms.author: maikelson
-ms.openlocfilehash: 7b4f69bc65836d59448ef034f5d655f87d89248e
-ms.sourcegitcommit: 85302d577895e779466df55aa02e5785ab2e3138
+ms.openlocfilehash: 91a629699c782914ec542a2b7a668cf25e47ec27
+ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 01/29/2018
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -47,13 +47,15 @@ Registrar-se para ouvir especialistas do Power BI e participar de sessões ao vi
 
 >[Participar dos próximos webinars na comunidade do Power BI](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
-- [Melhorando a lucratividade na saúde – 12/12/2017](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
+Nenhum webinar agendado ainda. Volte em breve para saber se há eventos futuros.
 
 ## <a name="on-demand-webinars"></a>Webinars sob demanda
 
 Assista a sessões gravadas a qualquer momento
 
 >[Navegue pela biblioteca de webinars do Power BI sob demanda de nossos especialistas da comunidade](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
+
+- [Melhorando a lucratividade na saúde](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
 - [Como implementar uma estratégia de governança de dados bem-sucedida que torna sua organização mais segura](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 

@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/08/2018
 ms.author: mihart
-ms.openlocfilehash: 66e75d638595113b2df67650896a407ae5d13e88
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+ms.openlocfilehash: fc697437ff9f5fb6b8dd49f6513c728d1b8ddfeb
+ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/25/2018
 ---
 # <a name="subscribe-to-a-power-bi-report-or-dashboard"></a>Assinar um relatório ou um dashboard do Power BI
 Nunca foi tão fácil manter-se atualizado sobre seus dashboards e relatórios mais importantes. Assine os dashboards e as páginas de relatório mais importantes para você e o Power BI enviará um email com um instantâneo para sua caixa de entrada. Informe ao Power BI a frequência com que deseja receber os emails: de uma vez por dia a uma vez por semana. O instantâneo e o email usarão o idioma definido nas configurações do Power BI. Se nenhum idioma for definido, o Power BI usa o idioma do navegador atual.
@@ -119,6 +119,7 @@ Uma assinatura será encerrada se a licença Pro expirar, se o dashboard ou o re
 * As assinaturas poderão falhar em dashboards ou relatórios com imagens extremamente grandes devido aos limites de tamanho de email.    
 * O Power BI pausa a atualização automaticamente em conjuntos de dados associados a dashboards e relatórios que não foram visitados há mais de 2 meses.  No entanto, se você adicionar uma assinatura a um dashboard ou relatório, ele não ficará em pausa mesmo que não seja visitado.    
 * Se você não estiver recebendo emails de assinatura, verifique se o nome UPN pode receber emails. [A equipe do Power BI está trabalhando para atenuar esse requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163), portanto, fique ligado. 
+* Os relatórios enviados e os painéis usam a configuração de idiomas do Power BI. O idioma padrão é inglês. Para obter ou definir sua preferência de idioma, selecione o ícone de engrenagem ![](media/service-report-subscribe/power-bi-settings-icon.png) **> Configurações > Geral > Idioma**.
 
 ## <a name="next-steps"></a>Próximas etapas
 * Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)    

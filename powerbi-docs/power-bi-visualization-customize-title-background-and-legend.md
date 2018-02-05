@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: 424e96c5315bd41fc79999555097602f629a1285
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 52ad27e0f809ed5c3cf4ae22f0d536f88cae0f0c
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Personalizar títulos, legendas e telas de fundo de visualizações (Tutorial)
 Neste tutorial, você aprenderá várias maneiras diferentes de personalizar as visualizações.   Há inúmeras opções para personalizar as visualizações e a melhor maneira de saber mais sobre todas elas é explorar o painel de formatação (selecione o ícone do rolo de tinta).  Para começar, este artigo mostrará como personalizar o título, a legenda e a tela de fundo de uma de visualização.  
@@ -33,9 +33,12 @@ Assista à Amanda personalizar visualizações em seu relatório (avance até 4:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
+### <a name="prerequisites"></a>Pré-requisitos
+- Serviço do Power BI ou Power BI Desktop
+- Exemplo de Análise de Varejo
 
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizar títulos de visualização em relatórios
-Para acompanhar, entre em app.powerbi e abra o relatório [Exemplo de Análise de Varejo](sample-datasets.md) no [Modo de Edição de Exibição](service-interact-with-a-report-in-editing-view.md).
+Para acompanhar, entre no serviço Power BI (app.powerbi.com) e abra o relatório [Exemplo de Análise de Varejo](sample-datasets.md) no [Modo de Edição de Exibição](service-interact-with-a-report-in-editing-view.md).
 
 > [!NOTE]
 > Ao fixar uma visualização em um dashboard, ela se torna um bloco do dashboard.  Os próprios blocos também podem ser personalizados com [novos títulos e subtítulos, bem como hiperlinks, e podem ser redimensionados](service-dashboard-edit-tile.md).
@@ -120,7 +123,6 @@ Com o mesmo gráfico de coluna selecionado, expanda as opções de tela de fundo
 | cascata |sim |sim |sim |
 
 ## <a name="next-steps"></a>Próximas etapas
-Mais sobre [Visualizações nos relatórios do Power BI](power-bi-report-visualizations.md)  
 [Personalizar os eixos x e y](power-bi-visualization-customize-x-axis-and-y-axis.md)  
 [Personalizar cores e propriedades de eixo](service-getting-started-with-color-formatting-and-axis-properties.md)  
 [Power BI – conceitos básicos](service-basic-concepts.md)  

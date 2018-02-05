@@ -1,5 +1,5 @@
 ---
-title: Hiperlinks nas tabelas
+title: Como adicionar um hiperlink a uma tabela
 description: Hiperlinks nas tabelas
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/30/2017
+ms.date: 01/22/2018
 ms.author: mihart
-ms.openlocfilehash: e399553b9a31adb79bed73977409d5d88140ad88
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: a5a38934ab684691921c480a02024376a4655b8b
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="hyperlinks-in-tables"></a>Hiperlinks nas tabelas
-Este tópico ensina como usar o Power BI Desktop para criar hiperlinks. Depois de criados, use o serviço do Power BI ou Power BI Desktop para adicioná-los às suas tabelas e matrizes de relatório. 
+Este tópico ensina como usar o Power BI Desktop para criar hiperlinks. Em seguida, depois de criados, use o serviço Power BI ou Power BI Desktop para adicioná-los às suas tabelas e matrizes de relatório. 
 
 ![](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
@@ -84,6 +84,11 @@ Outra maneira de adicionar hiperlinks às tabelas e matrizes do Power BI é cria
 7. Crie uma visualização de tabela que contém o campo de URL.
    
    ![](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
+P: Posso usar uma URL personalizada como um hiperlink em uma tabela ou matriz?    
+R: Não. Você pode usar um ícone de link. Se precisar de texto personalizado para os hiperlinks e a lista de URLs for pequena, use uma caixa de texto.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 [Visualizações em relatórios do Power BI](power-bi-report-visualizations.md)

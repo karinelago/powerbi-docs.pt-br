@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/28/2017
+ms.date: 01/23/2018
 ms.author: mihart
-ms.openlocfilehash: 5e5bc8eaa4e710e6564ee6f1d3ea1bfcf7f28127
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+ms.openlocfilehash: 7a76cc071a114a7bbd4ccc8ade61ff10b7b2e4c5
+ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 01/24/2018
 ---
 # <a name="treemaps-in-power-bi-tutorial"></a>Mapas de árvore no Power BI (tutorial)
 O treemaps exibe dados hierárquicos, como um conjunto de retângulos aninhados.  Cada nível da hierarquia é representado por um retângulo colorido (muitas vezes chamado uma "ramificação") que contém outros retângulos ("folhas").  O espaço dentro de cada retângulo é alocado com base no valor quantitativo que está sendo medido, os retângulos organizados em tamanho da parte superior esquerda (maior) para a parte inferior direita (menor).
@@ -41,20 +41,25 @@ Os treemps são uma ótima opção:
 * para mostrar atributos usando a codificação de cor e tamanho.
 * para identificar padrões, exceções, colaboradores mais importantes e exceções.
 
+### <a name="prerequisites"></a>Pré-requisitos
+ - Serviço do Power BI ou Power BI Desktop
+ - Exemplo de Análise de Varejo
+
 ## <a name="create-a-basic-treemap"></a>Criar um mapa de árvore básico
 Deseja ver alguém criar um mapa de árvore primeiro?  Pule para 2:10 neste vídeo para assistir Amanda criar um mapa de árvore.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-Se preferir, crie seu próprio mapa de árvore. Essas instruções usam o exemplo de análise de varejo. Para acompanhar, [baixe a amostra](sample-datasets.md), entre no Power BI e selecione **Obter Dados \> Pasta de Trabalho do Excel \> Conectar \> Amostra de Análise de Varejo**.**xlsx**.
+Se preferir, crie seu próprio mapa de árvore. Essas instruções usam o exemplo de análise de varejo. Para acompanhar, entre no serviço Power BI (não área de trabalho) e selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Varejo \> Conectar\> Ir para o painel**. Criar uma visualização em um relatório requer permissões de edição para o conjunto de dados e o relatório. Felizmente, os exemplos do Power BI são editáveis. Mas, se alguém compartilhar um relatório com você, não será possível adicionar novas visualizações.
 
-1. Comece no [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md) e selecione a medida **Vendas** > **Vendas do Ano Passado**.   
-   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)
-2. Converta o gráfico em um mapa de árvore.  
-   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)
-3. Arraste **Item** > **Categoria** para a seção **Grupo**. O Power BI cria um mapa de árvore no qual o tamanho dos retângulos reflete o total de vendas e a cor representa a categoria.  Na essência que você criou uma hierarquia que descreve visualmente o tamanho relativo do total de vendas por categoria.  A categoria **Mens** categoria tem as maiores vendas e categoria **Hosiery** tem as mais baixos.
-   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)
-4. Arraste **Repositório** > **Cadeia** para a seção **Detalhes** para concluir o mapa de árvore. Agora você pode comparar as vendas do ano passado por categoria e cadeia.   
+1. Selecione o bloco "Armazenamentos Totais" para abrir o relatório Exemplo de Análise de Varejo.    
+2. Abra o [Modo de Exibição de Edição](service-interact-with-a-report-in-editing-view.md) e selecione a medida **Vendas** > **Vendas do Ano Passado**.   
+   ![](media/power-bi-visualization-treemaps/treemapfirstvalue_new.png)   
+3. Converta o gráfico em um mapa de árvore.  
+   ![](media/power-bi-visualization-treemaps/treemapconvertto_new.png)   
+4. Arraste **Item** > **Categoria** para a seção **Grupo**. O Power BI cria um mapa de árvore no qual o tamanho dos retângulos reflete o total de vendas e a cor representa a categoria.  Na essência que você criou uma hierarquia que descreve visualmente o tamanho relativo do total de vendas por categoria.  A categoria **Mens** categoria tem as maiores vendas e categoria **Hosiery** tem as mais baixos.   
+   ![](media/power-bi-visualization-treemaps/treemapcomplete_new.png)   
+5. Arraste **Repositório** > **Cadeia** para a seção **Detalhes** para concluir o mapa de árvore. Agora você pode comparar as vendas do ano passado por categoria e cadeia.   
    ![](media/power-bi-visualization-treemaps/treemap_addgroup_new.png)
    
    > [!NOTE]
@@ -73,17 +78,15 @@ Realçar uma Categoria ou Detalhes em um mapa de árvore filtra e destaca de for
 
 1. No mapa de árvore, selecione uma categoria ou uma cadeia de dentro de uma categoria.  Isso destaca de forma cruzada as outras visualizações na página. Selecionando **050-Shoes**, por exemplo, mostra que as vendas do ano passado de sapatos foram $3.640,471 com US $2.174.185 disso proveniente de Fashions Direct.  
    ![](media/power-bi-visualization-treemaps/treemaphiliting.png)
-2. No gráfico de pizza das **Últimas vendas do ano por cadeia** , selecione a fatia **Fashions Direct** .  
-   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)
+
+2. No gráfico de pizza das **Últimas vendas do ano por cadeia**, selecionar a fatia **Fashions Direct** realiza a filtragem cruzada de um mapa de árvore.  
+   ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
+
 3. Para gerenciar como os gráficos são filtrados e realçados de forma cruzada entre si, veja [Interações de visualização em um relatório do Power BI](service-reports-visual-interactions.md)
 
 ## <a name="next-steps"></a>Próximas etapas
-[Relatórios no Power BI](service-reports.md)  
-[Adicionar uma visualização a um relatório](power-bi-report-add-visualizations-i.md)  
-[Tipos de visualização no Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 [ Fixar uma visualização em um dashboard](service-dashboard-pin-tile-from-report.md)  
 [Power BI – conceitos básicos](service-basic-concepts.md)  
-[Experimente – é gratuito!](https://powerbi.com/)
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)  
 
