@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/25/2017
 ms.author: davidi
-ms.openlocfilehash: 47168f33b8c6aca967b7b4d14248f9ec6b4d0767
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: d3643ae398c037c375c8e67360794047a6f66ed7
+ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/01/2018
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar o DirectQuery no Power BI Desktop
 Com o **Power BI Desktop**, ao se conectar à fonte de dados, sempre é possível importar uma cópia dos dados para o **Power BI Desktop**. Para algumas fontes de dados, uma abordagem alternativa está disponível: conectar-se diretamente à fonte de dados usando o **DirectQuery**.
@@ -61,7 +61,7 @@ Atualmente, há algumas limitações no uso do **DirectQuery**:
 * Por padrão, as limitações são colocadas em expressões DAX permitidas em medidas; veja o parágrafo a seguir (após esta lista com marcadores) para obter mais informações
 * Há um limite de 1 milhão de linhas para retornar dados ao usar **DirectQuery**. Isso não afeta as agregações ou os cálculos usados para criar o conjunto de dados retornado usando **DirectQuery**, somente as linhas retornadas. Por exemplo, você pode agregar 10 milhões de linhas com a consulta é executada na fonte de dados e retornar, com precisão, os resultados desta agregação para o Power BI usando o **DirectQuery** desde que os dados retornados para o Power BI sejam menores do que 1 milhão de linhas. Se mais de 1 milhão de linhas fossem retornadas do **DirectQuery**, o Power BI retornaria um erro.
 
-Para garantir que as consultas enviadas à fonte de dados subjacente têm um desempenho aceitável, por padrão, são impostas limitações às medidas. Os usuários avançados podem optar por ignorar essa limitação selecionando **Arquivo > Opções** e, em seguida, **Configurações > Opções e configurações > DirectQuery** e, por fim, selecionar a opção *Permitir medidas sem restrições no modo DirectQuery**. Quando essa opção for selecionada, qualquer expressão DAX válida para uma medida poderá ser usada. No entanto, os usuários devem estar cientes de que algumas expressões que funcionam muito bem quando os dados são importados podem resultar em consultas muito lentas à fonte de back-end quando estiverem no modo DirectQuery.
+Para garantir que as consultas enviadas à fonte de dados subjacente têm um desempenho aceitável, por padrão, são impostas limitações às medidas. Os usuários avançados podem optar por ignorar essa limitação selecionando **Arquivo > Opções** e, em seguida, **Configurações > Opções e configurações > DirectQuery** e, por fim, selecionando a opção *Permitir medidas sem restrições no modo DirectQuery*. Quando essa opção for selecionada, qualquer expressão DAX válida para uma medida poderá ser usada. No entanto, os usuários devem estar cientes de que algumas expressões que funcionam muito bem quando os dados são importados podem resultar em consultas muito lentas à fonte de back-end quando estiverem no modo DirectQuery.
 
 ## <a name="important-considerations-when-using-directquery"></a>Considerações importantes ao usar o DirectQuery
 Os três pontos a seguir devem ser levados em consideração ao usar o **DirectQuery**:
