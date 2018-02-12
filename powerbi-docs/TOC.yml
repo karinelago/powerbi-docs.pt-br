@@ -398,6 +398,8 @@
           href: power-bi-visualization-best-practices.md
         - name: Visualizações personalizadas no Power BI
           href: power-bi-custom-visuals.md
+        - name: Elementos visuais personalizados para organizações no Power BI
+          href: power-bi-custom-visuals-organization.md
         - name: 'Tutorial: parte I, Adicionar visualizações a um relatório do Power BI'
           href: power-bi-report-add-visualizations-i.md
         - name: 'Tutorial: Parte 2, Adicionar visualizações a um relatório do Power BI'
@@ -730,6 +732,8 @@
       items:
         - name: Exibição de dados no Power BI Desktop
           href: desktop-data-view.md
+        - name: Tabelas de datas no Power BI Desktop
+          href: desktop-date-tables.md
         - name: Exibição de relações no Power BI Desktop
           href: desktop-relationship-view.md
         - name: Criar e gerenciar relações no Power BI Desktop
@@ -758,8 +762,12 @@
           href: desktop-qna-in-reports.md
         - name: Painel de análise no Power BI Desktop
           href: desktop-analytics-pane.md
+        - name: Multisseleção no Power BI
+          href: desktop-multi-select.md
         - name: Uso de percepções no Power BI Desktop
           href: desktop-insights.md
+        - name: Segmentação de Dados no Power BI Desktop
+          href: desktop-slicers.md
         - name: Indicadores no Power BI
           href: desktop-bookmarks.md
         - name: Usar temas de relatórios
