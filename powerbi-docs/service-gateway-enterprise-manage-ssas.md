@@ -17,11 +17,11 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 02012b531ba43ec5f17e47f2b273b75ef8b2d9ec
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 72445988ff4080b7c24f09f797f2038b957631ef
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Gerenciar sua fonte de dados – Analysis Services
 Depois de instalar o gateway de dados local, será necessário adicionar fontes de dados que podem ser usadas com o gateway. Este artigo abordará como trabalhar com gateways e fontes de dados. Você pode usar a fonte de dados do Analysis Services para a atualização agendada ou para conexões em tempo real.
@@ -89,17 +89,6 @@ Você pode clicar em **Adicionar** depois preencher tudo.  Agora você pode usar
 Você pode configurar o nível de privacidade para sua fonte de dados. Ele controla como os dados podem ser combinados. É usado somente para a atualização agendada. Não é aplicável às conexões dinâmicas. [Saiba mais](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540)
 
 ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings9.png)
-
-## <a name="get-data-experience-for-analysis-services-in-power-bi-site"></a>Experiência 'Obter Dados' para o Analysis Services no site do Power BI
-Uma opção exclusiva do Analysis Services é usar o recurso Obter Dados no serviço do Power BI diretamente. Você pode se conectar a uma fonte de dados dinâmica do Analysis Services configurada no gateway sem a necessidade de usar o Power BI Desktop. Sua conta precisa estar listada na guia **Usuários** da fonte de dados, no gateway, para que ela seja mostrada na lista. Para se conectar à fonte de dados, você pode fazer o seguinte:
-
-1. No serviço do Power BI, selecione **Obter Dados**.
-2. Selecione **Bancos de Dados**.
-3. Selecione **SQL Server Analysis Services** > **Conectar**.
-4. Selecione uma fonte de dados na lista. Todas as fontes de dados do Analysis Services às quais você tem acesso serão listadas aqui.
-5. Selecione o modelo ao qual você deseja se conectar. Em seguida, selecione **Conectar**.
-
-Você verá um conjunto de dados aparecer com o nome do servidor. Em seguida, você poderá selecionar o conjunto de dados e começar a criar relatórios baseados nele. Esse processo trabalhará nos dados dinâmicos.
 
 ## <a name="usernames-with-analysis-services"></a>Nomes de usuário com o Analysis Services
 Cada vez que um usuário interage com um relatório conectado ao Analysis Services, o nome de usuário efetivo é passado para o gateway e, em seguida, para seu servidor local do Analysis Services. O endereço de email com o qual você entra no Power BI é aquele que informaremos ao Analysis Services como o usuário efetivo. Isso é passado na propriedade de conexão [EffectiveUserName](https://msdn.microsoft.com/library/dn140245.aspx#bkmk_auth). Este endereço de email deve corresponder a um UPN definido dentro do domínio do Active Directory local. O UPN é uma propriedade de uma conta do Active Directory. Essa conta do Windows deverá, então, estar presente em uma função do Analysis Services. Se uma correspondência não for encontrada, o logon no Active Directory não será bem-sucedido. [Saiba mais](https://msdn.microsoft.com/library/ms677605.aspx)
