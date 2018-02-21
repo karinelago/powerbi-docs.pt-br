@@ -3,7 +3,7 @@ title: Conectar-se ao Lithium com o Power BI
 description: Lithium para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: cac92465e36b87d2a59420f5a6265c219371ceba
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b41c66c6d3af628d4f2c7e433e399c53f5e31d69
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Conectar-se ao Lithium com o Power BI
 O Lithium cria relações de confiança entre marcas melhor do mundo e seus clientes, ajudando as pessoas a obter respostas e compartilhar suas experiências. Conectando o pacote de conteúdo do Lithium para o Power BI, você pode medir métricas-chave sobre sua comunidade online para ajudar a estimular as vendas, reduzir os custos de serviço e aumentar a fidelidade. 
@@ -29,7 +29,7 @@ O Lithium cria relações de confiança entre marcas melhor do mundo e seus clie
 Conecte-se ao [pacote de conteúdo do Lithium](https://app.powerbi.com/getdata/services/lithium) para o Power BI.
 
 >[!NOTE]
->O pacote de conteúdo do Power BI usa a API do Lithium. Chamadas excessivas à API podem resultar em encargos adicionais do Lithium. Confirme com seu administrador do Lithium.
+>O pacote de conteúdo do Power BI usa a API do Lithium. Excesso chamadas para a API podem resultar em encargos adicionais do Lithium, confirme com seu administrador do Lithium.
 
 ## <a name="how-to-connect"></a>Como se conectar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.

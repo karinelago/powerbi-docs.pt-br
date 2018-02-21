@@ -3,7 +3,7 @@ title: "Conectar-se à ID do Circuito com o Power BI"
 description: ID do Circuito para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 295d8dbd24c9ae6bce84cb76f6a5e23e7474b893
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: b108bfaff61842b8ec6a7139e55558b16b7c56ac
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Conectar-se à ID do Circuito com o Power BI
 É fácil analisar os dados de comunicação da ID de Circuito com o Power BI. O Power BI recupera seus dados e cria um painel padrão e relatórios relacionados com base nesses dados. Após ter criado a conexão, você pode explorar os dados e personalizar o painel para atender às suas necessidades. Os dados são atualizados automaticamente todos os dias.

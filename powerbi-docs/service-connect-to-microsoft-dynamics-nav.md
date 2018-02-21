@@ -3,7 +3,7 @@ title: Conectar-se ao Microsoft Dynamics NAV com o Power BI
 description: Microsoft Dynamics NAV para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: 7d5db73a05a74de934fa8ac630f673fe4f5bb3af
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.author: sarinas
+ms.openlocfilehash: 884ef223234d8827e58a37befe2e5d18a45e480e
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Conectar-se ao Microsoft Dynamics NAV com o Power BI
 É fácil obter insights sobre seus dados do Microsoft Dynamics NAV com o Power BI. O Power BI recupera seus dados de Vendas e Financeiros e, em seguida, cria um aplicativo com um dashboard e relatórios com base nesses dados. O Power BI precisa de suas permissões para as tabelas das quais os dados são recuperados, nesse caso, os dados de vendas e de finanças. Mais detalhes sobre os requisitos abaixo. Depois de instalar o aplicativo, exiba o dashboard e os relatórios no serviço do Power BI ([https://powerbi.com](https://powerbi.com)) e nos aplicativos móveis do Power BI. 
