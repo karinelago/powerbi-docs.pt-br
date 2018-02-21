@@ -3,7 +3,7 @@ title: Conectar-se ao Project Madeira com o Power BI
 description: Project Madeira para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: bf65b900f315f74c5ca81980e6371d92923cb97d
-ms.sourcegitcommit: c3be4de522874fd73fe6854333b379b85619b907
+ms.author: sarinas
+ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conectar-se ao Project “Madeira” com o Power BI
 Obter informações para seus dados do Project “Madeira” é fácil com o Power BI e o conteúdo do Project “Madeira”. O Power BI recupera tanto seus dados de Vendas quanto Financeiros e, em seguida, compila um painel inicial e relatórios com base nesses dados.
@@ -47,7 +47,7 @@ Conecte-se ao [pacote de conteúdo do Project “Madeira” Analytics](https://a
     >[!NOTE]
     >Você deve ser um superusuário no Project “Madeira”.
    
-    ![](media/service-connect-to-project-madeira/creds.png)
+   ![](media/service-connect-to-project-madeira/creds.png)
 6. Depois que você estiver conectado, um dashboard, relatório e conjunto de dados serão carregados automaticamente. Após a conclusão, os blocos serão atualizados com dados de sua conta.  
    
     ![](media/service-connect-to-project-madeira/dashboard.png)
@@ -95,12 +95,14 @@ Quando você escolher OK, uma chave é criada, portanto você pode copiá-la par
 ## <a name="troubleshooting"></a>Solução de problemas
 O painel do Power BI se baseia em serviços Web publicados que estão listados acima e ele mostrará dados da empresa de demonstração ou de sua empresa, se você importar dados de sua solução atual de finanças. No entanto, se algo der errado, esta seção fornecerá uma solução alternativa para os problemas mais comuns.
 
-**"Falha na validação do parâmetro; verifique se todos os parâmetros são válidos"** Se você vir esse erro depois de inserir a URL do projeto “Madeira”, certifique-se de que os requisitos a seguir sejam atendidos:  
+**“Falha na validação do parâmetro. Verifique se todos os parâmetros são válidos.”**
 
-    - A URL segue exatamente este padrão https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-    - Exclua qualquer texto após o nome da empresa entre parênteses  
-    - Verifique se que não há nenhuma barra invertida no final da URL.  
-    - Verifique se a URL está usando uma conexão segura, conforme indicado pela URL começando com https.  
+Se você vir esse erro depois de digitar a URL do Projeto "Madeira", verifique se os seguintes requisitos foram atendidos:  
+
+   - A URL segue exatamente este padrão https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
+   - Exclua qualquer texto após o nome da empresa entre parênteses  
+   - Verifique se que não há nenhuma barra invertida no final da URL.  
+   - Verifique se a URL está usando uma conexão segura, conforme indicado pela URL começando com https.  
 
 **"Falha no logon"** se você receber um erro de "falha no logon" quando fizer logon no painel usando suas credenciais do Project “Madeira”, isso pode ter sido causado por um dos seguintes problemas:  
 
