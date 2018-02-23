@@ -15,18 +15,18 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/02/2017
+ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 7d4609d682af729ef60553263c3407aa99b17b5a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a666099d55b70f088a101738e3ffea8fcf218659
+ms.sourcegitcommit: 2ceea44d3606c15b57142c37649c9d481ec4becc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Gratuito versus Pro
 Qualquer usuário no Power BI é Gratuito ou Pro. É útil entender as diferenças entre esses dois tipos de usuários.
 
-*Todos os usuários* no serviço são Gratuitos ou Pro. A principal diferença entre um usuário Gratuito ou Pro é relacionada a colaboração e compartilhamento. Somente usuários Pro podem publicar o conteúdo em espaços de trabalho do aplicativo, consumir aplicativos sem capacidade Premium, compartilhar dashboards, e assinar dashboards e relatórios. Agora os usuários gratuitos podem se conectar a todas as fontes de dados por meio de todas as opções de conectividade como o DirectQuery, conexão dinâmica e o uso do gateway de dados.
+*Todos os usuários* no serviço são Gratuitos ou Pro. A principal diferença entre um usuário Gratuito ou Pro é relacionada a colaboração e compartilhamento. Somente usuários profissionais podem publicar conteúdo em espaços de trabalho do aplicativo, consumir aplicativos sem capacidade premium, compartilhar painéis e se inscrever para obter painéis e relatórios. Agora os usuários gratuitos podem se conectar a todas as fontes de dados por meio de todas as opções de conectividade como o DirectQuery, conexão dinâmica e o uso do gateway de dados.
 
 Se um aplicativo for publicado e o seu espaço de trabalho do aplicativo for atribuído à capacidade Premium, os usuários Gratuitos poderão consumir esses aplicativos.
 

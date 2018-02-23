@@ -3,7 +3,7 @@ title: Conectar-se ao Marketo com o Power BI
 description: Marketo para o Power BI
 services: powerbi
 documentationcenter: 
-author: joeshoukry
+author: SarinaJoan
 manager: kfile
 backup: maggiesMSFT
 editor: 
@@ -16,12 +16,12 @@ ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
-ms.author: yshoukry
-ms.openlocfilehash: c642b50e1b0e24aa261e68bdca536e6e9e112dd1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.author: sarinas
+ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
+ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/19/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conectar-se ao Marketo com o Power BI
 O pacote de conteúdo do Power BI para o Marketo permite que você obtenha informações sobre sua conta do Marketo com dados sobre clientes potenciais e suas atividades. A criação dessa conexão recupera seus dados e fornece automaticamente um painel e relatórios relacionados com base nesses dados.
@@ -47,7 +47,7 @@ Conecte-se ao [Pacote de conteúdo do Marketo](https://app.powerbi.com/getdata/s
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    
-   Isso fornece ao pacote de conteúdo do *Marketo para o Power BI* acesso aos seus dados de [análise do Marketo](https://powerbi.microsoft.com/integrations/marketo), além de permitir que você analise esses dados no Power BI. Os dados são atualizados uma vez por dia.
+   Isso fornece ao pacote de conteúdo do *Marketo para Power BI* acesso aos seus dados de [análise do Marketo](https://powerbi.microsoft.com/integrations/marketo), além de permitir analisar esses dados no Power BI. Os dados são atualizados uma vez por dia.
 6. Uma vez conectado à sua conta do Marketo, um painel com todos os seus dados é carregado:
    
    ![](media/service-connect-to-marketo/pbi_marketodash.png)
