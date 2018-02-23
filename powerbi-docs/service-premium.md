@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/05/2017
+ms.date: 02/05/2018
 ms.author: maghan
-ms.openlocfilehash: eb2072b0beadf3f6f2cf702f35f56441bc38c7ff
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: b2e41884ca799ca07223a4b5444e39b38aa2102a
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
 O Power BI Premium fornece recursos dedicados à execução de serviço do Power BI para sua organização ou equipe, oferecendo desempenho mais confiável e volumes de dados maiores. O Premium também permite a ampla distribuição de conteúdo sem a necessidade de adquirir licenças de usuário para visualizadores.
@@ -46,7 +46,7 @@ Há dois tipos de capacidade dentro do Power BI. Capacidade compartilhada e a ca
 | API e controles inseridos |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível")<sup>2</sup> |
 | **Publicar relatórios locais do Power BI** |![](media/service-premium/not-available.png "Não disponível") |![](media/service-premium/available.png "Disponível") |
 
-*<sup>1</sup> O consumo do usuário gratuito em aplicativos inclui exibir o conteúdo na web e em dispositivos móveis, usar P e R, Quick Insights, Cortana, exportar para CSV, Excel e PowerPoint.*  
+*<sup>1</sup> O consumo do usuário gratuito em aplicativos inclui exibir o conteúdo na web e em dispositivos móveis, usar P e R, Quick Insights, Cortana, exportar para CSV, Excel e PowerPoint. Uma licença Pro é necessária para outras atividades que não estão listadas, como a criação de relatórios em conjuntos de dados compartilhados e Analisar no Excel. Saiba mais sobre a funcionalidade do [Power BI Gratuito versus Pro](service-free-vs-pro.md).*  
 *<sup>2</sup> Publicação Melhorias futuras chegando no Power BI Premium GA.*
 
 ### <a name="premium-capacity"></a>Capacidade Premium

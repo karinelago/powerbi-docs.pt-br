@@ -1,6 +1,6 @@
 ---
 title: Como devo colaborar e compartilhar no Power BI?
-description: "No Power BI, você pode colaborar e compartilhar dashboards, relatórios e blocos de várias maneiras diferentes. Cada uma tem suas vantagens."
+description: "No Power BI, você pode trabalhar em colaboração e compartilhar painéis, relatórios, blocos e aplicativos de diferentes maneiras. Cada uma tem suas vantagens."
 services: powerbi
 documentationcenter: 
 author: maggiesMSFT
@@ -15,15 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/18
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 032d07616464dcda8cc4cc38b1440936e5393a98
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 31d862fd2086c0e1bdc98f3e6d84fcc1d2c094de
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/11/2018
 ---
-# <a name="how-should-i-collaborate-and-share-dashboards-and-reports-in-power-bi"></a>Como devo colaborar e compartilhar relatórios e dashboards no Power BI?
+# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>Como devo colaborar e compartilhar no Power BI?
+
 Você criou painéis e relatórios. Talvez você colabore neles com seus colegas também. Depois, você quer que outros usuários tenham acesso a eles. Qual é a melhor maneira de distribuí-los?
 
 Nesse artigo, comparamos essas opções para colaborar e compartilhar no Power BI: 

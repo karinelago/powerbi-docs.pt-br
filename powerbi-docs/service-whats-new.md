@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 09/01/2017
-ms.author: sirsu
-ms.openlocfilehash: 87233cfe4290546478899d81d7a39714c75963eb
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.date: 02/07/2018
+ms.author: nikhilga
+ms.openlocfilehash: b60e883d1f5c143270c52bd3ae8a7100593a7dfe
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
@@ -35,6 +35,23 @@ Você também pode consultar os canais do YouTube para obter informações sobre
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
+## <a name="january-2018"></a>Janeiro de 2018
+*   Compartilhar e marcar como favoritos os relatórios do Power BI.
+*   Suporte a logon único (SSO) de OAuth2 e DirectQuery para Banco de dados SQL do Azure e Data Warehouse.
+*   Auditoria na região: os logs de auditoria agora serão armazenados na mesma região do Office 365 como seu locatário.
+*   GA do SharePoint Online [web part de relatório do Power BI](https://go.microsoft.com/fwlink/p/?LinkId=825698).
+*   Controle de administração para desativar a exibição de visuais personalizados para todos os usuários em um locatário.
+*   Suporte à atualização agendada para o Azure Analysis Services (AAS).
+
+## <a name="previous-months-2017"></a>Meses anteriores (2017)
+## <a name="october-and-november-2017"></a>Outubro e novembro de 2017
+*   Publicação seletiva de conteúdo com [aplicativos do Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+*   Distribuição de usuário externo com [B2B do Azure Active Directory](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+* Recomendações de aplicativo da com tecnologia de IA.
+* Atualizações de interface do usuário no bloco do painel.
+* Suporte a assinaturas de email para aplicativos. 
+* Controle granular de administração para [publicar na Web](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+
 ## <a name="september-2017"></a>Setembro de 2017
 * Compartilhe dashboards com usuários gratuitos com o Premium.
 * Aloque funcionalidades para atender às suas necessidades de negócios com o pool de núcleos virtuais.
@@ -42,7 +59,6 @@ Você também pode consultar os canais do YouTube para obter informações sobre
 * [Bloco PubNub](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) para enviar por push dados para APIs REST com facilidade
 * Desempenho de carga melhorado para [métricas de uso](service-usage-metrics.md).
 
-## <a name="previous-months-2017"></a>Meses anteriores (2017)
 ### <a name="august-2017"></a>Agosto de 2017
 * Conheça seu público com [as métricas de uso por usuário](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
 * Introdução aos aplicativos do [serviço do Power BI](service-connect-to-services.md) para serviços online.
@@ -616,7 +632,7 @@ Confira o [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/power-bi-ser
 **31 de março de 2015**
 
 * Os painéis **GitHub** têm novos visuais que se concentram na criação de uma comunidade, cálculos aprimorados e layout aprimorado
-* Os painéis * * SendGrid * * têm novos visuais e um novo layout para ajudá-lo a encontrar os melhores resultados
+* Os painéis **SendGrid** têm novos visuais e um novo layout para ajudá-lo a encontrar os melhores resultados
 * Você pode agora usar **treemaps em P e R** usando a frase 'como treemap' no final da consulta
 * Agora você pode **fixar treemaps** de P e R e relatórios 
 * Várias correções de bugs

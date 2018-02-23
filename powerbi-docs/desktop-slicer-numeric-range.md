@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: cee6cd859507105b7fc0c7e7075478d3a876f7bb
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 6d63236254906619f7244db9f57af162a19a70d6
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Usar a segmentação de intervalo numérico no Power BI Desktop
 Com a **segmentação de intervalo numérico**, você pode aplicar todos os tipos de filtros a qualquer coluna numérica no modelo de dados. Você pode optar por filtrar como **entre** números, **menor ou igual** a um número ou **maior ou igual** a um número. Embora possa parecer simples, essa é uma maneira muito eficiente de filtrar os dados.
@@ -56,6 +56,11 @@ Quando selecionamos **menor ou igual a**, a alça esquerda (valor mais baixo) da
 Por fim, se selecionarmos **maior ou igual a**, a alça da barra de controle deslizante direita (valor mais alto) desaparecerá e poderemos ajustar o valor menor, conforme é mostrado na imagem a seguir. Agora apenas os itens com *UnitPrice* maior ou igual a 750,56 são exibidos nos visuais na página do relatório.
 
 ![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Ajustar para números inteiros com a segmentação de intervalo numérico (versão prévia)
+
+A partir da versão de fevereiro de 2018 do **Power BI Desktop**, seu a sua segmentação de intervalo numérico será ajustada para números inteiros. Isso permite que a segmentação se alinhe corretamente com números inteiros. O ajuste a números inteiros não se aplica aos filtros decimais.
+
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 No momento, as seguintes considerações e limitações aplicam-se à **segmentação de intervalo numérico**

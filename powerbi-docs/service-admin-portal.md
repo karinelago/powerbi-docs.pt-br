@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/02/2018
+ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 36f2b591f53e7d9e930048cdedde114348466147
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -40,7 +40,7 @@ Sua conta deve ser marcada como **Administrador Global** no Office 365 ou no Azu
 
 ![](media/service-admin-portal/powerbi-admin-settings.png)
 
-No portal, há cinco guias. Elas estão descritas abaixo.
+No portal, há seis guias. Elas estão descritas abaixo.
 
 * [Métricas de uso](#usage-metrics)
 * [Usuários](#users)
@@ -48,6 +48,7 @@ No portal, há cinco guias. Elas estão descritas abaixo.
 * [Configurações de locatário](#tenant-settings)
 * [Configurações Premium](#premium-settings)
 * [Códigos de inserção](#embed-codes)
+* [Elementos visuais da organização](#Organization-visuals)
 
 ![](media/service-admin-portal/powerbi-admin-landing-page.png)
 
@@ -269,6 +270,46 @@ Para obter mais informações sobre como gerenciar as configurações Premium, c
 
 Como administrador, você pode exibir os códigos de inserção que são gerados para seu locatário. Você possui as ações de exibir o relatório e excluir o código de inserção para revogá-lo.
 
+## <a name="organization-visuals"></a>Elementos visuais da organização
+
+A guia de elementos visuais da organização permite implantar e gerenciar elementos visuais personalizados dentro da sua organização, para que você possa implantar facilmente os elementos visuais personalizados proprietários na organização, para que os autores de relatório consigam descobrir e importar esses visuais diretamente do Power BI Desktop em seus relatórios.
+ 
+A página mostra todos os elementos visuais personalizados que estão implantados no momento no repositório da organização.
+ 
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
+
+### <a name="add-a-new-custom-visual"></a>Adicionar um novo elemento visual personalizado
+
+Para adicionar um novo elemento visual personalizado à lista, selecione **Adicionar um elemento visual personalizado**
+
+![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+
+> [!WARNING]
+> Um elemento visual personalizado pode conter código com riscos de segurança ou privacidade; verifique se você confia no autor e a fonte do visual personalizado antes de implantá-lo no relatório de origem.
+> 
+
+Preencha os campos:
+ 
+* Escolha um arquivo .pbiviz (obrigatório): selecione um arquivo de elemento visual personalizado para carregar. Apenas os elementos visuais personalizados da API com controle de versão têm suporte (leia aqui o que isso significa).
+Antes de carregar um elemento visual personalizado, você deve examinar tal elemento visual em relação à segurança e à privacidade, para verificar se ele se ajusta aos padrões da sua organização. Leia sobre a segurança dos elementos visuais personalizados.
+ 
+* Nomeie os elementos visuais personalizados (obrigatório): dê um título curto para o elemento visual para que os usuários do Power BI Desktop compreendam facilmente o que ele faz
+ 
+* Ícone (obrigatório): o arquivo de ícone que será mostrado na interface do usuário do Power BI Desktop.
+ 
+* Descrição: uma breve descrição do elemento visual para fornecer mais contexto e treinamento para o usuário
+ 
+Selecione "Aplicar" para iniciar a solicitação de carregamento. Se for bem-sucedido, você verá o novo item na lista. Se falhar, você receberá uma mensagem de erro apropriada
+ 
+### <a name="delete-a-custom-visual-from-the-list"></a>Exclua um visual personalizado da lista
+
+Selecione o ícone de lixeira para excluir permanentemente o visual do repositório.
+Importante: a exclusão é irreversível. Depois de excluído, o elemento visual parará imediatamente de renderizar em relatórios existentes. Mesmo se você carregar o mesmo elemento visual novamente, ele não substituirá o anterior que foi excluído, os usuários terão que importar o novo elemento visual novamente e substituir a instância que eles têm em seus relatórios.
+ 
+### <a name="how-to-update-a-visual"></a>Como atualizar um elemento visual
+
+Se você quiser atualizar um elemento visual no repositório, porque há uma nova versão dele (por exemplo, correções de bug, novas funcionalidades etc.), carregue o novo arquivo (verifique se a ID Visual permanece inalterada) como uma nova entrada na lista, confira se estão certos os detalhes no título e na descrição (por exemplo, "Meu elemento visual v 2.0"). Da próxima vez que os usuários inserirem o repositório da organização do Power BI Desktop, eles poderão importar a nova versão, que os pedirá para substituir a versão atual que eles têm no relatório.
+ 
 ## <a name="next-steps"></a>Próximas etapas
 
 [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md)  

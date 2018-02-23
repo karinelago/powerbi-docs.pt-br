@@ -14,13 +14,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: fadeaedbcc61626b7f1265ac44480c55a60f4fe0
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e distribuir aplicativos com dashboards e relatórios no Power BI
 
@@ -64,6 +64,8 @@ A adição de conteúdo é tão simples como adicionar conteúdo ao Meu Espaço 
 
 * [Conectar-se a serviços](service-connect-to-services.md) como o Microsoft Dynamics CRM, Salesforce ou Google Analytics.
 * [Obter dados de arquivos](service-get-data-from-files.md), como arquivos do Excel, de CSV ou do Power BI Desktop (PBIX).
+
+Quando você exibir o conteúdo em um espaço de trabalho do aplicativo, o proprietário será mostrado como o nome do espaço de trabalho do aplicativo.
 
 ## <a name="add-an-image-to-your-app-optional"></a>Adicionar uma imagem ao seu aplicativo (opcional)
 Por padrão, o Power BI cria um pequeno círculo colorido com as iniciais do seu aplicativo. Mas talvez você queira personalizá-lo com uma imagem. Para adicionar uma imagem, você precisa de uma licença do Exchange Online.

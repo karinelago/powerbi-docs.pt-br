@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/16/2018
+ms.date: 02/09/2018
 ms.author: maggies
-ms.openlocfilehash: 9ed87e17d617e7492287f3f0d0c54da1c21b3a53
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 3ce4aa6117f5c3267f821af765d6b70fcb7eacd9
+ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/11/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -29,6 +29,24 @@ Para informações sobre “Novidades” relacionadas, consulte:
 * [Blog da equipe do Power BI para os aplicativos móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades no Power BI Desktop](desktop-latest-update.md)  
 * [Novidades no serviço do Power BI](service-whats-new.md)  
+
+## <a name="january-2018"></a>Janeiro de 2018
+
+### <a name="report-favorites"></a>Relatórios favoritos
+
+Marque relatórios como favoritos para que eles apareçam na página **Favoritos**. Leia mais sobre [favoritos nos aplicativos móveis do Power BI](mobile-apps-favorites.md).
+
+### <a name="view-shared-reports"></a>Exibir relatórios compartilhados
+
+Agora quando alguém compartilhar um relatório com você, ele é listado na página **Compartilhado comigo** junto com os painéis.
+
+### <a name="improved-hyperlink-support"></a>Suporte de hiperlink aprimorado
+
+Agora você pode tocar em links em elementos visuais personalizados para abri-los em seu navegador móvel.
+
+### <a name="intune-integration-android"></a>Integração do Intune (Android)
+
+Suporte para acesso condicional usando o gerenciamento de dispositivos móveis do Intune.
 
 ## <a name="december-2017"></a>Dezembro de 2017
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: ff29fa49cc3ad1a57ae0d09596b6e0d086b4d349
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Usar o visual Matriz no Power BI Desktop
 Com o visual **Matriz**, você pode criar visuais de matriz (às vezes mencionados como *tabelas*) nos relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros visuais. Além disso, você pode selecionar linhas, colunas e até mesmo células individuais e realce cruzado. Por fim, para fazer melhor uso do espaço de layout, o visual de matriz dá suporte a um layout de nível.
@@ -34,6 +34,19 @@ Há muitos recursos associados à matriz e vamos abordá-los nas próximas seç�
 > A partir do lançamento de julho de 2017 do **Power BI Desktop**, visuais de matriz e tabela refletem o estilo (incluindo cores) do **Tema de Relatório** aplicado. Talvez essa não seja as cores que você espera para o seu visual de matriz, que você pode alterar em sua configuração **Tema de Relatório**. Consulte [**Usar Temas de Relatório no Power BI Desktop**](desktop-report-themes.md) para obter informações sobre temas.
 > 
 > 
+
+## <a name="understanding-how-power-bi-calculates-totals"></a>Noções básicas sobre como o Power BI calcula totais
+
+Antes de ir para como usar o elemento visual **Matriz**, é importante entender como o Power BI calcula valores totais e subtotais em tabelas e matrizes. Para linhas de totais e subtotais, a medida é avaliada em todas as linhas nos dados subjacentes – *não* é apenas uma simples adição dos valores nas linhas visíveis ou exibidas. Isso significa que você pode acabar com valores diferentes na linha de total do que o esperado. 
+
+Observe os seguintes elementos visuais de **Matriz**. 
+
+![](media/desktop-matrix-visual/matrix-visual_3.png)
+
+Neste exemplo, cada linha no elemento visual **Matriz** mais à direita mostra a *Quantidade* para cada combinação de vendedor/data. No entanto, como um vendedor aparece em várias datas, os números podem aparecer mais de uma vez. Assim, o total preciso dos dados subjacentes e uma simples adição de valores visíveis não são iguais. Este é um padrão comum quando o valor que você está somando está no lado 'um' de uma relação de um para muitos.
+
+Ao examinar o total e os subtotais, lembre-se de que esses valores são baseados nos dados subjacentes e não apenas nos valores visíveis. 
+
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Usando o drill down com o visual Matriz
 Com o visual **Matriz**, é possível fazer todos os tipos de atividades de drill down interessantes que antes não estavam disponíveis. Isso inclui a capacidade de fazer drill down usando linhas, colunas e até mesmo células e seções individuais. Vamos dar uma olhada em como cada uma delas funciona.
@@ -144,16 +157,12 @@ Qualquer uma dessas abordagem atinge o mesmo resultado. A seleção de *Controle
 
 ![](media/desktop-matrix-visual/matrix-visual_19.png)
 
-## <a name="limitations-and-considerations"></a>Limitações e considerações
-Nessa versão do visual **Matriz**, há algumas limitações e considerações para se ter em mente.
+## <a name="next-steps"></a>Próximas etapas
 
-* O drill down em colunas somente pode ser feito usando o menu acionado com um clique do botão direito do mouse e, atualmente, não há nenhuma indicação no visual de que seja possível fazer drill down em grupos de linhas ou colunas
-* Você somente pode expandir todos os itens em um nível de uma vez, em vez de expandir uma categoria por vez
-* A opção **Ver Registros** pode aparecer em um menu ao clicar com o botão direito do mouse em um cabeçalho de coluna, mas ela não está em operação
-* Atualmente não há nenhuma linha de *Total geral*
-* Desabilitar a linha de subtotal no layout de nível não tem nenhum efeito
-* Os cabeçalhos de coluna poderão ficar truncados se os grupos internos tiverem um texto menor do que o grupo externo
-* Alterar o recuo do layout de nível não deve recuar o grupo de linhas externo
+Você também pode estar interessado nos seguintes artigos:
 
-Estamos sempre buscando saber a sua opinião. No momento, estamos fazendo uma **pesquisa** sobre esse visual **Matriz**. Portanto, se você tiver alguns minutos, [responda a pesquisa](https://www.instant.ly/s/PYXT1).
+* [Use linhas de grade e ajuste de grade em relatórios do Power BI Desktop](desktop-gridlines-snap-to-grid.md)
+* [Fontes de dados no Power BI Desktop](desktop-data-sources.md)
+* [Tipos de dados no Power BI Desktop](desktop-data-types.md)
 
+ 

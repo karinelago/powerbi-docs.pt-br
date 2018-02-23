@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 1750fc9bec6de6caf17ff3ae6f514efe050f48f1
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 5ae0ef1ec5b13699f3ae5c502d29529841a7a726
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Exibição de Relatório no Power BI Desktop
 Se você já trabalhou com o Power BI, você sabe como é fácil criar relatórios que fornecem ideias e perspectivas dinâmicas sobre seus dados. O Power BI também conta com recursos mais avançados no Power BI Desktop. Com o Power BI Desktop, você pode criar consultas avançadas, efetuar mashup de dados provenientes de várias fontes, criar relações entre tabelas e muito mais.
@@ -62,6 +62,24 @@ Para excluir uma página, clique no **X** na guia da página na parte inferior d
 
 > [!NOTE]
 > Visualizações e relatórios não podem ser anexados a um dashboard por meio do Power BI Desktop. Para fazer isso, você precisará [Publicar por meio do Power BI Desktop](desktop-upload-desktop-files.md) para o seu site do Power BI.
-> 
-> 
+
+## <a name="hide-report-pages"></a>Ocultar páginas de relatório
+
+Quando você cria um relatório, também poderá ocultar as páginas de um relatório. Isso poderá ser útil se você precisar criar dados subjacentes ou elementos visuais em um relatório, mas não quiser que essas páginas fiquem visíveis para outras pessoas, como quando você cria tabelas ou elementos visuais de suporte que são usados em outras páginas do relatório. Há muitas outras razões criativas para você talvez querer criar uma página de relatório e, em seguida, ocultá-la de um relatório que quiser publicar. 
+
+Ocultar uma página de relatório é fácil. Basta clicar na guia da página de relatório e selecionar **Ocultar** no menu que é exibido.
+
+![](media/desktop-report-view/report-view_05.png)
+
+Há algumas considerações para ter em mente ao ocultar uma página de relatório:
+
+* Você ainda pode ver um relatório oculto quando estiver no **Power BI Desktop**, embora o título da página esteja esmaecido. Na imagem a seguir, a página 4 estará oculta.
+
+    ![](media/desktop-report-view/report-view_06.png)
+
+* Você *não pode* ver uma página de relatório oculta ao exibir o relatório no **serviço do Power BI**.
+
+* Ocultar uma página de relatório *não* é uma medida de segurança. A página ainda pode ser acessada por usuários e seu conteúdo ainda será acessível usando o detalhamento e outros métodos.
+
+* Quando uma página é oculta, quando está no modo de Visualização, nenhuma seta de navegação do modo de exibição será mostrada.
 

@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0d6d66016663ed0e12d8f3da854ec1e9f7da7eae
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+ms.openlocfilehash: ceccf00879d3ac17f907f5dce296bb03bb0227d2
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="using-directquery-in-power-bi"></a>Usando o DirectQuery no Power BI
 Você pode conectar-se a todos os tipos de fontes de dados diferentes ao usar o **Power BI Desktop** ou o **serviço do Power BI**, e você pode fazer essas conexões de dados de maneiras diferentes. Você pode *importar* dados ao Power BI, que é a maneira mais comum de se obter dados ou pode se conectar diretamente aos dados em seu repositório fonte original, o que é conhecido como **DirectQuery**. Este artigo descreve o **DirectQuery** e seus recursos, incluindo os seguintes tópicos:
@@ -269,14 +269,21 @@ Ao definir o modelo, considere o seguinte:
 ### <a name="report-design-guidance"></a>Diretrizes de design de relatório
 Ao criar um relatório usando uma conexão do DirectQuery, observe as seguintes diretrizes:
 
+* **Considere o uso das opções de redução de consulta:** o Power BI fornece opções no relatório para enviar menos consultas e desabilitar certas interações que possam resultar em uma experiência ruim se as consultas resultantes levarem muito tempo para executar. Para acessar essas opções na **Power BI Desktop**, vá para **Arquivo > Opções e configurações > Opções** e selecione **Redução de consulta**. 
+
+   ![](media/desktop-directquery-about/directquery-about_03b.png)
+
+    Marcar seleções da caixa em **Redução de consulta** permite desativar o realce cruzado em todo o relatório. Você também pode mostrar um botão *Aplicar* para segmentações de dados e/ou seleções de filtro, o que permite que você crie muitas segmentações de dados e seleções de filtro antes de aplicá-las, o que impede que as consultas sejam enviadas até que você selecione o botão **Aplicar** na segmentação de dados. As seleções em seguida são usadas para filtrar os dados.
+
+    Essas opções serão aplicadas ao relatório enquanto você interage com ele no **Power BI Desktop**, além de quando os usuários consomem o relatório no **serviço do Power BI**.
+
 * **Aplicar filtros primeiro:** sempre aplique todos os filtros necessários no início da criação de um visual. Por exemplo, em vez de arrastar na TotalSalesAmount e ProductName e, em seguida, filtrar para um determinado ano, aplique o filtro em Year no início. Isso porque cada etapa da criação de um visual enviará uma consulta e, embora seja possível fazer uma alteração antes que a primeira consulta seja concluída, isso ainda manterá o carregamento desnecessário na fonte subjacente. Ao aplicar os filtros no início, as consultas intermediárias serão geralmente menos dispendiosas. Além disso, deixar de aplicar os filtros no início poderá resultar no alcance do limite de 1 milhão de linhas mencionado acima.
 * **Limitar o número de visuais em uma página:** quando uma página é aberta (ou alguma segmentação ou filtro de nível de página é alterado), todos os visuais em uma página são atualizados. Também há um limite no número de consultas que são enviadas em paralelo, assim, conforme o número de visuais aumenta, alguns desses visuais serão atualizados em série, aumentando o tempo necessário para atualizar a página inteira. Por esse motivo é recomendado limitar o número de visuais em uma única página e, em vez disso, ter mais páginas mais simples.
 * **Considerar desativar a interação entre visuais:** por padrão, as visualizações em uma página de relatório podem ser usadas para realizar filtro cruzado e destaque cruzado de outras visualizações na página. Por exemplo, ao selecionar "1999" no gráfico de pizza, é realizado o destaque cruzado do gráfico de colunas para mostrar as vendas por categoria para "1999".                                                                  
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  No entanto, essa interação pode ser controlada conforme descrito [neste artigo](service-reports-visual-interactions.md). No DirectQuery, essas filtragens cruzadas e destaques cruzados exigem o envio de consultas à fonte subjacente, portanto a interação deverá ser desligada, se o tempo necessário para responder às seleções do usuário for exageradamente longo.
-* **Considerar compartilhar somente o relatório:** há diferentes maneiras de compartilhar conteúdo após a publicação no **serviço do Power BI**. No caso de DirectQuery, é aconselhável considerar o compartilhamento somente do relatório concluído, em vez de permitir que outros usuários criem novos relatórios (e, potencialmente, encontrem problemas de desempenho para os visuais específicos que eles criarem).
+  No DirectQuery, essas filtragens cruzadas e destaques cruzados exigem o envio de consultas à fonte subjacente, portanto a interação deverá ser desligada, se o tempo necessário para responder às seleções do usuário for exageradamente longo. No entanto, essa interação pode ser desligada para todo o relatório (conforme descrito acima para *Opções de redução de consulta*) ou caso a caso conforme descrito [neste artigo](service-reports-visual-interactions.md).
 
 Além da lista de sugestões acima, observe que cada uma das seguintes funcionalidades de relatório poderá causar problemas de desempenho:
 
@@ -294,6 +301,8 @@ Além da lista de sugestões acima, observe que cada uma das seguintes funcional
 * **Mediana:** geralmente, qualquer agregação (Sum, Count Distinct e assim por diante) é enviada por push à fonte subjacente. No entanto, isso não é verdade para a Mediana, pois geralmente não há suporte para essa agregação na fonte de subjacente. Nesses casos, os dados de detalhes são recuperados da fonte subjacente e a Mediana é calculada com base nos resultados retornados. Isso é razoável quando a mediana for calculada em um número relativamente pequeno de resultados, mas os problemas de desempenho (ou falhas de consulta devido ao limite de 1 milhão de linhas) ocorrerão se a cardinalidade for grande.  Por exemplo, População do País Mediana seria razoável, mas Preço de Vendas Mediana ce não.
 * **Filtros de texto avançados ("contém" e similares):** ao filtrar em uma coluna de texto, a filtragem avançada permite o uso de filtros como "contém", "começa com" e assim por diante. Esses filtros certamente poderão causar degradação no desempenho para algumas fontes de dados. Especificamente, o filtro "contém" padrão não deve ser usado se o que é realmente necessário é uma correspondência exata ("é" ou "não é"). Embora os resultados possam ser os mesmos, dependendo dos dados reais, o desempenho poderá ser drasticamente diferente devido ao uso de índices.
 * **Segmentações de várias seleções:** por padrão, as segmentações permitem que seja realizada apenas uma única seleção. A permissão de seleção múltipla em filtros poderá causar alguns problemas de desempenho, porque quando usuário seleciona um conjunto de itens na segmentação (por exemplo, os dez produtos nos quais ele está interessado), cada nova seleção resultará no envio de consultas à fonte de back-end. Embora o usuário possa selecionar o próximo item antes da conclusão da consulta, isso resultará em carregamento extra na fonte subjacente.
+
+* **Considere a alternância de totais em elementos visuais:** por padrão, tabelas e matrizes exibem totais e subtotais. Em muitos casos, as consultas separadas devem ser enviadas para a fonte de dados subjacente para obter os valores para esses totais. Isso se aplica sempre que usar a agregação *DistinctCount* ou em todos os casos, ao usar o DirectQuery no SAP BW ou SAP HANA. Esses totais devem ser desligados (usando o painel **Formato**) se não forem necessários. 
 
 ### <a name="diagnosing-performance-issues"></a>Diagnosticar problemas de desempenho
 Esta seção descreve como diagnosticar problemas de desempenho ou obter informações mais detalhadas para permitir que os relatórios sejam otimizados.

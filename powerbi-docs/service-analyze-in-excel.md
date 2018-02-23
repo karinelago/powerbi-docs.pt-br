@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 742dcb64e5cec152ee105cbcdfe023788d209a04
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
+ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Existem ocasiões em que você talvez queira usar o Excel para exibir e interagir com um conjunto de dados do Power BI. Com o recurso **Analisar no Excel**, você pode fazer isso e acessar recursos de Tabela Dinâmica, gráfico e segmentação no Excel com base no conjunto de dados existente no Power BI.
@@ -32,6 +32,7 @@ Há alguns requisitos para o uso do recurso **Analisar no Excel**:
 * Há suporte para o recurso **Analisar no Excel** no Microsoft Excel 2010 SP1 e posterior.
 * As Tabelas Dinâmicas do Excel não têm suporte para agregação do tipo "arrastar e soltar" dos campos numéricos. Seu conjunto de dados no Power BI *deve ter medidas predefinidas*.
 * Algumas empresas podem ter regras de Política de Grupo que impedem a instalação das atualizações necessárias do recurso **Analisar no Excel** no Excel. Se você não conseguir instalar as atualizações, verifique com seu administrador.
+* **Analisar no Excel** exige uma licença Pro. Para saber mais sobre as diferenças na funcionalidade entre licenças grátis e Pro, dê uma olhada em [Power BI Gratuito versus Pro](service-free-vs-pro.md). 
 
 ## <a name="how-does-it-work"></a>Como funciona?
 Quando você seleciona **Analisar no Excel** no menu de reticências (...) associado a um conjunto de dados ou relatório no **Power BI**, o Power BI cria um arquivo .ODC e o baixa do navegador para o computador.
@@ -40,7 +41,7 @@ Quando você seleciona **Analisar no Excel** no menu de reticências (...) assoc
 
 Ao abrir o arquivo no Excel, será exibida uma lista de **Tabelas Dinâmicas** e **Campos** vazia com as tabelas, campos e medidas do conjunto de dados do Power BI. Você pode criar Tabelas Dinâmicas, gráficos e analisar esse conjunto de dados da mesma forma que trabalharia com um conjunto de dados local no Excel.
 
-O arquivo.ODC tem uma cadeia de conexão MSOLAP, que se conecta ao seu conjunto de dados no Power BI. Ao analisar ou trabalhar com os dados, o Excel consulta o conjunto de dados no Power BI e retorna os resultados para o Excel. Se esse conjunto de dados se conectar a uma fonte de dados dinâmica usando o Direct Query, o Power BI consultará a fonte de dados e retornará o resultado para o Excel.
+O arquivo.ODC tem uma cadeia de conexão MSOLAP, que se conecta ao seu conjunto de dados no Power BI. Ao analisar ou trabalhar com os dados, o Excel consulta o conjunto de dados no Power BI e retorna os resultados para o Excel. Se esse conjunto de dados se conectar a uma fonte de dados dinâmica usando o DirectQuery, o Power BI consultará a fonte de dados e retornará o resultado para o Excel.
 
 O recurso **Analisar no Excel** é muito útil em conjuntos de dados e relatórios que se conectam aos bancos de dados de *Tabela* ou *Multidimensional do Analysis Services* ou de arquivos do Power BI Desktop ou de pastas de trabalho do Excel com modelos de dados que contêm medidas de modelo criadas com o DAX (Data Analysis Expressions).
 
