@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: 405be2083b26659f1f26ec04e72319ca5981bdf0
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Get started
+ms.openlocfilehash: f0f296f402bf1c2bcb1b12e11bd2998bfeec5bc5
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI – conceitos básicos do serviço do Power BI
 
@@ -166,7 +167,7 @@ Não é possível editar a pasta de trabalho no Power BI. No entanto, se precisa
 * [Publicar no Power BI com o Excel](service-publish-from-excel.md)
 
 
-## <a name="my-workspace"></a>Meu espaço de trabalho
+## <a name="my-workspace"></a>Meu Espaço de Trabalho
 Nós falamos sobre espaços de trabalho e blocos de construção. Vamos ver novamente a interface do Power BI e revisar as peças que formam a página inicial do serviço do Power BI.
 
 ![](media/service-basic-concepts/completenewest.png)

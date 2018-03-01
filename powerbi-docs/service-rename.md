@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/20/2017
 ms.author: mihart
-ms.openlocfilehash: 33954aab1d6e79efc985f3e0d3c4d026f529b691
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Common tasks
+ms.openlocfilehash: 9f4d4897558f241d316ee9d7021b4c34660fe9bf
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Renomear quase tudo no serviço do Power BI
 Este artigo ensina como renomear um dashboard, um relatório, uma página de relatório, uma pasta de trabalho, um conjunto de dados, um aplicativo e um espaço de trabalho no serviço do Power BI.
