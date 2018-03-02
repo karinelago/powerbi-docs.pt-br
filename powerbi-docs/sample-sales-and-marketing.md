@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
-ms.openlocfilehash: 473236553513c41e30cb4d48f03f8fc27fd4d647
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: badd7a9c41199bf1486e83d29b37bb385f32b8ea
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Exemplo de vendas e marketing para o Power BI: faça um tour
 
@@ -36,7 +37,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conteúdo](https://docs.microsoft.com/en-us/power-bi/sample-sales-and-marketing#get-the-content-pack-for-this-sample), [arquivo .pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales and Marketing Sample PBIX.pbix) ou [pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529785).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
 
@@ -87,7 +88,7 @@ Vamos começar nosso tour no painel e examinar as peças que o CMO decidiu fixar
 1. Observe o bloco “Unidades totais no ano por fabricante, região”. Gostaria de saber como está a participação no mercado em unidades totais por categoria.
 
    ![](media/sample-sales-and-marketing/sales3.png)
-2. Na caixa de perguntas na parte superior do dashboard, digite a pergunta **total de unidades por fabricante e categoria em 2014 como um mapa de árvore**. Observe como a visualização é atualizada conforme você digita a pergunta.
+2. Na caixa de perguntas na parte superior do dashboard, digite a pergunta **total de unidades por fabricante e categoria em 2014 como um mapa de árvore**. Observe como a visualização atualiza conforme você digita a pergunta.
    ![](media/sample-sales-and-marketing/totalunitsbymanufacturerandcategoryfor2014asatreemap-new.png)
 3. Para comparar as descobertas, fixe o gráfico até o painel. Muito interessante; em 2014 VanArsdel vendeu apenas produtos que se enquadram na categoria **Urbana** .
 4. Navegue de volta para o painel.

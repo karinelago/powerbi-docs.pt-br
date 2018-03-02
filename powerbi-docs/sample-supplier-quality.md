@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: mihart
-ms.openlocfilehash: d629788a5b64ec96b18340d8dd9da0ad4890f1aa
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 5636ccd4685205b2b01dd4c591942d7d2670bc48
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Análise de Varejo de fornecedor para o Power BI: faça um tour
 
@@ -39,7 +40,7 @@ Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conteúdo](https://docs.microsoft.com/en-us/power-bi/sample-supplier-quality#get-the-content-pack-for-this-sample), [arquivo .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix) ou [pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529779).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
 
@@ -52,7 +53,7 @@ Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **exemplo de Análise da Qualidade do Fornecedor** e, em seguida, escolha **Conectar**.  
   
-   ![Exemplo de Análise de Qualidade do Fornecedor](media/sample-supplier-quality/supplier16.png)
+   ![Exemplo de Análise da qualidade do fornecedor](media/sample-supplier-quality/supplier16.png)
    
 5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
    
@@ -76,7 +77,7 @@ Vamos analisar o tempo de inatividade causado por material defeituoso e ver quai
    ![](media/sample-supplier-quality/supplier2.png)  
 
    O relatório "Exemplo de análise de qualidade do fornecedor" abre a página "Análise de tempo de inatividade". Observe que temos 33M total de peças com defeito, e o tempo de inatividade total causado por essas partes com defeito é 77K minutos. Alguns materiais têm menos peças com defeito, mas podem causar um atraso enorme, resultando em maior tempo de inatividade. Vamos explorá-los na página do relatório.  
-2. Observando a linha **Total de minutos de inatividade** no gráfico de combinação **Defeitos e tempo de inatividade (min) por tipo de Material** , podemos ver materiais corrugados que causam a maior tempo de inatividade.  
+2. Observando a linha **Total de minutos de inatividade** no gráfico de combinação **Defeitos e tempo de inatividade (min) por tipo de Material**, podemos ver materiais corrugados que causam a maior tempo de inatividade.  
 3. Selecione a **Corrugado** no mesmo gráfico de combinação para ver quais fábrica têm impacto por esse defeito e qual fornecedor é responsável.  
 
    ![](media/sample-supplier-quality/supplier3.png)  
@@ -110,7 +111,7 @@ Agora vamos explorar quais fábricas fazem um trabalho de melhor gerenciamento d
     ![](media/sample-supplier-quality/supplier7.png)  
 
     Observe no gráfico de bolha que a **Logística** é categoria mais problemática – é a maior em termos de quantidade total de defeito, relatórios de defeitos total e minutos de tempo de inatividade total. Vamos explorar mais essa categoria.  
-3. Selecione a bolha de Logística no gráfico de bolhas e observa as fábricas em Springfield, IL e Naperville, IL. Naperville parece fazer um trabalho melhor de gerenciamento de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, se comparado ao grande número de impactos de Springfield.  
+3. Selecione a bolha de Logística no gráfico de bolhas e observa as fábricas em Springfield, IL e Naperville, IL. Naperville parece fazer um trabalho melhor de gerenciamento de fornecimentos com defeitos, uma vez tem um número alto de rejeição e alguns impactos, em comparação com o grande número de impactos de Springfield.  
 
    ![](media/sample-supplier-quality/supplier8.png)  
 4. Selecione **Exemplo de Análise de Qualidade do Fornecedor** na barra de navegação superior para retornar ao espaço de trabalho ativo.
@@ -157,7 +158,7 @@ Vejamos outro bloco de painel relacionado à quantidade total de defeito.
 
 1. Selecione a seta voltar ![](media/sample-supplier-quality/backarrow.png) no canto superior esquerdo acima da caixa de pergunta para retornar ao painel.  
 
-    Olhando mais de perto o bloco **Quantidade Total de Defeitos por Mês, Anos** , mostra que o primeiro semestre de 2014 tinha um número semelhante de defeitos do que em 2013, mas no segundo semestre de 2014, o número de defeitos aumentou significativamente.  
+    Olhando mais de perto o bloco **Quantidade Total de Defeitos por Mês, Anos**, mostra que o primeiro semestre de 2014 tinha um número semelhante de defeitos do que em 2013, mas no segundo semestre de 2014, o número de defeitos aumentou significativamente.  
 
     ![](media/sample-supplier-quality/supplier14.png)  
 

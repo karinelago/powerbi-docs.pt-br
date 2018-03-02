@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
-ms.openlocfilehash: f349f5f987b779c33dfe1a3a93ee8bc69487110a
-ms.sourcegitcommit: 1a5446c3136dc0787f2a1d5b8cad1113704301ba
+LocalizationGroup: Samples
+ms.openlocfilehash: 3bca6f79b3a1b92243948fb64660e8946aedca7c
+ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/24/2018
+ms.lasthandoff: 02/28/2018
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Exemplo de Análise de Varejo para o Power BI: faça um tour
 
@@ -38,7 +39,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Antes de usar o exemplo, primeiro você deve baixá-lo como um pacote de conteúdo, arquivo .pbix ou pasta de trabalho do Excel.
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conteúdo](https://docs.microsoft.com/en-us/power-bi/sample-procurement#get-the-content-pack-for-this-sample), [arquivo .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement Analysis Sample PBIX.pbix) ou [pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529784).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
 
@@ -51,7 +52,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **exemplo de Análise de Compras** e, em seguida, escolha **Conectar**.  
   
-   ![Obter Dados](media/sample-procurement/procurement1a.png)
+   ![Obter dados](media/sample-procurement/procurement1a.png)
    
 5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
    
@@ -122,7 +123,7 @@ Especificamente, estas perguntas:
 * Algumas cidades obtêm mais descontos do que outras?
 
 ### <a name="discount-by-month"></a>Desconto por mês
-Observando o gráfico de combinação **Total da fatura e % de desconto por mês** , podemos ver que **Fevereiro** é o mês mais movimentado e que **Setembro** , o menos movimentado. Agora examine a porcentagem de desconto durante esses meses.
+Observando o gráfico de combinação **Total da fatura e % de desconto por mês**, podemos ver que **Fevereiro** é o mês mais movimentado e que **Setembro**, o menos movimentado. Agora examine a porcentagem de desconto durante esses meses.
 Observe que quando o volume aumenta, o desconto é reduzido e quando o volume está baixo, o desconto aumenta. Quanto mais precisarmos de desconto, a negociação é pior.
 
 ![](media/sample-procurement/procurement5.png)
