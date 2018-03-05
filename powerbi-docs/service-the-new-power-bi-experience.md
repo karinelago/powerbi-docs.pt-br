@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/09/2018
 ms.author: mihart
-ms.openlocfilehash: c7a782880c2bc3fe4743d635bbc76dfc41660909
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Get started
+ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Como explorar o serviço do Power BI
 ## <a name="the-left-navigation-pane"></a>O painel de navegação esquerdo
@@ -97,7 +98,7 @@ Os **Favoritos** permitem acessar rapidamente o conteúdo que é mais importante
 Para saber mais, consulte [Favoritos](service-dashboard-favorite.md)
 
 ### <a name="recents"></a>Recentes
-Acesse rapidamente o conteúdo acessado mais recentemente visitando o painel **Recentes**. Isso inclui o conteúdo de todos os espaços de trabalho.
+Encontre rapidamente o conteúdo acessado mais recentemente visitando o painel **Recentes**. Isso inclui o conteúdo de todos os espaços de trabalho.
 
   ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
@@ -115,7 +116,7 @@ Um aplicativo é uma coleção de dashboards e relatórios criados para fornecer
 Para obter mais informações, consulte **Espaços de trabalho de aplicativo** (abaixo) e [O que são os aplicativos do Power BI](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Compartilhou comigo
-**Compartilhado comigo** é o local de todo o conteúdo que seus colegas compartilharam com você.  Filtre pelo proprietário do dashboard, use o campo de pesquisa para encontrar o que é relevante e classifique os itens por data.  E quanto ao conteúdo compartilhado que você visita com frequência, é ainda mais fácil incluí-lo nos favoritos pela exibição **Compartilhado comigo**.
+**Compartilhado comigo** é o local de todo o conteúdo que seus colegas compartilharam com você.  Filtre pelo proprietário do dashboard, use o campo de pesquisa para encontrar o que for relevante e classifique os itens por data.  E quanto ao conteúdo compartilhado que você visita com frequência, é ainda mais fácil incluí-lo nos favoritos pela exibição **Compartilhado comigo**.
 
 ![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 

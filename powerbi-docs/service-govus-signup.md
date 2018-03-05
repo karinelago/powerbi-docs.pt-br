@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/27/2017
 ms.author: davidi
-ms.openlocfilehash: 8ff1d5be4e360aa5afb8b6bd704f3426957466ef
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Get started
+ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrar sua organização do Governo dos EUA no serviço do Power BI
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** discutida neste artigo é desenvolvida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço do Power BI**.
@@ -45,12 +46,14 @@ Se a sua organização for um cliente novo da **Nuvem do Governo do Office**, si
 
 > [!NOTE]
 > Essas etapas devem ser realizadas pelo administrador do portal.
-> 
-> 
+>
 
-1. Acesse [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government). 
-    >[!NOTE]
-    >Se você não quiser se inscrever na Nuvem do Governo do Office nesse momento, entre em contato com o representante de vendas.
+1. Acesse [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+
+>[!NOTE]
+>Se você não quiser se inscrever na Nuvem do Governo do Office nesse momento, entre em contato com o representante de vendas.
+>
+
 2. Selecione Office G3 e preencha o formulário para obter uma versão de avaliação do Office
 3. Quando você for um cliente da Nuvem do Office continue nas etapas abaixo para "Clientes atuais da Nuvem de Governo do Office"
 
