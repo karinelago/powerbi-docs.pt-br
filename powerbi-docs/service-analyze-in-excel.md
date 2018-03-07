@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 262245dab44ae904b51d6cb1449082171631dc09
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Reports
+ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Existem ocasiões em que você talvez queira usar o Excel para exibir e interagir com um conjunto de dados do Power BI. Com o recurso **Analisar no Excel**, você pode fazer isso e acessar recursos de Tabela Dinâmica, gráfico e segmentação no Excel com base no conjunto de dados existente no Power BI.
@@ -41,7 +42,7 @@ Quando você seleciona **Analisar no Excel** no menu de reticências (...) assoc
 
 Ao abrir o arquivo no Excel, será exibida uma lista de **Tabelas Dinâmicas** e **Campos** vazia com as tabelas, campos e medidas do conjunto de dados do Power BI. Você pode criar Tabelas Dinâmicas, gráficos e analisar esse conjunto de dados da mesma forma que trabalharia com um conjunto de dados local no Excel.
 
-O arquivo.ODC tem uma cadeia de conexão MSOLAP, que se conecta ao seu conjunto de dados no Power BI. Ao analisar ou trabalhar com os dados, o Excel consulta o conjunto de dados no Power BI e retorna os resultados para o Excel. Se esse conjunto de dados se conectar a uma fonte de dados dinâmica usando o DirectQuery, o Power BI consultará a fonte de dados e retornará o resultado para o Excel.
+O arquivo.ODC tem uma cadeia de conexão MSOLAP, que se conecta ao seu conjunto de dados no Power BI. Ao analisar ou trabalhar com os dados, o Excel consulta o conjunto de dados no Power BI e retorna os resultados para o Excel. Se esse conjunto de dados se conectar a uma fonte de dados dinâmica usando o Direct Query, o Power BI consultará a fonte de dados e retornará o resultado para o Excel.
 
 O recurso **Analisar no Excel** é muito útil em conjuntos de dados e relatórios que se conectam aos bancos de dados de *Tabela* ou *Multidimensional do Analysis Services* ou de arquivos do Power BI Desktop ou de pastas de trabalho do Excel com modelos de dados que contêm medidas de modelo criadas com o DAX (Data Analysis Expressions).
 

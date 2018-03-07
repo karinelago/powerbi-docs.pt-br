@@ -14,11 +14,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/17/2018
 ms.author: mihart
-ms.openlocfilehash: 3c137c55f5f8326ff1281d4be00fabac2f14347b
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Como usar P e R para criar visualizações e relatórios
 A [Visão geral de P e R](power-bi-q-and-a.md) apresentou você às P e R do Power BI e fez a distinção entre *consumidores* (que têm dashboards e relatórios compartilhados com eles) e *criadores* (proprietários de relatórios e conjuntos de dados subjacentes). A primeira parte deste tutorial é destinada principalmente a pessoas que consumem dashboards usando o serviço do Power BI. E a segunda parte é projetada para as pessoas que criam relatórios usando o serviço do Power BI ou Power BI Desktop. [A P e R e o Power BI Mobile](mobile-apps-ios-qna.md) e [a P e R e o Power BI Embedded](developer/qanda.md) são abordados em artigos separados.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
-ms.openlocfilehash: 0056fe1d5a2881f1415fe5889ab563a27bb8648d
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Create reports
+ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Usar o visual Matriz no Power BI Desktop
 Com o visual **Matriz**, você pode criar visuais de matriz (às vezes mencionados como *tabelas*) nos relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros visuais. Além disso, você pode selecionar linhas, colunas e até mesmo células individuais e realce cruzado. Por fim, para fazer melhor uso do espaço de layout, o visual de matriz dá suporte a um layout de nível.

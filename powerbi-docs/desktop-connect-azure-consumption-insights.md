@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 3f0bca9114b163531adcd1a1921b8617a5f2eb75
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 9127f7b2e19a304c514d5e6449cf1ceb7ecddb13
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conectar-se ao Azure Consumption Insights no Power BI Desktop (Beta)
 Com o conector do **Azure Consumption Insights**, você pode usar o **Power BI Desktop** para se conectar ao Azure e obter dados e informações detalhadas sobre o uso de serviços do Azure por sua organização. Você também pode criar medidas, colunas personalizadas e visuais para relatar e compartilhar sobre o uso do Azure por sua organização. Esta versão do conector do **Azure Consumption and Insights** está na versão Beta e está sujeita a alterações.
@@ -160,7 +161,7 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 | ConsumedServiceId |consumedServiceId | |Sim |
 | Custo |cost |ExtendedCost |Não |
 | Centro de Custo |costCenter |Centro de Custo |Não |
-| Date |date |Date |Não |
+| Data |date |Data |Não |
 | Dia | |Dia |Não |
 | DepartmentName |departmentName |Nome do Departamento |Não |
 | DepartmentID |departmentId | |Sim |
@@ -174,7 +175,7 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 | Subcategoria de Medidor |meterSubCategory |Subcategoria de Medidor |Não |
 | MeterId |meterId |ID de Medidor |Não |
 | Mês | |Mês |Não |
-| Product |product |Product |Não |
+| Produto |product |Produto |Não |
 | ProductId |productId | |Sim |
 | Grupo de Recursos |resourceGroup |Grupo de Recursos |Não |
 | Local do Recurso |resourceLocation |Local do Recurso |Não |

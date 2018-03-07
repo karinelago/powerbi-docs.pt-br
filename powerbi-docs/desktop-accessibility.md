@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
-ms.openlocfilehash: 9bff028c0db75e4c0e4f3b2fe97b4ed19c0d1518
-ms.sourcegitcommit: 47ea78f58ad37a751171d01327c3381eca3a960e
+LocalizationGroup: Create reports
+ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/22/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade dos relatórios do Power BI Desktop
 O **Power BI Desktop** tem recursos que permitem que pessoas com deficiências consumam e interajam mais facilmente com relatórios do **Power BI Desktop**. Esses recursos incluem a capacidade de consumir um relatório usando o teclado ou um leitor de tela, usar a tabulação para focar em vários objetos em uma página e o uso cuidadoso de marcadores nas visualizações.

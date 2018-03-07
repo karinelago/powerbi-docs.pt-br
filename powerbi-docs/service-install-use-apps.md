@@ -16,11 +16,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: maggies
-ms.openlocfilehash: a833961bd2f9ad3af77c6d90a95c0e5b1c307d1a
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Share your work
+ms.openlocfilehash: 406e1219296c5b2491e3b59d5a8cd6f50cfc2376
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalar e usar aplicativos com dashboards e relatórios no Power BI
 No Power BI, os *aplicativos* reúnem os dashboards e os relatórios relacionados em um só local. As pessoas em sua organização podem criar e distribuir aplicativos com informações comerciais essenciais. Os [serviços externos](service-connect-to-services.md) que talvez você já usa, como o Google Analytics e o Microsoft Dynamics CRM, também oferecem aplicativos do Power BI. 

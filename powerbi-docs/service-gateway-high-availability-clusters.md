@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
-ms.openlocfilehash: 0288e9613a187b64e5bc71c952e01d70f1f56012
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 717451afc35614e9c356e5748f39f0302fa6244e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clusters de alta disponibilidade para gateway de dados locais
 Você pode criar **clusters de alta disponibilidade** de instalações de **gateway de dados locais**, para garantir que sua organização possa acessar recursos de dados locais usados em relatórios e painéis do Power BI. Esses clusters permitem que os administradores de gateway agrupem gateways para evitar pontos únicos de falha ao acessar os recursos de dados locais. Este artigo descreve as etapas a serem seguidas para criar um cluster de alta disponibilidade de gateways de dados locais e compartilha práticas recomendadas ao configurá-los. Os clusters de gateway de alta disponibilidade requerem a atualização de novembro de 2017 para o gateway de dados locais, ou posterior.

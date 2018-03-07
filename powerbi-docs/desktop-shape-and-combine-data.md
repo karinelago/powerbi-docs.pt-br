@@ -1,7 +1,28 @@
--- title: Formatar e combinar dados no Power BI Desktop description: Formatar e combinar dados em serviços do Power BI Desktop: powerbi documentationcenter: '' author: davidiseminger manager: kfile backup: '' editor: '' tags: '' qualityfocus: no qualitydate: ''
-
-ms.service: powerbi ms.devlang: NA ms.topic: article ms.tgt_pltfrm: NA ms.workload: powerbi ms.date: 01/30/2018 ms.author: davidi
-
+---
+title: Formatar e combinar dados no Power BI Desktop
+description: Formatar e combinar dados no Power BI Desktop
+services: powerbi
+documentationcenter: 
+author: davidiseminger
+manager: kfile
+backup: 
+editor: 
+tags: 
+qualityfocus: no
+qualitydate: 
+ms.service: powerbi
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
+ms.date: 01/30/2018
+ms.author: davidi
+LocalizationGroup: Transform and shape data
+ms.openlocfilehash: c8f2419ae2898a59907763392eb86b4877b4fd75
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="shape-and-combine-data-in-power-bi-desktop"></a>Formatar e combinar dados no Power BI Desktop
 Com o **Power BI Desktop**, você pode se conectar a vários tipos diferentes de fontes de dados e formatar esses dados para atender às suas necessidades. *Formatar* dados significa transformá-los – como renomear colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como títulos e assim por diante. *Combinar* dados significa conectar-se a duas ou mais fontes de dados, formatá-las conforme o necessário e consolidá-las em uma consulta útil.

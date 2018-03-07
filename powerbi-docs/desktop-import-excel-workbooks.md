@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ea68f787fc59b2f672767fcf49c30761ee4db8cb
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Connect to data
+ms.openlocfilehash: 316272f77b55fa7a803bffb596b7bad6da93cced
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importar pastas de trabalho do Excel para o Power BI Desktop
 Com o **Power BI Desktop**, você pode importar facilmente pastas de trabalho do Excel que contêm consultas do Power Query, modelos do Power Pivot e planilhas do Power View para o Power BI Desktop. Relatórios e visualizações são criados automaticamente com base na pasta de trabalho do Excel e, uma vez importados, você pode continuar a melhorar e refinar esses relatórios usando o Power BI Desktop, usando os recursos existentes e novos recursos lançados com cada atualização mensal do Power BI Desktop.

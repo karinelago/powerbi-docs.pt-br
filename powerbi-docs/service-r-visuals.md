@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 8effa6d02c85ec67890b9fd438ce35fd2507af9a
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Visualizations
+ms.openlocfilehash: e921da07809757de02a9b0d00065a0946edb7e51
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Criar visuais do R no serviço do Power BI
 O serviço do Power BI dá suporte à exibição e interação com visuais criados com scripts do R. Os visuais criados com scripts do R, normalmente chamados de *visuais do R*, podem apresentar formatação e análise de dados avançadas, como previsão, usando o poder da análise e da visualização avançadas do R.

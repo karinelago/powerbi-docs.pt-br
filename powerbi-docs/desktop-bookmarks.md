@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: d09dcf28989f19fa901cb5f829e1149b9b64567f
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Create reports
+ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI (versão prévia)
 Usando **indicadores** no Power BI, você pode capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, bastando selecionar esse indicador salvo. 

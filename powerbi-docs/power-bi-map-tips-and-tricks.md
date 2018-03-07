@@ -18,11 +18,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: mihart
-ms.openlocfilehash: 553e3c417f79d6d1c5a45737ad370d74f72177ca
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Dicas e truques para visualizações de mapa do Power BI
 O Power BI é integrado ao Bing Mapas para fornecer as coordenadas de mapa padrão (um processo chamado codificação geográfica) para a criação de mapas. Juntos, eles usam algoritmos para identificar a localização correta, mas, às vezes, é a melhor estimativa. Se o Power BI tentar, mas não puder criar a visualização de mapa por conta própria, ele conseguirá a ajuda do Bing Mapas. 

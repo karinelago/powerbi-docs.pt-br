@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: 9ee4dba473cf757f23a757c44d5c3ebdd887fdfc
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Data from files
+ms.openlocfilehash: ff05fb9a80e9e4efff066eb71173db78a856bf2c
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reduza o tamanho de uma pasta de trabalho do Excel para exibi-lo no Power BI
 Você pode carregar qualquer pasta de trabalho do Excel menor do que 1 GB no Power BI. Uma pasta de trabalho do Excel pode ter duas partes: um modelo de dados e o restante do relatório — conteúdo da planilha principal. Se o relatório atender os seguintes limites de tamanho, você pode salvá-lo no **OneDrive for Business**, conecte-o do Power BI e exiba-o no Excel Online:

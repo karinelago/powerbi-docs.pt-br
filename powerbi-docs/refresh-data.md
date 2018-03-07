@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
-ms.openlocfilehash: 647b042d10768f4ecbb3083384efa9000202a11f
-ms.sourcegitcommit: a973bc6adc88507932e7e1535a74208e3842f5c4
+LocalizationGroup: Data refresh
+ms.openlocfilehash: 23709342f522d029e01cf7192627e179d260fa8d
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/20/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificando-se de que sempre obterá os dados mais recentes que costumam ser fundamentais para tomar as decisões corretas. Você provavelmente já usou Obter Dados no Power BI para conectar e carregar alguns dados, criou alguns relatórios e um painel de controle. Agora, você deseja certificar-se de que seus dados são realmente mais recentes e maiores.
@@ -35,7 +36,7 @@ Antes de configurar a atualização, é importante entender o que você está at
 
 Uma *fonte de dados* é onde os dados que você explora em seus relatórios e painéis realmente são provenientes; por exemplo, um serviço online, como Google Analytics ou QuickBooks, um banco de dados na nuvem como banco de dados do SQL Azure, ou um banco de dados ou arquivo em um computador local ou servidor em sua própria organização. Essas são todas as fontes de dados. O tipo de fonte de dados determina como os dados são atualizados. Passaremos a atualização para cada tipo de fonte de dados em [O que pode ser atualizado?](#what-can-be-refreshed) seção.
 
-Um *conjunto de dados* é criado automaticamente no Power BI, quando você usa Obter Dados para se conectar ao e carregar dados de um pacote de conteúdo, arquivo ou se conectar a uma fonte de dados ao vivo. No Power BI Desktop e Excel 2016, também é possível publicar seu arquivo diretamente no serviço do Power BI, que é semelhante ao uso do recurso Obter Dados.
+Um *conjunto de dados* é criado automaticamente no Power BI, quando você usa Obter Dados para se conectar ao e carregar dados de um pacote de conteúdo, arquivo ou se conectar a uma fonte de dados ao vivo. No Power BI Desktop e Excel 2016, também é possível publicar seu arquivo direitamente no serviço do Power BI, que é semelhante ao uso do recurso Obter Dados.
 
 Em cada caso, um conjunto de dados é criado e exibido nos contêineres Meu Espaço de Trabalho ou Grupo do serviço do Power BI. Ao selecionar as **reticências (...)**, é possível explorar os dados em um relatório, editar as configurações e configurar a atualização.
 

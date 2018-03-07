@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/10/2017
 ms.author: amac
-ms.openlocfilehash: d9693d89561bc0f942226934bc401a587a6ae20d
-ms.sourcegitcommit: 284b09d579d601e754a05fba2a4025723724f8eb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: aed13e5bc7a21caa87e4c5b25fd61d55dcfc6129
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="dashboard-data-classification"></a>Classificação de dados no dashboard
 Cada dashboard é diferente. Dependendo da fonte de dados à qual se conectar, provavelmente constatará que você e os colegas com os quais compartilha precisarão adotar medidas diferentes dependendo da confidencialidade dos dados. Alguns dashboards nunca devem ser compartilhados com pessoas de fora da sua empresa ou impressos, enquanto outros podem ser compartilhados livremente. Utilizando a classificação de dados no dashboard, você poderá conscientizar as pessoas que estão visualizando seus dashboards em relação ao nível de segurança que deve ser usado. É possível marcar seus dashboards com classificações definidas pelo departamento de TI da sua empresa; portanto, qualquer pessoa que estiver visualizando o conteúdo terá o mesmo nível de compreensão sobre a confidencialidade dos dados.

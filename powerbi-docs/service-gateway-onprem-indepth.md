@@ -17,11 +17,12 @@ ms.tgt_pltfrm: na
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: fbb1b22b930a00fa9e090b3ebc5ab9fd1ffc88c0
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Gateways
+ms.openlocfilehash: 7283ee62838779590bbc01eb8b4348cfc7873dc1
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalhes sobre o gateway de dados local
 É possível que os usuários na sua organização acessem dados locais (para os quais eles já têm autorização de acesso), mas antes que eles possam se conectar à fonte de dados local, um gateway de dados local precisa ser instalado e configurado. O gateway facilita a comunicação nos bastidores, de maneira rápida e segura, de um usuário na nuvem para a fonte de dados local, retornando à nuvem em seguida.

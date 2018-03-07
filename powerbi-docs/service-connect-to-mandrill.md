@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: 32058acfe0c7631791e718d54c6d81f4dd707c50
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 2e0d0b43d148642e4c96dbc4c3f9a4f6f94d1774
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Conectar-se ao Mandrill com o Power BI
 O pacote de conteúdo do Power BI extrai dados de sua conta do Mandrill e gera um painel, um conjunto de relatórios e um conjunto de dados para permitir que você explore seus dados. Use a análise do Mandrill para obter informações rapidamente sobre sua campanha de boletim informativo e de marketing. Os dados são configurados para serem atualizados diariamente, garantindo que os dados que você está monitorando são atuais.

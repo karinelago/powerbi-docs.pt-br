@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
-ms.openlocfilehash: f3401fac7b0e7e6b5b5404a5a837822772e1d70f
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Visualizations
+ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="doughnut-charts-in-power-bi-tutorial"></a>Gráficos de rosca no Power BI (tutorial)
 Um gráfico de rosca é semelhante a um gráfico de pizza, pois mostra a relação das partes com o todo. A única diferença é que o centro está em branco e permite o espaço para um rótulo ou ícone.

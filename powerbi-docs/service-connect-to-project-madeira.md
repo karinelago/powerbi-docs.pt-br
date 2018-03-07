@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: b75ea1028694a9dab32073ce70180e61798d7d28
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 02b8c2e8ed9a8a4ca0c8aaf9848699f3ca3c24c8
+ms.sourcegitcommit: ab5192675729949d89de212acae48dd51294ad78
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conectar-se ao Project “Madeira” com o Power BI
 Obter informações para seus dados do Project “Madeira” é fácil com o Power BI e o conteúdo do Project “Madeira”. O Power BI recupera tanto seus dados de Vendas quanto Financeiros e, em seguida, compila um painel inicial e relatórios com base nesses dados.
@@ -106,8 +107,8 @@ Se você vir esse erro depois de digitar a URL do Projeto "Madeira", verifique s
 
 **"Falha no logon"** se você receber um erro de "falha no logon" quando fizer logon no painel usando suas credenciais do Project “Madeira”, isso pode ter sido causado por um dos seguintes problemas:  
 
-    - A conta que você está usando não tem permissões para ler dados do Project "Madeira" de sua conta. Verifique sua conta de usuário no Project "Madeira" e certifique-se de ter usado a chave de acesso do serviço Web correta como senha e, em seguida, tente novamente.  
-    - A instancia do Project "Madeira" à qual você está tentando se conectar não tem um certificado SSL válido. Nesse caso, você verá uma mensagem de erro mais detalhada (“Não é possível estabelecer a relação de confiança SSL”). Observe que não há suporte para os certificados autoassinados.  
+   - A conta que você está usando não tem permissões para ler dados do Project "Madeira" de sua conta. Verifique sua conta de usuário no Project "Madeira" e certifique-se de ter usado a chave de acesso do serviço Web correta como senha e, em seguida, tente novamente.  
+   - A instancia do Project "Madeira" à qual você está tentando se conectar não tem um certificado SSL válido. Nesse caso, você verá uma mensagem de erro mais detalhada (“Não é possível estabelecer a relação de confiança SSL”). Observe que não há suporte para os certificados autoassinados.  
 
 **"Opa"** Se você vir um diálogo de erro “Opa” depois de passar pelo diálogo de autenticação, isso costuma ser causado por um problema ao se conectar aos dados do pacote de conteúdo. Verifique se a URL segue o padrão especificado anteriormente:  
     https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')

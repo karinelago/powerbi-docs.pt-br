@@ -15,21 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 2ce970ee31b06447055d059ed9b604c169713030
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: c0aaa29a0d933da9fa61d08628766963144e0f76
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Exemplo de Rentabilidade do Cliente para o Power BI: faça um tour
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Visão geral do exemplo de Rentabilidade do Cliente
 O pacote de conteúdo “Exemplo de lucratividade do cliente”" contém um painel, o relatório e o conjunto de dados para uma empresa que fabrica materiais de marketing. Esse painel foi criado por um diretor financeiro para ver as métricas chave sobre seu 5 gerentes de unidade comercial (também conhecidos como executivos), produtos, clientes e margens brutas (GM). Ele pode ver rapidamente quais fatores têm impacto sobre a lucratividade.
 
-<<<<<<< CABEÇALHO ![](media/sample-customer-profitability/power-bi-dash.png)
+![](media/sample-customer-profitability/power-bi-dash.png)
 
 Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anônimos. Os dados estão disponíveis em vários formatos: aplicativo/pacote de conteúdo, a pasta de trabalho do Excel ou arquivo do Power BI Desktop .pbix. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
 
@@ -58,14 +58,7 @@ Como alternativa, você pode baixar o exemplo como um arquivo .pbix, que é proj
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obter a pasta de trabalho do Excel para este exemplo
 
-<a name="if-you-want-to-dig-into-the-datasource-for-this-sample-its-also-available-as-an-excel-workbookhttpgomicrosoftcomfwlinklinkid529781-the-workbook-contains-power-view-sheets-that-you-can-view-and-modify-to-see-the-raw-data-select-power-pivot--manage"></a>Se você quiser examinar a fonte de dados para este exemplo, observe que ela também está disponível como uma [(pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
-=======
-
-Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pode ser usado com dados, relatórios e painéis orientados aos negócios. Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience.com/)) que foram mantidos anônimos. Os dados estão disponíveis em vários formatos: aplicativo/pacote de conteúdo, a pasta de trabalho do Excel ou arquivo do Power BI Desktop .pbix. Veja [Conjuntos de dados de exemplo](sample-datasets.md).
-
-### <a name="prerequisites"></a>Pré-requisitos
-Quer me acompanhar? No [Serviço do Power BI](https://powerbi.com), vá para **Obter Dados > Exemplos > Rentabilidade do Cliente > Conectar** para obter sua própria cópia do exemplo.
->>>>>>> def2c8e086d65b6a3fb92247175730746226ae3e
+Se você quiser examinar a fonte de dados para este exemplo, observe que ela também está disponível como uma [(pasta de trabalho do Excel)](http://go.microsoft.com/fwlink/?LinkId=529781). A pasta de trabalho contém planilhas do Power View que você pode exibir e modificar. Para ver os dados brutos, selecione **Power Pivot > Gerenciar**.
 
 
 ## <a name="what-is-our-dashboard-telling-us"></a>O que é nosso painel está dizendo?

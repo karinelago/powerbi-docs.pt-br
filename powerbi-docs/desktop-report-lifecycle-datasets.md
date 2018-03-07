@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
-ms.openlocfilehash: 8ef8ffda62fbaedae6f98a1ec98b919c42402185
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Connect to data
+ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço do Power BI e, junto com outros usuários, criar vários relatórios diferentes (em arquivos .pbix distintos) utilizando o mesmo common data service. Esse recurso é chamado de **conexão dinâmica ao serviço do Power BI**.

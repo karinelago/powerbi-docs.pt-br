@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maghan
-ms.openlocfilehash: 72c4c0e3a177f83582677113b1c349a6ae295428
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 66b4af61ebc46afa65403f9e5d5fa47289c0a07b
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="custom-visuals-in-power-bi"></a>Visuais personalizados no Power BI
 Ao criar ou editar um relatório do Power BI, há muitos tipos diferentes de visuais disponíveis para uso. Esses visuais são exibidos no painel **Visualizações**. Quando você baixar o Power BI Desktop ou abrir o serviço do Power BI (app.powerbi.com), esse conjunto de visuais é "predefinido".

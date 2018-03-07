@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
-ms.openlocfilehash: ccf3f2a544276f3a641be3734fb2c48387706e69
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+LocalizationGroup: Create reports
+ms.openlocfilehash: 1ac80fb4f355ba9199554ceb043cf7e8ff79ce54
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="publish-from-power-bi-desktop"></a>Publicar por meio do Power BI Desktop
 Quando você publicar um arquivo do **Power BI Desktop** no **serviço do Power BI**, os dados no modelo e os relatórios criados na exibição **Relatório** serão publicados no espaço de trabalho do Power BI. Você verá um novo conjunto de dados com o mesmo nome e todos os relatórios no seu navegador de espaço de trabalho.

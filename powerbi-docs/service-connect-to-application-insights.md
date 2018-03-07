@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d2a58de38c15599556419a6ebd219dd3a522c27a
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 04cc92bd33f342097b9952a744d8dfffced22bb3
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Conectar-se ao Application Insights com o Power BI
 Use o Power BI para criar painéis personalizados eficientes por meio da telemetria do [Application Insights](https://azure.microsoft.com/documentation/articles/app-insights-overview/). Preveja a telemetria do seu aplicativo de novas maneiras. Combine métricas de vários aplicativos ou serviços de componente em um único painel. Esta primeira versão do pacote de conteúdo do Power BI para o Application Insights inclui widgets de métricas comuns relacionadas ao uso como usuários ativos, exibição de página, sessões, versão do navegador e do SO e distribuição geográfica de usuários em um mapa.
@@ -78,7 +79,7 @@ O pacote de conteúdo do Application Insights inclui as seguintes tabelas e mét
     - SessionsByCountryLast7Days   
     - SessionsByCountryLast30Days   
     - PageViewsByCountryDailyLast30Days  
-        ´´´ 
+    ´´´ 
 
 <a name="FindingAppInsightsParams"></a>
 

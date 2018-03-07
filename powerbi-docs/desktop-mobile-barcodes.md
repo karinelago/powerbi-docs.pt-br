@@ -16,11 +16,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: fef71ea3c0a3ffb73411be9d14a0a0bf02efc25c
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+LocalizationGroup: Model your data
+ms.openlocfilehash: acac005938eb5f97a4a745dd9be72540438ed6ed
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Marcar código de barras no Power BI Desktop para os aplicativos móveis
 No Power BI Desktop, você pode [categorizar dados](desktop-data-categorization.md) em uma coluna e, portanto, o Power BI Desktop sabe como tratar valores em visuais de um relatório. Você também pode categorizar uma coluna como **Código de barras**. Quando você ou seus colegas [digitalizam um código de barras em um produto com o aplicativo do Power BI](mobile-apps-scan-barcode-iphone.md) no iPhone, você vê qualquer relatório que inclua esse código de barras. Ao abrir o relatório no aplicativo móvel, o Power BI filtra automaticamente o relatório para exibir os dados relacionados a esse código de barras.

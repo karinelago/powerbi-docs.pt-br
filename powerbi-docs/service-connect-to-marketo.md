@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/16/2017
 ms.author: sarinas
-ms.openlocfilehash: d747b357315e275fae2f65d7e4e961f4867807a3
-ms.sourcegitcommit: c24e5d7bd1806e0d637e974b5143ab5125298fc6
+LocalizationGroup: Connect to services
+ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conectar-se ao Marketo com o Power BI
 O pacote de conteúdo do Power BI para o Marketo permite que você obtenha informações sobre sua conta do Marketo com dados sobre clientes potenciais e suas atividades. A criação dessa conexão recupera seus dados e fornece automaticamente um painel e relatórios relacionados com base nesses dados.
@@ -78,7 +79,7 @@ Todas as datas são em formato UTC. Dependendo de qual fuso horário sua conta e
 
 **Detalhes de limites de API**
 
-Importar dados do Marketo faz uso de APIs do Marketo. Todo cliente do Marketo tem um limite total de 10.000 chamadas de API por dia, que são compartilhadas entre todos os aplicativos que usam as APIs do Marketo. Você pode usar as APIs para outras integrações, bem como a integração do Power BI. Para obter mais informações sobre as APIs, consulte: <http://developers.marketo.com/documentation/rest/>.
+Importar dados do Marketo faz uso de APIs do Marketo. Todo cliente do Marketo tem um limite total de 10.000 chamadas de API por dia, que são compartilhadas entre todos os aplicativos que usam as APIs do Marketo. Você pode usar as APIs para outras integrações, bem como a integração do Power BI. Para obter mais informações sobre as APIs, veja: <http://developers.marketo.com/documentation/rest/>.
 
 A quantidade de chamadas de API que o Power BI realiza para o Marketo depende da quantidade de dados na sua conta do Marketo. O Power BI importa todos os Clientes Potenciais e Atividades do último ano. Eis aqui está um exemplo de dados do Marketo e a quantidade de chamadas de API que são usadas pelo Power BI durante a importação:  
 

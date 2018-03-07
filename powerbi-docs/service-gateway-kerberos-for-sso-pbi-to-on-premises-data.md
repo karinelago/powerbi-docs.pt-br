@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/10/2018
 ms.author: davidi
-ms.openlocfilehash: a90926d14289ff0a904f29b7b43f70aa2cbc3130
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Gateways
+ms.openlocfilehash: 6ea2e521350b6036b8d2e9b852eb47c546dd818f
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Use o Kerberos para SSO (logon único) do Power BI para fontes de dados locais
 Ao configurar o gateway de dados local com o Kerberos, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI com base em dados locais. O gateway de dados local facilita o SSO (logon único) com o DirectQuery, que é usado para a conexão às fontes de dados locais.

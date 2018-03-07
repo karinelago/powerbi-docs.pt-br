@@ -7,6 +7,7 @@
 | Pasta |Não |Sim |
 | IBM DB2 |Não |Sim |
 | Banco de dados do IBM Informix |Não |Sim |
+| IBM Netezza |Sim |Sim |
 | Impala |Sim |Sim |
 | MySQL |Não |Sim |
 | OData |Não |Sim |
