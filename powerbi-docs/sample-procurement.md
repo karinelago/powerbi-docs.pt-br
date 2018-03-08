@@ -123,7 +123,7 @@ Especificamente, estas perguntas:
 * Algumas cidades obtêm mais descontos do que outras?
 
 ### <a name="discount-by-month"></a>Desconto por mês
-Observando o gráfico de combinação **Total da fatura e % de desconto por mês**, podemos ver que **Fevereiro** é o mês mais movimentado e que **Setembro**, o menos movimentado. Agora examine a porcentagem de desconto durante esses meses.
+Observando o gráfico de combinação **Total da fatura e % de desconto por mês** , podemos ver que **Fevereiro** é o mês mais movimentado e que **Setembro** , o menos movimentado. Agora examine a porcentagem de desconto durante esses meses.
 Observe que quando o volume aumenta, o desconto é reduzido e quando o volume está baixo, o desconto aumenta. Quanto mais precisarmos de desconto, a negociação é pior.
 
 ![](media/sample-procurement/procurement5.png)

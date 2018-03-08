@@ -77,7 +77,7 @@ Vamos analisar o tempo de inatividade causado por material defeituoso e ver quai
    ![](media/sample-supplier-quality/supplier2.png)  
 
    O relatório "Exemplo de análise de qualidade do fornecedor" abre a página "Análise de tempo de inatividade". Observe que temos 33M total de peças com defeito, e o tempo de inatividade total causado por essas partes com defeito é 77K minutos. Alguns materiais têm menos peças com defeito, mas podem causar um atraso enorme, resultando em maior tempo de inatividade. Vamos explorá-los na página do relatório.  
-2. Observando a linha **Total de minutos de inatividade** no gráfico de combinação **Defeitos e tempo de inatividade (min) por tipo de Material**, podemos ver materiais corrugados que causam a maior tempo de inatividade.  
+2. Observando a linha **Total de minutos de inatividade** no gráfico de combinação **Defeitos e tempo de inatividade (min) por tipo de Material** , podemos ver materiais corrugados que causam a maior tempo de inatividade.  
 3. Selecione a **Corrugado** no mesmo gráfico de combinação para ver quais fábrica têm impacto por esse defeito e qual fornecedor é responsável.  
 
    ![](media/sample-supplier-quality/supplier3.png)  
@@ -158,7 +158,7 @@ Vejamos outro bloco de painel relacionado à quantidade total de defeito.
 
 1. Selecione a seta voltar ![](media/sample-supplier-quality/backarrow.png) no canto superior esquerdo acima da caixa de pergunta para retornar ao painel.  
 
-    Olhando mais de perto o bloco **Quantidade Total de Defeitos por Mês, Anos**, mostra que o primeiro semestre de 2014 tinha um número semelhante de defeitos do que em 2013, mas no segundo semestre de 2014, o número de defeitos aumentou significativamente.  
+    Olhando mais de perto o bloco **Quantidade Total de Defeitos por Mês, Anos** , mostra que o primeiro semestre de 2014 tinha um número semelhante de defeitos do que em 2013, mas no segundo semestre de 2014, o número de defeitos aumentou significativamente.  
 
     ![](media/sample-supplier-quality/supplier14.png)  
 

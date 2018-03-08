@@ -120,7 +120,7 @@ Altere os gráficos de pizza para mostrar os dados Separados em vez de ativos.
    ![](media/sample-human-resources/pbi_hr_sample_sepsover50.png)
 
    Observa a tendência no grupo etário 50+? Durante a última parte do ano, mais funcionários acima de 50 anos estão deixando a empresa voluntariamente. É uma área para investigar melhor com mais dados.
-6. Você também pode seguir as mesmas etapas para o gráfico de pizza **Contagem de funcionários ativos por gênero**, alterando-o para “separações” em vez de “funcionários ativos”. Examine os dados de separação voluntário por gênero para ver se você encontrar quaisquer outras informações.
+6. Você também pode seguir as mesmas etapas para o gráfico de pizza **Contagem de funcionários ativos por gênero** , alterando-o para “separações” em vez de “funcionários ativos”. Examine os dados de separação voluntário por gênero para ver se você encontrar quaisquer outras informações.
 7. Clique no **Power BI** na barra de navegação superior para retornar ao painel. Você pode salvar as alterações feitas no relatório ou não.
 
 ## <a name="bad-hires"></a>Contratações incorretas
@@ -131,7 +131,7 @@ A última área para explorar são as contratações incorretas. Contratações 
    ![](media/sample-human-resources/hr7.png)  
 2. Selecione a caixa de seleção **Noroeste** na segmentação Região à esquerda e a fatia **Masculino** no gráfico de rosca Contagem de Contratações Incorretas por Sexo.  Examine outros gráficos na página “Contratações Incorretas”. Mais contratações incorretas de homens do que mulheres, em muitas contratações incorretas do Grupo A.
    ![](media/sample-human-resources/pbi_hr_sample_badhirespage.png)  
-3. Observando o gráfico de rosca **Contratações incorretas por gênero** e clicando na segmentação **Região**, percebemos que Leste é a Região com mais contratações incorretas de mulheres do que de homens.  
+3. Observando o gráfico de rosca **Contratações incorretas por gênero** e clicando na segmentação **Região** , percebemos que Leste é a Região com mais contratações incorretas de mulheres do que de homens.  
 4. Selecione o nome do dashboard na barra de navegação superior para retornar ao dashboard.
 
 ## <a name="asking-a-question-in-the-qa-box"></a>Faça uma pergunta na caixa de perguntas e respostas
