@@ -1,6 +1,6 @@
 ## <a name="general"></a>Geral
 **Pergunta:** Qual é o nome do serviço Windows real?  
-**Resposta:** o gateway é chamado de serviço do gateway de dados local em Serviços
+**Resposta:** o gateway é chamado de serviço de gateway de dados local em Serviços
 
 **Pergunta:** Quais são os requisitos para o gateway?  
 **Resposta:** Dê uma olhada na seção Requisitos do [artigo principal sobre gateway](../service-gateway-onprem.md).
