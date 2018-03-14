@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/15/2017
+ms.date: 3/5/2018
 ms.author: maggies
-ms.openlocfilehash: c8b07e8c2370f7a1694b18a87b2704a7f164f79f
-ms.sourcegitcommit: ea247cb3cfc1cac076d4b076c1ad8e2fc37e15a1
+ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Início rápido: criar um relatório do Power BI para o Servidor de Relatório do Power BI
 É possível armazenar e gerenciar relatórios do Power BI localmente no portal da Web do Servidor de Relatórios do Power BI, do mesmo modo que você pode armazenar relatórios do Power BI na nuvem no serviço do Power BI (https://powerbi.com). Você cria e edita relatórios no Power BI Desktop e, em seguida, publica-os no portal da Web. Em seguida, os leitores de relatório em sua organização poderão exibi-los em um navegador ou em um aplicativo móvel do Power BI em um dispositivo móvel.

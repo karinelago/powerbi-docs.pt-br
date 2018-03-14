@@ -19,10 +19,10 @@ ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interagir com um relatório no modo de exibição de Edição no serviço do Power BI
 Os relatórios podem ser editados no serviço do Power BI e no Power BI Desktop – caso você tenha permissões de proprietário. Ao contrário do Desktop, o serviço do Power BI tem dois modos diferentes de interação com relatórios – [modo de exibição de Leitura](service-reading-view-and-editing-view.md) para *consumidores* de relatórios e modo de exibição de Edição para proprietários e criadores de relatórios. Este artigo tutorial aborda o modo de exibição de Edição no serviço do Power BI. 

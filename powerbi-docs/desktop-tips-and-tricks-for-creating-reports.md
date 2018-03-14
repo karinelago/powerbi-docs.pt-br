@@ -18,10 +18,10 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 ms.openlocfilehash: 69e4d89f4118e6ea34ddbd4308965a90a662a970
-ms.sourcegitcommit: d91436de68a0e833ecff18d976de9d9431bc4121
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Dicas e truques para criar relatórios no Power BI Desktop
 Para aproveitar ao máximo seus dados, às vezes você precisa de uma ajuda extra. Reunimos algumas dicas e truques que você pode usar ao criar relatórios no Microsoft Power BI Desktop *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot habilitado e o Power Query instalado e habilitado. 
