@@ -16,13 +16,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/21/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 797b22ed6f07e64d7e4970f8f0dfe5e93a7c0ec4
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+ms.openlocfilehash: 3a4c722144b1d3d44dee0f742b5ae90ccef53fe3
+ms.sourcegitcommit: c45498071d582dcca264216863906ffaae382523
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/01/2018
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interagindo com mapas do ArcGIS no Power BI
 Este tópico foi escrito do ponto de vista de uma pessoa que está *consumindo* um mapa do ArcGIS no serviço do Power BI, no Desktop ou em um dispositivo móvel. Depois que um criador compartilha um mapa do ArcGIS com você, há muitas formas de interagir com o mapa.  Para saber mais sobre como criar um mapa do ArcGIS, consulte [Tutorial de mapas do ArcGIS pelo ESRI](power-bi-visualization-arcgis.md).
@@ -45,7 +45,7 @@ O exemplo que estamos usando é o mesmo mapa do ArcGIS criado no [tutorial de ma
 <br/>
 
 ## <a name="user-consent"></a>Consentimento do usuário
-Na primeira vez que um colega compartilhar um mapa do ArcGIS com você, o Power BI exibirá um prompt. Os Mapas do ArcGIS para o Power BI são fornecidos pelo [ESRI](https://www.esri.com) e o uso dos Mapas do ArcGIS para o Power BI está sujeito aos termos e à política de privacidade do ESRI. Os usuários do Power BI que desejam usar os visuais dos Mapas do ArcGIS para o Power BI precisarão aceitar a caixa de diálogo de consentimento.
+Na primeira vez que um colega compartilhar um mapa do ArcGIS com você, o Power BI exibirá um prompt. O ArcGIS Maps for Power BI é fornecido pela ESRI (www.esri.com) e o uso do ArcGIS Maps for Power BI está sujeito aos termos e à política de privacidade da Esri. Os usuários do Power BI que desejam usar os visuais dos Mapas do ArcGIS para o Power BI precisarão aceitar a caixa de diálogo de consentimento.
 
 ## <a name="selection-tools"></a>Ferramentas de seleção
 O ArcGIS Maps para Power BI permite três modos de seleção. No máximo, 250 pontos de dados podem ser selecionados por vez.
@@ -118,6 +118,13 @@ Os Mapas do ArcGIS para o Power BI estão disponíveis nos seguintes serviços e
 <td>Não</td>
 </tr>
 </table>
+
+**Como os ArcGIS Maps for Power BI funcionam juntos?**
+O ArcGIS Maps for Power BI é fornecido pela Esri (www.esri.com). O uso do ArcGIS Maps for Power BI está sujeito aos [termos](https://go.microsoft.com/fwlink/?LinkID=8263222) e à [política de privacidade](https://go.microsoft.com/fwlink/?LinkID=826323) da Esri. Os usuários do Power BI que queiram usar os visuais do ArcGIS Maps for Power BI precisam aceitar a caixa de diálogo de consentimento (consulte Consentimento do usuário para obter detalhes).  Usar o ArcGIS Maps for Power BI da Esri está sujeito aos Termos e à Política de Privacidade da Esri que também estão vinculados à caixa de diálogo de consentimento. Cada usuário deve consentir antes de usar o ArcGIS Maps for Power BI pela primeira vez. Depois que o usuário aceitar o consentimento, os dados vinculados ao visual são enviados aos serviços da Esri pelo menos para geocodificação, que significa transformar informações de localização em informações de latitude e longitude que podem ser representadas em um mapa. Você deve considerar que os dados associados à visualização de dados podem ser enviados aos serviços da Esri. A Esri fornece serviços como mapas de base, análise espacial, geocodificação, etc. O visual do ArcGIS Maps for Power BI interage com esses serviços usando uma conexão SSL protegida por um certificado fornecido e mantido pela Esri. Informações adicionais sobre o ArcGIS Maps for Power BI podem ser obtidas da [página do produto ArcGIS Maps for Power BI](https://www.esri.com/powerbi).
+
+Quando um usuário se inscreve para uma assinatura Plus oferecida pela Esfri por meio do ArcGIS Maps for Power BI, ele está entrando em uma relação direta com a Esri. O Power BI não envia informações pessoais sobre o usuário à Esri. O usuário entra e confia em um aplicativo AAD fornecido pela Esri usando sua própria identidade do AAD. Ao fazer isso, o usuário compartilhará suas informações pessoais diretamente com a Esri. Depois que o usuário adicionar o conteúdo Plus a um visual do ArcGIS Maps for Power BI, outros usuários do Power BI também precisarão de uma assinatura Plus da Esri para exibir ou editar esse conteúdo. 
+
+Para obter perguntas técnicas detalhadas sobre como o ArcGIS Maps for Power BI da Esri funciona, contate a Esri por meio do site de suporte.
 
 **O mapa do ArcGIS não está sendo exibido**    
 Em serviços ou aplicativos em que os Mapas do ArcGIS para o Power BI não estiverem disponíveis, a visualização será mostrada como um visual vazio com o logotipo do Power BI.

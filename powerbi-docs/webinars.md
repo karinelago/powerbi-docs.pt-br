@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/01/2018
 ms.author: maikelson
-ms.openlocfilehash: a16ed05732f5031f0a6f33522d52bb501e241c4f
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
+ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 03/02/2018
 ---
 # <a name="power-bi-webinars"></a>Webinars do Power BI
 
@@ -39,6 +39,10 @@ Tenha uma introdução com estes webinars populares sob demanda
 <br>por Miranda Li
 <br>[Assista agora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
 
+**Aprenda a navegar por um dashboard do Power BI em 20 minutos**
+<br>por Miguel Martinez
+<br>[Registre-se e assista agora](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Melhor juntos: cinco benefícios que os usuários do Excel obterão ao usar o Power BI)
 <br>por Carlos Otero e Miguel Martinez
 <br>[Registre-se e assista agora](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
@@ -49,36 +53,14 @@ Tenha uma introdução com estes webinars populares sob demanda
 
 Registrar-se para ouvir especialistas do Power BI e participar de sessões ao vivo de P e R
 
-**Série de webinars profissionais de finanças do Office 365 – episódio 2: automatizar relatórios recorrentes e habilitar análise de autoatendimento**
-<br>por Mark Traverso e Miguel Martinez
-<br>*15 de fevereiro, 12:00 PST, 15:00 EST*
+**Série de webinar de estrutura de adoção do Power BI: parte 1 – Adoção: adotar uma cultura controlada por dados**
+<br>por Manu Kanwarpal
+<br>*8 de março, 9h PST, 12h EST*
 
-Saiba mais dicas, truques e práticas recomendadas para realizar muito mais em seu trabalho diário usando o Office 365.
+Mude a mentalidade da sua organização para uma cultura controlada por dados e registre-se na série de webinars que oferece uma estrutura de adoção para o Power BI da Microsoft. A adoção da BI (business intelligence) de autoatendimento é desafiadora, e ter as ferramentas é apenas a primeira etapa da sua jornada. A adoção bem-sucedida requer uma alteração nas pessoas, processos e tecnologia.
+Este webinar é o primeiro em uma série de cinco partes que libera o potencial do Power BI para sua organização.
 
-[Registre-se para assistir em 15 de fevereiro](https://aka.ms/Office365FinanceProsPBI)
-
-**Venda de soluções de BI com a Microsoft**
-<br>por Tamer Farag
-<br>*15 de fevereiro, 8:00 PST, 11:00 EST*
-
-Participe desse webinar para saber como fazer uma parceria de sucesso com a Microsoft para capturar a oportunidades de mercado de Business Intelligence. Obter uma visão geral de nossos treinamentos, materiais de marketing, incentivos e ofertas mais atualizados para ajudar a construir e expandir seus negócios. Além disso, saiba como ver uma demonstração do PowerBI.com e AppSource.com para verificar se suas ofertas e soluções são apresentadas corretamente para os clientes e os vendedores da Microsoft.
-
-[Registre-se para assistir em 15 de fevereiro](https://infopedia.eventbuilder.com/event?eventid=l9d4s7)
-
-**Aprenda a navegar por um dashboard do Power BI em 20 minutos**
-<br>por Miguel Martinez
-<br>*21 de fevereiro, 10h PST, 13h EST*
-
-Você já abriu um dashboard do Power BI apenas para pensar: e agora?  Como navego nele para localizar os dados que são importantes para mim? Você limita o uso de filtros e segmentações de dados por medo de ‘estragar algo’?  Não se preocupe, venha aprender a navegar pelo dashboard do Power BI. Nós vamos orientá-lo sobre os recursos comuns usados por outros gerentes para fazer drill down nos dados desejados, quando você quiser.
-
-[Registre-se para assistir em 21 de fevereiro](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
-
-**Visualizar conjuntos de dados públicos ou privados com o novo conector do Power BI e data.world**
-<br>*22 de fevereiro, 10h PST, 13h EST*
-
-Em colaboração com data.world, a Microsoft lançou um novo conector de dados que permite importar conjuntos de dados do data.world no Power BI Desktop. Participe para saber como aproveitar esse ótimo e novo conector e aproveitar o poder da comunidade do data.world para compartilhar e colaborar com outras pessoas em sua história de dados.
-
-[Registre-se para assistir em 22 de fevereiro](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+[Registre-se para assistir em 8 de março](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
 
 >[Participar dos próximos webinars na comunidade do Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
@@ -110,7 +92,15 @@ Assista a sessões gravadas a qualquer momento
 <br>por Jon Thompson do Blue Margin e Jim Pastor do Elgin Fastener Group
 <br>[Registre-se e assista agora](https://info.microsoft.com/digital-transformation-in-manufacturing.html?Is=Website)
 
+**Visualizar conjuntos de dados públicos ou privados com o novo conector do Power BI e data.world**
+<br>por Patrick McGarry e Miguel Martinez
+<br>[Registre-se e assista agora](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
 ### <a name="advanced-topics"></a>Tópicos avançados ###
+
+**Série de webinars profissionais de finanças do Office 365 – episódio 2: automatizar relatórios recorrentes e habilitar análise de autoatendimento**
+<br>por Mark Traverso e Miguel Martinez
+<br>[Registre-se e assista agora](https://aka.ms/Office365FinanceProsPBI)
 
 **Como implementar uma estratégia de governança de dados bem-sucedida que torna sua organização mais segura**
 <br>por Ajay Anandan

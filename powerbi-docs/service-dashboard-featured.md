@@ -16,19 +16,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 81ea6b32c6f61299c410325a432c521d8b402549
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: efa6d0266ae6fc8418ff4a6f2f78e47f5481d166
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Painéis em destaque no serviço do Power BI
 ## <a name="create-a-featured-dashboard"></a>Criar um Dashboard em destaque
 Muitos de nós temos um painel que é visitado mais do que qualquer outro.  Pode ser o painel que usamos para administrar nossos negócios, ou talvez um que contenha uma agregação de blocos de vários painéis e relatórios diferentes.
 
-![](media/service-dashboard-featured/power-bi-feature-nav.png)
+![ícone definir como em destaque](media/service-dashboard-featured/power-bi-feature-nav.png)
 
 Ao selecionar um dashboard como *em destaque*, todas as vezes que você abrir o serviço do Power BI, ele será aberto com esse dashboard exibido.  
 
@@ -47,22 +48,22 @@ Veja Amanda criar um dashboard em destaque e depois siga as instruções abaixo 
 
 
 1. Abra o dashboard que você deseja definir como *Em destaque*. 
-2. Na barra de navegação superior, você verá **Definir como em destaque** ou apenas o ícone Em destaque ![](media/service-dashboard-featured/power-bi-featured-icon.png). Selecione um.
+2. Na barra de navegação superior, você verá **Definir como em destaque** ou apenas o ícone em destaque ![ícone em destaque](media/service-dashboard-featured/power-bi-featured-icon.png). Selecione um.
    
-    ![](media/service-dashboard-featured/power-bi-set-as-featured.png)
+    ![Ícone Definir como em destaque](media/service-dashboard-featured/power-bi-set-as-featured.png)
 3. Confirme a seleção.
    
-    ![](media/service-dashboard-featured/power-bi-create-featured.png)
+    ![definir dashboard em destaque](media/service-dashboard-featured/power-bi-create-featured.png)
 
 ## <a name="change-the-featured-dashboard"></a>Alterar o painel em destaque
 É claro que, se mudar de ideia mais tarde, você poderá definir um novo dashboard como o dashboard em destaque.
 
 1. Siga as etapas 1 e 2 acima.
    
-    ![](media/service-dashboard-featured/power-bi-change-feature.png)
+    ![Janela Alterar dashboard em destaque](media/service-dashboard-featured/power-bi-change-feature.png)
 2. Selecione **Definir como em destaque**. Remover o destaque de um dashboard não o remove do espaço de trabalho.  
    
-    ![](media/service-dashboard-featured/power-bi-success.png)
+    ![mensagem de êxito](media/service-dashboard-featured/power-bi-success.png)
 
 ## <a name="remove-the-featured-dashboard"></a>Remover o painel em destaque
 Se você decidir que não deseja nenhum dashboard definido como em destaque, aqui está como remover a definição em destaque de um dashboard.
@@ -70,7 +71,7 @@ Se você decidir que não deseja nenhum dashboard definido como em destaque, aqu
 1. Abra o dashboard que está definido atualmente como em destaque.
 2. Na barra de menu superior, selecione **Desabilitar em destaque**.
    
-    ![](media/service-dashboard-featured/power-bi-unfeature.png)
+    ![excluir em destaque](media/service-dashboard-featured/power-bi-unfeature.png)
 
 Agora o Power BI será aberto para o último painel que você usou.  
 

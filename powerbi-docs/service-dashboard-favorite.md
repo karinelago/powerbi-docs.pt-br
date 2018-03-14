@@ -16,14 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 779ef2c532d0b580f4a3d19c50815193d03c2f07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Adicione painéis, relatórios e aplicativos aos favoritos no serviço do Power BI
 Quando você adicionar um conteúdo a *Favoritos*, poderá acessá-lo de todos os espaços de trabalho.  Os favoritos normalmente são o conteúdo que você visita com mais frequência.
@@ -42,31 +42,31 @@ Assista à Amanda adicionar favoritos ao seu espaço de trabalho e, em seguida, 
 
 
 1. Abra um painel ou relatório que você usa com frequência. Até mesmo o conteúdo que foi compartilhado com você pode ser um *favorito*.
-2. No canto superior direito do serviço do Power BI, selecione **Favoritos** ou o ícone de estrela ![](media/service-dashboard-favorite/power-bi-favorite-icon.png).
+2. No canto superior direito do serviço do Power BI, selecione **Favorito** ou o ícone de estrela ![ícone de estrela](media/service-dashboard-favorite/power-bi-favorite-icon.png).
    
-   ![](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
+   ![Ícone de Favorito](media/service-dashboard-favorite/powerbi-dashboard-favorite.png)
    
    Também é possível adicionar um painel ou relatório como favorito da guia de exibição de conteúdo de **Painéis** ou **Relatórios** do seu espaço de trabalho.
    
-   ![](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
+   ![Guia Dashboard com estrela amarela](media/service-dashboard-favorite/power-bi-dashboard-favorite.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Adicionar um aplicativo como *favorito*
 
 1. No painel de navegação esquerdo, selecione **Aplicativos**.
 
-  ![](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![dashboard](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
-2. Passe o mouse sobre um aplicativo para exibir mais detalhes.  Selecione o ícone de estrela ![](media/service-dashboard-favorite/power-bi-favorite-icon.png) para definir como um favorito.
+2. Passe o mouse sobre um aplicativo para exibir mais detalhes.  Selecione o ícone de ![ícone de estrela](media/service-dashboard-favorite/power-bi-favorite-icon.png)  estrela para definir como um favorito.
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-app.png)
+   ![passe o mouse sobre o aplicativo](media/service-dashboard-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Trabalhando com *favoritos*
 1. Para acessar seus favoritos, em qualquer espaço de trabalho, selecione a seta do submenu à direita de **Favoritos**.  Deste local, você pode selecionar um favorito para abri-lo. Apenas cinco favoritos são listados (em ordem alfabética). Se você tiver mais de cinco, selecione **Ver todos** para abrir a tela Favoritos (consulte o item 2 abaixo). 
    
-   ![](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
-2. Para ver **todo** o conteúdo que você adicionou como favorito, no painel de navegação esquerdo, selecione **Favoritos** ou o ícone de Favoritos ![](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
+   ![Submenu Favoritos](media/service-dashboard-favorite/power-bi-favorite-flyout-new.png)
+2. Para ver **todo** o conteúdo que você adicionou como favoritos, no painel de navegação esquerdo, selecione **Favoritos** ou o ícone de Favoritos ![ícone de estrela](media/service-dashboard-favorite/power-bi-favorites-icon.png).  
    
-    ![](media/service-dashboard-favorite/power-bi-favorites-screen.png)
+    ![janela de favorito](media/service-dashboard-favorite/power-bi-favorites-screen.png)
    
    Aqui, você pode tomar uma ação: abrir, identificar os proprietários e até compartilhar com seus colegas.
 
@@ -75,7 +75,7 @@ Você não usa mais um relatório com tanta frequência como costumava?  É poss
 
 1. No painel de navegação esquerdo, selecione **Favoritos** para abrir a tela **Favoritos**.
    
-   ![](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
+   ![tela Favoritos](media/service-dashboard-favorite/power-bi-unfavorites-screen.png)
 2. Selecione a estrela amarela ao lado do conteúdo para removê-lo dos favoritos.
 
 > **OBSERVAÇÃO**: você pode também remover um painel, um relatório ou o próprio aplicativo dos favoritos. Basta abrir e desmarcar o ícone amarelo.   

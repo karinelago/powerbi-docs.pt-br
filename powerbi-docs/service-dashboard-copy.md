@@ -16,16 +16,17 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/17/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 6527006095e6d716687477e7408a980ee765fb5a
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Criar uma cópia de um dashboard no serviço do Power BI
-![](media/service-dashboard-copy/power-bi-dashboard.png)
+![dashboard](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Há vários motivos diferentes para fazer uma cópia de um dashboard. Talvez você queira fazer alterações e testar seu desempenho em relação ao original ou criar versões ligeiramente diferentes para distribuir para cada colega, região ou equipe. Talvez um colega goste muito do design do seu dashboard e deseja usá-lo para criar relatórios para os gerentes dele. Outro motivo seria se você tiver um novo banco de dados com a mesma estrutura de dados e tipos de dados e desejasse reutilizar o dashboard que você já criou. Isso também pode ser feito mas requer algum trabalho no Power BI Desktop. 
 
@@ -36,13 +37,13 @@ Para fazer uma cópia de um dashboard, você deve ser o *criador* do dashboard. 
 1. Abra o dashboard.
 2. No canto superior direito, selecione as reticências (...) e escolha **Duplicar dashboard**.
    
-   ![](media/service-dashboard-copy/power-bi-dulicate.png)
+   ![menu de reticências](media/service-dashboard-copy/power-bi-dulicate.png)
 3. Dê um nome ao dashboard e selecione **Duplicar**. 
    
-   ![](media/service-dashboard-copy/power-bi-name.png)
+   ![Caixa de diálogo Duplicar dashboard](media/service-dashboard-copy/power-bi-name.png)
 4. O novo dashboard será salvo no mesmo espaço de trabalho que o original. 
    
-   ![](media/service-dashboard-copy/power-bi-copied.png)
+   ![Guia Dashboards](media/service-dashboard-copy/power-bi-copied.png)
 
 5.    Abra o novo dashboard e edite conforme necessário. Aqui estão algumas coisas que talvez você queira fazer a seguir:    
     a. [Mover, renomear, redimensionar ou até mesmo excluir blocos](service-dashboard-edit-tile.md).  

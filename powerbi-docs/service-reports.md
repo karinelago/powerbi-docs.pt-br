@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: baa94483b8174d62d0f7e27d726bb59dbb0b4c10
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Reports
+ms.openlocfilehash: 664e07b1a772c0eb5d14372061511bc86c671b64
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reports-in-power-bi"></a>Relatórios no Power BI
 ## <a name="what-is-a-power-bi-report"></a>O que é um relatório do Power BI?
 Um ***relatório*** do Power BI é uma exibição de um conjunto de dados em várias perspectivas, com visualizações que representam as diferentes descobertas e informações obtidas por meio desse conjunto de dados.  Um relatório pode ter uma única visualização ou páginas repletas de visualizações. Dependendo da sua função de trabalho, você pode ser alguém que *cria* relatórios e/ou você pode ser alguém que *consome* ou usa relatórios.
 
-![](media/service-reports/reportview.png)
+![página de relatório](media/service-reports/reportview.png)
 
 Esse relatório tem 3 páginas (ou guias) e estamos exibindo a página de Visão geral de vendas de lojas. Nesta página estão 6 visualizações diferentes e um título de página. As visualizações podem ser *fixadas* em dashboards e, quando essa visualização fixada é selecionada, ela abre o relatório do qual ela foi fixada.
 

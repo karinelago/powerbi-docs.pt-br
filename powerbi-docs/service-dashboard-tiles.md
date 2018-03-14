@@ -15,19 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/23/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: f6ddae485f15a1ebeed2ef1dfa7a1d373f9bb04b
-ms.sourcegitcommit: 74fbbca81a056dda19b3647ae058005aba5296f5
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 3b6d8c31c9ba03b0119635af5f9270a584081139
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Blocos de painel no Power BI
 Os dashboards e blocos de dashboard são um recurso do serviço do Power BI e não do Power BI Desktop. Os blocos de dashboards não podem ser criados ou fixados no Power BI Mobile, mas [podem ser exibidos e compartilhados](mobile-tiles-in-the-mobile-apps.md). E, no Power BI Mobile, você pode [adicionar imagens ao seu dashboard com seu aplicativo de iPhone](mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Blocos de painel
-![](media/service-dashboard-tiles/power-bi-dashboard.png)
+![Dashboard do Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
 
 Um bloco é um instantâneo dos dados fixados no painel. Um bloco pode ser criado de um relatório, conjunto de dados, painel, da caixa de P e R e do SSRS (SQL Server Reporting Services) e muito mais.  Essa captura de tela mostra vários blocos diferentes fixados a um dashboard.
 
@@ -53,34 +54,34 @@ Há diversas maneiras de adicionar (fixar) um bloco em um dashboard. Os blocos p
 
 Além disso, blocos autônomos para imagens, caixas de texto, vídeos, dados de streaming e o conteúdo da Web podem ser criados diretamente no dashboard usando a opção [Adicionar bloco](service-dashboard-add-widget.md).
 
-  ![](media/service-dashboard-tiles/add_widgetnew.png)
+  ![Ícone Adicionar bloco](media/service-dashboard-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interagir com blocos em um painel
 ### <a name="move-and-resize-a-tile"></a>Mover e redimensionar um bloco
-Pegue um bloco e [mova-o no dashboard](service-dashboard-edit-tile.md). Passe o mouse e selecione a alça ![](media/service-dashboard-tiles/resize-handle.jpg) para redimensionar o bloco.
+Pegue um bloco e [mova-o no dashboard](service-dashboard-edit-tile.md). Passe o mouse e selecione o identificador ![identificador](media/service-dashboard-tiles/resize-handle.jpg) para redimensionar o bloco.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Passe o mouse sobre um bloco para alterar a aparência e o comportamento
 1. Passe o mouse sobre o bloco para exibir as reticências.
    
-    ![](media/service-dashboard-tiles/ellipses_new.png)
+    ![reticências do bloco](media/service-dashboard-tiles/ellipses_new.png)
 2. Selecione as reticências para abrir o menu de ação do bloco.
    
-    ![](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![ícone de reticências](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     A partir daqui, você pode:
    
-   * [Abrir o relatório usado para criar este bloco ](service-reports.md) ![](media/service-dashboard-tiles/chart-icon.jpg)  
+   * [Abrir o relatório que foi usado para criar este bloco ](service-reports.md) ![ícone de relatório](media/service-dashboard-tiles/chart-icon.jpg)  
    
-   * [Abrir a planilha usada para criar este bloco ](service-reports.md) ![](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
+   * [Abrir a planilha que foi usada para criar este bloco ](service-reports.md) ![ícone de planilha](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Exibir no modo de foco ](service-focus-mode.md) ![](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Exportar os dados usados no bloco](power-bi-visualization-export-data.md) ![](media/service-dashboard-tiles/export-icon.png)
-     * [Editar o título e subtítulo, adicionar um hiperlink, exibir o horário da última atualização](service-dashboard-edit-tile.md) ![](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Executar análises ](service-insights.md) ![](media/service-dashboard-tiles/power-bi-insights.png)
-     * [Fixar o bloco em outro dashboard ](service-pin-tile-to-another-dashboard.md)
-       ![](media/service-dashboard-tiles/pin-icon.jpg)
-   * [Remover o bloco](service-dashboard-edit-tile.md)
-     ![](media/service-dashboard-tiles/trash-icon.png)
+     * [Exibir no modo de foco ](service-focus-mode.md) ![ícone de foco](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+     * [Exportar os dados usados no bloco](power-bi-visualization-export-data.md) ![ícone exportar dados](media/service-dashboard-tiles/export-icon.png)
+     * [Editar o título e o subtítulo, adicionar um hiperlink, exibir o horário da última atualização](service-dashboard-edit-tile.md) ![ícone editar](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Executar insights ](service-insights.md) ![ícone de insights](media/service-dashboard-tiles/power-bi-insights.png)
+     * [Fixar o bloco em outro dashboard](service-pin-tile-to-another-dashboard.md)
+       ![ícone fixar](media/service-dashboard-tiles/pin-icon.jpg)
+     * [Remover o bloco](service-dashboard-edit-tile.md)
+     ![ícone excluir](media/service-dashboard-tiles/trash-icon.png)
 3. Para fechar o menu de ação, selecione uma área em branco na tela.
 
 ### <a name="select-click-a-tile"></a>Selecionar (clicar em) um bloco

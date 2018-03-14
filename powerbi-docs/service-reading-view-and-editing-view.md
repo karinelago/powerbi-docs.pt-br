@@ -15,18 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 6948f0e333ba1136f6fda8fa0f62b146cefdd710
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Reports
+ms.openlocfilehash: 6eca438c9e12d99f925aef864ed9b74e16ef30b7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Modo de Exibição de Leitura e Modo de Exibição de Edição em relatórios de serviço do Power BI
 No serviço do Power BI (não o Power BI Desktop), há dois modos para exibir e interagir com relatórios: Modo de Exibição de Leitura e Modo de Exibição de Edição. O modo de exibição de Leitura está disponível para todos os usuários e foi especialmente projetado para *consumidores de dados*, enquanto o modo de exibição de Edição só está disponível para *criadores* e proprietários de relatórios. 
 
-![](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
+![arte de criadores e de consumidores de relatório](media/service-reading-view-and-editing-view/power-bi-creators-consumers.png)
 
 ## <a name="report-reading-view"></a>Modo de exibição de Leitura do relatório
 
@@ -83,17 +84,17 @@ Lembre-se de que somente o criador e os proprietários do relatório poderão ab
 
 1. Por padrão, geralmente um relatório é aberto no Modo de Exibição de Leitura. Você consegue saber se está no Modo de Exibição de Leitura, se vir uma opção para **Editar relatório**. Se a opção **Editar relatório** estiver acinzentada, você não tem permissões para abrir o relatório no Modo de Exibição de Edição.
 
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
+   ![Editar relatório esmaecido](media/service-reading-view-and-editing-view/power-bi-edit-report-grey.png)
 
 2. Se a opção **Editar relatório** não estiver acinzentada, selecione-a para abrir o relatório no Modo de Exibição de Edição. 
    
-   ![](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
+   ![Opção Editar relatório](media/service-reading-view-and-editing-view/power-bi-edit-report.png)
    
    Agora o relatório está no modo de exibição de Edição e usa as mesmas [configurações de vídeo](power-bi-report-display-settings.md) usadas por você na última vez no modo de exibição de Leitura.
 
 2. Para retornar ao Modo de Exibição de Leitura, selecione **Modo de Exibição de Leitura** na barra de navegação superior.
    
-    ![](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
+    ![Opção Modo de exibição de leitura](media/service-reading-view-and-editing-view/power-bi-reading-view.png)
 
 
 

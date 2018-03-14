@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 49e0b976fcee8c18edc14f80df2786e5ebf3fedc
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+LocalizationGroup: Ask questions of your data
+ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitar P e R para conexões dinâmicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados local?  O que é uma conexão dinâmica?
@@ -44,15 +45,15 @@ Para obter mais informações, veja:
 ## <a name="enable-qa"></a>Habilitar a P e R
 Depois que o gateway de dados estiver configurado, conecte-se aos seus dados por meio do Power BI.  Crie um dashboard usando seus dados locais ou carregue um arquivo .pbix que usa dados locais.  Talvez você também já tenha dados locais em dashboards, relatórios e conjuntos de dados que foram compartilhados com você.
 
-1. No canto superior direito do Power BI, selecione o ícone de engrenagem ![](media/service-q-and-a-direct-query/power-bi-cog.png) e escolha **Configurações**.
+1. No canto superior direito do Power BI, selecione o ícone de engrenagem ![ícone de engrenagem](media/service-q-and-a-direct-query/power-bi-cog.png) e escolha **Configurações**.
    
-   ![](media/service-q-and-a-direct-query/powerbi-settings.png)
+   ![Menu Configurações](media/service-q-and-a-direct-query/powerbi-settings.png)
 2. Selecione **conjuntos de dados** e escolha o conjunto de dados que será habilitado para a P e R.
    
-   ![](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
+   ![Tela de conjuntos de dados do menu Configurações](media/service-q-and-a-direct-query/power-bi-q-and-a-settings.png)
 3. Expanda **P e R e Cortana**, marque a caixa de seleção **Ativar P e R neste conjunto de dados** e escolha **Aplicar**.
    
-    ![](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
+    ![Área expandida de P e R](media/service-q-and-a-direct-query/power-bi-q-and-a-directquery.png)
 
 ## <a name="what-data-is-cached-and-how-is-privacy-protected"></a>Quais dados são armazenados em cache e como a privacidade é protegida?
 Quando você habilita a P e R para seus dados locais, um subconjunto dos dados é armazenado em cache no serviço. Isso é feito para garantir que a P e R funcione com um desempenho razoável. O Power BI exclui valores com mais de 24 caracteres do cache. O cache é excluído em algumas horas quando você desabilita a P e R desmarcando **Ativar P e R neste conjunto de dados** ou quando você exclui o conjunto de dados.

@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 06/30/2017
 ms.author: maghan
-ms.openlocfilehash: 6019cde4864087c75b22663ff5461790d4e24961
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+LocalizationGroup: Administration
+ms.openlocfilehash: c4fa2e0e2927f8050648884e1833adf618a7d4f5
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="purchasing-power-bi-pro"></a>Comprando o Power BI Pro
 O Power BI Pro é voltado para usuários que publicam relatórios, compartilham dashboards, colaboram com colegas em espaços de trabalho e participam de outras atividades relacionadas. Por exemplo, ele possibilita:
@@ -63,7 +64,7 @@ Em seguida, é possível selecionar **Iniciar avaliação**.
 > Com a disponibilidade do Power BI Premium e as alterações na oferta gratuita do Power BI em 1º de junho de 2017, você pode estar qualificado para uma Avaliação Pro Estendida. Para obter mais informações, consulte [Ativação da Avaliação Pro Estendida](service-extended-pro-trial.md).
 
 ### <a name="what-this-looks-like-within-the-service"></a>Aparência dentro do serviço
-Quando estiver conectado ao serviço, você poderá verificar se tem uma conta de avaliação do Pro indo até o ícone de **engrenagem* e selecionando **Gerenciar armazenamento pessoal**.
+Quando estiver conectado ao serviço, será possível verificar se você tem uma conta de avaliação Pro indo até o ícone de **engrenagem** e selecionando **Gerenciar armazenamento pessoal**.
 
 ![](media/service-admin-purchasing-power-bi-pro/powerbi-pro-trial3.png)
 

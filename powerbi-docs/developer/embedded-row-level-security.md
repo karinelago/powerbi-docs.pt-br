@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: b9d39e2214b20677141a6e6beb9d61b628c320c2
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 0d7127d43e2764e1dcd15f7052b3367c8629d2f6
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Usar segurança em nível de linha com conteúdo inserido do Power BI
 Segurança em nível de linha (RLS) pode ser usada para restringir o acesso do usuário aos dados dentro de painéis, blocos, relatórios e conjuntos de dados. Vários usuários diferentes podem trabalhar com esses mesmos artefatos durante a visualização de dados diferentes. Inserir dá suporte a RLS.
@@ -134,11 +134,52 @@ A identidade efetiva fornecida para a propriedade de nome de usuário deve ser u
 
 **Configuração do gateway de dados local**
 
-Um [gateway de dados local](../service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não aplicará a propriedade aos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
+Um [Gateway de dados local](../service-gateway-onprem.md) é usado ao trabalhar com as conexões dinâmicas do Analysis Services. Ao gerar um token de inserção, com uma identidade listada, a conta mestra precisa estar listada como um administrador do gateway. Se a conta mestra não estiver listada, a segurança em nível de linha não aplicará a propriedade aos dados. Um não administrador do gateway pode fornecer funções, mas deve especificar seu próprio nome de usuário para a identidade efetiva.
 
 **Uso de funções**
 
 As funções podem ser fornecidas com a identidade em um token de inserção. Se nenhuma função for fornecida, o nome de usuário fornecido será usado para resolver as funções associadas.
+
+**Usando o recurso CustomData**
+
+O recurso CustomData permite passar texto livre (cadeia de caracteres) usando a propriedade de cadeia de conexão CustomData, um valor a ser usado pelo AS (por meio da função CUSTOMDATA ()).
+É possível usá-lo como uma maneira alternativa de personalizar consumo de dados.
+É possível usá-lo dentro da consulta DAX de função e usá-lo sem qualquer função em uma consulta DAX de medida.
+O recurso CustomData faz parte de nossa funcionalidade de geração de token para os seguintes artefatos: dashboard, relatório e bloco. Dashboards podem ter várias identidades CustomData (um por bloco/modelo).
+
+> [!NOTE]
+> O recurso CustomData funcionará apenas para modelos que residem no Azure Analysis Services e funciona apenas em modo dinâmico. Ao contrário dos usuários e das funções, o recurso de dados personalizado não pode ser definido dentro de um arquivo .pbix. Ao gerar um token com o recurso de dados personalizado, é necessário ter um nome de usuário.
+>
+>
+
+**Adições do SDK CustomData**
+
+A propriedade de cadeia de caracteres CustomData foi adicionada à nossa identidade efetiva no cenário de geração de tokens.
+        
+        [JsonProperty(PropertyName = "customData")]
+        public string CustomData { get; set; }
+
+A identidade pode ser criada tendo dados personalizados usando a chamada a seguir:
+
+        public EffectiveIdentity(string username, IList<string> datasets, IList<string> roles = null, string customData = null);
+
+**Uso do SDK CustomData**
+
+Se você estiver chamando a API REST, será possível adicionar dados personalizados dentro de cada identidade, por exemplo:
+
+```
+{
+    "accessLevel": "View",
+    "identities": [
+        {
+            "username": "EffectiveIdentity",
+            "roles": [ "Role1", "Role2" ],
+            "customData": "MyCustomData",
+            "datasets": [ "fe0a1aeb-f6a4-4b27-a2d3-b5df3bb28bdc" ]
+        }
+    ]
+}
+```
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
 * A atribuição de usuários a funções no serviço do Power BI não afeta a RLS ao usar um token de inserção.
@@ -150,4 +191,3 @@ As funções podem ser fornecidas com a identidade em um token de inserção. Se
 * Uma lista de identidades permite vários tokens de identidade para a inserção de painéis. Para todos os outros artefatos, a lista contém uma única identidade.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
-

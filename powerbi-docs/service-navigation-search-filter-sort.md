@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f76bc638893a06545fb5a71ec633dd470fd47dd8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 26308afc86ce83a24a40b078770db35213f600e0
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegação: pesquisando, buscando e classificando seu conteúdo no serviço do Power BI
 Há muitas maneiras de navegar pelo seu conteúdo no serviço do Power BI. O conteúdo é organizado em entre pastas de trabalho por tipo: painéis, relatórios, pastas de trabalho e conjuntos de dados.  E o conteúdo também é organizado por uso: favoritos, recentes, aplicativos, compartilhado comigo e em destaque. Esses caminhos diferentes em seu conteúdo permitem que você localize rapidamente aquilo de que precisa no serviço do Power BI.  
@@ -34,26 +34,26 @@ Há muitas maneiras de navegar pelo seu conteúdo no serviço do Power BI. O con
 
 O serviço do Power BI separa seu conteúdo do espaço de trabalho por tipo: painéis, relatórios, pastas de trabalho e conjuntos de dados. Você verá essa organização quando selecionar um espaço de trabalho. Neste exemplo, o espaço de trabalho do aplicativo é denominado "Exemplo de aplicativo de marketing e vendas" e contém 2 painéis, 6 relatórios, 1 pasta de trabalho e 5 conjuntos de dados.
 
-![](media/service-navigation-search-filter-sort/workspaces.gif)
+![vídeo](media/service-navigation-search-filter-sort/workspaces.gif)
 
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Pesquisa e classificação em espaços de trabalho
 Um espaço de trabalho tem quatro guias de conteúdo: Dashboards, Relatórios, Pastas de trabalho e Conjuntos de dados.  Cada uma dessas guias contém um campo de pesquisa e um botão de classificação.  Quando você estiver começando com o serviço do Power BI, talvez não ache esses recursos úteis, porque você terá apenas um ou dois itens por guia.  No entanto, ao longo do tempo você poderá ter que lidar com longas listas de conteúdo.  Use a pesquisa e classificação para encontrar facilmente o que você precisa.
 
-![](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
+![Guia Dashboards](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 
 * Inserir um termo de pesquisa para localizar uma correspondência na tela atual
   
-   ![](media/service-navigation-search-filter-sort/power-bi-search2.png)
+   ![inserir termo de pesquisa](media/service-navigation-search-filter-sort/power-bi-search2.png)
 * Selecione o botão de classificação para exibir opções para a página atual. As opções são: classificar por nome ou por proprietário.
   
-   ![](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
+   ![menu de classificação](media/service-navigation-search-filter-sort/power-bi-sort-alpha.png)
 
 ## <a name="navigation-using-the-left-navbar"></a>Navegação usando a barra de navegação esquerda
-A barra de navegação esquerda classifica seu conteúdo de modo a tornar ainda mais fácil para você encontrar rapidamente aquilo de que precisa.  
+O painel de navegação esquerdo classifica seu conteúdo de modo a tornar ainda mais fácil para você encontrar rapidamente aquilo de que precisa.  
 
-![](media/service-navigation-search-filter-sort/power-bi-newnav.png)
+![painel de navegação esquerdo](media/service-navigation-search-filter-sort/power-bi-newnav.png)
 
 
 
@@ -61,7 +61,7 @@ O conteúdo que você cria para seu próprio uso está disponível em **Meu Espa
 
 Além disso, você pode marcar o conteúdo como [favorito](service-dashboard-favorite.md) e [em destaque](service-dashboard-featured.md). Escolha qual painel você deseja exibir com mais frequência e defina-o como seu painel *em destaque*. Cada vez que você abrir o serviço do Power BI, esse é o dashboard que será exibido em primeiro. Você tem uma série de dashboards e aplicativos que visita com frequência? Ao defini-los como favoritos, eles ficarão sempre disponíveis na sua barra de navegação à esquerda.
 
-![](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
+![Submenu Favoritos](media/service-navigation-search-filter-sort/power-bi-favorite-flyout.png).
 
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/20/2018
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 5c208ab13398987350d2acd72e29dbc4d6a6c4a1
-ms.sourcegitcommit: 2ae323fbed440c75847dc55fb3e21e9c744cfba0
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 98856d551e0f124d7ea3e038623e2340ceeb18b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar ou remover um bloco do dashboard
 
@@ -54,23 +55,23 @@ Este artigo aborda o seguinte.
 ## <a name="create-a-new-visualization-and-pin-it-to-the-dashboard"></a>Criar uma nova visualização e fixá-la no dashboard
 1. No dashboard Análise de Gastos de TI, selecione o bloco "Valor" para abrir o relatório.
 
-    ![](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
+    ![Bloco Valor](media/service-dashboard-edit-tile/power-bi-amount-tile.png)
 
 2. Abra o relatório no modo de exibição de Edição, selecionado **Editar Relatório** da barra de menu superior.
 
 3. Adicione uma nova página de relatório selecionando o sinal de mais (+) na parte inferior do relatório.
 
-    ![](media/service-dashboard-edit-tile/power-bi-add-page.png)
+    ![ícone de adição](media/service-dashboard-edit-tile/power-bi-add-page.png)
 
 4. No painel CAMPOS, selecione **Fato > Valor** e **Área de Negócios > Área de Negócios**.
  
 5. No painel VISUALIZAÇÕES, selecione o ícone de Gráfico de rosca para converter a visualização em um Gráfico de rosca.
 
-    ![](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
+    ![Painel Visualizações](media/service-dashboard-edit-tile/power-bi-donut-chart.png)
 
 5. Selecione o ícone de fixar e fixe o gráfico de rosca no dashboard de exemplo de Análise de Gastos de TI.
 
-   ![](media/service-dashboard-edit-tile/power-bi-pin.png)
+   ![passar o mouse sobre o bloco](media/service-dashboard-edit-tile/power-bi-pin.png)
 
 6. Quando a mensagem de "Êxito" for exibida, selecione **Ir para o dashboard**. Será solicitado que você salve suas alterações. Selecione **Salvar**.
 
@@ -86,24 +87,23 @@ No dashboard, localize o novo bloco. Selecione e mantenha o bloco para arrastá-
 ## <a name="resize-the-tile"></a>Redimensionar o bloco
 Você pode fazer muitos tamanhos diferentes de bloco - de unidades e bloco 1x1 até 5x5. Selecione e arraste a alça (no canto inferior direito) para redimensionar o bloco.
 
-![](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
+![vídeo](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
 ## <a name="the-ellipses--menu"></a>O menu de reticências (...)
 
 1. Selecione as reticências (...) no canto superior direito do bloco. 
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile.png)
+   ![reticências do bloco](media/service-dashboard-edit-tile/power-bi-tile.png)
 
 2. Passe o mouse sobre o bloco "Conta" e selecione as reticências para exibir as opções. As opções disponíveis variarão por tipo de bloco.  Por exemplo, as opções disponíveis para um bloco dinâmico são diferentes das opções disponíveis para um bloco de visualização padrão. Além disso, se um dashboard tiver sido compartilhado com você (e você não for o proprietário), você terá menos opções.
 
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
+   ![menu de opções de reticências](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 3. Selecione **Editar detalhes** para abrir a janela "Detalhes do bloco". 
 
     Altere o título e o comportamento padrão do bloco.  Por exemplo, você pode decidir que, quando um *consumidor* seleciona um bloco, em vez de abrir o relatório que foi usado para criar esse bloco, um novo dashboard é exibido em vez disso.  
    
-   ![](media/service-dashboard-edit-tile/power-bi-tile-menu-new.png)
 
 
 <a name="rename"></a>
@@ -111,7 +111,7 @@ Você pode fazer muitos tamanhos diferentes de bloco - de unidades e bloco 1x1 a
 ### <a name="rename-the-tile"></a>Renomear o bloco
 Na parte superior da janela "Detalhes do bloco", altere **Título** para **Valor gasto**.
 
-![](media/service-dashboard-edit-tile/power-bi-tile-title.png)
+![Janela Detalhes do bloco](media/service-dashboard-edit-tile/power-bi-tile-title.png)
 
 
 <a name="hyperlink"></a>
@@ -123,27 +123,27 @@ Por padrão, selecionar um bloco geralmente levará você ao relatório em que e
 
 2. Selecione **Link para um dashboard ou relatório no espaço de trabalho atual** e selecione-o no menu suspenso.  Neste exemplo, você selecionou o dashboard de exemplo de Recursos Humanos. Se você ainda não tiver esse exemplo no espaço de trabalho, você poderá adicioná-la e voltar a esta etapa ou selecionar um dashboard diferente. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-custom-link.png)
+    ![Caixa de diálogo Funcionalidade](media/service-dashboard-edit-tile/power-bi-custom-link.png)
 
 3. Selecione **Aplicar**.
 
 4. O novo título é exibido no bloco.  Além disso, quando você seleciona o bloco, o Power BI abre o dashboard Recursos Humanos. 
 
-    ![](media/service-dashboard-edit-tile/power-bi-title.png)
+    ![título do bloco](media/service-dashboard-edit-tile/power-bi-title.png)
 
 <a name="different"></a>
 
 ### <a name="pin-the-tile-to-a-different-dashboard"></a>Fixar o bloco em um painel diferente
-1. No menu suspenso de reticências, selecione **Fixar bloco** ![](media/service-dashboard-edit-tile/pinnooutline.png).
+1. No menu suspenso de reticências, selecione **Fixar bloco** ![ícone fixar](media/service-dashboard-edit-tile/pinnooutline.png).
 2. Decida em que local fixar uma duplicata deste bloco em um dashboard existente ou em um novo dashboard. 
    
-   ![](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
+   ![Caixa de diálogo Fixar no dashboard](media/service-dashboard-edit-tile/pbi_pintoanotherdash.png)
 3. Selecione **Fixar**.
 
 <a name="delete"></a>
 
 ### <a name="delete-the-tile"></a>Excluir o bloco
-1. Para remover permanentemente um bloco de um dashboard, selecione **Excluir bloco** ![](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) no menu suspenso de reticências. 
+1. Para remover permanentemente um bloco de um dashboard, selecione **Excluir bloco** ![ícone excluir](media/service-dashboard-edit-tile/power-bi-delete-tile-icon.png) no menu suspenso de reticências. 
 
 2. Excluir um bloco não excluirá a visualização subjacente. Abra o relatório subjacente, selecionando o bloco "Valor". Abra a última página em seu relatório para ver que a visualização original não foi excluída do relatório. 
 

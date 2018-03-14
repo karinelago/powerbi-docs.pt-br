@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: ea4dfaf8678e19894c1947282197d7e14cfaa944
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3d20b27b24851872b05a9c7dccb383032e1d65b8
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Excluir quase tudo no serviço do Power BI
 Este artigo ensina como excluir um dashboard, um relatório, uma pasta de trabalho, um conjunto de dados, um aplicativo, uma visualização e um espaço de trabalho no serviço do Power BI.
@@ -36,21 +36,21 @@ Os painéis podem ser removidos. Remover o painel não exclui o conjunto de dado
 
 ### <a name="to-delete-a-dashboard"></a>Excluir um painel
 1. Em seu espaço de trabalho, selecione a guia **Dashboards**.
-2. Localize o dashboard para excluir e selecione o ícone Excluir ![](media/service-delete/power-bi-delete-icon.png).
+2. Localize o dashboard a ser excluído e selecione o ícone Excluir ![ícone excluir](media/service-delete/power-bi-delete-icon.png).
 
-    ![](media/service-delete/power-bi-delete-dash.gif)
+    ![vídeo](media/service-delete/power-bi-delete-dash.gif)
 
 ## <a name="delete-a-report"></a>Excluir um relatório
 Não se preocupe, excluir um relatório não exclui o conjunto de dados que o relatório está baseado.  E quaisquer visualizações que você tenha fixado por meio do relatório também estão seguras - permanecem no painel até você excluí-las individualmente.
 
 ### <a name="to-delete-a-report"></a>Para excluir um relatório
 1. Em seu espaço de trabalho, selecione a guia **Relatórios**.
-2. Localize o relatório para excluir e selecione o ícone Excluir ![](media/service-delete/power-bi-delete-icon.png).   
+2. Localize o relatório a ser excluído e selecione o ícone Excluir   ![ícone excluir](media/service-delete/power-bi-delete-icon.png).   
 
-    ![](media/service-delete/power-bi-delete-reportnew.png)
+    ![guia relatórios do espaço de trabalho](media/service-delete/power-bi-delete-reportnew.png)
 3. Confirme a exclusão.
 
-   ![](media/service-delete/power-bi-delete-report.png)
+   ![Caixa de diálogo Excluir relatório](media/service-delete/power-bi-delete-report.png)
 
    > [!NOTE]
    > Se o relatório fizer parte de um [pacote de conteúdo](service-organizational-content-pack-introduction.md), você não poderá excluí-la usando esse método.  Consulte [Remover a conexão com um pacote de conteúdo organizacional](service-organizational-content-pack-disconnect.md).
@@ -64,12 +64,12 @@ Se a pasta de trabalho está armazenada no OneDrive for Business, excluí-la do 
 
 ### <a name="to-delete-a-workbook"></a>Para excluir uma pasta de trabalho
 1. Em seu espaço de trabalho, selecione a guia **Pastas de trabalho**.
-2. Localize a pasta de trabalho para excluir e selecione o ícone Excluir ![](media/service-delete/power-bi-delete-report2.png).
+2. Localize a pasta de trabalho a ser excluída e selecione o ícone ![ícone excluir](media/service-delete/power-bi-delete-report2.png) Excluir.
 
-    ![](media/service-delete/power-bi-delete-workbooknew.png)
+    ![Guia Pastas de trabalho](media/service-delete/power-bi-delete-workbooknew.png)
 3. Confirme a exclusão.
 
-   ![](media/service-delete/power-bi-delete-confirm.png)
+   ![Caixa de diálogo Remover pasta de trabalho](media/service-delete/power-bi-delete-confirm.png)
 
 ## <a name="delete-a-dataset"></a>Excluir um conjunto de dados
 Os conjuntos de dados podem ser excluídos. No entanto, excluir um conjunto de dados também exclui todos os relatórios e blocos de painel que contêm dados desse conjunto de dados.
@@ -80,13 +80,13 @@ Se um conjunto de dados fizer parte de um ou mais [pacotes de conteúdo organiza
 1. Em seu espaço de trabalho, selecione a guia **Conjuntos de dados**.
 2. Localize o conjunto de dados para excluir e selecione as reticências (...).  
 
-    ![](media/service-delete/power-bi-delete-datasetnew.png)
+    ![Guia Conjuntos de dados](media/service-delete/power-bi-delete-datasetnew.png)
 3. No menu suspenso, selecione **Excluir**.
 
-   ![](media/service-delete/power-bi-delete-datasetnew2.png)
+   ![menu de reticências](media/service-delete/power-bi-delete-datasetnew2.png)
 4. Confirme a exclusão.
 
-   ![](media/service-delete/power-bi-delete-dataset-confirm.png)
+   ![Caixa de diálogo Excluir dashboard](media/service-delete/power-bi-delete-dataset-confirm.png)
 
 ## <a name="delete-an-app-workspace"></a>Excluir um espaço de trabalho de aplicativo
 > [!WARNING]
@@ -99,13 +99,13 @@ Como autor do espaço de trabalho do aplicativo, você poderá excluí-lo. Ao ex
 ### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Para excluir um espaço de trabalho de aplicativo – caso você seja um Administrador
 1. No menu de navegação à esquerda, selecione **Espaços de trabalho**
 
-    ![](media/service-delete/power-bi-delete-workspace.png)
+    ![Espaços de trabalho de aplicativo](media/service-delete/power-bi-delete-workspace.png)
 2. Selecione as reticências (...) à direita do espaço de trabalho a ser excluída e escolha **Editar espaço de trabalho**.
 
-   ![](media/service-delete/power-bi-edit-workspace.png)
+   ![menu de reticências > Editar espaço de trabalho](media/service-delete/power-bi-edit-workspace.png)
 3. Na janela **Editar espaço de trabalho**, selecione **Excluir espaço de trabalho** > **Excluir**.
 
-    ![](media/service-delete/power-bi-delete-workspace2.png)
+    ![excluir espaço de trabalho](media/service-delete/power-bi-delete-workspace2.png)
 
 ### <a name="to-remove-an-app-workspace-from-your-list"></a>Para remover um espaço de trabalho de aplicativo da sua lista
 Se você não deseja mais ser um membro de um espaço de trabalho de aplicativo, você pode ***sair*** dele e ele será removido da sua lista. Sair de um espaço de trabalho deixa-o no lugar para todos os outros membros do espaço de trabalho.  
@@ -118,7 +118,7 @@ Se você não deseja mais ser um membro de um espaço de trabalho de aplicativo,
 1. Inicie o espaço de trabalho de aplicativo que você deseja remover.
 2. No canto superior direito, selecione as reticências (...) e escolha **Sair do espaço de trabalho** > **Sair**.
 
-      ![](media/service-delete/power-bi-leave-workspace.png)
+      ![sair do espaço de trabalho](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
    > As opções exibidas na lista suspensa dependem se você é um Administrador ou um Membro desse espaço de trabalho do aplicativo.
@@ -134,7 +134,7 @@ A exclusão de um aplicativo de sua página de lista de aplicativos não exclui 
 1. No seu menu de navegação à esquerda, selecione **Aplicativos** para abrir a página de lista de aplicativos.
 2. Passe o mouse sobre o aplicativo a ser excluído e selecione o ícone Excluir ![](media/service-delete/power-bi-delete-report2.png).
 
-   ![](media/service-delete/power-bi-delete-app.png)
+   ![selecionar Aplicativos](media/service-delete/power-bi-delete-app.png)
 
    Se você remover um aplicativo acidentalmente, você terá várias opções para obtê-lo novamente.  Você pode solicitar ao criador do aplicativo para enviá-lo novamente, pode encontrar o email original com o link para o aplicativo, pode verificar seu [Centro de Notificações](service-notification-center.md) para ver se a notificação desse aplicativo ainda está listada ou pode verificar o [AppSource](service-install-use-apps.md) da sua organização.
 

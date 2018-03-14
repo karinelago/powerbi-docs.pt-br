@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/10/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: a7c4db0044772c28a3cb7a62649de3001945246c
-ms.sourcegitcommit: afd6e9e6f8b192b26486cd04d2cbc9de046911b3
+LocalizationGroup: Reports
+ms.openlocfilehash: 7e2ef4a1ec49335a49e7f934a7606b2fe64f755c
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Interações de visualização em um relatório do Power BI
 Se você tiver permissões de edição para um relatório, poderá usar as **interações visuais** para alterar como as visualizações em uma página de relatório afetam umas às outras. 
@@ -44,24 +45,24 @@ Este artigo mostra como usar as **interações visuais** no [Exibição de ediç
 2. Exiba as opções de **Interações Visuais**.
     - No serviço do Power BI, selecione o menu suspenso na barra de menus do relatório.
 
-       ![](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
+       ![Lista suspensa de Interações visuais](media/service-reports-visual-interactions/power-bi-visual-interaction.png)
 
     - Na Área de trabalho, selecione **Formato > Interações**.
 
-        ![](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
+        ![selecione Formato e depois Interações](media/service-reports-visual-interactions/pbi-visual-interaction-desktop.png)
 
 3. Para ativar os controles de interação de visualização, selecione **Editar interações**. O Power BI adiciona os ícones de filtro cruzado e realce cruzado a todas as outras visualizações na página do relatório.
    
-    ![](media/service-reports-visual-interactions/power-bi-icons-on.png)
+    ![relatório com interações visuais ligadas](media/service-reports-visual-interactions/power-bi-icons-on.png)
 3. Determine o impacto que a visualização selecionada deve ter nas outras visualizações.  E, como opção, repita para todas as outras visualizações na página do relatório.
    
-   * Se precisar executar o filtro cruzado na visualização, selecione o ícone de **filtro**![](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
-   * Se precisar executar o realce cruzado da visualização, selecione o ícone de **realce**![](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
-   * Se ela não precisar ter impacto, selecione o ícone de **nenhum impacto** ![](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
+   * Se deve realizar a filtragem cruzada da visualização, selecione o ícone **filtrar** ![ícone filtrar](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png).
+   * Se deve realizar o realce cruzado da visualização, selecione o ícone **realçar** ![ícone realçar](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png).
+   * Se deve não ter impacto, selecione o ícone **sem impacto** ![ícone sem impacto](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png).
 
 4. Para ativar os controles de drill down, selecione **Filtros detalhados de outros elementos visuais**.  Agora, quando você fizer drill down (e up) em uma visualização, as outras visualizações na página do relatório serão alteradas para refletir sua seleção atual de detalhamento. 
 
-   ![](media/service-reports-visual-interactions/drill2.gif)
+   ![vídeo de ligar o detalhamento de controles](media/service-reports-visual-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Próximas etapas
 [Como usar filtros de relatório](power-bi-how-to-report-filter.md)

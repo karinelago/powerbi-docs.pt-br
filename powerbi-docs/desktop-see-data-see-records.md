@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 02/22/2018
 ms.author: davidi
-ms.openlocfilehash: a61a5d46c2f663ff7e8388a862f5649487504092
-ms.sourcegitcommit: 7249ff35c73adc2d25f2e12bc0147afa1f31c232
+LocalizationGroup: Learn more
+ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Use Ver Dados e Ver Registros no Power BI Desktop
 No **Power BI Desktop**, é possível analisar em detalhes qualquer visual e ver uma representação textual dos dados ou dos elementos de dados individuais para um visual selecionado. Esses recursos às vezes são chamados de *clickthrough*, *drill-through* ou *drill-through em detalhes*.
@@ -69,6 +70,9 @@ Também é possível enfocar um elemento de dados em um visual e detalhar os dad
 Quando **Ver Registros** estiver selecionado, o **Power BI Desktop** enfocará esse elemento de dados individual e dedicará a área da tela para exibir os dados para esse elemento, conforme mostrado na imagem a seguir.
 
 ![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+
+> [!NOTE]
+> Não é possível salvar as alterações de dados exibidos (ou modificados pelos usuários) no modo de exibição **Ver registros** para um relatório.
 
 Para retornar ao relatório, selecione o botão **Voltar ao Relatório** no canto superior esquerdo da tela.
 

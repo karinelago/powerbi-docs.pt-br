@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 03be98e9aa2bd4d91357cc00208d82bd0116f69c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
+ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 02/23/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo. Office
@@ -86,7 +86,7 @@ Siga as etapas abaixo para concluir o envio.
    * *Título do envio:* como seu envio será nomeado na central de desenvolvedores
    * *Versão:* seu número de versão é preenchido automaticamente no pacote do aplicativo do suplemento.
    * *Data de lançamento (UTC):* selecione uma data para seu aplicativo ser lançado na loja. Se uma data futura for escolhida, seu aplicativo não estará disponível na loja até essa data.
-   * *Categoria:* a primeira categoria será automaticamente preenchida como "Visualização de dados + BI". Esta é a forma como todos os visuais personalizados do Power BI serão marcados. Você pode fornecer até duas categorias adicionais para ajudar os usuários a pesquisarem facilmente pelo seu visual
+   * *Categoria:* a primeira categoria será automaticamente preenchida como "Visualização de dados + BI". Esta é a forma como todos os visuais personalizados do Power BI serão marcados. Você pode fornecer até duas categorias adicionais para ajudar os usuários a pesquisarem facilmente seu visual
    * *Notas de teste:* opcionais, se você quiser fornecer algumas instruções para os testadores da Microsoft
    * *Meu aplicativo chama, dá suporte para, contém ou usa criptografias:* deixe desmarcado
    * *Tornar este suplemento disponível no catálogo de suplemento do Office no iPad:* deixe desmarcado
@@ -121,7 +121,7 @@ Siga as etapas abaixo para concluir o envio.
     > Se você selecionar qualquer outra opção que não seja a gratuita ou tiver um conteúdo de compra no aplicativo no visual enviado, o envio será rejeitado.
     > 
     > 
-17. Você pode selecionar agora **“Salvar como rascunho” e enviar mais tarde ou selecionar **Enviar para aprovação** e enviar o elemento visual personalizado à Office Store.
+17. Agora é possível selecionar **Salvar como rascunho** e enviar mais tarde ou selecionar **Enviar para aprovação** para enviar o visual personalizado à Office Store.
 
 ## <a name="tracking-submission-status-and-usage"></a>Acompanhamento do uso e do status do envio
 Você pode examinar as [políticas de validação](https://dev.office.com/officestore/docs/validation-policies#13-power-bi-custom-visuals).

@@ -14,13 +14,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/22/2018
 ms.author: maggies
-ms.openlocfilehash: 23c52f7eb66e4e7b0683a2392f0fc60ad76ea243
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Share your work
+ms.openlocfilehash: d711e2276f2ac170ed54152d54c023261ca9c0bc
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Criar e distribuir aplicativos com dashboards e relatórios no Power BI
 
@@ -94,7 +95,7 @@ Por padrão, o Power BI cria um pequeno círculo colorido com as iniciais do seu
      ![Imagem personalizada](media/service-create-distribute-apps/power-bi-apps-image.png)
 
 ## <a name="publish-your-app"></a>Publicar seu aplicativo
-Quando os dashboards e relatórios no espaço de trabalho do aplicativo estiverem prontos, você poderá publicá-los como um aplicativo. Lembre-se, você não precisa publicar relatórios e dashboards no espaço de trabalho. Pode publicar apenas os que estão prontos. 
+Quando os dashboards e relatórios no espaço de trabalho do aplicativo estiverem prontos, você poderá publicá-los como um aplicativo. Lembre-se, você não precisa publicar relatórios e dashboards no espaço de trabalho. Pode publicar apenas os que estão prontos.
 
 1. Na exibição da lista no espaço de trabalho, decida quais dashboards e relatórios você quer incluir no aplicativo.
 
@@ -104,23 +105,23 @@ Quando os dashboards e relatórios no espaço de trabalho do aplicativo estivere
 
      ![Aviso sobre dashboard relacionado](media/service-create-distribute-apps/power-bi-apps-report-warning.png)
 
-1. Selecione o botão **Publicar aplicativo** no canto superior direito para iniciar o processo de compartilhamento de todo o conteúdo desse espaço de trabalho.
+2. Selecione o botão **Publicar aplicativo** no canto superior direito para iniciar o processo de compartilhamento de todo o conteúdo desse espaço de trabalho.
    
      ![Publicar aplicativo](media/service-create-distribute-apps/power-bi-apps-publish-button.png)
 
-2. Em **Detalhes**, preencha a descrição para ajudar as pessoas a localizar o aplicativo. Você pode definir uma cor da tela de fundo para personalizá-la.
+3. Em **Detalhes**, preencha a descrição para ajudar as pessoas a localizar o aplicativo. Você pode definir uma cor da tela de fundo para personalizá-la.
    
      ![Detalhes do aplicativo](media/service-create-distribute-apps/power-bi-apps-details.png)
 
-3. Em **Conteúdo**, você vê o conteúdo que será publicado como parte do aplicativo, ou seja, tudo o que você selecionou nesse espaço de trabalho. Você também pode definir a página de aterrissagem do aplicativo – que é o dashboard ou relatório que as pessoas verão primeiro ao acessarem o aplicativo. Você pode escolher **Nenhuma**. Então, as pessoas entrarão em uma lista de todo o conteúdo do aplicativo. 
+4. Em **Conteúdo**, você vê o conteúdo que será publicado como parte do aplicativo, ou seja, tudo o que você selecionou nesse espaço de trabalho. Você também pode definir a página de aterrissagem do aplicativo – que é o dashboard ou relatório que as pessoas verão primeiro ao acessarem o aplicativo. Você pode escolher **Nenhuma**. Então, as pessoas entrarão em uma lista de todo o conteúdo do aplicativo. 
    
      ![Conteúdo do aplicativo](media/service-create-distribute-apps/power-bi-apps-content.png)
 
-4. Em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização, pessoas específicas, grupos de segurança do Active Directory. Se você tiver permissões, instale o aplicativo automaticamente para os destinatários.
+5. Em **Acesso**, decida quem tem acesso ao aplicativo: todos em sua organização, pessoas específicas, grupos de segurança do Active Directory. Se você tiver permissões, instale o aplicativo automaticamente para os destinatários. É possível habilitar essa configuração no [Portal de Administração do Power BI](#how-to-enable-pushing-apps). É possível saber mais considerações para [enviar um aplicativo por push](#how-to-enable-pushing-apps).
 
     ![Acesso ao aplicativo](media/service-create-distribute-apps/power-bi-apps-access.png)
 
-5. Ao selecionar **Concluir**, você verá uma mensagem confirmando que ele está pronto para publicar. Na caixa de diálogo de êxito, você pode copiar a URL, que é um link direto para esse aplicativo e enviá-la para as pessoas com as quais você compartilhou.
+6. Ao selecionar **Concluir**, você verá uma mensagem confirmando que ele está pronto para publicar. Na caixa de diálogo de êxito, você pode copiar a URL, que é um link direto para esse aplicativo e enviá-la para as pessoas com as quais você compartilhou.
    
      ![Término do aplicativo](media/service-create-distribute-apps/power-bi-apps-success.png)
 
@@ -138,7 +139,7 @@ Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-l
    
      O espaço de trabalho do aplicativo é a sua área de preparo, portanto as alterações não são enviadas por push ao vivo para o aplicativo até que você o publique novamente. Isso permite que você faça alterações sem afetar os aplicativos publicados.  
  
-1. Volte para a lista de conteúdo do espaço de trabalho do aplicativo e selecione **Atualizar aplicativo**.
+3. Volte para a lista de conteúdo do espaço de trabalho do aplicativo e selecione **Atualizar aplicativo**.
    
      ![Botão Atualizar aplicativo](media/service-create-distribute-apps/power-bi-app-update-button.png)
 
@@ -147,6 +148,32 @@ Depois de publicar seu aplicativo, você talvez queira alterá-lo ou atualizá-l
      ![Botão Atualizar aplicativo](media/service-create-distribute-apps/power-bi-app-update-complete.png)
 
 As pessoas para as quais você publicou o aplicativo verão automaticamente a versão atualizada do aplicativo. 
+
+# <a name="automatically-install-apps-for-end-users"></a>Instalar aplicativos automaticamente para usuários finais
+É possível instalar automaticamente aplicativos para usuários finais, tornando mais fácil distribuir os aplicativos certos para as pessoas ou grupos certos.
+
+Os aplicativos entregam dados de que seus usuários finais precisam para realizar seus trabalhos. Agora é possível instalar automaticamente esses aplicativos na lista de conteúdo de aplicativos, em vez de encontrá-lo no Microsoft AppSource ou seguir um link de instalação. Isso torna mais fácil para você distribuir conteúdo padrão do Power BI para seus usuários.
+
+## <a name="how-to-install-an-app-automatically-for-end-users"></a>Como instalar um aplicativo automaticamente para usuários finais
+Depois que o administrador tiver habilitado o recurso, os editores de aplicativo terão uma nova opção disponível para **instalar o aplicativo automaticamente**. Quando a caixa estiver ***marcada*** e o editor de aplicativo selecionar **Concluído** (ou **Atualizar aplicativo**, para aplicativos existentes), o aplicativo será enviado por push a todos os usuários ou grupos definidos na seção **Permissões** do aplicativo na guia **Acesso**.
+
+![Habilitar envio de aplicativos por push](media/service-create-distribute-apps/power-bi-apps-access.png)
+
+## <a name="how-users-get-the-apps-that-were-pushed-to-them"></a>Como os usuários obtêm os aplicativos que foram enviados por push a eles
+Depois de enviar um aplicativo por push, ele será exibido na Lista de aplicativos automaticamente. É possível coletar os aplicativos que um usuário ou função de trabalho em sua organização precisa ter na ponta dos dedos.
+
+![Habilitar envio de aplicativos por push](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
+
+### <a name="considerations-for-automatically-installing-apps"></a>Considerações para instalar aplicativos automaticamente
+Aqui estão algumas coisas para se ter em mente ao enviar aplicativos por push para usuários finais:
+
+* Instalar um aplicativo automaticamente para usuários pode levar tempo. A maioria dos aplicativos será instalada imediatamente para usuários, mas enviar aplicativos por push pode levar tempo.  Isso depende do número de itens no aplicativo e do número de pessoas que receberam acesso. É recomendável enviar aplicativos por push durante horas vagas em que haja muito tempo antes de os usuários precisarem deles. Verifique com vários usuários antes de enviar comunicação abrangentes sobre a disponibilidade de aplicativos.
+
+* Atualize seu navegador. Antes de ver o aplicativo enviado por push na Lista de aplicativos, talvez o usuário precise atualizar ou fechar e reabrir seu navegador.
+
+* Se o usuário não vir imediatamente o aplicativo na Lista de aplicativos, ele deverá atualizar ou fechar e reabrir seu navegador.
+
+* Tente não sobrecarregar os usuários. Tenha cuidado para não enviar muitos aplicativos por push para que seus usuários entendam que os aplicativos pré-instalados são úteis para eles. É melhor controlar quem pode enviar aplicativos por push para os usuários finais para coordenar o tempo. É possível estabelecer um ponto de contato para obter aplicativos em sua organização enviados por push para usuários finais.
 
 ## <a name="unpublish-an-app"></a>Cancelar a publicação de um aplicativo
 Qualquer membro de um espaço de trabalho do aplicativo pode cancelar a publicação do aplicativo.
@@ -167,7 +194,7 @@ Com esta versão, renomeamos todos os espaços de trabalho de grupo para espaço
 ### <a name="how-are-apps-different-from-organizational-content-packs"></a>Qual a diferença entre os aplicativos e os pacotes de conteúdo organizacional?
 Os aplicativos são uma evolução e simplificação dos pacotes de conteúdo, com algumas diferenças importantes. 
 
-* Depois que os usuários corporativos instalam um pacote de conteúdo, ele perde sua identidade agrupada: transforma-se apenas em uma lista de dashboards e relatórios intercalados com outros dashboards e relatórios. Os aplicativos, por outro lado, mantêm o agrupamento e a identidade, mesmo após a instalação. Isso facilita para que os usuários corporativos continuem a acessá-los ao longo do tempo.  
+* Depois que os usuários corporativos instalam um pacote de conteúdo, ele perde sua identidade agrupada: transforma-se apenas em uma lista de dashboards e relatórios intercalados com outros dashboards e relatórios. Os aplicativos, por outro lado, mantêm o agrupamento e a identidade, mesmo após a instalação. Isso facilita para que os usuários corporativos continuem a acessá-los ao longo do tempo.
 * Você pode criar vários pacotes de conteúdo de qualquer espaço de trabalho, mas um aplicativo tem uma relação de 1:1 com seu espaço de trabalho. Acreditamos que isso torna os aplicativos mais fáceis de entender e manter a longo prazo. Consulte a seção de roteiro do blog do Power BI para obter mais informações sobre como estamos planejando melhorar essa área. 
 * Ao longo do tempo, pretendemos descontinuar os pacotes de conteúdo organizacional, portanto, é recomendável que você crie aplicativos de agora em diante.  
 
@@ -179,5 +206,5 @@ Com os aplicativos, você pode publicar uma versão somente leitura do seu espa�
 ## <a name="next-steps"></a>Próximas etapas
 * [Instalar e usar aplicativos no Power BI](service-install-use-apps.md)
 * [Aplicativos do Power BI para serviços externos](service-connect-to-services.md)
+* [Portal de administração do Power BI](https://docs.microsoft.com/en-us/power-bi/service-admin-portal)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-

@@ -15,13 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/06/2018
+ms.date: 02/23/2018
 ms.author: maghan
-ms.openlocfilehash: 7e19e37bf024ec30db58057de54e3039ed7b80b2
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+LocalizationGroup: Administration
+ms.openlocfilehash: 15d1f391ba7a9c32ce1f8abd9620e84f16206e26
+ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 02/24/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -192,6 +193,19 @@ Os usuários na organização podem publicar pacotes de conteúdo em toda a orga
 ### <a name="create-template-organizational-content-packs"></a>Criar pacotes de conteúdos organizacionais de modelo
 
 Os usuários na organização podem criar pacotes de conteúdo de modelo que usam conjuntos de dados criados em uma fonte de dados no Power BI Desktop.
+
+### <a name="push-apps-to-end-users"></a>Enviar aplicativos por push para usuários finais
+
+Seu administrador de locatário habilita a capacidade de enviar aplicativos por push em **Configurações de locatário**.
+
+   ![Habilitar envio de aplicativos por push](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
+
+É possível mudar a configuração para **Habilitado** e, em seguida, especificar quem obtém esse recurso (organização inteira ou grupos de segurança específicos).
+
+> [!NOTE]
+> Lembre-se de que as alterações na configuração de locatário podem levar algum tempo para entrar em vigor.
+
+Acesse aqui para saber mais sobre [Enviar aplicativos por push](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Configurações de integração
 

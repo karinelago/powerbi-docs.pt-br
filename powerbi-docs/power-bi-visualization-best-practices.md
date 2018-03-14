@@ -17,11 +17,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/21/2017
 ms.author: mihart
-ms.openlocfilehash: 202f92b9c7089a4bd9bb5dd976051bba47da632e
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Visualizations
+ms.openlocfilehash: 634dc4efe6553a9de91716552a21563f5405fa69
+ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Práticas recomendadas de design para relatórios e visuais
 <!-- Shared newnav Include -->
@@ -215,7 +216,7 @@ Ao definir telas de fundo para páginas de relatório, escolha cores que não ob
 
 Você não está criando uma obra de arte, mas um relatório funcional. Escolha uma cor que melhore a legibilidade e a projeção dos elementos do relatório.  
 
-Um estudo sobre o uso de cores e visualizações em páginas da Web apontou que um contraste mais alto entre as cores aumenta a velocidade de compreensão (*The effect of text and background colour on visual search of Web pages [O efeito da cor do texto e da tela de fundo na pesquisa visual de páginas da Web]** e **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics* [Determinando a percepção dos usuários de características estéticas e da complexidade visual de páginas da Web]).
+Um estudo sobre o uso de cores e visualizações em páginas da Web apontou que um contraste mais alto entre as cores aumenta a velocidade de compreensão (The effect of text and background colour on visual search of Web pages [O efeito da cor do texto e da tela de fundo na pesquisa visual de páginas da Web] e **Determining Users’ Perception of Web Page Visual Complexity and Aesthetic Characteristics** [Determinando a percepção dos usuários de características estéticas e da complexidade visual de páginas da Web]).
 
 Aplicamos algumas práticas recomendadas de cores em nosso relatório de exemplo (Figuras 20 e 21) abaixo. O mais admirável foi que alteramos a cor da tela de fundo para preto.  O amarelo era muito claro e forçava a vista.  Além disso, no gráfico “Contagem de nomes de atletas por ano e classe”, a parte amarela das barras desapareceu na tela de fundo amarela.  O uso de uma tela de fundo preta (ou branca) nos dá o contraste máximo e torna os visuais o foco de nossa atenção.
 

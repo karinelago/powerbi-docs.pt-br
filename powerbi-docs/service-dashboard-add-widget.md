@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 3aa70a6382164cb8284e1a5f61ae73f66e54d2f3
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: cb1db61a3e0017adf56314862a5bb71fe1288dc6
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Adicionar imagem, texto, vídeo e muito mais no seu dashboard
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -31,12 +32,12 @@ ms.lasthandoff: 12/21/2017
 ## <a name="add-tile"></a>Adicionar bloco
 O controle **Adicionar bloco** permite que você adicione diretamente uma imagem, uma caixa de texto, um vídeo, dados de streaming ou código da Web a seu dashboard.
 
-1. Selecione **Adicionar bloco** na barra de menus superior. Dependendo das limitações de espaço, você poderá ver apenas o sinal de adição ![](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Selecione **Adicionar bloco** na barra de menus superior. Dependendo das limitações de espaço, você poderá ver apenas o sinal de adição ![sinal de adição](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
+    ![Ícone Adicionar bloco](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
 2. Selecione qual tipo de bloco adicionar: **Imagem**, **Caixa de texto**, **Vídeo** ou **Conteúdo da Web** ou **Dados de streaming personalizados**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-tile.png)
+    ![janela adicionar bloco](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Adicionar uma imagem
 Digamos que você deseja o logotipo de sua empresa em seu painel, ou alguma outra imagem. Você precisará salvar o arquivo de imagem online e vincular-se a ela. Certifique-se de que não haja necessidade de credenciais especiais para acessar o arquivo de imagem. Por exemplo, o OneDrive e o SharePoint exigem autenticação, portanto, as imagens armazenadas lá não podem ser adicionadas a um painel dessa maneira.  
@@ -44,14 +45,14 @@ Digamos que você deseja o logotipo de sua empresa em seu painel, ou alguma outr
 1. Selecione **Imagem** > **Avançar**.
 2. Adicione informações da imagem à janela **Adicionar bloco de imagem**.
    
-    ![](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+    ![janela Adicionar bloco de imagem](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
    
    * para exibir um título acima da imagem, selecione *Exibir título e subtítulo* e digite um título e/ou subtítulo.
    * insira a URL da imagem
    * para tornar o bloco um hiperlink, selecione **Definir link personalizado** e insira a URL.  Quando seus colegas clicarem nesse título ou nessa imagem, eles serão levados para essa URL.
    * Selecione **Aplicar**.  No painel, redimensione e mova a imagem, conforme necessário.
      
-     ![](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![imagem no dashboard](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Adicionar um título de painel ou caixa de texto
 1. Selecione **Caixa de texto > Avançar**.
@@ -64,11 +65,11 @@ Digamos que você deseja o logotipo de sua empresa em seu painel, ou alguma outr
    * insira e formate o conteúdo da caixa de texto.  
    * Opcionalmente, defina um link personalizado para o título. Um link personalizado pode ser um site externo ou um painel ou relatório no espaço de trabalho. No entanto, nesse exemplo, adicionamos hiperlinks na própria caixa de texto e deixaremos a opção **Definir link personalizado** desmarcada.
 
-     ![](media/service-dashboard-add-widget/power-bi-add-textbox.png)
+     ![Janela Adicionar bloco de caixa de texto](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
 3. Selecione **Aplicar**.  No painel, redimensione e mova a caixa de texto, conforme necessário.
    
-   ![](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
+   ![dashboard com imagem e caixa de texto](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Adicionar um vídeo
 Quando você adiciona um bloco de vídeo do YouTube ou Vimeo a seu painel, o vídeo é reproduzido diretamente no painel.
@@ -76,14 +77,14 @@ Quando você adiciona um bloco de vídeo do YouTube ou Vimeo a seu painel, o ví
 1. Selecione **Vídeo > Avançar**.
 2. Adicione informações do vídeo ao painel **Adicionar bloco de vídeo**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+    ![Janela Adicionar bloco de vídeo](media/service-dashboard-add-widget/power-bi-add-video-new.png)
    
    * para exibir um título e subtítulo na parte superior do bloco de vídeo, selecione *Exibir título e subtítulo* e digite um título e/ou subtítulo. Neste exemplo, vamos adicionar um subtítulo e, em seguida, torná-lo um hiperlink para a playlist inteira no YouTube.
    * insira a URL do vídeo
    * Adicione um hiperlink para o título e subtítulo.  Depois que seus colegas assistirem o vídeo inserido, talvez você queira que eles exibam a playlist inteira no YouTube – adicione um link para sua playlist aqui.
    * Selecione **Aplicar**.  No painel, redimensione e mova o bloco de vídeo, conforme necessário.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+      ![dashboard com bloco de vídeo adicionado](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
 3. Selecione o bloco de vídeo para reproduzir o vídeo.
 4. Selecione o subtítulo para visitar a playlist no YouTube.
 
@@ -96,13 +97,13 @@ Cole ou digite qualquer conteúdo HTML.  O Power BI adiciona o conteúdo, como u
 1. Selecione **Conteúdo da Web > Avançar**.
 2. Adicione as informações ao painel **Adicionar bloco de conteúdo da Web**.
    
-    ![](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+    ![Janela Adicionar bloco de conteúdo da Web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
    * para exibir um título acima do bloco, selecione *Exibir título e subtítulo* e digite um título e/ou um subtítulo.
    * insira o código de inserção. Neste exemplo, estamos copiando e colando um feed do Twitter.
 3. Selecione **Aplicar**.  No painel, redimensione e mova o bloco de conteúdo da Web, conforme necessário.
      
-      ![](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+      ![dashboard com 4 blocos](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
 ## <a name="tips-for-embedding-web-content"></a>Dicas para incorporar o conteúdo da Web
 * Para iframes, use uma fonte segura. Se você inserir o código de inserção do iframe e obter um bloco em branco, verifique se está usando **http** para a fonte iframe.  Nesse caso, altere-a para **https**.
@@ -145,10 +146,10 @@ Para fazer alterações em um bloco...
 
 1. Passe o mouse sobre o canto superior direito do bloco e selecione as reticências.
    
-    ![](media/service-dashboard-add-widget/pbi_ellipses.png)
+    ![selecionar reticências do bloco](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Selecione o ícone de edição para reabrir o painel **Detalhes do bloco** e faça as alterações.
    
-    ![](media/service-dashboard-add-widget/pbi-edit.png)
+    ![ícone de edição de lápis](media/service-dashboard-add-widget/pbi-edit.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 * Para facilitar ainda mais a movimentação do bloco em seu painel de controle, adicione um título e/ou um subtítulo.

@@ -16,17 +16,18 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 02/28/2018
 ms.author: mihart
-ms.openlocfilehash: 63497e7d517bed8aeba8abefcc4e48c628e06252
-ms.sourcegitcommit: 804ee18b4c892b7dcbd7d7d5d987b16ef16fc2bb
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 6c29f0915009fced89c80e05f40b91c467e505ce
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="display-the-power-bi-dashboards-that-have-been-shared-with-me"></a>Exibir os dashboards do Power BI que foram compartilhados comigo
 ## <a name="shared-with-me"></a>Compartilhou comigo
-![](media/service-shared-with-me/power-bi-share-dash.png)
+![Ícone Compartilhar](media/service-shared-with-me/power-bi-share-dash.png)
 
 Quando um colega compartilha um dashboard com você, o título será adicionado à sua lista **Compartilhado comigo**. O dashboard só está disponível em **Compartilhado comigo** e não está disponível em um espaço de trabalho em **Aplicativos**.
 
@@ -38,8 +39,8 @@ Você terá várias opções para interagir com o dashboard e com o relatório s
 
 ## <a name="actions-available-from-the-shared-with-me-screen"></a>Ações disponíveis na tela **Compartilhado comigo**
 * Selecionar o ícone de estrela para [adicionar um dashboard como favorito](service-dashboard-favorite.md).
-* [Remover um dashboard](service-delete.md)  ![](media/service-shared-with-me/power-bi-delete-icon.png)
-* Alguns dashboards podem ser compartilhados novamente ![](media/service-shared-with-me/power-bi-share-icon-new.png)
+* [Remover um dashboard](service-delete.md)  ![ícone de lixeira](media/service-shared-with-me/power-bi-delete-icon.png)
+* Alguns dashboards podem ser compartilhados novamente  ![ícone compartilhar](media/service-shared-with-me/power-bi-share-icon-new.png)
 * Além disso, se suas listas de dashboards se tornarem longas, [use o campo de pesquisa e classificação para encontrar o que precisa](service-navigation-search-filter-sort.md).
   
   > [!NOTE]
@@ -51,7 +52,7 @@ Você terá várias opções para interagir com o dashboard e com o relatório s
 ## <a name="filter-shared-dashboards-by-owner"></a>Filtrar os dashboards compartilhados por proprietário
 O conteúdo na tela **Compartilhado comigo** pode ser adicionalmente filtrado por proprietário do conteúdo. Por exemplo, se eu selecionar **Amanda**, verei somente o dashboard que a Amanda compartilhou comigo.
 
-![](media/service-shared-with-me/power-bi-owner.png)
+![dashboard filtrado pelo proprietário](media/service-shared-with-me/power-bi-owner.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Power BI – conceitos básicos](service-basic-concepts.md)  

@@ -16,13 +16,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 34574cf73d12d91df7a497cf297a9ecda9f5cc57
-ms.sourcegitcommit: 6ea8291cbfcb7847a8d7bc4e2b6abce7eddcd0ea
+LocalizationGroup: Dashboards
+ms.openlocfilehash: 8fbc2ecafb34339a68b4ca5ecd0fa063082644a2
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Fixar um bloco em um painel do Power BI por meio de um relatório
 ## <a name="pinning-tiles-from-a-report"></a>Fixando blocos de um relatório
@@ -45,7 +46,7 @@ Agora crie seu próprio dashboard usando um dos relatórios de exemplo do Power 
 
 1. Passe o mouse sobre a visualização que você deseja fixar e selecione o ícone de ![](media/service-dashboard-pin-tile-from-report/pbi_pintile_small.png) pino. O Power BI abre a tela **Fixar no painel** .
    
-     ![](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
+     ![Janela Fixar no dashboard](media/service-dashboard-pin-tile-from-report/pbi_themes2.png)
 2. Decida se você fixará em um painel existente ou em um novo painel.
    
    * Painel existente: selecione o nome do painel no menu suspenso. Painéis que foram compartilhados com você não aparecerão na lista suspensa.
@@ -55,7 +56,7 @@ Agora crie seu próprio dashboard usando um dos relatórios de exemplo do Power 
    
    Uma mensagem de Êxito (perto do canto superior direito) informa que a visualização foi adicionada, como um bloco, ao painel.
    
-   ![](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
+   ![mensagem de êxito](media/service-dashboard-pin-tile-from-report/pinsuccess.png)
 5. No painel de navegação, selecione o painel com o novo bloco. Selecione o bloco para voltar ao relatório. Se preferir, [edite a exibição e o comportamento do bloco](service-dashboard-edit-tile.md).
 
 ## <a name="pin-an-entire-report-page"></a>Fixar uma página inteira do relatório
