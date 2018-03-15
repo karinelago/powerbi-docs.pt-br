@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/5/2017
 ms.author: maghan
-ms.openlocfilehash: 761f6a85d0f975f4178adfce830a6c73578aec73
-ms.sourcegitcommit: 20dd809a2ef8c0d6c6f677baadb5f57f41438cbe
+ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo. Office
@@ -38,7 +38,7 @@ Após terminar de codificar e testar seu visual personalizado e o empacotado em 
 | Item | Necessário | Descrição |
 | --- | --- | --- |
 | O pacote pbiviz contém todos os metadados necessários |Sim |Nome do visual<br>Nome de exibição<br>GUID<br>Versão<br>Descrição<br>Email e nome do autor |
-| Arquivo de relatório .pbix de exemplo |Sim |Para demonstrar seu visual, você deverá ajudar os usuários a se familiarizarem com ele. Você deve enfatizar o valor que o visual traz para o usuário e dar exemplos de uso, opções de formatação, etc. Você também pode adicionar uma página de *"dicas"* no final com algumas dicas e truques, coisas a serem evitadas e assim por diante. |
+| Arquivo de relatório .pbix de exemplo |Sim |Para demonstrar seu visual, você deverá ajudar os usuários a se familiarizarem com ele. Você deve enfatizar o valor que o visual traz para o usuário e dar exemplos de uso, opções de formatação, etc. Você também pode adicionar uma página de *"dicas"* no final com algumas dicas e truques, coisas a serem evitadas e assim por diante.<br>O arquivo de relatório .pbix de exemplo deve trabalhar offline, sem nenhuma conexão externa |
 | Ícone |Sim |Você deve incluir o logotipo visual personalizado que será exibido na frente da loja. O formato pode ser .png, .jpg, .jpeg ou .gif. Ele deve ter exatamente 300px (largura) x 300px (altura). O tamanho do arquivo não deve exceder 512kb. |
 | Capturas de tela |Sim |Você deve fornecer, pelo menos, uma captura de tela. O formato pode ser .png, .jpg, .jpeg ou .gif. Deve ter exatamente 1366px (largura) x 768px (altura). O tamanho do arquivo não deve exceder 1024kb. *Para melhor utilização, adicione bolhas de texto para articular a proposição de valores dos principais recursos mostrados em cada captura de tela.* |
 | Link de download de suporte |Sim |Forneça a URL para dar suporte a clientes que têm problemas com seu visual. O formato da URL deve incluir https:// ou http://. |

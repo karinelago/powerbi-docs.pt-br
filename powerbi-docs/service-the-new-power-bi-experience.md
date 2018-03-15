@@ -16,19 +16,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 38a3923469d64cc0761ea0e1b1b39005f6904d40
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 82aedf3defc1a3154c884c18b90dc27195847e9a
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="getting-around-in-power-bi-service"></a>Como explorar o serviço do Power BI
 ## <a name="the-left-navigation-pane"></a>O painel de navegação esquerdo
 
-![](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
+![painel de navegação esquerdo](media/service-the-new-power-bi-experience/power-bi-navbar-bigger.png)
 
 **Guia de referência rápido**
 
@@ -64,61 +64,61 @@ Vamos começar observando como o conteúdo básico (dashboards, relatórios, con
 
 Se você tiver o Power BI Gratuito, apenas um espaço de trabalho será exibido – **Meu espaço de trabalho**.
 
-![](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
+![vídeo curto do espaço de trabalho](media/service-the-new-power-bi-experience/power-bi-new-nav.gif)
 
 ### <a name="favorite-dashboards-reports-and-apps"></a>Adicionar painéis, relatórios e aplicativos aos favoritos
 Os **Favoritos** permitem acessar rapidamente o conteúdo que é mais importante para você.  
 
 1. Com o painel ou relatório aberto, selecione **Adicionar a Favoritos** no canto superior direito.
    
-   ![](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
+   ![adicionar favorito](media/service-the-new-power-bi-experience/powerbi-dashboard-favorite.png)
    
    **Adicionar a Favoritos** muda para **Remover de Favoritos** e o ícone de estrela se torna amarelo.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
+   ![remover favorito](media/service-the-new-power-bi-experience/power-bi-unfavorite2.png)
 
 2. Para um aplicativo, selecione **Aplicativos** no painel de navegação esquerdo, passe o mouse sobre o aplicativo e escolha a estrela para defini-lo como um favorito.
 
 2. Para exibir uma lista de todo o conteúdo adicionados aos favoritos, no painel de navegação à esquerda, selecione a seta para a direita de **Favoritos**. Como o painel de navegação esquerdo é um recurso permanente do serviço do Power BI, você tem acesso a essa lista em qualquer lugar do serviço do Power BI.
    
-    ![](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
+    ![submenu favoritos](media/service-the-new-power-bi-experience/power-bi-favorite-flyout.png)
    
     A partir daqui, você pode selecionar um painel, um relatório ou um aplicativo para abri-lo.
 
 3. Para abrir o painel **Favoritos**, no painel de navegação à esquerda selecione **Favoritos** ou selecione o ícone Favoritos ![](media/service-the-new-power-bi-experience/powerbi-star-icon.png).
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
+   ![abrir tela Favoritos](media/service-the-new-power-bi-experience/power-bi-favorites-screen.png)
    
    Aqui você pode abrir, localizar o conteúdo, remover dos favoritos ou compartilhar o conteúdo com seus colegas.
 
 1. Outra maneira de marcar um painel ou um relatório como favorito é da guia do espaço de trabalho **Painéis** ou **Relatórios**.  Basta abrir o espaço de trabalho para exibir o conteúdo e selecionar o ícone de estrela à esquerda do nome.
    
-   ![](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
+   ![marcar como favorito](media/service-the-new-power-bi-experience/power-bi-favorite-dashboard-new.png)
 
 Para saber mais, consulte [Favoritos](service-dashboard-favorite.md)
 
 ### <a name="recents"></a>Recentes
-Encontre rapidamente o conteúdo acessado mais recentemente visitando o painel **Recentes**. Isso inclui o conteúdo de todos os espaços de trabalho.
+Veja de forma rápida o conteúdo acessado recentemente no painel **Recentes**. Isso inclui o conteúdo de todos os espaços de trabalho.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
+  ![painel Recentes](media/service-the-new-power-bi-experience/power-bi-recent-new.png)
 
 De forma semelhante aos Favoritos, você pode acessar rapidamente o conteúdo recente em qualquer lugar do serviço do Power BI, selecionando a seta ao lado de **Recentes** no painel de navegação esquerdo.
 
-  ![](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
+  ![submenu Recentes](media/service-the-new-power-bi-experience/power-bi-recent-flyout-new.png)
 
 Para obter mais informações, consulte [Recentes no Power BI](service-recent.md)
 
 ### <a name="apps"></a>Aplicativos
 Um aplicativo é uma coleção de dashboards e relatórios criados para fornecer métricas-chave, tudo isso em um só lugar. Você pode ter aplicativos internos para sua organização e também [aplicativos para serviços externos](service-connect-to-services.md), como o Google Analytics e o Microsoft Dynamics CRM. 
 
-![](media/service-the-new-power-bi-experience/power-bi-apps.png)
+![painel Aplicativos](media/service-the-new-power-bi-experience/power-bi-apps.png)
 
 Para obter mais informações, consulte **Espaços de trabalho de aplicativo** (abaixo) e [O que são os aplicativos do Power BI](service-install-use-apps.md).
 
 ### <a name="shared-with-me"></a>Compartilhou comigo
-**Compartilhado comigo** é o local de todo o conteúdo que seus colegas compartilharam com você.  Filtre pelo proprietário do dashboard, use o campo de pesquisa para encontrar o que for relevante e classifique os itens por data.  E quanto ao conteúdo compartilhado que você visita com frequência, é ainda mais fácil incluí-lo nos favoritos pela exibição **Compartilhado comigo**.
+**Compartilhado comigo** é o local de todo o conteúdo que seus colegas compartilharam com você.  Filtre por proprietário de dashboard, use o campo de pesquisa para encontrar o que é relevante e classifique os itens por data.  E quanto ao conteúdo compartilhado que você visita com frequência, é ainda mais fácil incluí-lo nos favoritos pela exibição **Compartilhado comigo**.
 
-![](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
+![Painel Compartilhado comigo](media/service-the-new-power-bi-experience/power-bi-shared-new.png)
 
 Para obter mais informações, consulte [Compartilhado comigo](service-shared-with-me.md)
 
@@ -130,29 +130,29 @@ Se você não for membro de um espaço de trabalho do aplicativo nem um administ
 #### <a name="my-workspace"></a>Meu espaço de trabalho
 O **Meu Espaço de Trabalho** armazena todo o conteúdo do qual você é proprietário. Pense nele como sua área restrita pessoal ou como área de trabalho para seu próprio conteúdo. Você pode compartilhar o conteúdo do Meu Espaço de Trabalho com seus colegas. No Meu Espaço de Trabalho, seu conteúdo é organizado em 4 guias: Dashboards, Relatórios, Pastas de trabalho e Conjuntos de dados.
 
-![](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
+![Tela Meu espaço de trabalho](media/service-the-new-power-bi-experience/power-bi-my-workspace2.png)
 
 #### <a name="app-workspaces"></a>Espaços de trabalho de aplicativo
-Os aplicativos e espaços de trabalho de aplicativo são um recurso do Power BI Pro. Se você é uma pessoa que cria dashboards e relatórios para outras pessoas, você usará os espaços de trabalho de aplicativo para fazer isso. Um espaço de trabalho de aplicativo é o local em que você criará o aplicativo, portanto, para criá-lo, você primeiro precisará criar o espaço de trabalho do aplicativo. Eles são a evolução dos espaços de trabalho de grupo – áreas de preparo e contêineres para o conteúdo no aplicativo.  Você e seus colegas podem colaborar em dashboards, relatórios e outro conteúdo que você pretende distribuir para um público maior ou até mesmo para toda a sua organização.
+Os aplicativos e espaços de trabalho de aplicativo são um recurso do Power BI Pro. Se você é uma pessoa que cria dashboards e relatórios para outras pessoas, você usará os espaços de trabalho de aplicativo para fazer isso. Um espaço de trabalho de aplicativo é o local em que você criará o aplicativo, portanto, para criá-lo, você primeiro precisará criar o espaço de trabalho do aplicativo. Eles são a evolução dos contêineres e das áreas de preparo dos espaços de trabalho de grupo para o conteúdo no aplicativo.  Você e seus colegas podem colaborar em dashboards, relatórios e outro conteúdo que você pretende distribuir para um público maior ou até mesmo para toda a sua organização.
 
 Para saber mais, acesse [Criar e distribuir um aplicativo no Power BI](service-create-distribute-apps.md#app-workspaces).
 
 Assim como no **Meu Espaço de Trabalho**, seu conteúdo é organizado em quatro guias: Dashboards, Relatórios, Pastas de trabalho e Conjuntos de dados.
 
-![](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
+![Espaço de trabalho de aplicativo](media/service-the-new-power-bi-experience/power-bi-app-workspace.png)
 
 Alterne entre os espaços de trabalho, selecionando **Espaços de trabalho** no menu de do painel navegação esquerdo.
 
-![](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
+![Selecionar um espaço de trabalho](media/service-the-new-power-bi-experience/power-bi-workspacesnew2.png)
 
 ### <a name="search-and-sort-content"></a>Pesquisar e classificar conteúdo
 A exibição de conteúdo torna mais fácil pesquisar, filtrar e classificar seu conteúdo. Para procurar um dashboard, relatório ou pasta de trabalho, digite na área de pesquisa. O Power BI filtra somente o conteúdo que tenha sua cadeia de caracteres de pesquisa como parte do nome.
 
-![](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
+![pesquisar um dashboard](media/service-the-new-power-bi-experience/power-bi-search-sortnew.png)
 
 Você também pode classificar o conteúdo por nome ou por proprietário.  
 
-![](media/service-the-new-power-bi-experience/power-bi-sort.png)
+![classificar conteúdo](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Para saber mais, consulte [Navegação do Power BI: pesquisar, classificar e filtrar](service-navigation-search-filter-sort.md)
 

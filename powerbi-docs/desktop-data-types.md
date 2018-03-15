@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d15aeaf90e748b9ba14a0160042d2db4f36d3150
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 71a2908357164cf93870800947ae5fa0aa04c75c
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de dados no Power BI Desktop
 Este artigo descreve os tipos de dados com suporte no Power BI Desktop e DAX (Data Analysis Expressions). 
 
 Quando você carrega dados no Power BI Desktop, ele tenta converter o tipo de dados da coluna de origem em um tipo de dados que dá melhor suporte a armazenamento, cálculos e visualização de dados mais eficientes. Por exemplo, se uma coluna de valores que você importa do Excel não tem nenhum valor fracionário, o Power BI Desktop converterá toda a coluna de dados para um tipo de dados de Número Inteiro, que é mais adequado para armazenar inteiros.
 
-Isso é importante porque algumas funções DAX têm requisitos especiais de tipo de dados. Embora em muitos casos o DAX converta implicitamente um determinado tipo de dados para você, há alguns casos em que isso não ocorrerá.  Por exemplo, se uma função DAX requer um tipo de dados de Data e o tipo de dados para a coluna é Texto, a função DAX não funcionará corretamente.  Portanto, é importante e útil obter o tipo de dados correto para uma coluna. Conversões implícitas são descritas posteriormente neste artigo.
+Esse conceito é importante porque algumas funções do DAX têm requisitos de tipo de dados especiais. Embora em muitos casos o DAX converta implicitamente um determinado tipo de dados para você, há alguns casos em que isso não ocorrerá.  Por exemplo, se uma função DAX requer um tipo de dados de Data e o tipo de dados para a coluna é Texto, a função DAX não funcionará corretamente.  Portanto, é importante e útil obter o tipo de dados correto para uma coluna. Conversões implícitas são descritas posteriormente neste artigo.
 
 ## <a name="determine-and-specify-a-columns-data-type"></a>Determinar e especificar o tipo de dados da coluna
 Na área de trabalho do Power BI, você pode determinar e especificar o tipo de dados de uma coluna no Editor de Consultas, ou na Exibição de Dados ou de Relatório:
@@ -42,21 +42,21 @@ Na área de trabalho do Power BI, você pode determinar e especificar o tipo de 
 
 ![](media/desktop-data-types/pbiddatatypesindatareportview.png)
 
-O drop-down Tipo de Dados no Editor de Consultas tem dois tipos de dados que não estão presentes atualmente na Exibição de Dados ou de Relatório: **Data/Hora/Fuso horário** e **Duração**. Quando uma coluna com esses tipos de dados é carregada no modelo e exibida na exibição de Dados ou de Relatório, uma coluna com um tipo de dado de Data/Hora/Fuso horário é convertida em um valor de Data/Hora, enquanto uma coluna com um tipo de dados de Duração é convertida em um Número Decimal.
+O drop-down Tipo de Dados no Editor de Consultas tem dois tipos de dados que não estão presentes atualmente na Exibição de Dados ou de Relatório: **Data/Hora/Fuso horário** e **Duração**. Quando uma coluna com esses tipos de dados for carregada no modelo e exibida no modo de exibição Dados ou Relatório, uma coluna com o tipo de dados Data/Hora/Fuso Horário será convertida em Data/Hora e uma coluna com o tipo de dados Duração será convertida em um Número Decimal.
 
 ### <a name="number-types"></a>Tipos de número
 O Power BI Desktop dá suporte a três tipos de número:
 
 **Número Decimal** – representa um número de ponto flutuante (oito bytes) de 64 bits. É o tipo de número mais comum e corresponde aos números como você normalmente os imagina.  Embora seja projetado para lidar com números com valores fracionários, ele também lida com números inteiros.  O tipo de Número Decimal pode lidar com valores negativos de -1,79E +308 a -2,23E -308, 0, e valores positivos de 2,23E -308 a 1,79E + 308. Por exemplo, números como 34, 34,01 e 34,000367063 são números decimais válidos. O maior valor que pode ser representado em um tipo de Número Decimal tem 15 dígitos.  O separador decimal pode ocorrer em qualquer lugar no número. O tipo de Número Decimal corresponde a como o Excel armazena seus números.
 
-**Número Decimal Fixo** – tem um local para o separador decimal fixo. O separador decimal tem sempre quatro dígitos à direita e permite 19 dígitos de significância.  O maior valor que ele pode representar é 922.337.203.685.477,5807 (positivo ou negativo).  O tipo de Número Decimal Fixo é útil em casos em que o arredondamento pode introduzir erros.  Quando você trabalha com muitos números que têm valores fracionários pequenos eles podem, às vezes, se acumular e forçar um número a ficar ligeiramente fora do valor correto.  Como os valores após os quatro dígitos à direita do separador decimal são truncados, o tipo Decimal Fixo pode ajudá-lo a evitar esses tipos de erros.   Se você está familiarizado com o SQL Server, esse tipo de dados correspondente ao Decimal (19,4) do SQL Server, ou ao tipo de Dados de Moeda no Power Pivot. 
+**Número Decimal Fixo** – tem um local para o separador decimal fixo. O separador decimal tem sempre quatro dígitos à direita e permite 19 dígitos de significância.  O maior valor que ele pode representar é 922.337.203.685.477,5807 (positivo ou negativo).  O tipo de Número Decimal Fixo é útil em casos em que o arredondamento pode introduzir erros.  Quando você trabalha com muitos números que têm valores fracionários pequenos, às vezes, eles podem se acumular e forçar um número a apresentar uma pequena diferença.  Como os valores após os quatro dígitos à direita do separador decimal são truncados, o tipo Decimal Fixo pode ajudá-lo a evitar esses tipos de erros.   Se você está familiarizado com o SQL Server, esse tipo de dados correspondente ao Decimal (19,4) do SQL Server, ou ao tipo de Dados de Moeda no Power Pivot. 
 
 **Número Inteiro** – representa um valor inteiro (oito bytes) de 64 bits. Como é um número inteiro, ele não tem nenhum dígito à direita da casa decimal. Ele permite 19 dígitos; números inteiros positivos ou negativos entre -9.223.372.036.854.775.808 (-2^63) e 9.223.372.036.854.775.807 (2^63-1).  Ele pode representar o maior número possível dos diversos tipos de dados numéricos.  Assim como com o tipo Decimal Fixo, o tipo de Número Inteiro pode ser útil em casos nos quais você precisa controlar o arredondamento. 
 
 ### <a name="datetime-types"></a>Tipos de data/hora
 O Power BI Desktop dá suporte a cinco tipos de dados de Data/Hora na Visualização da Consulta e três no modelo e Exibição de Relatório.   Tanto Data/Hora/Fuso horário quanto a Duração são convertidos durante o carregamento para o modelo.
 
-**Data/Hora** – representa um valor de data e um valor temporal.  Nos bastidores, o valor de Data/Hora é armazenado como um Tipo de Número Decimal.  Então, na verdade, é possível converter entre os dois.   A parte de uma data referente à hora é armazenada como uma fração a múltiplos inteiros de 1/300 segundos (3,33 ms).  Há suporte para datas entre os anos de 1900 e 9999.
+**Data/Hora** – representa um valor de data e um valor temporal.  Nos bastidores, o valor de Data/Hora é armazenado como um Tipo de Número Decimal.  Então, na verdade, é possível converter entre os dois.   A parte de hora da data é armazenada como uma fração de múltiplos inteiros de 1/300 segundos (3,33 ms).  Há suporte para datas entre os anos de 1900 e 9999.
 
 **Data** – representa apenas uma Data (sem parte referente à hora).  Quando convertido para o modelo, uma Data é o mesmo que um valor de Data/Hora com zero como o valor fracionário.
 
@@ -67,7 +67,7 @@ O Power BI Desktop dá suporte a cinco tipos de dados de Data/Hora na Visualiza�
 **Duração** – representa um intervalo de tempo. Ele é convertido em um Tipo de Número Decimal quando é carregado no modelo.  Como um tipo de Número Decimal, ele pode ser adicionado ou subtraído de um campo de Data/Hora com resultados corretos.  Como um tipo de Número Decimal, você pode usá-lo facilmente em visualizações que mostram a magnitude.
 
 ### <a name="text-type"></a>Tipo de texto
-**Texto** - uma cadeia de caracteres de dados de caractere Unicode. Pode ser composto de cadeias de caracteres, números ou datas representados em um formato de texto. O comprimento máximo da cadeia de caracteres é 268.435.456 caracteres Unicode (caracteres de 256 megabytes) ou 536.870.912 bytes.
+**Texto** - uma cadeia de caracteres de dados de caractere Unicode. Ela pode conter cadeias de caracteres, datas ou números representados no formato de texto. O comprimento máximo da cadeia de caracteres é 268.435.456 caracteres Unicode (caracteres de 256 megabytes) ou 536.870.912 bytes.
 
 ### <a name="truefalse-type"></a>Tipo verdadeiro/falso
 **Verdadeiro/Falso** – um valor Booliano de Verdadeiro ou Falso.
@@ -109,7 +109,7 @@ Por exemplo, se um número real é usado em uma operação de adição em combin
 
 **Subtração (-)**
 
-Na tabela a seguir, o cabeçalho de linha é o minuendo (lado esquerdo) e o cabeçalho da coluna é o subtraendo (lado direito).
+Na tabela a seguir, o cabeçalho da linha é o minuendo (lado esquerdo) e o cabeçalho da coluna é o subtraendo (lado direito).
 
 | Operador(-) | INTEGER | CURRENCY | REAL | Date/time |
 | --- | --- | --- | --- | --- |
@@ -125,7 +125,7 @@ Por exemplo, se uma data é usada em uma operação de subtração com qualquer 
 > 
 > 
 
-**Multiplicação(*)**
+**Multiplicação (*)**
 
 | Operador(*) | INTEGER | CURRENCY | REAL | Date/time |
 | --- | --- | --- | --- | --- |
@@ -155,7 +155,7 @@ As seguintes expressões DAX ilustram esse comportamento:
 
 =IF(FALSE()\>"true","Expression is true", "Expression is false"), retorna "Expression is true"
 
-=IF("12"\>12,"Expression is true", "Expression is false"), retorna "Expression is true".
+=IF("12"\>12,"Expression is true", "Expression is false"), retorna "Expression is true"
 
 =IF("12"=12,"Expression is true", "Expression is false"), retorna "Expression is false"
 
@@ -169,7 +169,7 @@ As conversões são executadas implicitamente para tipos numéricos ou de data/h
 | Date/time |REAL |REAL |REAL |Date/time |
 
 ### <a name="handling-blanks-empty-strings-and-zero-values"></a>Tratamento de elementos em branco, cadeias de caracteres vazias e valores zero
-No DAX, um valor nulo, valor em branco, célula vazia ou um valor ausente são todos representados pelo mesmo novo tipo de valor, um BLANK. Você também pode gerar elementos em branco usando a função BLANK, ou testar elementos em branco usando a função ISBLANK.
+No DAX, um valor nulo ou em branco, uma célula vazia ou um valor ausente são representados pelo mesmo tipo novo de valor, um BLANK. Você também pode gerar elementos em branco usando a função BLANK, ou testar elementos em branco usando a função ISBLANK.
 
 O modo como os elementos em branco são tratados em operações como adição ou concatenação depende da função individual. A tabela a seguir resume as diferenças entre as fórmulas DAX e do Microsoft Excel, da maneira que os elementos em branco são tratados.
 
