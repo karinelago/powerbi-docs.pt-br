@@ -15,21 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a01f7c8ab679e2820261c7947a9561ff5513d60
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um bloco no Power BI a ser usado nos aplicativos móveis
 Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.
 
 Crie um código QR no serviço do Power BI para blocos em qualquer dashboard, até mesmo para dashboards que você não pode editar. Em seguida, coloque o código QR em um local estratégico. Por exemplo, você pode colá-lo em um email ou imprimir e colá-lo em um local específico. 
 
-Os colegas com quem você compartilhou o painel podem [digitalizar o código QR para ter acesso ao bloco, diretamente em seus dispositivos móveis](mobile-apps-qr-code.md). Eles podem usar o scanner de código QR localizado no aplicativo do Power BI ou qualquer outro scanner QR instalado em seu dispositivo. .
+Os colegas com quem você compartilhou o painel podem [digitalizar o código QR para ter acesso ao bloco, diretamente em seus dispositivos móveis](mobile-apps-qr-code.md). Eles podem usar o scanner de código QR localizado no aplicativo do Power BI ou qualquer outro scanner QR instalado em seu dispositivo.
+
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Criar um código QR para um bloco
 1. Abra um painel no serviço do Power BI.
