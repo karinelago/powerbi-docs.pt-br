@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: fff56b220579a19505337f2ac9697cd3e61e83cb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
+ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/09/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
 Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço do Power BI e, junto com outros usuários, criar vários relatórios diferentes (em arquivos .pbix distintos) utilizando o mesmo common data service. Esse recurso é chamado de **conexão dinâmica ao serviço do Power BI**.
@@ -101,7 +101,7 @@ Ao selecionar **Carregar** na janela, é estabelecida uma conexão dinâmica ao 
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_10.png)
 
-Agora, você (e os demais) podem criar relatórios personalizados e compartilhar todos eles a partir do mesmo conjunto de dados. Essa é uma excelente maneira de poder contar com uma pessoa experiente para criar um conjunto de dados bem estruturado (assim como Anna faz) e permitir que vários colegas de equipe utilizem o conjunto de dados compartilhado para criar seus próprios relatórios.
+Agora, você (e outras pessoas) podem criar e compartilhar relatórios personalizados com base no mesmo conjunto de dados. Essa é uma excelente maneira de poder contar com uma pessoa experiente para criar um conjunto de dados bem estruturado (assim como Anna faz) e permitir que vários colegas de equipe utilizem o conjunto de dados compartilhado para criar seus próprios relatórios.
 
 > [!NOTE]
 > Quando você cria relatórios com base no conjunto de dados usando uma conexão dinâmica com o **serviço do Power BI**, só pode publicar o relatório no mesmo espaço de trabalho de serviço do Power BI que contém o conjunto de dados que está sendo usado.
@@ -116,8 +116,8 @@ Ao usar a **conexão dinâmica ao serviço do Power BI**, há algumas limitaçõ
 * Como essa é uma conexão dinâmica, a navegação à esquerda e a modelagem são desabilitadas; esse comportamento é semelhante a quando conectado ao **SQL Server Analysis Services**.
 * Por se tratar de uma conexão dinâmica, a RLS (segurança em nível de linha e de função), o OneDrive for Business e outros comportamentos de conexão semelhantes são executados da mesma forma como quando conectado ao **SQL Server Analysis Services**.
 * Ao selecionar a qual conjunto de dados se conectar no **serviço do Power BI**, a caixa de pesquisa é aplicável apenas a espaços de trabalho que foram expandidos.
-* Se você modificar o arquivo .pbix original compartilhado, o conjunto de dados e o relatório compartilhado no **serviço do Power BI** serão substituídos.
-* Você não pode substituir o relatório originalmente compartilhado. Tentar fazer isso resulta em um aviso solicitando que você renomeie o arquivo e o publique.
+* Se o proprietário modifica o arquivo .pbix original compartilhado, o conjunto de dados e o relatório compartilhado no **serviço do Power BI** são substituídos.
+* Membros de um espaço de trabalho não podem substituir o relatório originalmente compartilhado. Tentar fazer isso resulta em um aviso solicitando que você renomeie o arquivo e o publique.
 * Se você excluir o conjunto de dados compartilhado no **serviço do Power BI**, outros arquivos .pbix do **Power BI Desktop** não funcionarão corretamente nem exibirão seus elementos visuais.
 * Para Pacotes de conteúdo, é necessário primeiro criar uma cópia do pacote de conteúdo antes de usá-lo como base para o compartilhamento de relatórios e conjuntos de dados .pbix no **serviço do Power BI**.
 * Para pacotes de conteúdo da *Minha Organização*, uma vez copiados, não é possível substituir o relatório criado no serviço e/ou um relatório criado como parte da cópia de um pacote de conteúdo com uma conexão dinâmica. Tentar fazer isso resulta em um aviso solicitando que você renomeie o arquivo e o publique. Nessa situação, você pode substituir apenas relatórios conectados publicados dinamicamente.

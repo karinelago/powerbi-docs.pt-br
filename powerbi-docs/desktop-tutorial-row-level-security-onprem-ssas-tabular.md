@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 982b027ebf7605cdc0ce122759d5f3837d23c0ed
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services
 Este tutorial apresenta as etapas necessárias para implementar a **segurança em nível de linha** no **Modelo de Tabela do Analysis Services** e mostra como usá-la em um relatório do Power BI. As etapas deste tutorial foram projetadas para permitir que você acompanhe e conheça as etapas necessárias preenchendo um conjunto de dados de exemplo.
@@ -85,9 +85,9 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
 9. Esta fórmula especifica que todas as colunas são resolvidas para a condição booliana false; portanto, nenhuma coluna da tabela **DimUserSecurity** pode ser consultada.
 10. Agora, precisamos processar e implantar o modelo. Confira [este artigo](https://msdn.microsoft.com/library/hh231693.aspx) para obter assistência na implantação do modelo.
 
-## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Tarefa 3: Adicionando fontes de dados ao gateway de dados local
+## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Tarefa 3: adicionando fontes de dados ao Gateway de dados local
 1. Depois que o modelo de tabela for implantado e estiver pronto para consumo, você precisará adicionar uma conexão de fonte de dados ao servidor de tabela do Analysis Services local no portal do Power BI.
-2. Para permitir que o **serviço do Power BI** acesse o serviço de análise local, você precisará ter o **[gateway de dados local](service-gateway-onprem.md)** instalado e configurado no seu ambiente.
+2. Para permitir que o **serviço do Power BI** acesse o serviço de análise local, é necessário ter um **[Gateway de dados local](service-gateway-onprem.md)** instalado e configurado no seu ambiente.
 3. Depois de configurar o gateway corretamente, é necessário criar uma conexão de fonte de dados à instância de tabela do **Analysis Services**. Este artigo o ajudará a [adicionar uma fonte de dados no portal do Power BI](service-gateway-enterprise-manage-ssas.md).
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_gateway.png)

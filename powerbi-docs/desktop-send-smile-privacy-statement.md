@@ -15,16 +15,21 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f9aa1570fe9386e5f8e726097a1c88d448dc2da1
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ac61259fc0f02e8f84a94502e9f8dd89d5ca4b96
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Política de Privacidade referente ao comentário Enviar um Smiley do Power BI Desktop
+# <a name="power-bi-desktop-send-a-smile-privacy-statement"></a>Política de Privacidade referente ao comentário Enviar Comentários Positivos do Power BI Desktop
+
+Começando com a versão de março de 2018 do **Power BI Desktop**, o relatório de erros usa a plataforma de Relatório de Erros do Windows em vez da funcionalidade *Enviar Comentários Positivos* ou *Enviar um Rosto Triste*. Você pode obter mais informações sobre a plataforma de Relatório de Erros do Windows no [blog de privacidade do Windows](https://blogs.windows.com/windowsexperience/2018/01/24/microsoft-introduces-new-privacy-tools-ahead-of-data-privacy-day/). 
+
+## <a name="for-versions-of-power-bi-desktop-prior-to-march-2018"></a>Para versões do Power BI Desktop anteriores a março de 2018
+
 Na Microsoft, estamos trabalhando intensamente para proteger sua privacidade, ao mesmo tempo que entregamos produtos que trazem o desempenho, a capacidade e a conveniência que você deseja. Esta Política de Privacidade explica muitas das práticas de coleta e uso de dados do Comentário *Enviar Comentários Positivos* do Microsoft Power BI Desktop. Ela não se aplica a outros sites online ou offline, produtos ou serviços da Microsoft.
 
 Exceto conforme descrito nesta política, o comentário *Enviar Comentários Positivos* não envia informações pessoais à Microsoft. As informações enviadas à Microsoft não são compartilhadas fora da Microsoft nem de suas subsidiárias e afiliadas controladas sem a permissão do usuário.

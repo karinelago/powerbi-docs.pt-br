@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: 9b8de53534c94ad995e2d953cfc6994b93915bd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: bfed948be385439d33b335b08da68b103cd7c1b8
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Criar pacotes de conteúdo de modelo no Power BI
 A criação de um pacote de conteúdo de modelo usa o Power BI Desktop e o PowerBI.com. Há quatro componentes para seu pacote de conteúdo:
@@ -136,7 +136,7 @@ Conforme listado nas seções acima, atualmente os pacotes de conteúdo de model
 | Com suporte | *Sem suporte* |
 | --- | --- |
 | Conjuntos de dados criados no Power BI Desktop |*Conjuntos de dados de outros pacotes de conteúdo ou entradas, como arquivos do Excel* |
-| Fonte de dados com suporte para a atualização de dados agendada na nuvem |*Não há suporte para conectividade local ou de consulta direta* |
+| Fonte de dados com suporte para a atualização de dados agendada na nuvem |*Não há suporte para a consulta direta nem a conectividade local* |
 | As consultas retornam esquemas consistentes ou erros quando apropriado |*Esquemas personalizadas ou dinâmicos* |
 | Uma fonte de dados por conjunto de dados |*Várias fontes de dados como mashups ou URLs que são detectadas como fontes de dados múltiplas* |
 | Parâmetros do tipo texto |*Outros tipos de parâmetro (como data) ou "lista de valores permitidos"* |

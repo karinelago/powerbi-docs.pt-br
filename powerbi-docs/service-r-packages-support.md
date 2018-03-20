@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b4e6420177d2b268838b3052e29f230025cfb8
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Pacotes do R no serviço do Power BI
 Você pode usar a [linguagem de programação R](https://www.r-project.org/) avançada para criar elementos visuais no serviço do Power BI. Muitos pacotes do R têm suporte no serviço do Power BI (e mais têm suporte o tempo todo), e alguns pacotes não têm.
@@ -36,12 +36,12 @@ Os pacotes de R com suporte para o **serviço do Power BI** são encontrados na 
 Há alguns requisitos e limitações dos pacotes de R:
 
 * O serviço do Power BI, na sua maioria, dá suporte a pacotes de R com licenças de software gratuitas e de software livre como GPL-2, GPL-3, MIT+ e assim por diante.
-* O serviço do Power BI dá suporte a pacotes publicados no CRAN. O serviço não dá suporte a pacotes de R personalizados ou privados. Recomendamos que os usuários disponibilizem seus pacotes privados no CRAN antes de solicitar que o pacote esteja disponível no serviço do Power BI.
+* O serviço do Power BI dá suporte a pacotes publicados no CRAN. O serviço não dá suporte a pacotes de R personalizados ou privados. É recomendável que os usuários disponibilizem seus pacotes privados no CRAN antes de solicitar que o pacote esteja disponível no serviço do Power BI.
 * O **Power BI Desktop** tem duas variações para pacotes de R:
   
   * Para visuais do R, é possível instalar qualquer pacote, incluindo pacotes de R personalizados
   * Para visuais personalizados do R, há suporte somente para pacotes CRAN públicos para instalação automática dos pacotes
-* Por motivos de privacidade e segurança, atualmente não damos suporte a pacotes de R que forneçam consultas de cliente-servidor por meio da World Wide Web (como RgoogleMaps) no serviço. A rede está bloqueada para essas tentativas. Consulte a seção a seguir para obter uma lista de pacotes do R com e sem suporte.
+* Por motivos de privacidade e segurança, os pacotes de R que fornecem consultas de cliente-servidor por meio da World Wide Web (como RgoogleMaps) no serviço não são compatíveis. A rede está bloqueada para essas tentativas. Consulte a seção a seguir para obter uma lista de pacotes do R com e sem suporte.
 * O processo de aprovação para a inclusão de um novo pacote de R tem uma árvore de dependências; algumas delas que precisam ser instaladas no serviço não têm suporte.
 
 ## <a name="r-packages-that-are-supported-in-power-bi"></a>Pacotes do R com suporte no Power BI
@@ -116,7 +116,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 | cubature |1.1-2 |https://cran.r-project.org/web/packages/cubature/index.html |
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
-| Data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
+| data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
 | date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
@@ -202,7 +202,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
-| Highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
+| highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
 | ifultools |2.0-1 |https://cran.r-project.org/web/packages/ifultools/index.html |
@@ -296,7 +296,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
 | PerformanceAnalytics |1.4.3541 |https://cran.r-project.org/web/packages/PerformanceAnalytics/index.html |
-| Plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
+| plotly |4.5.6 |https://cran.r-project.org/web/packages/plotly/index.html |
 | plotmo |3.1.4 |https://cran.r-project.org/web/packages/plotmo/index.html |
 | plotrix |3.6-1 |https://cran.r-project.org/web/packages/plotrix/index.html |
 | pls |2.5-0 |https://cran.r-project.org/web/packages/pls/index.html |
@@ -325,7 +325,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 | Rcpp |0.12.3 |https://cran.r-project.org/web/packages/Rcpp/index.html |
 | RcppArmadillo |0.6.600.4.0 |https://cran.r-project.org/web/packages/RcppArmadillo/index.html |
 | RcppEigen |0.3.2.8.1 |https://cran.r-project.org/web/packages/RcppEigen/index.html |
-| redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
+| Redmonder |0.2.0 |https://cran.r-project.org/web/packages/Redmonder/index.html |
 | registry |0.3 |https://cran.r-project.org/web/packages/registry/index.html |
 | relimp |1.0-5 |https://cran.r-project.org/web/packages/relimp/index.html |
 | reshape |0.8.5 |https://cran.r-project.org/web/packages/reshape/index.html |
@@ -396,7 +396,7 @@ A tabela a seguir mostra quais pacotes **têm suporte** no serviço do Power BI.
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| Treemap |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| mapa de árvore |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |

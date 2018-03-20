@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: ad46bd02ffc3c745b63e716759007219421edfd8
-ms.sourcegitcommit: be5223b62e9a5d57c52f8588d4e539d814751dd6
+ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
+ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2018
+ms.lasthandoff: 03/08/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introdução ao aplicativo móvel do Power BI em um iPad
 O Microsoft Power BI para iOS no iPad oferece a experiência móvel do BI para Power BI, Servidor de Relatório do Power BI e Reporting Services. Exiba e interaja com os dashboards de sua empresa localmente e na nuvem em qualquer lugar, com acesso móvel dinâmico e habilitado para toque. Explore os dados em dashboards e compartilhe com seus colegas em mensagens de email ou de texto. 
@@ -31,9 +31,9 @@ O Microsoft Power BI para iOS no iPad oferece a experiência móvel do BI para P
 Crie relatórios do Power BI no Power BI Desktop e publique-os:
 
 * [Publique-os no serviço do Power BI](service-get-started.md) e crie dashboards.
-* [Publique-os localmente no Servidor de Relatório do Power BI](report-server/quickstart-create-powerbi-report.md).
+* [Publique-os localmente no Servidor de Relatórios do Power BI](report-server/quickstart-create-powerbi-report.md).
 
-Em seguida, no aplicativo Power BI para o iPad, você interage com seus dashboards e relatórios, seja locais seja na nuvem.
+Em seguida, no aplicativo do Power BI para o iPad, você interage com os dashboards e relatórios, localmente ou na nuvem.
 
 Descubra as [novidades nos aplicativos móveis do Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
@@ -138,4 +138,5 @@ Aqui estão algumas outras coisas que podem ser feitas no aplicativo do iPad com
 ### <a name="see-also"></a>Consulte também
 * [Introdução ao Power BI](service-get-started.md)  
 * Dúvidas? Experimente perguntar à [Comunidade do Power BI](http://community.powerbi.com/)
+
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3630d876f3e32cbe981d7fb5bcc38d9da1a257f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2f395a5030cb2e025b8b69fa9b5375f471dea452
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Fontes de dados com suporte do DirectQuery no Power BI
 O **Power BI Desktop** e o **serviço do Power BI** têm várias fontes de dados às quais você pode se conectar para obter acesso aos dados. Este artigo descreve quais fontes de dados do Power BI dão suporte ao método de conexão conhecido como **DirectQuery**. Para obter mais informações sobre o DirectQuery, consulte [**DirectQuery no Power BI**](desktop-directquery-about.md).
@@ -37,7 +37,8 @@ As seguintes fontes de dados dão suporte ao DirectQuery no Power BI:
 * IBM Netezza (Beta)
 * Impala (versão 2.x)
 * Banco de Dados Oracle (versão 12 e posterior)
-* SAP Business Warehouse (Beta)
+* Servidor de Aplicativos SAP Business Warehouse
+* Servidor de Mensagens SAP Business Warehouse (Beta)
 * SAP HANA
 * Snowflake
 * Spark (Beta) (versão 0.9 e posterior)
@@ -50,7 +51,7 @@ Fontes de dados que têm **(Beta)** ou **(Versão prévia)** depois do nome est�
 A única diferença entre fontes de dados **(Beta)** e em **(Versão prévia)** é que as fontes em **(Versão prévia)** precisam ser habilitadas como um recurso de versão prévia antes que fiquem disponíveis para uso. Para habilitar um conector de dados em **(Versão prévia)**, no **Power BI Desktop**, acesse **Arquivo > Opções e Configurações** e, em seguida, **Configurações > Opções > Recursos de Versão prévia**.
 
 ## <a name="on-premises-gateway-requirements"></a>Requisitos de gateway local
-A tabela a seguir especifica se um **gateway de dados local** é necessário para conectar-se à fonte de dados especificada após publicar um relatório no **serviço do Power BI**.
+A tabela a seguir especifica se um **Gateway de dados local** é necessário para se conectar à fonte de dados especificada após publicar um relatório no **serviço do Power BI**.
 
 | Fonte | Gateway necessário? |
 | --- | --- |
@@ -62,11 +63,14 @@ A tabela a seguir especifica se um **gateway de dados local** é necessário par
 | Banco de dados Teradata |Sim |
 | Amazon Redshift |Não |
 | Impala (versão 2.x) |Sim |
-| Snowflake (Versão prévia) |Ainda não tem suporte no **serviço do Power BI** |
+| Snowflake |Sim |
 | Spark (beta), versão 0.9 e posterior |Ainda não tem suporte no **serviço do Power BI** |
-| Azure HDInsight Spark (Beta) |Ainda não tem suporte no **serviço do Power BI** |
-| IBM Netezza (Beta) |Ainda não tem suporte no **serviço do Power BI** |
-| SAP Business Warehouse (Beta) |Ainda não tem suporte no **serviço do Power BI** |
+| Azure HDInsight Spark (Beta) |Não |
+| IBM Netezza |Sim |
+| Servidor de Aplicativos SAP Business Warehouse |Sim |
+| Servidor de Mensagens SAP Business Warehouse |Ainda não tem suporte no **serviço do Power BI** |
+| Google BigQuery |Não |
+
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre o DirectQuery, confira os seguintes recursos:

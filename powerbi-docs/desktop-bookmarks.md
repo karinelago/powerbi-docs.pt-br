@@ -1,5 +1,5 @@
 ---
-title: "Usando indicadores no Power BI (versão prévia)"
+title: Usando indicadores no Power BI
 description: "Os indicadores no Power BI Desktop permitem a você salvar exibições e configurações em seus relatórios, bem como criar apresentações em formato de histórias"
 services: powerbi
 documentationcenter: 
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3a56983f48d80cf39b89958db4327e3632ee733e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
+ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/08/2018
 ---
-# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi-preview"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI (versão prévia)
+# <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI 
 Usando **indicadores** no Power BI, você pode capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, bastando selecionar esse indicador salvo. 
 
 Você também pode criar uma coleção de indicadores, organizá-los na ordem desejada e, posteriormente, percorrer cada indicador em uma apresentação para realçar uma série de insights ou a história que você deseja contar com seus relatórios e visuais. 
@@ -33,12 +33,14 @@ Você também pode criar uma coleção de indicadores, organizá-los na ordem de
 
 Há muitos usos para indicadores. Você pode usá-los para acompanhar seu próprio progresso na criação de relatórios (indicadores são fáceis de adicionar, excluir e renomear) e, além disso, pode criar indicadores para criar uma apresentação de PowerPoint que percorre os indicadores em ordem, contando assim uma história com o seu relatório. Pode haver outros usos também, com base em como você acha que os indicadores podem ser melhor utilizados.
 
-### <a name="enable-the-bookmarks-preview"></a>Habilitar a versão prévia dos indicadores
-Você pode experimentar o novo recurso de **indicadores** na versão de **outubro de 2017** do **Power BI Desktop** e posteriores, bem como experimentar relatórios com indicadores habilitados no **Serviço do Power BI**. Para habilitar esse recurso de versão prévia, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Versão Prévia** e, em seguida, marque a caixa de seleção ao lado de **Indicadores**. Você precisará reiniciar o Power BI Desktop depois de fazer a seleção.
+### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Habilitar a versão prévia dos indicadores (versões anteriores a março de 2018)
+Após a versão de março de 2018 do Power BI Desktop, os indicadores foram disponibilizados ao público. 
+
+Sempre sugerimos que você atualize para a versão mais recente. Mas se a sua versão do Power BI Desktop é anterior a essa versão, você pode experimentar o recurso **indicadores** disponível desde a versão de **outubro de 2017** do **Power BI Desktop** e, para relatórios habilitados com indicador, também pode experimentar o **serviço do Power BI**. Para habilitar o recurso de versão prévia, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Versão Prévia** e, em seguida, marque a caixa de seleção ao lado de **Indicadores**. 
 
 ![Habilitar indicadores na janela Opções](media/desktop-bookmarks/bookmarks_02.png)
 
-Você precisará reiniciar o **Power BI Desktop** depois de fazer a seleção.
+Você precisará reiniciar o **Power BI Desktop** depois de habilitar a versão prévia dos indicadores.
 
 ## <a name="using-bookmarks"></a>Usando indicadores
 Para usar indicadores, selecione a faixa de opções **Exibição** e, em seguida, selecione a caixa do **Painel Indicadores**. 
@@ -147,14 +149,13 @@ No **serviço do Power BI**, o **painel Indicadores** funciona exatamente do mes
 Observe que você deve usar a barra de título de indicador cinza para navegar entre os indicadores e não as setas pretas (as setas pretas permitem que você navegue pelas páginas do relatório, não pelos indicadores).
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-Nesta versão prévia dos **indicadores**, há algumas limitações e considerações a serem lembradas.
+Nesta versão dos **indicadores**, há algumas limitações e considerações a serem lembradas.
 
 * Visuais personalizados não funcionam com marcadores se eles são a *origem* do filtro. Se você estiver usando visuais personalizados para filtrar os elementos em uma página (por exemplo, a segmentação chiclet) e retornar para a página usando um indicador, a página poderá ser filtrada, mas o visual personalizado não será atualizado para mostrar o modo como a página será filtrada. 
 * O status de realce cruzado para um painel do relatório *não* é salvo quando você criar um indicador. 
 * Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Isso também significa que, se você introduzir uma segmentação em uma página em que você tiver criado indicadores anteriormente, a segmentação se comportará em seu estado padrão.
 * A movimentação de visuais após a criação de um indicador se refletirá nele. 
 * Ao publicar um relatório no **serviço do Power BI**, esse relatório *deve* conter pelo menos um indicador para que indicadores estejam disponíveis no serviço. Esse é um requisito para cada relatório que você publicar.
-* Como os indicadores atualmente são um recurso de visualização, eles ainda não estão disponíveis em [**Power BI Desktop para o Servidor de Relatórios**](report-server/quickstart-create-powerbi-report.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre os recursos que são semelhantes ou interagem com indicadores, consulte os seguintes artigos:

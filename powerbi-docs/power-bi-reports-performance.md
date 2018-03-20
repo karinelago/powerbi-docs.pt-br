@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 5f22d39c17ddbbd06a9ed38eeb162d1106607105
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e584f48f5d3650821aac094ebfde7eef5261cc36
+ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/12/2018
 ---
 # <a name="power-bi-performance-best-practices"></a>Práticas Recomendadas de Desempenho do Power BI 
 Este artigo oferece orientação para criar relatórios rápidos e confiáveis no Power BI.  
@@ -130,11 +130,11 @@ Com o SQL Profiler, é possível identificar as consultas que estão consumindo 
 
 ## <a name="gateway-best-practices"></a>Práticas recomendada de gateway 
 
-O gateway de dados local é uma excelente ferramenta para conectar o serviço do Power BI com seus dados locais. Ao mesmo tempo, com planejamento inadequado, ele também pode se tornar um gargalo de desempenho do relatório. Isso é especialmente verdadeiro para conjuntos de dados de conexão do DirectQuery/dinâmica, nos quais todas as consultas e respostas de consultas passam pelo gateway. A seguir estão algumas práticas recomendadas para garantir gateways altamente funcionais: 
+O Gateway de dados local é uma excelente ferramenta para conectar o serviço do Power BI com seus dados locais. Ao mesmo tempo, com planejamento inadequado, ele também pode se tornar um gargalo de desempenho do relatório. Isso é especialmente verdadeiro para conjuntos de dados de conexão do DirectQuery/dinâmica, nos quais todas as consultas e respostas de consultas passam pelo gateway. A seguir estão algumas práticas recomendadas para garantir gateways altamente funcionais: 
  
 - **Use o modo empresarial**, ao contrário do modo pessoal. 
 - **Especificações de hardware recomendado para o gateway** – CPU de 8 núcleos, 16 GB de RAM. 
-- **Configure o monitoramento** – definir o monitoramento de desempenho no computador do gateway entende se o gateway está ficando sobrecarregado e se tornando um gargalo. Para obter mais informações, veja [Solucionando problemas do gateway de dados local](service-gateway-onprem-tshoot.md).
+- **Configure o monitoramento** – definir o monitoramento de desempenho no computador do gateway entende se o gateway está ficando sobrecarregado e se tornando um gargalo. Para obter mais informações, veja [Solução de problemas do Gateway de dados local](service-gateway-onprem-tshoot.md).
 - **Escale vertical ou horizontalmente** – se o gateway está realmente se tornando um gargalo, considere escalar verticalmente (isto é, mover o gateway para um computador mais potente com mais CPU e RAM) ou escalar horizontalmente (por exemplo, dividir conjuntos de dados em diferentes gateways). 
 - **Importação separada vs. DirectQuery** – se escalar horizontalmente, considere separar os gateways responsáveis pela importação versus aqueles responsáveis pelo DirectQuery. 
  
