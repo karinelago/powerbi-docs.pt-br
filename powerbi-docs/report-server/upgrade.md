@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 09/05/2017
 ms.author: maghan
-ms.openlocfilehash: 81036ce9a265f4541b23954584d7a9dd9b99a080
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 337fafe395a5d80d0b82ac069579048a69cd6c4f
+ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/20/2018
 ---
 # <a name="upgrade-power-bi-report-server"></a>Atualizar o Servidor de Relatório do Power BI
 Saiba como atualizar o Servidor de Relatório do Power BI.
@@ -29,8 +29,6 @@ Saiba como atualizar o Servidor de Relatório do Power BI.
  **Baixe** ![baixe](media/upgrade/download.png "baixe")
 
 Para baixar o Servidor de Relatório do Power BI e o Power BI Desktop otimizado para o Servidor de Relatório do Power BI, acesse [Relatórios locais com o Servidor de Relatório do Power BI](https://powerbi.microsoft.com/report-server/).
-
-![dica](media/upgrade/fyi-tip.png "dica") Para ver as notas de versão atuais, consulte [Power BI Report Server – Release notes (Servidor de Relatório do Power BI – Notas de versão)](release-notes.md).
 
 ## <a name="before-you-begin"></a>Antes de começar
 Antes de atualizar um servidor de relatório, é recomendável que você execute as seguintes etapas para fazer backup de seu servidor de relatório.
