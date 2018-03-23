@@ -1,28 +1,28 @@
 ---
-title: "Sobre filtros e realce em relatórios do Power BI"
-description: "Sobre filtros e realce em relatórios do Power BI"
+title: Sobre filtros e realce em relatórios do Power BI
+description: Sobre filtros e realce em relatórios do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/08/2018
+ms.date: 03/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc39f23c192c8bbe1126551c20205bafd8be3a07
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ffbab0c1e203ce3fd8779b4eebca90debbb531e5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="about-filters-and-highlighting-in-power-bi-reports"></a>Sobre filtros e realce em relatórios do Power BI
 Os ***Filtros*** removem tudo, menos os dados que você deseja se concentrar.  O ***Realce*** não filtra, pois não remove dados, mas realça um subconjunto dos dados visíveis; os dados não realçados permanecem visíveis, mas esmaecidos.
@@ -41,9 +41,11 @@ Há muitas maneiras diferentes de filtrar e realçar relatórios no Power BI. Co
 > 
 
 ## <a name="introduction-to-filters-and-highlighting-in-reports-using-the-filters-pane"></a>Introdução aos filtros e realce em relatórios usando o painel Filtros
+ Este artigo apresenta a você a filtragem e o realce no serviço do Power BI.  Mas a experiência é quase exatamente igual no Power BI Desktop.  
+
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-reading-view.png)
 
-Filtros e realce podem ser aplicadas usando o painel **Filtros** ou fazendo seleções diretamente no relatório (ad-hoc, consulte a parte inferior da página). O painel Filtros mostra as tabelas e os campos usados no relatório e os filtros aplicados, caso haja algum. Os filtros são divididos em **Filtros de nível de página**, **Filtros de nível de relatório**, e **Filtros no nível visual**.  Você só verá filtros no nível visual se tiver selecionado uma visualização na tela de relatório.
+Filtros e realce podem ser aplicadas usando o painel **Filtros** ou fazendo seleções diretamente no relatório (ad-hoc, consulte a parte inferior da página). O painel Filtros mostra as tabelas e os campos usados no relatório e os filtros aplicados, caso haja algum. Os filtros são divididos em **Nível de página**, **Nível de relatório**, **Detalhamento** e **Nível visual**.  Você só verá filtros no nível visual se tiver selecionado uma visualização na tela de relatório.
 
 > [!TIP]
 > Se o filtro tiver a palavra **Todos** ao lado, isso significará que todo o campo está sendo incluído como filtro.  Por exemplo, **Cadeia(Todos)** na captura de tela abaixo informa que essa página de relatório inclui dados sobre cadeias de armazenamento.  Por outro lado, o filtro de nível de relatório ou **FiscalYear é 2013 ou 2014** informa que o relatório inclui somente dados para os anos fiscais de 2013 e 2014.
@@ -53,8 +55,8 @@ Filtros e realce podem ser aplicadas usando o painel **Filtros** ou fazendo sele
 ## <a name="filters-in-reading-view-versus-editing-view"></a>Filtros no Modo de Exibição de Leitura versus Modo de Exibição de Edição
 Há dois modos de interagir com relatórios: [modo de exibição de Leitura e modo de exibição de Edição](service-reading-view-and-editing-view.md).  E os recursos de filtragem disponíveis para você dependem do modo no qual você está.
 
-* No Modo de exibição de edição é possível adicionar relatório, página e filtros visuais. Ao salvar o relatório, os filtros são salvos com ele. Pessoas olhando para o relatório no modo de leitura podem interagir com os filtros que você adicionou, mas não salvar suas alterações.
-* Na Exibição de Leitura, é possível interagir com os filtros de página e de visual que já existem no relatório, mas você não poderá salvar as alterações do filtro.
+* No Modo de Exibição de Edição é possível adicionar filtros de relatório, de página, de detalhamento e de visual. Quando você salvar o relatório, os filtros serão salvos com o relatório – mesmo se você os abrir em um aplicativo móvel. Pessoas olhando para o relatório no Modo de Exibição de Leitura podem interagir com os filtros que você adicionou, mas não podem adicionar novos filtros.
+* Np Modo de Exibição de Leitura, você pode interagir com todos os filtros já existentes no relatório e salvar a seleção feita por você.  Mas você não poderá adicionar novos filtros.
 
 ### <a name="the-filters-pane-in-reading-view"></a>O painel Filtros no Modo de exibição de leitura
 Se você só tiver acesso a um relatório no Modo de Exibição de Leitura, o painel Filtros terá uma aparência semelhante a esta:
@@ -67,7 +69,7 @@ Para ver se existem filtros de nível de visual, selecione um visual. Na imagem 
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
-No Modo de exibição de leitura, explore os dados modificando os filtros existentes. Saiba como, no artigo [Interagir com filtros no Modo de exibição de leitura](service-reading-view-and-editing-view.md)
+No Modo de exibição de leitura, explore os dados modificando os filtros existentes. As alterações que você fizer serão salvas com o relatório, mesmo se você abrir o relatório em um aplicativo móvel. Saiba como no artigo [Modo de Exibição de Leitura e Modo de Exibição de Edição no serviço do Power BI](service-reading-view-and-editing-view.md)
 
 ### <a name="the-filters-pane-in-editing-view"></a>O painel Filtros no Modo de exibição de edição
 Quando você tem permissões do proprietário para um relatório e o abre no Modo de exibição de edição, vê que **Filtros** é apenas um dos vários painéis de edição disponíveis.
@@ -78,10 +80,14 @@ Ao passo que no Modo de exibição de leitura (acima) vemos que essa página do 
 
 Mas, no Modo de Exibição de Edição, há muito mais que podemos fazer com filtros e realce. A principal diferença é que podemos adicionar novos filtros. Saiba como fazer isso e muito mais no artigo [Adicionar um filtro a um relatório](power-bi-report-add-filter.md)
 
-## <a name="ad-hoc-filterting-and-highlighting"></a>Filtragem e realce ad hoc
-Selecione um campo na tela de relatório para filtrar e realçar o restante da página. Selecione um espaço vazio no mesmo visual para removê-lo. Esse tipo de filtragem e realce não é salvo com o relatório, mas é uma maneira divertida de explorar rapidamente os impactos dos dados. Para ajustar como funciona esse tipo de filtragem cruzada e realce cruzado, consulte [Interações visuais](service-reports-visual-interactions.md)
+## <a name="ad-hoc-filtering-and-highlighting"></a>Filtragem e realce ad hoc
+Selecione um campo na tela de relatório para filtrar e realçar o restante da página. Selecione um espaço vazio no mesmo visual para removê-lo. Esse tipo de filtragem e realce é uma maneira divertida de explorar rapidamente os impactos dos dados. Para ajustar como esse tipo de filtragem cruzada e realce cruzado funciona, consulte [Interações visuais](service-reports-visual-interactions.md).
 
 ![](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
+
+Quando você sair do relatório, as alterações serão salvas. Para desfazer a filtragem, selecione **Redefinir para padrão** na barra de menus superior.
+
+![](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Interact with filters and highlighting (in Reading View)](service-reading-view-and-editing-view.md) (Interagir com os filtros e realce (no Modo de Exibição de Leitura))

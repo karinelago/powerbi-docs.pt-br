@@ -1,15 +1,15 @@
 ---
-title: "Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop"
-description: "Use um conjunto comum de dados para vários relatórios do Power BI Desktop e gerencie o ciclo de vida dos seus relatórios"
+title: Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
+description: Use um conjunto comum de dados para vários relatórios do Power BI Desktop e gerencie o ciclo de vida dos seus relatórios
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 948c87e3e594ebb0ca2f75f747f7dd6fe36e18e7
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 09da52bea3486d95b730836a393ac0ffe9b10cc4
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conectar-se a conjuntos de dados no serviço do Power BI no Power BI Desktop
-Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço do Power BI e, junto com outros usuários, criar vários relatórios diferentes (em arquivos .pbix distintos) utilizando o mesmo common data service. Esse recurso é chamado de **conexão dinâmica ao serviço do Power BI**.
+Você pode estabelecer uma conexão dinâmica a um conjunto de dados compartilhado no serviço do Power BI e criar vários relatórios diferentes com base no mesmo conjunto de dados. Isso significa que você pode criar seu modelo de dados perfeito no Power BI Desktop, publicá-lo no serviço do Power BI e, junto com outros usuários, criar vários relatórios diferentes (em arquivos .pbix distintos) utilizando o mesmo common data service. Esse recurso é chamado de **conexão dinâmica do serviço do Power BI**.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_01.png)
 
@@ -59,7 +59,7 @@ Na imagem a seguir, veja como Anna cria relatórios no **Power BI Desktop** e os
 Agora que sabemos o quanto a **conexão dinâmica ao serviço do Power BI** é útil e como você pode usá-la como abordagem para práticas recomendadas de gerenciamento do ciclo de vida do relatório, vejamos as etapas necessárias para transformar os magníficos relatórios de Anna (e o conjunto de dados) em um conjunto de dados compartilhado que os seus colegas de espaço de trabalho do Power BI poderão usar.
 
 ### <a name="publish-a-power-bi-report-and-dataset"></a>Publicar um relatório do Power BI e o conjunto de dados
-A primeira etapa do gerenciamento do ciclo de vida de relatórios usando uma **conexão dinâmica ao serviço do Power BI** é ter um relatório (e um conjunto de dados) que os colegas de equipe queiram usar. Sendo assim, Anna deve primeiro **publicar** seu relatório do **Power BI Destkop**. Para fazer isso, ela deve selecionar **Publicar** na faixa de opções **Início** no Power BI Desktop.
+A primeira etapa do gerenciamento do ciclo de vida de relatórios usando uma **conexão dinâmica ao serviço do Power BI** é ter um relatório (e um conjunto de dados) que os colegas de equipe queiram usar. Sendo assim, Anna deve primeiro **publicar** o relatório dela do **Power BI Desktop**. Para fazer isso, ela deve selecionar **Publicar** na faixa de opções **Início** no Power BI Desktop.
 
 ![](media/desktop-report-lifecycle-datasets/report-lifecycle_02a.png)
 

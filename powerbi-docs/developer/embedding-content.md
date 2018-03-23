@@ -1,27 +1,27 @@
 ---
-title: "Como inserir seus dashboards, relatórios e blocos do Power BI"
-description: "Saiba mais sobre as etapas necessárias para inserir o conteúdo do Power BI em seu aplicativo."
+title: Como inserir seus dashboards, relatórios e blocos do Power BI
+description: Saiba mais sobre as etapas necessárias para inserir o conteúdo do Power BI em seu aplicativo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/11/2018
+ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: ff39d6847a296622d8ce0903370d17d41662df0c
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserir os dashboards, relatórios e blocos do Power BI
 
@@ -88,6 +88,10 @@ Você precisará registrar seu aplicativo no Azure AD para fazer chamadas à API
 Se você estiver inserindo dashboards e relatórios para os clientes, esses dashboards e relatórios precisarão ser colocados em um espaço de trabalho do aplicativo. A conta *mestre* mencionada acima precisa ser um administrador do espaço de trabalho do aplicativo.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
+
+> [!NOTE]
+> Um usuário não administrador só pode criar até 250 espaços de trabalho do aplicativo. Para criar mais espaços de trabalho do aplicativo, você precisa usar uma conta do administrador de locatário.
+>
 
 ### <a name="create-and-upload-your-reports"></a>Criar e carregar seus relatórios
 

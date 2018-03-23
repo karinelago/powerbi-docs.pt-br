@@ -1,39 +1,41 @@
 ---
-title: "Visão geral do painel Filtros do Power BI"
-description: "Visão geral do painel de filtros do relatório no serviço Power BI e o painel do Power BI"
+title: Visão geral do painel Filtros do Power BI
+description: Visão geral do painel de filtros do relatório no serviço Power BI e o painel do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 83aed39c8a652ed5b38c18b67f1cdccfc7884240
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Faça um tour pelo painel Filtros do relatório
 Este artigo oferece uma visão mais detalhada do painel Filtros do relatório. Você verá o painel no [Modo de Exibição de Edição e no Modo de Exibição de Leitura do serviço Power BI](service-reading-view-and-editing-view.md) e no [Modo de Exibição de Relatório do Power BI Desktop](desktop-report-view.md).
 
 Há muitas maneiras diferentes de filtrar dados no Power BI. Recomendamos que você leia [Sobre filtros e realce](power-bi-reports-filters-and-highlighting.md) primeiro.
 
-## <a name="working-with-filters"></a>Trabalhar com filtros
-Os relatórios podem ser abertos no [modo de exibição de Edição ou no modo de exibição de Leitura](service-reading-view-and-editing-view.md). No Modo de exibição de edição, os proprietários podem [adicionar filtros a um relatório](power-bi-report-add-filter.md) e esses filtros são salvos com o relatório. As pessoas que visualizam o relatório no modo de exibição de Leitura podem interagir com os filtros, mas não podem salvar as alterações de filtro no relatório.
+## <a name="working-with-the-report-filters-pane"></a>Trabalhar com o painel de Filtros do relatório
+No Power BI Desktop, os relatórios são abertos no modo de exibição de Relatório. No serviço do Power BI, os relatórios podem ser abertos no [modo de exibição de Edição ou no modo de exibição de Leitura](service-reading-view-and-editing-view.md). No modo de exibição de Edição e no modo de exibição de Relatório do Power BI Desktop, os proprietários podem [adicionar filtros a um relatório](power-bi-report-add-filter.md), os quais são salvos com ele. As pessoas que visualizam o relatório no Modo de Exibição de Leitura podem interagir com os filtros, mas não podem adicionar novos filtros ao relatório.
 
-## <a name="filters-in-reading-view"></a>Filtros no Modo de exibição de leitura
-Quando um relatório é aberto no Modo de Exibição de Leitura, o painel Filtros é exibido no lado direito da tela do relatório. Caso não veja o painel, selecione a seta no canto superior direito para expandi-lo.
+No Serviço do Power BI, relatórios retêm as alterações feitas no painel Filtros e essas alterações são repassadas para a versão móvel do relatório. Para redefinir o painel Filtro para os padrões do criador, selecione **Redefinir para padrão** na barra de menus superior.     
+
+## <a name="open-the-filters-pane"></a>Abrir o painel Filtros
+Quando um relatório é aberto, o painel Filtros é exibido no lado direito da tela do relatório. Caso não veja o painel, selecione a seta no canto superior direito para expandi-lo. Se você estiver na exibição de Leitura de serviço do Power BI, o único painel disponível no lado direito será o painel Filtros.
 
 Neste exemplo, selecionamos um visual que tem 6 filtros. A página de relatório também tem filtros, listados sob o título **Filtros de nível de página**. Há um [Filtro de detalhamento](power-bi-report-add-filter.md) e o relatório inteiro também tem um filtro: **FiscalYear** é 2013 ou 2014.
 
@@ -43,20 +45,24 @@ Alguns filtros têm a palavra **Todos** ao seu lado, o que significa que todos o
 
 Qualquer pessoa que exibir este relatório pode interagir com esses filtros.
 
-* Exiba os detalhes do filtro focalizando e selecionando a seta ao lado do filtro.
+* Veja os detalhes do filtro focalizando e selecionando a seta ao lado do filtro.
   
    ![](media/power-bi-how-to-report-filter/power-bi-expan-filter.png)
 * Altere o filtro, por exemplo, altere **Lindseys** para **Fashions Direct**.
   
      ![](media/power-bi-how-to-report-filter/power-bi-filter-chain.png)
+
+* Redefina os filtros para seu estado original selecionando **Redefinir para padrão** na barra de menus superior.    
+    ![](media/power-bi-how-to-report-filter/power-bi-reset-to-default.png)
+    
 * Exclua o filtro selecionando o **x** ao lado do nome do filtro.
   
-  A exclusão de um filtro o remove da lista, mas não exclui os dados do relatório.  Por exemplo, se você excluir o filtro **FiscalYear é 2013 ou 2014**, os dados do ano fiscal ainda permanecerão no relatório, mas ele não será mais filtrado para mostrar somente 2013 e 2014; mostrará todos os anos fiscais contidos nos dados.  No entanto, depois de excluir o filtro, você não poderá modificá-lo novamente, já que ele é removido da lista. Uma opção melhor é limpar o filtro selecionando o ícone de borracha ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png).
+  A exclusão de um filtro o remove da lista, mas não exclui os dados do relatório.  Por exemplo, se você excluir o filtro **Ano Fiscal é 2013 ou 2014**, os dados do ano fiscal ainda permanecerão no relatório, mas ele não será mais filtrado para mostrar somente 2013 e 2014; mostrará todos os anos fiscais contidos nos dados.  No entanto, depois de excluir o filtro, você não poderá modificá-lo novamente, já que ele é removido da lista. Uma opção melhor é limpar o filtro selecionando o ícone de borracha ![](media/power-bi-how-to-report-filter/power-bi-eraser-icon.png).
   
   ![](media/power-bi-how-to-report-filter/power-bi-delete-filter.png)
 
 ## <a name="filters-in-editing-view"></a>Filtros no Modo de exibição de edição
-Quando um relatório é aberto no Modo de exibição de edição, o painel Filtros é exibido no lado direito da tela do relatório na metade inferior do **Painel de visualização**. Caso não veja o painel, selecione a seta no canto superior direito para expandi-lo.
+Quando um relatório é aberto no Power BI Desktop ou no modo de exibição de Edição, o painel Filtros é exibido no lado direito da tela do relatório na metade inferior do **Painel de visualização**. Caso não veja o painel, selecione a seta no canto superior direito para expandi-lo.
 
 ![](media/power-bi-how-to-report-filter/power-bi-all-filters.png).  
 
@@ -73,16 +79,16 @@ Para exibir opções de um filtro específico, selecione a seta para baixo ao la
 ![](media/power-bi-how-to-report-filter/pbi_filterlistdropdown.jpg)
 
 ## <a name="clear-a-filter"></a>Limpar um filtro
- No modo de filtragem avançado ou básico, selecione o ícone de borracha ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) para restaurar o filtro. 
+ No modo de filtragem avançado ou básico, selecione o ícone de borracha ![](media/power-bi-how-to-report-filter/pbi_erasericon.jpg) para limpar o filtro. 
 
 ## <a name="add-a-filter"></a>Adicionar um filtro
-* No modo de exibição de Edição, adicione um filtro a um visual, página, detalhamento ou relatório selecionando um campo no painel Campos e arrastando-o para o filtro apropriado, no qual você verá as palavras **Arrastar campos aqui**. Após a adição de um campo como um filtro, ajuste-o usando os controles de filtragem Básica e Avançada (descritos abaixo).
+* No modo de exibição de Edição do Power BI Desktop e do serviço do Power BI, adicione um filtro a um visual, página, detalhamento ou relatório selecionando um campo no painel Campos e arrastando-o para o filtro apropriado, no qual você verá as palavras **Arrastar campos aqui**. Após a adição de um campo como um filtro, ajuste-o usando os controles de filtragem Básica e Avançada (descritos abaixo).
 
 - **Arrastar um novo campo na área Filtro de nível visual não adicionará esse campo ao visual**, mas permitirá que você filtre esse visual com o novo campo. No exemplo a seguir, **Cadeia** é adicionado como um novo filtro para o visual. Observe que apenas adicionar **Cadeia** como um filtro não altera o visual até que você use os controles Básico ou Avançado de filtragem.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
-* Todos os campos usados para criar uma visualização também estão disponíveis como filtros. Primeiro, selecione um visual para ativá-lo. Os campos usados no visual são listados no painel Visualizações (se você estiver no Modo de Edição de Exibição) e no painel Filtros sob o título de **Filtros de nível visual**.
+* Todos os campos usados para criar uma visualização também estão disponíveis como filtros. Primeiro, selecione um visual para ativá-lo. Todos os campos que estão sendo usados no visual são listados no painel Visualização e no painel Filtros, sob o título **Filtros de nível visual**.
   
    ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.png)  
   

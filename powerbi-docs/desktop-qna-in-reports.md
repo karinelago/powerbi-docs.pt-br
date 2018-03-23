@@ -1,15 +1,15 @@
 ---
 title: Usando P e R no Power BI Desktop
-description: "Já é possível usar consultas de linguagem natural no Power BI Desktop, usando P e R"
+description: Já é possível usar consultas de linguagem natural no Power BI Desktop, usando P e R
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/12/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dacbb31e8e32abfcb34e565958620d579f68b4f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usar P e R no Power BI Desktop para consultas de linguagem natural
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. É ainda mais eficiente quando seus dados respondem, que é o que P e R no **Power BI Desktop** permite que você faça.
@@ -33,7 +33,7 @@ Nas seções a seguir, descrevemos como ajustar o modelo para que funcione bem c
 
 ## <a name="add-missing-relationships"></a>Adicionar relacionamentos ausentes
 
-Se o seu modelo tem relacionamentos ausentes entre tabelas, nem os relatórios do Power BI nem P e R pode interpretar como unir as tabelas se você fizer um perguntas sobre eles. Relacionamentos são a base de um bom modelo. Por exemplo, você não pode solicitar o "total de vendas para clientes de Seattle" se o relacionamento entre a tabela de *pedidos* e a tabela de *clientes* está ausente. As imagens a seguir mostram exemplos de um modelo que precisa de trabalho e um modelo que está pronto para P e R.
+Se o seu modelo tem relacionamentos ausentes entre tabelas, nem os relatórios do Power BI nem P e R podem interpretar como unir essas tabelas caso você faça uma pergunta sobre eles. Relacionamentos são a base de um bom modelo. Por exemplo, você não pode solicitar o "total de vendas para clientes de Seattle" se o relacionamento entre a tabela de *pedidos* e a tabela de *clientes* está ausente. As imagens a seguir mostram exemplos de um modelo que precisa de trabalho e um modelo que está pronto para P e R.
 
 **Precisa de trabalho**
 
@@ -50,7 +50,7 @@ A escolha de tabelas e colunas é muito importante para P e R. Por exemplo, se v
 
 Embora P e R possa fazer alguma quebra de palavras básica e detecção de plurais, P e R pressupõe que os nomes da tabela e da coluna reflitam com precisão o conteúdo.
 
-Considere outro exemplo. Imagine uma tabela chamada *Contagem de Funcionários* que contém nomes e sobrenomes e os números de funcionários, e outra tabela chamada *Funcionários* contém os números de funcionários, datas de início e de números de trabalho. Embora isso possa ser compreendido por pessoas que estão familiarizadas com o modelo, outra pessoa que solicita "contagem de funcionários” obterá uma contagem das linhas da tabela "Funcionários", que provavelmente não é o que ela tinha em mente, já que é uma contagem de todos os trabalhos de cada funcionário. Seria muito melhor renomear essas tabelas para refletir realmente o que elas contêm.
+Considere outro exemplo. Imagine uma tabela chamada *Contagem de Funcionários* que contém nomes e sobrenomes e os números de funcionários, e outra tabela chamada *Funcionários* que contém os números de funcionários, datas de início e de números de trabalho. Embora isso possa ser compreendido por pessoas que estão familiarizadas com o modelo, outra pessoa que solicita "contagem de funcionários” obterá uma contagem das linhas da tabela "Funcionários", que provavelmente não é o que ela tinha em mente, já que é uma contagem de todos os trabalhos de cada funcionário. Seria muito melhor renomear essas tabelas para refletir realmente o que elas contêm.
 
 **Precisa de trabalho**
 
@@ -93,7 +93,7 @@ A propriedade **Classificar por Coluna** permite classificar em uma coluna para 
 
 Tenha certeza de que não estamos sugerindo que você precisa alterar a forma do modelo inteiro. No entanto, há determinadas estruturas que são simplesmente tão difíceis que P e R não vai lidar bem com elas. Se você executar alguma normalização básica da estrutura do seu modelo, o uso de relatórios do Power BI aumentará significativamente, assim como a precisão dos resultados de P e R.
 
-A regra geral é: cada "item" exclusivo abordado pelo usuário deve ser representado por exatamente um objeto do modelo (tabela ou coluna). Portanto, se seus usuários falarem sobre clientes, deve haver um objeto *cliente*. Se os usuários falarem sobre vendas, deve haver um objeto *vendas*. Bem simples, não é? Dependendo da forma dos dados com os quais você está iniciando, pode ser. Há recursos avançados de modelagem de dados disponíveis no **Editor de Consultas** se você precisar, embora muitas das transformações mais simples possam ocorrer simplesmente usando cálculos no modelo do Power BI.
+A regra geral é: cada "item" exclusivo abordado pelo usuário deve ser representado por exatamente um objeto do modelo (tabela ou coluna). Portanto, se seus usuários falam sobre clientes, deve haver um objeto *cliente*. Se os usuários falam sobre vendas, deve haver um objeto *vendas*. Bem simples, não é? Dependendo da forma dos dados com os quais você está iniciando, pode ser. Há recursos avançados de modelagem de dados disponíveis no **Editor de Consultas** se você precisar, embora muitas das transformações mais simples possam ocorrer simplesmente usando cálculos no modelo do Power BI.
 
 As seções a seguir contêm algumas transformações comuns que talvez você precise executar.
 

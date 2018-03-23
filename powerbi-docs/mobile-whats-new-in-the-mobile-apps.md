@@ -1,27 +1,27 @@
 ---
-title: "Novidades em aplicativos móveis para o Power BI"
-description: "Novidades em aplicativos móveis para o Power BI"
+title: Novidades em aplicativos móveis para o Power BI
+description: Novidades em aplicativos móveis para o Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/15/2018
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 530e4a2dc47a2d790dde3d7d1e7a2faeb7d79732
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -30,11 +30,21 @@ Para informações sobre “Novidades” relacionadas, consulte:
 * [Novidades no Power BI Desktop](desktop-latest-update.md)  
 * [Novidades no serviço do Power BI](service-whats-new.md)  
 
+## <a name="march-2018"></a>Março de 2018
+
+### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicativo Power BI para Realidade Misturada (versão prévia)
+
+Na mudança mais recente para levar os dados até você, criamos o aplicativo Power BI para Realidade Misturada. Veja seus dashboards e relatórios imerso no mundo virtual, ou posicione-os e veja-os em locais específicos no seu ambiente. Leia mais sobre o novo [aplicativo Power BI para Realidade Misturada](mobile-mixed-reality-app.md).
+
 ## <a name="february-2018"></a>Fevereiro de 2018
 
 ### <a name="share-reports"></a>Compartilhar relatórios
 
 Agora é possível compartilhar um relatório diretamente dos aplicativos móveis. Leia mais sobre [como compartilhar dashboards e relatórios dos aplicativos móveis](mobile-share-dashboard-from-the-mobile-apps.md)
+
+### <a name="improved-tooltips"></a>Dicas de ferramentas aprimoradas
+
+Quando você toca e segura em um visual de relatório para acessar as dicas de ferramentas, agora você pode arrastar o dedo pelo visual para explorar os detalhes de cada ponto de dados pelo caminho.
 
 ## <a name="january-2018"></a>Janeiro de 2018
 

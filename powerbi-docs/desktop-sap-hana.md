@@ -2,14 +2,14 @@
 title: Usar o SAP HANA no Power BI Desktop
 description: Usar o SAP HANA no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: da99de218594d09a8cd76aafa9fc227b648ba7af
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1c8f3bfc64c6ab895d62749d4d4bc0d2d70d0a9b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="use-sap-hana-in-power-bi-desktop"></a>Usar o SAP HANA no Power BI Desktop
 Com o Power BI Desktop, agora você pode acessar bancos de dados do **SAP HANA** . Para usar o **SAP HANA**, o driver ODBC do SAP HANA deve ser instalado no computador cliente local para que a conexão de dados do **SAP HANA** para o Power BI Desktop funcione corretamente. É possível baixar o driver ODBC do SAP HANA no [Centro de Download de Software SAP](https://support.sap.com/swdc). Estando nele, pesquise os computadores com Windows em SAP HANA CLIENT. Como o **Centro de Download de Software SAP** altera sua estrutura com frequência, não estão disponíveis diretrizes mais específicas para navegar nesse site.
 
-Para se conectar a um banco de dados **SAP HANA**, selecione **Obter Dados > Banco de Dados > Banco de Dados SAP HANA**, conforme mostrado na imagem a seguir.
+Para se conectar a um banco de dados **SAP HANA**, selecione **Obter Dados > Banco de Dados > Banco de Dados SAP HANA**, conforme mostrado na imagem a seguir:
 
 ![](media/desktop-sap-hana/sap-hana-1.png)
 
@@ -40,10 +40,10 @@ Nesta versão, o **SAP HANA** no modo [DirectQuery](desktop-directquery-sap-hana
 ### <a name="supported-features-for-sap-hana"></a>Recursos com suporte para o SAP HANA
 Esta versão contém vários recursos para o **SAP HANA**, como mostrado na lista a seguir:
 
-* O conector do Power BI para o **SAP HANA** usa o driver ODBC do SAP, para fornecer a melhor experiência de uso
+* O conector do Power BI para o **SAP HANA** usa o driver ODBC do SAP, para fornecer a melhor experiência de usuário
 * O **SAP HANA** dá suporte às opções de Importação e do DirectQuery
-* O Power BI dá suporte a modelos de informação do HANA (como modos de exibição Analítico e Cálculo) e tem uma navegação otimizada
-* Com o **SAP HANA** , você também pode usar o recurso direto do SQL para se conectar às Tabelas de Linhas e Colunas
+* O Power BI é compatível com modelos de informação do HANA (tais como modos de exibição Analítico e Cálculo) e tem uma navegação otimizada
+* Com o **SAP HANA**, você também pode usar o recurso direto do SQL para se conectar às Tabelas de Linhas e Colunas
 * Inclui Navegação Otimizada para modelos do HANA
 * O Power BI dá suporte a parâmetros de Variáveis e Entrada do **SAP HANA**
 

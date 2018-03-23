@@ -1,27 +1,27 @@
 ---
-title: "Início rápido: criar um relatório do Power BI para o Servidor de Relatório do Power BI"
-description: "Saiba como criar um relatório do Power BI para o Servidor de Relatório do Power BI em algumas etapas simples."
+title: 'Início rápido: criar um relatório do Power BI para o Servidor de Relatório do Power BI'
+description: Saiba como criar um relatório do Power BI para o Servidor de Relatório do Power BI em algumas etapas simples.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 3/5/2018
+ms.date: 3/19/2018
 ms.author: maggies
-ms.openlocfilehash: 0f0e8422edd2f8c1a34d82be065ffde554c96400
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5295a62897c740872480b905f3aef4af37ca0942
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Início rápido: criar um relatório do Power BI para o Servidor de Relatório do Power BI
 É possível armazenar e gerenciar relatórios do Power BI localmente no portal da Web do Servidor de Relatórios do Power BI, do mesmo modo que você pode armazenar relatórios do Power BI na nuvem no serviço do Power BI (https://powerbi.com). Você cria e edita relatórios no Power BI Desktop e, em seguida, publica-os no portal da Web. Em seguida, os leitores de relatório em sua organização poderão exibi-los em um navegador ou em um aplicativo móvel do Power BI em um dispositivo móvel.
@@ -38,7 +38,7 @@ Se você já tiver criado relatórios do Power BI no Power BI Desktop, então vo
 
     ![Baixe o Power BI Desktop no portal da Web](media/quickstart-create-powerbi-report/report-server-download-web-portal.png)
 
-    Ou você pode ir diretamente para o [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (Otimizado para o Servidor de Relatórios do Power BI - Outubro de 2017) no Centro de Download da Microsoft.
+    Ou vá diretamente para o [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (Otimizado para o Servidor de Relatórios do Power BI – Março de 2018) no Centro de Download da Microsoft.
 
 2. Na página do Centro de Download, selecione **Baixar**.
 
@@ -48,13 +48,13 @@ Se você já tiver criado relatórios do Power BI no Power BI Desktop, então vo
 
     - **PBIDesktopRS_x64.msi** (a versão de 64 bits).
 
-4. Depois de baixar o instalador, execute o Assistente de Instalação do Power BI Desktop (Outubro de 2017).
+4. Depois de baixar o instalador, execute o Assistente de Instalação do Power BI Desktop (Março de 2018).
 
 2. No final da instalação, marque **Iniciar o Power BI Desktop agora**.
    
-    Ele é iniciado automaticamente e você está pronto para começar. Você pode saber que tem a versão correta, porque "Power BI Desktop (Outubro de 2017)" consta na barra de título.
+    Ele é iniciado automaticamente e você está pronto para começar. Você pode saber que tem a versão correta, porque "Power BI Desktop (Março de 2018)" consta na barra de título.
 
-    ![Power BI Desktop versão de outubro de 2017](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+    ![Power BI Desktop versão de março de 2018](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
 
 3. Se você não estiver familiarizado com o Power BI Desktop, considere assistir aos vídeos na tela de boas-vindas.
    
@@ -100,7 +100,7 @@ Quando seu relatório estiver pronto, salve-o no Servidor de Relatórios do Powe
     ![Exibir o relatório no portal da Web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
-Os relatórios no Servidor de Relatório do Power BI e no serviço do Power BI (http://powerbi.com) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
+Os relatórios no Servidor de Relatórios do Power BI e no serviço do Power BI (http://powerbi.com)) agem praticamente da mesma maneira, mas alguns recursos são diferentes.
 
 ### <a name="in-a-browser"></a>Em um navegador
 Os relatórios do Servidor de Relatório do Power BI dão suporte a todas as visualizações, inclusive:
@@ -135,6 +135,7 @@ Há muitos recursos excelentes para criar relatórios no Power BI Desktop. Esses
 
 * [Introdução ao Power BI Desktop](../desktop-getting-started.md)
 * Aprendizado guiado: [Introdução ao Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
+
 
 ### <a name="power-bi-report-server"></a>Servidor de Relatório do Power BI
 * [Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI](install-powerbi-desktop.md)  

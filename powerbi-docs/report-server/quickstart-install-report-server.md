@@ -1,48 +1,45 @@
 ---
-title: "Início rápido: instalar o Servidor de Relatório do Power BI"
-description: "Instalar o próprio Servidor de Relatórios do Power BI é muito rápido. Do download a instalação e configuração, você deve entrar em funcionamento em poucos minutos."
+title: 'Início rápido: instalar o Servidor de Relatório do Power BI'
+description: Instalar o próprio Servidor de Relatórios do Power BI é muito rápido. Do download a instalação e configuração, você deve entrar em funcionamento em poucos minutos.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/29/2018
-ms.author: maghan
-ms.openlocfilehash: 3ddf8870fd4fb3186ff884220fc4a7de7632c78d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.date: 03/19/2018
+ms.author: maggies
+ms.openlocfilehash: 625864384f73260ec0f62b74ff9a95e966289da0
+ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 03/21/2018
 ---
 # <a name="quickstart-install-power-bi-report-server"></a>Início rápido: instalar o Servidor de Relatório do Power BI
 Instalar o próprio Servidor de Relatório do Power BI é muito rápido. Do download a instalação e configuração, você deve entrar em funcionamento em poucos minutos.
 
 Esta é uma visão geral de como instalar um servidor de relatório, se você apenas desejar entrar em funcionamento com um novo servidor. Para obter mais informações detalhadas sobre como instalar o servidor de relatório, confira [Install Power BI Report Server (Instalar o Servidor de Relatórios do Power BI)](install-report-server.md).
 
- **Baixe** ![baixe](media/quickstart-install-report-server/download.png "baixe")
-
-Para baixar o Servidor de Relatório do Power BI, acesse [On-premises reporting with Power BI Report Server (Relatórios locais com o Servidor de Relatório do Power BI)](https://powerbi.microsoft.com/report-server/). 
-
-Vá até o Centro de Download da Microsoft para fazer o download do [Microsoft Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=861076) (otimizado para Power BI Report Server – outubro de 2017).
-
-![dica](media/quickstart-install-report-server/fyi-tip.png "dica") Para ver as notas de versão atuais, consulte [Power BI Report Server – Release notes (Servidor de Relatório do Power BI – Notas de versão)](release-notes.md).
+## <a name="video-install-power-bi-report-server"></a>Vídeo: Instalar o Servidor de Relatórios do Power BI
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Antes de começar
-Antes de instalar o Servidor de Relatório do Power BI, é recomendável que você examine os [Requisitos de hardware e de software para a instalação do Servidor de Relatório do Power BI](system-requirements.md).
+Antes de instalar o Servidor de Relatórios do Power BI, é recomendável que você examine os [Requisitos de hardware e de software para a instalação do Servidor de Relatórios do Power BI](system-requirements.md).
 
 ## <a name="step-1-download"></a>Etapa 1: download
-Baixe os arquivos de instalação, para o Servidor de Relatório do Power BI, localmente. Para baixar o Servidor de Relatório do Power BI, acesse o [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=839351).
+
+Para baixar o Servidor de Relatórios do Power BI e o Power BI Desktop otimizado para o Servidor de Relatórios do Power BI, acesse [Relatórios locais com o Servidor de Relatórios do Power BI](https://powerbi.microsoft.com/report-server/) e selecione **Baixar avaliação gratuita**.
+
+Siga as instruções para baixar os arquivos de instalação localmente para o Servidor de Relatórios do Power BI. 
 
 ![Baixar o Servidor de Relatório do Power BI](media/quickstart-install-report-server/download-pbireportserver.png)
 

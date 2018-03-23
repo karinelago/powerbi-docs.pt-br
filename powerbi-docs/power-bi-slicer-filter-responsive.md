@@ -1,15 +1,15 @@
 ---
-title: "Criar uma segmentação responsiva que você possa redimensionar no Power BI"
-description: "Saiba como criar uma segmentação responsiva que você possa redimensionar para se ajustar ao seu relatório"
+title: Criar uma segmentação responsiva que você possa redimensionar no Power BI
+description: Saiba como criar uma segmentação responsiva que você possa redimensionar para se ajustar ao seu relatório
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: feba171d6a81f7e9760df2d9fabecce2cc544dc2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Criar uma segmentação responsiva que você possa redimensionar no Power BI (versão prévia)
 
@@ -78,7 +78,7 @@ Leia mais sobre a criação de [relatórios otimizados para aplicativos móveis 
 
 ## <a name="make-a-time-or-range-slicer-responsive"></a>Tornar uma segmentação de tempo ou intervalo responsiva
 
-Siga as mesmas etapas para tornar uma segmentação de bloco ou intervalo responsiva. Depois de definir **Responsiva** como **Ligado**, observe alguns aspectos:
+Siga as mesmas etapas para fazer com que uma segmentação de tempo ou de intervalo se torne responsiva. Depois de definir **Responsiva** como **Ligado**, observe alguns aspectos:
 
 - Visuais otimizam a ordem das caixas de entrada dependendo do tamanho permitido na tela. 
 - A exibição do elemento de dados é otimizada para tornar a segmentação o mais útil possível, com base no tamanho permitido na tela. 

@@ -1,15 +1,15 @@
 ---
-title: "Conectar-se a uma página da Web no Power BI Desktop"
-description: "Conecte-se facilmente e use dados de uma página da Web no Power BI Desktop"
+title: Conectar-se a uma página da Web no Power BI Desktop
+description: Conecte-se facilmente e use dados de uma página da Web no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0ee3ff3b3ca33ea4760f9f08b4e05cbd65e2ab34
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 23984d8e64445d869062e942eb6155ff58b0d0ae
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-a-web-page-from-power-bi-desktop"></a>Conectar-se a uma página da Web no Power BI Desktop
 Você pode se conectar a uma página da Web e importar seus dados no Power BI Desktop, para usá-los em visuais e modelos de dados.
@@ -47,7 +47,7 @@ Quando selecionamos **Carregar**, o Power BI Desktop importa os itens selecionad
 
 É isso é tudo o que você precisa para se conectar a uma página da Web e inserir seus dados no Power BI Desktop.
 
-A partir daí, você pode arrastar os campos para a tela Relatório e criar todas as visualizações desejadas. Você também pode trabalhar os dados nessa página da Web da mesma forma como faria com quaisquer outros dados – formatá-los, criar relações entre eles e outras fontes de dados no modelo e, de outro modo, fazer o que quiser para criar um relatório do Power BI exatamente como deseja.
+A partir daí, você pode arrastar os campos para a tela Relatório e criar todas as visualizações desejadas. Você também pode usar os dados nessa página da Web da mesma forma como faria com quaisquer outros dados – formatá-los, criar relações entre eles e outras fontes de dados no modelo e, de outro modo, fazer o que quiser para criar o relatório do Power BI que você deseja.
 
 Para ver como funciona a conexão a uma página da Web mais detalhadamente, confira o [Guia de Introdução ao Power BI Desktop](desktop-getting-started.md).
 

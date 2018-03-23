@@ -2,14 +2,14 @@
 title: Dados multidimensionais do Analysis Services no Power BI Desktop
 description: Dados multidimensionais do Analysis Services no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,16 +18,16 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6009f938d2dc8961dc63cb0ac6b08459f41f3ea3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 18f80073bf690cd6fc64f94d25f8aad8bf5044e1
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectar-se a modelos multidimensionais do SSAS no Power BI Desktop
 Com o Power BI Desktop, você pode acessar **modelos Multidimensionais do SSAS**, normalmente chamados de **SSAS MD**.
 
-Para se conectar a um banco de dados de **SSAS MD**, selecione **Obter Dados &gt; Banco de Dados &gt; Banco de Dados do SQL Server Analysis Services**, como mostrado na imagem a seguir.
+Para se conectar a um banco de dados de **SSAS MD**, selecione **Obter Dados &gt; Banco de Dados &gt; Banco de Dados do SQL Server Analysis Services**, como mostrado na imagem a seguir:
 
 ![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
 
@@ -42,7 +42,7 @@ A tabela a seguir mostra a correspondência entre objetos multidimensionais e os
 | Objeto multidimensional de BISM | Metadados tabulares |
 | --- | --- |
 | Cubo |Modelo |
-| Dimensão do cubo |Table |
+| Dimensão do cubo |Tabela |
 | Atributos de dimensão (Chaves, Nome) |Colunas |
 | Grupo de medidas |Table |
 | Medida |Medida |
@@ -71,7 +71,7 @@ Os modelos multidimensionais dão suporte à criação de vários tipos de *memb
 * Membros calculados em hierarquias de atributos e não em um irmão de *Todos*
 * Membros calculados em hierarquias de usuário
 
-O modelo multidimensional expõe *membros calculados em hierarquias de atributo* como valores de uma coluna. Há algumas opções e restrições adicionais durante a exposição deste tipo de membro calculado:
+Os modelos multidimensionais expõem *membros calculados em hierarquias de atributo* como valores de uma coluna. Há algumas opções e restrições adicionais durante a exposição deste tipo de membro calculado:
 
 * O atributo de dimensão pode ter um *UnknownMember* opcional
 * Um atributo com membros calculados não pode ser o atributo-chave da dimensão, a menos que seja o único atributo da dimensão

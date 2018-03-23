@@ -1,27 +1,27 @@
 ---
-title: "Digitalizar um código QR do Power BI em seu dispositivo móvel"
-description: "Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas, no aplicativo móvel Power BI para iPhones e dispositivos Android."
+title: Digitalizar um código QR do Power BI em seu dispositivo móvel
+description: Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas, no aplicativo móvel Power BI para iPhones e dispositivos Android.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/12/2017
+ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 80c8de8626f2d891a7875933ee72a43dd5d7f09e
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
+ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Digitalizar um código QR do Power BI em seu dispositivo móvel
 Aplica-se a:
@@ -36,10 +36,10 @@ Digamos que um colega tenha [criado um código QR no serviço do Power BI](servi
 
 Você pode digitalizar o código QR para ter acesso imediato ao bloco ou relatório relevante, diretamente em seu telefone, usando o scanner do aplicativo do Power BI ou qualquer outro scanner instalado em seu telefone. 
 
+Se o seu colega não compartilhou o dashboard ou o relatório com você, você pode solicitar o acesso diretamente no aplicativo móvel. 
+
 > [!NOTE]
-> Se o seu colega não compartilhou o dashboard ou o relatório com você, você pode solicitar o acesso diretamente no aplicativo móvel.
-> 
-> 
+> Você também pode [digitalizar um código QR de relatório com o aplicativo Power BI para Realidade Misturada](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Digitalizar um código QR do Power BI no seu iPhone com o scanner do Power BI
 1. No aplicativo móvel do Power BI, abra o menu de navegação global ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) na parte superior esquerda. 
@@ -80,5 +80,6 @@ Você pode digitalizar o código QR para ter acesso imediato ao bloco ou relató
 * [Conectar-se a dados do Power BI do mundo real](mobile-apps-data-in-real-world-context.md) com os aplicativos móveis
 * [Criar um código QR para um bloco no serviço do Power BI](service-create-qr-code-for-tile.md)
 * [Criar um código QR para um relatório no serviço do Power BI](service-create-qr-code-for-report.md)
+* Você também pode [digitalizar um código QR de relatório com o aplicativo Power BI para Realidade Misturada](mobile-mixed-reality-app.md)
 * Dúvidas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
 
