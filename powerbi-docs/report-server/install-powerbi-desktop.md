@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 9951137ac10752a39f0e4ad555a36e2935faf327
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI.
@@ -56,7 +56,7 @@ A maneira mais fácil de ter certeza que você tem a versão mais recente do Pow
 ## <a name="verify-you-are-using-the-correct-version"></a>Verifique se você está usando a versão correta
 É possível verificar se você está usando o Power BI Desktop correto examinando a tela de inicialização ou a barra de título no Power BI Desktop. A barra de título indica o mês de lançamento e o ano da versão.
 
-![Barra de título do Power BI Desktop otimizada para o Servidor de Relatórios do Power BI](media/quickstart-create-powerbi-report/report-server-desktop-october-2017-version.png)
+![Barra de título do Power BI Desktop otimizada para o Servidor de Relatórios do Power BI](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
 
 A versão do Power BI Desktop para o serviço do Power BI não possui o mês nem o ano na barra de título.
 
