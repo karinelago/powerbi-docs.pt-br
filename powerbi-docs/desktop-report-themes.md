@@ -1,15 +1,15 @@
 ---
-title: "Usar Temas de Relatório no Power BI Desktop (Visualização)"
-description: "Saiba como usar uma paleta de cores personalizada e aplicá-la a um relatório inteiro no Power BI Desktop"
+title: Usar Temas de Relatório no Power BI Desktop (Visualização)
+description: Saiba como usar uma paleta de cores personalizada e aplicá-la a um relatório inteiro no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8893e9f048f10f2c9c4d5bf787382b7cf65f54a9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
+ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usar Temas de Relatório no Power BI Desktop (Visualização)
 Com **Temas de Relatório** você pode aplicar um tema de cor ao relatório inteiro, como as cores da empresa, uma coloração sazonal ou qualquer outro tema de cor que você deseje aplicar a um relatório. Quando você aplicar um **Tema de Relatório**, todos os visuais no relatório passarão a usar as cores do tema selecionado (aplicam-se algumas exceções que serão descritas posteriormente neste artigo).
@@ -163,7 +163,7 @@ Para criar um arquivo JSON em um formato estendido, com um controle granular e m
         }
     }
 
-Para as seções **visualName** e **cardName**, você poderá listar um visual e cardName específicos ou usar um asterisco (“*”) se desejar que a configuração seja aplicada a todos os visuais ou cartões que contêm uma propriedade para um visual específico. Você poderá usar o asterisco (“*”) quando desejar aplicar uma configuração globalmente no relatório, como um tamanho da fonte ou uma família de fontes específica que deve ser usada em todos os visuais do relatório.
+Para as seções **visualName** e **cardName**, você poderá listar um visual e cardName específicos ou usar um asterisco (“\*”) se desejar que a configuração seja aplicada a todos os visuais ou cartões que contêm uma propriedade para um visual específico. Você poderá usar o asterisco (“\*”) quando desejar aplicar uma configuração globalmente no relatório, como um tamanho da fonte ou uma família de fontes específica que deve ser usada em todos os visuais do relatório.
 
 > [!NOTE]
 > Você só precisa especificar os elementos de formatação que quer afetar. Os elementos de formatação não incluídos no arquivo JSON simplesmente são revertidos para as configurações e os valores padrão.
