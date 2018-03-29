@@ -554,7 +554,7 @@
           href: service-admin-administering-power-bi-in-your-organization.md
         - name: Power BI (gratuito) em sua organização
           href: service-admin-service-free-in-your-organization.md
-        - name: Comprar o Power BI Pro
+        - name: Comprando o Power BI Pro
           href: service-admin-purchasing-power-bi-pro.md
         - name: Atribuir o Power BI Pro
           href: service-admin-assigning-power-bi-pro-licenses.md
@@ -668,8 +668,8 @@
           href: desktop-ssas-multidimensional.md
         - name: Conectar-se a arquivos CSV no Power BI Desktop
           href: desktop-connect-csv.md
-        - name: Conectar-se ao Adobe Analytics no Power BI Desktop (versão prévia)
-          href: desktop-connect-csv.md
+        - name: Conectar-se ao Adobe Analytics no Power BI Desktop
+          href: desktop-connect-adobe-analytics.md
         - name: Conectar-se a um banco de dados Impala no Power BI Desktop
           href: desktop-connect-impala.md
         - name: Conectar-se a um feed OData no Power BI Desktop
@@ -960,6 +960,8 @@
           href: developer/integrate-report.md
         - name: Integrar um conteúdo em um aplicativo (aplicativo possui dados)
           href: developer/embed-sample-for-customers.md
+        - name: Inserir conteúdo do Power BI em um aplicativo para seus clientes das Nuvens Soberanas
+          href: developer/embed-sample-for-customers-sovereign-clouds.md
         - name: Inserir layouts personalizados em um aplicativo
           href: developer/embedded-custom-layout.md
         - name: Crie um locatário do Azure Active Directory
