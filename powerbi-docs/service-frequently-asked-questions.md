@@ -1,13 +1,13 @@
 ---
 title: Perguntas frequentes no Power BI
-description: "Procure em uma lista de perguntas frequentes e respostas sobre o serviço do Power BI, o Power BI Desktop e os aplicativos móveis do Power BI."
+description: Procure em uma lista de perguntas frequentes e respostas sobre o serviço do Power BI, o Power BI Desktop e os aplicativos móveis do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 04/04/2016
 ms.service: powerbi
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: af02b57fefaf9764e7a1eac8172d6dc0111dfccd
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7f1c42d46568723706bcdd349790c963f204a33c
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Perguntas frequentes sobre o Power BI
 * Se você tiver outras dúvidas, [experimente perguntar à comunidade do Power BI](http://community.powerbi.com/).
@@ -72,10 +72,10 @@ Atualmente, não há suporte para os que terminam em **.gov** e **.mil**.
 Sim, preços sem fins lucrativos estão disponíveis ao comprar diretamente da Microsoft. É possível saber mais e inscrever-se por meio do site [Doação de Produtos Microsoft](https://www.microsoft.com/about/philanthropies/product-donations/products/powerbi/). São oferecidos preços diferenciados para organizações governamentais e acadêmicas por meio dos programas de licenciamento MOSP/Direto, EA e Aberto. O preço para uso governamental também está disponível na sindicalização. O Power BI ainda não está disponível para a GCC (US Government Community Cloud).
 
 ## <a name="is-power-bi-available-on-premises"></a>O Power BI está disponível localmente?
-Não, o serviço do Power BI [https://powerbi.com](https://powerbi.com) não está disponível como um serviço de nuvem privado e interno. No entanto, você tem três outras opções para exibir e trabalhar com os dados locais. 
+O Power BI [https://powerbi.com](https://powerbi.com) não está disponível como um serviço de nuvem privado e interno. No entanto, você tem três outras opções para exibir e trabalhar com os dados locais. 
 
 ### <a name="on-premises-data-gateway"></a>Gateway de dados local
-Com o Power BI e Power BI Desktop, você pode se conectar com segurança às suas próprias fontes de dados locais. Com o [gateway de dados local](service-gateway-onprem.md), é possível conectar-se dinamicamente ao servidor local do SQL Server Analysis Services e a outras fontes de dados. Você também pode definir a atualização agendada com um gateway centralizado. Se um gateway não estiver disponível, será possível atualizar os dados de fontes de dados locais usando o [Power BI Gateway – Personal](personal-gateway.md).
+Com o Power BI e Power BI Desktop, você pode se conectar com segurança às suas próprias fontes de dados locais. Com o [Gateway de dados local](service-gateway-onprem.md), é possível conectar-se dinamicamente ao servidor local do SQL Server Analysis Services e a outras fontes de dados. Você também pode definir a atualização agendada com um gateway centralizado. Se um gateway não estiver disponível, será possível atualizar os dados de fontes de dados locais usando o [Power BI Gateway – Personal](personal-gateway.md).
 
 ### <a name="power-bi-report-server"></a>Servidor de Relatório do Power BI
 O Servidor de Relatório do Power BI é uma solução que você implanta em seu próprio local para criar, publicar e gerenciar relatórios e, em seguida, entregá-los a usuários diferentes de diferentes maneiras, seja exibindo-os em um navegador da Web, no dispositivo móvel ou como um email na caixa de entrada deles. Leia mais sobre o [Servidor de Relatório do Power BI](report-server/get-started.md).
