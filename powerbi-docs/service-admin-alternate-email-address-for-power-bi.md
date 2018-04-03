@@ -1,15 +1,15 @@
 ---
-title: "Usando um endereço de email alternativo"
-description: "Usando um endereço de email alternativo"
+title: Usando um endereço de email alternativo
+description: Usando um endereço de email alternativo
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -55,7 +55,7 @@ Ao capturar um token de inserção do AAD (Azure Active Directory) para o Power 
 
 O Power BI seleciona qual email usar com base nos seguintes critérios:
 1.  Se o atributo de email no objeto de usuário do locatário do AAD estiver presente, o Power BI usará esse atributo de email para o endereço de email
-2.  Se o email UPN *não* for um endereço de email do domínio **\*.onmicrosoft.com** (as informações depois do símbolo "@"), o Power BI usará esse atributo de email para o endereço de email
+2.  Se o email UPN *não* for um endereço de email do domínio **\*.onmicrosoft.com** (as informações depois do símbolo "\@"), o Power BI usará esse atributo de email para o endereço de email
 3.  Se o atributo de matriz de email "outro", no objeto de usuário do AAD, estiver presente, será usado o primeiro email dessa lista (já que poderá haver uma lista de endereços de email nesse atributo)
 4. Se nenhuma das condições acima estiver presente, o endereço UPN será usado
 
