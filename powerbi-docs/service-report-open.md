@@ -1,15 +1,15 @@
 ---
-title: "Abrir um relatório no modo de exibição de Leitura ou no modo de exibição de Edição no serviço do Power BI"
-description: "Abrir um relatório do Power BI na Exibição de Leitura ou no Modo de Exibição de Edição"
+title: Abrir um relatório no modo de exibição de Leitura ou no modo de exibição de Edição no serviço do Power BI
+description: Abrir um relatório do Power BI na Exibição de Leitura ou no Modo de Exibição de Edição
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
