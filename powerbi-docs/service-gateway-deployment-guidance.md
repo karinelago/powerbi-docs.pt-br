@@ -1,15 +1,15 @@
 ---
 title: Diretrizes para implantar um gateway de dados para o Power BI
-description: "Conheça as melhores práticas e considerações para implantar um gateway para Power BI."
+description: Conheça as melhores práticas e considerações para implantar um gateway para Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 992c3cbeb9899a784cc8df9fdca9a29f57aa7e81
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3c1b0059ac39c8d8024fd840c0cf35bc9700a9aa
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implantar um gateway de dados para o Power BI
-Este artigo fornece diretrizes e considerações para implantar um gateway de dados em seu ambiente de rede. Um **gateway** é um software que facilita o acesso a dados que residem em uma rede privada e local, para uso subsequente em um serviço de nuvem como o Power BI. Este artigo explica as etapas da implantação e fornece diretrizes para a instalação do **gateway de dados local**.
+Este artigo fornece diretrizes e considerações para implantar um gateway de dados em seu ambiente de rede. Um **gateway** é um software que facilita o acesso a dados que residem em uma rede privada e local, para uso subsequente em um serviço de nuvem como o Power BI. Este artigo explica a implantação e oferece diretrizes para a instalação do **Gateway de dados local**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
 
-Para obter mais informações sobre o **gateway de dados local**, incluindo um link para instalá-lo, veja a [postagem no blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
+Para obter mais informações sobre **Gateway de dados local**, incluindo um link para instalá-lo, veja a [postagem no blog](https://powerbi.microsoft.com/blog/power-bi-gateways-march-update/).
 
 ## <a name="installation-considerations-for-the-on-premises-data-gateway"></a>Considerações de instalação para o gateway de dados local
 Antes de se aprofundar na instalação e implantação, há algumas considerações que você deve ter em mente. As seções a seguir descrevem coisas importantes para se ter em mente.
@@ -53,7 +53,7 @@ Dependendo de qual tipo de conexão for usado, o uso do gateway poderá ser dife
 * Para **Atualização agendada**: dependendo do tamanho da sua consulta e do número de atualizações que ocorrem diariamente, é possível escolher ficar entre os requisitos mínimos de hardware recomendados ou atualizar para um computador de melhor desempenho. Se uma determinada consulta não for fechada, ocorrem transformações no computador do gateway e, dessa forma, ele se beneficia de ter mais RAM disponível.
 * Para **DirectQuery**: uma consulta deverá ser enviada sempre que um usuário abrir o relatório ou examinar dados. Portanto, se você previr que mais de 1.000 usuários acessarão os dados ao mesmo tempo, certifique-se de que seu computador tenha componentes de hardware robustos e compatíveis. Mais núcleos de CPU resultará em uma melhor taxa de transferência para uma conexão do **DirectQuery**.
 
-Os requisitos de um computador para instalar um **gateway de dados local** são os seguintes:
+Os requisitos para um computador no qual você instala um **Gateway de dados local** são os seguintes:
 
 **Mínimos:**
 
@@ -86,7 +86,7 @@ Além dos contadores do seu computador, o *contador do gateway* fornecerá uma i
 
 Esses contadores poderão ser acessados no **Monitor de Desempenho do Windows** e consumidos por quaisquer ferramentas de relatório que você usar para esse fim. Para obter uma explicação sobre como usar o monitor de desempenho do gateway com o Power BI, veja a seguinte postagem no blog criado pela comunidade.
 
-* [Monitorar gateway de dados local](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
+* [Monitorar gateways de dados locais](https://insightsquest.com/2016/08/08/monitor-on-premises-data-gateways/)
 
 #### <a name="logs"></a>Logs
 Os logs de configuração e de serviço fornecem outra dimensão sobre o que está acontecendo com seu gateway. Sempre verifique os logs do seu gateway quando a conexão não estiver funcionando conforme o esperado, pois nem todas as mensagens de erro são apresentadas no serviço do Power BI.
