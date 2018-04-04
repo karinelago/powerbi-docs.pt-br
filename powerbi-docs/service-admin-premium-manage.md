@@ -1,15 +1,15 @@
 ---
 title: Gerenciar capacidades no Power BI Premium e no Power BI Embedded
-description: "Saiba como é possível gerenciar o Power BI Premium e habilitar o acesso a conteúdo para toda a organização."
+description: Saiba como é possível gerenciar o Power BI Premium e habilitar o acesso a conteúdo para toda a organização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: maghan
 LocalizationGroup: Premium
-ms.openlocfilehash: a6040871652484ad5de70a0d73e14a13742fe56a
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 556f91464e8a08b5cb149648be2b097578964af9
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerenciar capacidades no Power BI Premium e no Power BI Embedded
 Saiba como gerenciar as capacidades que oferecem recursos dedicados ao seu conteúdo no Power BI Premium e no Power BI Embedded.
@@ -47,6 +47,10 @@ Para usar a capacidade dedicada, será necessário comprar uma assinatura do Pow
 * **Power BI Embedded:** [Criar capacidade do Power BI Embedded no portal do Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity)
 
 Quando você comprar os SKUs do Power BI Premium, seu locatário receberá o número de núcleos virtuais correspondentes para uso nas capacidades em execução. Por exemplo, a compra de um SKU P3 do Power BI Premium fornece ao locatário 32 núcleos virtuais.
+
+> [!NOTE]
+> Você terá 30 dias de acesso completo após o término da assinatura, mas depois disso, seu conteúdo será revertido para uma capacidade compartilhada. Os modelos com menos de 1 GB não serão compatíveis com uma licença compartilhada regular.
+>
 
 ## <a name="capacity-admins"></a>Administradores de capacidade
 > [!NOTE]
