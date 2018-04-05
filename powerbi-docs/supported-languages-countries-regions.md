@@ -1,28 +1,28 @@
 ---
-title: "Idiomas com suporte e países/regiões para o Power BI"
-description: "Consulte as listas de idiomas e países/regiões com suporte para o serviço do Power BI, Power BI Desktop e documentação do Power BI."
+title: Idiomas com suporte e países/regiões para o Power BI
+description: Consulte as listas de idiomas e países/regiões com suporte para o serviço do Power BI, Power BI Desktop e documentação do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/18/2017
+ms.date: 03/20/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 9c007202bc6526872ea3469ccc5e46b71a8e6dcb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -32,7 +32,7 @@ Este artigo fornece listas de idiomas e países/regiões com suporte para o serv
 Para uma lista de países e regiões em que o Power BI está disponível, consulte a [lista de disponibilidade internacional](https://products.office.com/business/international-availability). 
 
 ## <a name="languages-for-the-power-bi-service"></a>Idiomas para o serviço do Power BI
-O serviço do Power BI (no navegador) está disponível nos seguintes 42 idiomas:
+O serviço do Power BI (no navegador) está disponível nos seguintes 44 idiomas:
 
 * Árabe
 * Basco - Basco
@@ -149,7 +149,7 @@ O idioma escolhido para o Power BI Desktop afeta o formato de exibição de núm
 Para alterar o idioma do Power BI Desktop, volte à página de download e baixe-o em um idioma diferente.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Escolher a localidade para importar dados para o Power BI Desktop
-Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possível escolher que uma localidade de um relatório específico seja algo diferente de localidade na sua versão do Power BI Desktop. Isso altera a maneira como os dados são interpretados quando são importados da sua fonte de dados, por exemplo, se "4/3/2017" é interpretado como 3 de abril ou 4 de março. 
+Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possível escolher que uma localidade de um relatório específico seja algo diferente de localidade na sua versão do Power BI Desktop. Isso altera a maneira como os dados são interpretados quando são importados da sua fonte de dados, por exemplo, se "04/03/2017" é interpretado como 3 de abril ou 4 de março. 
 
 1. No Power BI Desktop, acesse **Arquivo** > **Opções e configurações** > **Opções**.
 2. Em **Arquivo atual**, selecione **Configurações regionais**.

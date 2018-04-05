@@ -1,27 +1,27 @@
 ---
-title: "Exibir relatórios do Power BI otimizados para seu telefone"
-description: "Leia sobre a interação com páginas de relatório otimizadas para exibição em aplicativos do Power BI."
+title: Exibir relatórios do Power BI otimizados para seu telefone
+description: Leia sobre a interação com páginas de relatório otimizadas para exibição em aplicativos do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/04/2018
+ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 4f3441e2f933ee8964fc77e3166aeede97bcfba9
-ms.sourcegitcommit: 25489cf87c31fc107a5337fa1dd36506897c4bbb
+ms.openlocfilehash: 275dc9fff2f87dd4811eb1a3fe3db944a2965b58
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/05/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Exibir relatórios do Power BI otimizados para seu telefone
 
@@ -47,7 +47,7 @@ Todos os outros recursos de relatórios do Power BI ainda funcionam em relatóri
 * [Relatórios sobre telefones Android](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrar a página de relatório em um telefone
-Se um relatório otimizado para telefone tiver filtros definidos, quando ele for exibido em um telefone, será possível utilizar esses filtros. 
+Se um relatório otimizado para telefone tiver filtros definidos, quando ele for exibido em um telefone, será possível utilizar esses filtros. O relatório é aberto no seu telefone, filtrado para os valores filtrados no relatório na Web, com uma mensagem de que há filtros ativos na página. É possível alterar os filtros no seu telefone.
 
 1. Toque no ícone de filtro ![Ícone de filtro do telefone](media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) na parte inferior da página. 
 2. Use a filtragem básica ou avançada para ver os resultados em que você está interessado.

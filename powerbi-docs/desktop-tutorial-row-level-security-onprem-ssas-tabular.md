@@ -1,15 +1,15 @@
 ---
-title: "Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services no Power BI"
-description: "Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services"
+title: 'Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services no Power BI'
+description: 'Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: selvarms
 manager: amitaro
 backup: davidi
 editor: davidi
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/12/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 67b347be9974605156d02cbbf179126c68ae91e8
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: segurança em nível de linha dinâmica com modelo da tabela do Analysis Services
 Este tutorial apresenta as etapas necessárias para implementar a **segurança em nível de linha** no **Modelo de Tabela do Analysis Services** e mostra como usá-la em um relatório do Power BI. As etapas deste tutorial foram projetadas para permitir que você acompanhe e conheça as etapas necessárias preenchendo um conjunto de dados de exemplo.
@@ -38,31 +38,31 @@ Durante este tutorial, as seguintes etapas são descritas detalhadamente, ajudan
 * Criar um novo dashboard baseado no relatório e, por último,
 * Compartilhar o dashboard com seus colegas
 
-Para seguir as etapas deste tutorial, você precisa do banco de dados **AdventureworksDW2012**, que pode ser baixado **[aqui.](http://msftdbprodsamples.codeplex.com/releases/view/55330)**
+Para seguir as etapas deste tutorial, você precisa do banco de dados **AdventureworksDW2012**, que pode ser baixado no **[repositório](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**.
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Tarefa 1: Criar a tabela de segurança de usuário e definir a relação de dados
-Há vários artigos publicados que descrevem como definir a segurança dinâmica em nível de linha com o modelo de **tabela do SSAS (SQL Server Analysis Services)**. [Para nossa amostra, seguimos este artigo.](https://msdn.microsoft.com/library/hh479759.aspx) As etapas a seguir mostrarão a primeira tarefa deste tutorial.
+Há vários artigos publicados que descrevem como definir a segurança dinâmica em nível de linha com o modelo de **tabela do SSAS (SQL Server Analysis Services)**. Para nossa amostra, seguimos o artigo [Implementar a segurança dinâmica usando filtros de linha](https://msdn.microsoft.com/library/hh479759.aspx). As etapas a seguir mostrarão a primeira tarefa deste tutorial:
 
 1. No nosso exemplo, usaremos o banco de dados relacional **AdventureworksDW2012**. Nesse banco de dados, crie a tabela **DimUserSecurity**, conforme mostrado na imagem a seguir. Para esta amostra, estamos usando o SSMS (SQL Server Management Studio) para criar a tabela.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable.png)
-2. Depois que a tabela for criada e salva, será necessário criar a relação entre a coluna **SalesTerritoryID** da tabela **DimUserSecurity** e a coluna **SalesTerritoryKey** da tabela **DimSalesTerritory**, como mostrado na imagem a seguir. Faça isto no **SSMS**, clicando com o botão direito do mouse na tabela **DimUserSecurity** e selecionando **Editar**.
+2. Depois que a tabela for criada e salva, será necessário criar a relação entre a coluna **SalesTerritoryID** da tabela **DimUserSecurity** e a coluna **SalesTerritoryKey** da tabela **DimSalesTerritory**, como mostrado na imagem a seguir. Faça isso no **SSMS** clicando com o botão direito do mouse na tabela **DimUserSecurity** e selecionando **Projetar**. Em seguida, selecione **Designer de Tabela -> Relações...**  no menu.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_keys.png)
-3. Salve a tabela e adicione algumas linhas de informações do usuário à tabela novamente clicando com o botão direito do mouse na tabela **DimUserSecurity** e selecionando **Editar as 200 primeiras linhas**. Depois de adicionar os usuários, as linhas da tabela **DimUserSecurity** serão parecidas com a seguinte imagem:
+3. Salve a tabela e adicione algumas linhas de informações do usuário à tabela novamente clicando com o botão direito do mouse na tabela **DimUserSecurity** e selecionando **Editar as 200 Primeiras Linhas**. Depois de adicionar os usuários, as linhas da tabela **DimUserSecurity** serão parecidas com a seguinte imagem:
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_users.png)
    
    Voltaremos a esses usuários em tarefas futuras.
 4. Em seguida, fazemos uma *junção interna* com a tabela **DimSalesTerritory**, que mostra os detalhes da região associados ao usuário. O código a seguir executa a *junção interna*, e a imagem a seguir mostra como a tabela aparece depois que a *junção interna* é bem-sucedida.
    
-       **select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeKey, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryKey]**
+       select b.SalesTerritoryCountry, b.SalesTerritoryRegion, a.EmployeeID, a.FirstName, a.LastName, a.UserName from [dbo].[DimUserSecurity] as a join  [dbo].[DimSalesTerritory] as b on a.[SalesTerritoryKey] = b.[SalesTerritoryID]
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/createusersecuritytable_join_users.png)
 5. Observe que a imagem acima mostra informações, como qual usuário é responsável por qual região de vendas. Esses dados são exibidos devido à relação que criamos na **Etapa 2**. Além disso, observe que o usuário **Carlos Silva faz parte da região de vendas Austrália**. Voltaremos a Carlos Silva em tarefas e etapas futuras.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Tarefa 2: Criar o modelo de tabela com tabelas de fatos e dimensão
-1. Depois de implementar o data warehouse relacional, é hora de definir o modelo de tabela. O modelo pode ser criado usando o **SSDT (SQL Server Data Tools)**. Para obter mais informações sobre como definir um modelo de tabela, [confira este artigo](https://msdn.microsoft.com/library/hh231689.aspx).
+1. Depois de implementar o data warehouse relacional, é hora de definir o modelo de tabela. O modelo pode ser criado usando o **SSDT (SQL Server Data Tools)**. Para obter mais informações sobre como definir um modelo de tabela, consulte [Criar um novo projeto de modelo de tabela](https://msdn.microsoft.com/library/hh231689.aspx).
 2. Importe todas as tabelas necessárias no modelo, conforme mostrado abaixo.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -76,14 +76,15 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
 6. Nesta etapa, usamos a função **LOOKUPVALUE** para retornar valores de uma coluna na qual o nome de usuário do Windows é o mesmo que o nome de usuário retornado pela função **USERNAME**. As consultas poderão ser restringidas nos casos em que os valores retornados por **LOOKUPVALUE** corresponderem aos valores na mesma tabela ou em uma tabela relacionada. Na coluna **Filtro DAX**, digite a seguinte fórmula:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-7. Nesta fórmula, a função **LOOKUPVALUE** retorna todos os valores da coluna **DimUserSecurity[SalesTerritoryID]**, em que o **DimUserSecurity[UserName]** é o mesmo nome de usuário atual do Windows conectado, e a **DimUserSecurity[SalesTerritoryID]** é igual a **DimSalesTerritory[SalesTerritoryKey]**.
+    Nesta fórmula, a função **LOOKUPVALUE** retorna todos os valores da coluna **DimUserSecurity[SalesTerritoryID]**, em que o **DimUserSecurity[UserName]** é o mesmo nome de usuário atual do Windows conectado, e a **DimUserSecurity[SalesTerritoryID]** é igual a **DimSalesTerritory[SalesTerritoryKey]**.
    
    O conjunto de SalesTerritoryKeys de Vendas retornado por **LOOKUPVALUE** é usado para restringir as linhas mostradas em **DimSalesTerritory**. Somente as linhas em que **SalesTerritoryKey** da linha estiver no conjunto de IDs retornadas pela função **LOOKUPVALUE** são exibidas.
-8. Para a tabela **DimUserSecurity**, na coluna **Filtro DAX**, digite a fórmula a seguir.
+8. Para a tabela **DimUserSecurity**, na coluna **Filtro DAX**, digite a fórmula a seguir:
    
        =FALSE()
-9. Esta fórmula especifica que todas as colunas são resolvidas para a condição booliana false; portanto, nenhuma coluna da tabela **DimUserSecurity** pode ser consultada.
-10. Agora, precisamos processar e implantar o modelo. Confira [este artigo](https://msdn.microsoft.com/library/hh231693.aspx) para obter assistência na implantação do modelo.
+
+    Esta fórmula especifica que todas as colunas são resolvidas para a condição booliana false; portanto, nenhuma coluna da tabela **DimUserSecurity** pode ser consultada.
+1. Agora, precisamos processar e implantar o modelo. Confira o [artigo Implantar](https://msdn.microsoft.com/library/hh231693.aspx) para obter assistência na implantação do modelo.
 
 ## <a name="task-3-adding-data-sources-within-your-on-premises-data-gateway"></a>Tarefa 3: adicionando fontes de dados ao Gateway de dados local
 1. Depois que o modelo de tabela for implantado e estiver pronto para consumo, você precisará adicionar uma conexão de fonte de dados ao servidor de tabela do Analysis Services local no portal do Power BI.
@@ -98,10 +99,10 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
 2. Na lista de fontes de dados, selecione o **Banco de Dados do SQL Server Analysis Services** e selecione **Conectar**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata.png)
-3. Preencha os detalhes da instância de tabela do **Analysis Services** e selecione **Conexão Dinâmica**. Selecione OK. Com o **Power BI**, a segurança dinâmica funciona apenas com a **Conexão dinâmica**.
+3. Preencha os detalhes da instância de tabela do **Analysis Services** e selecione **Conexão Dinâmica**. Selecione **OK**. Com o **Power BI**, a segurança dinâmica funciona apenas com a **Conexão dinâmica**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
-4. Você verá que o modelo foi implantado na instância do **Analysis Services**. Selecione o respectivo modelo e selecione **OK**.
+4. Você verá que o modelo implantado está na instância do **Analysis Services**. Selecione o respectivo modelo e selecione **OK**.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/getdata_connectlive.png)
 5. Agora, o **Power BI Desktop** exibe todos os campos disponíveis à direita da tela no painel **Campos**.
@@ -116,7 +117,7 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
    
    Em sua função, o **Gerente de vendas – Pedro** pode ver os dados de todas as diferentes regiões de vendas. Portanto, ele cria esse relatório (o relatório criado nas etapas da tarefa anterior) e o publica no serviço do Power BI.
    
-   Depois de publicar o relatório, ele cria um dashboard no serviço do Power BI chamado **TabularDynamicSec** com base no relatório. Na imagem a seguir, observe que o Gerente de vendas (Pedro) consegue ver os dados correspondentes a todas as regiões de vendas.
+   Depois de publicar o relatório, ele cria um dashboard no serviço do Power BI chamado **TabularDynamicSec** com base no relatório. Na imagem a seguir, observe que o Gerente de Vendas (Pedro) consegue ver os dados correspondentes a todas as regiões de vendas.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 2. Agora, Pedro compartilha o dashboard com seu colega, Carlos Silva, responsável pelas vendas na região da Austrália.
@@ -134,7 +135,7 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
 2. A sessão é inicializada assim que o usuário (Carlos Silva, neste caso) acessa o dashboard no serviço do Power BI. Você pode ver que a função **salesterritoryusers** funciona imediatamente com o nome de usuário efetivo **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
-3. Com base na solicitação de nome de usuário efetivo, o Analysis Services converte a solicitação para a credencial real moonneo\carlossilva depois de consultar o Active Directory local. Depois que o **Analysis Services** obtém a credencial real do Active Directory, em seguida, com base no acesso para o qual o usuário tem permissões nos dados, o **Analysis Services** retorna somente os dados para os quais ele tem permissão.
+3. Com base na solicitação de nome de usuário efetivo, o Analysis Services converte a solicitação para a credencial real moonneo\carlossilva depois de consultar o Active Directory local. Depois que o **Analysis Services** obtém a credencial real do Active Directory, em seguida, com base no acesso e nas permissões que o usuário tem para os dados, o **Analysis Services** retorna somente os dados para os quais ele tem permissão.
 4. Se outras atividades forem realizadas no dashboard, por exemplo, se Carlos Silva acessar o dashboard e depois o relatório subjacente, com o SQL Profiler, você verá uma consulta específica retornando para o modelo de tabela do Analysis Services como uma consulta DAX.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/profiler1.png)
@@ -165,8 +166,8 @@ Há vários artigos publicados que descrevem como definir a segurança dinâmica
    ```
 
 ## <a name="considerations"></a>Considerações
-Há algumas considerações para ter em mente ao trabalhar com a segurança em nível de linha, o SSAS e o Power BI.
+Há algumas considerações para ter em mente ao trabalhar com a segurança em nível de linha, o SSAS e o Power BI:
 
 1. A segurança em nível de linha local com o Power BI só está disponível com a Conexão Dinâmica.
-2. Quaisquer alterações nos dados após o processamento do modelo seriam imediatamente disponibilizadas para os usuários que estão acessando o relatório baseadas na **conexão dinâmica** por meio do serviço do Power BI.
+2. Quaisquer alterações nos dados após o processamento do modelo seriam imediatamente disponibilizadas para os usuários (que estão acessando o relatório com a **Conexão Dinâmica**) por meio do serviço do Power BI.
 

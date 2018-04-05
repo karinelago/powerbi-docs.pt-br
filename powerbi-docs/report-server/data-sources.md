@@ -1,27 +1,27 @@
 ---
-title: "Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI"
-description: "Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis."
+title: Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
+description: Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: caa45aab2c31974abb041a82eb2216ebee2eb148
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -34,6 +34,7 @@ Essas fontes de dados são específicas aos relatórios do Power BI usados no Se
 > 
 
 ## <a name="list-of-supported-data-sources"></a>Lista de fontes de dados compatíveis
+
 Outras fontes de dados podem funcionar mesmo que não estejam na lista de compatibilidade.
 
 | **Fonte de dados** | **Dados armazenados em cache** | **Atualização agendada** | **Live/DirectQuery** |
@@ -48,7 +49,7 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 | Amazon Redshift |Sim |Não |Não |
 | Armazenamento de Blobs do Azure |Sim |Sim |Não |
 | Azure Data Lake Store |Sim |Não |Não |
-| Azure HDInsight (HDFS) |Sim |Sim |Não |
+| Azure HDInsight (HDFS) |Sim |Não |Não |
 | Azure HDInsight (Spark) |Sim |Sim |Não |
 | Armazenamento de Tabelas do Azure |Sim |Sim |Não |
 | Dynamics 365 (online) |Sim |Não |Não |
@@ -83,7 +84,7 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 | Web |Sim |Sim |Não |
 | XML |Sim |Sim |Não |
 | appFigures (Beta) |Sim |Não |Não |
-| Banco de dados do Analysis Services do Azure (Beta) |Sim |Não |Não |
+| Banco de dados do Azure Analysis Services |Sim |Não |Sim |
 | Azure Cosmos DB (Beta) |Sim |Não |Não |
 | Azure HDInsight Spark (Beta) |Sim |Não |Não |
 | Common Data Service (Beta) |Sim |Não |Não |
@@ -119,6 +120,100 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 > A segurança de nível de linha configurada na fonte de dados deve funcionar para determinadas conexões dinâmicas e do DirectQuery (SQL Server, Banco de Dados SQL do Azure, Oracle e Teradata) considerando que o Kerberos esteja configurado adequadamente no ambiente.
 > 
 > 
+
+## <a name="list-of-supported-authentication-methods-for-model-refresh"></a>Lista de métodos de autenticação compatíveis para atualização do modelo
+
+O Servidor de Relatórios do Power BI não é compatível com a autenticação com base em OAuth para a atualização do modelo. Algumas fontes de dados, como bancos de dados do Excel ou do Access, usam uma etapa separada como Arquivo ou Web para se conectarem a dados.
+
+| **Fonte de dados** | **Autenticação Anônima** | **Autenticação da Chave** | **Nome de Usuário e Senha** | **Autenticação do Windows** |
+| --- | --- | --- | --- | --- |
+| Banco de dados do SQL Server |Não |Não |Sim |Sim |
+| SQL Server Analysis Services |Não |Não |Sim |Sim |
+| Web |Sim |Não |Sim |Sim |
+| Banco de dados SQL do Azure |Não |Não |Sim |Não |
+| SQL Data Warehouse do Azure |Não |Não |Sim |Não |
+| Active Directory |Não |Não |Sim |Sim |
+| Amazon Redshift |Não |Não |Não |Não |
+| Armazenamento de Blobs do Azure |Sim |Sim |Não |Não |
+| Azure Data Lake Store |Não |Não |Não |Não |
+| Azure HDInsight (HDFS) |Não |Não |Não |Não |
+| Azure HDInsight (Spark) |Sim |Sim |Não |Não |
+| Armazenamento de Tabelas do Azure |Não |Sim |Não |Não |
+| Dynamics 365 (online) |Não |Não |Não |Não |
+| Facebook |Não |Não |Não |Não |
+| Pasta |Não |Não |Não |Sim |
+| Google Analytics |Não |Não |Não |Não |
+| HDFS (Arquivo do Hadoop) |Não |Não |Não |Não |
+| Banco de dados IBM DB2 |Não |Não |Sim |Sim |
+| Impala |Não |Não |Não |Não |
+| Microsoft Exchange |Não |Não |Não |Não |
+| Microsoft Exchange Online |Não |Não |Não |Não |
+| Banco de dados MySQL |Não |Não |Sim |Sim |
+| Feed OData |Sim |Sim |Sim |Sim |
+| ODBC |Sim |Não |Sim |Sim |
+| OLE DB |Sim |Não |Sim |Sim |
+| Banco de dados Oracle |Não |Não |Sim |Sim |
+| Banco de dados PostgreSQL |Não |Não |Sim |Não |
+| Serviço do Power BI |Não |Não |Não |Não |
+| Script do R |Não |Não |Não |Não |
+| Objetos do Salesforce |Não |Não |Não |Não |
+| Relatórios do Salesforce |Não |Não |Não |Não |
+| Servidor do SAP Business Warehouse |Não |Não |Sim |Não |
+| Banco de dados do SAP HANA |Não |Não |Sim |Sim |
+| Pasta do SharePoint (local) |Sim |Não |Não |Sim |
+| Lista do SharePoint (local) |Sim |Não |Não |Sim |
+| Lista do SharePoint Online |Não |Não |Não |Não |
+| Snowflake |Não |Não |Não |Não |
+| Banco de dados Sybase |Não |Não |Sim |Sim |
+| Banco de dados Teradata |Não |Não |Sim |Sim |
+| appFigures (Beta) |Não |Não |Não |Não |
+| Banco de dados do Analysis Services do Azure (Beta) |Não |Não |Não |Não |
+| Azure Cosmos DB (Beta) |Não |Não |Não |Não |
+| Azure HDInsight Spark (Beta) |Não |Não |Não |Não |
+| Common Data Service (Beta) |Não |Não |Não |Não |
+| comScore Digital Analytix (Beta) |Não |Não |Não |Não |
+| Dynamics 365 para Customer Insights (Beta) |Não |Não |Não |Não |
+| Dynamics 365 for Financials (Beta) |Não |Não |Não |Não |
+| GitHub (Beta) |Não |Não |Não |Não |
+| Google BigQuery (Beta) |Não |Não |Não |Não |
+| Banco de dados IBM Informix (Beta) |Não |Não |Não |Não |
+| IBM Netezza (Beta) |Não |Não |Não |Não |
+| Kusto (Beta) |Não |Não |Não |Não |
+| MailChimp (Beta) |Não |Não |Não |Não |
+| Microsoft Azure Consumption Insights (Beta) |Não |Não |Não |Não |
+| Mixpanel (Beta) |Não |Não |Não |Não |
+| Planview Enterprise (Beta) |Não |Não |Não |Não |
+| Projectplace (Beta) |Não |Não |Não |Não |
+| QuickBooks Online (Beta) |Não |Não |Não |Não |
+| Smartsheet |Não |Não |Não |Não |
+| Spark (Beta) |Não |Não |Não |Não |
+| SparkPost (Beta) |Não |Não |Não |Não |
+| SQL Sentry (Beta) |Não |Não |Não |Não |
+| Stripe (Beta) |Não |Não |Não |Não |
+| SweetIQ (Beta) |Não |Não |Não |Não |
+| Troux (Beta) |Não |Não |Não |Não |
+| Twilio (Beta) |Não |Não |Não |Não |
+| tyGraph (Beta) |Não |Não |Não |Não |
+| Vertica (Beta) |Não |Não |Não |Não |
+| Visual Studio Team Services (Beta) |Não |Não |Não |Não |
+| Webtrends (Beta) |Não |Não |Não |Não |
+| ZenDesk (Beta) |Não |Não |Não |Não |
+
+## <a name="list-of-supported-authentication-methods-for-directquery"></a>Lista de métodos de autenticação compatíveis para DirectQuery
+
+O Servidor de Relatórios do Power BI não é compatível com a autenticação com base em OAuth para DirectQuery.
+
+| **Fonte de dados** | **Autenticação Anônima** | **Autenticação da Chave** | **Nome de Usuário e Senha** | **Autenticação do Windows** | **Autenticação Integrada do Windows** |
+| --- | --- | --- | --- | --- | --- |
+| Banco de dados do SQL Server |Não |Não |Sim |Sim |Sim |
+| SQL Server Analysis Services |Não |Não |Sim |Sim |Sim |
+| Banco de dados SQL do Azure |Não |Não |Sim |Não |Não |
+| SQL Data Warehouse do Azure |Não |Não |Sim |Não |Não |
+| Banco de dados Oracle |Não |Não |Sim |Sim |Sim |
+| Servidor do SAP Business Warehouse |Não |Não |Sim |Não |Sim |
+| Banco de dados do SAP HANA |Não |Não |Sim |Sim |Não |
+| Banco de dados Teradata |Não |Não |Sim |Sim |Sim |
+
 
 ## <a name="next-steps"></a>Próximas etapas
 Agora que você escolheu a fonte de dados, [crie um relatório](quickstart-create-powerbi-report.md) usando os dados dela.

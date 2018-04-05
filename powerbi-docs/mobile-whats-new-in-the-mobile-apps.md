@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5c2573bf4a3900b4d4216170e843263bc41a4e07
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
+ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -35,6 +35,18 @@ Para informações sobre “Novidades” relacionadas, consulte:
 ### <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicativo Power BI para Realidade Misturada (versão prévia)
 
 Na mudança mais recente para levar os dados até você, criamos o aplicativo Power BI para Realidade Misturada. Veja seus dashboards e relatórios imerso no mundo virtual, ou posicione-os e veja-os em locais específicos no seu ambiente. Leia mais sobre o novo [aplicativo Power BI para Realidade Misturada](mobile-mixed-reality-app.md).
+
+### <a name="share-reports-and-dashboards-externally"></a>Compartilhar relatórios e dashboards externamente
+
+Compartilhe dashboards e relatórios com usuários fora da sua organização, diretamente do aplicativo. O compartilhamento externo é ativado para contas organizacionais e sociais. 
+
+### <a name="persistent-filters"></a>Filtros persistentes
+
+Quando você define filtros e segmentações no Power BI na Web, suas opções de filtro também são salvas em seu aplicativo para dispositivos móveis, para que você possa continuar de onde parou.
+
+### <a name="refresh-reports-on-the-ipad"></a>Atualizar relatórios no iPad
+
+Os relatórios do Power BI agora têm um botão de atualização no aplicativo do iPad.
 
 ## <a name="february-2018"></a>Fevereiro de 2018
 

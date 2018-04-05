@@ -1,15 +1,15 @@
 ---
-title: "Configuração Pressupor integridade referencial no Power BI Desktop"
+title: Configuração Pressupor integridade referencial no Power BI Desktop
 description: Com o DirectQuery, saiba como fazer com que o Power BI Desktop pressuponha a integridade referencial
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0d92fc16a6bde09f3783c2035a4a6b5c97e7b933
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9494b7774c8ba7d91398b14fb6ae2f21649050fa
+ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Configurações Pressupor integridade referencial no Power BI Desktop
 Ao se conectar a uma fonte de dados usando o **DirectQuery**, você pode usar a seleção **Pressupor integridade referencial** para habilitar a execução de consultas mais eficientes em relação a sua fonte de dados. Esse recurso tem alguns requisitos dos dados subjacentes e só está disponível ao usar o **DirectQuery**.
@@ -62,7 +62,7 @@ Quando selecionada, a configuração é validada em relação aos dados para gar
 Além disso, a validação ocorre no momento da edição da relação e *não* reflete nenhuma alteração subsequente nos dados.
 
 ## <a name="what-happens-if-you-incorrectly-set-assume-referential-integrity"></a>O que acontece se você configurar incorretamente Pressupor integridade referencial?
-Se você definir **Pressupor integridade referencial** quando houver problemas de integridade referencial nos dados, isso não resultará em erros. No entanto, resultará em aparentes inconsistências nos dados. Por exemplo, no caso da relação com a tabela **Depots** descrita acima, resultaria no seguinte:
+Se você definir **Pressupor Integridade Referencial** quando houver problemas de integridade referencial nos dados, isso não resultará em erros. No entanto, resultará em aparentes inconsistências nos dados. Por exemplo, no caso da relação com a tabela **Depots** descrita acima, resultaria no seguinte:
 
 * Um visual mostrando o total *Order Qty* mostra um valor de 40
 * Um visual mostrando o total *Order Qty by Depot City* mostraria um valor total de apenas *30*, pois não incluiria a ID de pedido 1, onde **DepotID** é *nulo*.

@@ -1,15 +1,15 @@
 ---
-title: "Desabilitar as configurações de privacidade"
-description: "Como habilitar a Combinação Rápida no Gateway Pessoal para desabilitar as configurações de privacidade para a atualização."
+title: Desabilitar as configurações de privacidade
+description: Como habilitar a Combinação Rápida no Gateway Pessoal para desabilitar as configurações de privacidade para a atualização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,15 +18,15 @@ ms.workload: powerbi
 ms.date: 02/06/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 54d5f5ec2db890de0fbcef5ef0633548b90a6079
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: b8ec52f3c8bcb4051bd0ac9064786ddbfd15d9fe
+ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/22/2018
 ---
 # <a name="disable-privacy-setting-in-power-bi-gateway---personal"></a>Desabilitar a configuração de privacidade no Gateway do Power BI - Pessoal
 > [!NOTE]
-> Há uma nova versão do gateway pessoal para o Power BI denominada **gateway de dados local (modo pessoal)**. O artigo a seguir descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md). A combinação rápida também está disponível na nova versão do gateway pessoal e também é descrita no artigo.
+> Há uma nova versão do gateway pessoal para o Power BI denominada **Gateway de dados local (modo pessoal)**. O artigo a seguir descreve a versão anterior do gateway pessoal, chamada **Power BI Gateway – Personal**, que será desativada e deixará de funcionar após 31 de julho de 2017. Para obter informações sobre a nova versão do gateway pessoal, incluindo como instalá-la, consulte o artigo [**Gateway de dados local (modo pessoal)**](service-gateway-personal-mode.md). A combinação rápida também está disponível na nova versão do gateway pessoal e também é descrita no artigo.
 > 
 > 
 

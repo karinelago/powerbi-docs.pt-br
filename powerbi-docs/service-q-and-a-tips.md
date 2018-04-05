@@ -2,14 +2,14 @@
 title: Dicas e truques para fazer perguntas com a P e R no Power BI
 description: Dicas e truques para fazer perguntas com a P e R no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/18/2018
 ms.author: jastru
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bdf1f161e0a95bda5b37d9c43a3bdcc6bde1066a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 28ebd938b1121e1d2d453a9c9e72592b1c814742
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Dicas para fazer perguntas na P e R do Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palavras e terminologia reconhecida pela P e R
@@ -94,9 +94,6 @@ A P e R faz todo o possível para garantir que a resposta reflita com precisão 
 * sugere automaticamente termos de substituição do(s) conjunto(s) de dados subjacente(s) quando você move o cursor de volta para a caixa de pergunta.
 * reformula a pergunta com base nos dados do(s) conjunto(s) de dados subjacente(s). Isso ajuda a garantir que a P e R entendeu sua pergunta, já que ela substitui as palavras usadas por sinônimos do(s) conjunto(s) de dados subjacente(s).
 * esmaece as palavras que não são entendidas.
-
-## <a name="combine-results-from-more-than-one-dataset"></a>Combinar os resultados de mais de um conjunto de dados
-Um dos recursos mais avançados do Power BI é a capacidade de combinar dados de diferentes conjuntos de dados.  Portanto, não limite suas perguntas a um único conjunto de dados – faça perguntas que recuperam dados de mais de um conjunto de dados. Por exemplo, se meu dashboard tiver blocos de Amostra de Análise de Varejo e um conjunto de dados de população de estado, poderei pedir para *mostrar a contagem de lojas por população de estado como um gráfico de barras em ordem decrescente*.
 
 ## <a name="dont-stop-now"></a>Não parar agora
 Depois que a P e R exibir os resultados, é só conversar! Use os recursos interativos da visualização e das P e R para descobrir mais informações.
