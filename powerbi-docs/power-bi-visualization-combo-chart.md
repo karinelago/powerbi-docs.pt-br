@@ -1,16 +1,16 @@
 ---
-title: "Tutorial – Gráfico de Combinação"
-description: "Este tutorial sobre gráficos de combinação explica quando usá-los e como criá-los no serviço do Power BI e no Power BI Desktop."
+title: Tutorial – Gráfico de Combinação
+description: Este tutorial sobre gráficos de combinação explica quando usá-los e como criá-los no serviço do Power BI e no Power BI Desktop.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: lnv66cTZ5ho
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a52a50b647e743bfd29eecd970c1f381098bd344
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="combo-chart-in-power--tutorial"></a>Gráfico de combinação no Power (tutorial)
 No Power BI, um gráfico de combinação é uma visualização única que combina um gráfico de linhas e um gráfico de colunas. Combinando os 2 gráficos em um permite você faça uma comparação rápida dos dados.
@@ -46,7 +46,7 @@ Gráficos de combinação estão disponíveis no serviço do Power BI e no Power
 ## <a name="create-a-basic-single-axis-combo-chart"></a>Criar um gráfico de combinação básico de eixo único
 Veja Will criar um gráfico de combinação usando a amostra de Vendas e Marketing.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lnv66cTZ5ho?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>  
 
 <a name="create"></a> Para criar seu próprio gráfico de combinação, entre no serviço do Power BI e selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Varejo > Conectar > Ir para o dashboard**.
 
