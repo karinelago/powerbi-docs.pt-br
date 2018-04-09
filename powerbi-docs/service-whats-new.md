@@ -1,42 +1,54 @@
 ---
-title: "O que há de novo no serviço do Power BI"
-description: "O que há de novo no serviço do Power BI"
+title: O que há de novo no serviço do Power BI
+description: O que há de novo no serviço do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: sirsu
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/07/2018
+ms.date: 03/23/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: b3e12a9bdfa6643351cdfc82ce9051197df6ee1e
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: 7b8d3b4202ff08b5b97765fe20abe37c41518a31
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/30/2018
+---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>O que há de novo no serviço do Power BI
 Confira esta página para ver os problemas conhecidos e os recursos lançados recentemente no **Serviço do Power BI**. Para informações sobre “Novidades” relacionadas, consulte:
 
-* [Novidades no Power BI Desktop](desktop-latest-update.md)  
-* [Novidades em aplicativos móveis para o Power BI](mobile-whats-new-in-the-mobile-apps.md)  
-* [Blog da equipe do Power BI](https://powerbi.microsoft.com/blog/)
+- [Novidades no Power BI Desktop](desktop-latest-update.md)  
+- [Novidades em aplicativos móveis para o Power BI](mobile-whats-new-in-the-mobile-apps.md)  
+- [Blog da equipe do Power BI](https://powerbi.microsoft.com/blog/)
+- [Notas de lançamento dos aplicativos de negócios da primavera de 2018](https://aka.ms/bagspring2018releasenotes_internal) do Dynamics 365: as atualizações mais recentes para nossos aplicativos de negócios, bem como novos recursos para a criação de seus aplicativos e extensões em nossa plataforma. 
 
 Você também pode consultar os canais do YouTube para obter informações sobre as "Novidades" e os recursos.
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="january-2018"></a>Janeiro de 2018
+## <a name="march-2018"></a>Março de 2018
+* [Filtros persistentes](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) no Serviço do Power BI.
+* Compartilhe conteúdo com usuários usando as contas de email pessoais deles. Extensão do [Azure Active Directory B2B](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+
+## <a name="previous-months-2018"></a>Meses anteriores (2018)
+### <a name="february-2018"></a>Fevereiro de 2018
+* Instalar automaticamente os [Power BI Apps](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) para usuários finais.
+* Capacidades de P4 e P5 no Power BI Premium
+* Visualização de [Elementos visuais personalizados da organização](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+
+### <a name="january-2018"></a>Janeiro de 2018
 *   Compartilhar e marcar como favoritos os relatórios do Power BI.
 *   Suporte a logon único (SSO) de OAuth2 e DirectQuery para Banco de dados SQL do Azure e Data Warehouse.
 *   Auditoria na região: os logs de auditoria agora serão armazenados na mesma região do Office 365 como seu locatário.
@@ -70,7 +82,7 @@ Você também pode consultar os canais do YouTube para obter informações sobre
 ### <a name="july-2017"></a>Julho de 2017
 * Suporte para [assinaturas de email](service-report-subscribe.md) em dashboards.
 * Inspecione e diagnostique o motivo pelo qual o tempo de carregamento é ruim para dashboards usando o Inspetor de Desempenho.
-* DirectQuery do Snowflake e do SAP BusinessWarehouse agora compatíveis com o gateway de dados local.
+* O DirectQuery do Snowflake e do SAP BusinessWarehouse agora compatíveis com o gateway de dados local.
 * Novas [APIs para gerenciar atualização de dados](https://powerbi.microsoft.com/blog/announcing-data-refresh-apis-in-the-power-bi-service/) no serviço do Power BI.
 
 ### <a name="june-2017"></a>Junho de 2017

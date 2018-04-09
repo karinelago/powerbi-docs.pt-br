@@ -210,7 +210,7 @@
           href: service-connect-to-ziosk.md
         - name: Zuora
           href: service-connect-to-zuora.md
-    - name: Painéis
+    - name: Dashboards
       items:
         - name: Painéis no Power BI
           href: service-dashboards.md
@@ -232,7 +232,7 @@
           href: service-dashboard-pin-tile-from-q-and-a.md
         - name: Fixar uma página inteira do relatório em um painel do Power BI
           href: service-dashboard-pin-live-tile-from-report.md
-        - name: Compartilhou comigo
+        - name: Compartilhado comigo
           href: service-shared-with-me.md
         - name: Métrica de uso para painéis
           href: service-usage-metrics.md
@@ -770,6 +770,8 @@
           href: desktop-insights.md
         - name: Segmentação de Dados no Power BI Desktop
           href: desktop-slicers.md
+        - name: Usando os botões no Power BI
+          href: desktop-buttons.md
         - name: Indicadores no Power BI
           href: desktop-bookmarks.md
         - name: Criar dicas de ferramenta de relatórios personalizados (versão prévia)
