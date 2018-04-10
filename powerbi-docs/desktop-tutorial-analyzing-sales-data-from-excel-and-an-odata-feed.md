@@ -2,14 +2,14 @@
 title: 'Tutorial: Analisando dados de vendas do Excel e de um feed OData no Power BI Desktop'
 description: 'Tutorial: Analisando dados de vendas do Excel e de um feed OData'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 4cab3ed114d03d42c6acf1bf62f70e7d920e16b2
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: aad93a6c636fb0d75ad89f9e3d9eb70ec203cc88
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="tutorial-analyzing-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Analisando dados de vendas do Excel e de um feed OData
 Com o **Power BI Desktop**, você pode se conectar todo tipo de fontes de dados diferentes, combinar e formatá-las de maneiras que facilitam a realização de análises de dados e visualizações interessantes e atraentes. Neste tutorial, você aprenderá a combinar dados de duas fontes de dados. 
@@ -133,7 +133,7 @@ Calcular o total de cada linha **Order\_Details**:
 1. Na guia de faixa de opções **Adicionar Coluna** , clique em **Adicionar** **Coluna Personalizada**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/t_excelodata_4.png)
-2. Na caixa de diálogo **Adicionar Coluna Personalizada**, na caixa de texto **Fórmula de Coluna Personalizada**, insira **[Order\_Details.UnitPrice] \* [Order\_Details.Quantity]**.
+2. Na caixa de diálogo **Adicionar Coluna Personalizada**, na caixa de texto **Fórmula de Coluna Personalizada**, insira **[Order\_Details.UnitPrice]** \* **[Order\_Details.Quantity]**
 3. Na caixa de texto **Nome da nova coluna** , digite **LineTotal**.
    
    ![](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/8.png)

@@ -1,28 +1,28 @@
 ---
-title: "Portal de administração do Power BI"
-description: "O portal de administração permite o gerenciamento de locatário do Power BI em sua organização. Inclui itens como métricas de uso, o acesso ao centro de administração do Office 365 e configurações."
+title: Portal de administração do Power BI
+description: O portal de administração permite o gerenciamento de locatário do Power BI em sua organização. Inclui itens como métricas de uso, o acesso ao centro de administração do Office 365 e configurações.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
-ms.author: maghan
+ms.date: 04/02/2018
+ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ce2bc2746773c344251b89173b5825940eb0174
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 54ddccf9ca6ffdc1d9cbe840dbfced8d978ad194
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -326,8 +326,8 @@ Importante: a exclusão é irreversível. Depois de excluído, o elemento visual
  
 ### <a name="how-to-update-a-visual"></a>Como atualizar um elemento visual
 
-Se você quiser atualizar um elemento visual no repositório, porque há uma nova versão dele (por exemplo, correções de bug, novas funcionalidades etc.), carregue o novo arquivo (verifique se a ID Visual permanece inalterada) como uma nova entrada na lista, confira se estão certos os detalhes no título e na descrição (por exemplo, "Meu elemento visual v 2.0"). Da próxima vez que os usuários inserirem o repositório da organização do Power BI Desktop, eles poderão importar a nova versão, que os pedirá para substituir a versão atual que eles têm no relatório.
- 
+Se você quiser atualizar um visual no repositório devido à existência de uma nova versão do visual (por exemplo, correções de bug, nova funcionalidade, etc.), selecione o ícone **Atualizar** e carregue o novo arquivo. Verifique se a ID do Visual permanece inalterada. O novo arquivo substituirá o arquivo anterior em todos os relatórios de toda a organização. No entanto, se a nova versão do visual prejudicar qualquer estrutura de dados de uso da versão anterior do visual, não substitua a versão anterior. Em vez disso, crie uma nova lista para a nova versão do visual. Por exemplo, adicione um novo número de versão (versão X.X) ao título do novo visual listado. Desse modo, fica claro que é o mesmo visual, apenas com um número de versão atualizada, assim os relatórios existentes não prejudicam a funcionalidade. Novamente, verifique se a ID do Visual permanece inalterada. Assim, da próxima vez que os usuários inserirem o repositório da organização do Power BI Desktop, eles poderão importar a nova versão, que os pedirá para substituir a versão atual que eles têm no relatório.
+
 ## <a name="next-steps"></a>Próximas etapas
 
 [Noções básicas sobre a função de administrador do Power BI](service-admin-role.md)  

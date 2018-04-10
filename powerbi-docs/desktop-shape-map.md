@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 2bdd29f664d49dd4628b2f27d0eddf1f5dad1cf7
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 0b2ff8d7b7367e29e62b373ca9cb1312f7ddd10f
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas no Power BI Desktop (Preview)
 No Power BI Desktop, você cria um visual **Mapa de Formas** para mostrar comparações relativas de regiões em um mapa, aplicando cores diferentes a regiões diferentes. Ao contrário do visual **Mapa**, o **Mapa de Formas** não pode mostrar localizações geográficas precisas de pontos de dados em um mapa; em vez disso, sua finalidade principal é mostrar comparações relativas de regiões em um mapa aplicando a elas cores diferentes.
@@ -32,7 +32,7 @@ Os visuais **Mapa de Formas** baseiam-se nos mapas ESRI/TopoJSON, que têm a inc
 ## <a name="creating-shape-maps"></a>Criando Mapas de Formas
 Você pode testar o controle de **Mapa de Formas** com os mapas que são fornecidos com esta versão de visualização ou pode usar seu próprio mapa personalizado, desde que ele atende aos requisitos descritos na seção a seguir, chamada **Usar mapas personalizados**.
 
-O visual **Mapa de Formas** está na Preview e deve ser habilitado no Power BI Desktop. Para habilitar o **Mapa de Formas**, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Visualização** e selecione a caixa de seleção **Mapa de Formas**. Você precisará reiniciar o Power BI Desktop depois de fazer a seleção.
+O visual **Mapa de Formas** está na Preview e deve ser habilitado no Power BI Desktop. Para habilitar o **Mapa de Formas**, selecione **Arquivo > Opções e Configurações > Opções > Recursos de visualização** e marque a caixa de seleção **Moldar visual do mapa**. Você precisará reiniciar o Power BI Desktop depois de fazer a seleção.
 
 ![](media/desktop-shape-map/shape-map_1a.png)
 
@@ -46,7 +46,7 @@ O Power BI Desktop cria uma tela de design em branco do visual **Mapa de Formas*
 
 Realize as seguintes etapas para criar um **Mapa de Formas**:
 
-1. No painel **Campos**, arraste um campo de dados que tem os nomes de região (ou abreviações) até o bucket **Localização** e um campo de medida de dados até o bucket **Valores** (você ainda não verá um mapa).
+1. No painel **Campos**, arraste um campo de dados que tem os nomes de região (ou abreviações) até o bucket **Localização** e um campo de medida de dados até o bucket **Saturação de cor** (você ainda não verá um mapa).
    
    > [!NOTE]
 > Veja a seção intitulada **Como obter dados do mapa**, abaixo, para informações de como obter dados de mapa rapidamente para testar o **Mapa de formas**.
@@ -70,7 +70,7 @@ Realize as seguintes etapas para criar um **Mapa de Formas**:
 ## <a name="use-custom-maps"></a>Usar mapas personalizados
 Você pode usar mapas personalizados com o **Mapa de Formas**, contanto que eles estejam no formato **TopoJSON**. Se o mapa estiver em outro formato, você poderá usar ferramentas online, como [**Map Shaper**](http://mapshaper.org/), para converter seus *arquivos de formas* ou mapas *GeoJSON* no formato **TopoJSON**.
 
-Para usar seu arquivo de mapas **TopoJSON**, adicione um visual ShapeMap ao relatório e alguns dados aos recipientes *Local* e *Valores*. Em seguida, no painel **Visualizações** com a seção **Formato** selecionada (o ícone de pincel, mostrado como (1) na imagem a seguir), expanda a seção **Forma** e selecione **+Adicionar Mapa**.
+Para usar seu arquivo de mapas **TopoJSON**, adicione um visual ShapeMap ao relatório e alguns dados aos recipientes *Local* e *Saturação da cor*. Em seguida, no painel **Visualizações** com a seção **Formato** selecionada (indicada como (1) na imagem a seguir), expanda a seção **Forma** e selecione **+Adicionar Mapa**.
 
 ![](media/desktop-shape-map/shape-map_6.png)
 
@@ -96,7 +96,7 @@ Para inserir dados em um modelo rapidamente para testar o **Mapa de Formas**, co
 
 ![](media/desktop-shape-map/shape-map_4.png)
 
-Em seguida, cole a tabela no Power BI Desktop. A linha superior é identificada automaticamente como um cabeçalho.
+Se os dados tiverem várias colunas, será necessário usar um editor como o Excel para colar os dados e, em seguida, copiar cada coluna de dados separadamente. Depois, cole os dados no Power BI Desktop. A linha superior é identificada automaticamente como um cabeçalho.
 
 ![](media/desktop-shape-map/shape-map_5.png)
 
@@ -112,9 +112,9 @@ Você pode inserir uma nova coluna apenas digitando um novo nome de coluna (na c
 ## <a name="preview-behavior-and-requirements"></a>Comportamento e requisitos da versão prévia
 Há algumas considerações e requisitos para essa versão de Preview do **Mapa de Formas**:
 
-* O visual **Mapa de Formas** está na Preview e deve ser habilitado no Power BI Desktop. Para habilitar o **Mapa de Formas**, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Visualização** e selecione a caixa de seleção **Mapa de Formas**.
-* No momento, você também deve ter o bucket **Valores** definido para que a classificação de **Legenda** funcione corretamente
-* A versão de liberação final do **Mapa de Formas** terá uma interface do usuário que mostrará as chaves do mapa atualmente selecionado (não há uma data definida para a versão final e o **Mapa de Formas** ainda está na Versão prévia); nesta Versão prévia, é possível consultar as chaves de região do mapa nas tabelas localizadas na seção **Chaves de região** deste artigo.
+* O visual **Mapa de Formas** está na Preview e deve ser habilitado no Power BI Desktop. Para habilitar o **Mapa de Formas**, selecione **Arquivo > Opções e Configurações > Opções > Recursos de visualização** e marque a caixa de seleção **Moldar visual do mapa**.
+* No momento, você também deve ter o bucket **Saturação da cor** definido para que a classificação de **Legenda** funcione corretamente.
+* A versão final do **Mapa de Formas** terá uma interface do usuário que mostra as chaves do mapa atualmente selecionado (não há uma data definida para a versão final, e **Mapa de Formas** ainda está em versão prévia). Nessa versão prévia, você pode fazer referência às chaves de região do mapa nas tabelas encontradas na seção **Chaves de Região** deste artigo.
 * O visual do **Mapa de Formas** plotará até um máximo de 1.000 pontos de dados.
 
 ## <a name="region-keys"></a>Chaves de região

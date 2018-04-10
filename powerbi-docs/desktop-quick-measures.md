@@ -1,15 +1,15 @@
 ---
-title: "Usar medidas rápidas para executar facilmente cálculos comuns e avançados no Power BI"
-description: "Medidas rápidas fornecem fórmulas DAX prontas que executam rapidamente cálculos comuns"
+title: Usar medidas rápidas para executar facilmente cálculos comuns e avançados no Power BI
+description: Medidas rápidas fornecem fórmulas DAX prontas que executam rapidamente cálculos comuns
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b9cc94593ca6fd98590d69bee3a2fa4cae6d0050
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a7f877512d5b0f897fb98d2db205d1418d25c71a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-quick-measures-to-easily-perform-common-and-powerful-calculations"></a>Usar medidas rápidas para facilmente executar cálculos comuns e avançados
 Você pode usar **Medidas rápidas** para executar cálculos comuns e avançados com rapidez e praticidade. Uma **Medida rápida** executa um conjunto de comandos DAX nos bastidores (não é necessário compilar o DAX; isso já foi feito para você) com base nos dados fornecidos em uma caixa de diálogo e, em seguida, apresenta os resultados para você usar em seu relatório. O melhor de tudo é poder visualizar o DAX executado pela Medida rápida e estimular ou expandir seu próprio conhecimento do DAX.
@@ -59,14 +59,14 @@ Na seleção do menu suspenso, é apresentada uma longa lista de **Medidas rápi
 Há cinco diferentes grupos de tipos de cálculo de Medidas rápidas, cada qual com uma coleção de cálculos. Esses grupos e cálculos são os seguintes:
 
 * **Agregar por categoria**
-  * Média em uma categoria
-  * Variação em uma categoria
-  * Máximo em uma categoria
-  * Mínimo em uma categoria
+  * Média por categoria
+  * Variação por categoria
+  * Máximo por categoria
+  * Mínimo por categoria
   * Média ponderada por categoria
 * **Filtros**
   * Valor filtrado
-  * Diferença da linha de base
+  * Diferença do valor filtrado
   * Diferença percentual do valor filtrado
   * Vendas de novas categorias
 * **Inteligência de dados temporais**
@@ -101,7 +101,7 @@ O elemento visual da **Matriz** a seguir mostra uma tabela de vendas de diversos
 
 ![](media/desktop-quick-measures/quick-measures_05.png)
 
-Quando clicamos com o botão direito do mouse no espaço do campo **Valores** e selecionamos **Medidas rápidas**, é possível selecionar *Média na categoria* como o *Cálculo*, selecionar *Soma de SalesAmount* como o *Valor base* e, por fim, especificar *SalesAmount* arrastando esse campo da caixa *Campos* no painel direito até a seção *Categoria* à esquerda.
+Quando clicamos com o botão direito do mouse no espaço do campo **Valores** e selecionamos **Medidas rápidas**, é possível selecionar *Média por categoria* como o *Cálculo*, selecionar *Soma de SalesAmount* como o *Valor base* e, por fim, especificar *SalesAmount* arrastando esse campo da caixa *Campos* no painel direito até a seção *Categoria* à esquerda.
 
 ![](media/desktop-quick-measures/quick-measures_06.png)
 

@@ -1,15 +1,15 @@
 ---
-title: "Entender os níveis de privacidade do Power BI Desktop"
-description: "Níveis de privacidade do Power BI Desktop"
+title: Entender os níveis de privacidade do Power BI Desktop
+description: Níveis de privacidade do Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 01/19/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3cf6875fcb0756bfa9f5622a8d49f5b645b13c24
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 110d851e08ee8b63645c11507500eb2cbf179a46
+ms.sourcegitcommit: ae4d771b883b654358a6a94dd784ea9bdf3d3aa3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/28/2018
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Níveis de privacidade do Power BI Desktop
 No **Power BI Desktop**, os níveis de privacidade especificam um nível de isolamento que define o grau que uma fonte de dados será isolada de outras fontes de dados. Apesar de o nível de isolamento restrito bloquear a troca de informações entre as fontes de dados, ele poderá reduzir a funcionalidade e causar um impacto no desempenho.
@@ -31,15 +31,6 @@ A configuração **Níveis de Privacidade**, encontrada em **Arquivo > Opções 
 
 ![](media/desktop-privacy-levels/desktop_privacylevels1.png)
 
- O diálogo de configurações de **Privacidade** para cada fonte de dados pode ser encontrado em **Arquivo > Opções e configurações > Configurações da fonte de dados**. Selecione a fonte de dados e selecione **Editar**. O diálogo **Configurações de fonte de dados** é exibida e nele você pode selecionar o nível de privacidade adequado no menu suspenso na parte inferior da caixa de diálogo, como mostrado na imagem a seguir.
-
- ![](media/desktop-privacy-levels/desktop_privacylevels2.png)
-
-> [!CAUTION]
-> Configure uma fonte de dados que contenha dados altamente confidenciais como **Privada**.
-> 
-> 
-
 ## <a name="configure-a-privacy-level"></a>Configurar um nível de privacidade
 Com as configurações de nível de privacidade, você pode especificar um nível de isolamento que define o grau que uma fonte de dados deve ser isolada de outras fontes de dados.
 
@@ -47,7 +38,7 @@ Com as configurações de nível de privacidade, você pode especificar um níve
 | --- | --- | --- |
 | **Fonte de dados particular** |Uma fonte e dados **Particular** contém informações confidenciais e a visibilidade da fonte de dados pode ser restrita a usuários autorizados. Uma fonte de dados particular é completamente isolada de outras fontes de dados. |Os dados do Facebook, um arquivo de texto com prêmios de ações ou uma pasta de trabalho com informações de avaliação de funcionários. |
 | **Fonte de dados Organizacional** |Uma fonte de dados **Organizacional** limita a visibilidade de uma fonte de dados para um grupo de pessoas confiáveis. Uma fonte de dados **Organizacional** é isolada de todas as fontes de dados **Públicas** , mas é visível para outras fontes de dados **Organizacionais** . |Um documento do **Microsoft Word** em um site do SharePoint com permissões habilitadas para um grupo de pessoas confiáveis. |
-| **Fonte de dados pública** |Uma fonte de dados **Pública** fornece a todos visibilidade dos dados contidos na fonte de dados. Somente arquivos, fontes de dados da internet ou dados de pasta de trabalho podem ser marcados **Públicos**. |Os dados gratuitos do Microsoft Azure Marketplace, os dados de uma página do Wikipedia ou um arquivo local com os dados copiados de uma página da Web pública |
+| **Fonte de dados pública** |Uma fonte de dados **Pública** fornece a todos visibilidade dos dados contidos na fonte de dados. Somente arquivos, fontes de dados da internet ou dados de pasta de trabalho podem ser marcados **Públicos**. |Os dados gratuitos do Microsoft Azure Marketplace, os dados de uma página do Wikipedia ou um arquivo local com os dados copiados de uma página da Web pública. |
 
 ## <a name="configure-privacy-level-settings"></a>Definir configurações de nível de privacidade
 O diálogo de configurações de **Privacidade** para cada fonte de dados pode ser encontrado em **Arquivo > Opções e configurações > Configurações da fonte de dados**.

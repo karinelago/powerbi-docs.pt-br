@@ -1,15 +1,15 @@
 ---
 title: Gateway de dados local (modo pessoal)
-description: "Gateway de dados para o Power BI que os usuários podem usar para se conectar a dados locais"
+description: Gateway de dados para o Power BI que os usuários podem usar para se conectar a dados locais
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,36 +18,36 @@ ms.workload: powerbi
 ms.date: 12/14/2017
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2bd3604a3f16c6977c52c1b3484ac024445c65bb
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 777e5f27954890fe842096c0f2633f6803ebf319
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Gateway de dados local (modo pessoal)
-É possível usar fontes de dados locais e criar relatórios e dashboards do Power BI usando um gateway. Um **gateway** é um software que facilita o acesso a dados armazenados em uma rede privada local e permite que você use esses dados em serviços online, como o **Serviço do Power BI**. O **gateway de dados local (modo pessoal)** é uma atualização lançada recentemente do Power BI Gateway, que permite que os usuários instalem um gateway em seu próprio computador e tenham acesso a dados locais.
+É possível usar fontes de dados locais e criar relatórios e dashboards do Power BI usando um gateway. Um **gateway** é um software que facilita o acesso a dados armazenados em uma rede privada local e permite que você use esses dados em serviços online, como o **Serviço do Power BI**. O **Gateway de dados local (modo pessoal)** é uma atualização lançada recentemente do Gateway do Power BI, que permite que os usuários instalem um gateway em seu próprio computador e tenham acesso a dados locais.
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_00.png)
 
 > [!NOTE]
-> O **gateway de dados local (modo pessoal)** substitui a versão anterior compatível do gateway pessoal, chamada **Power BI Gateway – Personal**. O gateway pessoal anterior continuará funcionando apenas até 31 de julho de 2017. Consulte as seções abaixo para obter informações sobre como atualizar para a nova versão.
+> O **Gateway de dados local (modo pessoal)** substitui a versão anterior compatível do gateway pessoal, chamada **Power BI Gateway – Personal**. O gateway pessoal anterior continuará funcionando apenas até 31 de julho de 2017. Consulte as seções abaixo para obter informações sobre como atualizar para a nova versão.
 > 
 > 
 
-## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Recursos do gateway de dados local (modo pessoal)
-Com o lançamento do **gateway de dados local (modo pessoal)**, uma coleção de recursos e de melhorias agora está disponível. Na versão anterior do gateway pessoal (que se chama **Power BI Gateway – Personal**), sua implementação impunha algumas limitações. Assim como ocorreu com muitos produtos do Power BI, ouvimos as necessidades e solicitações dos clientes e como eles usavam o produto. Como resultado, o **gateway de dados local (modo pessoal)** foi reformulado completamente e agora inclui os seguintes recursos e melhorias:
+## <a name="features-of-the-on-premises-data-gateway-personal-mode"></a>Recursos do Gateway de dados local (modo pessoal)
+Com o lançamento do **Gateway de dados local (modo pessoal)**, um conjunto de recursos e melhorias agora estão disponíveis. Na versão anterior do gateway pessoal (que se chama **Power BI Gateway – Personal**), sua implementação impunha algumas limitações. Assim como ocorreu com muitos produtos do Power BI, ouvimos as necessidades e solicitações dos clientes e como eles usavam o produto. Como resultado, o **Gateway de dados local (modo pessoal)** foi reformulado completamente e agora inclui os seguintes recursos e aprimoramentos:
 
 * **Maior confiabilidade** – a nova versão do gateway pessoal aumentou a confiabilidade com relação à versão anterior, devido a melhorias no software estrutural e no código.
 * **Extensibilidade avançada** – como parte das melhorias no software estrutural, recursos adicionais poderão ser adicionados facilmente ao gateway pessoal assim que se tornarem disponíveis.
 * **Excluir o gateway pessoal do serviço do Power BI** – com a nova versão, agora você pode excluir seu gateway pessoal de dentro do **serviço do Power BI**.
 * **Logs de configuração e serviço** – a nova versão permite que você exporte facilmente logs de configuração e serviço para um arquivo .zip, com um único clique.
 
-## <a name="installing-on-premises-data-gateway-personal-mode"></a>Instalando o gateway de dados local (modo pessoal)
-Para instalar o **gateway de dados local (modo pessoal)** sem ter a versão anterior do gateway instalada, selecione o ícone de engrenagem no **Serviço do Power BI** e selecione **Gateway de Dados**.
+## <a name="installing-on-premises-data-gateway-personal-mode"></a>Instalando o Gateway de dados local (modo pessoal)
+Para instalar o **Gateway de dados local (modo pessoal)** sem ter a versão anterior do gateway instalada, selecione o ícone de engrenagem no **serviço do Power BI** e selecione **Gateway de Dados**.
 
 ![](media/service-gateway-personal-mode/gateway-personal-mode_02.png)
 
-Também é possível baixar o gateway [neste local](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409). Você pode seguir as etapas de instalação e, como o processo de instalação permite instalar qualquer uma das versões do gateway (o gateway padrão, que pode ser compartilhado com outras pessoas, ou o modo pessoal), selecione **gateway de dados local (modo pessoal)** quando perguntado qual versão do gateway você deseja instalar.
+Também é possível baixar o gateway [neste local](https://go.microsoft.com/fwlink/?LinkId=820925&clcid=0x409). Você pode seguir as etapas de instalação e, como o processo de instalação permite que você instale qualquer uma das versões do gateway (o gateway padrão, que pode ser compartilhado com outras pessoas ou o modo pessoal), certifique-se de selecionar **Gateway de dados local (modo pessoal)** quando for perguntado qual versão do gateway você deseja instalar.
 
 ### <a name="updating-from-the-previous-personal-gateway"></a>Atualizando do gateway pessoal anterior
 Se você já tiver o **Power BI Gateway – Personal** instalado, será solicitado que você instale a nova versão aprimorada do gateway pessoal quando você exibir **Conjuntos de Dados** em **Configurações** no **serviço do Power BI**.
@@ -84,12 +84,12 @@ Para determinar qual versão do gateway pessoal está instalada, você pode faze
 Você pode ir até **Adicionar/Remover Programas** e ver se **Power BI Gateway – Personal** aparece na lista e, se sim, você tem a versão anterior do gateway pessoal instalada.
 
 ## <a name="using-fast-combine-with-the-personal-gateway"></a>Usando a Combinação Rápida com o gateway pessoal
-Caso estivesse usando a **Combinação Rápida** com o gateway anterior, você precisará executar as seguintes etapas para habilitar novamente a **Combinação Rápida** para funcionar com o **gateway de dados local (modo pessoal)**:
+Caso estivesse usando a **Combinação Rápida** com o gateway anterior, você precisará executar as seguintes etapas para habilitar novamente o uso da **Combinação Rápida** com o **Gateway de dados local (modo pessoal)**:
 
 1. Usando o Explorador de Arquivos, abra o arquivo a seguir:
    
    ```
-   %localappdata%\Microsoft\on-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
+   %localappdata%\Microsoft\On-premises data gateway (personal mode)\Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
    ```
 2. Na parte inferior do arquivo, adicione o seguinte texto:
    
@@ -101,13 +101,13 @@ Caso estivesse usando a **Combinação Rápida** com o gateway anterior, você p
 3. Uma vez concluída, a configuração entrará em vigor em aproximadamente um minuto. Para verificar se ela está funcionando corretamente, tente fazer uma atualização sob demanda no **serviço do Power BI** para confirmar se a **Combinação Rápida** está funcionando.
 
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
-Há algumas pontos a serem considerados ao usar o **gateway de dados local (modo pessoal)**, conforme descrito na lista a seguir.
+Há algumas coisas a levar em consideração ao usar o **Gateway de dados local (modo pessoal)**, conforme descrito na lista a seguir.
 
 * Se estiver usando o **Windows Hello** ou um pin para entrar no Windows, você poderá encontrar o seguinte erro: 
   * *A conta de usuário que você selecionou não corresponde aos requisitos do aplicativo. Use uma conta diferente.*
   * Para corrigir esse erro, selecione *Usar uma conta diferente* e entre novamente. 
 
-No momento, as seguintes fontes de dados não são compatíveis com o **gateway de dados local (modo pessoal)**:
+No momento, não há suporte para as seguintes fontes de dados no **Gateway de dados local (modo pessoal)**:
 
 * ADO.NET 
 * CurrentWorkbook
@@ -119,18 +119,18 @@ No momento, as seguintes fontes de dados não são compatíveis com o **gateway 
 O suporte para Spark está planejado para o segundo semestre do ano civil de 2017.
 
 ## <a name="frequently-asked-questions-faq"></a>Perguntas frequentes
-* É possível executar o **gateway de dados local (modo pessoal)** lado a lado com o **gateway de dados local** (antes conhecido como a versão Enterprise do gateway)?
+* É possível executar o **Gateway de dados local (modo pessoal)** lado a lado com o **Gateway de dados local** (anteriormente conhecido como a versão Enterprise do gateway)?
   
   * **Resposta**: sim, com a nova versão, ambos podem ser executados simultaneamente.
-* É possível executar o **gateway de dados local (modo pessoal)** como serviço?
+* É possível executar o **Gateway de dados local (modo pessoal)** como um serviço?
   
-  * **Resposta:** não. O **gateway de dados local (modo pessoal)** só pode ser executado como aplicativo. Se precisar executar o gateway como serviço e/ou no modo admin, você precisará considerar o [**gateway de dados local**](service-gateway-onprem.md) (anteriormente conhecido como gateway Corporativo).
-* Com que frequência o **gateway de dados local (modo pessoal)** é atualizado?
+  * **Resposta:** não. O **Gateway de dados local (modo pessoal)** só pode ser executado como um aplicativo. Se precisar executar o gateway como um serviço e/ou no modo admin, você precisará considerar o [**Gateway de dados local**](service-gateway-onprem.md) (anteriormente conhecido como gateway Enterprise).
+* Com que frequência o **Gateway de dados local (modo pessoal)** é atualizado?
   
   * **Resposta**: planejamos atualizar o gateway pessoal mensalmente.
 * Por que estou solicitado a atualizar minhas credenciais?
   
-  * **Resposta**: muitas situações podem levar a uma solicitação de credenciais. A mais comum é você ter reinstalado o **gateway de dados local (modo pessoal)** em um computador diferente de seu gateway do **Power BI – pessoal**. Também pode haver um problema na fonte de dados e o Power BI não conseguiu realizar uma conexão de teste ou ocorreu um erro de tempo limite ou do sistema. Você pode atualizar suas credenciais no **serviço do Power BI** indo até o **ícone de engrenagem**, selecionando **Configurações** e, em seguida, **Conjuntos de Dados** e localizando o conjunto de dados em questão e clicando em *atualizar credenciais*.
+  * **Resposta**: muitas situações podem levar a uma solicitação de credenciais. A mais comum é você ter reinstalado o **Gateway de dados local (modo pessoal)** em um computador diferente de seu gateway do **Power BI – pessoal**. Também pode haver um problema na fonte de dados e o Power BI não conseguiu realizar uma conexão de teste ou ocorreu um erro de tempo limite ou do sistema. Você pode atualizar suas credenciais no **serviço do Power BI** indo até o **ícone de engrenagem**, selecionando **Configurações** e, em seguida, **Conjuntos de Dados** e localizando o conjunto de dados em questão e clicando em *atualizar credenciais*.
 * Quanto tempo meu gateway pessoal anterior ficará offline durante a atualização?
   
   * **Resposta**: atualizar o gateway pessoal para a nova versão deve levar apenas alguns minutos. 

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 12/11/2017
 ms.author: tankas
-ms.openlocfilehash: 7c460955aba71bfb3a89d94aa6000c7bdd451ac2
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 1345cfee8eb92b9b4e3cf883f19edddee859a1c3
+ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 03/29/2018
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatório do Power BI
 
@@ -31,6 +31,12 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 
 ## <a name="march-2018"></a>Março de 2018
 - **Servidor de Relatório do Power BI**
+    - *Versão 1.2.6660.39920 (Build 15.0.2.389), lançada em: 28 de março de 2018*
+        - Correções de bug
+            - Para Relatórios do Power BI (PBIX), correção para Exportar Dados que não está funcionando em Visuais do Power BI
+            - Para Relatórios do Power BI (PBIX), correção para filtros de URL não estão funcionando
+            - Para Relatórios Paginados (RDL), correção para imagens que não são exibidas corretamente no IE11 após a atualização para a versão de março do Servidor de Relatórios do Power BI
+
     - *Versão 1.2.6648.38132 (Build 15.0.2.378), lançada em: 19 de março de 2018*
         - Atualizações de Segurança
         - Aprimoramentos de acessibilidade

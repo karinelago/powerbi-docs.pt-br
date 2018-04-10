@@ -1,15 +1,15 @@
 ---
-title: "Usar o Kerberos no gateway local para logon único (SSO) do Power BI para fontes de dados locais"
+title: Usar o Kerberos no gateway local para logon único (SSO) do Power BI para fontes de dados locais
 description: Configure seu gateway com o Kerberos para habilitar o SSO do Power BI para fontes de dados locais
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: davidi
 LocalizationGroup: Gateways
-ms.openlocfilehash: 834800b26e8dd3738f274a73aa4ff9b36402a3d9
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: f60709e45e844ff7ab1a9c6bf3cb669c567dfcc8
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Use o Kerberos para SSO (logon único) do Power BI para fontes de dados locais
-Ao configurar o gateway de dados local com o Kerberos, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI com base em dados locais. O gateway de dados local facilita o SSO (logon único) com o DirectQuery, que é usado para a conexão às fontes de dados locais.
+Ao configurar o gateway de dados local com o Kerberos, você obterá conectividade ininterrupta de logon único para atualizar os relatórios e os dashboards do Power BI com base em dados locais. O Gateway de dados local facilita o SSO (logon único) com o DirectQuery, que é usado para a conexão às fontes de dados locais.
 
 No momento, as seguintes fontes de dados são compatíveis: SQL Server, SAP HANA e Teradata. Todas elas são baseadas na [delegação restrita de Kerberos](https://technet.microsoft.com/library/jj553400.aspx).
 
@@ -94,7 +94,7 @@ O resultado é esse porque, devido à configuração insuficiente do Kerberos, o
 Vários itens devem ser configurados para que a delegação restrita de Kerberos funcione corretamente, incluindo os *SPNs* (nomes das entidades de serviço) e as configurações de delegação nas contas de serviço.
 
 ### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Pré-requisito 1: instalar e configurar o gateway de dados local
-Essa versão do gateway de dados local é compatível com atualização in-loco, bem como com o controle das configurações de gateway existentes.
+Essa versão de gateway de dados local é compatível com atualização in-loco, bem como com o controle das configurações de gateway existentes.
 
 ### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Pré-requisito 2: executar o serviço Windows do gateway como uma conta de domínio
 Em uma instalação padrão, o gateway é executado como uma conta de serviço de computador local (especificamente, *NT Service\PBIEgwService*), conforme mostrado na imagem a seguir:
@@ -103,10 +103,10 @@ Em uma instalação padrão, o gateway é executado como uma conta de serviço d
 
 Para habilitar a **delegação restrita de Kerberos**, o gateway deve ser executado como uma conta de domínio, a menos que o AAD já esteja sincronizado com o Active Directory local (usando o DirSync/Connect do AAD). Para que a alteração de conta funcione corretamente, você tem duas opções:
 
-* Se você iniciar com uma versão anterior do gateway de dados local, siga precisamente todas as cinco etapas em sequência (incluindo a execução do configurador do gateway na etapa 3), conforme descrito no seguinte artigo:
+* Se você iniciar com uma versão anterior do Gateway de dados local, siga precisamente todas as cinco etapas em sequência (incluindo a execução do configurador do gateway na etapa 3), conforme descrito no seguinte artigo:
   
   * [Alterando a conta de serviço do gateway para um usuário de domínio](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/#changing-the-gateway-service-account-to-a-domain-user)
-  * Caso já tenha instalado a versão prévia do gateway de dados local, há uma nova abordagem guiada por interface do usuário para mudar as contas de serviço diretamente no configurador do gateway. Consulte a seção **Mudando o gateway para uma conta de domínio** próxima ao final deste artigo.
+  * Caso já tenha instalado a versão prévia do Gateway de dados local, há uma nova abordagem guiada por interface do usuário para mudar as contas de serviço diretamente no configurador do gateway. Consulte a seção **Mudando o gateway para uma conta de domínio** próxima ao final deste artigo.
 
 > [!NOTE]
 > Se o AAD DirSync/Connect estiver configurado e as contas de usuário estiverem sincronizadas, o serviço do gateway não precisará executar pesquisas no AD local no tempo de execução e você poderá usar o SID de Serviço local (em vez de uma conta de domínio) para o serviço do gateway. As etapas de configuração da delegação restrita de Kerberos descritas neste artigo são as mesmas da configuração (elas são simplesmente aplicadas com base na SID do serviço, em vez da conta de domínio).
@@ -196,7 +196,7 @@ Após concluir todas as etapas de configuração descritas neste artigo, você p
 Essa configuração funcionará na maioria dos casos. No entanto, dependendo do ambiente, pode haver configurações diferentes com o Kerberos. Se ainda não for possível carregar o relatório, você precisará contatar o administrador de domínio para investigar o caso.
 
 ## <a name="switching-the-gateway-to-a-domain-account"></a>Mudando o gateway para uma conta de domínio
-Neste artigo, abordaremos como mudar o gateway de uma conta de serviço local para ser executado como uma conta de domínio usando a interface do usuário do **gateway de dados local**. Veja abaixo as etapas necessárias para fazer isso.
+Neste artigo, discutimos como mudar o gateway de uma conta de serviço local para ser executada como uma conta de domínio usando a interface do usuário do **Gateway de dados local**. Veja abaixo as etapas necessárias para fazer isso.
 
 1. Inicie a ferramenta de configuração do **gateway de dados local**.
    
@@ -208,7 +208,7 @@ Neste artigo, abordaremos como mudar o gateway de uma conta de serviço local pa
    ![](media/service-gateway-kerberos-for-sso-pbi-to-on-premises-data/kerberos-sso-on-prem_11.png)
 
 ## <a name="next-steps"></a>Próximas etapas
-Para obter mais informações sobre o **gateway de dados local** e o **DirectQuery**, confira os seguintes recursos:
+Para obter mais informações sobre o **Gateway de dados local** e o **DirectQuery**, confira os seguintes recursos:
 
 * [Gateway de dados local](service-gateway-onprem.md)
 * [DirectQuery no Power BI](desktop-directquery-about.md)

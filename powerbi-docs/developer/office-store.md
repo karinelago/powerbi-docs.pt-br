@@ -1,27 +1,27 @@
 ---
 title: Publicar visuais personalizados no AppSource
-description: "Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo."
+description: Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/5/2017
+ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 5dc5cda126943bbb6da25e384b789c169187b249
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 9730f92a7f50e2e0d0ad824f8a5f74f6a09ded97
+ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/04/2018
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo. Office
@@ -39,7 +39,7 @@ Após terminar de codificar e testar seu visual personalizado e o empacotado em 
 | --- | --- | --- |
 | O pacote pbiviz contém todos os metadados necessários |Sim |Nome do visual<br>Nome de exibição<br>GUID<br>Versão<br>Descrição<br>Email e nome do autor |
 | Arquivo de relatório .pbix de exemplo |Sim |Para demonstrar seu visual, você deverá ajudar os usuários a se familiarizarem com ele. Você deve enfatizar o valor que o visual traz para o usuário e dar exemplos de uso, opções de formatação, etc. Você também pode adicionar uma página de *"dicas"* no final com algumas dicas e truques, coisas a serem evitadas e assim por diante.<br>O arquivo de relatório .pbix de exemplo deve trabalhar offline, sem nenhuma conexão externa |
-| Ícone |Sim |Você deve incluir o logotipo visual personalizado que será exibido na frente da loja. O formato pode ser .png, .jpg, .jpeg ou .gif. Ele deve ter exatamente 300px (largura) x 300px (altura). O tamanho do arquivo não deve exceder 512kb. |
+| Ícone |Sim |Você deve incluir o logotipo visual personalizado que será exibido na frente da loja. O formato pode ser .png, .jpg, .jpeg ou .gif. Ele deve ter exatamente 300px (largura) x 300px (altura). **Importante!** Examine o [guia curto](https://docs.microsoft.com/en-us/office/dev/store/craft-effective-appsource-store-images) com atenção antes de enviar o ícone. |
 | Capturas de tela |Sim |Você deve fornecer, pelo menos, uma captura de tela. O formato pode ser .png, .jpg, .jpeg ou .gif. Deve ter exatamente 1366px (largura) x 768px (altura). O tamanho do arquivo não deve exceder 1024kb. *Para melhor utilização, adicione bolhas de texto para articular a proposição de valores dos principais recursos mostrados em cada captura de tela.* |
 | Link de download de suporte |Sim |Forneça a URL para dar suporte a clientes que têm problemas com seu visual. O formato da URL deve incluir https:// ou http://. |
 | Link do documento de privacidade |Sim |Forneça um link para a política de privacidade para clientes que usam o visual. O formato do link deve incluir https:// ou http://. |
@@ -49,6 +49,10 @@ Após terminar de codificar e testar seu visual personalizado e o empacotado em 
 
 ## <a name="submitting-to-power-bi"></a>Envio para o Power BI
 O envio é iniciado com um email para a equipe de envio de visuais personalizados do Power BI. Você pode enviar um email para [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+
+> [!IMPORTANT]
+> Você deve preencher os campos a seguir no arquivo pbiviz.json: "description", "supportUrl", "author", "name" e "email" antes de criar o pacote .pbiviz.
+> 
 
 Anexe o arquivo .pbiviz e o arquivo .pbix de relatório de exemplo em seu email. A equipe do Power BI responderá com instruções e um arquivo XML do pacote do aplicativo para upload. Esse pacote do aplicativo XML é necessário para enviar seu visual por meio da Central de desenvolvedores do Office.
 

@@ -1,15 +1,15 @@
 ---
-title: "Usando páginas de dica de ferramenta de relatório no Power BI"
-description: "As páginas de dica de ferramenta no Power BI Desktop permitem que você crie dicas de ferramenta sofisticadas que são exibidas ao passar o mouse sobre visuais dos seus relatórios"
+title: Usando páginas de dica de ferramenta de relatório no Power BI
+description: As páginas de dica de ferramenta no Power BI Desktop permitem que você crie dicas de ferramenta sofisticadas que são exibidas ao passar o mouse sobre visuais dos seus relatórios
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,23 +18,23 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2905dbc51e684ec39ac36a76c7024db0fe15cc18
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Criar dicas de ferramenta com base nas páginas de relatório no Power BI Desktop (versão prévia)
 Você pode criar **dicas de ferramentas de relatório** visualmente sofisticadas que aparecem ao passar o mouse sobre visuais, com base nas páginas de relatório que você cria no **Power BI Desktop**. Ao criar uma página de relatório que sirva como dica de ferramenta, as dicas de ferramenta personalizadas poderão incluir elementos visuais, imagens e qualquer outra coleção de itens que você criar na página de relatório. 
 
 ![Dicas de ferramenta de relatório do Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
 
-Você pode criar tantas páginas de dica de ferramenta quanto desejar. Cada página de dica de ferramenta pode ser associada a um ou mais campos do seu relatório, para que, ao passar o mouse sobre um visual que inclua o campo selecionado, a dica de ferramenta criada em sua página de dica de ferramenta seja exibida, filtrada com base no DataPoint sobre o qual o mouse está passando. 
+Você pode criar tantas páginas de dica de ferramenta quanto desejar. Cada página de dica de ferramenta pode ser associada a um ou mais campos do seu relatório, para que, ao passar o mouse sobre um visual que inclua o campo selecionado, a dica de ferramenta criada em sua página de dica de ferramenta é exibida, filtrada com base no ponto de dados sobre o qual o mouse está passando. 
 
 Há inúmeras coisas interessantes que você pode fazer com dicas de ferramentas de relatório. Vamos ver como criar dicas de ferramenta e o que você deve fazer para configurá-las.
 
 ### <a name="enable-the-tooltips-preview"></a>Habilitar a versão prévia das dicas de ferramenta 
-Como as dicas de ferramentas de relatório estão atualmente em versão prévia, antes de criá-las é necessário habilitá-las. Para habilitar o recurso das dicas de ferramentas de relatório, que está em versão prévia, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Versão Prévia** no Power BI Desktop e, em seguida, marque a caixa de seleção ao lado de **Indicadores**. 
+Como as dicas de ferramentas de relatório estão atualmente em versão prévia, antes de criá-las é necessário habilitá-las. Para habilitar o recurso das dicas de ferramentas de relatório, que está em versão prévia, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Visualização** no Power BI Desktop e, em seguida, marque a caixa de seleção ao lado de **Dicas de ferramenta de página de relatório**. 
 
 ![Habilitar o recurso em versão prévia das dicas de ferramentas de relatório](media/desktop-tooltips/desktop-tooltips_01.png)
 

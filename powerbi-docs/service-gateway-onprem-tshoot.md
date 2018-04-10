@@ -1,28 +1,28 @@
 ---
-title: "Solução de problemas do gateway de dados local"
-description: "Este artigo fornece maneiras de solucionar problemas com o gateway de dados local. Apresenta as possíveis soluções alternativas para problemas conhecidos, bem como ferramentas para ajudá-lo."
+title: Solução de problemas do gateway de dados local
+description: Este artigo fornece maneiras de solucionar problemas com o gateway de dados local. Apresenta as possíveis soluções alternativas para problemas conhecidos, bem como ferramentas para ajudá-lo.
 services: powerbi
-documentationcenter: 
-author: davidiseminger
+documentationcenter: ''
+author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: powerbi
-ms.date: 11/21/2017
-ms.author: davidi
+ms.date: 03/23/2018
+ms.author: maghan
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1651f18194cd47582376b52bb6359db10a330c27
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9742fd0d48f4a77b5019aa7547fa511404c6f63e
+ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/03/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solução de problemas do gateway de dados local
 Este artigo aborda alguns problemas comuns que você poderá encontrar ao usar o **gateway de dados local**.
@@ -78,14 +78,14 @@ Para corrigir esse problema, faça o seguinte:
 1. Desinstale o gateway.
 2. Exclua a seguinte pasta:
    
-        c:\Program Files\on-premises data gateway
+        c:\Program Files\On-premises data gateway
 3. Reinstale o gateway.
 4. Se preferir, aplique a chave de recuperação para restaurar um gateway existente.
 
 ### <a name="support-for-tls-1112"></a>Suporte para TLS 1.1/1.2
-Com a atualização de agosto de 2017 e as posteriores, o gateway de dados local usa o protocolo TLS 1.1 ou 1.2 para comunicar-se com o **serviço do Power BI** por padrão. As versões anteriores do gateway de dados local usam o TLS 1.0 por padrão. Em 1º de novembro de 2017, o suporte para o TLS 1.0 será encerrado. Por isso, você deverá atualizar as instalações do gateway de dados local para a versão de agosto de 2017 ou mais recente para garantir que os gateways continuem a funcionar.
+Com a atualização de agosto de 2017 e as posteriores, o gateway de dados locais usa o protocolo TLS 1.1 ou 1.2 para se comunicar com o **serviço do Power BI** por padrão. As versões anteriores do gateway de dados locais usam o TLS 1.0 por padrão. Em 1º de novembro de 2017, o suporte para o TLS 1.0 será encerrado e, portanto, você deverá atualizar as instalações do gateway de dados locais para a versão de agosto de 2017 ou mais recente para garantir que seus gateways continuem a operar.
 
-É importante observar que o TLS 1.0 ainda é compatível com o gateway de dados local antes de 1º de novembro e é usado pelo gateway como um mecanismo de fallback. Para garantir que todo o tráfego de gateway use o TLS 1.1 ou 1.2 (e evite o uso do TLS 1.0 no gateway), você deverá adicionar ou modificar as seguintes chaves do registro no computador que executa o serviço de gateway:
+É importante observar que o TLS 1.0 ainda recebe suporte pelo gateway de dados local anterior a 1º de novembro e é usado pelo gateway como um mecanismo de fallback. Para garantir que todo o tráfego de gateway use o TLS 1.1 ou 1.2 (e evite o uso do TLS 1.0 no gateway), você deverá adicionar ou modificar as seguintes chaves do registro no computador que executa o serviço de gateway:
 
         [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
         [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
@@ -314,11 +314,13 @@ from [dbo].[V_CustomerOrders] as [$Table])
 GROUP BY [t0].[ProductCategoryName],[t0].[FiscalYear] </pi>"
 ```
 
-### <a name="microsoftpowerbidatamovementpipelinegatewaycoredllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config
-No arquivo *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, altere o valor de `TraceVerbosity` de `4` para `5`. Este arquivo está localizado, por padrão, em *C:\Arquivos de Programas\Gateway de dados local*. A alteração dessa configuração começará a registrar entradas detalhadas no log de gateway. Isso inclui entradas que mostram a duração.
+### <a name="microsoftpowerbidatamovementpipelinediagnosticsdllconfig"></a>Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config
+No arquivo *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, altere o valor de `TracingVerbosity` de `4` para `5`. Este arquivo está localizado, por padrão, em *C:\Arquivos de Programas\Gateway de dados local*. A alteração dessa configuração começará a registrar entradas detalhadas no log de gateway. Isso inclui entradas que mostram a duração. Você também pode habilitar entradas detalhadas permitindo que o botão "Registro de Log Adicional" no aplicativo Gateway local.
+
+   ![log adicional](media/service-gateway-onprem-tshoot/additional-logging.png)
 
 > [!IMPORTANT]
-> Habilitar o TraceVerbosity para `5` pode aumentar o tamanho do log significativamente, dependendo do uso do gateway. Depois de examinar os logs, você poderá definir TraceVerbosity como `4`. Não é recomendável deixar esta configuração habilitada a longo prazo.
+> Habilitar o TracingVerbosity para `5` pode aumentar o tamanho do log significativamente, dependendo do uso do gateway. Depois de examinar os logs, você poderá definir TraceVerbosity como `4`. Não é recomendável deixar esta configuração habilitada a longo prazo.
 > 
 > 
 
@@ -352,6 +354,72 @@ Para determinar o tempo necessário para consultar a fonte de dados, você pode 
    > 
    > 
 
+## <a name="kerberos"></a>Kerberos
+
+Se o servidor de banco de dados subjacente e o gateway de dados local não estiverem configurados corretamente para [Delegação Restrita de Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), habilite o [log detalhado](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) no gateway e investigue com base no erros/rastreamentos em arquivos de log do gateway como um ponto de partida para solução de problemas.
+
+### <a name="impersonationlevel"></a>ImpersonationLevel
+
+O ImpersonationLevel está relacionado à configuração de SPN ou à configuração de política local.
+
+```
+[DataMovement.PipeLine.GatewayDataAccess] About to impersonate user DOMAIN\User (IsAuthenticated: True, ImpersonationLevel: Identification)
+```
+
+**Solução**
+
+Execute estas etapas para resolver o problema:
+1. Configurar um SPN para o gateway local
+2. Configurar a delegação restrita em seu Active Directory (AD)
+
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: falha ao criar a identidade do Windows para a userid do usuário
+
+O FailedToImpersonateUserException ocorrerá se você não puder representar em nome de outro usuário. Isso também pode ocorrer se a conta que você está tentando representar for de um domínio diferente do domínio no qual o domínio do serviço de gateway está (isso é uma limitação).
+
+**Solução**
+* Verifique se a configuração está correta de acordo com as etapas na seção ImpersonationLevel acima
+* Verifique se a userid que ele está tentando representar é de uma conta válida do AD
+
+### <a name="general-error-1033-error-while-parsing-protocol"></a>Erro geral; erro 1033 durante a análise do protocolo
+
+Você receberá o erro 1033 quando sua Id externa que estiver configurada no SAP HANA não corresponder ao logon, se o usuário for representado usando o UPN (alias@domain.com). Nos logs, você verá o "UPN Original 'alias@domain.com' substituído por um novo UPN 'alias@domain.com' na parte superior dos logs de erro, conforme mostrado abaixo".
+
+```
+[DM.GatewayCore] SingleSignOn Required. Original UPN 'alias@domain.com' replaced with new UPN 'alias@domain.com'.
+```
+
+**Solução**
+* O SAP HANA exige que o usuário representado use o atributo sAMAccountName no AD (alias do usuário). Se não estiver correto, você verá o erro 1033.
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount.png)
+
+* Nos logs, você deve ver sAMAccountName (alias) e não o UPN, o que é o alias seguido pelo domínio (alias@doimain.com)
+
+    ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
+
+```
+      <setting name="ADUserNameReplacementProperty" serializeAs="String">
+        <value>sAMAccount</value>
+      </setting>
+      <setting name="ADServerPath" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="CustomASDataSource" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADUserNameLookupProperty" serializeAs="String">
+        <value>AADEmail</value>
+```
+
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG] [LIBODBCHDB DLL] [HDBODBC] Falha do link de comunicação; –10709 Falha de conexão (RTE:[-1] erro de Kerberos. Principal: "Falha diversa [851968]", secundária: "Nenhuma credencial disponível no pacote de segurança
+
+Você receberá a mensagem de erro –10709 Falha de conexão se a delegação não estiver configurada corretamente no AD.
+
+**Solução**
+* Certifique-se de que você tenha o servidor SAP Hana na guia Delegação no AD para a conta de serviço do gateway
+
+   ![guia Delegação](media/service-gateway-onprem-tshoot/delegation-in-AD.png)
+
 <!-- Shared Troubleshooting tools Include -->
 [!INCLUDE [gateway-onprem-tshoot-tools-include](./includes/gateway-onprem-tshoot-tools-include.md)]
 
@@ -378,4 +446,3 @@ Para obter informações adicionais sobre como solucionar problemas de cenários
 [Gerenciar sua fonte de dados – SQL Server](service-gateway-enterprise-manage-sql.md)  
 [Gerenciar sua fonte de dados – Importar/Atualização agendada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-

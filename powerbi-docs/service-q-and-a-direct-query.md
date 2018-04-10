@@ -1,15 +1,15 @@
 ---
-title: "Usando P e R com conexões dinâmicas"
-description: "Documentação para uso de consultas em idioma natural de P e R do Power BI com conexões dinâmicas aos dados do Analysis Services e ao gateway de dados local."
+title: Usando P e R com conexões dinâmicas
+description: Documentação para uso de consultas em linguagem natural de P e R do Power BI com conexões dinâmicas para dados do Analysis Services e o gateway de dados local.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
 backup: mihart
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7c33e1d3719b30569996425ed247c1eac87b78f1
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: c6fa26d85d362af0d66276509f4e52ba718d338a
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitar P e R para conexões dinâmicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados local?  O que é uma conexão dinâmica?
@@ -63,7 +63,7 @@ Durante a fase de Visualização deste recurso, existem várias limitações:
 
 * Inicialmente, o recurso só está disponível para fontes de dados tabulares do SQL Server 2016 Analysis Services. O recurso é otimizado para funcionar com dados de tabela. Algumas funcionalidades estão disponíveis para fontes de dados multidimensionais, mas ainda não há suporte para a experiência completa de P e R para dados multidimensionais. Fontes de dados adicionais compatíveis com o gateway de dados local serão distribuídas ao longo do tempo.
 * O suporte completo para a segurança em nível de linha definida no SQL Server Analysis Services não está disponível inicialmente na visualização pública. Ao fazer perguntas na P e R, o “preenchimento automático” de perguntas durante a digitação pode mostrar valores de cadeia de caracteres aos quais um usuário não tem acesso. No entanto, a RLS definida no modelo é respeitada em relação a visuais de relatório e de gráfico e, portanto, nenhum dado numérico subjacente pode ser exposto. Opções para controlar esse comportamento serão lançadas em atualizações futuras.
-* As conexões dinâmicas são compatíveis somente com o gateway de dados local. Sendo assim, elas não podem ser usadas com o gateway pessoal.
+* Há suporte para as conexões dinâmicas somente com o Gateway de dados local. Sendo assim, elas não podem ser usadas com o gateway pessoal.
 
 ## <a name="next-steps"></a>Próximas etapas
 [Gateway de dados local](service-gateway-onprem.md)  

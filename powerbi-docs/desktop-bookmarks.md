@@ -1,15 +1,15 @@
 ---
 title: Usando indicadores no Power BI
-description: "Os indicadores no Power BI Desktop permitem a você salvar exibições e configurações em seus relatórios, bem como criar apresentações em formato de histórias"
+description: Os indicadores no Power BI Desktop permitem a você salvar exibições e configurações em seus relatórios, bem como criar apresentações em formato de histórias
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 706662e9fd7c6bd41015b286a7b7f1025e40a15e
-ms.sourcegitcommit: 85d18d9f11a4ce4d4ed65e4544d13da6c2d9b1d4
+ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI 
-Usando **indicadores** no Power BI, você pode capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, bastando selecionar esse indicador salvo. 
+Os **indicadores** no Power BI ajudam você a capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, apenas selecionando esse indicador salvo. 
 
 Você também pode criar uma coleção de indicadores, organizá-los na ordem desejada e, posteriormente, percorrer cada indicador em uma apresentação para realçar uma série de insights ou a história que você deseja contar com seus relatórios e visuais. 
 
@@ -63,7 +63,7 @@ Configure uma página de relatório da maneira que você deseja que ela seja exi
 
 ![Adicionar um indicador](media/desktop-bookmarks/bookmarks_04.png)
 
-O **Power BI Desktop** cria um indicador e concede a ele um nome genérico. Você pode facilmente *renomear* um indicador, *excluí-lo* ou *atualizá-lo* selecionando as reticências ao lado do nome do indicador e, em seguida, selecionando uma ação no menu que é exibido.
+O **Power BI Desktop** cria um indicador e concede a ele um nome genérico. Você pode facilmente *renomear*, *excluir* ou *atualizar* um indicador selecionando as reticências ao lado do nome do indicador e, em seguida, selecionando uma ação no menu que é exibido.
 
 ![Selecionar o submenu para um indicador usando as reticências](media/desktop-bookmarks/bookmarks_05.png)
 
@@ -72,7 +72,7 @@ Uma vez que um indicador, você pode exibi-lo, simplesmente clicando no indicado
 ## <a name="arranging-bookmarks"></a>Organizando indicadores
 Conforme você cria os indicadores, você pode achar que a ordem em que eles são criados não é necessariamente a mesma em que você gostaria de apresentá-los para o público-alvo. Não há problema, você pode facilmente reorganizar a ordem dos indicadores.
 
-No painel **Indicadores**, basta arrastar e soltar indicadores para alterar ordem deles, conforme mostrado na imagem a seguir. A barra amarela entre indicadores designa o local em que o indicador arrastado será colocado.
+No painel **Indicadores**, basta arrastar e soltar os indicadores para alterar a ordem deles, conforme mostrado na imagem a seguir. A barra amarela entre indicadores designa o local em que o indicador arrastado será colocado.
 
 ![Alterar ordem de indicadores via arrastar e soltar](media/desktop-bookmarks/bookmarks_06.png)
 
@@ -84,12 +84,12 @@ Quando você tem uma coleção de indicadores que você gostaria de apresentar e
 Quando se está no modo **Exibição**, há alguns recursos a observar:
 
 1. O nome do indicador aparece na barra de título de indicador, que aparece na parte inferior da tela.
-2. A barra de título de indicador tem setas que permitem que você mova para o indicador anterior ou para o próximo
-3. Você pode sair do modo **Exibição** selecionando **Sair** no painel **Indicadores** ou então selecionando o **X** encontrado na barra de título de indicador. 
+2. A barra de título de indicador tem setas que permitem que você mova para o indicador anterior ou para o próximo.
+3. Você pode sair do modo de **Exibição** selecionando **Sair** no painel **Indicadores** ou então selecionando o **X** encontrado na barra de título de indicador. 
 
 ![Recursos de indicador da barra de título de indicador](media/desktop-bookmarks/bookmarks_07.png)
 
-Quando se está no modo **Exibição**, é possível fechar o painel **Indicadores** (clicando no X no painel) para fornecer mais espaço para a apresentação. E enquanto se está no modo **Exibição**, todos os visuais são interativos e estão disponíveis para realce cruzado, exatamente como eles seriam ao interagir com eles fora desse modo. 
+Quando se está no modo **Exibição**, é possível fechar o painel **Indicadores** (clicando no X no painel) para fornecer mais espaço para a apresentação. E enquanto se está no modo de **Exibição**, todos os visuais são interativos e estão disponíveis para realce cruzado, exatamente como eles seriam ao interagir com eles fora desse modo. 
 
 ## <a name="visibility---using-the-selection-pane"></a>Visibilidade – usando o painel Seleção
 Com o lançamento dos marcadores, o novo painel **Seleção** também foi apresentado. O painel **Seleção** fornece uma lista de todos os objetos na página atual e permite que você selecione o objeto e especifique se um determinado objeto é visível. 

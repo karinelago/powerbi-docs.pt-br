@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 9161966897811820935c72ac1657ceca58da403a
-ms.sourcegitcommit: 3841bcdb5e664568defe3d6a6e6b8cab3cd7087f
+ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
+ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usar Temas de Relatório no Power BI Desktop (Visualização)
-Com **Temas de Relatório** você pode aplicar um tema de cor ao relatório inteiro, como as cores da empresa, uma coloração sazonal ou qualquer outro tema de cor que você deseje aplicar a um relatório. Quando você aplicar um **Tema de Relatório**, todos os visuais no relatório passarão a usar as cores do tema selecionado (aplicam-se algumas exceções que serão descritas posteriormente neste artigo).
+Com **Temas de Relatório** você pode aplicar um tema de cor ao relatório inteiro, como as cores da empresa, uma coloração sazonal ou qualquer outro tema de cor que você queira aplicar. Quando você aplicar um **Tema de Relatório**, todos os visuais no relatório passarão a usar as cores do tema selecionado (aplicam-se algumas exceções que serão descritas posteriormente neste artigo).
 
 ![](media/desktop-report-themes/report-themes_1.png)
 
@@ -62,7 +62,7 @@ Esse arquivo JSON tem as seguintes linhas necessários:
 
 * **name** – esse é o nome do tema, que é o único campo obrigatório
 * **dataColors** – uma lista de códigos hexadecimais de cores a serem usados para dados nos visuais do Power BI Desktop. A lista pode conter quantas cores forem desejadas
-* **background**, **foreground** e **tableAccent** – esses valores são as cores que devem ser usadas em visuais de **tabela** e **matriz**. A maneira em que essas cores são usadas depende do estilo específico de tabela ou matriz aplicado. Os visuais de **tabela** e de **matriz** aplicam esses estilos por padrão.
+* **background**, **foreground** e **tableAccent** – esses valores são as cores que devem ser usadas em visuais de **tabela** e **matriz**. A maneira como você usa essas cores depende do estilo específico de tabela ou matriz aplicado. Os visuais de **tabela** e de **matriz** aplicam esses estilos por padrão.
 
 Para aplicar um estilo em um visual de **tabela** ou **matriz**, selecione o visual e no painel **Visualizações**, selecione a seção **Formato** e, em seguida, expanda **Estilo da matriz** e selecione um estilo na lista suspensa **Estilo**.
 
@@ -91,7 +91,7 @@ Para obter informações sobre o formato do arquivo JSON detalhado, consulte a s
 ## <a name="how-report-theme-colors-stick-to-your-reports"></a>Como as cores do Tema de Relatório permanecem nos relatórios
 Quando você publica o relatório no **Serviço do Power BI**, as cores do Tema de Relatório permanecem nele.
 
-Além disso, a seção **Cores de dados** do painel **Formato** refletem o Tema de Relatório. Por exemplo, depois de aplicar a variedade de cores verdes e marrons do tema **St. Patrick's Day**, ao selecionar um visual e acessar **Formato > Cores de dados** aparece o seguinte.
+Além disso, a seção **Cores de dados** do painel **Formato** refletem o Tema de Relatório. Por exemplo, depois de aplicar a variedade de cores verdes e marrons do tema **Dia de São Patrício**, ao selecionar um visual e acessar **Formato > Cores de dados** aparece o seguinte.
 
 ![](media/desktop-report-themes/report-themes_8.png)
 
@@ -100,7 +100,7 @@ Viu todo esse verde? Isso ocorre porque essas cores faziam parte do **Tema de Re
 ### <a name="situations-when-report-theme-colors-wont-stick-to-your-reports"></a>Situações em que as cores do Tema de Relatório não permanecerão nos relatórios
 Se você aplicar um conjunto de cores personalizadas (ou uma cor individual) a um ponto de dados específico em um visual, aplicar um Tema de Relatório *não* substituirá essa cor personalizada do ponto dados.
 
-Além disso, se você definir manualmente a cor de um ponto de dados usando a seção Cores do tema da paleta de cores, essas cores *não* serão atualizadas quando você aplicar um novo Tema de Relatório. Para retornar às cores padrão (de modo que elas sejam atualizadas ao aplicar um novo Tema de Relatório), você pode selecionar **Reverter para padrão** na paleta **Cores do tema**.
+Além disso, se você definir manualmente a cor de um ponto de dados usando a seção Cores do tema da paleta de cores, essa cor (ou cores) *não* serão atualizadas quando você aplicar um novo Tema de Relatório. Para retornar às cores padrão (de modo que elas sejam atualizadas ao aplicar um novo Tema de Relatório), você pode selecionar **Reverter para padrão** na paleta **Cores do tema**.
 
 ![](media/desktop-report-themes/report-themes_9.png)
 
