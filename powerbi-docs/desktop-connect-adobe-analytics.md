@@ -1,40 +1,33 @@
 ---
-title: "Conectar-se ao Adobe Analytics no Power BI Desktop (versão prévia)"
+title: Conectar-se ao Adobe Analytics no Power BI Desktop
 description: Conecte-se facilmente e use o Adobe Analytics no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/09/2018
+ms.date: 04/04/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: efd6d066e2f98f86248730917c2f4aa0c8a39983
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: 4488cd373fae22c4494ac697602536496ffc9b00
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/05/2018
 ---
-# <a name="connect-to-adobe-analytics-in-power-bi-desktop-preview"></a>Conectar-se ao Adobe Analytics no Power BI Desktop (versão prévia)
+# <a name="connect-to-adobe-analytics-in-power-bi-desktop"></a>Conectar-se ao Adobe Analytics no Power BI Desktop 
 No **Power BI Desktop**, você pode se conectar ao **Adobe Analytics** e usar os dados subjacentes, assim como em qualquer outra fonte de dados no Power BI Desktop. 
 
 ![Obter dados do Adobe Analytics](media/desktop-connect-adobe-analytics/connect-adobe-analytics_01.png)
-
-## <a name="enable-the-adobe-analytics-connector-preview"></a>Habilitar a versão prévia do conector do Adobe Analytics 
-Como o conector do **Adobe Analytics** está atualmente em versão prévia, você precisa habilitar o recurso de versão prévia para que o conector fique disponível na janela **Obter Dados**. Para habilitar a versão prévia do conector, selecione **Arquivo > Opções e Configurações > Opções > Recursos de Versão Prévia** no Power BI Desktop e, em seguida, marque a caixa de seleção ao lado de **Indicadores**. 
-
-![Habilitar a versão prévia do conector do Adobe Analytics nas Opções](media/desktop-connect-adobe-analytics/connect-adobe-analytics_02.png)
-
-Você precisará reiniciar o **Power BI Desktop** depois de habilitar a versão prévia do conector do Adobe Analytics.
 
 ## <a name="connect-to-adobe-analytics-data"></a>Conectar-se aos dados do Adobe Analytics
 Para se conectar aos dados do **Adobe Analytics**, selecione **Obter Dados** na faixa de opções **Início** no Power BI Desktop. Selecione **Serviços Online** nas categorias à esquerda, e você verá o **Conector do Adobe Analytics**.
