@@ -1,15 +1,15 @@
 ---
-title: "Conectar-se a arquivos no OneDrive para um espaço de trabalho de aplicativo do Power BI"
-description: "Leia sobre como armazenar e se conectar aos seus arquivos de Excel, CSV e do Power BI Desktop no OneDrive para o seu espaço de trabalho de aplicativo do Power BI."
+title: Conectar-se a arquivos no OneDrive para um espaço de trabalho de aplicativo do Power BI
+description: Leia sobre como armazenar e se conectar aos seus arquivos de Excel, CSV e do Power BI Desktop no OneDrive para o seu espaço de trabalho de aplicativo do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

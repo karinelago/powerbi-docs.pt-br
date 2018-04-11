@@ -2,14 +2,14 @@
 title: Como fazer seus dados do Excel funcionarem bem com P e R no Power BI
 description: Como fazer os dados funcionarem bem com P e R no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

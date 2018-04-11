@@ -1,16 +1,16 @@
 ---
 title: Como criar perguntas em destaque para as P e R do Power BI
-description: "Documentação sobre como criar perguntas em destaque para a P e R do Power BI"
+description: Documentação sobre como criar perguntas em destaque para a P e R do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: E1mIAyEXuF4
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

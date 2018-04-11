@@ -1,15 +1,15 @@
 ---
-title: "Gerenciar seu espaço de trabalho de aplicativo no Power BI e no Office 365"
-description: "Os espaços de trabalho de aplicativo no Power BI são uma experiência de colaboração criada com base em grupos do Office 365. Gerencie seus espaços de trabalho de aplicativo no Power BI e também no Office 365."
+title: Gerenciar seu espaço de trabalho de aplicativo no Power BI e no Office 365
+description: Os espaços de trabalho de aplicativo no Power BI são uma experiência de colaboração criada com base em grupos do Office 365. Gerencie seus espaços de trabalho de aplicativo no Power BI e também no Office 365.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

@@ -1,15 +1,15 @@
 ---
-title: "Pacotes de conteúdo organizacional: gerenciar e atualizar"
-description: "Leia sobre gerenciamento, atualização e exclusão de pacotes de conteúdo organizacional no Power BI."
+title: 'Pacotes de conteúdo organizacional: gerenciar e atualizar'
+description: Leia sobre gerenciamento, atualização e exclusão de pacotes de conteúdo organizacional no Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

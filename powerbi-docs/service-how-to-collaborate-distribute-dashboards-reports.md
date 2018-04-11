@@ -1,13 +1,13 @@
 ---
 title: Como devo colaborar e compartilhar no Power BI?
-description: "No Power BI, você pode trabalhar em colaboração e compartilhar painéis, relatórios, blocos e aplicativos de diferentes maneiras. Cada uma tem suas vantagens."
+description: No Power BI, você pode trabalhar em colaboração e compartilhar painéis, relatórios, blocos e aplicativos de diferentes maneiras. Cada uma tem suas vantagens.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: lukaszp
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: monitoring
 qualitydate: 02/28/2017
 ms.service: powerbi

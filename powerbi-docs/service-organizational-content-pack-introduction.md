@@ -1,15 +1,15 @@
 ---
-title: "Introdução aos pacotes de conteúdo organizacional no Power BI"
-description: "Leia sobre o empacotamento de dashboards, relatórios, pastas de trabalho do Excel e conjuntos de dados em pacotes de conteúdo organizacional, que você pode compartilhar com seus colegas de trabalho."
+title: Introdução aos pacotes de conteúdo organizacional no Power BI
+description: Leia sobre o empacotamento de dashboards, relatórios, pastas de trabalho do Excel e conjuntos de dados em pacotes de conteúdo organizacional, que você pode compartilhar com seus colegas de trabalho.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

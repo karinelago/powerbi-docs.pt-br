@@ -1,15 +1,15 @@
 ---
-title: "Pacotes de conteúdo organizacional: acessar e copiar"
-description: "Leia sobre como criar cópias e solucionar os problemas de acesso aos pacotes de conteúdo organizacional no Power BI"
+title: 'Pacotes de conteúdo organizacional: acessar e copiar'
+description: Leia sobre como criar cópias e solucionar os problemas de acesso aos pacotes de conteúdo organizacional no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
 backup: ajayan
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

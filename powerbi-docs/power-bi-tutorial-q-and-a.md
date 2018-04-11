@@ -1,12 +1,12 @@
 ---
-title: "Tutorial – usando perguntas e respostas em um dashboard ou em um relatório"
-description: "Tutorial sobre como usar o Power BI P e r para criar novas visualizações em dashboards e em relatórios."
+title: Tutorial – usando perguntas e respostas em um dashboard ou em um relatório
+description: Tutorial sobre como usar o Power BI P e r para criar novas visualizações em dashboards e em relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

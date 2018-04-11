@@ -1,15 +1,15 @@
 ---
-title: "Início rápido – introdução à P e R do Power BI"
-description: "Início rápido: introdução à P e R no serviço do Power BI usando o exemplo de Análise de Varejo"
+title: Início rápido – introdução à P e R do Power BI
+description: 'Início rápido: introdução à P e R no serviço do Power BI usando o exemplo de Análise de Varejo'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

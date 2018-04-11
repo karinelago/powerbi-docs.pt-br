@@ -1,15 +1,15 @@
 ---
-title: "Visão geral de P e R no serviço do Power BI e Power BI Desktop"
-description: "Tópico de visão geral da documentação para consultas de linguagem naturais de P e R do Power BI."
+title: Visão geral de P e R no serviço do Power BI e Power BI Desktop
+description: Tópico de visão geral da documentação para consultas de linguagem naturais de P e R do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

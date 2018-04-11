@@ -1,14 +1,14 @@
 ---
-title: "Criar e distribuir aplicativos com dashboards e relatórios no Power BI"
-description: "Saiba como criar e publicar aplicativos, que são coleções de dashboards e relatórios compilados para fornecer métricas-chave à sua organização."
+title: Criar e distribuir aplicativos com dashboards e relatórios no Power BI
+description: Saiba como criar e publicar aplicativos, que são coleções de dashboards e relatórios compilados para fornecer métricas-chave à sua organização.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article

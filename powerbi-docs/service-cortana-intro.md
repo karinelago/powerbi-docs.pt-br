@@ -1,11 +1,11 @@
 ---
-title: "Localize e exiba rapidamente seus relatórios e dashboards do Power BI usando a Cortana"
-description: "Use o Cortana com o Power BI para obter respostas de seus dados. Atualmente funciona com dashboards e relatórios."
+title: Localize e exiba rapidamente seus relatórios e dashboards do Power BI usando a Cortana
+description: Use o Cortana com o Power BI para obter respostas de seus dados. Atualmente funciona com dashboards e relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-editor: 
+editor: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
