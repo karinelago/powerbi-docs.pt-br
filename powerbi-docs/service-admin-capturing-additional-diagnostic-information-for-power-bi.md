@@ -28,9 +28,9 @@ ms.lasthandoff: 04/08/2018
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Capturar Informações de Diagnóstico Adicionais para o Power BI
 Estas instruções fornecem duas opções possíveis para coletar manualmente as informações adicionais de diagnóstico do cliente Web Power BI.  Somente uma dessas opções deve ser seguida.
 
-## <a name="network-capture---edge--internet-explorer"></a>Captura de rede – Edge e Internet Explorer
-1. Navegue até [Power BI](https://app.powerbi.com) com o Edge ou Internet Explorer.
-2. Abra as ferramentas de desenvolvedor do Edge pressionando F12.
+## <a name="network-capture---edge--internet-explorer"></a>Captura de rede – Microsoft Edge e Internet Explorer
+1. Navegue até [Power BI](https://app.powerbi.com) com o Microsoft Edge ou Internet Explorer.
+2. Abra as ferramentas de desenvolvedor do Microsoft Edge pressionando F12.
 3. Isso abrirá a janela de Ferramentas de Desenvolvedor: 
    
    ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
