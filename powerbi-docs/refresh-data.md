@@ -131,7 +131,7 @@ Para obter detalhes, veja [Atualizar um conjunto de dados criado com base em um 
 | Power Query* é usada para se conectar e consultar dados de qualquer fonte de dados online listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Não |
 | O Power Query* é usado para carregar dados no modelo de dados do Excel e para conectar-se a e consultar dados de qualquer fonte de dados listada local, exceto o arquivo do Hadoop (HDFS) e o Microsoft Exchange. |Não |Sim |Sim |
 | Power Pivot é usada para se conectar e consultar dados de qualquer fonte de dados online listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Não |
-| Power Pivot* é usada para se conectar e consultar dados de qualquer fonte de dados no local listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Sim |
+| Power Pivot é usada para se conectar e consultar dados de qualquer fonte de dados no local listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Sim |
 
 *\* Power Query é conhecida como Obter & transformar dados no Excel 2016.*
 
