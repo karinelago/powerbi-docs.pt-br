@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: 4faf32419c0b02ceadb495832ed90d312b823773
-ms.sourcegitcommit: c9905e625ba14dc28ad23835f320e49631c51d0f
+ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
+ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/29/2018
+ms.lasthandoff: 04/05/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Inserir um dashboard, bloco ou relatório do Power BI em seu aplicativo para nuvens soberanas
 Saiba como integrar ou inserir um dashboard, um bloco ou relatório em um aplicativo Web usando o SDK do .NET do Power BI, junto com a API JavaScript do Power BI durante a inserção para os clientes. Normalmente, esse é o cenário de ISV.
@@ -30,9 +30,9 @@ O Power BI também dá suporte a nuvens soberanas (privadas). Cada nuvem soberan
 
 * (EUA) GCC (Government Community Cloud)
 
-* (EUA) S. Militares prestadores de serviço (DoDCON)
+* U. S. Militares prestadores de serviço (DoDCON)
 
-* (EUA) S. Militar (DoD)
+* U. S. Militar (DoD)
 
 * Power BI para nuvem da Alemanha
 
@@ -54,7 +54,7 @@ Este artigo mostra o código usado no [exemplo Inserir para seu cliente](https:/
     2. Atualizar clientid (ID de cliente do aplicativo nativo), groupid, usuário (seu usuário mestre) e senha no arquivo Web.config.
     3. Adicione os parâmetros de GCC no arquivo web.config da seguinte maneira.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.usgovcloudapi.net/powerbi/api" />
@@ -69,7 +69,7 @@ Este artigo mostra o código usado no [exemplo Inserir para seu cliente](https:/
     2. Atualizar clientid (ID de cliente do aplicativo nativo), groupid, usuário (seu usuário mestre) e senha no arquivo Web.config.
     3. Adicione os parâmetros de DoDCON no arquivo web.config da seguinte maneira.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://high.analysis.usgovcloudapi.net/powerbi/api" />
@@ -84,7 +84,7 @@ Este artigo mostra o código usado no [exemplo Inserir para seu cliente](https:/
     2. Atualizar clientid (ID de cliente do aplicativo nativo), groupid, usuário (seu usuário mestre) e senha no arquivo Web.config.
     3. Adicione os parâmetros de DoDCON no arquivo web.config da seguinte maneira.
 
-```
+```xml
 <add key="authorityUrl" value="https://login.windows.net/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://mil.analysis.usgovcloudapi.net/powerbi/api" />
@@ -99,7 +99,7 @@ Este artigo mostra o código usado no [exemplo Inserir para seu cliente](https:/
     2. Atualizar clientid (ID de cliente do aplicativo nativo), groupid, usuário (seu usuário mestre) e senha no arquivo Web.config.
     3. Adicione os parâmetros do Power BI para nuvem da Alemanha no arquivo web.config da seguinte maneira.
 
-```
+```xml
 <add key="authorityUrl" value=https://login.microsoftonline.de/common/oauth2/authorize/" />
 
 <add key="resourceUrl" value="https://analysis.cloudapi.de/powerbi/api" />
@@ -142,7 +142,7 @@ Para inserir o conteúdo do Power BI, você precisará realizar algumas tarefas 
 ### <a name="create-the-power-bi-client-with-your-access-token"></a>Criar o Cliente do Power BI com o token de acesso
 Com o token de acesso, crie o objeto de cliente do Power BI que permitirá interagir com as APIs do Power BI. Faça isso encapsulando AccessToken com um objeto *Microsoft.Rest.TokenCredentials*.
 
-```
+```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 using Microsoft.Rest;
 using Microsoft.PowerBI.Api.V2;
@@ -163,7 +163,7 @@ Uma amostra disso está disponível em **Controllers\HomeController.cs** da [amo
 
 **Dashboards**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -176,7 +176,7 @@ Dashboard dashboard = dashboards.Value.FirstOrDefault();
 
 **Bloco**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -197,7 +197,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 **Relatório**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -220,7 +220,7 @@ Isso pressupõe que uma classe seja criada para **EmbedConfig** e **TileEmbedCon
 
 **Dashboard**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -239,7 +239,7 @@ var embedConfig = new EmbedConfig()
 
 **Bloco**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -259,7 +259,7 @@ var embedConfig = new TileEmbedConfig()
 
 **Relatório**
 
-```
+```csharp
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
@@ -282,7 +282,7 @@ Uma amostra de aplicativo disso está disponível na [amostra Inserindo para a o
 
 **Views\Home\EmbedDashboard.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="dashboardContainer"></div>
 <script>
@@ -320,7 +320,7 @@ Uma amostra de aplicativo disso está disponível na [amostra Inserindo para a o
 
 **Views\Home\EmbedTile.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="tileContainer"></div>
 <script>
@@ -362,7 +362,7 @@ Uma amostra de aplicativo disso está disponível na [amostra Inserindo para a o
 
 **Views\Home\EmbedReport.cshtml**
 
-```
+```csharp
 <script src="~/scripts/powerbi.js"></script>
 <div id="reportContainer"></div>
 <script>
