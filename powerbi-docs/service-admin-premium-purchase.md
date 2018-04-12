@@ -1,28 +1,28 @@
 ---
 title: Como comprar o Power BI Premium
-description: "Saiba como é possível gerenciar o Power BI Premium e habilitar o acesso a conteúdo para toda a organização."
+description: Saiba como é possível gerenciar o Power BI Premium e habilitar o acesso a conteúdo para toda a organização.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 10/17/2017
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: d80954599b866ff2f1d03d34a7e8e021d1be215b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e5bf5f4995c628640de2400f1097e89969eded7d
+ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/08/2018
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Como comprar o Power BI Premium
 Saiba como adquirir capacidade do Power BI Premium para sua organização.
@@ -50,7 +50,7 @@ Caso você tenha uma organização, precisará ser um Administrador global ou um
 
 Para adquirir uma capacidade do Premium, será necessário fazer o seguinte.
 
-1. No serviço do Power BI, selecione o **Seletor de aplicativo do Office 365** > **Admin**. Como alternativa, é possível navegar até o Centro de Administração do Office 365. É possível chegar lá acessando https://portal.office.com e selecionando **Admin**.
+1. No serviço do Power BI, selecione o **Seletor de aplicativo do Office 365** > **Admin**. Como alternativa, é possível navegar até o Centro de Administração do Office 365. Para isso, acesse https://portal.office.com e selecione **Administrador**.
    
     ![](media/service-admin-premium-purchase/o365-app-picker.png)
 2. Selecione **Cobrança** > **Serviços de compra**.
