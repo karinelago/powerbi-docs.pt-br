@@ -362,8 +362,6 @@
           href: service-reading-view-and-editing-view.md
         - name: Interagir com um relatório na Exibição de Edição no Power BI
           href: service-interact-with-a-report-in-editing-view.md
-        - name: Dicas e truques para criar relatórios no serviço do Power BI
-          href: power-bi-reports-tips-and-tricks-for-creating.md
         - name: Painel de análise
           href: service-analytics-pane.md
         - name: Métrica de uso para relatórios
@@ -992,6 +990,8 @@
           href: service-custom-visuals-getting-started-with-developer-tools.md
         - name: Obter um visual personalizado certificado
           href: power-bi-custom-visuals-certified.md
+        - name: Publicar visuais personalizados no AppSource
+          href: developer/office-store.md
     - name: Enviar dados por push a um painel
       items:
         - name: Enviar dados por push a um painel
