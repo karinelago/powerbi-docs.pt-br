@@ -1,16 +1,16 @@
 ---
 title: Como fixar um bloco em um painel do Power BI no Excel
-description: "Fixe um bloco em um painel do Power BI do Excel no OneDrive para Empresas. Ficar intervalos, gráficos e tabelas"
+description: Fixe um bloco em um painel do Power BI do Excel no OneDrive para Empresas. Ficar intervalos, gráficos e tabelas
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Fixar um bloco em um painel do Power BI a partir do Excel
 Antes de fixar um bloco da sua pasta de trabalho do Excel, conecte-a ao serviço do Power BI (app.powerbi.com). Essencialmente, conectar uma pasta de trabalho gera uma versão somente leitura vinculada dessa pasta de trabalho no serviço do Power BI e permite fixar intervalos aos dashboards. É possível até fixar uma planilha inteira em um dashboard.  
@@ -41,20 +41,19 @@ Ao escolher **Conectar**, sua pasta de trabalho será exibida no Power BI, exata
 Não é possível editar a pasta de trabalho no Power BI. Mas se precisar fazer algumas alterações, você poderá selecionar o ícone de lápis na guia **Pastas de trabalho** do seu espaço de trabalho e, em seguida, escolher para editar a pasta de trabalho no Excel Online ou abri-la no Excel do seu computador. Todas as alterações feitas são salvas na pasta de trabalho no OneDrive.
 
 1. Carregue sua pasta de trabalho no OneDrive para Empresas.
+
 2. No Power BI, [conecte-se a essa pasta de trabalho](service-excel-workbook-files.md) selecionando **Obter Dados > Arquivos > OneDrive – Business** e navegando até o local onde você salvou o arquivo do Excel. Selecione o arquivo e escolha **Conectar > Conectar**.
 
-   ![Caixa de diálogo OneDrive para Empresas](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![Caixa de diálogo OneDrive para Empresas](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. No Power BI, a pasta de trabalho é adicionada à guia **Pastas de trabalho** do seu espaço de trabalho.  O ícone ![ícone de pasta de trabalho](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica que esta é uma pasta de trabalho do Excel, e um asterisco amarelo indica que ela é nova.
-   
     
-   ![guia pastas de trabalho](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![guia pastas de trabalho](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Abra a pasta de trabalho no Power BI selecionando o nome dela.
 
     As alterações feitas à pasta de trabalho no Power BI não são salvas e não afetam a pasta de trabalho original no OneDrive para Empresas. Se você classificar, filtrar ou alterar os valores no Power BI, essas alterações não poderão ser salvas ou fixadas. Se você precisa fazer alterações que serão salvas, selecione **Editar** do canto superior direito para abri-lo para edição no Excel Online ou Excel. As alterações feitas dessa maneira podem levar alguns minutos para atualizar os blocos nos painéis.
    
-   
-   ![Excel Online no Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Excel Online no Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Fixar um intervalo de células em um dashboard
 Uma maneira de adicionar um novo [bloco de dashboard](service-dashboard-tiles.md) é por meio de uma pasta de trabalho do Excel no Power BI. Os intervalos podem ser fixados de pastas de trabalho do Excel que foram salvas em seu OneDrive para Empresas ou em outra biblioteca de documentos compartilhados pelo grupo. Os intervalos podem conter dados, tabelas, gráficos, Tabelas Dinâmicas, Gráficos Dinâmicos e outras partes do Excel.

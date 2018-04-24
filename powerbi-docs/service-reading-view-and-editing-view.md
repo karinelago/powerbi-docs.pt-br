@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Modo de Exibição de Leitura e Modo de Exibição de Edição em relatórios de serviço do Power BI
 No serviço do Power BI (não o Power BI Desktop), há dois modos para exibir e interagir com relatórios: Modo de Exibição de Leitura e Modo de Exibição de Edição. O modo de exibição de Leitura está disponível para todos os usuários e foi especialmente projetado para *consumidores de dados*, enquanto o modo de exibição de Edição só está disponível para *criadores* e proprietários de relatórios.
@@ -48,7 +48,6 @@ Este gráfico não lista todos os recursos de relatórios do serviço do Power B
 |Tarefa  | Modo de exibição de leitura  | Modo de Exibição de Edição |
 |-------------------------|-------|-------|
 |**Relatórios, como um todo**  |
-||||
 | [Criar ou editar um relatório](service-report-create-new.md) | Não  | Sim |
 | [Compartilhar um relatório](service-share-reports.md)| Sim | Sim e também pode gerenciar permissões, incluindo conceder permissões de *proprietário* a outras pessoas. |
 | [Criar filtros persistentes (permanentes) no nível do visual, de detalhamento, no nível da página e no nível do relatório no painel Filtros](power-bi-report-add-filter.md) | Não  | Sim |
@@ -63,12 +62,10 @@ Este gráfico não lista todos os recursos de relatórios do serviço do Power B
 | [Salvar um relatório](service-report-save.md) | Sim, mas apenas com **Salvar como**. | Sim |
 | [Excluir um relatório](service-delete.md) | Não  | Sim |
 |**Páginas de relatório** |
-||||
 | [Adicionar ou renomear uma página de relatório](power-bi-report-add-page.md)  | Não  | Sim  |
 | [Duplicar uma página de relatório](power-bi-report-copy-paste-page.md) | Não  | Sim |
 | [Excluir página de relatório](service-delete.md) | não | sim |
 |**Trabalhando com visualizações de relatório**|
-||||
 | [Adicionar visualizações a um relatório](power-bi-report-add-visualizations-i.md) | Não  | Sim |
 | [Adicionar caixas de texto e formas a um relatório](power-bi-reports-add-text-and-shapes.md) | Não  | Sim |
 | [Usar o painel Formatação do relatório](service-the-report-editor-take-a-tour.md) | Não | Sim |

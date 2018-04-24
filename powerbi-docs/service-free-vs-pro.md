@@ -1,28 +1,28 @@
 ---
 title: Power BI Gratuito versus Pro
-description: "Qualquer usuário no Power BI é Gratuito ou Pro. É útil entender as diferenças entre esses dois tipos de usuários."
+description: Qualquer usuário no Power BI é Gratuito ou Pro. É útil entender as diferenças entre esses dois tipos de usuários.
 services: powerbi
-documentationcenter: 
-author: markingmyname
+documentationcenter: ''
+author: mgblythe
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 02/13/2018
-ms.author: maghan
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 0d6282f1b0e89fbe1deb4fbea6a578b831fafd98
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9fff53ffca1e863603467549e2e5495ffbfaf0cf
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="power-bi-free-vs-pro"></a>Power BI Gratuito versus Pro
 Qualquer usuário no Power BI é Gratuito ou Pro. É útil entender as diferenças entre esses dois tipos de usuários.

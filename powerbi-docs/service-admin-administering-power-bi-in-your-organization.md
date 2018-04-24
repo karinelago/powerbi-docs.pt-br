@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administrando o Power BI em sua organização
 Microsoft Power BI permite aos usuários visualizar dados, compartilhar descobertas e colaborar de novas maneiras intuitivas. Para saber mais, consulte [Introdução ao Power BI](service-get-started.md).
@@ -185,8 +185,6 @@ Para executar as etapas a seguir, você deverá instalar a última versão de 64
 Se sua organização já tiver um ambiente existente do Office 365, e todos os usuários na organização tiverem contas do Office 365, o gerenciamento de identidades não mudará.
 
 Se sua organização já tiver um ambiente existente do Office 365, mas nem todos os usuários na organização tiverem contas do Office 365, criaremos um usuário no locatário e atribuiremos licenças com base no endereço de email do trabalho ou da escola do usuário. Isso significa que o número de usuários que você está gerenciando em qualquer momento específico crescerá conforme os usuários em sua organização se inscreverem no serviço.
-
-Se você estiver gerenciando seu diretório local e usar o AD FS (Serviços de Federação do Active Directory), a Microsoft não adicionará usuários a seu locatário, e os usuários que tentarem ingressar no locatário receberão uma mensagem para contatar o administrador da organização.
 
 Se sua organização não tiver um ambiente do Office 365 conectado a seu domínio de email, não haverá modificações em como você gerencia identidades. Usuários serão adicionados a um novo diretório de usuário somente em nuvem e você terá a opção de assumir o controle como administrador do locatário e gerenciá-los.
 

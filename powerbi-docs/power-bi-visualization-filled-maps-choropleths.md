@@ -1,29 +1,29 @@
 ---
-title: "Mapas preenchidos (coropléticos) no Power BI (tutorial)"
-description: "Documentação – tutorial sobre como criar Mapas Coropléticos no Power BI"
+title: Mapas preenchidos (coropléticos) no Power BI (tutorial)
+description: Documentação – tutorial sobre como criar Mapas Coropléticos no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b0d4e1cd766cf5f1b35b5d0a6ca0946820efe9f3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a6cddcf361072bdd265a94de9efd5dbc7ecf05c8
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="filled-maps-choropleths-in-power-bi-tutorial"></a>Mapas preenchidos (coropléticos) no Power BI (tutorial)
 Um mapa coroplético usa sombreamento ou tonalidade ou padrões para exibir como um valor difere na proporção em uma localização geográfica ou região.  Exiba rapidamente essas diferenças relativas com sombreamento que varia de claro (menos frequente/inferior) para escuro (mais frequente/mais).    

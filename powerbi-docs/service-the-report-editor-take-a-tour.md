@@ -1,29 +1,29 @@
 ---
-title: "Início rápido – O editor de relatório... Faça um tour"
-description: "O editor de relatório... Faça um tour"
+title: Início rápido – O editor de relatório... Faça um tour
+description: O editor de relatório... Faça um tour
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>O editor de relatório... Faça um tour
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Editar relatórios no serviço Power BI e Power BI Desktop
@@ -56,7 +56,6 @@ O conteúdo exibido no editor de relatório varia de acordo com as seleções fe
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>A parte superior do painel Visualização identifica o tipo de visual em uso. Neste exemplo, trata-se de um Gráfico de coluna clusterizado.<br><br></li> <li>A parte inferior do painel Visualização (talvez você precise rolar para baixo) exibe os campos usados no visual. Este gráfico está usando FiscalMonth, DistrictManager e Variância total de vendas. <br><br></li><li>O painel Filtros (talvez você precise rolar para baixo) exibe todos os filtros que foram aplicados. <br><br></li><li>O painel Campos lista as tabelas disponíveis e, se você expandir o nome de uma tabela, os campos que compõem essa tabela. A fonte amarela informa que pelo menos um campo da tabela está sendo usado na visualização.<br><br></li><li>![ícone de rolo de tinta](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para exibir o painel de formatação, para a visualização selecionada, selecione o ícone de rolo de tinta.<br><br></li><li>![ícone de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para exibir o painel Análise, selecione o ícone de lupa.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>O painel Visualizações (da parte superior para a inferior)
 ![parte superior do painel Visualização](media/service-the-report-editor-take-a-tour/selectviz.png)
