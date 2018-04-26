@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1e82ec988389790a3d96cb6f98f0db5d1a385fda
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conectar-se ao Azure Consumption Insights no Power BI Desktop (Beta)
 Com o conector do **Azure Consumption Insights**, você pode usar o **Power BI Desktop** para se conectar ao Azure e obter dados e informações detalhadas sobre o uso de serviços do Azure por sua organização. Você também pode criar medidas, colunas personalizadas e visuais para relatar e compartilhar sobre o uso do Azure por sua organização. Esta versão do conector do **Azure Consumption and Insights** está na versão Beta e está sujeita a alterações.
@@ -151,7 +151,7 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 
 | Conector do ACI/ColumnName do ContentPack | Nome da Coluna de API do ACI | Nome da Coluna do EA | Obsoleto/presente para compatibilidade com versões anteriores |
 | --- | --- | --- | --- |
-| AccountName |accountName |Nome da Conta |Não |
+| AccountName |accountName |Nome da conta |Não |
 | AccountId |accountId | |Sim |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |Não |
 | AdditionalInfo |additionalInfo |AdditionalInfo |Não |
@@ -161,7 +161,7 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 | ConsumedServiceId |consumedServiceId | |Sim |
 | Custo |cost |ExtendedCost |Não |
 | Centro de Custo |costCenter |Centro de Custo |Não |
-| Data |date |Data |Não |
+| Data |data |Data |Não |
 | Dia | |Dia |Não |
 | DepartmentName |departmentName |Nome do Departamento |Não |
 | DepartmentID |departmentId | |Sim |
@@ -177,7 +177,7 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 | Mês | |Mês |Não |
 | Produto |product |Produto |Não |
 | ProductId |productId | |Sim |
-| Grupo de Recursos |resourceGroup |Grupo de Recursos |Não |
+| Grupo de recursos |resourceGroup |Grupo de recursos |Não |
 | Local do Recurso |resourceLocation |Local do Recurso |Não |
 | ResourceGroupId | | |Sim |
 | ResourceLocationId |resourceLocationId | |Sim |
@@ -189,7 +189,7 @@ As colunas e os nomes dos detalhes no Portal do Azure são semelhantes na API e 
 | ServiceInfo2Id | | |Sim |
 | Identificador de Serviço de Repositório |storeServiceIdentifier |Identificador de Serviço de Repositório |Não |
 | StoreServiceIdentifierId | | |Sim |
-| Nome da Assinatura |subscriptionName |Nome da Assinatura |Não |
+| Nome da assinatura |subscriptionName |Nome da assinatura |Não |
 | Marcas |tags |Marcas |Não |
 | TagsId | | |Sim |
 | Unidade de Medida |unitOfMeasure |Unidade de Medida |Não |
