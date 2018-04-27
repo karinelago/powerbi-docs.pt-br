@@ -122,7 +122,7 @@
           href: service-connect-to-application-insights.md
         - name: AT Internet Bridge
           href: service-connect-to-at-internet.md
-        - name: Engajamento Móvel do Azure
+        - name: Azure Mobile Engagement
           href: service-connect-to-azure-mobile.md
         - name: Microsoft Azure Consumption Insights
           href: service-connect-to-azure-consumption-insights.md
@@ -130,7 +130,7 @@
           href: service-connect-to-azure-search.md
         - name: Bing
           href: service-connect-to-bing.md
-        - name: ID de Circuito
+        - name: ID de circuito
           href: service-connect-to-circuit-id.md
         - name: ClickDimensions
           href: service-connect-to-clickdimensions.md
@@ -180,7 +180,7 @@
           href: service-connect-to-smartsheet.md
         - name: SparkPost
           href: service-connect-to-sparkpost.md
-        - name: Auditoria do banco de dados SQL
+        - name: Auditoria do Banco de Dados SQL
           href: service-connect-to-azure-sql-database-auditing.md
         - name: SQL Sentry
           href: service-connect-to-sql-sentry.md
@@ -264,7 +264,7 @@
           href: service-data-classification.md
     - name: Fazer perguntas sobre seus dados
       items:
-        - name: Visão Geral
+        - name: Visão geral
           items:
             - name: P e R no Power BI
               href: power-bi-q-and-a.md
@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Solução de problemas
       items:
-        - name: Solucionar problemas de importação de bancos de dados do Access e planilhas do Excel no Power BI Desktop e no Power Query
-          href: desktop-access-database-errors.md
+        - name: Resolver problemas durante o logon no Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Solucionar problemas ao iniciar o Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: Solucionar problemas de importação de bancos de dados do Access e planilhas do Excel no Power BI Desktop e no Power Query
+          href: desktop-access-database-errors.md
 - name: Aplicativos Móveis Power BI
   items:
     - name: Introdução
@@ -938,7 +940,7 @@
           href: mobile-windows-10-app-presentation-mode.md
 - name: Desenvolvedores do Power BI
   items:
-    - name: Visão Geral
+    - name: Visão geral
       items:
         - name: O que os desenvolvedores podem fazer com o Power BI?
           href: developer/what-can-you-do.md
@@ -1042,7 +1044,7 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848281'
 - name: Servidor de Relatório do Power BI
   items:
-    - name: Visão Geral
+    - name: Visão geral
       items:
         - name: Introdução
           href: report-server/get-started.md
@@ -1054,7 +1056,7 @@
           href: report-server/support-timeline.md
     - name: Manual do usuário
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: report-server/user-handbook-overview.md
         - name: Navegando conteúdo
           href: report-server/getting-around.md
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: Trabalhando com KPIs
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Fontes de dados para as quais há suporte
+        - name: Fontes de dados de relatório do Power BI (.pbix)
           href: report-server/data-sources.md
-        - name: Conectar-se a fontes de dados
+        - name: Fontes de dados de relatório paginado (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'Acessando conjuntos de dados compartilhados como feeds OData '
           href: report-server/access-dataset-odata.md
@@ -1090,7 +1092,7 @@
           href: report-server/scheduled-refresh-troubleshoot.md
     - name: Manual do administrador
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: report-server/admin-handbook-overview.md
         - name: Requisitos de software e hardware
           href: report-server/system-requirements.md
@@ -1116,7 +1118,7 @@
           href: report-server/excel-oos.md
     - name: Manual do desenvolvedor
       items:
-        - name: Visão Geral
+        - name: Visão geral
           href: report-server/developer-handbook-overview.md
         - name: Controle do visualizador de relatórios
           href: 'https://go.microsoft.com/fwlink/?linkid=848724'
