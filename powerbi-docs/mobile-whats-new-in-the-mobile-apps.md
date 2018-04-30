@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -29,6 +29,17 @@ Para informações sobre “Novidades” relacionadas, consulte:
 * [Blog da equipe do Power BI para os aplicativos móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades no Power BI Desktop](desktop-latest-update.md)  
 * [Novidades no serviço do Power BI](service-whats-new.md)  
+
+## <a name="april-2018"></a>Abril de 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Fazer drill down e fazer drill up móvel
+
+Agora você pode fazer drill down e drill up para se aprofundar em elementos visuais de relatório em seu dispositivo móvel. Para acessar esse novo recurso, toque e segure para abrir o menu de dica de ferramenta em um visual do relatório e toque nos botões de análise para explorar seus dados em profundidade.
+
+### <a name="persistent-filters"></a>Filtros persistentes
+
+Recentemente atualizamos filtros de relatórios e segmentações de dados, para que eles fossem salvos automaticamente no Power BI na Web para o aplicativo móvel do Power BI. Agora filtros e segmentações de dados que você definir no aplicativo móvel são salvos automaticamente no Power BI na Web.
+
 
 ## <a name="march-2018"></a>Março de 2018
 
@@ -531,6 +542,6 @@ Aprimoramentos nos aplicativos móveis do Power BI, Android, iOS (iPhone e iPad)
 #### <a name="windows"></a>Windows
 * Bloco de mapa aprimorada de renderização no modo em foco para aumentar o espaço na tela.
 * Melhor experiência de usuário ao acessar painéis usando a segurança baseada em função. 
-* Uma nova funcionalidade permite que você navegue para frente e para trás por meio de blocos de painel explorando-os diretamente no modo em foco sem a necessidade de retornar ao painel para selecionar o próximo bloco.
+* Uma nova funcionalidade permite que você navegue para frente e para trás por meio de blocos de painel explorando-os diretamente no modo de foco sem a necessidade de retornar ao painel para selecionar o próximo bloco.
 * Estabilidade adicional e melhorias de desempenho. 
 

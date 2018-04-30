@@ -1,36 +1,36 @@
 ---
-title: "Tutorial – Criar um novo relatório por meio de um conjunto de dados "
-description: "Criar um novo relatório do Power BI com base em um conjunto de dados."
+title: 'Tutorial – Criar um novo relatório por meio de um conjunto de dados '
+description: Criar um novo relatório do Power BI com base em um conjunto de dados.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Criar um novo relatório do Power BI importando um conjunto de dados
-Você já leu [Relatórios no Power BI](service-reports.md) e agora deseja criar o seu próprio relatório. Há muitas maneiras diferentes para criar um relatório e, neste artigo, vamos começar criando um relatório muito básico com base em um conjunto de dados do Excel. Depois de compreender os fundamentos da criação de um relatório, as **Próximas etapas** no final vão direcioná-lo para tópicos mais avançados sobre relatórios.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Criar um novo relatório no serviço do Power BI importando um conjunto de dados
+Você já leu [Relatórios no Power BI](service-reports.md) e agora deseja criar o seu próprio relatório. Há muitas maneiras diferentes para criar um relatório e, neste artigo, vamos começar criando um relatório muito básico com base em um conjunto de dados do Excel usando o serviço do Power BI. Depois de compreender os fundamentos da criação de um relatório, as **Próximas etapas** no final vão direcioná-lo para tópicos mais avançados sobre relatórios.  
 
 > **DICA**: para criar um relatório copiando um relatório existente, consulte [Copiar um relatório](power-bi-report-copy.md)
 > 
 ### <a name="prerequisites"></a>Pré-requisitos
-- Serviço do Power BI (para criar relatórios usando o Power BI Desktop, confira [Exibição de relatório do Desktop](desktop-report-view.md)   
+- Serviço do Power BI (para criar relatórios usando o Power BI Desktop, confira [Exibição de relatório do Desktop](desktop-report-view.md))  
 - Conjunto de dados Exemplo de Análise de Varejo
 
 ## <a name="import-the-dataset"></a>Importar o conjunto de dados

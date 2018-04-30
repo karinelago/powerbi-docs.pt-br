@@ -1,32 +1,32 @@
 ---
-title: "Caixas de texto e formas nos relatórios do Power BI"
-description: "Documentação sobre como adicionar e criar caixas de texto e formas em um relatório usando o serviço do Microsoft Power BI."
+title: Caixas de texto e formas nos relatórios do Power BI
+description: Documentação sobre como adicionar e criar caixas de texto e formas em um relatório usando o serviço do Microsoft Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: _3q6VEBhGew
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8ce10e5d7b0ea2247655a9f93bfc3534086106f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Conteúdo estático nos relatórios do Power BI
-Formas e caixas de texto podem ser adicionadas a relatórios usando o serviço Power BI e o Power BI Desktop. Em ambos os casos, você deve ter permissões de edição para o relatório. Se um relatório tiver sido compartilhado com você, não haverá acesso ao modo de exibição de edição. 
+Formas e caixas de texto podem ser adicionadas a relatórios usando o serviço Power BI e o Power BI Desktop. Em ambos os casos, você deve ter permissões de edição para o relatório. Se um relatório tiver sido compartilhado com você no serviço do Power BI, você não terá permissões de edição. 
 
 Veja como Pedro usa o Power BI Desktop para [adicionar imagens estáticas a um relatório](guided-learning/visualizations.yml#step-11) e, em seguida, siga as etapas abaixo para testá-lo por conta própria usando o serviço Power BI.
 > 

@@ -2,14 +2,14 @@
 title: Ver dados e registros em visuais do Power BI Desktop
 description: Usar os recursos Ver Dados e Ver Registros do Power BI Desktop para analisar os detalhes
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,78 +18,81 @@ ms.workload: powerbi
 ms.date: 02/22/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: c44a5140fe40217aac170abb0b351197803b6299
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 507c2e5e6d9f41e3342019cc8f051dd1e11954cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Use Ver Dados e Ver Registros no Power BI Desktop
-No **Power BI Desktop**, é possível analisar em detalhes qualquer visual e ver uma representação textual dos dados ou dos elementos de dados individuais para um visual selecionado. Esses recursos às vezes são chamados de *clickthrough*, *drill-through* ou *drill-through em detalhes*.
+No **Power BI Desktop**, é possível analisar em detalhes qualquer visualização e ver as representações textuais dos dados subjacentes ou os registros de dados individuais para o visual selecionado. Esses recursos às vezes são chamados de *clickthrough*, *drill-through* ou *drill-through em detalhes*.
 
-É possível usar **Ver Registros** para exibir as linhas subjacentes de um elemento de dados selecionado de um visual ou use **Ver Dados** para exibir uma versão textual dos valores usados no visual. Há algumas limitações para usar **Ver Dados** e **Ver Registros**, discutidas no fim deste artigo.
+É possível usar **Ver Dados** para exibir uma versão textual dos valores usados pela visualização selecionada ou usar **ver Registros** para exibir todos os dados para um registro ou ponto de dados selecionado. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_1.png)
+![Ver dados e Ver relatórios](media/desktop-see-data-see-records/see-data-record.png)
 
-## <a name="using-see-data-in-power-bi-desktop"></a>Usando Ver Dados no Power BI Desktop
-O botão **Ver Dados** está localizado na guia **Dados/Analisar** na seção **Ferramentas Visuais** da faixa de opções.
+>[!IMPORTANT]
+>**Ver Dados** e **Ver Registros** dão suporte apenas aos seguintes tipos de visualização:
+>  - Gráfico de barras
+>  - Gráfico de colunas
+>  - Gráfico de rosca
+>  - Mapa coroplético
+>  - Funil
+>  - Mapear
+>  - Gráfico de pizza
+>  - Mapa de árvore
 
-![](media/desktop-see-data-see-records/see-data-see-records_2.png)
+## <a name="use-see-data-in-power-bi-desktop"></a>Usar Ver Dados no Power BI Desktop
 
-Também é possível **Ver Dados** clicando com o botão direito do mouse em um visual e, em seguida, selecionando **Ver Dados** no menu exibido.
+**Ver Dados** mostra os dados subjacentes a uma visualização. **Ver Dados** aparece na guia **Dados/Analisar** na seção **Ferramentas Visuais** da faixa de opções quando uma visualização está selecionada.
 
-![](media/desktop-see-data-see-records/see-data-see-records_3.png)
+![Ver Dados na faixa de opções](media/desktop-see-data-see-records/see-data1.png)
+
+Você também pode ver os dados clicando duas vezes em uma visualização e, em seguida, selecionando **Mostrar Dados** no menu que aparece; ou selecionando as reticências (...) **Mais opções** no canto superior direito de uma visualização e, em seguida, selecionando **Mostrar Dados**.
+
+![Mostrar Dados com o botão direito](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Mostrar mais opções de Dados](media/desktop-see-data-see-records/see-data3.png)
 
 > [!NOTE]
 > É necessário focalizar um ponto de dados no visual para que o menu de clique com o botão direito do mouse fique disponível.
-> 
-> 
 
-Quando você seleciona **Ver Dados**, o **Power BI Desktop** enfoca o visual e os dados selecionados e dedica o espaço da tela para exibir a representação visual e textual dos dados. O visual é exibido na metade superior da tela, e os dados são mostrados na metade inferior, conforme mostrado na imagem a seguir. Essa é a exibição *horizontal*.
+Quando você seleciona **Ver Dados** ou **Mostrar Dados**, a tela do Power BI Desktop exibe a representação visual e textual dos dados. Na *exibição horizontal*, o visual é exibido na metade superior da tela, e os dados são mostrados na metade inferior. 
 
-![](media/desktop-see-data-see-records/see-data-see-records_4.png)
+![exibição horizontal](media/desktop-see-data-see-records/see-data4a.png)
 
-Também é possível mudar para uma *exibição vertical* (ou voltar para *exibição horizontal*), selecionando o ícone no canto superior direito.
+Você pode alternar entre a exibição horizontal e a *exibição vertical* selecionando o ícone no canto superior direito da tela.
 
-![](media/desktop-see-data-see-records/see-data-see-records_5.png)
+![alternância de exibição vertical](media/desktop-see-data-see-records/see-data4.png)
 
 Para retornar ao relatório, selecione **< Voltar ao Relatório** no canto superior esquerdo da tela.
 
-![](media/desktop-see-data-see-records/see-data-see-records_6.png)
+![Voltar ao relatório](media/desktop-see-data-see-records/see-data5.png)
 
-## <a name="using-see-records-in-power-bi-desktop"></a>Usando Ver Registros no Power BI Desktop
-Também é possível enfocar um elemento de dados em um visual e detalhar os dados atrás dele. Quando um visual é selecionado, há duas maneiras de usar **Ver Registros**; você pode habilitar o botão de alternância **Ver Registros** na faixa de opções **Dados/Analisar** e, em seguida, clicar em um elemento de dados ou você pode clicar com o botão direito do mouse em um elemento de dados e selecionar **Ver Registros** no menu exibido.
+## <a name="use-see-records-in-power-bi-desktop"></a>Usar Ver Registros no Power BI Desktop
 
-![](media/desktop-see-data-see-records/see-data-see-records_7.png)
+Também é possível enfocar um registro de dados em uma visualização e detalhar os dados atrás dele. Para usar **Ver Registros**, selecione uma visualização, em seguida **Ver Registros** na guia **Dados/Analisar** na seção **Ferramentas Visuais** da faixa de opções e, em seguida, selecione um ponto de dados ou linha na visualização. 
 
-> [!NOTE]
-> Se o visual selecionado não for compatível com **Ver Registros**, o botão na faixa de opções ficará acinzentado.
-> 
-> 
-
-Quando **Ver Registros** estiver selecionado, o **Power BI Desktop** enfocará esse elemento de dados individual e dedicará a área da tela para exibir os dados para esse elemento, conforme mostrado na imagem a seguir.
-
-![](media/desktop-see-data-see-records/see-data-see-records_8.png)
+![Consulte Registros na faixa de opções](media/desktop-see-data-see-records/see-record1.png)
 
 > [!NOTE]
-> Não é possível salvar as alterações de dados exibidos (ou modificados pelos usuários) no modo de exibição **Ver registros** para um relatório.
+> Se o botão **Ver Registros** na faixa de opções estiver desabilitado e esmaecido, isso significará que a visualização selecionada não oferece suporte a **Ver Registros**.
 
-Para retornar ao relatório, selecione o botão **Voltar ao Relatório** no canto superior esquerdo da tela.
+Você pode também clicar com o botão direito em um elemento de dados e selecionar **Ver Registros** no menu que aparece.
 
-## <a name="limitations"></a>Limitações
-Há algumas limitações a serem consideradas ao usar **Ver Dados** ou **Ver Registros**:
+![Consulte Registros clicando com o botão direito](media/desktop-see-data-see-records/see-record2.png)
 
-* Há suporte apenas para os seguintes tipos de visual:
-  * **Barra**
-  * **Coluna**
-  * **Mapa**
-  * **Mapa de Árvore**
-  * **Mapa Coroplético**
-  * **Pizza**
-  * **Rosca**
-  * **Funil**
-* Não é possível usar **Ver Registros** quando seu visual usa uma medida calculada
-* Não é possível usar **Ver Registros** quando conectado a um modelo MD (multidimensional) dinâmico
+Quando você seleciona **Ver Registros** para um elemento de dados, a tela do Power BI Desktop exibe todos os dados associados ao elemento selecionado. 
+
+![](media/desktop-see-data-see-records/see-record3.png)
+
+Para retornar ao relatório, selecione **< Voltar ao Relatório** no canto superior esquerdo da tela.
+
+![](media/desktop-see-data-see-records/see-record4.png)
+
+> [!NOTE]
+>**Ver Registros** tem as seguintes limitações:
+> - Você não pode alterar os dados na exibição **Ver Registros** e salvá-los novamente no relatório.
+> - Não é possível usar **Ver Registros** quando seu visual usa uma medida calculada.
+> - Não é possível usar **Ver Registros** quando você está conectado a um modelo MD (multidimensional) dinâmico.
 
 ## <a name="next-steps"></a>Próximas etapas
 Há todos os tipos de recursos para gerenciamento de dados e formatação do relatório no **Power BI Desktop**. Confira os seguintes recursos para alguns exemplos:

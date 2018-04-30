@@ -2,27 +2,27 @@
 title: Analisar no Excel
 description: Saiba mais sobre como analisar conjuntos de dados do Power BI no Excel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>Analisar no Excel
 Existem ocasiões em que você talvez queira usar o Excel para exibir e interagir com um conjunto de dados do Power BI. Com o recurso **Analisar no Excel**, você pode fazer isso e acessar recursos de Tabela Dinâmica, gráfico e segmentação no Excel com base no conjunto de dados existente no Power BI.
@@ -105,3 +105,5 @@ Quando um usuário com quem você compartilhou sua pasta de trabalho a abre, ele
 
 Já que os usuários precisarão atualizar o conjunto de dados, não há suporte para atualização para conexões externas no Excel Online, é recomendável que os usuários abram a pasta de trabalho na versão da área de trabalho do Excel no computador.
 
+## <a name="troubleshooting"></a>Solução de problemas
+Pode haver ocasiões ao usar Analisar no Excel em que você obtém um resultado inesperado ou em que o recurso não funciona conforme esperado. [Esta página fornece soluções para problemas comuns ao usar Analisar no Excel](desktop-troubleshooting-analyze-in-excel.md)

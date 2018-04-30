@@ -1,15 +1,15 @@
 ---
 title: Usar o visual de matriz no Power BI Desktop
-description: "Saiba como o visual de matriz permite layouts de nível e realce granular no Power BI Desktop"
+description: Saiba como o visual de matriz permite layouts de nível e realce granular no Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Usar o visual Matriz no Power BI Desktop
-Com o visual **Matriz**, você pode criar visuais de matriz (às vezes mencionados como *tabelas*) nos relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros visuais. Além disso, você pode selecionar linhas, colunas e até mesmo células individuais e realce cruzado. Por fim, para fazer melhor uso do espaço de layout, o visual de matriz dá suporte a um layout de nível.
+Com o recurso visual **Matriz**, você pode criar visuais de matriz (às vezes mencionados como *tabelas*) nos relatórios do **Power BI Desktop** e elementos de realce cruzado na matriz com outros visuais. Além disso, você pode selecionar linhas, colunas e até mesmo células individuais e realce cruzado. Por fim, para fazer melhor uso do espaço de layout, o visual de matriz dá suporte a um layout de nível.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -77,11 +77,11 @@ Selecionar **Drill Down** expande a matriz no nível *dessa* linha, *excluindo* 
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-Podemos clicar no ícone **Drill up** para voltar à exibição de nível superior anterior. Se, em seguida, selecionarmos **Mostrar Próximo Nível** no menu acionado com um clique do botão direito do mouse, aparecerá uma lista alfabética de todos os itens do próximo nível (nesse caso, o campo *Subcategoria*), sem a categorização de hierarquia de nível superior.
+Você pode clicar no ícone **Drill up** para voltar à exibição de nível superior anterior. Se, em seguida, você selecionar **Mostrar Próximo Nível** no menu acionado com um clique do botão direito do mouse, verá uma lista alfabética de todos os itens do próximo nível (nesse caso, o campo *Subcategoria*), sem a categorização de hierarquia de nível superior.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-A clicar no ícone **Drill up** no canto superior esquerdo para que a matriz mostre todas as categorias de nível superior, clicar com botão direito do mouse novamente e selecionar **Expandir para o próximo nível**, poderemos ver o seguinte:
+Ao clicar no ícone **Drill up** no canto superior esquerdo para que a matriz mostre todas as categorias de nível superior, clicar com botão direito do mouse novamente e selecionar **Expandir para o próximo nível**, você poderá ver o seguinte:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -96,11 +96,11 @@ No visual **Matriz**, ao clicar com o botão direito do mouse em uma coluna, apa
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
-Quando **Fazer Drill Down** é selecionado, o próximo nível da hierarquia de coluna para *Deluxe* é exibido, que nesse caso é *Cor*.
+Ao selecionar **Drill Down**, o próximo nível da hierarquia de coluna para *Deluxe* será exibido, que nesse caso é *Cor*.
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-O restante dos itens do menu acionado com um clique do botão direito do mouse funcionam nas Colunas da mesma maneira que nas linhas (Consulte a seção anterior, **Drill down nos cabeçalhos de linha**). Você pode **Mostrar Próximo Nível**, **Expandir para o próximo nível** e **Incluir** ou **Excluir** colunas, como faz com as linhas.
+O restante dos itens do menu acionado com um clique do botão direito do mouse funcionam nas Colunas da mesma maneira que nas linhas (Consulte a seção anterior, **Drill down nos cabeçalhos de linha**). Você pode **Mostrar Próximo Nível**, **Expandir para o próximo nível**, **Incluir** ou **Excluir** colunas, como faz com as linhas.
 
 > [!NOTE]
 > Os ícones de drill up e drill down no canto superior esquerdo do visual de matriz aplicam-se apenas a linhas. Para fazer drill down nas colunas, você deve usar o menu acionado com um clique do botão direito do mouse.
@@ -108,17 +108,17 @@ O restante dos itens do menu acionado com um clique do botão direito do mouse f
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Layout de nível com visuais de matriz
-O visual **Matriz** recua automaticamente as subcategorias em uma hierarquia abaixo de cada pai, chamado de **layout de nível**.
+O visual **Matriz** recua automaticamente as subcategorias em uma hierarquia abaixo de cada pai, chamado de **Layout de nível**.
 
-Na versão *original* do visual de matriz, as subcategorias foram mostradas em uma coluna inteiramente diferente, ocupando muito mais espaço no visual. A imagem a seguir mostra a tabela no visual de **matriz** original. Observe as subcategorias em uma coluna totalmente separada.
+Na versão *original* do visual de matriz, as subcategorias foram mostradas em uma coluna inteiramente diferente, ocupando muito mais espaço no visual. A imagem a seguir mostra a tabela no visual de **Matriz** original. Observe as subcategorias em uma coluna totalmente separada.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-Na imagem a seguir, há um visual **Matriz** com o **layout de nível** em ação. Observe que a categoria *Computadores* tem suas subcategorias (Acessórios de Computadores, Desktops, Laptops, Monitores e assim por diante) ligeiramente recuadas, fornecendo um visual mais limpo e muito mais compacto.
+Na imagem a seguir, há um visual **Matriz** com o **Layout de nível** em ação. Observe que a categoria *Computadores* tem suas subcategorias (Acessórios de Computadores, Desktops, Laptops, Monitores e assim por diante) ligeiramente recuadas, fornecendo um visual mais limpo e muito mais compacto.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Você pode ajustar facilmente as configurações do **layout de nível**. Com o visual **Matriz** selecionado, na seção **Formatar** (o ícone de rolo de pintura) do painel **Visualizações**, expanda a seção **Cabeçalhos de linha**. Aqui estão duas opções: a opção (que habilita ou desabilita) **Layout de nível** e o **Recuo do layout de nível** (especifica a quantidade de recuo, em pixels).
+Você pode ajustar facilmente as configurações do layout de nível. Com o visual **Matriz** selecionado, na seção **Formatar** (o ícone de rolo de pintura) do painel **Visualizações**, expanda a seção **Cabeçalhos de linha**. Você tem duas opções: a opção (que habilita ou desabilita) **Layout de nível** e o **Recuo do layout de nível** (especifica a quantidade de recuo, em pixels).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,9 +136,9 @@ Na seção **Formato** do painel **Visualizações**, expanda o cartão **Subtot
 O mesmo processo se aplica aos subtotais da coluna.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Realce cruzado com visuais de matriz
-Com o visual **Matriz**, os elementos na matriz podem ser selecionados como a base para o realce cruzado. Selecione uma coluna em uma **Matriz** e essa coluna será realçada, assim como quaisquer outros visuais na página do relatório. Isso era um recurso comum de outros visuais e da seleção de um ponto de dados e agora o visual **Matriz** pode participar.
+Com o visual **Matriz**, você pode selecionar os elementos na matriz como a base para o realce cruzado. Selecione uma coluna em uma **Matriz** e essa coluna será realçada, assim como quaisquer outros visuais na página do relatório. Isso era um recurso comum de outros visuais e seleções de ponto de dados, então agora o visual **Matriz** oferece a mesma função.
 
-Além disso, usar CTRL + clique também funciona para o realce cruzado. Por exemplo, na imagem a seguir, uma coleção de subcategorias foi selecionada no visual **Matriz**. Observe como os itens que não foram selecionados no visual estão esmaecidos e como os outros visuais na página refletem as seleções feitas no visual **Matriz**.
+Além disso, usar Ctrl + clique também funciona para o realce cruzado. Por exemplo, na imagem a seguir, uma coleção de subcategorias foi selecionada no visual **Matriz**. Observe como os itens que não foram selecionados no visual estão esmaecidos e como os outros visuais na página refletem as seleções feitas no visual **Matriz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 

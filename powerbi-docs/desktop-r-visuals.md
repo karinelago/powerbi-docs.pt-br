@@ -2,14 +2,14 @@
 title: Criar visuais do Power BI usando o R
 description: Criar visuais do Power BI usando o R
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Criar visuais do Power BI usando o R
 Com o **Power BI Desktop**, é possível usar o **R** para visualizar seus dados.
@@ -41,21 +41,27 @@ Depois de especificar a instalação do R, você estará pronto para começar a 
 1. Selecione o ícone **Visual do R** no painel **Visualização**, como mostrado na imagem a seguir para adicionar um visual do R.
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. Quando você adiciona um visual do R a um relatório, o **Power BI Desktop** faz o seguinte:
+
+   Quando você adiciona um visual do R a um relatório, o **Power BI Desktop** faz o seguinte:
    
    - Uma imagem do visual do R no espaço reservado aparece na tela de relatório.
    
    - O **editor de script R** aparece na parte inferior do painel central.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. Em seguida, adicione os campos que deseja consumir no seu script R à seção **Valores** em **Campos** também, como faria com qualquer outro visual do **Power BI Desktop**. Somente os campos que foram adicionados aos **Campos** estão disponíveis para seu script R e você pode adicionar novos campos ou remover campos desnecessários de **Campos** enquanto trabalha em seu script R no **editor de scripts R do Power BI Desktop**. O **Power BI Desktop** detecta automaticamente os campos que você adicionou ou removeu.
+
+2. Em seguida, adicione os campos que deseja consumir no seu script R à seção **Valores** em **Campos** também, como faria com qualquer outro visual do **Power BI Desktop**. 
+    
+    Somente os campos que foram adicionados aos **Campos** estão disponíveis para seu script R. Você pode adicionar novos campos ou remover campos desnecessários de **Campos** enquanto trabalha em seu script R no **editor de scripts R do Power BI Desktop**. O **Power BI Desktop** detecta automaticamente os campos que você adicionou ou removeu.
    
    > [!NOTE]
    > O tipo de agregação padrão para visuais R é *não resumir*.
    > 
    > 
    
-1. Agora você pode usar os dados selecionados para plotar. Ao selecionar campos, o **editor de script R** gera um código de associação de script R com suporte com base em suas seleções na seção cinza na parte superior do painel do editor. Ao selecionar ou remover campos adicionais, o suporte de código no editor de script R é automaticamente gerado ou removido adequadamente.
+3. Agora você pode usar os dados selecionados para plotar. 
+
+    Ao selecionar campos, o **editor de script R** gera um código de associação de script R com suporte com base em suas seleções na seção cinza na parte superior do painel do editor. Ao selecionar ou remover campos adicionais, o suporte de código no editor de script R é automaticamente gerado ou removido adequadamente.
    
    No exemplo mostrado na imagem a seguir, três campos foram selecionados: hp, preparar e drat. Como resultado dessas seleções, o editor de script R gerou o seguinte código de associação:
    
@@ -71,46 +77,46 @@ Depois de especificar a instalação do R, você estará pronto para começar a 
    > 
    > 
    
-   O dataframe gerado é chamado **dataset**, e colunas selecionadas podem ser acessadas por seus respectivos nomes. Por exemplo, o campo de engrenagem pode ser acessado escrevendo *dataset$gear* em seu script R. Para campos com espaços ou caracteres especiais, use aspas simples.
-2. Com o dataframe gerado automaticamente pelos campos selecionados, você está pronto para escrever um script R que resulta em plotar ao dispositivo padrão R. Quando o script for concluído, selecione **Executar** na barra de título **editor de script R** (**Executar** está no lado direito da barra de título).
+   O dataframe gerado é chamado de **conjunto de dados**, e você pode acessar as colunas selecionadas por seus respectivos nomes. Por exemplo, acesse o campo de engrenagem escrevendo *dataset$gear* em seu script R. Para campos com espaços ou caracteres especiais, use aspas simples.
+
+4. Com o dataframe gerado automaticamente pelos campos selecionados, você está pronto para escrever um script R que resulta em plotar ao dispositivo padrão R. Quando o script for concluído, selecione **Executar** na barra de título **editor de script R** (**Executar** está no lado direito da barra de título).
    
-    Quando **Executar** for selecionado, o **Power BI Desktop** identifica a plotagem e a apresenta na tela.
-   Uma vez que o processo é executado em sua instalação local do R, certifique-se de pacotes necessários estão instalados.
+    Ao selecionar **Executar**, o **Power BI Desktop** identifica a plotagem e a apresenta na tela. Uma vez que o processo é executado em sua instalação local do R, certifique-se de pacotes necessários estão instalados.
    
    O **Power BI Desktop** plota novamente o visual quando qualquer um dos seguintes eventos ocorre:
    
-   * **Executar** é selecionado na barra de título **Editor de script R**
+   * Ao selecionar **Executar** na barra de título **Editor de script R**
    * Sempre que ocorre uma alteração de dados, devido à atualização de dados, filtragem ou realce
 
-A imagem a seguir mostra um exemplo de código de plotagem a correlação, e plota as correlações entre atributos de tipos diferentes de carros.
+    A imagem a seguir mostra um exemplo de código de plotagem a correlação, e plota as correlações entre atributos de tipos diferentes de carros.
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-Para obter uma exibição ampliada das visualizações, você pode minimizar a **editor de script R**. E, claro, como outros visuais no **Power BI Desktop**, é possível cruzar o filtro da plotagem de correlação ao selecionar somente carros do tipo esporte no visual de rosca (o visual redondo à direita, na imagem de exemplo acima).
+5. Para obter uma exibição ampliada das visualizações, você pode minimizar a **editor de script R**. E, claro, como outros visuais no **Power BI Desktop**, é possível cruzar o filtro da plotagem de correlação ao selecionar somente carros do tipo esporte no visual de rosca (o visual redondo à direita, na imagem de exemplo acima).
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-Você também pode modificar o script de R para personalizar o visual e aproveitar o poder do R, adicionando parâmetros ao comando de plotagem.
+6. Você também pode modificar o script de R para personalizar o visual e aproveitar o poder do R, adicionando parâmetros ao comando de plotagem.
 
-O comando original de plotagem era o seguinte:
+    O comando original de plotagem era o seguinte:
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-Com poucas alterações no script R, o comando agora é o seguinte:
+    Com poucas alterações no script R, o comando agora é o seguinte:
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-Como resultado, o visual R agora plota círculos, só considera na metade superior e reorganiza a matriz para atributos correlacionados de cluster, como mostrado na imagem a seguir.
+    Como resultado, o visual R agora plota círculos, só considera na metade superior e reorganiza a matriz para atributos correlacionados de cluster, como mostrado na imagem a seguir.
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-Ao executar um script R que resulta em um erro, o visual R não é plotado e uma mensagem de erro é exibida na tela. Para obter detalhes sobre o erro, selecione **Ver detalhes** no erro do visual R na tela.
+    Ao executar um script R que resulta em um erro, o visual R não é plotado e uma mensagem de erro é exibida na tela. Para obter detalhes sobre o erro, selecione **Ver detalhes** no erro do visual R na tela.
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **Segurança de scripts R:** visuais R são criados a partir de scripts R, que podem conter códigos com riscos de segurança ou privacidade. Ao tentar exibir ou interagir com um visual R pela primeira vez, o usuário recebe uma mensagem de aviso de segurança. Habilite visuais R somente se você confiar no autor e na fonte ou após examinar e compreender o script R.
-> 
-> 
+    > **Segurança de scripts R:** visuais R são criados a partir de scripts R, que podem conter códigos com riscos de segurança ou privacidade. Ao tentar exibir ou interagir com um visual R pela primeira vez, o usuário recebe uma mensagem de aviso de segurança. Habilite visuais R somente se você confiar no autor e na fonte ou após examinar e compreender o script R.
+    > 
+    > 
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 Os visuais do R no **Power BI Desktop** apresentam algumas limitações:

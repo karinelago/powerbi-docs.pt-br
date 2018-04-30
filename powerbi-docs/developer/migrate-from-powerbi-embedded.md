@@ -1,15 +1,15 @@
 ---
-title: "Como migrar conteúdo da Coleção de Espaços de Trabalho do Power BI para o Power BI"
-description: "Saiba como migrar da Coleção de Espaços de Trabalho do Power BI para o Power BI Embedded e aproveitar os avanços para inserir em aplicativos."
+title: Como migrar conteúdo da Coleção de Espaços de Trabalho do Power BI para o Power BI
+description: Saiba como migrar da Coleção de Espaços de Trabalho do Power BI para o Power BI Embedded e aproveitar os avanços para inserir em aplicativos.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.Embedded: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: c8ad315976dd1ca47d6b4dc2fd9a191a11e044c7
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 5cf1be502267b14075ac6160ce93fce47941d3c2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Como migrar conteúdo da Coleção de Espaços de Trabalho do Power BI para o Power BI Embedded
 Saiba como migrar da Coleção de Espaços de Trabalho do Power BI para o Power BI Embedded e aproveite os avanços para inserir em aplicativos.
@@ -58,8 +58,7 @@ As seguintes contas precisarão existir no seu locatário.
 
 > [!NOTE]
 > Essas contas precisarão ter as licenças Power BI Pro para usar os espaços de trabalho do aplicativo.
-> 
-> 
+>
 
 1. Um usuário administrador de locatário.
    
@@ -71,10 +70,13 @@ As seguintes contas precisarão existir no seu locatário.
    
     O back-end de aplicativos armazenará as credenciais dessa conta e a usará para adquirir um token do Azure AD para utilizar com as APIs REST do Power BI. Essa conta será usada para gerar o token de inserção para o aplicativo. Essa conta também precisa ser administrador dos Espaços de trabalho do aplicativo criados para a inserção.
    
-   > [!NOTE]
-   > Essa é apenas uma conta de usuário regular na sua organização que será usada para fins de inserção.
-   > 
-   > 
+> [!NOTE]
+> Essa é apenas uma conta de usuário regular na sua organização que será usada para fins de inserção.
+>
+
+> [!NOTE]
+> Se a autenticação de token de apenas aplicativo for um requisito para o seu aplicativo, clique em [aqui](mailto:pbieci@microsoft.com?Subject=App-only%20token%20requirement) para falar conosco.
+>
 
 ## <a name="app-registration-and-permissions"></a>Registro do aplicativo e permissões
 Você precisará registrar um aplicativo no Azure AD e conceder permissões específicas.
@@ -126,13 +128,13 @@ Conjuntos de dados armazenados em cache referem-se a arquivos PBIX que tinham im
 #### <a name="directquery-dataset--report"></a>Relatório e conjunto de dados do DirectQuery
 **Fluxo**
 
-1. Chame GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources e salve as cadeias de conexão recebidas.
+1. Chame GET https://api.powerbi.com/v1.0/collections/{collection_id}/workspaces/{wid}/datasets/{dataset_id}/Default.GetBoundGatewayDataSources e salve a cadeia de conexão recebida.
 2. Chame Baixar API de PBIX no espaço de trabalho PaaS.
 3. Salve o PBIX.
 4. Chame Importar PBIX para o espaço de trabalho SaaS.
-5. Atualize a cadeia de conexão chamando – POST https://api.powerbi.com/v1.0/myorg/datasets/ {dataset_id}/Default.SetAllConnections
-6. Obtenha a ID GW e a ID da fonte de dados chamando – GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
-7. Atualize as credenciais do usuário chamando – PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
+5. Atualizar a cadeia de conexão chamando - POST  https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections
+6. Obter id de GW e id de fonte de dados chamando - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
+7. Atualizar credenciais do usuário chamando - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}
 
 #### <a name="old-dataset--reports"></a>Relatórios e conjunto de dados antigos
 Esses são os conjuntos de dados/relatórios criados antes de outubro de 2016. Baixar PBIX não dá suporte a PBIXs carregados antes de outubro de 2016

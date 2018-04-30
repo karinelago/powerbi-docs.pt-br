@@ -1,45 +1,50 @@
 ---
-title: "Modo de Foco – ampliar em uma única visualização para ver mais detalhes."
-description: "Documentação para exibir um bloco de painéis ou visualizações de relatório do Power BI em modo de foco, também conhecido como Pop-out."
+title: Modo de Foco – ampliar em uma única visualização para ver mais detalhes.
+description: Documentação para exibir um bloco de painéis ou visualizações de relatório do Power BI em modo de foco, também conhecido como Pop-out.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: dtdLul6otYE
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 40ef141046db4b8dac9cf47f7f043ca306d2fadb
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Exibir um bloco de painéis ou visual do relatório no modo de foco
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
 
 ## <a name="what-is-focus-mode"></a>O que é o modo de foco?
-O modo ***Foco*** permite expandir (destacar) um bloco do dashboard ou um visual do relatório para ver mais detalhes.  No modo de foco, é possível exibir e modificar os filtros que foram aplicados quando esse visual foi criado.  
+
+O modo ***de foco*** permite expandir (destacar) um conteúdo para tela inteira e ver mais detalhes.  No modo de foco, é possível exibir e modificar os filtros que foram aplicados quando esse visual foi criado.  No serviço do Power BI, você pode usar o modo de foco em um bloco do painel ou visual do relatório e, no Power BI Desktop, você pode usar o modo de foco em um [visual do relatório](desktop-report-view.md).
 
 > [!NOTE]
 > Foco é diferente do [modo de tela inteira](service-fullscreen-mode.md).
 > 
+
+
 ## <a name="focus-mode-for-dashboard-tiles"></a>Modo de foco para blocos de painéis
-1. Passe o mouse sobre a visualização de bloco, selecione as reticências (...) e escolha **Abrir no modo de foco** 
+
+1. Passe o mouse sobre a visualização de bloco, selecione as reticências (...) e escolha **Abrir no modo de foco**. 
 
     ![menu de reticências de bloco](media/service-focus-mode/power-bi-dashboard-focus-mode.png).
-   
+
 2. O bloco é aberto e ocupa toda a tela do relatório. 
 
    ![tela do relatório de preenchimento de bloco](media/service-focus-mode/power-bi-tile-focus.png)
@@ -62,7 +67,6 @@ O modo ***Foco*** permite expandir (destacar) um bloco do dashboard ou um visual
    ![o ícone de foco é exibido no bloco](media/service-focus-mode/power-bi-hover-focus.png)
 2. A visualização é aberta e preenche a tela inteira. 
 
-   
    ![visual no modo de foco](media/service-focus-mode/power-bi-display-focus-newer2.png)
 3. Expanda o painel Filtros para ver todos os filtros aplicados a este visual.
    
@@ -76,7 +80,7 @@ O modo ***Foco*** permite expandir (destacar) um bloco do dashboard ou um visual
 No modo de foco, o bloco ou o visual poderá ser [exibido em tela inteira (Modo de TV).](service-fullscreen-mode.md) O modo de tela inteira é exibido sem a distração de menus e de botões de navegação.
 
 ## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
-* Ao usar o modo de foco com uma visualização em um relatório, será possível exibir e modificar todos os filtros: de nível de visual, de nível de página e de nível de relatório.    
+* Ao usar o modo de foco com uma visualização em um relatório, será possível exibir e modificar todos os filtros: de nível de visual, de nível de página, detalhamento e de nível de relatório.    
 * Ao usar o modo de foco com uma visualização em um painel, será possível exibir e modificar apenas o filtro de nível de visual.
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)

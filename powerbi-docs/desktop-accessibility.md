@@ -1,15 +1,15 @@
 ---
-title: "Acessibilidade dos relatórios do Power BI Desktop"
-description: "Recursos e sugestões para criar relatórios do Power BI Desktop acessíveis"
+title: Acessibilidade dos relatórios do Power BI Desktop
+description: Recursos e sugestões para criar relatórios do Power BI Desktop acessíveis
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/21/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a0268af4d5b6ec1e94b42735100196e11c4d119b
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Acessibilidade dos relatórios do Power BI Desktop
 O **Power BI Desktop** tem recursos que permitem que pessoas com deficiências consumam e interajam mais facilmente com relatórios do **Power BI Desktop**. Esses recursos incluem a capacidade de consumir um relatório usando o teclado ou um leitor de tela, usar a tabulação para focar em vários objetos em uma página e o uso cuidadoso de marcadores nas visualizações.
@@ -41,7 +41,7 @@ A partir da versão de setembro de 2017 do **Power BI Desktop**, você pode pres
 
 Com os aprimoramentos de acessibilidade, você pode consumir um relatório do **Power BI Desktop** usando um teclado ou um leitor de tela com as seguintes técnicas:
 
-Você pode **alternar o foco** entre as guias de páginas do relatório ou entre objetos em uma determinada página do relatório usando **Ctrl+F6**.
+Você pode alternar o foco entre as guias de páginas do relatório ou entre objetos em uma determinada página do relatório usando **Ctrl+F6**.
 
 * Quando o foco estiver nas *guias de páginas do relatório*, use as teclas *Tab* ou de *Seta* para mover o foco de uma página de relatório para a próxima. O título da página do relatório e se ele está selecionada, é lida pelo leitor de tela. Para carregar a página do relatório que está em foco, use a tecla *Enter* ou *Espaço*.
 * Quando o foco estiver em uma *página de relatório* carregada, use a tecla *Tab* para alternar o foco para cada objeto em uma página, o que inclui todas as caixas de texto, imagens, formas e gráficos. O leitor de tela lê o tipo do objeto e uma descrição desse objeto que é fornecida pelo autor. 
@@ -67,7 +67,7 @@ As dicas a seguir podem ajudá-lo a criar relatórios do **Power BI Desktop** qu
   * Usar uma *Forma de marcador* diferente para cada linha torna mais fácil para os consumidores do relatório diferenciar as linhas (ou áreas) umas das outras.
 * Como um lembrete do marcador anterior, não confie na cor para transmitir informações. O uso de formas em linhas (marcadores, conforme descrito nos marcadores anteriores) é útil.
 * Selecione um *tema* que tenha alto contraste e que seja amigável para pessoas daltônicas na Galeria de temas e importe-o usando o recurso de versão prévia [**Temas**](desktop-report-themes.md).
-* Para cada objeto em um relatório, forneça um *Texto Alt*. Isso garante que os consumidores de seu relatório entendam o que você está tentando comunicar com um visual, mesmo que eles não possam ver o visual, imagem, forma ou caixa de texto. Você pode fornecer um *Texto Alt* para qualquer objeto em um relatório do **Power BI Desktop** selecionando o objeto (como um visual, forma etc.) e, no painel **Visualizações**, selecionando a seção **Formato**, expandindo **Geral** e, em seguida, rolando para baixo e preenchendo a caixa de texto **Texto Alt**.
+* Para cada objeto em um relatório, forneça um *Texto Alt*. Isso garante que os consumidores de seu relatório entendam o que você está tentando comunicar com um visual, mesmo que eles não possam ver o visual, imagem, forma ou caixa de texto. Você pode fornecer um *Texto Alt* para qualquer objeto em um relatório do **Power BI Desktop** selecionando o objeto (como um visual, forma e assim por diante) e, no painel **Visualizações**, selecionando a seção **Formato**, expandindo **Geral** e rolando para baixo e preenchendo a caixa de texto **Texto Alt**.
   
   ![O texto alternativo para qualquer objeto em um relatório pode ser adicionado em Visualizações > Formato > Geral > caixa de texto Alt](media/desktop-accessibility/accessibility_02.png)
 * Verifique se os relatórios têm contraste suficiente entre o texto e as cores da tela de fundo.
@@ -75,7 +75,7 @@ As dicas a seguir podem ajudá-lo a criar relatórios do **Power BI Desktop** qu
 * Inclua um título, rótulos de eixo e rótulos de dados em todos os visuais.
 
 ## <a name="considerations-and-limitations"></a>Considerações e limitações
-Há alguns problemas conhecidos e algumas limitações nos recursos de acessibilidade, descritos na seguinte lista:
+Há alguns problemas conhecidos e algumas limitações com os recursos de acessibilidade, descritos na seguinte lista:
 
 * Há suporte para o JAWS em relatórios que são exibidos no **serviço do Power BI**, incluindo os relatórios inseridos. O JAWS também tem suporte no **Power BI Desktop**, no entanto, você deve abrir o leitor de tela antes de abrir qualquer arquivo do **Power BI Desktop**, em ordem de leitura de tela para que ele funcione corretamente.
 
