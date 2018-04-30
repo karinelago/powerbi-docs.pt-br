@@ -1,28 +1,28 @@
 ---
-title: "Práticas recomendadas de design para relatórios e visuais (white paper)"
-description: "White paper: práticas recomendadas para a criação de relatórios no Power BI"
+title: Práticas recomendadas de design para relatórios e visuais (white paper)
+description: 'White paper: práticas recomendadas para a criação de relatórios no Power BI'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Práticas recomendadas de design para relatórios e visuais
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Se os gráficos de linhas são o padrão para examinar dados ao longo do tempo, 
 
 Para obter mais detalhes sobre gráficos de Barras e Colunas:
 
-* [Introdução aos gráficos de barras](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou)
+* [Introdução aos gráficos de barras](http://blog.newscred.com/article/data-visualization-101-bar-charts)
 * [Catálogo de visualização de dados: gráfico de barras](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 * [Catálogo de visualização de dados: Gráfico de barras de conjunto múltiplo](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ca6a21e67e7ab1d2a0c0daa8da07052041db139
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -149,13 +149,13 @@ O idioma escolhido para o Power BI Desktop afeta o formato de exibição de núm
 Para alterar o idioma do Power BI Desktop, volte à página de download e baixe-o em um idioma diferente.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Escolher a localidade para importar dados para o Power BI Desktop
-Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possível escolher que uma localidade de um relatório específico seja algo diferente de localidade na sua versão do Power BI Desktop. Isso altera a maneira como os dados são interpretados quando são importados da sua fonte de dados, por exemplo, se "04/03/2017" é interpretado como 3 de abril ou 4 de março. 
+Baixando o Power BI Desktop ou instalando-o por meio da Windows Store, é possível escolher que uma localidade de um relatório específico seja algo diferente de localidade na sua versão do Power BI Desktop. Isso altera a maneira como os dados são interpretados quando são importados da sua fonte de dados, por exemplo, se "4/3/2017" é interpretado como 3 de abril ou 4 de março. 
 
 1. No Power BI Desktop, acesse **Arquivo** > **Opções e configurações** > **Opções**.
 2. Em **Arquivo atual**, selecione **Configurações regionais**.
-3. Na caixa **Localidade**, selecione uma localidade diferente. 
+3. Na caixa **Localidade para importar**, selecione uma localidade diferente. 
    
-   ![Caixa de diálogo de opções do Power BI Desktop](media/supported-languages-countries-regions/pbi_supptdlangs_locale.png)
+   ![Caixa de diálogo de opções do Power BI Desktop](media/supported-languages-countries-regions/power-bi_supptdlangs-locale.png)
 4. Selecione **OK**.
 
 ### <a name="choose-the-language-for-the-model-in-power-bi-desktop"></a>Escolha o idioma para o modelo no Power BI Desktop

@@ -2,27 +2,27 @@
 title: Dicas para criar um painel bom no Power BI
 description: Dicas para criar um painel bom no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Dicas para criar um painel bom no Power BI
 Agora que você criou um painel e adicionou alguns blocos, pense em como tornar seu painel não apenas bonito, mas também funcional. Em geral, isso significa fazer destacar as informações mais importantes, e torná-las claras e organizadas.
@@ -31,25 +31,28 @@ Aqui estão algumas dicas.
 
 > [!TIP]
 > Muitos dos princípios de design dos relatórios se aplicam também aos dashboards.  Leia o white paper [Best design principles for reports and visualizations](power-bi-visualization-best-practices.md) (Princípios recomendados para relatórios e visualizações).
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Considere seu público-alvo
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>Assista ao webinar [Dashboard Makeover](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html) (Transformação de dashboards)
+Veja Marc Reguera, Gerente-chefe de Programa da Microsoft e especialista em dashboards do Power BI, [conduzir transformações de dashboards](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html).
+
+## <a name="consider-your-audience"></a>Considere seu público-alvo
 Quais são as principais métricas que ajudarão a tomar decisões? Como o painel será usado? Quais suposições aprendidas ou culturais podem afetar nas opções de design? Quais informações o público-alvo precisa para ser bem-sucedido?
 
 Tenha em mantel que um painel é uma visão geral, um local para monitorar o estado atual dos dados. O painel é baseado em conjuntos de dados e relatórios subjacentes e pode conter muitos detalhes. Os leitores podem detalhar os relatórios no seu painel. Portanto, não coloque os detalhes no painel, a menos que seja o que seus leitores precisam monitorar.
 
 Onde o painel será exibido? Se ele estiver em um monitor grande, você pode colocar mais conteúdo nele. Se os leitores o visualizarem em seus tablets, menos blocos serão mais legíveis.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Conte uma história e mantenha-o na tela
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Conte uma história e mantenha-o na tela
 Porque os painéis devem mostrar informações importantes em um relance, é melhor ter todas as peças em uma única tela. É possível evitar as barras de rolagem no seu painel?
 
 O painel está muito cheio?  Remova informações que não são essenciais que podem ser facilmente lidas e interpretadas.
 
-### <a name="make-use-of-full-screen-mode"></a>Fazer uso do modo de tela inteira
+## <a name="make-use-of-full-screen-mode"></a>Fazer uso do modo de tela inteira
 Exiba o dashboard em [tela inteira](service-fullscreen-mode.md) sem distrações.
 
-### <a name="make-the-most-important-information-biggest"></a>Adicione as informações mais importantes ao seu painel
+## <a name="make-the-most-important-information-biggest"></a>Adicione as informações mais importantes ao seu painel
 Se o texto e visualizações no painel são do mesmo tamanho, os leitores terão dificuldade para se concentrar no que é mais importante. Por exemplo, as visualizações de cartão são uma boa maneira de exibir um número importante em destaque:  
 ![Visualização de cartão](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ Mas não se esqueça de fornecer contexto.
 
 Leia sobre como [criar um bloco com apenas um número](power-bi-visualization-card.md).
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>Colocar as informações mais importantes no canto superior
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>Colocar as informações mais importantes no canto superior
 A maioria das pessoas leem de cima para baixo, colocando o nível mais alto de detalhes na parte superior e mostrando mais detalhes à medida que você move na direção que o público-alvo usa para ler (esquerda para direita, direita para esquerda).
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usar a visualização da direita para os dados e formatá-la para facilitar a leitura
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Usar a visualização da direita para os dados e formatá-la para facilitar a leitura
 Evite a variedade de visualização para fins diversos.  As visualizações devem ter uma visão geral e ser fácil de "ler" e interpretar.  Alguns dados e visualizações, uma visualização gráfica simples é suficiente. Mas podem chamar outros dados para uma visualização mais complexa - Certifique-se de fazer uso de títulos e rótulos e outras personalizações para ajudar o leitor.  
 
 * [Escolha visualizações de dados apropriadas](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Tenha cuidado ao usar gráficos que distorçam a realidade, ou seja, gráficos em 3D. Tenha em mente que é difícil para o cérebro humano interpretar formas circulares. Gráficos de pizza, gráficos de rosca, medidores e outros tipos de gráfico circular podem parecer muito, mas não são uma prática recomendada de visualização de dados.
@@ -84,7 +87,6 @@ Para dominar a arte do design do painel excelente, considere a possibilidade de 
 * *Advanced Presentations* bay Design de Andrew Abela   
 
 ## <a name="next-steps"></a>Próximas etapas
-[Dashboards no Power BI](service-dashboards.md)  
+[Criar um painel por meio de um relatório](service-dashboard-create.md)  
 [Power BI – conceitos básicos](service-basic-concepts.md)  
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-

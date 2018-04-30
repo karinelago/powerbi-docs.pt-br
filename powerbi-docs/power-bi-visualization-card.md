@@ -1,28 +1,28 @@
 ---
-title: "Visualizações de cartão (também conhecido como blocos de números grandes)"
-description: "Criar uma Visualização de cartão no Power BI"
+title: Visualizações de cartão (também conhecido como blocos de números grandes)
+description: Criar uma Visualização de cartão no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Visualizações de cartão
 Às vezes, um único número é a coisa mais importante que você deseja acompanhar no seu painel ou relatório do Power BI, como as vendas totais, a fatia de mercado ano após ano ou o total de oportunidades. Esse tipo de visualização é chamado de *Cartão*. Assim como em quase todas as visualizações nativas do Power BI, os cartões podem ser criados usando o editor de relatório ou P e R.
@@ -91,6 +91,25 @@ A caixa pergunta de P e R é a maneira mais fácil de fazer um Cartão. A caixa 
 - Se uma caixa de perguntas não for exibida, entre em contato com o administrador do sistema ou de locatário.    
 - Se você estiver usando a área de trabalho e, ao clicar duas vezes em um espaço vazio de um relatório, o P e R não abrir, você precisará ativá-lo.  Selecione **Arquivo > Opções e Configurações > Opções > Recursos de versão prévia > P e R** e reinicie o Desktop.
 
+## <a name="format-a-card"></a>Formatar um cartão
+Você tem várias opções para alterar rótulos, texto, cor e muito mais. A melhor maneira de aprender é criar um cartão e, em seguida, explorar o painel de formatação. Aqui estão algumas das opções de formatação disponíveis. 
+
+1. Comece selecionando o ícone de pincel do painel de formatação. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. Expanda **Rótulo de dados** e altere a cor, o tamanho e a família de fontes. Se você tivesse milhares de repositórios, poderia usar **Exibir unidades** para mostrar o número de repositórios por milhares e controlar as casas decimais também. Por exemplo, 125,8K em vez de 125.832,00.
+
+3.  Expanda **Rótulo de categoria** e altere a cor e o tamanho.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. Expanda **Plano de fundo** e mova o controle deslizante para ligado.  Agora você pode alterar a cor da tela de fundo e a transparência.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Continue para explorar as opções de formatação até que seu cartão esteja exatamente como você deseja. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Próximas etapas
 [Blocos de Dashboard no Power BI](service-dashboard-tiles.md)

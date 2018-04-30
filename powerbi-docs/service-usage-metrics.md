@@ -1,29 +1,29 @@
 ---
-title: "Métricas de uso de dashboards e relatórios"
-description: "Como exibir, salvar e usar métricas de uso de relatórios e dashboards do Power BI. Meça e amplie seu impacto com as métricas de uso para criadores de conteúdo."
+title: Métricas de uso de dashboards e relatórios
+description: Como exibir, salvar e usar métricas de uso de relatórios e dashboards do Power BI. Meça e amplie seu impacto com as métricas de uso para criadores de conteúdo.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso de dashboards e relatórios
 Se você cria dashboards e relatórios, as métricas de uso ajudam a compreender seus impactos. Quando executa as métricas de uso de um dashboard ou de um relatório, você descobre como esses dashboards e relatórios estão sendo usados em sua organização – o que está sendo usado, por quem e para que finalidade.  
@@ -53,7 +53,7 @@ Quando você seleciona **Métrica de uso** ou o ícone ![ícone de métricas de 
 
 Os relatórios de métricas de uso não serão exibidos em **Recente**, **Espaços de trabalho**, **Favoritos** ou em outras listas de conteúdo. Eles não pode ser adicionados a um aplicativo. Se você fixar um bloco de um relatório de métricas de uso em um dashboard, o dashboard não poderá ser adicionado a um aplicativo ou a um pacote de conteúdo.
 
-Para se aprofundar quanto aos dados do relatório ou para criar seus próprios relatórios relativos ao conjunto de dados, use **Salvar como** (consulte [Salvar o relatório de métrica de uso como um relatório completo do Power BI](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report).
+Para se aprofundar quanto aos dados do relatório ou para criar seus próprios relatórios relativos ao conjunto de dados, use **Salvar como** (consulte [Salvar o relatório de métrica de uso como um relatório completo do Power BI](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Abrir um relatório de métrica de uso para um dashboard ou relatório
 1. Inicie no espaço de trabalho que contém o dashboard ou o relatório.

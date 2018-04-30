@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/16/2017
+ms.date: 04/13/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8089c796441fd4200b146da6330dd5c208bf8b30
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62624d35f1fb477c4daf2ffcef92bb18fb8a6a8e
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conectar-se ao Salesforce com o Power BI
 Com o Power BI, você pode se conectar facilmente à sua conta do Salesforce.com. A criação dessa conexão recupera os dados, além de fornecer automaticamente um painel e relatórios relacionados com base nesses dados.
@@ -72,11 +72,13 @@ Você pode alterar esse painel para exibir os dados de qualquer modo que desejar
 * [Selecionar um bloco](service-dashboard-tiles.md) para abrir o relatório subjacente
 * Enquanto seu conjunto de dados será agendado para ser atualizado diariamente, você pode alterar o agendamento de atualização ou tentar atualizá-lo sob demanda usando **Atualizar Agora**
 
-## <a name="system-requirements"></a>Requisitos de sistema
-* Estar conectado a uma conta do Salesforce que tenha acesso habilitado à API
-* Permissão ter sido concedida ao aplicativo Power BI durante o logon
-* A conta ter chamadas à API suficientes disponíveis para efetuar pull dos dados e atualizá-los
-* Um token de autenticação válido é necessário para a atualização. Certifique-se de ter importado no máximo cinco conjuntos de dados do Salesforce, já que o Salesforce tem um limite de cinco tokens de autenticação por aplicativo
+## <a name="system-requirements-and-considerations"></a>Considerações e requisitos do sistema
+- Estar conectado a uma conta do Salesforce que tenha acesso habilitado à API
+- Permissão ter sido concedida ao aplicativo Power BI durante o logon
+- A conta ter chamadas à API suficientes disponíveis para efetuar pull dos dados e atualizá-los
+- Um token de autenticação válido é necessário para a atualização. Certifique-se de ter importado no máximo cinco conjuntos de dados do Salesforce, já que o Salesforce tem um limite de cinco tokens de autenticação por aplicativo
+- A API dos Relatórios do Salesforce tem uma restrição que dá suporte a até 2.000 linhas de dados.
+
 
 ## <a name="troubleshooting"></a>Solução de problemas
 Se você encontrar algum erro, examine os requisitos acima. Observe também que não há suporte para a capacidade de logon em domínio personalizado de área restrita no momento.

@@ -1,35 +1,39 @@
 ---
-title: "Exibir painéis, blocos de painéis, páginas de relatório e visualizações do relatório no modo de tela inteira"
-description: "Exiba painéis, blocos de painéis, visuais de relatório e páginas de relatório no modo de tela inteira, conhecido como *modo de TV*."
+title: Exibir painéis, blocos, páginas de relatório e visualizações do relatório no modo de tela inteira
+description: Exiba painéis, blocos de painéis, visuais de relatório e páginas de relatório no modo de tela inteira, conhecido como *modo de TV*.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 23241edc3b7fec6b4cf10c422fc7744268ed2cdc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8fc102d7ec13a7d1c18706028d99ecfef9812baf
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
-# <a name="full-screen-mode-in-power-bi"></a>Modo de tela inteira no Power BI
+# <a name="full-screen-mode-in-power-bi-service"></a>Modo de tela inteira no serviço do Power BI
 ## <a name="what-is-full-screen-mode"></a>O que é o modo de tela inteira?
 ![antes e depois do modo de tela inteira do painel](media/service-fullscreen-mode/power-bi-full-screen-comparison.png)
 
-Exiba seu conteúdo (dashboards, páginas de relatório, blocos e visualizações) sem a distração de menus e de barras de navegação.  Você obtém uma visão completa e não adulterada do seu conteúdo instantaneamente, o tempo todo. Isso, às vezes, é chamado de Modo de TV. A funcionalidade disponível no modo de tela inteira varia de acordo com o conteúdo.  
+Exiba seu conteúdo do Power BI (painéis, páginas de relatório, blocos e visualizações) sem a distração de menus e de barras de navegação.  Você obtém uma visão completa e não adulterada do seu conteúdo instantaneamente, o tempo todo. Isso, às vezes, é chamado de Modo de TV. A funcionalidade disponível no modo de tela inteira varia de acordo com o conteúdo. 
+
+Se você estiver usando o Power BI móvel, a [tela inteira estará disponível para aplicativos móveis do Windows 10](mobile-windows-10-app-presentation-mode.md). O Power BI Desktop não tem um modo de tela inteira para relatórios ou visualizações, mas tem Ajustar página para [exibição de relações](desktop-report-view.md) e [modo de foco para visuais do relatório](service-focus-mode.md).
+
+ 
 
 Alguns usos para o modo de tela inteira são:
 
