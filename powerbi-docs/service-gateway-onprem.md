@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="on-premises-data-gateway"></a>Gateway de dados local
 O gateway de dados local atua como uma ponte, fornecendo uma transferência de dados rápida e segura entre os dados locais (dados que não estão na nuvem) e os serviços do Power BI, Microsoft Flow, Aplicativos Lógicos e PowerApps.
@@ -95,6 +95,11 @@ Quando você adiciona uma fonte de dados ao gateway, é necessário fornecer cre
 * No momento, não há suporte para a [Proteção de Informações do Azure](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
 )
 * No momento, não há suporte para o [Access Online](https://products.office.com/en-us/access)
+
+## <a name="tenant-level-administration"></a>Administração de nível de locatário 
+
+Não há no momento nenhum único local em que os administradores de locatários podem gerenciar todos os gateways que outros usuários têm instalados e configurados.  Se você é um administrador de locatários, recomendamos que você peça aos usuários em sua organização que lhe adicionem como um administrador para cada gateway que instalarem. Isso permite que você gerencie todos os gateways na sua organização por meio da página de Configurações de Gateway ou pelos [comandos do PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+
 
 ## <a name="troubleshooting"></a>Solução de problemas
 Se você tiver problemas ao instalar e configurar um gateway, veja [Solução de problemas do gateway de dados local](service-gateway-onprem-tshoot.md). Se você achar que está tendo um problema com seu firewall, confira a seção [proxy ou firewall](service-gateway-onprem-tshoot.md#firewall-or-proxy) no artigo de solução de problemas.
