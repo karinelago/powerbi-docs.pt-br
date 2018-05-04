@@ -2,27 +2,28 @@
 title: Power BI e Excel
 metadata:
   title: Power BI e Excel | Microsoft Power BI
-  description: "Use o Excel e Power BI juntos e crie elementos visuais e relatórios avançados e conectados."
+  description: Use o Excel e Power BI juntos e crie elementos visuais e relatórios avançados e conectados.
   audience: Business User
   level: Beginner
-  nextTutorialHref: publishingandsharing
+  nextTutorialHref: publishingandsharing.yml
   nextTutorialTitle: Publicando e compartilhando
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc4e7ae228222e696c481c53a2d4f87b8ed1a146
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 409b3c25c0d9841d21f8c9be1ee20af37dafe846
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: pt-BR
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
-  content: "Use o Excel e Power BI juntos e crie elementos visuais e relatórios avançados e conectados.\n"
-- title: "Introdução ao uso de dados do Excel no Power BI"
+  content: >
+    Use o Excel e Power BI juntos e crie elementos visuais e relatórios avançados e conectados.
+- title: Introdução ao uso de dados do Excel no Power BI
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
@@ -50,11 +51,11 @@ items:
 
 
     [!INCLUDE [](includes/5-4-connect-onedrive-for-business.md)]
-- title: "Excel no Power BI – resumo"
+- title: Excel no Power BI – resumo
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/HNhK9XMuyO4?rel=0]
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Parabéns por concluir a seção **Power BI e Excel** da aprendizagem guiada do Power BI. Em seguida, você aprenderá sobre publicação e compartilhamento.\0"
+- content: Parabéns por concluir a seção **Power BI e Excel** da aprendizagem guiada do Power BI. Em seguida, você aprenderá sobre publicação e compartilhamento.
