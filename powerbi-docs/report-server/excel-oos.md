@@ -1,39 +1,32 @@
 ---
-title: "Configure seu servidor de relatório para hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online)"
-description: "Além de exibirem os relatórios do Power BI no portal da Web, os usuários empresariais agora podem fazer o mesmo com as pastas de trabalho do Excel no Servidor de Relatórios do Power BI."
+title: Hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online) - Servidor de Relatórios do Power BI
+description: Além de exibir os relatórios do Power BI no portal da Web, o Servidor de Relatórios do Power BI pode hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure seu servidor de relatório para hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online)
-Além de exibirem os relatórios do Power BI no portal da Web, os usuários empresariais agora podem fazer o mesmo com as pastas de trabalho do Excel no Servidor de Relatórios do Power BI, o que proporciona a eles uma única localização para publicar e exibir seu conteúdo de autoatendimento do Microsoft BI.
-
-> [!NOTE]
-> Esta é uma versão prévia do recurso que está incluída na versão prévia de agosto de 2017. Para obter mais informações, consulte [Novidades no Servidor de Relatório do Power BI](whats-new.md).
-> 
-> 
+Além de exibir os relatórios do Power BI no portal da Web, o Servidor de Relatórios do Power BI pode hospedar pastas de trabalho do Excel usando o [OOS (Servidor do Office Online)](https://docs.microsoft.com/officeonlineserver/office-online-server-overview). O servidor de relatório se torna um único local para publicar e exibir o conteúdo do Microsoft BI de autoatendimento.
 
 ![Relatórios do Excel visualizados do portal da Web do servidor de relatórios.](media/excel-oos/excel-in-pbirs.png)
-
-Isso é feito com o uso do [OOS](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (Servidor do Office Online).
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Preparar o servidor para executar o Servidor do Office Online
 Realize esses procedimentos no servidor que executará o Servidor do Office Online. Esse servidor deve ser o Windows Server 2012 R2 ou o Windows Server 2016. O Windows Server 2016 requer o Servidor do Office Online de abril de 2017 ou posterior.

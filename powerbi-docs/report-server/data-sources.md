@@ -1,6 +1,6 @@
 ---
 title: Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
-description: Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis.
+description: Os relatórios do Power BI (.pbix) podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
-Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI (.pbix) no Servidor de Relatórios do Power BI
+Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
 
-Essas fontes de dados são específicas aos relatórios do Power BI usados no Servidor de Relatórios do Power BI. Para obter informações sobre fontes de dados compatíveis com relatórios paginados, consulte [Fontes de dados com suporte no Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Essas fontes de dados são específicas aos relatórios do Power BI usados no Servidor de Relatórios do Power BI. Para obter informações sobre fontes de dados compatíveis com relatórios paginados (.rdl), veja [Fontes de dados com suporte no Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> Todas as fontes de dados em um relatório do Power BI Desktop devem ser compatíveis para configuração da atualização agendada.
-> 
-> 
+> Todas as fontes de dados em um relatório do Power BI Desktop devem ser compatíveis com a configuração da atualização agendada.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Lista de fontes de dados compatíveis
 
@@ -216,7 +215,7 @@ O Servidor de Relatórios do Power BI não é compatível com a autenticação c
 
 
 ## <a name="next-steps"></a>Próximas etapas
-Agora que você escolheu a fonte de dados, [crie um relatório](quickstart-create-powerbi-report.md) usando os dados dela.
+Agora que você se conectou à sua fonte de dados, [crie um relatório do Power BI](quickstart-create-powerbi-report.md) usando os dados da fonte de dados.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

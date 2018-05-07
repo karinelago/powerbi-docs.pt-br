@@ -1,15 +1,15 @@
 ---
-title: "Inserir conteúdo do Power BI em um aplicativo para seus clientes"
-description: "Aprenda a integrar ou inserir um dashboard, bloco ou relatório em um aplicativo Web usando APIs do Power BI para seus clientes."
+title: Inserir conteúdo do Power BI em um aplicativo para seus clientes
+description: Aprenda a integrar ou inserir um dashboard, bloco ou relatório em um aplicativo Web usando APIs do Power BI para seus clientes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Insira um dashboard, bloco ou relatório do Power BI no aplicativo
 Saiba como integrar ou inserir um dashboard, um bloco ou relatório em um aplicativo Web usando o SDK do .NET do Power BI, junto com a API JavaScript do Power BI durante a inserção para os clientes. Normalmente, esse é o cenário de ISV.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 Um token de inserção precisa ser gerado, o qual pode ser usado por meio da API JavaScript. O token de inserção será específico ao item que estiver sendo inserido. Isso significa que sempre que você inserir uma parte do conteúdo do Power BI, precisará criar um novo token de inserção para ele. Para obter mais informações, incluindo qual **accessLevel** usar, consulte [API GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
 
 > [!IMPORTANT]
-> Como os tokens inseridos destinam-se apenas para teste de desenvolvimento, o número de tokens inseridos que uma conta mestre do Power BI pode gerar é limitado. Uma [capacidade deve ser adquirida](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de integração de produção. Não há nenhum limite para a geração de tokens inseridos quando uma capacidade é adquirida.
+> Como os tokens inseridos destinam-se apenas para teste de desenvolvimento, o número de tokens inseridos que uma conta mestre do Power BI pode gerar é limitado. Uma [capacidade deve ser adquirida](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para cenários de integração de produção. Não há nenhum limite para a geração de tokens inseridos quando uma capacidade é adquirida. Acesse [Obter recursos disponíveis](https://msdn.microsoft.com/en-us/library/mt846473.aspx) para verificar quantos tokens gratuitos inseridos foram usados.
 
 Uma amostra disso está disponível em **Controllers\HomeController.cs** da [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 

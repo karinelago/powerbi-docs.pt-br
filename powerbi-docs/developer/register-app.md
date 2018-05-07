@@ -1,27 +1,27 @@
 ---
-title: "Registrar um aplicativo para inserir o conteúdo do Power BI"
-description: "Saiba como registrar um aplicativo no Azure Active Directory para uso com a inserção de conteúdo do Power BI."
+title: Registrar um aplicativo para inserir o conteúdo do Power BI
+description: Saiba como registrar um aplicativo no Azure Active Directory para uso com a inserção de conteúdo do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/05/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: cc9a4c7a29ddb84e6230d42f31a9c6a0427008f1
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: e3d0e8b98135e232809cd2b5e3fc06827b1f480e
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registrar um aplicativo do Azure AD para inserir o conteúdo do Power BI
 Saiba como registrar um aplicativo no Azure AD (Azure Active Directory) para uso com a inserção de conteúdo do Power BI.
@@ -59,6 +59,22 @@ Veja aqui como registrar seu aplicativo com a Ferramenta de Registro de Aplicati
    
     Em seguida, você receberá uma **ID do cliente**. Se você selecionou **Aplicativo Web do servidor**, você também receberá um **Segredo do cliente**. A **ID do Cliente** pode ser recuperada no portal do Azure, mais tarde, se necessário. Se você perder o **Segredo do Cliente**, precisará criar um novo no portal do Azure.
 
+8. Você precisará navegar até o Azure para selecionar **Conceder permissões**.
+> [!Note]
+    > É necessário ser administrador global no locatário do Azure para concluir isso
+>
+
+* Acesse o Azure.
+* Pesquise e selecione **Registros do aplicativo**.
+* Escolha seu aplicativo.
+* Selecione **Configurações**.
+* Selecione **Permissões necessárias**:
+* Selecione **Serviço do Power BI** para verificar as permissões que você selecionou no site de Registro do aplicativo.
+* Selecione **Conceder Permissões**.
+
+
+
+
 Agora é possível usar o aplicativo registrado como parte do aplicativo personalizado para interagir com o serviço do Power BI.
 
 > [!IMPORTANT]
@@ -78,7 +94,7 @@ Sua outra opção para registrar seu aplicativo é fazer isso diretamente no por
 5. Siga os prompts e crie um novo aplicativo.
    
    * Para Aplicativos Web, forneça a URL de Logon, que é a URL base do aplicativo, à qual os usuários podem se conectar, por exemplo, http://localhost:13526.
-   * Para aplicativos nativos, forneça um URI de redirecionamento, que usa o Azure AD para retornar respostas de token. Insira um valor específico ao aplicativo, por exemplo, http://myapplication/redirect
+   * Para aplicativos nativos, forneça um URI de redirecionamento, que usa o Azure AD para retornar respostas de token. Insira um valor específico para seu aplicativo, por exemplo, http://myapplication/redirect
 
 Para obter mais informações sobre como registrar aplicativos no Azure Active Directory, consulte [Integrando aplicativos ao Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -190,4 +206,5 @@ Você deve estar conectado com a conta *mestre*, usada para a inserção, ou ent
 Agora que você registrou o aplicativo no Azure AD, precisará autenticar usuários no aplicativo. Confira [Autenticar usuários e obter um token de acesso do Azure AD para o aplicativo do Power BI](get-azuread-access-token.md) para saber mais.
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
+
 

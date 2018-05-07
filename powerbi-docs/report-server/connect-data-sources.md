@@ -1,43 +1,34 @@
 ---
-title: Conectando-se a fontes de dados
-description: "Saiba mais sobre a quais fontes de dados é possível se conectar no Servidor de Relatório do Power BI."
+title: Fontes de dados de relatório paginado (.rdl) no Servidor de Relatórios do Power BI
+description: Saiba mais sobre as fontes de dados as quais os relatórios paginados (.rdl) podem se conectar no Servidor de Relatórios do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>Conectando-se a fontes de dados
-Saiba mais sobre a quais fontes de dados é possível se conectar no Servidor de Relatório do Power BI.
-
-## <a name="power-bi-reports"></a>Relatórios do Power BI
-Os relatórios do Power BI podem funcionar com os dados importados ou com uma conexão dinâmica do Analysis Services juntamente com o DirectQuery. A versão de outubro de 2017 inclui suporte para conexões que não sejam conexões dinâmicas do Analysis Services. Isso inclui dados importados. Você pode baixar a versão de outubro de 2017 em [powerbi.com](https://powerbi.microsoft.com/report-server/).
-
-Para obter informações sobre quais fontes de dados são compatíveis, consulte [Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI](data-sources.md).
-
-## <a name="other-reports"></a>Outros relatórios
-Outros tipos de relatório dão suporte às mesmas fontes de dados que estão presentes no SQL Server Reporting Services. Para obter mais informações, consulte [Fontes de dados com suporte no Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+# <a name="paginated-report-rdl-data-sources"></a>Fontes de dados de relatório paginado (.rdl)
+Os relatórios paginados do Reporting Services no Servidor de Relatórios do Power BI oferecem suporte às mesmas fontes de dados que têm suporte nos SQL Server Reporting Services. Veja a lista de [Fontes de dados com suporte do Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="next-steps"></a>Próximas etapas
-[Manual do usuário](user-handbook-overview.md)  
-[Início rápido: relatórios paginados](quickstart-create-paginated-report.md)  
-[Início rápido: relatórios do Power BI](quickstart-create-powerbi-report.md)
+Agora que você se conectou à fonte de dados, [crie um relatório paginado](quickstart-create-paginated-report.md).  
+
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

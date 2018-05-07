@@ -1,28 +1,28 @@
 ---
 title: Inscreva-se para o Power BI para clientes do Governo dos Estados Unidos
-description: "Para clientes do Governo dos EUA, saiba como se inscrever em sua organização do Governo dos EUA para o serviço do Governo dos EUA do Power BI"
+description: Para clientes do Governo dos EUA, saiba como se inscrever em sua organização do Governo dos EUA para o serviço do Governo dos EUA do Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Registrar sua organização do Governo dos EUA no serviço do Power BI
 O **serviço do Power BI** tem uma versão disponível para clientes do Governo dos Estados Unidos como parte das assinaturas da **Comunidade do Governo dos EUA do Office 365**. A versão do **serviço do Power BI** discutida neste artigo é desenvolvida especificamente para clientes do Governo dos EUA e é separada e diferente da versão comercial do **serviço do Power BI**.
@@ -48,7 +48,7 @@ Se a sua organização for um cliente novo da **Nuvem do Governo do Office**, si
 > Essas etapas devem ser realizadas pelo administrador do portal.
 >
 
-1. Acesse [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
+1. Vá para [https://products.office.com/en-us/government/office-365-web-services-for-government](https://products.office.com/en-us/government/office-365-web-services-for-government).
 
 >[!NOTE]
 >Se você não quiser se inscrever na Nuvem do Governo do Office nesse momento, entre em contato com o representante de vendas.
@@ -82,7 +82,7 @@ A seguir estão informações adicionais para se inscrever no **Power BI do Gove
 * Clique e prossiga para Cobrança > Serviço de Compra > Power BI Pro Gov e selecione Comprar, e não Avaliação
 * Preencha o necessário e obtenha as licenças
 * Remova a Avaliação do Power BI Pro ou as licenças antigas e Atribua as novas aos usuários
-* Faça logon em [https://app.powerbigov.us](https://app.powerbigov.us)
+* Fazer logon em [https://app.powerbigov.us](https://app.powerbigov.us)
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Integração de cliente de revendedor da versão de avaliação do Power BI para a versão Pro
 Acesse **Cobrança > Assinaturas** e selecione a assinatura do **Power BI Pro para Governo**. Lá você verá:
@@ -97,12 +97,7 @@ Acesse **Cobrança > Assinaturas** e selecione a assinatura do **Power BI Pro pa
 ### <a name="whitelisting-instructions"></a>Instruções de Lista de Permissões
 A *Lista de Permissões* é um processo que a equipe de engenharia do Power BI usa para mover clientes do ambiente de nuvem comercial para o ambiente de nuvem seguro de Governo. Isso garante que os recursos disponíveis na nuvem do Governo dos EUA funcionem conforme o esperado. Todos os clientes US Government existentes (ou novos) que comprarem os serviços do **Power BI** US Government pela primeira vez *deverão* iniciar o seguinte processo de lista de permissões. O processo deve ser executado antes da instalação ou da migração para os serviços do **Power BI** US Government. 
 
-Para fazer com que seu locatário seja adicionado à *lista de permissões* da nuvem do Governo dos EUA, preencha um tíquete de suporte que faça a solicitação no link a seguir. Observe que somente administradores podem fazer esta solicitação:
-
-* [Solicitação de suporte online da *Lista de Permissões*](https://powerbi.microsoft.com/clouds/)
-* Certifique-se de incluir o domínio a ser adicionado à *lista de permissões* e o email para o representante da Microsoft que está trabalhando com você no processo.
-
-O processo de *Lista de Permissões* leva aproximadamente três semanas, durante o qual a equipe de engenharia do Power BI faz as alterações apropriadas para garantir que seu locatário opere adequadamente na nuvem do Governo dos EUA.
+Para incluir seu locatário em uma *lista de permissões* para a nuvem do Governo dos EUA, entre em contato com a equipe de conta da Microsoft para obter assistência com a inclusão na lista. Observe que somente administradores podem fazer esta solicitação. O processo de *Lista de Permissões* leva aproximadamente três semanas, durante o qual a equipe de engenharia do Power BI faz as alterações apropriadas para garantir que seu locatário opere adequadamente na nuvem do Governo dos EUA.
 
 Os clientes que estão migrando de licenças do Power BI **Gratuito** para o **Power BI do Governo dos EUA** (e, por definição, migrando para os recursos associados da licença **Pro**, descritos anteriormente neste artigo) encontrarão os problemas descritos na seção a seguir deste artigo, até que seu locatário seja adicionado à *lista de permissões* pela equipe de engenharia do Power BI.
 

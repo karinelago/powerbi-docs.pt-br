@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Usar indicadores para compartilhar insights e criar histórias no Power BI 
 Os **indicadores** no Power BI ajudam você a capturar a exibição de uma página de relatório atualmente configurada, incluindo a filtragem e o estado dos visuais e, posteriormente, voltar a esse estado, apenas selecionando esse indicador salvo. 
@@ -69,6 +69,10 @@ O **Power BI Desktop** cria um indicador e concede a ele um nome genérico. Voc�
 
 Uma vez que um indicador, você pode exibi-lo, simplesmente clicando no indicador no painel **Indicadores**. 
 
+Você também pode selecionar se cada indicador aplicará propriedades de *dados*, como filtros e segmentações de dados, propriedades de *exibição*, como destaques e visibilidade, e alterações de página que apresentam a página que estava visível quando o indicador foi adicionado. Esses recursos são úteis quando você usa indicadores para alternar entre os tipos visuais - nesse caso, convém desativar as propriedades dos dados, para que os filtros não sejam redefinidos quando os usuários alterarem os tipos de visual. 
+
+Para fazer essas alterações, selecione as reticências ao lado do nome do indicador, conforme mostra a imagem anterior, depois marque ou desmarque as marcas de seleção ao lado de *Dados*, *Exibição* e outros controles. 
+
 ## <a name="arranging-bookmarks"></a>Organizando indicadores
 Conforme você cria os indicadores, você pode achar que a ordem em que eles são criados não é necessariamente a mesma em que você gostaria de apresentá-los para o público-alvo. Não há problema, você pode facilmente reorganizar a ordem dos indicadores.
 
@@ -105,13 +109,13 @@ Quando um indicador é adicionado, o status visível de cada objeto também é s
 É importante observar que **segmentações** continuam a filtrar uma página de relatório independentemente de estarem visíveis. Assim, você pode criar vários indicadores diferentes com diferentes configurações de segmentação e fazer uma única página de relatório ter aparência muito diferente (e realçar insights diferentes) em indicadores diversos.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Indicadores para imagens e formas
-Você também pode vincular formas e imagens a indicadores. Com esse recurso, quando você clica em um objeto, ele mostra o indicador a ele associado. 
+Você também pode vincular formas e imagens a indicadores. Com esse recurso, quando você clica em um objeto, ele mostra o indicador a ele associado. Isso pode ser especialmente útil ao trabalhar com botões; você pode aprender mais lendo o artigo sobre [usar botões no Power BI](desktop-buttons.md). 
 
-Para atribuir um indicador a um objeto, selecione o objeto e selecione **Link** no painel **Formatar Forma**, conforme mostrado na imagem a seguir.
+Para atribuir um indicador a um objeto, selecione o objeto e expanda a seção **Ação** no painel **Formatar Forma**, conforme mostrado na imagem a seguir.
 
 ![Adicionar link de indicador a um objeto](media/desktop-bookmarks/bookmarks_10.png)
 
-Depois de deixar o controle deslizante **Link** **Ativado**, você pode selecionar se o objeto é um link ou um indicador. Se você selecionar indicador, você poderá selecionar a qual dos seus indicadores o objeto está vinculado.
+Após alterar o controle deslizante **Ação** para **Ativado**, você pode selecionar se o objeto é um botão de voltar, um indicador ou um comando de P e R. Se você selecionar indicador, você poderá selecionar a qual dos seus indicadores o objeto está vinculado.
 
 Há inúmeras coisas interessantes que você pode fazer com indicadores vinculados a objetos. Você pode criar um sumário visual na sua página de relatório ou então você pode fornecer exibições diferentes (como tipos de visual) das mesmas informações apenas clicando em um objeto.
 
@@ -138,9 +142,7 @@ Por outro lado, quando **Destaque** é selecionado do menu de reticências do vi
 Se qualquer um desses modos está selecionado quando um indicador é adicionado, esse modo (de foco ou de destaque) é mantido no indicador.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Indicadores no serviço do Power BI
-Quando você publica um relatório para o **serviço do Power BI** com pelo menos um indicador, você pode exibir e interagir com esses indicadores no **serviço do Power BI**. Para cada relatório que você publicar, você deverá fazer com que pelo menos um indicador seja criado no relatório, antes de publicar, para que o recurso de marcador esteja disponível no **serviço do Power BI**.
-
-Quando os indicadores estão disponíveis em um relatório, você pode selecionar **Exibição > Painel de seleção** ou **Exibição > Painel de indicadores** para mostrar cada um desses painéis.
+Quando você publica um relatório para o **serviço do Power BI** com pelo menos um indicador, você pode exibir e interagir com esses indicadores no **serviço do Power BI**. Quando os indicadores estão disponíveis em um relatório, você pode selecionar **Exibição > Painel de seleção** ou **Exibição > Painel de indicadores** para mostrar cada um desses painéis.
 
 ![Exibir indicadores e painéis de seleção e indicadores no serviço do Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ Observe que você deve usar a barra de título de indicador cinza para navegar e
 ## <a name="limitations-and-considerations"></a>Limitações e considerações
 Nesta versão dos **indicadores**, há algumas limitações e considerações a serem lembradas.
 
-* Visuais personalizados não funcionam com marcadores se eles são a *origem* do filtro. Se você estiver usando visuais personalizados para filtrar os elementos em uma página (por exemplo, a segmentação chiclet) e retornar para a página usando um indicador, a página poderá ser filtrada, mas o visual personalizado não será atualizado para mostrar o modo como a página será filtrada. 
-* O status de realce cruzado para um painel do relatório *não* é salvo quando você criar um indicador. 
+* A maioria dos visuais personalizados deve funcionar bem com indicadores. Se você tiver problemas com o uso de indicadores e de um visual personalizado, entre em contato com o criador do visual personalizado e peça que adicione suporte a indicadores ao seu visual. 
 * Se você adicionar um visual em uma página de relatório depois de criar um indicador, o visual será exibido em seu estado padrão. Isso também significa que, se você introduzir uma segmentação em uma página em que você tiver criado indicadores anteriormente, a segmentação se comportará em seu estado padrão.
 * A movimentação de visuais após a criação de um indicador se refletirá nele. 
-* Ao publicar um relatório no **serviço do Power BI**, esse relatório *deve* conter pelo menos um indicador para que indicadores estejam disponíveis no serviço. Esse é um requisito para cada relatório que você publicar.
+
 
 ## <a name="next-steps"></a>Próximas etapas
 Para obter mais informações sobre os recursos que são semelhantes ou interagem com indicadores, consulte os seguintes artigos:
