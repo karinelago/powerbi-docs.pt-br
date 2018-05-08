@@ -15,13 +15,13 @@ ms.devlang: NA
 ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/09/2018
+ms.date: 04/23/2018
 ms.author: maggies
-ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: eeb6fe244057f10e33936c475f753cfba95deed8
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -34,7 +34,7 @@ Para informações sobre “Novidades” relacionadas, consulte:
 
 ### <a name="mobile-drill-down-and-drill-up"></a>Fazer drill down e fazer drill up móvel
 
-Agora você pode fazer drill down e drill up para se aprofundar em elementos visuais de relatório em seu dispositivo móvel. Para acessar esse novo recurso, toque e segure para abrir o menu de dica de ferramenta em um visual do relatório e toque nos botões de análise para explorar seus dados em profundidade.
+Agora você pode fazer drill down e drill up para se aprofundar em elementos visuais de relatório em seu dispositivo móvel. Para acessar esse novo recurso, toque e segure para abrir o menu de dica de ferramenta em um visual do relatório e toque nos botões de análise para explorar seus dados em profundidade. Saiba mais sobre [fazer drill up e drill drown nos aplicativos móveis](https://powerbi.microsoft.com/blog/drill-down-up-in-power-bi-mobile-apps/).
 
 ### <a name="persistent-filters"></a>Filtros persistentes
 
@@ -542,6 +542,6 @@ Aprimoramentos nos aplicativos móveis do Power BI, Android, iOS (iPhone e iPad)
 #### <a name="windows"></a>Windows
 * Bloco de mapa aprimorada de renderização no modo em foco para aumentar o espaço na tela.
 * Melhor experiência de usuário ao acessar painéis usando a segurança baseada em função. 
-* Uma nova funcionalidade permite que você navegue para frente e para trás por meio de blocos de painel explorando-os diretamente no modo de foco sem a necessidade de retornar ao painel para selecionar o próximo bloco.
+* Uma nova funcionalidade permite que você navegue para frente e para trás por meio de blocos de painel explorando-os diretamente no modo em foco sem a necessidade de retornar ao painel para selecionar o próximo bloco.
 * Estabilidade adicional e melhorias de desempenho. 
 

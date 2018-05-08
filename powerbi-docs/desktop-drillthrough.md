@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usar o detalhamento no Power BI Desktop
 Com o **detalhamento** no **Power BI Desktop**, você pode criar uma página em seu relatório que tem como foco uma entidade específica – como um fornecedor, cliente ou fabricante. Com essa página de relatório com foco, os usuários podem clicar com o botão direito do mouse em um ponto de dados em outras páginas do relatório e executar uma consulta drill-through para a página com foco para obter detalhes filtrados para esse contexto.
@@ -45,8 +45,8 @@ Com o **detalhamento** no **Power BI Desktop**, você pode criar uma página em 
 ## <a name="use-your-own-image-for-a-back-button"></a>Use sua própria imagem para um botão Voltar    
  Como o botão Voltar é uma imagem, você pode substituir a imagem desse visual por qualquer imagem desejada e ele ainda funcionará como o botão Voltar para que os consumidores do relatório possam voltar para a página original.
 
-1. Para usar sua própria imagem para um botão Voltar, coloque uma um visual de imagem na página de detalhamento.
-2. Selecione o visual e defina o controle deslizante **botão Voltar** como ligado. Sua imagem agora funciona como um botão Voltar.
+1. Na guia da **Página Inicial**, clique em **Imagem**, em seguida, localize a imagem e coloque-a na página de detalhamento.
+2. Selecione a nova imagem na página de Detalhamento e na seção Formatar Imagem, defina o controle deslizante de **Link** como ativado e defina o **Tipo** como **Voltar**. Sua imagem agora funciona como um botão Voltar.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 
