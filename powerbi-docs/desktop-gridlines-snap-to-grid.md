@@ -1,31 +1,31 @@
 ---
-title: "Use linhas de grade e ajuste de grade em relatórios do Power BI Desktop"
-description: "Usar linhas de grade, ajustar à grade, ordem z, alinhamento e distribuição em relatórios do Power BI Desktop"
+title: Use linhas de grade e ajuste de grade em relatórios do Power BI Desktop
+description: Usar linhas de grade, ajustar à grade, ordem z, alinhamento e distribuição em relatórios do Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1b6b1a3ecda7d3f827975da8fcfec5d9d5b67023
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Use linhas de grade e ajuste de grade em relatórios do Power BI Desktop
-A tela de relatório do **Power BI Desktop** fornece linhas de grade que permitem que você alinhe adequadamente visuais em uma página de relatório e também fornece a funcionalidade de ajustar à grade para que os visuais em seus relatórios pareçam limpos, alinhados e com espaçamento uniforme.
+A tela de relatório do **Power BI Desktop** fornece linhas de grade que permitem que você alinhe adequadamente visuais em uma página de relatório e use a funcionalidade de ajustar à grade para que os visuais em seus relatórios fiquem limpos, alinhados e com espaçamento uniforme.
 
 No **Power BI Desktop**, também é possível ajustar a ordem z (avançar, recuar) de objetos em um relatório, bem como alinhar ou distribuir uniformemente os visuais selecionados na tela.
 
@@ -42,21 +42,21 @@ Para habilitar as linhas de grade e o ajuste à grade, selecione a faixa de opç
 > 
 
 ### <a name="using-gridlines"></a>Uso de linhas de grade
-Linhas de grade são guias de elementos visuais que permitem que você veja se dois ou mais elementos visuais estão alinhados corretamente. Quando estiver tentando determinar se dois (ou mais) elementos visuais estão alinhados horizontalmente ou verticalmente, use as linhas de grade para determinar visualmente se suas bordas se alinham.
+As linhas de grade são guias visíveis que ajudam a alinhar os visuais. Quando você estiver tentando determinar se dois (ou mais) visuais estão alinhados horizontalmente ou verticalmente, use as linhas de grade para determinar visualmente se suas bordas estão alinhadas.
 
-Você pode usar *CTRL + clique* para selecionar mais de um elemento visual por vez, que exibe as bordas de todos os elementos visuais selecionados, que ajuda você a ver facilmente se os elementos visuais estão alinhados corretamente.
+Use Ctrl + clique para selecionar mais de um visual de uma vez, o que exibe as bordas de todos os visuais selecionados e mostra se os visuais estão alinhados corretamente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
 #### <a name="using-gridlines-inside-visuals"></a>Usando linhas de grade dentro de visuais
-No Power BI, também há linhas de grade dentro de visuais, que fornecem guias de visuais para comparação de valores e pontos de dados. A partir da versão de setembro de 2017 do **Power BI Desktop**, agora você pode gerenciar as linhas de grade nos visuais usando o cartão **Eixo X** ou **Eixo Y** (conforme apropriado, com base no tipo de visual), encontrado na seção **Formato** do painel **Visualizações**. Gerencie os seguintes elementos de linhas de grade dentro de um visual:
+No Power BI também há linhas de grade dentro dos visuais que fornecem as guias visíveis para comparar valores e pontos de dados. A partir da versão de setembro de 2017 do **Power BI Desktop**, agora você pode gerenciar as linhas de grade nos visuais usando o cartão **Eixo X** ou **Eixo Y** (conforme apropriado, com base no tipo de visual), encontrado na seção **Formato** do painel **Visualizações**. Gerencie os seguintes elementos de linhas de grade dentro de um visual:
 
 * Ativar ou desativar linhas de grade
 * Alterar a cor das linhas de grade
 * Ajustar o traço (a largura) das linhas de grade
 * Selecionar o estilo de linha das linhas de grade no visual, como sólido, tracejado ou pontilhado
 
-A modificação de alguns elementos das linhas de grade pode ser especialmente útil em relatórios nos quais são usadas telas de fundo escuras em visuais. A imagem a seguir mostra a seção *Linhas de grade* no cartão **Eixo X**.
+A modificação de alguns elementos das linhas de grade pode ser especialmente útil em relatórios nos quais são usadas telas de fundo escuras em visuais. A imagem a seguir mostra a seção **Linhas de grade** no cartão **Eixo y**.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
@@ -65,22 +65,22 @@ Quando você habilita **Ajustar objetos à grade**, todos os elementos visuais n
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
-E isso é tudo para usar **linhas de grade** e **ajuste de grade** para garantir facilmente que os elementos visuais em seus relatórios estejam alinhados adequadamente.
+E isso é tudo para usar **linhas de grade** e **ajustar à grade** para garantir que os visuais em seus relatórios fiquem alinhados adequadamente.
 
 ### <a name="using-z-order-align-and-distribute"></a>Usando a ordem z, alinhar e distribuir
-Também é possível gerenciar a ordem de frente para trás de elementos visuais em um relatório, frequentemente conhecida como o *ordem z* de elementos. Isso permite que você sobreponha visuais como você desejar. Em seguida, ajuste a ordem de frente para trás de cada elemento visual. Essa classificação é feita usando os botões **Avançar** e **Recuar**, encontrados na seção **Organizar** da faixa de opções **Formatar**, exibida assim que você seleciona um ou mais visuais na página (e não estará disponível se nenhum elemento visual for selecionado).
+Você pode gerenciar a ordem de frente para trás dos visuais em um relatório, conhecida como *ordem z* de elementos. Este recurso permite sobrepor visuais da maneira que desejar e, em seguida, ajustar a ordem de frente para trás de cada um deles. É possível definir a ordem dos visuais usando os botões **Avançar** e **Recuar**, encontrado na seção **Organizar** da faixa de opções **Formato**. A faixa de opções **Formato** é exibida assim que você seleciona um ou mais visuais na página.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
 
-A faixa de opções **Formatar** também permite que você alinhe seus visuais de várias maneiras diferentes. Isso permite que você garanta que seus visuais sejam exibidos na página no alinhamento que você acredita ter melhor aparência e funcionamento.
+A faixa de opções **Formato** permite que você alinhe os visuais de várias maneiras diferentes, o que garante que eles sejam exibidos na página com o alinhamento que tenha a melhor aparência e funcionamento.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_5.png)
 
-Quando um elemento visual é selecionado, usar o botão **Alinhar** alinha esse elemento visual à borda (ou ao centro) da tela do relatório, conforme mostrado na imagem a seguir.
+O botão **Alinhar** alinha um visual selecionado à borda (ou ao centro) da tela do relatório, conforme é mostrado na imagem a seguir.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_6.png)
 
-Quando dois ou mais visuais são selecionados, eles são alinhados juntos e usam o limite de alinhamento existente dos visuais para alinhamento. Por exemplo, com dois visuais selecionados e o botão *Alinhar à esquerda* selecionado, os visuais serão alinhados ao limite mais à esquerda de todos os visuais selecionados.
+Quando dois ou mais visuais são selecionados, eles são alinhados juntos e usam o limite de alinhamento existente dos visuais para o alinhamento. Por exemplo, se você selecionar dois visuais e escolher a opção **Alinhar à Esquerda**, eles serão alinhados ao limite mais à esquerda de todos os visuais.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 
@@ -88,5 +88,5 @@ Também é possível distribuir seus visuais de maneira uniforme na tela do rela
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_8.png)
 
-Com algumas seleções dessas linhas de grade, alinhamento e ferramentas de distribuição, seus relatórios terão a aparência que você desejar.
+Com algumas seleções dessas ferramentas de linhas de grade, alinhamento e distribuição, seus relatórios terão exatamente a aparência que você desejar.
 
