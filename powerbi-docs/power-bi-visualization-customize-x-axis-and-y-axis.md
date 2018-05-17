@@ -1,14 +1,14 @@
 ---
-title: Personalizar as propriedades do eixo x e y (tutorial)
-description: 'Tutorial: personalizar as propriedades dos eixos x e y'
+title: Personalizar as propriedades dos eixos x e y
+description: Personalizar as propriedades dos eixos x e y
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
+backup: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: 
-tags: 
+editor: ''
+tags: ''
 qualityfocus: complete
 qualitydate: 05/16/2017
 ms.service: powerbi
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d4156429b728718fa89131a46ebd0f5dd5aabf67
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="customize-x-axis-and-y-axis-properties-tutorial"></a>Personalizar as propriedades do eixo x e y (tutorial)
+# <a name="customize-x-axis-and-y-axis-properties"></a>Personalizar as propriedades dos eixos x e y
 Neste tutorial, você aprenderá várias maneiras diferentes de personalizar os eixos X e Y das suas visualizações. Nem todas as visualizações têm eixos ou podem ser personalizadas; gráficos de pizza, por exemplo, não têm eixos. E opções de personalização variam de visualização para visualização, são muitas opções serem abordadas em um único artigo. Então vamos dar uma olhada em algumas das personalizações de eixos mais usadas e torná-lo familiarizado com a guia de formatação de visualização na tela de relatório do Power BI.  
 
 > [!NOTE]

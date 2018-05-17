@@ -1,15 +1,15 @@
 ---
-title: "Tutorial: Da pasta de trabalho do Excel para um relatório incrível em um instante"
-description: "Tutorial: Da pasta de trabalho do Excel para um relatório incrível em um instante"
+title: Da pasta de trabalho do Excel para um relatório incrível em um instante
+description: Da pasta de trabalho do Excel para um relatório incrível em um instante
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 64872b94d13f30cbab08d67530cc6ae0ccbe8fc3
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Da pasta de trabalho do Excel para um relatório incrível em um instante
 Sua gerente deseja ver um relatório sobre os números de vendas mais recentes combinado com as impressões da última campanha no final do dia. Porém, os dados mais recentes residem em vários sistemas de terceiros e em arquivos em seu laptop. Anteriormente, levava várias horas para criar visuais e formatar um relatório. Você está começando a ficar ansioso.

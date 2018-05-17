@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 474cca86151925ee4991d477a6127536180808a8
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: 86f229ecf60a1e1ef89213eed83521a8fadd64a2
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Noções básicas do DAX no Power BI Desktop
 Este artigo é destinado aos novos usuários do Power BI Desktop. O objetivo é oferecer uma introdução rápida e fácil sobre como você pode usar expressões DAX (Data Analysis Expressions) para resolver vários problemas de análise de dados e de cálculo básico. Vamos examinar algumas informações conceituais e uma série de tarefas que você pode executar, além de alguns testes para verificar o que você aprendeu. Depois de ler este artigo, você deve ter uma boa compreensão dos conceitos fundamentais mais importantes no DAX.

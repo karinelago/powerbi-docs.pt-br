@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: cf773de0744ca67df9d13cb934efdc6bbc4991f9
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: eb14e9f0a0139b092127ba7686910e0016bb1bb6
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Atualizar um conjunto de dados armazenado no OneDrive ou no SharePoint Online
 Importar arquivos do OneDrive ou SharePoint Online, para o serviço Power BI é uma ótima maneira de garantir que o trabalho que você está fazendo no **Power BI Desktop** permaneça em sincronia com o serviço do Power BI.

@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
-ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
+ms.openlocfilehash: e993a7ced826879e87b6f1d101f50e264fdc6854
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="on-premises-data-gateway"></a>Gateway de dados local
+
 O gateway de dados local atua como uma ponte, fornecendo uma transferência de dados rápida e segura entre os dados locais (dados que não estão na nuvem) e os serviços do Power BI, Microsoft Flow, Aplicativos Lógicos e PowerApps.
 
 Você pode usar um único gateway com diferentes serviços ao mesmo tempo. Se você estiver usando o Power BI, bem como o PowerApps, um único gateway poderá ser usado para ambos. Ele depende da conta que você usa para entrar.

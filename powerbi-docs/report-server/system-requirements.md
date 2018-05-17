@@ -1,15 +1,15 @@
 ---
-title: "Requisitos de Hardware e de Software para a instalação do Servidor de Relatório do Power BI"
-description: "Aqui você encontrará os requisitos mínimos de hardware e de software para instalar e executar o Servidor de Relatório do Power BI."
+title: Requisitos de Hardware e de Software para a instalação do Servidor de Relatório do Power BI
+description: Aqui você encontrará os requisitos mínimos de hardware e de software para instalar e executar o Servidor de Relatório do Power BI.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 44a1af1553aaa28a5f4abab13bad1fafa040003a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 26710c6a19ea4f9389718bea51ffff82dfadd3eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware e de software para a instalação do Servidor de Relatório do Power BI
 Aqui você encontrará os requisitos mínimos de hardware e de software para instalar e executar o Servidor de Relatório do Power BI.
@@ -76,7 +76,7 @@ Você pode usar uma conexão dinâmica em instâncias tabulares ou multidimensio
 ## <a name="next-steps"></a>Próximas etapas
 [Manual do usuário](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

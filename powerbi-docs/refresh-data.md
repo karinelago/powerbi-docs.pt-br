@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/19/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: decd8a072ba644c9d67a7a0005b752423d32984a
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: bc47a62a7d8854356e482aed9bd86ed51a5d02b9
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="data-refresh-in-power-bi"></a>Atualizar dados no Power BI
 Certificando-se de que sempre obterá os dados mais recentes que costumam ser fundamentais para tomar as decisões corretas. Você provavelmente já usou Obter Dados no Power BI para conectar e carregar alguns dados, criou alguns relatórios e um painel de controle. Agora, você deseja certificar-se de que seus dados são realmente mais recentes e maiores.
@@ -131,7 +131,7 @@ Para obter detalhes, veja [Atualizar um conjunto de dados criado com base em um 
 | Power Query* é usada para se conectar e consultar dados de qualquer fonte de dados online listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Não |
 | O Power Query* é usado para carregar dados no modelo de dados do Excel e para conectar-se a e consultar dados de qualquer fonte de dados listada local, exceto o arquivo do Hadoop (HDFS) e o Microsoft Exchange. |Não |Sim |Sim |
 | Power Pivot é usada para se conectar e consultar dados de qualquer fonte de dados online listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Não |
-| Power Pivot é usada para se conectar e consultar dados de qualquer fonte de dados no local listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Sim |
+| Power Pivot* é usada para se conectar e consultar dados de qualquer fonte de dados no local listada e carregar dados para o modelo de dados do Excel. |Não |Sim |Sim |
 
 *\* Power Query é conhecida como Obter & transformar dados no Excel 2016.*
 

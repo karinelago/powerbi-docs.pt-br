@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 0e9d1ed73abcd7234a96b28da638db649130c08e
-ms.sourcegitcommit: c80fbf5b12754ce217cb47a17cb5400b1036a8f2
+ms.openlocfilehash: d6c624b80bb1ea30dc62026032b5b4f5dd1ef745
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/06/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerenciar relações no Power BI Desktop
 Quando você importa várias tabelas, é provável que você realize algumas análises usando dados de todas essas tabelas. Relações entre essas tabelas são necessárias para calcular os resultados com precisão e exibir as informações corretas em seus relatórios. O Power BI Desktop torna fácil a criação dessas relações. Na verdade, na maioria dos casos, você não precisará fazer nada - o recurso de Detecção Automática pode fazer isso por você. No entanto, em alguns casos, talvez você precise criar relações por conta própria, ou talvez seja necessário fazer algumas alterações em uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e compreender como criá-las e editá-las.

@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 995b1aab5547369ef9c4ceebae3f69c268107164
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Linha do tempo de suporte para Servidor de Relatório do Power BI
 O Servidor de Relatório do Power BI será liberado algumas vezes por ano. As atualizações críticas e de segurança estarão disponíveis até que a próxima versão seja lançada para o público geral (GA). Após a próxima versão, a versão anterior continuará recebendo atualizações de segurança pelo restante da expectativa de vida da versão de 12 meses.
@@ -46,7 +46,7 @@ Para baixar o Servidor de Relatório do Power BI e o Power BI Desktop otimizado 
 [Novidades no Servidor de Relatório do Power BI](whats-new.md)  
 [Manual do usuário](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

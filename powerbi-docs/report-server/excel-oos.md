@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 06783c6e5eabd04a1adc955e5f43521337b748eb
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure seu servidor de relatório para hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online)
 Além de exibir os relatórios do Power BI no portal da Web, o Servidor de Relatórios do Power BI pode hospedar pastas de trabalho do Excel usando o [OOS (Servidor do Office Online)](https://docs.microsoft.com/officeonlineserver/office-online-server-overview). O servidor de relatório se torna um único local para publicar e exibir o conteúdo do Microsoft BI de autoatendimento.
@@ -176,7 +176,7 @@ Depois de inserir a URL de descoberta e selecionar **Aplicar**, a seleção de u
 
 ## <a name="next-steps"></a>Próximas etapas
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

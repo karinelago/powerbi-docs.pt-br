@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 899cef8c4e441c49f40acc7873348fe80a7b5f9d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 6920e31c1f72bf51eeefb7b515f8e54c8fafbfd9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Diretrizes para implantar um gateway de dados para o Power BI
+
 Este artigo fornece diretrizes e considerações para implantar um gateway de dados em seu ambiente de rede. Um **gateway** é um software que facilita o acesso a dados que residem em uma rede privada e local, para uso subsequente em um serviço de nuvem como o Power BI. Este artigo explica a implantação e oferece diretrizes para a instalação do **Gateway de dados local**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
