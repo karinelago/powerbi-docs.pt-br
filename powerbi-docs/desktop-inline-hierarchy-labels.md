@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Usar rótulos de hierarquia embutida no Power BI Desktop
 O **Power BI Desktop** dá suporte para o uso de **rótulos de hierarquia embutida**, que são o primeiro de dois recursos para melhorar a análise hierárquica. O segundo recurso, que atualmente está em desenvolvimento, é a capacidade de usar rótulos de hierarquia aninhados (fique atento – nossas atualizações ocorrem com frequência).   
@@ -30,35 +30,41 @@ O **Power BI Desktop** dá suporte para o uso de **rótulos de hierarquia embuti
 ## <a name="how-inline-hierarchy-labels-work"></a>Como os rótulos de hierarquia em linha funcionam
 Com os rótulos de hierarquia em linha, você pode ver os rótulos de hierarquia quando expande visuais usando o recurso **Expandir Tudo**. Um grande benefício de ver os rótulos de hierarquia é que você também pode optar por **classificar** de acordo com esses diferentes rótulos de hierarquia quando expandir seus dados hierárquicos.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>Usando o recurso interno Expandir Tudo (sem classificar segundo rótulos de hierarquia)
-Antes de vermos os rótulos de hierarquia em linha em ação, vamos analisar o comportamento do recurso **Expandir Tudo** padrão. Fazer isso nos ajudará a compreender (e apreciar) o quanto os rótulos de hierarquia em linha podem ser úteis.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Usando o recurso interno Expandir (sem classificar por rótulos de hierarquia)
+Antes de vermos os rótulos de hierarquia embutidos em ação, vamos examinar o comportamento padrão do recurso **Expandir para o próximo nível**. Fazer isso nos ajudará a compreender (e apreciar) o quanto os rótulos de hierarquia em linha podem ser úteis.
 
-A imagem a seguir mostra um visual de gráfico de barras representando vendas anuais. Quando clica com o botão direito do mouse, você pode escolher **Expandir Tudo**.
+A imagem a seguir mostra um visual de gráfico de barras representando vendas anuais. Ao clicar com o botão direito do mouse em uma barra, você pode escolher **Expandir para o próximo nível**.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Expandir o menu de contexto](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Quando **Expandir Tudo** é selecionado, o visual expande a hierarquia de datas de *Ano* para *Trimestre*, conforme mostrado na imagem a seguir.
+> [!NOTE]
+> Como alternativa ao clique com o botão direito do mouse em uma barra, você pode selecionar o botão *Expandir* no canto superior esquerdo da visualização.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Botão Expandir](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Observe que os rótulos *Ano* e *Trimestre* são exibidos em conjunto... esse esquema de rotulação continua conforme você **Expande Tudo** até o final da hierarquia.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+Quando **Expandir para o próximo nível** está selecionado, o visual expande a hierarquia de datas de *Ano* para *Trimestre*, conforme é mostrado na imagem a seguir.
+
+![Visual expandido para o ano e trimestre](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+Observe que os rótulos *Ano* e *Trimestre* são exibidos juntos embutidos. Esse esquema de rotulação continua conforme você **Expande Tudo** até o final da hierarquia.
+
+![Visual expandido para ano, trimestre e mês](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 É assim que a hierarquia interna de *Data*, associada a campos que têm um tipo de dados *data/hora*, se comporta. Vamos para a próxima seção para ver como o novo recurso de rótulos de hierarquia em linha é diferente.
 
 ### <a name="using-inline-hierarchy-labels"></a>Usando rótulos de hierarquia em linha
-Agora vamos examinar um gráfico diferente – usando dados com hierarquias informais. No visual a seguir, temos um gráfico de barras com **Valor de Vendas**, usando *Cor* como eixo. Nesses dados, *Cor* e *Classe* formam uma hierarquia informal. A partir daqui, você pode selecionar novamente *Expandir Tudo* para fazer o drill down da hierarquia.
+Agora vamos examinar um gráfico diferente – usando dados com hierarquias informais. No visual a seguir, temos um gráfico de barras com **Quantidade**, usando *ProductName* como o eixo. Nesses dados, *ProductName* e *ShipCountry* formam uma hierarquia informal. Aqui você pode selecionar novamente *Expandir para o próximo nível* para fazer uma busca detalhada na hierarquia.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Gráfico com hierarquia informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Selecionar **Expandir Tudo** mostra o próximo nível com a exibição embutida dos rótulos de hierarquia. Por padrão, hierarquias embutidas são classificadas pelo valor de medida – nesse caso, **SalesAmount**. Com os rótulos de hierarquia em linha habilitados, você pode optar por classificar os dados pela hierarquia selecionando as reticências no canto superior direito (o **...**) e, em seguida, selecionando **Classificar por > Classe da Cor**, conforme mostrado na imagem a seguir.
+Selecionar **Expandir para o próximo nível** mostra o próximo nível com a exibição embutida dos rótulos de hierarquia. Por padrão, as hierarquias embutidas são classificadas pelo valor de medida que, nesse caso, é **Quantidade**. Com os rótulos de hierarquia embutida habilitados, você também pode optar por classificar os dados pela hierarquia selecionando as reticências (**...**) no canto superior direito e, em seguida, selecionando **Classificar por ProductName ShipCountry**, conforme é mostrado na imagem a seguir.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Gráfico com a hierarquia informal classificada por padrão](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Após **Classe da Cor** ser selecionado, os dados são classificados com base na seleção de hierarquia informal, conforme mostrado na imagem a seguir.
+Depois que **ShipCountry** é selecionado, os dados são classificados com base na seleção da hierarquia informal, conforme é mostrado na imagem a seguir.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Gráfico com a hierarquia informal classificada por hierarquia informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > O recurso de rótulo de hierarquia embutido ainda não permite que a hierarquia de tempo interna seja classificada por valor; ela é classificada somente pela ordem da hierarquia.

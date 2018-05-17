@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usar P e R no Power BI Desktop para consultas de linguagem natural
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. É ainda mais eficiente quando seus dados respondem, que é o que P e R no **Power BI Desktop** permite que você faça.
 
 Para habilitar P e R para interpretar com êxito a coleção de perguntas a qual é capaz de responder, a seção de P e R deve fazer suposições sobre o modelo. Se a estrutura do modelo não atender a uma ou mais dessas suposições, ajuste o seu modelo. Esses ajustes para P e R são as mesmas otimizações de práticas recomendadas para qualquer modelo no Power BI, independentemente se você usar P e R. 
+
+> [!NOTE]
+> As P e R estarão disponíveis apenas ao trabalhar com um modelo que contenha dados **importados**. Não há suporte para conexões dinâmicas com modelos SSAS e DirectQuery.
+>
+>
 
 Nas seções a seguir, descrevemos como ajustar o modelo para que funcione bem com P e R no Power BI.
 

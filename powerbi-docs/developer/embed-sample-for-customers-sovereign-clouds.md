@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Inserir um dashboard, bloco ou relatório do Power BI em seu aplicativo para nuvens soberanas
 Saiba como integrar ou inserir um dashboard, um bloco ou relatório em um aplicativo Web usando o SDK do .NET do Power BI, junto com a API JavaScript do Power BI durante a inserção para os clientes. Normalmente, esse é o cenário de ISV.
@@ -38,7 +38,7 @@ O Power BI também dá suporte a nuvens soberanas (privadas). Cada nuvem soberan
 
 ![Dashboard inserido](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para começar este passo a passo, você precisará de uma conta do **Power BI**. Se você não tiver uma conta configurada, dependendo do tipo do governo, você poderá [se inscrever em uma conta do Power BI do governo dos EUA](../service-govus-signup.md) ou em uma[conta do Power BI para conta de nuvem na Alemanha](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Para começar este passo a passo, você precisará de uma conta do **Power BI**. Se você não tiver uma conta configurada, dependendo do tipo do governo, você poderá [se inscrever em uma conta do Power BI do governo dos EUA](../service-govus-signup.md) ou em uma[conta do Power BI para conta de nuvem na Alemanha](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
 
 > [!NOTE]
 > Buscando inserir um dashboard para sua organização em vez disso? Consulte [Inserir um dashboard do Power BI em um aplicativo para sua organização](integrate-dashboard.md).
@@ -407,7 +407,7 @@ Uma amostra de aplicativo disso está disponível na [amostra Inserindo para a o
 
 * Um aplicativo de exemplo está disponível no GitHub para você examinar. Os exemplos acima baseiam-se nessa amostra. Para obter mais informações, consulte a [amostra Inserindo para a organização](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Para saber mais sobre a API de JavaScript, consulte [API de JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
-* Para saber mais sobre o Power BI para nuvem da Alemanha, consulte [Perguntas frequentes do Power BI para nuvem da Alemanha](https://docs.microsoft.com/en-us/power-bi/service-govde-faq)
+* Para saber mais sobre o Power BI para nuvem da Alemanha, consulte [Perguntas frequentes do Power BI para nuvem da Alemanha](https://docs.microsoft.com/power-bi/service-govde-faq)
 * [Como migrar conteúdo da Coleção de Espaços de Trabalho do Power BI para o Power BI](migrate-from-powerbi-embedded.md)
 
 Limitações e considerações

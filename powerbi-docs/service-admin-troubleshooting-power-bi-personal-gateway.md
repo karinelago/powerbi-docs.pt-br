@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d321d70fe201af500feb35ef4e5ea1df6cc558f0
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que você poderá ter ao usar o Power BI Gateway - Personal.
@@ -76,11 +76,11 @@ Você pode obter esse erro nas configurações de \<conjunto de dados\> se tiver
 
 **Erro: [não é possível combinar dados] &lt;A parte da consulta&gt;/&lt;…&gt;/&lt;…&gt; está acessando fontes de dados com níveis de privacidade que não podem ser usados em conjunto. Recompile esta combinação de dados.**
 
-**Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de fontes de dados que estão sendo usados. [Saiba mais](refresh-enable-fast-combine.md)
+**Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de fontes de dados que estão sendo usados.
 
 **Erro: erro na fonte de dados: não é possível converter o valor "\[Tabela\]" para o tipo de tabela.**
 
-**Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de fontes de dados que estão sendo usados. [Saiba mais](refresh-enable-fast-combine.md)
+**Solução**: este erro ocorre devido a restrições no nível de privacidade e aos tipos de fontes de dados que estão sendo usados.
 
 **Erro: não há espaço suficiente para esta linha.**
 
@@ -94,7 +94,7 @@ Isso ocorrerá se você tiver uma única linha com um tamanho maior que 4 MB. Vo
 
 **Não há suporte à autenticação do Windows para o banco de dados do Access** – No momento, o Power BI dá suporte apenas à autenticação anônima para o banco de dados do Access. Estamos trabalhando para habilitar a autenticação do Windows para o banco de dados do Access.
 
-**Erro de início de sessão ao inserir as credenciais de uma fonte de dados** – Se você receber um erro semelhante a esse ao inserir as credenciais do Windows de uma fonte de dados, isso significa que talvez você ainda esteja usando uma versão mais antiga do gateway pessoal. [Instale a versão mais recente do Power BI Gateway - Personal](https://powerbi.microsoft.com/gateway/).
+**Erro de conexão ao inserir as credenciais de uma fonte de dados** – Se você receber um erro semelhante a esse ao inserir as credenciais do Windows de uma fonte de dados, isso significará que talvez você ainda esteja usando uma versão mais antiga do gateway pessoal. [Instale a versão mais recente do Power BI Gateway - Personal](https://powerbi.microsoft.com/gateway/).
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
@@ -113,7 +113,7 @@ Se você estiver recebendo um erro com a atualização de blocos do painel, veja
 
 ## <a name="tools-for-troubleshooting"></a>Ferramentas para solução de problemas
 ### <a name="refresh-history"></a>Histórico de atualização
-O **Histórico de Atualização** pode ajudá-lo a ver quais erros ocorreram, além de fornecer dados úteis se precisar criar uma solicitação de suporte. Você pode exibir as atualizações programadas ou sob demanda. Aqui está como você pode acessar o **Histórico de atualização**.
+O **Histórico de Atualização** poderá ajudá-lo a ver quais erros ocorreram, além de fornecer dados úteis se precisar criar uma solicitação de suporte. Você pode exibir as atualizações programadas ou sob demanda. Aqui está como você pode acessar o **Histórico de atualização**.
 
 1. No painel de navegação do Power BI, em **Conjuntos de Dados**, selecione um conjunto de dados &gt; Abrir Menu &gt; **Agendar Atualização**.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)

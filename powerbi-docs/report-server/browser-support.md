@@ -1,15 +1,15 @@
 ---
-title: "Suporte do navegador para o Servidor de Relatório do Power BI"
-description: "Saiba quais versões de navegador têm suporte para gerenciar e exibir o Servidor de Relatório do Power BI e os Controles do Visualizador de Relatórios."
+title: Suporte do navegador para o Servidor de Relatório do Power BI
+description: Saiba quais versões de navegador têm suporte para gerenciar e exibir o Servidor de Relatório do Power BI e os Controles do Visualizador de Relatórios.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/25/2018
 ms.author: maghan
-ms.openlocfilehash: 273a336280a371f694fb08a43d75e24535942e9a
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: a0ac612ec132d5aefc8353b4ef92212913e3db5a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="browser-support-for-power-bi-report-server"></a>Suporte do navegador para o Servidor de Relatório do Power BI
 Saiba quais versões de navegador têm suporte para gerenciar e exibir o Servidor de Relatório do Power BI e os Controles do Visualizador de Relatórios.
@@ -120,7 +120,7 @@ Use um navegador com suporte a script habilitado. Se o navegador não pode execu
 
 ## <a name="next-steps"></a>Próximas etapas
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

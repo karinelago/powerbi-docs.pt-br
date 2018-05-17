@@ -1,6 +1,6 @@
 ---
-title: Início rápido – introdução à P e R do Power BI
-description: 'Início rápido: introdução à P e R no serviço do Power BI usando o exemplo de Análise de Varejo'
+title: Introdução à P e R do Power BI
+description: Introdução às P e R do serviço do Power BI usando o exemplo de Análise de Varejo
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 0f4f56431fd0c667411c302f4f30f0c395269e4a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: aa9b90521d2bf8df88676756135442a22277a4e8
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="get-started-with-power-bi-qa-quickstart"></a>Introdução à P e R do Power BI (Início rápido)
+# <a name="get-started-with-power-bi-qa"></a>Introdução à P e R do Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Usar a P e R do Power BI com o exemplo de Análise de Varejo
 Às vezes, a maneira mais rápida de obter uma resposta de seus dados é fazer uma pergunta usando o idioma natural.  Neste início rápido, examinaremos 2 formas diferentes de criar a mesma visualização: primeira, compilá-la em um relatório e, segunda, fazer uma pergunta com P e R. Usaremos um serviço do Power BI, mas o processo é quase idêntico usando o Power BI Desktop.
 

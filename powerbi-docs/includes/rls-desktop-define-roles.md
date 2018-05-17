@@ -21,7 +21,7 @@ Para definir funções de segurança, faça o seguinte:
 7. Insira as expressões DAX. Essa expressão deve retornar true ou false. Por exemplo: [ID da Entidade] = “Valor”.
    
    > [!NOTE]
-   > Você pode usar o *username()* nesta expressão. Lembre-se de que *username()* terá o formato *DOMÍNIO\nomeusuário* no Power BI Desktop. No serviço do Power BI, ele estará no formato do UPN do usuário. Como alternativa, é possível usar *userprincipalname()*, que sempre retornará o usuário no formato de seu nome UPN.
+   > Você pode usar o *username()* nesta expressão. Lembre-se de que *username()* terá o formato *DOMÍNIO\nomeusuário* no Power BI Desktop. No serviço do Power BI, ele estará no formato do UPN do usuário. Como alternativa, você pode usar *userprincipalname()*, que sempre retorna o usuário no formato de seu nome UPN.
    > 
    > 
    

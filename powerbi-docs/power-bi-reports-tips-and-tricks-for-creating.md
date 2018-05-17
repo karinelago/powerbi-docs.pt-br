@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: d9500f2c3d385e96b9133a3b634fe06f9769936e
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: f1b92cf370dfdfdbeadd71ee954030aa8a79d338
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Dicas e truques para criar relatórios no Power BI Desktop e no serviço do Power BI
 Para aproveitar ao máximo seus dados, às vezes você precisa de uma ajuda extra. Reunimos algumas dicas e truques que você pode usar ao criar relatórios no Microsoft Power BI Desktop, serviço do Power BI *e* nas edições Pro-Plus do Microsoft Excel 2013 ou 2016 com o suplemento do Power Pivot habilitado e o Power Query instalado e habilitado.
@@ -166,7 +166,7 @@ Geralmente, você precisa criar um cálculo no Power BI Desktop que transforma d
 ### <a name="using-dax-for-the-first-time"></a>Usando o DAX pela primeira vez
 DAX é a linguagem de fórmula de cálculo no Power BI Desktop.  Ele é otimizado para a análise de BI.  É um pouco diferente do que você talvez esteja familiarizado se você usou apenas uma linguagem de consulta como SQL. Há muito bons recursos online e na literatura para aprender sobre o DAX.
 
-[Início rápido: aprenda noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
+[Aprenda as noções básicas do DAX no Power BI Desktop](desktop-quickstart-learn-dax-basics.md)
 
 [Referência do DAX (Data Analysis Expressions)](https://msdn.microsoft.com/library/gg413422.aspx)
 

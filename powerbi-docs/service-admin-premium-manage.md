@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 4a96582eb8864cd41b5b307d05be890fc3bbff34
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 611a8cd1f2ff3da16d700f8d2b9f15787dda8475
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/09/2018
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Gerenciar capacidades no Power BI Premium e no Power BI Embedded
 Saiba como gerenciar as capacidades que oferecem recursos dedicados ao seu conteúdo no Power BI Premium e no Power BI Embedded.
@@ -55,8 +55,8 @@ Quando você comprar os SKUs do Power BI Premium, seu locatário receberá o nú
 ## <a name="capacity-admins"></a>Administradores de capacidade
 > [!NOTE]
 > Na capacidade do Power BI Embedded, os administradores de capacidade são definidos no portal do Microsoft Azure.
-> 
-> 
+>
+>
 
 Quando você é atribuído a uma capacidade como administrador de capacidade, você tem controle total sobre a capacidade e seus recursos administrativos. No portal de administração do Power BI, é possível adicionar mais administradores de capacidade (somente no Power BI Premium) ou dar aos usuários permissões de atribuição de capacidade. É possível atribuir espaços de trabalho em massa a uma capacidade e exibir métricas de uso em uma capacidade.
 
@@ -81,14 +81,14 @@ Se houver núcleos virtuais disponíveis, configure a nova capacidade desta mane
 1. Selecione **Configurar nova capacidade**.
 2. Dê um **nome** para a sua capacidade.
 3. Defina quem é o administrador dessa capacidade.
-   
+
     Os administradores de capacidade não precisam ser um administrador do Power BI ou um Administrador Global do Office 365. Para obter mais informações, consulte [Power BI Premium capacity admins (Administradores de capacidade do Power BI Premium)](#capacity-admins)
 4. Selecione o tamanho da capacidade. As opções disponíveis dependem de quantos núcleos virtuais disponíveis você tem. Não é possível selecionar uma opção maior que a que está disponível.
-   
+
     ![Tamanhos de capacidade Premium disponíveis](media/service-admin-premium-manage/premium-capacity-size.png)
 5. Selecione **Configurar**.
 
-![Configurar uma nova capacidade](media/service-admin-premium-manage/set-up-capacity.png)
+    ![Configurar uma nova capacidade](media/service-admin-premium-manage/set-up-capacity.png)
 
 Os administradores de capacidade, bem como administradores do Power BI e administradores globais do Office 365, verão a capacidade listada no portal do administrador.
 
@@ -103,15 +103,15 @@ Na tela de gerenciamento da capacidade Premium, é possível selecionar o **íco
 
 > [!NOTE]
 > As configurações de capacidade do Power BI Embedded são gerenciadas no portal do Microsoft Azure.
-> 
-> 
+>
+>
 
 ### <a name="change-capacity-size-power-bi-premium"></a>Alterar o tamanho da capacidade (Power BI Premium)
 Os administradores do Power BI e os administradores Globais do Office 365 alteram o tamanho da capacidade do Power BI Premium ao selecionar **Alterar tamanho da capacidade**. Os administradores de capacidade que não são administradores do Power BI ou administradores Globais do Office 365 não terão essa opção.
 
 ![Alterar o tamanho da capacidade do Power BI Premium](media/service-admin-premium-manage/change-capacity-size.png)
 
-A tela **Alterar tamanho da capacidade** permite atualizar ou fazer downgrade do tamanho da capacidade, se você tiver os recursos disponíveis. Os administradores são livres para criar, redimensionar e excluir nós, desde que tenham o número necessário de núcleos virtuais. 
+A tela **Alterar tamanho da capacidade** permite atualizar ou fazer downgrade do tamanho da capacidade, se você tiver os recursos disponíveis. Os administradores são livres para criar, redimensionar e excluir nós, desde que tenham o número necessário de núcleos virtuais.
 
 Não é possível fazer downgrade dos SKUs P para SKUs EM. É possível focalizar as opções desabilitadas que fornecem uma explicação.
 
@@ -129,31 +129,41 @@ Se nenhum espaço de trabalho tiver sido atribuído à capacidade, será exibida
 
 > [!NOTE]
 > Na capacidade do Power BI Embedded, os administradores de capacidade são atribuídos no portal do Microsoft Azure.
-> 
-> 
+>
+>
 
 ![](media/service-admin-premium-manage/capacity-user-permissions.png)
 
 ![](media/service-admin-premium-manage/capacity-user-permissions2.png)
 
 ## <a name="usage-measurements-power-bi-premium"></a>Medidas de uso (Power BI Premium)
-Para cada capacidade, você poderá usar medidas de uso para CPU, memória e Consulta Direta. Cada KPI tem três indicações, **Bom (verde)**, **Marginal (amarelo)** e **Crítico (vermelho)**. É recomendável monitorar essas métricas para garantir que seus usuários vejam o bom desempenho ao usar conteúdo Premium.
+Para cada tipo de capacidade, você pode ver as medidas de uso de CPU, de uso de memória, de thrashing de memória e de consulta direta. Sugerimos que você monitore essas medidas para garantir que os usuários vejam o bom desempenho em sua capacidade de:
 
-**O uso da capacidade do Power BI Embedded é monitorado no portal do Azure.**
+![Uso dos últimos sete dias](media/service-admin-premium-manage/premium-dashboard-tiles.png)
 
-![](media/service-admin-premium-manage/usage-metrics-critical.png "Métricas de uso de capacidade – críticas")
+> [!NOTE]
+> O uso da capacidade do Power BI Embedded é monitorado no portal do Azure.
 
 | Métrica | Descrição |
 | --- | --- |
-| CPU |Uso da CPU pelos seu núcleos. |
-| Memória |Representa a pressão de memória de seus núcleos de back-end. Especificamente, essa é uma métrica da frequência com a qual os modelos são removidos da memória devido à pressão de memória do uso de vários modelos. |
-| DQ/s |* Limitamos o número total de consultas DirectQuery e de conexão dinâmica por segundo.<br/>* Os limites são 30/s para P1, 60/s para P2 e 120/s para P3.<br/>* As consultas DirectQuery e de conexão dinâmica tem a mesma contagem para a restrição acima. Por exemplo, se você tiver 15 DirectQueries e 15 conexões dinâmicas em um segundo, você atingirá a restrição.<br/>* Isso se aplica igualmente a conexões locais e de nuvem. |
+| CPU |O número de vezes que a CPU excedeu 80% de utilização. |
+| Thrashing de memória |Representa a pressão de memória em seus núcleos de back-end. Especificamente, essa é uma métrica de quantas vezes os conjuntos de dados são removidos da memória devido à pressão de memória do uso de vários conjuntos de dados. |
+| Uso de memória |Uso médio de memória, representado em gigabytes (GB). |
+| DQ/s | Número de vezes em que a consulta direta e as conexões dinâmicas excederam 80% do limite. <br> <br> * Limitamos o número total de consultas DirectQuery e de conexão dinâmica por segundo.<br><br>* Os limites são 30/s para P1, 60/s para P2 e 120/s para P3.<br><br> * A contagem de consultas diretas e de consultas de conexão somam-se à limitação acima. Por exemplo, se você tiver 15 DirectQueries e 15 conexões dinâmicas em um segundo, você atingirá a restrição.<br/><br>* Isso se aplica igualmente a conexões locais e de nuvem. |
 
-Quando essas métricas forem marginais/críticas, seus usuários poderão ver a degradação do desempenho de relatório e de atualização, principalmente durante os horários de pico de carregamento.
+As métricas refletem o uso na semana passada.  Se você quiser ver uma exibição mais detalhada das métricas, faça isso clicando em um dos blocos de resumo.  Você acessará gráficos detalhados para cada uma das métricas de capacidade Premium.  Esses gráficos são resumidos por hora para a semana passada e podem ajudar a isolar quando eventos relacionados ao desempenho específicos que possam ter ocorrido na semana passada em sua capacidade premium.  
 
-As métricas refletirão o uso durante a última semana e se destinarão à contagem de instâncias quando a capacidade estiver sobrecarregada e, portanto, estiver oferecendo um desempenho aquém do ideal para seus usuários.
+![Gráfico detalhado de uso da CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
 
-Cada ocorrência de *mais de 80% de utilização* deve ser considerada um eventual caso de degradação do desempenho. Ter casos demais é um indicador de problemas de desempenho significativos para os usuários.
+![Gráfico detalhado de uso do thrashing de memória](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
+
+
+![Gráfico detalhado de uso do tamanho da memória](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
+
+
+![Gráfico detalhado de uso do thrashing de memória](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
+
+Você também pode exportar os dados subjacentes de qualquer métrica para um arquivo csv.  Essa exportação fornecerá informações detalhadas em intervalos de três minutos para cada dia da semana passada.
 
 ## <a name="assign-a-workspace-to-a-capacity"></a>Atribuir um espaço de trabalho a uma capacidade
 Há algumas maneiras de atribuir um espaço de trabalho a uma capacidade.
@@ -165,7 +175,7 @@ Os administradores de capacidade, juntamente com os administradores do Power BI 
 
 1. Selecione **Atribuir espaços de trabalho**. Isso está listado em vários locais e todos realizarão a mesma tarefa.
 2. Selecione **Espaços de trabalho de toda a organização** ou **Espaços de trabalho específicos por usuário**.
-   
+
    | Selection | Descrição |
    | --- | --- |
    | **Espaços de trabalho de toda a organização** |Atribuir espaços de trabalho de toda a organização à capacidade Premium atribuirá todos os Espaços de trabalho do aplicativo e Meus espaços de trabalho, em sua organização, a essa capacidade Premium. Além disso, todos os usuários atuais e futuros terão permissão para reatribuir espaços de trabalho individuais a essa capacidade. |
@@ -180,23 +190,23 @@ Também é possível atribuir um espaço de trabalho do aplicativo a uma capacid
 Para mover um espaço de trabalho para uma capacidade, é necessário ter permissões de administrador para esse espaço de trabalho e também permissões de atribuição de capacidade para essa capacidade. Observe que os administradores de espaço de trabalho podem sempre remover um espaço de trabalho da capacidade Premium.
 
 1. Edite um espaço de trabalho do aplicativo selecionando as **reticências (...)**  e **Editar espaço de trabalho**.
-   
+
     ![Editar o espaço de trabalho no botão de reticências do menu de contexto](media/service-admin-premium-manage/edit-app-workspace.png)
 2. Em **Editar espaço de trabalho**, expanda **Avançado**.
 3. Se você tiver recebido permissões de atribuição de capacidade para qualquer capacidade, você terá a opção de ativar **Premium** para esse espaço de trabalho.
 4. Selecione a capacidade à qual você deseja atribuir esse Espaço de trabalho do aplicativo.
-   
+
     ![Lista suspensa de seleção de capacidade](media/service-admin-premium-manage/app-workspace-advanced.png)
 5. Selecione **Salvar**.
 
 Depois de salvo, o espaço de trabalho e todo o seu conteúdo, será movido para a capacidade Premium sem qualquer interrupção para os usuários finais.
 
 ## <a name="what-premium-looks-like-for-users"></a>Qual é a aparência do Premium para os usuários
-Para a maior parte, os usuários nem mesmo precisarão saber que eles estão em uma capacidade Premium. Seus dashboards e relatórios apenas funcionarão. Como uma dica visual, você verá um ícone de losango ao lado dos espaços de trabalho que estão em uma capacidade Premium. 
+Para a maior parte, os usuários nem mesmo precisarão saber que eles estão em uma capacidade Premium. Seus dashboards e relatórios apenas funcionarão. Como uma dica visual, você verá um ícone de losango ao lado dos espaços de trabalho que estão em uma capacidade Premium.
 
 ![O losango que mostra o espaço de trabalho se baseia na capacidade Premium](media/service-admin-premium-manage/premium-workspace.png)
 
-## <a name="power-bi-report-server-product-key"></a>Chave do produto do Servidor de Relatórios do Power BI)
+## <a name="power-bi-report-server-product-key"></a>Chave do produto (Product Key) do Servidor de Relatório do Power BI
 Na guia **Configurações de capacidade** do portal de administração do Power BI, você terá acesso à sua chave do produto do Servidor de Relatórios do Microsoft Power BI. Isso estará disponível somente para os administradores Globais ou usuários atribuídos à função de administrador do serviço do Power BI e se você tiver comprado um SKU do Power BI Premium.
 
 ![Chave do Servidor de Relatórios do Power BI nas configurações de capacidade](media/service-admin-premium-manage/pbirs-product-key.png)
@@ -211,4 +221,3 @@ Para obter mais informações, consulte [Instalar o Servidor de Relatório do Po
 Compartilhe aplicativos publicados com usuários Gratuitos ao atribuir o espaço de trabalho a uma capacidade Premium. Para obter mais informações, consulte [Criar e distribuir um aplicativo no Power BI](service-create-distribute-apps.md).
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
-
