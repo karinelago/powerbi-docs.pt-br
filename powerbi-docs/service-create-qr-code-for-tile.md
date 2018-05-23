@@ -1,28 +1,20 @@
 ---
-title: "Criar um código QR para um bloco a ser usado nos aplicativos móveis do Power BI"
-description: "Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas no aplicativo móvel Power BI, não sendo necessária pesquisa."
-services: powerbi
-documentationcenter: 
+title: Criar um código QR para um bloco a ser usado nos aplicativos móveis do Power BI
+description: Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas no aplicativo móvel Power BI, não sendo necessária pesquisa.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Criar um código QR para um bloco no Power BI a ser usado nos aplicativos móveis
 Os códigos QR no Power BI podem conectar qualquer coisa do mundo real diretamente às informações do BI relacionadas &#151; não é necessária navegação ou pesquisa.

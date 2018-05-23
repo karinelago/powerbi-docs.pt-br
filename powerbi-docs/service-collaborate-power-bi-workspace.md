@@ -1,28 +1,20 @@
 ---
 title: Colaborar em seu espaço de trabalho de aplicativo do Power BI
 description: Leia sobre a colaboração com arquivos do Power BI Desktop em seu espaço de trabalho de aplicativo e com serviços do Office 365, como o compartilhamento de arquivos no OneDrive for Business, conversas no Exchange, calendário e tarefas.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ajayan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ajayan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1837bc36ac4707663b5583699b0090ac9a692eb7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaborar em seu espaço de trabalho de aplicativo do Power BI
 Os espaços de trabalho de aplicativo do Power BI são ótimos lugares para colaborar com seus colegas em dashboards, relatórios e conjuntos de dados para criar *aplicativos*. Essa é a razão da criação dos espaços de trabalho: colaboração. Após concluir a colaboração em dashboards e relatórios com seus colegas, você os empacota como um aplicativo e os distribui. Leia mais sobre a [criação de aplicativos e espaços de trabalho de aplicativo no Power BI](service-create-distribute-apps.md). 

@@ -1,28 +1,20 @@
 ---
 title: Perguntas frequentes sobre o gateway de dados local
 description: Estas são as perguntas frequentes sobre o gateway de dados local. Esta é a página em que estão reunidas as perguntas frequentes sobre o gateway.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 152a5ffe0c209be7251bd4dd4e94cf1769c10d79
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-faq"></a>Perguntas frequentes sobre o gateway de dados local
 <!-- Shared FAQ shared Include -->

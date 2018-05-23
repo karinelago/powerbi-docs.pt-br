@@ -1,28 +1,20 @@
 ---
-title: "Criar uma exibição de um dashboard do Power BI para celulares"
-description: "Saiba como criar uma exibição personalizada de qualquer um de seus painéis do Power BI, especificamente para exibição em celulares."
-services: powerbi
-documentationcenter: 
+title: Criar uma exibição de um dashboard do Power BI para celulares
+description: Saiba como criar uma exibição personalizada de qualquer um de seus painéis do Power BI, especificamente para exibição em celulares.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: babc9f97ed8c45c2cb9ac994d881941d03629676
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d237a308e059ce712872860031f122de9d6795c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-view-of-a-power-bi-dashboard-optimized-for-mobile-phones"></a>Criar uma exibição de um dashboard do Power BI otimizado para celulares
 Ao exibir painéis no aplicativo móvel do Power BI em um celular, observe que os blocos do painel são dispostos um após o outro, todos com o mesmo tamanho. No serviço do Power BI, você pode criar uma exibição personalizada de qualquer um de seus dashboards, especificamente, para telefones.

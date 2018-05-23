@@ -1,28 +1,20 @@
 ---
 title: Copie um relatório no serviço do Power BI
 description: Criar um novo relatório do Power BI com base em outro relatório no serviço do Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 760eda5625bd52bf7129ba7cfe5f213921d469b7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Crie um novo relatório por meio de um relatório existente (copiar um relatório)
 Talvez você tenha um relatório que já se conecta ao seu conjunto de dados e tenha alguns visuais que deseja reutilizar ou modificar.  Por que não simplesmente copiar esse relatório como base de um novo relatório?  Para fazer isso:

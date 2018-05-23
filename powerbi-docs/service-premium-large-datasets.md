@@ -1,28 +1,20 @@
 ---
 title: Suporte ao Power BI Premium para grandes conjuntos de dados
 description: Agora, o Power BI Premium dá suporte a conjuntos de dados de até 10 GB.
-services: powerbi
-documentationcenter: ''
 author: jocaplan
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 02/27/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c617624d93dfa6c4193c77d36b6f6cec2992a03
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: fa05fd6808ebe78d5d17e2ad3d93fbcf22f7d3c9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Suporte ao Power BI Premium para grandes conjuntos de dados
 

@@ -1,28 +1,20 @@
 ---
 title: Conectar-se ao Microsoft Azure Enterprise com o Power BI
 description: Microsoft Azure Enterprise para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 60bcad86af5fcaa09d6b2fb16b581ec7c37264ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 7425e194bd6bda51442a128d146fb4061a77af81
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-azure-enterprise-with-power-bi"></a>Conectar-se ao Microsoft Azure Enterprise com o Power BI
 Explore e monitore seus dados do Microsoft Azure Enterprise no Power BI com o pacote de conteúdo do Power BI. Os dados serão atualizados automaticamente uma vez por dia.
@@ -69,7 +61,7 @@ Os relatórios do Power BI estão disponíveis para EA Direto, Parceiros e Clien
 
 **URL de ambiente do Azure**
 
-* Normalmente, esse valor é https://ea.azure.com; no entanto, você poderá verificar a URL depois de entrar para confirmar.
+* Esse valor é normalmente https://ea.azure.com; no entanto, você poderá verificar a URL depois de entrar para confirmar.
   
     ![](media/service-connect-to-azure-enterprise/params3.png)
 

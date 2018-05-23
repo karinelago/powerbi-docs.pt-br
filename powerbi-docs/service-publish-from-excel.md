@@ -1,28 +1,20 @@
 ---
 title: Publicar no Power BI por meio do Excel 2016
 description: Saiba como publicar uma pasta de trabalho do Excel em seu site do Power BI.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc691423b1072ca51487ab17514a30fa6ce404d9
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: aa2bfed2858f93d91ff806b934f16c06555668d6
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="publish-to-power-bi-from-excel-2016"></a>Publicar no Power BI por meio do Excel 2016
 Com o Excel 2016, é possível publicar suas pastas de trabalho do Excel diretamente para o site do [Power BI](https://powerbi.microsoft.com), em que é possível criar relatórios e dashboards altamente interativos com base nos dados da pasta de trabalho. Em seguida, você pode compartilhar suas ideias com outras pessoas em sua organização.

@@ -1,33 +1,25 @@
 ---
-title: "Análise de Varejo de fornecedor para o Power BI: faça um tour"
-description: "Análise de Varejo de fornecedor para o Power BI: faça um tour"
-services: powerbi
-documentationcenter: 
+title: 'Análise de Varejo de fornecedor para o Power BI: faça um tour'
+description: 'Análise de Varejo de fornecedor para o Power BI: faça um tour'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/19/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 5636ccd4685205b2b01dd4c591942d7d2670bc48
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 5089fef7c0292f1a6651b23eea814cc6cd9da9ce
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Análise de Varejo de fornecedor para o Power BI: faça um tour
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Uma breve visão geral do exemplo de Análise da Qualidade do Fornecedor
-Este painel de exemplo do setor, e relatório subjacente, enfocam um dos desafios típicos da cadeia de fornecedores – análise de qualidade do fornecedor.
+Este dashboard de exemplo do setor e o relatório subjacente, enfocam um dos desafios típicos da cadeia de fornecedores: a análise de qualidade do fornecedor.
 Duas métricas principais estão envolvidas na análise: o número total de defeitos e o tempo de inatividade total que causou esses defeitos. Este exemplo tem dois objetivos principais:
 
 * Entender quem são os melhores e os piores fornecedores, com respeito à qualidade
@@ -53,7 +45,7 @@ Os exemplos são dados reais de obviEnce ([www.obvience.com](http://www.obvience
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **exemplo de Análise da Qualidade do Fornecedor** e, em seguida, escolha **Conectar**.  
   
-   ![Exemplo de Análise da qualidade do fornecedor](media/sample-supplier-quality/supplier16.png)
+   ![Exemplo de análise de qualidade do fornecedor](media/sample-supplier-quality/supplier16.png)
    
 5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
    
