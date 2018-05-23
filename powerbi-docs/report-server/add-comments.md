@@ -1,27 +1,19 @@
 ---
-title: "Adicionar comentários a um relatório em um servidor de relatório – Servidor de Relatórios do Power BI"
-description: "Saiba como adicionar comentários a um relatório do Power BI ou a um relatório paginado em um Servidor de Relatório do Power BI ou no servidor de relatório do SQL Server Reporting Services."
-services: powerbi
-documentationcenter: 
+title: Adicionar comentários a um relatório em um servidor de relatório – Servidor de Relatórios do Power BI
+description: Saiba como adicionar comentários a um relatório do Power BI ou a um relatório paginado em um Servidor de Relatório do Power BI ou no servidor de relatório do SQL Server Reporting Services.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 24848b978ae88ae890cbd5b6eea24146cd01e542
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: e5e49d2f30cca4c0c731d29fe31d2cb6856066f2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-comments-to-a-report-in-a-report-server"></a>Adicionar comentários a um relatório em um servidor de relatório
 É possível adicionar comentários a relatórios, incluindo relatórios do Power BI, no portal da Web de um servidor de relatório. Os comentários permanecem com o relatório e qualquer pessoa com as permissões corretas pode ver os comentários no relatório. Veja a seção [Permissões](#permissions) abaixo para obter detalhes.

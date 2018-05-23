@@ -1,28 +1,20 @@
 ---
 title: Solucionando problemas do Power BI Gateway - Personal
 description: Solucionando problemas do Power BI Gateway - Personal
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2f5ca353d26b83a8c8cce5356724b351cb9d1621
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: 58e6dc99198eb4f031dd28b5c80cc8babb03dbfb
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solucionando problemas do Power BI Gateway - Personal
 O exemplo a seguir mostra alguns problemas comuns que você poderá ter ao usar o Power BI Gateway - Personal.
@@ -94,7 +86,7 @@ Isso ocorrerá se você tiver uma única linha com um tamanho maior que 4 MB. Vo
 
 **Não há suporte à autenticação do Windows para o banco de dados do Access** – No momento, o Power BI dá suporte apenas à autenticação anônima para o banco de dados do Access. Estamos trabalhando para habilitar a autenticação do Windows para o banco de dados do Access.
 
-**Erro de conexão ao inserir as credenciais de uma fonte de dados** – Se você receber um erro semelhante a esse ao inserir as credenciais do Windows de uma fonte de dados, isso significará que talvez você ainda esteja usando uma versão mais antiga do gateway pessoal. [Instale a versão mais recente do Power BI Gateway - Personal](https://powerbi.microsoft.com/gateway/).
+**Erro de início de sessão ao inserir as credenciais de uma fonte de dados** – Se você receber um erro semelhante a esse ao inserir as credenciais do Windows de uma fonte de dados, isso significa que talvez você ainda esteja usando uma versão mais antiga do gateway pessoal. [Instale a versão mais recente do Power BI Gateway - Personal](https://powerbi.microsoft.com/gateway/).
 
   ![](media/service-admin-troubleshooting-power-bi-personal-gateway/pbi_pg_credentialserror.jpg.png)
 
@@ -113,7 +105,7 @@ Se você estiver recebendo um erro com a atualização de blocos do painel, veja
 
 ## <a name="tools-for-troubleshooting"></a>Ferramentas para solução de problemas
 ### <a name="refresh-history"></a>Histórico de atualização
-O **Histórico de Atualização** poderá ajudá-lo a ver quais erros ocorreram, além de fornecer dados úteis se precisar criar uma solicitação de suporte. Você pode exibir as atualizações programadas ou sob demanda. Aqui está como você pode acessar o **Histórico de atualização**.
+O **Histórico de Atualização** pode ajudá-lo a ver quais erros ocorreram, além de fornecer dados úteis se precisar criar uma solicitação de suporte. Você pode exibir as atualizações programadas ou sob demanda. Aqui está como você pode acessar o **Histórico de atualização**.
 
 1. No painel de navegação do Power BI, em **Conjuntos de Dados**, selecione um conjunto de dados &gt; Abrir Menu &gt; **Agendar Atualização**.
    ![](media/service-admin-troubleshooting-power-bi-personal-gateway/scheduled-refresh.png)

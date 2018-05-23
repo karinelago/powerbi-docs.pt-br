@@ -1,27 +1,19 @@
 ---
-title: "Atualização agendada de relatório do Power BI no Servidor de Relatórios do Power BI"
-description: "Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis."
-services: powerbi
-documentationcenter: 
+title: Atualização agendada de relatório do Power BI no Servidor de Relatórios do Power BI
+description: Os relatórios do Power BI podem conectar-se a fontes de dados diferentes. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: 1c6020a84ccaa1827a347049b7959313cd09f173
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Atualização agendada de relatório do Power BI no Servidor de Relatórios do Power BI
 A atualização agendada dos relatórios do Power BI permite que os dados de um relatório permaneçam atualizados.

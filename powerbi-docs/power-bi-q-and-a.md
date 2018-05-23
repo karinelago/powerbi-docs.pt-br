@@ -1,34 +1,31 @@
 ---
 title: Visão geral de P e R no serviço do Power BI e Power BI Desktop
 description: Tópico de visão geral da documentação para consultas de linguagem naturais de P e R do Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>P e R no serviço do Power BI e Power BI Desktop
 ## <a name="what-is-qa"></a>O que é P e R?
 Às vezes, a maneira mais rápida de obter uma resposta de seus dados é fazer uma pergunta usando o idioma natural. Por exemplo, "qual foi o total de vendas no ano passado".  Use P e R para explorar seus dados do Excel usando recursos intuitivos em idioma natural e receba as respostas na forma de quadros e gráficos. P e R é diferente de um mecanismo de pesquisa - P e R fornece apenas resultados sobre os dados no Power BI.
 
 Este artigo é ponto de partida para tudo que envolve P e R. Selecione um link abaixo para saber como a P e R funciona no serviço do Power BI (relatórios e dashboards), Power BI Desktop (relatórios), Power BI Embedded e Power BI Mobile.  
+
+> [!NOTE]
+> A **P e R do Power BI** só dá suporte a responder consultas em linguagem natural perguntadas em inglês. Você também pode testar um recurso em versão prévia para perguntas feitas em espanhol. Em **Power BI Desktop**, vá até **Arquivo**, **Opções e configurações**, **Opções** e procure a guia **Recursos em Versão Prévia**. Marque a caixa para **Suporte ao idioma espanhol para P e R**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

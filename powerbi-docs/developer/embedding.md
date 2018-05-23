@@ -1,27 +1,19 @@
 ---
-title: "Inserção com o Power BI"
-description: "O Power BI oferece APIs para inserir seus dashboards e relatórios em aplicativos."
-services: powerbi
-documentationcenter: 
+title: Inserção com o Power BI
+description: O Power BI oferece APIs para inserir seus dashboards e relatórios em aplicativos.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 11/30/17
-ms.author: mihart
-ms.openlocfilehash: 4d112ae4c25f080a3eb90de596c056366da3fe1d
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.component: powerbi-developer
+ms.topic: conceptual
+ms.date: 11/30/2017
+ms.author: maghan
+ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="embedding-with-power-bi"></a>Inserção com o Power BI
 O Power BI oferece APIs para inserir seus dashboards e relatórios em aplicativos. As APIs do Power BI oferecem um conjunto consistente de funcionalidades e acesso aos recursos mais recentes do Power BI, tais como painéis, gateways e espaços de trabalho de aplicativo, ao inserir conteúdo.

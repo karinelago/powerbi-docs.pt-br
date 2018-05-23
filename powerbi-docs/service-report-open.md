@@ -1,27 +1,19 @@
 ---
 title: Abrir um relatório no modo de exibição de Leitura ou no modo de exibição de Edição no serviço do Power BI
 description: Abrir um relatório do Power BI na Exibição de Leitura ou no Modo de Exibição de Edição
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
-ms.openlocfilehash: 17921d1fe28a1b4c0640748123efe4b70982b18d
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 13a745e65f1166690ade4f0279e0374ed95f053b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="open-a-report-in-power-bi-service-apppowerbicom"></a>Abrir um relatório no serviço do Power BI (app.powerbi.com)
 Os relatórios estão disponíveis no serviço do Power BI, Power BI Desktop, Power BI Mobile e até mesmo no Power BI Embedded. Este artigo se aplica à abertura de relatórios no ***serviço do Power BI***.

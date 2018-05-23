@@ -1,27 +1,19 @@
 ---
 title: Hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online) - Servidor de Relatórios do Power BI
 description: Além de exibir os relatórios do Power BI no portal da Web, o Servidor de Relatórios do Power BI pode hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online).
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 06783c6e5eabd04a1adc955e5f43521337b748eb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configure seu servidor de relatório para hospedar pastas de trabalho do Excel usando o OOS (Servidor do Office Online)
 Além de exibir os relatórios do Power BI no portal da Web, o Servidor de Relatórios do Power BI pode hospedar pastas de trabalho do Excel usando o [OOS (Servidor do Office Online)](https://docs.microsoft.com/officeonlineserver/office-online-server-overview). O servidor de relatório se torna um único local para publicar e exibir o conteúdo do Microsoft BI de autoatendimento.
@@ -85,7 +77,7 @@ New-OfficeWebAppsFarm -InternalUrl "https://server.contoso.com" -ExternalUrl "ht
 
 **Parâmetros**
 
-* **– InternalURL** é o FQDN (nome de domínio totalmente qualificado) do servidor que executa o servidor do Office Online, como http://servername.contoso.com.
+* ** – InternalURL** é o FQDN (nome de domínio totalmente qualificado) do servidor que executa o servidor do Office Online, como http://servername.contoso.com.
 * **– ExternalURL** é o FQDN que pode ser acessado na Internet.
 * **– CertificateName** é o nome amigável do certificado.
 
@@ -98,7 +90,7 @@ New-OfficeWebAppsFarm -InternalURL "http://servername" -AllowHttp
 
 **Parâmetros**
 
-* **– InternalURL** é o nome do servidor que executa o Servidor do Office Online, como http://servername.
+* ** – InternalURL** é o nome do servidor que executa o Servidor do Office Online, como http://servername.
 * **– AllowHttp** configura o farm para usar o HTTP.
 
 ### <a name="verify-that-the-office-online-server-farm-was-created-successfully"></a>Verifique se o farm do Servidor do Office Online foi criado com êxito

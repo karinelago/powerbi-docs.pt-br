@@ -1,28 +1,20 @@
 ---
 title: Conectar-se ao SQL Sentry com o Power BI
 description: SQL Sentry para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Conectar-se ao SQL Sentry com o Power BI
 É fácil analisar seus dados de desempenho coletados pelo SQL Sentry com o Power BI. O Power BI recupera seus dados e cria um painel padrão e relatórios relacionados com base nesses dados.
@@ -30,7 +22,7 @@ ms.lasthandoff: 02/24/2018
 Conecte-se ao [pacote de conteúdo do SQL Sentry](https://app.powerbi.com/groups/me/getdata/services/sql-sentry) para o Power BI.
 
 >[!NOTE]
->Para se conectar, será necessário acesso a uma conta do SQL Sentry que você usa para se conectar a http://cloud.sqlsentry.com e uma ID do banco de dados que você vai monitorar.  Veja abaixo instruções sobre onde encontrar a ID de Banco de Dados.
+>O acesso a uma conta do SQL Sentry usada para conexão com o http://cloud.sqlsentry.com e uma ID de banco de dados que você monitorará são necessários para se conectar.  Veja abaixo instruções sobre onde encontrar a ID de Banco de Dados.
 
 ## <a name="how-to-connect"></a>Como se conectar
 1. Selecione **Obter Dados** na parte inferior do painel de navegação esquerdo.

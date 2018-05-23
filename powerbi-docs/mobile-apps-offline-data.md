@@ -1,27 +1,19 @@
 ---
-title: "Exibir os dados offline em aplicativos móveis do Power BI"
-description: "Leia sobre uma das vantagens de exibir o Power BI em um aplicativo móvel em vez de em um navegador móvel: você pode ver seus dados mesmo quando não estiver conectado a uma rede."
-services: powerbi
-documentationcenter: 
+title: Exibir os dados offline em aplicativos móveis do Power BI
+description: 'Leia sobre uma das vantagens de exibir o Power BI em um aplicativo móvel em vez de em um navegador móvel: você pode ver seus dados mesmo quando não estiver conectado a uma rede.'
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
-ms.openlocfilehash: 6ed6f2898fa99075c6130cd60c083f619b6ba258
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Exibir os dados offline em aplicativos móveis do Power BI
 Aplica-se a:

@@ -1,28 +1,20 @@
 ---
 title: Conectar-se ao UserVoice com o Power BI
 description: UserVoice para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bc55031358fe27b5bb935b8255c8b6b1c191d4ab
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Conectar-se ao UserVoice com o Power BI
 É fácil acompanhar e explorar dados do UserVoice com o Power BI e o pacote de conteúdo do UserVoice. O Power BI recupera seus dados, incluindo tíquetes, sugestões e classificações de satisfação, e cria um painel e relatórios prontos para uso com base nesses dados.
@@ -42,7 +34,7 @@ Conecte-se ao [pacote de conteúdo do UserVoice](https://app.powerbi.com/getdata
 3. Selecione **UserVoice** e **Obter**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Quando solicitado, digite a URL do UserVoice. A URL deve seguir o padrão indicado abaixo exatamente, com https://fabrikam.uservoice.com substituindo “fabrikam” pelo nome do produto ou serviço.
+4. Quando solicitado, digite a URL do UserVoice. A URL deve seguir o padrão indicado abaixo com exatamente https://fabrikam.uservoice.com substituindo “fabrikam” pelo nome do produto ou serviço.
    
    >[!NOTE]
    >Não há nenhuma barra no final e a conexão está em http**s**.
@@ -70,7 +62,7 @@ Conecte-se ao [pacote de conteúdo do UserVoice](https://app.powerbi.com/getdata
 
 Se você visualizar esse erro depois de digitar a URL do UserVoice. Verifique se que os requisitos a seguir forem atendidos:
 
-* A URL segue exatamente esse padrão “https://fabrikam.uservoice.com” substituindo “fabrikam” pelo prefixo de URL correto do UserVoice.
+* A URL segue exatamente esse padrão "https://fabrikam.uservoice.com" substituindo "fabrikam" pelo prefixo de URL correto do UserVoice.
 * Verifique se todas as letras são minúsculas.
 * Verifique se a URL está em "http**s**".
 * Verifique se que não há nenhuma barra invertida no final da URL.

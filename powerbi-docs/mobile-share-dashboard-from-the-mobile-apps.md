@@ -1,27 +1,19 @@
 ---
 title: Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 description: Convide outras pessoas para exibir seus dashboards e relatórios compartilhando links nos aplicativos móveis do Power BI. Saiba como.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: 5bbcf02dfb0c11ca605e0c07f2670bd3a3422e96
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 2e09af0a2baf00932ebe57d34b2e47f6d0287b3b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartilhar um dashboard ou relatório dos aplicativos móveis do Power BI
 Aplica-se a:
@@ -46,7 +38,7 @@ Nos aplicativos móveis do Power BI para iOS e Android, você também pode [anot
    
    Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI.
    
-   ![Compartilhou comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![Compartilhado comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    Leia mais [observações sobre o compartilhamento com colegas](service-share-dashboards.md).
 
@@ -76,7 +68,7 @@ Só será possível descompartilhar se você for o proprietário.
    
    Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI
    
-   ![Compartilhou comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![Compartilhado comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    Leia mais [observações sobre o compartilhamento com colegas](service-share-dashboards.md).
 
@@ -112,7 +104,7 @@ Só será possível descompartilhar se você for o proprietário.
    
    Os destinatários receberão um convite por email com um link direto para o dashboard. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI
    
-   ![Compartilhou comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
+   ![Compartilhado comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
    
    Leia mais [observações sobre o compartilhamento de painéis com colegas](service-share-dashboards.md).
 
@@ -147,7 +139,7 @@ Só será possível descompartilhar se você for o proprietário.
    
    Os destinatários receberão um convite por email com um link direto para o dashboard ou para o relatório. O convite expira após um mês. Quando eles o abrem, seja em um navegador ou no aplicativo móvel do Power BI, ele é adicionado à seção **Compartilhado Comigo** de sua conta do Power BI
    
-   ![Compartilhou comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   ![Compartilhado comigo](media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
    
    Leia mais [observações sobre o compartilhamento com colegas](service-share-dashboards.md).
 

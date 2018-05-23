@@ -1,28 +1,20 @@
 ---
 title: Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 description: O Power BI integra-se ao Azure Active Directory Business-to-business (Azure AD B2B) para permitir distribuição segura do conteúdo do Power BI aos usuários convidados fora da organização.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 16820050ad879b128482af5754bc53973449f982
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir o conteúdo do Power BI para usuários convidados externo com o Azure AD B2B
 
@@ -62,7 +54,7 @@ Um convite planejado é executado dentro do Portal do Microsoft Azure no Azure A
 
 4. Selecione **Convidar**.
 
-Para convidar mais de um usuário convidado, use o PowerShell. Para obter mais informações, consulte [Amostras do código de colaboração e do PowerShell no Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-code-samples).
+Para convidar mais de um usuário convidado, use o PowerShell. Para obter mais informações, consulte [Amostras do código de colaboração e do PowerShell no Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/code-samples).
 
 O usuário convidado precisa selecionar **Introdução** no convite que recebeu por email. O usuário convidado é adicionado ao locatário.
 
@@ -111,7 +103,7 @@ O usuário convidado já tem uma licença do Power BI Pro atribuída em seu loca
 * Ao convidar usuários que estão usando contas de email pessoal, como gmail.com, outlook.com ou hotmail.com, use este [vídeo inserido](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) de exemplo, que explica como um usuário faria para se inscrever.
 * Convidados de B2B externos são limitados somente para consumo de conteúdo. Convidados de B2B externos podem exibir aplicativos, dashboards, relatórios, exportar dados e criar assinaturas de email para dashboards e relatórios. Eles não podem acessar os espaços de trabalho ou publicar seu próprio conteúdo.
 * Este recurso não está disponível atualmente com os aplicativos móveis do Power BI. Em um dispositivo móvel, é possível exibir o conteúdo do Power BI compartilhado usando B2B do Azure AD em um navegador.
-* Não há suporte para usar usuários convidados com o Power BI em nuvens soberanas (governo).
+* Este recurso não está disponível atualmente com a web part de relatório do Power BI para o SharePoint Online.
 
 ## <a name="next-steps"></a>Próximas etapas
 

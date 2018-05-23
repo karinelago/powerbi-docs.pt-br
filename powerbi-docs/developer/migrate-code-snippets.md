@@ -1,27 +1,19 @@
 ---
-title: "Trechos de código para migrar conteúdo do Power BI Embedded"
-description: "Veja alguns trechos de código das operações básicas necessárias para a migração de conteúdo"
-services: powerbi
-documentationcenter: 
+title: Trechos de código para migrar conteúdo do Power BI Embedded
+description: Veja alguns trechos de código das operações básicas necessárias para a migração de conteúdo
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: maghan
-ms.openlocfilehash: d293f2184f0f9a314a77c362312de4ab6a4dc5df
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 8fbefc7f1b6a9841dcb9c3d34d850c7e8e392881
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Trechos de código para migrar conteúdo da Coleção de Espaços de Trabalho do Power BI
 Veja alguns trechos de código das operações básicas necessárias para a migração de conteúdo. Para ver fluxos relacionados de determinados tipos de relatório, consulte [Como migrar o conteúdo da coleção de espaços de trabalho do Power BI para o Power BI Embedded](migrate-from-powerbi-embedded.md#content-migration).
@@ -149,7 +141,7 @@ Neste trecho de código, estamos usando credenciais sem criptografia para fins d
     }
 
     var basicCreds = new BasicCreds() { user = <sqldb_username>, pwd = <sqldb_password> };
-    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCreds = basicCreds };
+    var body = new SetCredsRequestBody() { credentialType = "Basic", basicCredentials = basicCreds };
 
     var url = string.Format("https://api.powerbi.com/v1.0/myorg/gateways/{0}/datasources/{1}", <gateway_id>, <datasource_id>);
     var request = new HttpRequestMessage(new HttpMethod("PATCH"), url);

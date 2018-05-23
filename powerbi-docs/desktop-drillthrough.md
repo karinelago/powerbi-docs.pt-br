@@ -1,28 +1,20 @@
 ---
 title: Usar o detalhamento no Power BI Desktop
 description: Saiba como fazer uma busca detalhada dos dados em uma nova página de relatório no Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Usar o detalhamento no Power BI Desktop
 Com o **detalhamento** no **Power BI Desktop**, você pode criar uma página em seu relatório que tem como foco uma entidade específica – como um fornecedor, cliente ou fabricante. Com essa página de relatório com foco, os usuários podem clicar com o botão direito do mouse em um ponto de dados em outras páginas do relatório e executar uma consulta drill-through para a página com foco para obter detalhes filtrados para esse contexto.
@@ -71,6 +63,14 @@ Em seguida, ao fazer o detalhamento em um visual, você poderá ver quais filtro
 ![filtros transitórios em itálico](media/desktop-drillthrough/drillthrough_07.png)
 
 Observe que isso poderia ser feito com páginas de dicas de ferramenta, mas essa seria uma experiência estranha (a dica de ferramenta não pareceria estar funcionando corretamente), portanto, não é recomendado fazer isso com dicas de ferramenta.
+
+## <a name="add-a-measure-to-drillthrough"></a>Adicionar uma medida ao detalhamento
+
+Além de passar todos os filtros para a janela de detalhamento, você também pode adicionar uma medida (ou uma coluna numérica resumida) para a área de detalhamento. Basta arrastar o campo de detalhamento para o cartão de Detalhamento para aplicá-lo. 
+
+![adicionar uma medida ao detalhamento](media/desktop-drillthrough/drillthrough_08.png)
+
+Quando você adiciona uma medida (ou uma coluna numérica resumida), você pode fazer uma busca detalhada até a página quando o campo é usado na área *Valor* de um visual.
 
 E isso é tudo o que é necessário para usar o **detalhamento** em seus relatórios. É uma ótima maneira de obter uma exibição expandida das informações de entidade selecionadas para o filtro de detalhamento.
 

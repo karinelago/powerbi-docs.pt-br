@@ -1,28 +1,20 @@
 ---
 title: Usar Temas de Relatório no Power BI Desktop (Visualização)
 description: Saiba como usar uma paleta de cores personalizada e aplicá-la a um relatório inteiro no Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usar Temas de Relatório no Power BI Desktop (Visualização)
 Com **Temas de Relatório** você pode aplicar um tema de cor ao relatório inteiro, como as cores da empresa, uma coloração sazonal ou qualquer outro tema de cor que você queira aplicar. Quando você aplicar um **Tema de Relatório**, todos os visuais no relatório passarão a usar as cores do tema selecionado (aplicam-se algumas exceções que serão descritas posteriormente neste artigo).
@@ -149,7 +141,7 @@ O arquivo JSON básico tem cinco linhas obrigatórias:
 
 * **name** – esse é o nome do tema, que é o único campo obrigatório
 * **dataColors** – uma lista de códigos hexadecimais de cores a serem usados para dados nos visuais do Power BI Desktop. A lista pode conter quantas cores forem desejadas
-* **background**, **foreground** e **tableAccent** – esses valores são as cores que devem ser usadas em visuais de **tabela** e **matriz**. A maneira em que essas cores são usadas depende do estilo específico de tabela ou matriz aplicado. Os visuais de **tabela** e de **matriz** aplicam esses estilos por padrão.
+* **background**, **foreground** e **tableAccent** – esses valores são as cores que devem ser aplicadas em diversos tipos de visuais. O **foreground** aplica-se ao texto da caixa de texto, o texto de meta de KPI, o texto de cartão de várias linhas, o texto do valor do cartão, o texto explicativo medidor, o texto do elemento de segmentação vertical e o texto dos valores e do total de **tabela** e **matriz**. O **background** aplica-se ao preenchimento do botão e à tela de fundo do rótulo do gráfico de combinação. A maneira em que essas cores são usadas depende do estilo específico do visual aplicado. Os visuais de **tabela** e de **matriz** aplicam esses estilos por padrão.
 
 Para criar um arquivo JSON em um formato estendido, com um controle granular e mais detalhado sobre a formatação, você precisa adicionar uma seção **visualStyles** ao arquivo JSON e aninhar as especificações de formatação nessa seção. O formato da seção **visualStyles** é parecido com o seguinte:
 

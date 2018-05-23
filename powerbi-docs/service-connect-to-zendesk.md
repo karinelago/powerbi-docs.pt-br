@@ -1,28 +1,20 @@
 ---
 title: Conectar-se ao Zendesk com o Power BI
 description: Zendesk para o Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 52adef9d30ec269e6e3a954632a54814b241623d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Conectar-se ao Zendesk com o Power BI
 O pacote de conteúdo do Zendesk oferece um painel e um conjunto de relatórios do Power BI que fornecem informações sobre os volumes de tíquetes e o desempenho do agente. Você pode usar o painel e os relatórios como fornecidos, ou então personalizá-los para realçar as informações que mais importam a você.  Os dados serão atualizados automaticamente uma vez por dia. 
@@ -42,7 +34,7 @@ Conecte-se ao [pacote de conteúdo do Zendesk](https://app.powerbi.com/getdata/s
 3. Selecione **Zendesk** \> **Obter.**
    
    ![](media/service-connect-to-zendesk/zendesk.png)
-4. Forneça a URL associada à sua conta. Isso terá o formato **https://company.zendesk.com**; veja detalhes sobre como [encontrar esses parâmetros](#FindingParams) abaixo.
+4. Forneça a URL associada à sua conta. Isso terá o formato **https://company.zendesk.com**, confira os detalhes sobre [como encontrar esses parâmetros](#FindingParams) abaixo.
    
    ![](media/service-connect-to-zendesk/pbi_zendeskconnect.png)
 5. Quando solicitado, insira suas credenciais do Zendesk.  Selecione **oAuth 2** como o Mecanismo de Autenticação e clique em **Entrar**. Siga o fluxo de autenticação do Zendesk. (Se você já tiver entrado no Zendesk em seu navegador, talvez suas credenciais não sejam solicitadas.)
