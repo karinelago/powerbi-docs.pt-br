@@ -104,7 +104,7 @@ Por fim, elementos visuais não cartesianos atualmente não podem aplicar linhas
 * Matriz
 * Gráfico de pizza
 * Donut
-* Table
+* Tabela
 
 A linha de percentil só fica disponível ao usar os dados importados no **Power BI Desktop**, ou quando conectado ao vivo a um modelo em um servidor que está executando o **Analysis Service 2016** ou posterior, o **Azure Analysis Services** ou um conjunto de dados no serviço do Power BI. 
 

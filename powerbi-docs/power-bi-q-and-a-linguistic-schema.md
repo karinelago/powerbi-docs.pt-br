@@ -7,14 +7,14 @@ ms.reviewer: mihart
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/20/2018
+ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: b7fb59e7fca6a3211b542b2a942565d6865e560c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: c504280257a959ccd7a46e61b9d377c22b76c14d
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="language-modeling-and-the-linguistic-schema"></a>Modelagem de linguagem e o esquema linguístico 
 Usar linguagem natural e expressões comuns para fazer perguntas sobre seus dados é eficiente. É ainda mais eficiente quando seus dados respondem, que é o que P e R no Power BI Desktop permite que você faça. Quando você faz uma pergunta para P e R do Power BI, ele se esforça para responder corretamente. 
@@ -53,10 +53,7 @@ Os esquemas linguísticos são salvos no formato YAML. Esse formato está relaci
 
     ![Como você deseja abrir este arquivo](media/power-bi-q-and-a-linguistic-schema/power-bi-visual-code.png)
 
-4. No Visual Studio Code, instale o suporte para YAML pela extensão do Red Hat.
-
-   
-
+4. No Visual Studio Code, instale o suporte para YAML pela extensão do Red Hat.    
     a. Selecione a guia **Extensões** (a última à esquerda) ou pressione CTRL + SHIFT + X.    
     ![ícone de extensões](media/power-bi-q-and-a-linguistic-schema/power-bi-extensions.png)    
     b. Procure "yaml" e selecione **Suporte para YAML pelo Red Hat** na lista.    
