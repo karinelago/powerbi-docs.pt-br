@@ -846,7 +846,9 @@
           items:
             - name: Introdução ao Power BI para aplicativo Android
               href: mobile-android-app-get-started.md
-            - name: Corrigindo "seu certificado SSL corporativo não é confiável"
+            - name: Correção de “Seu certificado SSL corporativo não é confiável”
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Correção de “É necessário atualizar o Android System Webview”
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
