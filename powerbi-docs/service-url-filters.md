@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 071f7ea0c324ec8fe0160766f65cf929f811362a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: aeaea6d14cf8f4fd62fbbf5098e68429fe40b96a
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtrar relatórios usando parâmetros da cadeia de caracteres de consulta na URL
 Ao abrir um relatório no serviço do Power BI, cada página do relatório tem sua própria URL exclusiva. Para filtrar essa página do relatório, é possível usar o painel Filtros na tela de relatório.  Outra opção é adicionar parâmetros da cadeia de caracteres de consulta na URL para filtrar o relatório. Talvez você tenha um relatório que gostaria de mostrar aos colegas, mas antes deseja filtrá-lo previamente para enviar a eles. Uma maneira de fazer isso é iniciar com a URL padrão correspondente ao relatório, adicionar os parâmetros de filtro à URL e, em seguida, enviar a URL inteira por email aos usuários.
@@ -97,9 +97,10 @@ Após filtrar o relatório usando parâmetros da cadeia de caracteres de consult
 
 Pode haver casos em que isso será útil, isto é, quando você desejar obter resultados diferentes: filtrados no dashboard e não filtrados no relatório.
 
-## <a name="limitations-and-troubleshooting"></a>Limitações e solução de problemas
+## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
 Há alguns pontos a serem considerados ao usar os parâmetros da cadeia de caracteres de consulta.
 
+* No Servidor de Relatórios do Power BI, você pode [passar parâmetros de relatório](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) incluindo-os em uma URL de relatório. Esses parâmetros de URL não são prefixados, porque são passados diretamente para o mecanismo de processamento de relatório. 
 * A filtragem da cadeia de caracteres de consulta não funciona com [Publicar na Web](service-publish-to-web.md) nem com o Power BI Embedded.   
 * O tipo de campo deve ser um número ou uma cadeia de caracteres.
 * Os nomes de tabelas e campos não podem conter espaços.

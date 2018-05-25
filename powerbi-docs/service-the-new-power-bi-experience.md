@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Guia de Início Rápido – Explorando o serviço do Power BI
 
@@ -125,6 +125,19 @@ Você também pode classificar o conteúdo por nome ou por proprietário.
 ![classificar conteúdo](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Para saber mais, consulte [Navegação do Power BI: pesquisar, classificar e filtrar](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>Limpar recursos
+Depois de concluir este início rápido, você poderá excluir o dashboard, o relatório e o conjunto de dados de exemplo de Análise de Varejo, se desejar.
+
+1. Abra o serviço do Power BI (app.powerbi.com) e entre.    
+2. No painel de navegação esquerdo, selecione **Espaços de Trabalho > Meu Espaço de Trabalho**.  
+    Está vendo a estrela amarela indicando que é um favorito?    
+3. Na guia **Dashboards**, selecione o ícone de lata de lixo para **Excluir** ao lado do dashboard Análise de Varejo.    
+
+    ![excluir dashboard](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Selecione a guia **Relatórios** e faça o mesmo com o relatório de Análise de Varejo.
+1. Selecione a guia **Conjuntos de Dados** e faça o mesmo com o conjunto de dados de Análise de Varejo.
 
 ## <a name="next-steps"></a>Próximas etapas
 
