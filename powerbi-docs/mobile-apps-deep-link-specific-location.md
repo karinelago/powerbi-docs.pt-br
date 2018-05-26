@@ -1,27 +1,19 @@
 ---
-title: "Criar um link para um local específico nos aplicativos móveis do Power BI"
-description: "Saiba como criar um link profundo para um painel, bloco ou relatório específico no aplicativo móvel do Power BI com um Uniform Resource Identifier (URI)."
-services: powerbi
-documentationcenter: 
+title: Criar um link para um local específico nos aplicativos móveis do Power BI
+description: Saiba como criar um link profundo para um painel, bloco ou relatório específico no aplicativo móvel do Power BI com um Uniform Resource Identifier (URI).
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Criar um link para um local específico nos aplicativos móveis do Power BI
 Você pode criar e usar um Uniform Resource Identifier (URI) para vincular a um local específico (um *link profundo*) dentro dos aplicativos móveis do Power BI em todas as plataformas móveis: iOS, dispositivos Android e Windows 10.
@@ -47,7 +39,7 @@ https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270*
 
 Se o painel estiver em um grupo diferente do grupo Meu Espaço de Trabalho, adicione `&GroupObjectId=<36-character-group-id>` antes ou após a ID do painel. Por exemplo, 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 Observe o E comercial (&) entre os dois.
 

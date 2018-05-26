@@ -1,27 +1,19 @@
 ---
 title: Usar ferramentas de desenvolvedor para criar visuais personalizados
-description: "Os visuais personalizados permitem atender às necessidades dos usuários e corresponder ao design do aplicativo. Aprenda como criar um visual personalizado para o Power BI usando as ferramentas de desenvolvedor."
-services: powerbi
-documentationcenter: 
+description: Os visuais personalizados permitem atender às necessidades dos usuários e corresponder ao design do aplicativo. Aprenda como criar um visual personalizado para o Power BI usando as ferramentas de desenvolvedor.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usar ferramentas de desenvolvedor para criar visuais personalizados
 Os visuais personalizados permitem atender às necessidades dos usuários e corresponder ao design do aplicativo. Aprenda como criar um visual personalizado para o Power BI usando as ferramentas de desenvolvedor.
@@ -87,7 +79,7 @@ Para criar um visual personalizado, você precisará instalar o NodeJS. O NodeJS
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Instalação de certificado do servidor
 Para habilitar uma visualização dinâmica do visual, é necessário um servidor https confiável. Antes de começar, você precisará instalar um certificado SSL para permitir que os ativos visuais sejam carregados no navegador da Web. 
@@ -97,9 +89,24 @@ Para habilitar uma visualização dinâmica do visual, é necessário um servido
 > 
 > 
 
-Para *adicionar* um certificado, execute o seguinte comando.
+Para *criar* um certificado, execute o seguinte comando.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Você verá uma mensagem informando o caminho do local para o certificado e uma frase secreta recém-gerada.
+> 
+> 
+
+
+Para *instalar* o certificado, execute o seguinte comando.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Você verá uma mensagem informando para usar sua frase secreta recém-gerada para instalar um certificado PFX.
+> 
+> 
 
 **Sistema operacional Windows**
 

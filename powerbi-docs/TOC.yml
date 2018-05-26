@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Assinar um relatório ou um dashboard
                   href: service-report-subscribe.md
+                - name: Muitas maneiras de abrir um relatório
+                  href: service-report-open.md
                 - name: Renomear conteúdo no Power BI
                   href: service-rename.md
                 - name: Exibir painéis e relatórios no Modo de Tela Inteira (modo de TV)

@@ -1,28 +1,20 @@
 ---
 title: Introdução ao Power BI Desktop
 description: Introdução ao Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 99f2679f30c8eebf40389883b41601d4fc3da939
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introdução ao Power BI Desktop
 Bem-vindo ao **Guia de Introdução ao Power BI Desktop**. Esse breve tour do Power BI Desktop apresentará como ele funciona, demonstrará o que ele pode fazer e acelerará sua capacidade de criar modelos de dados robustos – juntamente com relatórios incríveis – que potencializam seus esforços de business intelligence. 
@@ -336,6 +328,10 @@ Para obter mais informações sobre como criar, compartilhar e modificar dashboa
 
 Há inúmeras combinações e visualizações atraentes relacionadas a dados que você pode criar com o Power BI Desktop e com o serviço do Power BI. Consulte a próxima seção para obter mais informações.
 
+## <a name="diagnostics"></a>Diagnóstico
+
+O Power BI Desktop dá suporte à conexão a uma porta de diagnóstico. A porta de diagnóstico permite que outras ferramentas se conectem e executem rastreamentos para fins de diagnóstico. *Não há suporte para a realização de alterações ao modelo! Alterações ao modelo podem levar a dados corrompidos e a perda de dados.*
+
 ## <a name="next-steps"></a>Próximas etapas
 Há inúmeras coisas que você pode fazer com o Power BI Desktop. Para obter mais informações sobre seus recursos, consulte as seguintes fontes:
 
@@ -344,4 +340,3 @@ Há inúmeras coisas que você pode fazer com o Power BI Desktop. Para obter mai
 * [Conectar-se a dados no Power BI Desktop](desktop-connect-to-data.md)
 * [Formatar e combinar dados com o Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tarefas comuns de consulta no Power BI Desktop](desktop-common-query-tasks.md)   
-

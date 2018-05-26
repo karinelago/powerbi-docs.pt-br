@@ -1,28 +1,20 @@
 ---
-title: "Como atualizar suas credenciais do pacote de conteúdo Xero"
-description: "Se você usa o pacote de conteúdo Xero Power BI, você pode ter tido um problema com a atualização diária do pacote de conteúdo devido a um incidente de serviço recente do Power BI."
-services: powerbi
-documentationcenter: 
+title: Como atualizar suas credenciais do pacote de conteúdo Xero
+description: Se você usa o pacote de conteúdo Xero Power BI, você pode ter tido um problema com a atualização diária do pacote de conteúdo devido a um incidente de serviço recente do Power BI.
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 2be07994ebd136fa3cd99cd3d64967618cde7258
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5978443f05e039c34ff023f235624968b5eb8a3e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="how-to-refresh-your-xero-content-pack-credentials-if-refresh-failed"></a>Como atualizar suas credenciais do pacote de conteúdo Xero se a atualização tiver falhado
 Se você usa o pacote de conteúdo Xero Power BI, você pode ter tido um problema com a atualização diária do pacote de conteúdo devido a um incidente de serviço recente do Power BI.

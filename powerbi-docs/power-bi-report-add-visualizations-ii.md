@@ -1,36 +1,28 @@
 ---
-title: "Parte 2, Adicionar visualizações a um relatório do Power BI (Tutorial)"
-description: "Tutorial: Parte 2, Adicionar visualizações a um relatório do Power BI"
-services: powerbi
-documentationcenter: 
+title: Parte 2, Adicionar visualizações a um relatório do Power BI
+description: Parte 2, Adicionar visualizações a um relatório do Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5c3f98635d188aa1857be9c8d8e36dc296339ad7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte 2, Adicionar visualizações a um relatório do Power BI (Tutorial)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte 2, Adicionar visualizações a um relatório do Power BI
 Na [Parte 1](power-bi-report-add-visualizations-ii.md), você criou uma visualização básica marcando as caixas de seleção ao lado dos nomes de campo.  Na parte 2, você aprenderá como usar o arrastar e soltar e fazer uso integral dos painéis **Campos** e **Visualizações** para criar e modificar as visualizações.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 - [Parte 1](power-bi-report-add-visualizations-ii.md)
 - Serviço do Power BI – visualizações podem ser adicionadas a relatórios usando o serviço Power BI ou Power BI Desktop. Este tutorial usa o serviço Power BI. 
-- Exemplo de Análise de Varejo
+- Exemplo de análise de varejo
 
 ## <a name="create-a-new-visualization"></a>Criar uma nova visualização
 Neste tutorial, vamos examinar nosso conjunto de dados de Análise de Varejo e criar algumas visualizações chave.

@@ -1,27 +1,19 @@
 ---
-title: "Localizar dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI"
-description: "Leia mais sobre onde encontrar seus dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI, dependendo de sua origem."
-services: powerbi
-documentationcenter: 
+title: Localizar dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI
+description: Leia mais sobre onde encontrar seus dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI, dependendo de sua origem.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Localize seus dashboards, relatórios e aplicativos nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -74,7 +66,7 @@ Aqui você encontrará dashboards e relatórios que colegas compartilharam com v
 ![Power BI compartilhado comigo](media/mobile-apps-find-content-mobile-devices/power-bi-android-shared-fave.png)
 
 ## <a name="5-workspaces"></a>5 Espaços de trabalho
-Também chamados de *Espaços de trabalho de aplicativo*, eles são ambientes de preparo do serviço no Power BI ([https://powerbi.com](https://powerbi.com)), nos quais você pode colaborar com colegas para criar uma coleção de dashboards e relatórios. Em seguida, você distribui a coleção como um *aplicativo*. 
+Também chamados de *Espaços de trabalho de aplicativo*, eles são ambientes de preparo do serviço do Power BI ([https://powerbi.com](https://powerbi.com)), nos quais você pode colaborar com colegas para criar uma coleção de painéis e relatórios. Em seguida, você distribui a coleção como um *aplicativo*. 
 
 Nos aplicativos móveis, você pode exibir e interagir com o conteúdo em qualquer espaço de trabalho no qual você seja um membro ou um administrador. Você não pode publicar aplicativos de espaços de trabalho em aplicativos móveis.
 

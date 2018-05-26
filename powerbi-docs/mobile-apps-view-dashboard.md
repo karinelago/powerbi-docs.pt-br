@@ -1,27 +1,19 @@
 ---
-title: "Exibir painéis e relatórios nos aplicativos móveis do Power BI"
-description: "Criar e conectar-se aos painéis e relatórios no serviço do Power BI. Em seguida, exiba-os nos aplicativos móveis do Power BI."
-services: powerbi
-documentationcenter: 
+title: Exibir painéis e relatórios nos aplicativos móveis do Power BI
+description: Criar e conectar-se aos painéis e relatórios no serviço do Power BI. Em seguida, exiba-os nos aplicativos móveis do Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Exibir painéis e relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -37,8 +29,8 @@ Painéis são um portal para o ciclo de vida e processos de sua empresa. Um pain
 
 Para ver painéis e relatórios em seu dispositivo móvel, é necessário criar ou se conectar a eles em um navegador da Web. 
 
-1. Vá para o serviço do Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para obter uma conta](service-self-service-signup-for-power-bi.md).
-2. [Crie seus próprios painéis e relatórios do Power BI](service-get-started.md) ou conecte-se a [aplicativos Power BI](service-connect-to-services.md) existentes para uma variedade de serviços, como [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) e [Adobe Analyics](service-connect-to-adobe-analytics.md).
+1. Vá até o serviço do Power BI ([https://www.powerbi.com](https://www.powerbi.com)) e [inscreva-se para ter uma conta](service-self-service-signup-for-power-bi.md).
+2. [Crie seus próprios dashboards e relatórios do Power BI](service-get-started.md) ou conecte-se a [aplicativos do Power BI](service-connect-to-services.md) existentes para usar uma variedade de serviços, como o [Microsoft Dynamics CRM](service-connect-to-microsoft-dynamics-crm.md) e o [Adobe Analytics](service-connect-to-adobe-analytics.md).
 
 Este é um dashboard do Power BI no serviço do Power BI:
 
@@ -115,31 +107,21 @@ Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do s
    
    ![Página inicial do dashboard](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     As estrelas amarelas ![Estrela de Favorito](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram quais dashboards são favoritos. 
+    As estrelas amarelas ![Estrela de Favorito](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) mostram quais dashboards são favoritos. 
 
-     -     Uma notação embaixo de um nome de dashboard (neste caso, "MBI") ![Classificação de dados](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados em cada dashboard são classificados. Leia mais sobre [classificação de dados no Power BI](service-data-classification.md).
-
+    Uma notação embaixo de um nome de dashboard (neste caso, "MBI") ![Classificação de dados](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) mostra como os dados em cada dashboard são classificados. Leia mais sobre [classificação de dados no Power BI](service-data-classification.md).
 
     Os painéis do Power BI parecem um pouco diferentes em seu telefone Android. Todos os blocos aparecem com a mesma largura e são dispostos um após o outro, de cima para baixo.
 
     ![Exibição de retrato do dashboard](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     Se preferir, basta virar seu telefone para os lados para vê-los no modo paisagem no telefone.
-
-    > [AZURE.TIP] Se você for o proprietário do dashboard, no serviço do Power BI, poderá [criar uma exibição do dashboard, especificamente para telefones](service-create-dashboard-mobile-phone-view.md) no modo retrato. 
+    Se você for o proprietário do dashboard, no serviço do Power BI, poderá [criar uma exibição do dashboard, especificamente para telefones](service-create-dashboard-mobile-phone-view.md) no modo retrato. 
 
 1. Enquanto estiver no painel, você pode tocar vertical nas reticências (...) próximas ao nome para convidar um colega, atualizar ou obter informações sobre o painel:
    
    ![Menu de reticências](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Passe o dedo para cima e para baixo para ver todos os [blocos no dashboard](mobile-tiles-in-the-mobile-apps.md). 
 3. Para voltar para a página inicial de dashboards, toque no nome do dashboard para abrir a trilha de localização. Em seguida, toque em **Meu Espaço de Trabalho**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Exiba painéis no modo paisagem no seu telefone Android
-Você também pode exibir painéis no modo paisagem, apenas girando seu telefone. O layout do painel muda de uma série de blocos para uma exibição de todo o painel. Você vê todos os blocos do painel dispostos da mesma forma que no serviço do Power BI.
-
-![Exibição de paisagem do dashboard](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Você pode usar o gesto de pinçar para ampliar e reduzir áreas diferentes do seu painel e o movimento panorâmico para navegar por ele. Além disso, também é possível [tocar em um bloco](mobile-tiles-in-the-mobile-apps.md) para abri-lo no modo foco e interagir com os dados.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Exibir dashboards em seu tablet Android
 1. Abra o aplicativo do Power BI em seu tablet Android e entre.

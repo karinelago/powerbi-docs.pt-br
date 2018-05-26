@@ -1,27 +1,19 @@
 ---
 title: Solucionando problemas do aplicativo inserido
 description: Este artigo aborda alguns problemas comuns que podem ser encontrados ao inserir conteúdo do Power BI.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 13bdbbfec2e76b526b92d65f6f9f5cd1372f2094
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solucionando problemas do aplicativo inserido
 
@@ -144,5 +136,3 @@ Abra o arquivo no Power BI Desktop ou no powerbi.com e verifique se o desempenho
 Para saber mais, veja [Perguntas frequentes do Power BI Embedded](embedded-faq.md).
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
-
-

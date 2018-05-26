@@ -1,28 +1,20 @@
 ---
 title: Idiomas com suporte e países/regiões para o Power BI
 description: Consulte as listas de idiomas e países/regiões com suporte para o serviço do Power BI, Power BI Desktop e documentação do Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: get-started-article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 14890d93261c12e16756c8f65d9273d954f673dd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas com suporte e países/regiões para o Power BI
 
@@ -165,6 +157,11 @@ Além de definir o idioma para o aplicativo de do Power BI Desktop, você també
 - Como podemos comparar e classificar cadeias de caracteres. Por exemplo, como o turco tem duas da letras i, dependendo do agrupamento do banco de dados, ambas podem terminar em ordens diferentes ao classificar. 
 - O idioma que o Power BI Desktop usa ao criar tabelas de data oculta em campos de data. Por exemplo, os campos são chamados de Mês/Month/Mois, etc.
 
+> [!NOTE]
+> Atualmente, o modelo do Power BI usa uma localidade que não diferencia maiúsculas de minúsculas (nem caracteres kana), de modo que “ABC” e “abc” serão tratados como equivalentes. Se "ABC" for carregado no banco de dados primeiro, outras cadeias de caracteres cuja única diferença forem as maiúsculas e minúsculas, como "Abc", não serão carregadas como valores separados.
+> 
+>
+
 Veja como definir o idioma do modelo.
 
 1. No Power BI Desktop, acesse **Arquivo** > **Opções e configurações** > **Opções**.
@@ -173,6 +170,10 @@ Veja como definir o idioma do modelo.
 
     ![Definir o idioma do modelo no Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Após a criação, o idioma de um modelo do Power BI não pode ser alterado.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Idiomas para a documentação da ajuda
 A ajuda está localizada nestes dez idiomas: 

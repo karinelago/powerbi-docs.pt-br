@@ -1,89 +1,71 @@
 ---
-title: "Introdução ao Servidor de Relatório do Power BI"
-description: "Saiba como instalar o Servidor de Relatório do Power BI. "
-services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+title: O que é o Servidor de Relatórios do Power BI?
+description: Tenha uma visão geral do Servidor de Relatórios do Power BI para entender como ele se encaixa no SSRS (Microsoft SQL Server Reporting Services) e no restante do Power BI.
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.component: powerbi-report-server
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 1be2270074011f73c3d942677211dd99d18c6b2b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Introdução ao Servidor de Relatório do Power BI
-Crie, implante e gerencie os relatórios paginados, móveis e do Power BI localmente com a variedade de ferramentas e serviços prontos para uso fornecidos pelo Servidor de Relatório do Power BI.
+# <a name="what-is-power-bi-report-server"></a>O que é o Servidor de Relatórios do Power BI?
 
-## <a name="create-deploy-and-manage-reports"></a>Criar, implantar e gerenciar relatórios
-O Servidor de Relatório do Power BI é uma solução que os clientes implantam nos seus próprios locais para criar, publicar e gerenciar relatórios e, em seguida, entregá-los aos usuários certos de diferentes maneiras, seja exibindo-os no navegador da Web, no dispositivo móvel ou como email na caixa de entrada.
+O Servidor de Relatórios do Power BI é um servidor de relatórios local com um portal da Web no qual você pode exibir e gerenciar KPIs e relatórios, juntamente com as ferramentas para criar relatórios, relatórios paginados, relatórios móveis e KPIs do Power BI. Seus usuários podem acessar esses relatórios de maneiras diferentes: exibindo-os em um navegador da Web ou dispositivo móvel, ou como um email em sua caixa de entrada.
 
-O Servidor de Relatório do Power BI oferece um pacote de produtos:
+![Portal da Web do Servidor de Relatório do Power BI](media/get-started/power-bi-report-server-overview.png)
 
-* Um portal da Web moderno que pode ser exibido em qualquer navegador moderno. No portal da Web, é possível organizar e exibir relatórios e KPIs. Também é possível armazenar as planilhas do Excel no portal.
-* Relatórios do Power BI, criados com o Power BI Desktop, que podem ser exibidos no portal da Web em seu próprio ambiente.
-* Relatórios paginados para seja possível criar relatórios com aparência moderna, com ferramentas para criá-los.
-* Relatórios móveis com um layout dinâmico que se adapta a diferentes dispositivos e às diferentes maneiras que você os armazena.
+## <a name="comparing-power-bi-report-server"></a>Comparando o Servidor de Relatórios do Power BI 
+O Servidor de Relatórios do Power BI é semelhante ao SQL Server Reporting Services e ao serviço do Power BI online, mas de maneiras diferentes. Assim como o serviço do Power BI, o Servidor de Relatórios do Power BI hospeda relatórios do Power BI (.PBIX) e arquivos do Excel. Assim como o Reporting Services, o Servidor de Relatórios do Power BI é local e hospeda relatórios paginados (.RDL). O Servidor de Relatórios do Power BI é um superconjunto do Reporting Services: tudo o que você pode fazer no Reporting Services, pode fazer com o Servidor de Relatórios do Power BI e mais, com a adição de suporte para relatórios do Power BI. Confira [Comparando o Servidor de Relatórios do Power BI e o serviço do Power BI](compare-report-server-service.md) para obter detalhes.
 
-Continue lendo para obter mais informações sobre cada um.
-
-### <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
-Essas fontes o manterão atualizado sobre os novos recursos no Servidor de Relatório do Power BI.
-
-* [Novidades no Servidor de Relatório do Power BI](whats-new.md)
-* [Blog do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* [Blog da equipe do SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* O [canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Licenciando o Servidor de Relatórios do Power BI
+O Servidor de Relatórios do Power BI está disponível por meio de duas licenças diferentes: [Power BI Premium](../service-premium.md) e [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) com Software Assurance. Com uma licença do Power BI Premium, você pode criar uma implantação híbrida combinando recursos locais e na nuvem.  
 
 ## <a name="web-portal"></a>Portal da Web
-![](media/get-started/web-portal.png)
+O ponto de entrada do Servidor de Relatórios do Power BI é um portal da Web seguro que pode ser exibido em qualquer navegador moderno. Aqui, você pode acessar todos os seus relatórios e KPIs. O conteúdo no portal da Web é organizado em uma hierarquia de pastas tradicional. Em suas pastas, o conteúdo é agrupado por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados e KPIs, além de pastas de trabalho do Excel, conjuntos de dados compartilhados e fontes de dados compartilhadas para serem usadas como blocos de construção para seus relatórios. Você pode marcar favoritos para exibi-los em uma única pasta. E é possível criar KPIs diretamente no portal da Web. 
 
-Para os usuários finais do Servidor de Relatório do Power BI, a porta da frente é um portal da Web que pode ser exibido em qualquer navegador moderno. É possível acessar todos os seus relatórios e KPIs no novo portal.
+![Portal da Web do Servidor de Relatório do Power BI](media/get-started/web-portal.png)
 
-É possível aplicar sua própria [identidade visual](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) personalizada ao seu portal da Web. E é possível criar KPIs diretamente no portal da Web. Os KPIs podem emergir principais métricas de negócios em um relance no navegador, sem precisar abrir um relatório.
+Dependendo de suas permissões, você poderá gerenciar o conteúdo no portal da Web. É possível agendar o processamento de relatórios, acessar relatórios sob demanda e assinar relatórios publicados. Também é possível aplicar sua própria [identidade visual](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) personalizada ao seu portal da Web. 
 
-O conteúdo no portal da Web é organizado por tipo: relatórios do Power BI, relatórios móveis, relatórios paginados e KPIs, além de pastas de trabalho do Excel, conjuntos de dados compartilhados e fontes de dados compartilhadas para serem usadas como blocos de construção para seus relatórios. É possível armazená-los e gerenciá-los em segurança aqui na tradicional hierarquia de pastas. Será possível marcar seus favoritos e gerenciar o conteúdo se você tiver essa função.
-
-E é possível agendar o processamento de relatórios, acessar relatórios sob demanda e assinar relatórios publicados no novo portal da Web.
-
-Mais sobre o [portal da Web](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Mais informações sobre o [portal da Web do Servidor de Relatórios do Power BI](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Relatórios do Power BI
-![](media/get-started/powerbi-reports.png)
+Você cria relatórios do Power BI (.PBIX) com a versão do Power BI Desktop otimizada para o servidor de relatórios. Em seguida, você os publica e exibe no portal da Web em seu próprio ambiente.
 
-Um relatório do Power BI é uma exibição de um conjunto de dados em várias perspectivas, com visualizações que representam as diferentes descobertas e informações obtidas por meio desse conjunto de dados.  Um relatório pode ter uma única visualização ou páginas repletas de visualizações. Dependendo da sua função de trabalho, você pode ser alguém que cria relatórios e/ou você pode ser alguém que consome ou usa relatórios.
+![Relatórios do Power BI no Servidor de Relatórios do Power BI](media/get-started/powerbi-reports.png)
 
-Os relatórios são baseados em um único conjunto de dados. Cada uma das visualizações em um relatório representa uma informação preciosa. E as visualizações não estáticas. Você pode adicionar e remover dados, alterar os tipos de visualização e aplicar filtros e segmentações de dados ao se aprofundar nos dados para descobrir informações e procurar respostas. Como um dashboard, mas mais do que isso, um relatório é altamente interativo e altamente personalizável e as visualizações são atualizadas conforme os dados subjacente se alteram.
+Um relatório do Power BI é uma exibição de um modelo de dados em várias perspectivas, com visualizações que representam diferentes descobertas e insights obtidos por meio desse modelo de dados.  Um relatório pode ter uma única visualização ou páginas repletas de visualizações. Dependendo de sua função, você pode ler e explorar relatórios ou pode criá-los para outras pessoas.
+
+Instale o [Power BI Desktop otimizado para o Servidor de Relatórios do Power BI](quickstart-create-powerbi-report.md).
 
 ## <a name="paginated-reports"></a>Relatórios paginados
-![](media/get-started/paginated-reports.png)
+Relatórios paginados (.RDL) são relatórios com estilo de documento com visualizações, em que tabelas são expandidas horizontal e verticalmente para exibir todos os dados, continuando de página a página conforme necessário. Isso é ótimo para gerar documentos com layout fixo e pixels perfeitos otimizados para impressão, como arquivos PDF e Word.
 
-Relatórios paginados são relatórios paginados no estilo de documento, em que quanto mais dados você tiver, mais linhas nas tabelas e mais páginas o relatório terá. Isso é ótimo para gerar documentos com layout fixo e pixels perfeitos otimizados para impressão, como arquivos PDF e Word.
+![Relatórios paginados no Servidor de Relatórios do Power BI](media/get-started/paginated-reports.png)
 
 É possível criar relatórios com aparência moderna usando o [Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) ou o Report Designer no [SSDT (SQL Server Data Tools)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
+## <a name="reporting-services-mobile-reports"></a>Relatórios móveis do Reporting Services
+Relatórios móveis se conectam a dados locais e têm um layout dinâmico que se adapta a diferentes dispositivos e às diferentes maneiras como você os armazena. Você os cria com o Publicador de Relatórios Móveis do SQL Server.
+
+Mais informações sobre os [Relatórios móveis do Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+
 ## <a name="report-server-programming-features"></a>Recursos de programação do Servidor de Relatório
-Aproveite os recursos de programação do Servidor de Relatório do Power BI para poder estender e personalizar sua funcionalidade de relatórios, com APIs para integrar ou estender dados e processamento de relatórios em aplicativos personalizados.
+Aproveite os recursos de programação do Servidor de Relatórios do Power BI para poder estender e personalizar sua funcionalidade de relatórios, com APIs para integrar ou estender dados e processamento de relatórios em aplicativos personalizados.
 
 Mais [documentação do desenvolvedor do Servidor de Relatório](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Próximas etapas
-[Manual do usuário](user-handbook-overview.md)  
-[Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
