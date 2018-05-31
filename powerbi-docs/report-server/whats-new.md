@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813244"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 Saiba quais são as novidades no Servidor de Relatório do Power BI. Elas abrangem as principais áreas de recurso e são atualizadas conforme novos itens são lançados.
 
 Para baixar o Servidor de Relatório do Power BI e o Power BI Desktop otimizado para o Servidor de Relatório do Power BI, acesse [Relatórios locais com o Servidor de Relatório do Power BI](https://powerbi.microsoft.com/report-server/).
 
-Para informações sobre “Novidades” relacionadas, consulte:
+Consulte também essas fontes para ficar atualizado sobre os novos recursos no Servidor de Relatórios do Power BI.
+
+* [Blog do Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blog da equipe do SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* O [canal do YouTube Guy in a Cube](https://aka.ms/guyinacube)
+
+Para saber mais sobre as “Novidades” do Power BI, consulte:
 
 * [Novidades no serviço do Power BI](../service-whats-new.md)
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
 * [Novidades em aplicativos móveis para o Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Blog da equipe do Power BI](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Versão de março de 2018
 
@@ -208,7 +214,7 @@ O Servidor de Relatórios do Power BI agora é compatível com os novos elemento
 ## <a name="next-steps"></a>Próximas etapas
 [Manual do usuário](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

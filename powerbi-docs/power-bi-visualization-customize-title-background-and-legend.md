@@ -1,16 +1,16 @@
 ---
-title: "Introdução à formatação de visualizações do Power BI (Tutorial)"
-description: "Tutorial: personalizar o título, tela de fundo e legenda da visualização"
+title: Introdução à formatação de visualizações do Power BI
+description: Personalizar o título, tela de fundo e legenda da visualização
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e81f4e9ede3591accc94576291179b4fd40215e5
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9a61d0aa7bed1e46109b5e467e64922cf434c10e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813267"
 ---
-# <a name="customize-visualization-titles-legends-and-backgrounds-tutorial"></a>Personalizar títulos, legendas e telas de fundo de visualizações (Tutorial)
+# <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalizar títulos, legendas e telas de fundo de visualizações
 Neste tutorial, você aprenderá várias maneiras diferentes de personalizar as visualizações.   Há inúmeras opções para personalizar as visualizações e a melhor maneira de saber mais sobre todas elas é explorar o painel de formatação (selecione o ícone do rolo de tinta).  Para começar, este artigo mostrará como personalizar o título, a legenda e a tela de fundo de uma de visualização.  
 
 Nem todas as visualizações podem ser personalizadas; [veja a lista completa](#list).  
@@ -36,7 +37,7 @@ Assista à Amanda personalizar visualizações em seu relatório (avance até 4:
 
 ### <a name="prerequisites"></a>Pré-requisitos
 - Serviço do Power BI ou Power BI Desktop
-- Exemplo de Análise de Varejo
+- Exemplo de análise de varejo
 
 ## <a name="customize-visualization-titles-in-reports"></a>Personalizar títulos de visualização em relatórios
 Para acompanhar, entre no serviço Power BI (app.powerbi.com) e abra o relatório [Exemplo de Análise de Varejo](sample-datasets.md) no [Modo de Edição de Exibição](service-interact-with-a-report-in-editing-view.md).

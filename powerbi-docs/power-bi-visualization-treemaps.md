@@ -1,31 +1,24 @@
 ---
-title: "Mapas de árvore no Power BI (tutorial)"
-description: 'Tutorial: Treemaps no Power BI'
-services: powerbi
-documentationcenter: 
+title: Mapas de árvore no Power BI
+description: Mapas de árvore no Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295343"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Mapas de árvore no Power BI (tutorial)
+# <a name="treemaps-in-power-bi"></a>Mapas de árvore no Power BI
 O treemaps exibe dados hierárquicos, como um conjunto de retângulos aninhados.  Cada nível da hierarquia é representado por um retângulo colorido (muitas vezes chamado uma "ramificação") que contém outros retângulos ("folhas").  O espaço dentro de cada retângulo é alocado com base no valor quantitativo que está sendo medido, os retângulos organizados em tamanho da parte superior esquerda (maior) para a parte inferior direita (menor).
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
@@ -44,7 +37,7 @@ Os treemps são uma ótima opção:
 
 ### <a name="prerequisites"></a>Pré-requisitos
  - Serviço do Power BI ou Power BI Desktop
- - Exemplo de Análise de Varejo
+ - Exemplo de análise de varejo
 
 ## <a name="create-a-basic-treemap"></a>Criar um mapa de árvore básico
 Deseja ver alguém criar um mapa de árvore primeiro?  Pule para 2:10 neste vídeo para assistir Amanda criar um mapa de árvore.

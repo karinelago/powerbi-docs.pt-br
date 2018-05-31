@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813359"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Práticas recomendadas de design para relatórios e visuais
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Para fazer isso, abra o painel Formatação, expanda **Eixo Y** e defina **Mostr
 
 Para obter mais informações, consulte:
 
-* [Tutorial: Gráfico de combinação no Power BI](power-bi-visualization-combo-chart.md)
+* [Gráfico de combinação no Power BI](power-bi-visualization-combo-chart.md)
 * [O perigo de eixos com escala dupla em visuais](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>Gráfico de dispersão
@@ -810,8 +811,8 @@ Os KPIs mostram o valor, o status, a meta, a variação da meta e a tendência n
 
 Para obter mais informações, veja:
 
-* [Tutorial: Gráficos de medidor radial no Power BI](power-bi-visualization-radial-gauge-charts.md)
-* [Tutorial: KPIs no Power BI](power-bi-visualization-kpi.md)
+* [Gráficos de medidor radial no Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [KPIs no Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Conclusão
 Agora é hora de colocar essas práticas recomendadas em ação.  Mantenha contato e compartilhe suas próprias práticas recomendadas. Não concorda com nossas recomendações ou descobriu um bom motivo para “quebrar as regras”?  Também gostaríamos muito de saber sua opinião.  

@@ -1,15 +1,15 @@
 ---
-title: "Gráfico de áreas básico (tutorial)"
-description: "Tutorial: gráfico de Área Básica."
+title: Gráfico de área básico
+description: Gráfico de área básico.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c4a7a90a8647b4a5d2c76cefbba5041a6e31607d
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 62d518b923d541ee937f485da946ae08b20fa386
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33811795"
 ---
-# <a name="basic-area-chart-tutorial"></a>Gráfico de áreas básico (tutorial)
+# <a name="basic-area-chart"></a>Gráfico de área básico
 O gráfico de áreas básico (também conhecido como gráfico de áreas em camadas) baseia-se no gráfico de linhas. A área entre o eixo e a linha é preenchida com cores para indicar o volume. 
 
 Os gráficos de área enfatizam a magnitude da alteração ao longo do tempo e pode ser usado para chamar a atenção para o valor total entre uma tendência. Por exemplo, os dados que representam o lucro ao longo do tempo podem ser plotados em um gráfico de área para enfatizar o lucro total.
@@ -39,7 +40,7 @@ Os gráficos de áreas básicos são uma ótima opção:
 
 ### <a name="prerequisites"></a>Pré-requisitos
  - Serviço do Power BI
- - Exemplo de Análise de Varejo
+ - Exemplo de análise de varejo
 
 Para acompanhar, entre no Power BI e selecione **Obter Dados \> Exemplos \> Exemplo de Análise de Varejo > Conectar** e escolha **Ir para o dashboard**. 
 
