@@ -1,16 +1,16 @@
 ---
-title: "Tutorial – gráficos de medidor radial no Power BI"
-description: "Tutorial: Gráficos de medidor radial no Power BI"
+title: Gráficos de medidor radial no Power BI
+description: Gráficos de medidor radial no Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6Epqa
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5b0b5861c567997bb5636c4fe00085535debc8f2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4a972e3ae702fc1746bebecbc5de00f47031f76a
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813037"
 ---
-# <a name="radial-gauge-charts-in-power-bi-tutorial"></a>Gráficos de medidor radial no Power BI (tutorial)
+# <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidor radial no Power BI
 Um gráfico de medidor radial tem um arco circular e exibe um único valor que acompanha o progresso em relação a um objetivo/KPI.  A meta, ou o valor de destino, é representada pela linha (agulha). Progresso em relação a esse objetivo é representado pelo sombreamento.  E o valor que representa o progresso é mostrado em negrito dentro do arco. Todos os valores possíveis são distribuídos uniformemente ao longo do arco, do mínimo (valor mais à esquerda) para o máximo (valor mais à direita).
 
 No exemplo a seguir, somos um revendedor de carro, controlando a média de vendas da nossa equipe por mês. Nosso objetivo é 140 e é representado pela agulha preta.  A média mínima possível de vendas é 0 e definimos o máximo como 200.  O sombreamento azul mostra que temos atualmente uma média de aproximadamente 120 vendas neste mês. Felizmente, ainda temos outra semana para atingir a nossa meta.

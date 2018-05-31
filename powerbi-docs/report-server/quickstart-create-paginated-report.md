@@ -1,29 +1,22 @@
 ---
-title: "Início rápido: criar um relatório paginado para o Servidor de Relatório do Power BI"
-description: "Saiba como criar um relatório paginado para o Servidor de Relatório do Power BI em algumas etapas simples."
-services: powerbi
-documentationcenter: 
+title: Criar um relatório paginado para o Servidor de Relatórios do Power BI
+description: Saiba como criar um relatório paginado para o Servidor de Relatório do Power BI em algumas etapas simples.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
-ms.openlocfilehash: 1e77a1ef92826010d6bc2fa28749a2ee17bbe723
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34294906"
 ---
-# <a name="quickstart-create-a-paginated-report-for-power-bi-report-server"></a>Início rápido: criar um relatório paginado para o Servidor de Relatório do Power BI
+# <a name="create-a-paginated-report-for-power-bi-report-server"></a>Criar um relatório paginado para o Servidor de Relatórios do Power BI
 Como o nome sugere, relatórios paginados podem ser executados em muitas páginas. Eles são dispostos em um formato fixo e oferecem personalização precisa. Relatórios paginados são arquivos .rdl.
 
 É possível armazenar e gerenciar relatórios paginados no portal da Web do Servidor de Relatório do Power BI, assim como no portal da Web do SSRS (SQL Server Reporting Services). Você cria-os e edita-os no Construtor de Relatórios ou Designer de Relatórios no SSDT (SQL Server Data Tools) e então publica-os em qualquer dos portais da Web. Em seguida, os leitores de relatório em sua organização poderão exibi-los em um navegador ou em um aplicativo móvel do Power BI em seu dispositivo móvel.

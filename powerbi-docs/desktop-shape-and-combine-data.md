@@ -1,33 +1,34 @@
 ---
-title: Formatar e combinar dados no Power BI Desktop
-description: Formatar e combinar dados no Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Formatar e combinar dados de várias fontes
+description: Neste tutorial, você aprenderá a formatar e combinar dados no Power BI Desktop
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288741"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Formatar e combinar dados no Power BI Desktop
-Com o **Power BI Desktop**, você pode se conectar a vários tipos diferentes de fontes de dados e formatar esses dados para atender às suas necessidades. *Formatar* dados significa transformá-los – como renomear colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como títulos e assim por diante. *Combinar* dados significa conectar-se a duas ou mais fontes de dados, formatá-las conforme o necessário e consolidá-las em uma consulta útil.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Formatar e combinar dados no Power BI Desktop
 
-Este artigo demonstra como formatar uma consulta usando o Power BI Desktop, destacando algumas das tarefas mais comuns. A consulta usada aqui é descrita mais detalhadamente, incluindo como criar a consulta do zero, em [Introdução ao Power BI Desktop](desktop-getting-started.md).
+Com o **Power BI Desktop**, você pode se conectar a vários tipos diferentes de fontes de dados e formatar esses dados para atender às suas necessidades, possibilitando que você crie relatórios visuais para compartilhar com outras pessoas. *Formatar* dados significa transformá-los – como renomear colunas ou tabelas, converter o texto em números, remover linhas, definir a primeira linha como títulos e assim por diante. *Combinar* dados significa conectar-se a duas ou mais fontes de dados, formatá-las conforme o necessário e consolidá-las em uma consulta útil.
+
+Neste tutorial, você aprenderá a:
+
+* Formatar dados usando o **Editor de Consultas**
+* Conectar-se a uma fonte de dados
+* Conectar-se a outra fonte de dados
+* Combinar essas fontes de dados e criar um modelo de dados a ser usado em relatórios
+
+Este tutorial demonstra como formatar uma consulta usando o Power BI Desktop, destacando algumas das tarefas mais comuns. A consulta usada aqui é descrita mais detalhadamente, incluindo como criar a consulta do zero, em [Introdução ao Power BI Desktop](desktop-getting-started.md).
 
 É útil saber que o **Editor de Consultas** no Power BI Desktop faz uso abundante tanto de menus de atalho quanto da faixa de opções. A maioria das opções que você pode selecionar na faixa de opções **Transformar** também está disponível com um clique do botão direito do mouse em um item (como uma coluna) e a seleção no menu que é exibido.
 
@@ -127,7 +128,7 @@ Já que estamos inserindo uma etapa, o Editor de Consultas nos avisa sobre o per
 
 ![](media/desktop-shape-and-combine-data/shapecombine_insertstep.png)
 
-Altere o valor para _51_ e os dados para Arizona são substituídos. Quando você cria uma nova Etapa Aplicada, o Editor de Consultas a nomeia com base na ação – nesse caso, **Valor Substituído**. Quando você tem mais de uma etapa com o mesmo nome em sua consulta, o Editor de Consultas adiciona um número (em sequência) a cada **Etapa Aplicada** subsequente, para diferenciá-las.
+Altere o valor para _51_ e os dados para Arizona são substituídos. Quando você cria uma nova Etapa Aplicada, o Editor de Consultas a nomeia com base na ação - nesse caso, **Valor Substituído**. Quando você tem mais de uma etapa com o mesmo nome em sua consulta, o Editor de Consultas adiciona um número (em sequência) a cada **Etapa Aplicada** subsequente, para diferenciá-las.
 
 Agora, selecione a última **Etapa Aplicada**, _Linhas Classificadas_ e observe que os dados mudaram com relação à nova classificação do Arizona.  Isso ocorre porque inserimos a etapa _Valor Substituído_ no local correto, antes da etapa _Personalização Adicionada_.
 
