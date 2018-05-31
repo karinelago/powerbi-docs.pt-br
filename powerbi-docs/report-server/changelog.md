@@ -1,27 +1,20 @@
 ---
 title: Log de alterações para o Servidor de Relatório do Power BI
 description: Esse log de alterações é para o Servidor de Relatório do Power BI e lista novos itens juntamente com correções de bug para cada build lançado.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295665"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatório do Power BI
 
@@ -31,6 +24,24 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 
 ## <a name="march-2018"></a>Março de 2018
 - **Servidor de Relatório do Power BI**
+    - *Versão 1.2.6690.34729 (build 15.0.2.402), lançada em 27 de abril de 2018*
+        - Correções de bug
+            - Habilitar a migração de catálogos do SQL Server Reporting Services 2017
+            - Para relatórios do Power BI (PBIX)
+                - Os relatórios podem ser atualizados quando um servidor está configurado para usar a autenticação personalizada
+                - Modificar as propriedades de um relatório não redefine as credenciais da fonte de dados
+            - Para relatórios paginados (RDL)
+                - O uso de funções `Lookup()` ou derivadas, como `LookupSet()` e `MultiLookup()`, em expressões RDL não resultam mais em `#Error`
+                - Os relatórios vinculados respeitam o tamanho da página do relatório de destino ao imprimir
+                - É possível criar assinaturas para relatórios vinculados que usam parâmetros em cascata
+                - É possível alterar padrões de parâmetro com vários valores ao usar o IE11
+                - É possível editar as opções de entrega de assinatura controladas por dados
+                - É possível exibir e editar assinaturas enquanto a assinatura está em execução
+                - Configurar credenciais de fonte de dados não remove as cadeias de caracteres de conexão baseadas em expressão
+            - Para KPIs
+                - As linhas de tendência são atualizadas com os dados
+            - Melhorias na estabilidade geral
+
     - *Versão 1.2.6660.39920 (Build 15.0.2.389), lançada em: 28 de março de 2018*
         - Correções de bug
             - Para Relatórios do Power BI (PBIX), correção para Exportar Dados que não está funcionando em Visuais do Power BI
@@ -120,7 +131,7 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 
     - *Build 14.0.600.301. Lançamento: 11 de julho de 2017*
         - Correções de bug
-            - A marca {{UserId}} resolve para as credenciais armazenadas, em vez do usuário que executa o relatório nos Relatórios do Power BI
+            - A marca `{{UserId}}` resolve para as credenciais armazenadas, em vez do usuário que executa o relatório nos Relatórios do Power BI
             - Algumas imagens apresentam falha ao ser renderizadas em relatórios do Servidor de Relatório do Power BI
             - Não é possível alterar o nome de um Relatório do Power BI no Servidor de Relatório do Power BI
             - Não é possível carregar visuais personalizados no aplicativo móvel Power BI (isso requer a reinstalação do aplicativo móvel para limpar o cache local)
@@ -136,7 +147,7 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 
 [Manual do usuário](user-handbook-overview.md)  
 [Manual do administrador](admin-handbook-overview.md)  
-[Início rápido: instalar o Servidor de Relatório do Power BI](quickstart-install-report-server.md)  
+[Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

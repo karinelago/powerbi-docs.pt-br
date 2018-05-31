@@ -1,5 +1,5 @@
 ---
-title: Tutorial – Gráfico de Combinação
+title: Gráfico de combinação no Power BI
 description: Este tutorial sobre gráficos de combinação explica quando usá-los e como criá-los no serviço do Power BI e no Power BI Desktop.
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 01/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b5e89a9a1f2e88ed793dff6457b58fd9ac609ef5
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 52c571d83ab6a77825945df71d3da29fd5f96d5e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812807"
 ---
-# <a name="combo-chart-in-power--tutorial"></a>Gráfico de combinação no Power (tutorial)
+# <a name="combo-chart-in-power-bi"></a>Gráfico de combinação no Power BI
 No Power BI, um gráfico de combinação é uma visualização única que combina um gráfico de linhas e um gráfico de colunas. Combinando os 2 gráficos em um permite você faça uma comparação rápida dos dados.
 
 Os gráficos de combinação podem ter um ou dois eixos Y.

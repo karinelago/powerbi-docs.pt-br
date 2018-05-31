@@ -1,75 +1,96 @@
 ---
-title: "Fazer perguntas com o analista virtual de P e R nos aplicativos iOS – Power BI"
-description: "Neste tutorial, tente fazer perguntas sobre estes dados de exemplo com suas próprias palavras com o analista virtual da P e R no aplicativo móvel do Power BI em seu dispositivo iOS."
+title: Analista virtual de P e R nos aplicativos iOS – Power BI
+description: Faça perguntas sobre dados de exemplo com suas próprias palavras com o analista virtual de P e R no aplicativo móvel do Power BI em seu dispositivo iOS.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
+ms.component: powerbi-mobile
 ms.devlang: NA
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 10/13/2017
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 531d067566a03289f0806d21309e9db7cfb837b1
-ms.sourcegitcommit: d803e85bb0569f6b357ba0586f5702c20d27dac4
+ms.openlocfilehash: eaa8960de53b5c3e48c4bd619469beeec384b033
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812163"
 ---
-# <a name="ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Fazer perguntas sobre seus dados com o analista virtual de P e R nos aplicativos iOS – Power BI
+# <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de P e R nos aplicativos iOS – Power BI
+
+A maneira mais fácil de saber mais sobre os dados é fazer perguntas sobre eles com suas próprias palavras. Neste artigo, você faz perguntas e visualiza informações em destaque sobre dados de exemplo com o analista virtual de P e R no aplicativo móvel do Microsoft Power BI no iPad, no iPhone e no iPod Touch. 
+
 Aplica-se a:
 
 | ![iPhone](media/mobile-apps-ios-qna/iphone-logo-50-px.png) | ![iPad](media/mobile-apps-ios-qna/ipad-logo-50-px.png) |
 |:--- |:--- |
 | iPhones |iPads |
 
-A maneira mais fácil de saber mais sobre os dados é fazer perguntas sobre eles com suas próprias palavras. Neste tutorial, tente fazer perguntas e exibir os insights em destaque sobre os dados de exemplo com o analista virtual da P e R.
+O analista virtual de P e R é uma experiência de BI para conversas que acessa os dados subjacentes de P e R no serviço do Power BI [(https://powerbi.com)](https://powerbi.com). Ele sugere análises de dados e você pode digitar ou falar suas próprias perguntas.
 
 ![Analista virtual de principais P e R de vendas](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
-No aplicativo móvel do Microsoft Power BI no iPad, iPhone e iPod Touch, o analista virtual da P e R é uma experiência de BI conversacional que aprimora a versão anterior da P e R no iOS. O analista virtual da P e R ainda acessa os dados subjacentes da P e R no serviço do Power BI [(https://powerbi.com)](https://powerbi.com). Você ainda pode digitar ou falar uma pergunta, e ele também fornece insights de dados no contexto.
+Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de começar.
 
-## <a name="download-the-samples"></a>Baixar as amostras
-A primeira etapa do tutorial é baixar as amostras de Análise de Varejo e Análise de Oportunidade no serviço do Power BI.
+## <a name="prerequisites"></a>Pré-requisitos
 
-* No espaço de trabalho do serviço do Power BI ([https://powerbi.com](https://powerbi.com)):
+### <a name="install-the-power-bi-for-ios-app"></a>Instalar o aplicativo Power BI para iOS
+[Baixe o aplicativo para iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") na Apple App Store para seu iPad, iPhone ou iPod Touch.
 
-  * Selecione **Obter Dados** > **Amostras** > **Amostra de Análise de Oportunidade** > **Conectar**.
-  * Após a conclusão do download da Amostra de Análise de Oportunidade, selecione **Obter Dados** > **Amostras** > **Amostra de Análise de Varejo** > **Conectar**.
+Essas versões oferecem suporte ao aplicativo Power BI para iOS:
+- iPad com iOS 10 ou posterior.
+- iPhone 5 e posteriores com iOS 10 ou posterior. 
+- iPod Touch com iOS 10 ou posterior.
 
-## <a name="try-featured-insights"></a>Experimentar as informações em destaque
-1. No iPhone ou iPad, abra o aplicativo do Power BI e navegue para o dashboard da Amostra de Análise de Oportunidade.
-2. Tocar no ícone do analista virtual da P e R ![Ícone do analista virtual da P e R](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) no menu de ação na parte inferior da página (na parte superior da página em um iPad).
+### <a name="download-samples"></a>Baixar exemplos
+A primeira etapa é baixar as amostras de Análise de Varejo e Análise de Oportunidades no serviço do Power BI.
 
-     ![Dashboard da Amostra de Análise de Oportunidade](media/mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+**Obter o exemplo de Análise de Varejo**
 
-     O analista virtual da P e R do Power BI oferece algumas sugestões para começar.
+1. Abra o serviço do Power BI (app.powerbi.com) e entre.
 
-     ![botão Informações em destaque](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
-3. Toque em **Informações em destaque**.
+2. No painel de navegação à esquerda, selecione **Espaços de trabalho**, **Meu espaço de trabalho**.
 
-     O analista virtual da P e R sugere alguns insights.
-4. Role para a direita e toque em **Informação 2**.
+3. No canto inferior esquerdo, selecione **Obter Dados**.
+   
+    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
 
-    ![Botão Informação 2](media/mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+3. Na página Obter Dados, selecione o ícone **Exemplos**.
+   
+   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
 
-     O analista virtual da P e R exibe o Insight 2.
+4. Selecione **Exemplo de Análise de Varejo**.
+ 
+    ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/power-bi-rs.png)
+ 
+8. Selecione **Conectar**.  
+  
+   ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/retail16.png)
+   
+5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual.
+   
+   ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
-    ![Informação 2](media/mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
-5. Toque no gráfico para abri-lo no modo de foco.
+**Obter o exemplo de análise de oportunidades**
 
-    ![Gráfico de Informação 2 no modo de foco](media/mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
-6. Toque na seta no canto superior esquerdo para voltar para a experiência do analista virtual da P e R.
+- Percorra as mesmas etapas acima descritas para o exemplo de Análise de Varejo, mas na etapa 4, selecione o **Exemplo de Análise de Oportunidade**.
+
+    ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/power-bi-oa.png)
+  
+OK, você está pronto para exibir os exemplos em seu dispositivo iOS.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Tente fazer perguntas sobre seu iPhone ou iPad
-1. No seu iPhone ou iPad, abra o aplicativo do Power BI e navegue até o painel de amostra de análise de varejo.
+1. No seu iPhone ou iPad, toque no botão de navegação global ![Botão de navegação global](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png)  >  **Espaços de trabalho**  >  **Meu espaço de trabalho** e abra o painel Exemplo de Análise de Varejo.
+
 2. Toque no ícone do analista virtual da P e R ![Q&A virtual analyst icon](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) no menu de ação na parte inferior da página (na parte superior da página em um iPad).
      O analista virtual da P e R oferece algumas sugestões para começar.
 3. Digite **Mostrar**, toque em **Vendas** na lista de sugestões > **Enviar** ![ícone Enviar](media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
