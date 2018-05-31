@@ -1,30 +1,22 @@
 ---
 title: Gráficos de funil
 description: Gráficos de funil no Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cdac4e594eab4887fc6e72d8870090be4ddd86a7
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: bae4effe719fa74dfa5deb3545e81bfc2aac655f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2018
-ms.locfileid: "33812738"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34292077"
 ---
 # <a name="funnel-charts"></a>Gráficos de funil
 Um gráfico de funil ajuda você a visualizar um processo linear com estágios conectados sequenciais. Por exemplo, um funil de vendas que acompanha os clientes por estágios: Cliente Potencial \> Cliente Potencial Qualificado \> Cliente Potencial \> Contrato \> Fechar.  Em um relance, a forma do funil transmite a integridade do processo que você está controlando.
