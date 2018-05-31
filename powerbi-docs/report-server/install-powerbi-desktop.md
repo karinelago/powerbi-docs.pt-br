@@ -1,20 +1,28 @@
 ---
 title: Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 description: Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
+services: powerbi
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: b67cfbcb495fef45ec3f44ceab77b794a9110617
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2018
-ms.locfileid: "34310396"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813681"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI
 Saiba como instalar o Power BI Desktop otimizado para o Servidor de Relatório do Power BI.
@@ -104,8 +112,7 @@ Agora que o Power BI Desktop foi instalado, é possível começar a criar relat�
 
 [Criar um relatório do Power BI para o Servidor de Relatórios do Power BI](quickstart-create-powerbi-report.md)  
 [Introdução ao Power BI Desktop](../desktop-getting-started.md)  
-Aprendizagem guiada: [Introdução ao Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
-[Visão geral do manual do usuário, Servidor de Relatórios do Power BI](user-handbook-overview.md)
+[Visão geral do manual do usuário, Servidor de Relatório do Power BI](user-handbook-overview.md)
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 
