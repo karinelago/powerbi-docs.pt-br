@@ -1,28 +1,20 @@
 ---
 title: 'Tutorial: Explorar o Servidor de Relatórios do Power BI em uma VM'
 description: Neste tutorial, você cria uma máquina virtual com o Servidor de Relatórios do Power BI já instalado e explora o portal da Web.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
-ms.component: powerbi-report-server
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
+ms.component: powerbi-report-server
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: a77dceac19368fc7997f79513b0b5f946a914dfc
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34444993"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal da Web do Servidor de Relatórios do Power BI em uma VM
 Neste tutorial, você cria uma máquina virtual do Azure com o Servidor de Relatórios do Power BI já instalado, para que possa experimentar a exibição, a edição e o gerenciamento de relatórios paginados e de exemplo do Power BI, bem como de KPIs.
@@ -58,6 +50,8 @@ Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatór
 
 6. Para **Grupo de recursos**, mantenha **Criar novo** e chame-o de **reportserverresourcegroup**.
 
+    Se você usar o tutorial mais de uma vez, será necessário dar um nome diferente ao grupo de recursos. Você não pode repetir o nome do grupo de recursos em uma assinatura. 
+
 7. Mantenha os outros valores padrão > **OK**.
 
     ![Nomeie a VM e o grupo de recursos](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
@@ -90,7 +84,7 @@ Felizmente, a equipe do Power BI criou uma VM que vem com o Servidor de Relatór
 
 7. A caixa de diálogo seguinte diz que a identidade do computador remoto não pode ser identificada. Selecione **Sim**.
 
-   Pronto – sua nova VM é aberta.
+   Pronto! Sua nova VM é aberta.
 
 ## <a name="power-bi-report-server-on-the-vm"></a>Servidor de Relatórios do Power BI na VM
 
@@ -164,6 +158,8 @@ Você pode exibir e interagir com relatórios do Power BI no portal da Web e ini
      O relatório é aberto no Power BI Desktop. Observe o nome na barra superior, "Power BI Desktop (março de 2018)". Trata-se da versão otimizada para o Servidor de Relatórios do Power BI.
 
     ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
+
+     Use a versão do Power BI Desktop instalada na VM. Você não pode entrar em vários domínios para carregar um relatório.
 
 3. No painel Campos, expanda a tabela Clientes e arraste o campo Ocupação para os filtros de nível de Relatório.
 
@@ -251,7 +247,9 @@ Agora que você concluiu o tutorial, exclua o grupo de recursos, a máquina virt
 
 ## <a name="next-steps"></a>Próximas etapas
 
-Neste tutorial, você criou uma VM com o Servidor de Relatórios do Power BI. Você testou algumas das funcionalidades do portal da Web e abriu um relatório do Power BI e um relatório paginado em seus respectivos editores. Para saber mais sobre a criação de relatórios para o Servidor de Relatórios do Power BI, siga adiante.
+Neste tutorial, você criou uma VM com o Servidor de Relatórios do Power BI. Você testou algumas das funcionalidades do portal da Web e abriu um relatório do Power BI e um relatório paginado em seus respectivos editores. Essa VM tem fontes de dados do SQL Server Analysis Services instaladas. Portanto, você pode tentar criar seus próprios relatórios paginados e do Power BI com as mesmas fontes de dados. 
+
+Para saber mais sobre a criação de relatórios para o Servidor de Relatórios do Power BI, siga adiante.
 
 > [!div class="nextstepaction"]
 > [Criar um relatório do Power BI para o Servidor de Relatórios do Power BI](./quickstart-create-powerbi-report.md)

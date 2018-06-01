@@ -1,30 +1,31 @@
 ---
 title: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 description: Aprenda a integrar ou inserir um dashboard, um bloco ou um relatório em um aplicativo Web usando as APIs do Power BI para seus clientes.
-services: powerbi
 author: markingmyname
 ms.author: maghan
 ms.date: 05/07/2018
 ms.topic: tutorial
 ms.service: powerbi
+ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2d4fdee8d3e4cca60294acd0a9167da1f048afa5
-ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
+ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
+ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2018
+ms.lasthandoff: 05/22/2018
+ms.locfileid: "34445223"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: inserir um relatório, um dashboard ou um bloco do Power BI em um aplicativo para seus clientes
-Com o **Power BI Embedded no Azure**, você pode inserir relatórios, dashboards ou blocos em um aplicativo para que os clientes possam compartilhar dados. Normalmente, este é um cenário de **desenvolvedor ISV** que usa a estrutura de **app owns data**. **App owns data** significa a incorporação de conteúdo do Power BI para seus próprios clientes. Por exemplo, o usuário do conteúdo do Power BI pode exibir relatórios, dashboards ou blocos sem precisar fazer logon no **Power BI**. Este tutorial demonstra como integrar ou inserir um relatório em um aplicativo usando o SDK .NET do **Power BI** com a API JavaScript do **Power BI** ao usar o **Power BI Embedded no Azure** para clientes com **app owns data**.
+Com o **Power BI Embedded no Azure**, você pode inserir relatórios, painéis ou blocos em um aplicativo usando **app owns data**. **App owns data** representa um aplicativo que usa o Power BI como sua plataforma de análise incorporada. Normalmente, esse é um cenário de **desenvolvedor ISV**. Como **desenvolvedor ISV**, você pode criar conteúdo do Power BI que exibe relatórios, painéis ou blocos em um aplicativo totalmente integrado e interativo, sem precisar que os usuários do aplicativo tenham uma licença do Power BI, ou até mesmo saibam que o Power BI está ativado nos bastidores. Este tutorial demonstra como integrar um relatório em um aplicativo usando o SDK do .NET do **Power BI** com a API JavaScript do **Power BI** ao usar o **Power BI Embedded no Azure** para clientes com **app owns data**.
 
 Neste tutorial, você aprenderá a:
 >[!div class="checklist"]
 >* Registrar um aplicativo no Azure.
->* Inserir um bloco, um dashboard ou um relatório em um aplicativo usando o Power BI Embedded no Azure.
+>* Insira um relatório do Power BI em um aplicativo.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Para começar, você precisará de uma conta do **Power BI Pro** e de uma conta do **Microsoft Azure**.
+Para começar, você precisará de uma conta do **Power BI Pro**, que será sua **conta mestre**, e de uma assinatura do **Microsoft Azure**.
 
 * Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/en-us/pricing/) antes de começar.
 * Caso você não tenha uma assinatura do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
@@ -33,7 +34,7 @@ Para começar, você precisará de uma conta do **Power BI Pro** e de uma conta 
 
 ## <a name="setup-your-embedded-analytics-development-environment"></a>Configurar seu ambiente de desenvolvimento de análise integrada
 
-Antes de começar a inserir relatórios, dashboards ou blocos em seu aplicativo, você precisará verificar se o ambiente está configurado para permitir a inserção. Como parte da instalação, será necessário fazer o seguinte.
+Antes de começar a inserir relatórios, painéis ou blocos em seu aplicativo, você precisará verificar se o ambiente está configurado para permitir a inserção. Como parte da instalação, será necessário fazer o seguinte.
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registrar um aplicativo no Azure AD (Azure Active Directory)
 
@@ -94,33 +95,6 @@ Você precisará habilitar permissões adicionais para seu aplicativo além do q
    
     ![Conceder permissões na caixa de diálogo Permissões necessárias](media/embed-sample-for-customers/embed-sample-for-customers-016.png)
 
-### <a name="create-your-power-bi-embedded-dedicated-capacity-in-azure"></a>Crie sua capacidade dedicada do Power BI Embedded no Azure
-
-1. Entre no [Portal do Azure](https://portal.azure.com).
-
-    ![Página principal do portal do Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
-
-2. No painel de navegação esquerdo, escolha **Todos os Serviços** e selecione **Power BI Embedded**.
-
-    ![Pesquisa do PBIE](media/embed-sample-for-customers/embed-sample-for-customers-017.png)
-
-3. Siga os prompts e preencha com as informações apropriadas necessárias para criar uma nova capacidade dedicada do **Power BI Embedded** e, em seguida, selecione **Criar**. Ao escolher o **Tipo de Preço**, examine a tabela a seguir para decidir qual tipo é mais adequado às suas necessidades. Em seguida, selecione **Criar** e aguarde até que o recurso seja concluído.
-
-    ![Configuração do PBIE](media/embed-sample-for-customers/embed-sample-for-customers-018.png)
-
-| Nó de capacidade | Total de núcleos<br/>*(Back-end + front-end)* | Núcleos de back-end | Núcleos de front-end | Limites de conexão dinâmica/DirectQuery | Máx. de renderizações de página no horário de pico |
-| --- | --- | --- | --- | --- | --- |
-| A1 |1 v-cores |0,5 núcleo, 3 GB de RAM |0,5 núcleo | 5 por segundo |1-300 |
-| A2 |2 núcleos virtuais |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |301-600 |
-| A3 |4 núcleos virtuais |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |601-1.200 |
-| A4 |8 v-cores |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1.201-2.400 |
-| A5 |16 v-cores |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2.401-4.800 |
-| A6 |32 v-cores |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4.801-9.600 |
-
-Agora, você pode exibir a nova **capacidade dedicada do Power BI Embedded**.
-
-   ![Capacidade dedicada do PBIE](media/embed-sample-for-customers/embed-sample-for-customers-019.png)
-
 ## <a name="setup-your-power-bi-environment"></a>Configure seu ambiente do Power BI
 
 ### <a name="create-an-app-workspace"></a>Criar um espaço de trabalho de aplicativo
@@ -149,10 +123,6 @@ Se estiver inserindo relatórios, dashboards ou blocos para seus clientes, você
 
 6. Decida se cada pessoa será um membro ou um administrador. Os administradores podem editar o espaço de trabalho, incluindo a adição de outros membros. Os membros podem editar o conteúdo no espaço de trabalho, a menos que tenham acesso somente exibição. Os membros e os administradores podem publicar o aplicativo.
 
-7. Expanda **Avançado**, habilite **Capacidade dedicada** e, em seguida, selecione a **Capacidade dedicada do Power BI Embedded** criada por você. Depois, selecione **Salvar**.
-
-    ![Adicionando membros](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
-
 Agora, você pode exibir o novo espaço de trabalho. O Power BI cria o espaço de trabalho e o abre. Ele aparece na lista de espaços de trabalho dos quais você é um membro. Como você é um administrador, você pode selecionar as reticências (...) para voltar e fazer alterações, adicionar novos membros ou alterar as permissões deles.
 
    ![Novo espaço de trabalho](media/embed-sample-for-customers/embed-sample-for-customers-025.png)
@@ -179,6 +149,10 @@ Agora, você pode exibir o novo espaço de trabalho. O Power BI cria o espaço d
 
 ## <a name="embed-your-content"></a>Insira seu conteúdo
 
+A inserção para seus clientes dentro de seu aplicativo exige que você obtenha um **token de acesso** para sua conta mestre do **Azure AD**. É necessário [obter token de acesso do Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para o seu aplicativo do Power BI usando app owns data antes de pode fazer chamadas à API do Power BI.
+
+Execute estas etapas para começar a incorporar o conteúdo usando um aplicativo de exemplo.
+
 1. Baixe o [exemplo App Owns Data](https://github.com/Microsoft/PowerBI-Developer-Samples) do GitHub para começar.
 
     ![Exemplo de aplicativo App Owns Data](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
@@ -189,18 +163,18 @@ Agora, você pode exibir o novo espaço de trabalho. O Power BI cria o espaço d
 
     * Preencha as informações de **clientId** com a **ID do Aplicativo** do **Azure**. A **clientId** é usada pelo aplicativo para se identificar aos usuários dos quais você está solicitando permissões. Para obter a **clientId**, siga estas etapas:
 
-        1. Entre no [Portal do Azure](https://portal.azure.com).
+    1. Entre no [Portal do Azure](https://portal.azure.com).
 
         ![Página principal do portal do Azure](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-        2. No painel de navegação esquerdo, escolha **Todos os Serviços** e selecione **Registros de Aplicativo**.
+    2. No painel de navegação esquerdo, escolha **Todos os Serviços** e selecione **Registros de Aplicativo**.
 
         ![Pesquisa de registro de aplicativo](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
-        3. Selecione o aplicativo para o qual você deseja obter **clientId**.
+    3. Selecione o aplicativo para o qual você deseja obter **clientId**.
 
         ![Escolhendo o aplicativo](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-      4. Você deve ver uma **ID do Aplicativo** listada como um GUID. Use esta **ID do Aplicativo** como a **clientId** do aplicativo.
+    4. Você deve ver uma **ID do Aplicativo** listada como um GUID. Use esta **ID do Aplicativo** como a **clientId** do aplicativo.
 
         ![clientId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)     
 
@@ -221,7 +195,7 @@ Agora, você pode exibir o novo espaço de trabalho. O Power BI cria o espaço d
 
     ![Execute o aplicativo](media/embed-sample-for-customers/embed-sample-for-customers-033.png)
 
-    Selecione **Inserir Relatório**. Dependendo do conteúdo que você optar por testar – relatórios, dashboards ou blocos –, selecione essa opção no aplicativo.
+    Selecione **Inserir Relatório**. Dependendo do conteúdo que você optar por testar – relatórios, painéis ou blocos –, selecione essa opção no aplicativo.
 
     ![Selecione um conteúdo](media/embed-sample-for-customers/embed-sample-for-customers-034.png)
  
@@ -229,8 +203,31 @@ Agora, você pode exibir o novo espaço de trabalho. O Power BI cria o espaço d
 
     ![Exibir o aplicativo](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
+## <a name="move-to-production"></a>Mover para a produção
+
+Agora que você terminou o desenvolvimento do seu aplicativo, é hora de conferir uma capacidade dedicada ao espaço de trabalho do seu aplicativo. É necessário ter capacidade dedicada para passar para a produção.
+
+### <a name="create-a-dedicated-capacity"></a>Criar uma capacidade dedicada
+Ao criando uma capacidade dedicada, é possível tirar proveito de um recurso dedicado para o seu cliente. Os espaços de trabalho que não receberam uma capacidade dedicada terão uma capacidade compartilhada. Crie uma capacidade dedicada usando a solução [Capacidade dedicada do Power BI Embedded](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) no Azure.
+
+>[!Note]
+>Os tokens inseridos com licença PRO destinam-se para teste de desenvolvimento, portanto, o número de tokens inseridos que uma conta mestre do Power BI pode gerar é limitado. Você deve adquirir uma capacidade dedicada para incorporar em um ambiente de produção. Não há limite para a quantidade de tokens inseridos que você pode gerar com uma capacidade dedicada. Acesse [Obter Recursos Disponíveis](https://msdn.microsoft.com/library/mt846473.aspx) para verificar o valor de uso que indica o uso atual inserido em percentual.
+>
+
+### <a name="assign-app-workspace-to-dedicated-capacity"></a>Atribuir um espaço de trabalho de aplicativo a uma capacidade dedicada
+
+Ao criar uma capacidade dedicada, atribua o espaço de trabalho do aplicativo à capacidade dedicada. Para concluir isso, execute estas etapas.
+
+1. Dentro do **serviço do Power BI**, expanda os espaços de trabalho e selecione as reticências do espaço de trabalho ao qual você está inserindo seu conteúdo. Depois, selecione **Editar espaços de trabalho**.
+
+    ![Editar Espaço de Trabalho](media/embed-sample-for-customers/embed-sample-for-customers-036.png)
+
+2. Expanda **Avançado**, habilite **Capacidade dedicada** e selecione a capacidade dedicada criada por você. Depois, selecione **Salvar**.
+
+    ![Atribuir capacidade dedicada](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
+
 Para obter um exemplo completo de como usar a API JavaScript, use a [ferramenta de Playground](https://microsoft.github.io/PowerBI-JavaScript/demo). Trata-se de uma maneira rápida de experimentar diferentes tipos de exemplos do Power BI Embedded. Você também pode obter mais informações sobre a API de JavaScript, visitando a página da [wiki PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
 
 Para ver as respostas a perguntas sobre o Power BI Embedded, visite a página de [Perguntas frequentes](embedded-faq.md).  Se estiver tendo problemas com o Power BI Embedded dentro de seu aplicativo, visite a página de [solução de problemas](embedded-troubleshoot.md).
 
-Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/) 
+Mais perguntas? [Experimente perguntar à Comunidade do Power BI](http://community.powerbi.com/)
