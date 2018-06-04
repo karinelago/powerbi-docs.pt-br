@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
 ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34289454"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Enviar dados por push a um conjunto de dados do Power BI
 Com a API do Power BI, você pode enviar dados por push para um conjunto de dados do Power BI. Por exemplo, você deseja estender um fluxo de trabalho de negócios existente para enviar por push dados de chave para seu conjunto de dados. Nesse caso, você deseja enviar por push um conjunto de dados de Marketing de vendas, que tem uma Tabela de produto, para um conjunto de dados.
