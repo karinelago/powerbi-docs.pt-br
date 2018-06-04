@@ -10,10 +10,10 @@ ms.topic: tutorial
 ms.date: 05/18/2018
 ms.author: maggies
 ms.openlocfilehash: 38985014407a4d64998e25f6944f57aedcc67309
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34444993"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Explorar o portal da Web do Servidor de Relatórios do Power BI em uma VM
@@ -92,7 +92,7 @@ Quando sua VM abrir, estes são os itens que você verá na área de trabalho.
 
 ![Máquina virtual do Servidor de Relatórios do Power BI é iniciada](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
 
-|Number  |O que é  |
+|Número  |O que é  |
 |---------|---------|
 |![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Inicia o SQL Server Data Tools para criar relatórios paginados (.RDL) |
 |![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Relatórios de exemplo do Power BI (.PBIX)  |
@@ -104,7 +104,7 @@ Clique duas vezes no ícone **Portal da Web do Servidor de Relatórios**. O nave
 
 ![Portal da Web do Servidor de Relatório do Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
-|Number  |O que é  |
+|Número  |O que é  |
 |---------|---------|
 |![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | KPIs criados no portal da Web |
 |![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) |  Relatórios do Power BI (.PBIX)  |
