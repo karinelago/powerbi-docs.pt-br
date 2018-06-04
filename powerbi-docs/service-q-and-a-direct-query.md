@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
 ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245572"
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitar P e R para conexões dinâmicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>O que é o gateway de dados local?  O que é uma conexão dinâmica?

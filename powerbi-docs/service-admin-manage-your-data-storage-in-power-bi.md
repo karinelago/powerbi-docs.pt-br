@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: e7c0399072bfef35a1103a5db448da183f64f74c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34245352"
 ---
 # <a name="manage-your-data-storage"></a>Gerenciar o armazenamento de dados
 Saiba como você pode gerenciar seu armazenamento de dados ou seu espaço de trabalho do aplicativo individual para garantir que você pode continuar publicando relatórios e conjuntos de dados.
