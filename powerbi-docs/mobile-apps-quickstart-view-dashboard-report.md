@@ -10,10 +10,11 @@ ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
 ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34295757"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Início Rápido: Explorar dashboards e relatórios nos aplicativos móveis do Power BI
 Neste início rápido, você explora um dashboard e um relatório de exemplo no aplicativo móvel do Power BI em um telefone Android. Você também pode acompanhar em outros aplicativos móveis. 
@@ -49,11 +50,11 @@ A primeira etapa do início rápido é baixar a amostra de Análise de Varejo no
 
 2. No painel de navegação esquerdo, selecione **Espaços de Trabalho** > **Meu Espaço de Trabalho**.
 
-    ![Meu espaço de trabalho](media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
+    ![Meu Espaço de Trabalho](media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-my-workspace.png)
 
-3. No canto inferior esquerdo, selecione **Obter dados**.
+3. No canto inferior esquerdo, selecione **Obter Dados**.
    
-    ![Obter dados](media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
+    ![Obter Dados](media/mobile-apps-quickstart-view-dashboard-report/power-bi-get-data.png)
 
 3. Na página Obter Dados, selecione o ícone **Exemplos**.
    
@@ -61,7 +62,7 @@ A primeira etapa do início rápido é baixar a amostra de Análise de Varejo no
 
 4. Selecione **Exemplo de Análise de Varejo**.
  
-    ![Exemplo de análise de varejo](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Exemplo de Análise de Varejo](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Selecione **Conectar**.  
   
@@ -80,7 +81,7 @@ OK, você está pronto para exibir o exemplo em seu dispositivo Android.
 
 2.  Toque em **Espaços de Trabalho** > **Meu Espaço de Trabalho**
 
-    ![Meu espaço de trabalho](media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-workspaces.png)
+    ![Meu Espaço de Trabalho](media/mobile-apps-quickstart-view-dashboard-report/power-bi-android-quickstart-workspaces.png)
 
 3. Toque no dashboard Exemplo de Análise de Varejo para abri-lo.
  

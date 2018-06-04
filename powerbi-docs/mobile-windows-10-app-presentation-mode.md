@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
 ms.openlocfilehash: 13bfd1d587d59c1c87f03605dbe62f60fa90f5c6
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293411"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Exiba relatórios no modo de apresentação no Surface Hub e no Windows 10 – Power BI
 Você pode exibir relatórios no modo de apresentação no Surface Hub, além de dashboards, relatórios e blocos no modo de tela inteira em dispositivos com o Windows 10. 

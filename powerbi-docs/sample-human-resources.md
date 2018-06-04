@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 40be9e37204870cd304ef144ade8adf0bf692335
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: 770e200b0aa6916ac6d2de144902a04e9660e552
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482005"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Exemplo de Recursos Humanos para o Power BI: faça um tour
 
@@ -31,7 +32,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
- Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conteúdo](https://docs.microsoft.com/en-us/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [arquivo pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix) ou [pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529780).
+ Antes de usar o exemplo, primeiro você deve baixá-lo como um [pacote de conteúdo](https://docs.microsoft.com/power-bi/sample-human-resources#get-the-content-pack-for-this-sample), [arquivo pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human-Resources-Sample-PBIX.pbix) ou [pasta de trabalho do Excel](http://go.microsoft.com/fwlink/?LinkId=529780).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obter o pacote de conteúdo para este exemplo
 
@@ -44,7 +45,7 @@ Este exemplo faz parte de uma série de exemplos que ilustra como o Power BI pod
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Selecione o **Exemplo de Recursos Humanos** e, em seguida, escolha **Conectar**.  
    
-   ![Obter dados](media/sample-human-resources/pbi_hr_sample_connect.png)
+   ![Obter Dados](media/sample-human-resources/pbi_hr_sample_connect.png)
 5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual. O novo conteúdo é marcado com um asterisco amarelo. 
    
    ![Asterisco](media/sample-human-resources/human-resources-sample-asterisk.png)

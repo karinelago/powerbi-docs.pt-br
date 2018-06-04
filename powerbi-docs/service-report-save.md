@@ -11,10 +11,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
 ms.openlocfilehash: 0e462fa6faf8d83bfcdb8658e2fcb852aeac5c3b
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34248897"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Salvar um relatório no serviço do Power BI e no Power BI Desktop
 Depois de fazer alterações em um relatório no Power BI, você poderá salvá-lo, salvá-lo com um novo nome ou apenas fechá-lo sem salvar as alterações. Digamos que você abra o relatório, cria uma visualização e fixa-o em seu painel. Se você fechá-lo agora sem salvar as alterações, o bloco permanece no painel, mas a visualização não será salva no relatório. Ao clicar nesse bloco no painel, o relatório é aberto, mas a visualização não existe mais no relatório.

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722191"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuários do Power BI que entraram
 Se for um administrador de locatários e quiser ver quem entrou no Power BI, você poderá usar os relatórios de acesso e uso do Azure Active Directory para ter essa visibilidade.
@@ -60,7 +61,7 @@ Na tela Atividade, você pode selecionar **Baixar** na barra de ferramentas. Iss
 Você pode usar o PowerShell para exportar os dados de entrada. Um [exemplo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) está disponível na documentação do Azure AD.
 
 > [!NOTE]
-> Para que o exemplo do PowerShell funcione, siga os [pré-requisitos para acessar a API de relatório do Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
+> Para que o exemplo do PowerShell funcione, siga os [pré-requisitos para acessar a API de relatório do Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites).
 > 
 > 
 

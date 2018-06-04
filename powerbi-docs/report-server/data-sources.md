@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
 ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310442"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Fontes de dados de relatórios do Power BI no Servidor de Relatórios do Power BI
 Os relatórios do Power BI podem se conectar a diversas fontes de dados. Dependendo de como os dados são usados, fontes de dados diferentes estão disponíveis. Os dados podem ser importados ou consultados diretamente usando o DirectQuery ou uma conexão dinâmica ao SQL Server Analysis Services.
@@ -32,7 +33,7 @@ Outras fontes de dados podem funcionar mesmo que não estejam na lista de compat
 | --- | --- | --- | --- |
 | Banco de dados do SQL Server |Sim |Sim |Sim |
 | SQL Server Analysis Services |Sim |Sim |Sim |
-| Banco de dados SQL do Azure |Sim |Sim |Sim |
+| Banco de Dados SQL do Azure |Sim |Sim |Sim |
 | SQL Data Warehouse do Azure |Sim |Sim |Sim |
 | Excel |Sim |Sim |Não |
 | Banco de dados do Access |Sim |Sim |Não |

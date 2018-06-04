@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 ms.openlocfilehash: 593b83f5ffb868cda3548315ce3f4840fadf0ec2
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34292629"
 ---
 # <a name="supported-languages-in-the-power-bi-mobile-apps"></a>Idiomas com suporte nos aplicativos móveis do Power BI
 Atualmente, os aplicativos móveis do Power BI oferecem suporte aos seguintes idiomas:

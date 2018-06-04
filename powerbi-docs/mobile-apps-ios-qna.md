@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
 ms.openlocfilehash: 85487567d428618034f6f026324846fbfbd87baf
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34294998"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de P e R nos aplicativos iOS – Power BI
@@ -61,21 +61,21 @@ A primeira etapa é baixar as amostras de Análise de Varejo e Análise de Oport
 
 4. Selecione **Exemplo de Análise de Varejo**.
  
-    ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/power-bi-rs.png)
+    ![Exemplo de Análise de Varejo](media/mobile-apps-ios-qna/power-bi-rs.png)
  
 8. Selecione **Conectar**.  
   
-   ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/retail16.png)
+   ![Exemplo de Análise de Varejo](media/mobile-apps-ios-qna/retail16.png)
    
 5. O Power BI importa o pacote de conteúdo e adiciona um novo dashboard, um relatório e um conjunto de dados ao seu espaço de trabalho atual.
    
-   ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
+   ![Exemplo de Análise de Varejo](media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
 
 **Obter o exemplo de análise de oportunidades**
 
 - Percorra as mesmas etapas acima descritas para o exemplo de Análise de Varejo, mas na etapa 4, selecione o **Exemplo de Análise de Oportunidade**.
 
-    ![Exemplo de análise de varejo](media/mobile-apps-ios-qna/power-bi-oa.png)
+    ![Exemplo de Análise de Varejo](media/mobile-apps-ios-qna/power-bi-oa.png)
   
 OK, você está pronto para exibir os exemplos em seu dispositivo iOS.
 

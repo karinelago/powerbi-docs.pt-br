@@ -11,10 +11,11 @@ ms.date: 05/03/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 2dc47d1fdf539c20cc0aabadd65b0401dc172ae8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298954"
 ---
 # <a name="tutorial-connect-to-on-premises-data-in-sql-server"></a>Tutorial: Conectar-se a dados locais no SQL Server
 
@@ -129,7 +130,7 @@ Agora que tem dados de exemplo com que trabalhar, você se conecta ao SQL Server
 
 No Power BI Desktop, você se conecta diretamente ao SQL Server, mas o serviço do Power BI requer que um gateway atue como uma ponte. Agora, você adiciona sua instância do SQL Server como uma fonte de dados para o gateway que criou em um artigo anterior (listado em [Pré-requisitos](#prereqisites)). 
 
-1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Ícone de engrenagem de configurações](media/service-gateway-sql-tutorial/icon-gear.png) > **Gerenciar gateways**.
+1. No canto superior direito do serviço do Power BI, selecione o ícone de engrenagem ![Configurações](media/service-gateway-sql-tutorial/icon-gear.png)  >  **Gerenciar gateways**.
 
     ![Gerenciar gateways](media/service-gateway-sql-tutorial/manage-gateways.png)
 

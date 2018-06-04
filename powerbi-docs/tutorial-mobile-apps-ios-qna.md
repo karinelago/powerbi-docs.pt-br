@@ -9,11 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: tutorial
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 8cb9e78898228aa7dad82db76d1d7da1a7151702
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561415"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Tutorial: Fazer perguntas sobre seus dados com o analista virtual de P e R nos aplicativos iOS – Power BI
 
@@ -25,7 +26,7 @@ Aplica-se a:
 |:--- |:--- |
 | iPhones |iPads |
 
-O analista virtual da P e R é uma experiência de BI para conversações que acessa os dados subjacentes da P e R no serviço do Power BI [(https://powerbi.com)](https://powerbi.com)). Ele sugere análises de dados e você pode digitar ou falar suas próprias perguntas.
+O analista virtual de P e R é uma experiência de BI para conversas que acessa os dados subjacentes de P e R no serviço do Power BI [(https://powerbi.com)](https://powerbi.com). Ele sugere análises de dados e você pode digitar ou falar suas próprias perguntas.
 
 ![Analista virtual de principais P e R de vendas](media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
@@ -43,9 +44,9 @@ Se você não estiver inscrito no Power BI, [inscreva-se para uma avaliação gr
 ### <a name="install-the-power-bi-for-ios-app"></a>Instalar o aplicativo Power BI para iOS
 [Baixe o aplicativo para iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Baixe o aplicativo para iPhone") na Apple App Store para seu iPad, iPhone ou iPod Touch.
 
-Essas versões dão suporte para o aplicativo Power BI para iOS:
+Essas versões oferecem suporte ao aplicativo Power BI para iOS:
 - iPad com iOS 10 ou posterior.
-- iPhone 5 e posterior, iOS 10 ou posterior. 
+- iPhone 5 e posteriores com iOS 10 ou posterior. 
 - iPod Touch com iOS 10 ou posterior.
 
 ### <a name="download-the-opportunity-analysis-sample"></a>Baixe o exemplo de Análise de Oportunidade
@@ -59,11 +60,11 @@ A primeira etapa do tutorial é baixar a amostra de Análise de Oportunidade no 
 
 2. No painel de navegação esquerdo, selecione **Espaços de Trabalho** > **Meu Espaço de Trabalho**.
 
-    ![Meu espaço de trabalho](media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
+    ![Meu Espaço de Trabalho](media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
-3. No canto inferior esquerdo, selecione **Obter dados**.
+3. No canto inferior esquerdo, selecione **Obter Dados**.
    
-    ![Obter dados](media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
+    ![Obter Dados](media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
 
 3. Na página Obter Dados, selecione o ícone **Exemplos**.
    
@@ -71,7 +72,7 @@ A primeira etapa do tutorial é baixar a amostra de Análise de Oportunidade no 
 
 4. Selecione o **Exemplo de Análise de Oportunidade**.
  
-    ![Exemplo de análise de oportunidade](media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
+    ![Exemplo de Análise de Oportunidade](media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
  
 8. Selecione **Conectar**.  
   
@@ -131,5 +132,5 @@ Quando terminar este tutorial, você pode excluir o dashboard, o relatório e o 
 
 Você testou o assistente virtual de P e R nos aplicativos móveis do Power BI para iOS. Saiba mais sobre P e R no serviço do Power BI.
 > [!div class="nextstepaction"]
-> [Q&A no serviço do Power BI](/.power-bi-q-and-a.md)
+> [Q&A no serviço do Power BI](power-bi-q-and-a.md)
 

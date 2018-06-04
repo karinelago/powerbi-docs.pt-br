@@ -12,10 +12,11 @@ ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34310281"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Conteúdo estático nos relatórios do Power BI
 Formas e caixas de texto podem ser adicionadas a relatórios usando o serviço Power BI e o Power BI Desktop. Em ambos os casos, você deve ter permissões de edição para o relatório. Se um relatório tiver sido compartilhado com você no serviço do Power BI, você não terá permissões de edição. 
