@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290512"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Otimizar um visual do Power BI para qualquer tamanho
 Por padrão, quando você cria um novo relatório, os visuais são *responsivos*: eles são alterados dinamicamente para exibir o máximo de dados e informações, independentemente do tamanho da tela. Para relatórios mais antigos, você também pode definir os elementos visuais para serem redimensionados dinamicamente.
