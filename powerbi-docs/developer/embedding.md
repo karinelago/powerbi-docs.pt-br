@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561737"
 ---
 # <a name="embedding-with-power-bi"></a>Inserção com o Power BI
 O Power BI oferece APIs para inserir seus dashboards e relatórios em aplicativos. As APIs do Power BI oferecem um conjunto consistente de funcionalidades e acesso aos recursos mais recentes do Power BI, tais como painéis, gateways e espaços de trabalho de aplicativo, ao inserir conteúdo.
@@ -32,11 +33,13 @@ A inserção para a organização permite que você estenda o serviço do Power 
 
 Para inserir para a organização, consulte o seguinte:
 
+* [Integrar um relatório em um aplicativo](integrate-report.md)
 * [Integrar um painel em um aplicativo](integrate-dashboard.md)
 * [Integrar um bloco em um aplicativo](integrate-tile.md)
-* [Integrar um relatório em um aplicativo](integrate-report.md)
 
 Recursos de autoatendimento, como editar, salvar e muito mais, estão disponíveis por meio de [API JavaScript](https://github.com/Microsoft/PowerBI-JavaScript) ao inserir para usuários do Power BI.
+
+Você pode examinar a [Ferramenta de experiência de integração para inserção para a organização](https://aka.ms/embedsetup/UserOwnsData) para iniciar rapidamente e baixar um aplicativo de exemplo que explica como integrar um relatório para a organização.
 
 ## <a name="embedding-for-your-customers"></a>Inserção para os clientes
 A inserção para os clientes fornece a capacidade de inserir os painéis e relatórios para usuários que não possuem uma conta do Power BI. Os clientes não precisam saber nada sobre o Power BI. Pelo menos uma conta do Power BI Pro é necessária para criar um aplicativo inserido. Essa conta do Power BI Pro atua como uma conta mestre do seu aplicativo. Pense nisso como uma conta de proxy. A conta do Power BI Pro também permite a geração de tokens de inserção que fornecem acesso a painéis e relatórios no serviço do Power BI que são de propriedade/gerenciados pelo seu aplicativo. 
@@ -50,11 +53,12 @@ Para inserir dashboards, relatórios e blocos, você usaria as mesmas APIs que u
 > [!IMPORTANT]
 > Embora a inserção seja dependente do serviço do Power BI, não há uma dependência do Power BI para os clientes. Eles não precisa inscrever-se no Power BI para exibir o conteúdo inserido em seu aplicativo.
 > 
-> 
 
 Quando você estiver pronto para passar para a produção, seu espaço de trabalho do aplicativo deverá ser atribuído a uma capacidade. O Power BI Embedded, no Microsoft Azure, oferece a capacidade para usar com seus aplicativos.
 
 Para obter detalhes sobre como inserir, consulte [Como inserir seus dashboards, relatórios e blocos do Power BI](embedding-content.md).
+
+Você pode examinar a [Ferramenta de experiência de integração para inserção para clientes](https://aka.ms/embedsetup/AppOwnsData) para iniciar rapidamente e baixar um aplicativo de exemplo que explica como integrar um relatório no aplicativo.
 
 Se você estiver usando o serviço de Coleção de Espaços de Trabalho do Power BI no Azure, consulte [Migrar o conteúdo do serviço de Coleção de Espaços de Trabalho do Power BI do Azure](migrate-from-powerbi-embedded.md) para obter informações sobre como migrar o conteúdo.
 

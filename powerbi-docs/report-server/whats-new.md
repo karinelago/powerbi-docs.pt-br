@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 391edc8a2187f9a4af43b93f0713d40e41f6e943
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 07c393425d2a04376a4fcf81c2c35a0e115eeaee
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295412"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481937"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novidades no Servidor de Relatório do Power BI
 Saiba quais são as novidades no Servidor de Relatório do Power BI. Elas abrangem as principais áreas de recurso e são atualizadas conforme novos itens são lançados.
@@ -32,6 +32,12 @@ Para saber mais sobre as “Novidades” do Power BI, consulte:
 * [Novidades no serviço do Power BI](../service-whats-new.md)
 * [Novidades no Power BI Desktop](../desktop-latest-update.md)
 * [Novidades em aplicativos móveis para o Power BI](../mobile-whats-new-in-the-mobile-apps.md)
+
+## <a name="may-2018"></a>Mai 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurar aplicativos móveis do Power BI iOS para servidores de relatório remotamente
+
+Como um administrador de TI, agora é possível usar ferramenta MDM da sua organização para configurar remotamente o acesso de aplicativo móvel do Power BI iOS a um servidor de relatório. Confira [Configurar o acesso do aplicativo móvel do Power BI iOS a um servidor de relatório remotamente](configure-powerbi-mobile-apps-remote.md) para obter detalhes.
 
 ## <a name="march-2018-release"></a>Versão de março de 2018
 
@@ -204,7 +210,7 @@ O Servidor de Relatórios do Power BI agora é compatível com os novos elemento
 * Colaboração aprimorada em relatórios com comentários
 
 ## <a name="next-steps"></a>Próximas etapas
-[Manual do usuário](user-handbook-overview.md)  
+[O que é o Servidor de Relatórios do Power BI?](get-started.md) 
 [Manual do administrador](admin-handbook-overview.md)  
 [Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  

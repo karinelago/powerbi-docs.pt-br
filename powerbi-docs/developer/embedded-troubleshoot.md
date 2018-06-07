@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 2108d8fc290a5af568a3e06ae5986e82413b680b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34720801"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solucionando problemas do aplicativo inserido
 
@@ -74,7 +75,7 @@ Uma captura do fiddler pode ser necessária para uma investigação mais aprofun
 
 Uma captura do fiddler pode ser necessária para uma investigação mais aprofundada. Pode haver vários motivos para um erro 403.
 
-* O usuário excedeu a quantidade de tokens de inserção que pode ser gerada em uma capacidade compartilhada. É necessário comprar capacidades do Azure para gerar tokens de inserção e atribuir o espaço de trabalho a essa capacidade. Consulte [Criar uma capacidade do Power BI Embedded no Portal do Azure](https://docs.microsoft.com/en-us/azure/power-bi-embedded/create-capacity).
+* O usuário excedeu a quantidade de tokens de inserção que pode ser gerada em uma capacidade compartilhada. É necessário comprar capacidades do Azure para gerar tokens de inserção e atribuir o espaço de trabalho a essa capacidade. Consulte [Criar uma capacidade do Power BI Embedded no Portal do Azure](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * O token de autenticação do Azure AD expirou.
 * O usuário autenticado não é membro do grupo (espaço de trabalho do aplicativo).
 * O usuário autenticado não é administrador do grupo (espaço de trabalho do aplicativo).
@@ -132,6 +133,53 @@ Se o usuário não puder visualizar o relatório ou o dashboard, verifique se o 
 **A execução do relatório ou do dashboard está lenta**
 
 Abra o arquivo no Power BI Desktop ou no powerbi.com e verifique se o desempenho é aceitável para eliminar problemas com o aplicativo ou as APIs de inserção.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Ferramenta de experiência de integração para inserção
+
+É possível examinar a [Ferramenta de experiência de integração](https://aka.ms/embedsetup) e baixar um aplicativo de exemplo. Em seguida, você pode comparar o aplicativo com o exemplo.
+
+### <a name="prerequisites"></a>Pré-requisitos
+
+Verifique se você tem todos os pré-requisitos apropriados antes de usar a Ferramenta de experiência de integração. Você precisará de uma conta do **Power BI Pro** e de uma assinatura do **Microsoft Azure**.
+
+* Se não estiver inscrito no **Power BI Pro**, [inscreva-se para uma avaliação gratuita](https://powerbi.microsoft.com/en-us/pricing/) antes de começar.
+* Caso você não tenha uma assinatura do Azure, crie uma [conta gratuita](https://azure.microsoft.com/free/?WT.mc_id=A261C142F) antes de começar.
+* Você precisa ter seu próprio [locatário do Azure Active Directory](create-an-azure-active-directory-tenant.md) configurado.
+* Você precisa do [Visual Studio](https://www.visualstudio.com/) instalado (versão 2013 ou posterior).
+
+### <a name="common-issues"></a>Problemas comuns
+
+Alguns problemas comuns que você pode encontrar durante o teste com a Ferramenta de experiência de integração são:
+
+#### <a name="using-the-embed-for-your-customers-sample-application"></a>Usando o aplicativo de exemplo Inserir para clientes
+
+Se você estiver trabalhando com a experiência **Inserir para clientes**, salve e descompacte o arquivo *PowerBI-Developer-Samples.zip*. Em seguida, abra a pasta *PowerBI-Developer-Samples-master\App Owns Data* e execute o arquivo *PowerBIEmbedded_AppOwnsData.sln*.
+
+Ao selecionar **Conceder permissões** (a etapa "Conceder permissões"), você verá o seguinte erro:
+
+    AADSTS70001: Application with identifier <client ID> was not found in the directory <directory ID>
+
+A solução é fechar a janela pop-up, aguarde alguns segundos e tente novamente. Talvez seja necessário repetir essa ação algumas vezes. Um intervalo de tempo causa o problema de conclusão do processo de registro de aplicativo quando ele está disponível para APIs externas.
+
+A seguinte mensagem de erro será exibida ao executar o aplicativo de exemplo:
+
+    Password is empty. Please fill password of Power BI username in web.config.
+
+Esse erro ocorre porque o único valor que não está sendo inserido no aplicativo de exemplo é a senha do usuário. Abra o arquivo Web.config na solução e preencha o campo pbiPassword com a senha do usuário.
+
+#### <a name="using-the-embed-for-your-organization-sample-application"></a>Usando o aplicativo de exemplo Inserir para a organização
+
+Se você estiver trabalhando com a experiência **Inserir para a organização**, salve e descompacte o arquivo *PowerBI-Developer-Samples.zip*. Abra a pasta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* e execute o arquivo *pbi-saas-embed-report.sln*.
+
+Ao executar o aplicativo de exemplo **Inserir para a organização**, você verá o seguinte erro:
+
+    AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
+
+Isso ocorre porque a URL de redirecionamento especificada para o aplicativo de servidor Web é diferente da URL do exemplo. Se você quiser registrar o aplicativo de exemplo, use *http://localhost:13526/* como a URL de redirecionamento.
+
+Se você quiser editar o aplicativo registrado, aprenda a editar o [aplicativo registrado no AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), assim, o aplicativo poderá fornecer acesso a APIs Web.
+
+Se você quiser editar o perfil do usuário do Power BI ou os dados, aprenda a editar os [dados do Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Para saber mais, veja [Perguntas frequentes do Power BI Embedded](embedded-faq.md).
 

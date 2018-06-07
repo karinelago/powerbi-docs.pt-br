@@ -1,5 +1,5 @@
 ---
-title: Faça uma visualização no Power BI
+title: Modo de análise em uma visualização do Power BI
 description: Este documento mostra como fazer drill down em uma visualização no serviço do Microsoft Power BI e no Power BI Desktop.
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584198"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Faça uma visualização no Power BI
-## <a name="drill-down-requires-a-hierarchy"></a>Fazer busca detalhada exige uma hierarquia
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo de análise em uma visualização do Power BI
+
+## <a name="drill-requires-a-hierarchy"></a>Uma análise exige uma hierarquia
 Quando um visual tem uma hierarquia, você pode fazer drill down para revelar detalhes adicionais. Por exemplo, você pode ter uma visualização que examina a contagem de medalhas Olímpicas por uma hierarquia composta de esportes, disciplina e eventos. Por padrão, a visualização mostraria a contagem de medalhas por esporte – ginástica, esqui, esportes aquáticos e assim por diante. Mas como ela tem uma hierarquia, selecionar um dos elementos visuais (como uma barra, linha ou bolhas), exibiria um quadro cada vez mais detalhado. Selecione o elemento **esportes aquáticos** para ver os dados por natação, mergulho e polo aquático.  Selecione o elemento **mergulho** para ver detalhes de trampolim, plataforma e eventos de mergulho sincronizado.
 
 É possível adicionar hierarquias a relatórios que você tem, mas não aos compartilhados com você.
@@ -35,64 +37,134 @@ As datas são um tipo exclusivo de hierarquia. Quando você adiciona um campo de
 > [!NOTE]
 > Para saber como criar hierarquias usando o Power BI Desktop, assista ao vídeo [Como criar e adicionar hierarquias](https://youtu.be/q8WDUAiTGeU)
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>Dois métodos de drill down
-Há duas maneiras de fazer drill down (e drill up) em sua visualização.  Ambas são descritas neste artigo. Os dois métodos atingem o mesmo objetivo e, portanto, você pode usar o que mais gostar.
+## <a name="prerequisites"></a>Pré-requisitos
+
+1. No serviço do Power BI ou no Desktop, a análise exige uma visualização com uma hierarquia. 
+   
+2. Para seguir adiante, [abra o exemplo de Análise de Varejo](sample-datasets.md) e crie um mapa de árvore que examina o **Total de unidades neste ano** (Valores) por **Região**, **Cidade**, **CEP** e **Nome** (Grupo).  O mapa de árvore tem uma hierarquia composta por região, cidade, CEP e nome de cidade. Cada região tem uma ou mais cidades, cada cidade tem um ou mais códigos postais e assim por diante. Por padrão, a visualização exibe somente os dados da região, porque *Região* aparece em primeiro na lista.
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. Entender como os diversos ícones de análise funcionam pode ser um desafio, então, filtre o mapa de árvore para que ele mostre somente duas das menores regiões: **KY** e **TN**. Selecione o mapa de árvore em **Filtros de nível visual**, expanda **Região** e selecione **KY** e **TN**.
+
+    ![filtro para KY e TN](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   Agora, apenas duas regiões são exibidas no mapa de árvore.
+
+   ![ícone de análise dupla](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>Três maneiras de acessar os recursos de análise
+Existem várias opções para acessar os recursos de drill down, drill up e expandir nas visualizações que têm hierarquias. Este artigo mostra como usar a primeira opção abaixo. Depois de compreender os fundamentos de como fazer drill down e expandir, todos esses métodos farão as mesmas coisas. Teste-os e escolha o que mais gosta.
+
+- Passe o mouse sobre uma visualização para ver e usar os ícones.  
+
+    ![caminho de análise](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- Clique com o botão direito do mouse em uma visualização e use o menu.
+    
+    ![menu contextual](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- Na barra de menus do Power BI, clique no botão **Explorar**.
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>Caminhos de análise
+### <a name="drill-down"></a>Fazer drill down
+Existem diversas maneiras de analisar uma visualização. ***Fazer drill down*** leva você ao próximo nível da hierarquia. Então, se você estiver analisando o nível **Região**, será possível fazer drill down para o nível da cidade; em seguida, para o nível do CEP; e, finalmente, para o nível do nome. Cada etapa do caminho mostra novas informações.
+
+![caminho de análise](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>Expandir
+
+***Expandir*** adiciona outro nível de hierarquia à exibição atual. Portanto, se você estiver analisando o nível **Região**, será possível expandir e adicionar detalhes de cidade, CEP e nome ao mapa de árvore. Cada etapa do caminho mostra as mesmas informações e adiciona um nível de novas informações.
+
+![caminho expandir](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+Também é possível escolher entre fazer drill down ou expandir um campo de cada vez ou todos os campos de uma vez. 
+
+## <a name="drill-down-all-fields-at-a-time"></a>Fazer drill down de todos os campos de uma vez
+
+1. Inicie no nível superior do mapa de árvore que mostra os dados de KY e TN. Amplie o mapa de árvore selecionando uma das alças e arrastando para a direita. 
+
+    ![mapa de árvore mostrando dois estados](media/power-bi-visualization-drill-down/power-bi-drill-down.png) .
+
+2. Para fazer drill down de ***todos os campos de uma só vez***, selecione a seta dupla no canto superior esquerdo da visualização ![ícone de fazer drill down duplo](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png). Agora, o mapa de árvore mostra dados de cidade para o Kentucky e o Tennessee. 
+
+    ![ícone de análise dupla](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. Faça drill down mais uma vez para o nível de CEP da hierarquia.
+
+    ![ícone de análise dupla](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. Para fazer drill up de volta, selecione a seta para cima no canto superior esquerdo da visualização ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png).
+
+
+## <a name="drill-down-one-field-at-a-time"></a>Fazer drill down de um campo de cada vez
+Esse método usa os ícones de fazer drill down que aparecem no canto superior direito da própria visualização. 
+
+1. Selecione esse ícone para ativá-lo ![busca detalhada ativada](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png). Agora, você tem a opção de fazer drill down de ***um campo de cada vez***. 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   Se você não ativar a busca detalhada, a seleção de um elemento visual (como uma barra, bolha ou folha) não fará drill down; em vez disso, fará uma filtragem cruzada dos outros gráficos na página do relatório.
+
+2. Selecione a *folha* para **TN**. Agora, o mapa de árvore exibe todas as cidades no Tennessee que têm uma loja. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. Agora, você pode continuar fazendo drill down do Tennessee ou de uma cidade específica desse estado. Outra opção é expandir (confira **Expandir todos os campos de uma vez**, a seguir). Vamos continuar fazendo drill down de um campo de cada vez.  Selecione **Knoxville, TN**. O mapa de árvore agora exibe o CEP da loja em Knoxville. 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    Observe que o título se altera conforme você faz drill down e drill up novamente.  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>Expandir tudo e expandir um campo de cada vez
+Ter um mapa de árvore que mostra apenas um CEP não é muito informativo.  Então, expanda para um nível abaixo na hierarquia.  
+
+1. Com o mapa de árvore ativo, clique no ícone *expandir para baixo* ![expandir para baixo](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). Agora, o mapa de árvore mostra dois níveis de hierarquia: CEP e nome da loja. 
+
+    ![mostrando o CEP e o nome da loja](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. Para ver todos os quatro níveis de hierarquia dos dados do Tennessee, clique na seta de drill up até chegar ao segundo nível, **Total de unidades deste ano por região e cidade**, do mapa de árvore. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. Verifique se a busca detalhada ainda está ativada em ![busca detalhada ativada](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png) e selecione o ícone *expandir para baixo* ![ícone expandir para baixo](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). Agora, o mapa de árvore mostra detalhes adicionais. Em vez de exibir apenas a cidade e o estado, ele também mostra o CEP. 
+
+    ![ícone de análise dupla](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. Selecione o ícone *expandir para baixo* mais uma vez para exibir todos os quatro níveis de hierarquia de detalhes do Tennessee no mapa de árvore. Passe o mouse sobre uma folha para ver ainda mais detalhes.
+
+   ![mapa de árvore mostrando dados do Tennessee](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>Filtros detalhados de outros elementos visuais
+Ao trabalhar no modo de análise, você precisa decidir como fazer drill down e expandir afetam outras visualizações na página. 
+
+Por padrão, a análise não filtra outros visuais em um relatório. Mas esse recurso pode ser habilitado no Power BI Desktop e no serviço do Power BI. 
+
+1. No Desktop, selecione a guia **Formatar** e marque a caixa de seleção **Filtros detalhados de outros elementos visuais**.
+
+    ![configuração no Power BI Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. Agora, ao fazer drill down (ou drill up, ou expandir) em um visual com uma hierarquia, essa ação filtrará os outros visuais da página. 
+
+    ![configuração no Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![configuração no Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> Para seguir adiante, [abra o exemplo de Análise de Varejo](sample-datasets.md) no serviço do Power BI e crie um mapa de árvore que examina **Total de unidades neste ano** (Valores) por **Região**, **Cidade**, **CEP** e **Nome** (Grupo).  
-> 
-> 
+> Para habilitar esse recurso no serviço do Power BI, na barra de menus superior, selecione **Interações visuais > Filtros detalhados de outros elementos visuais**.
+>
+> ![configuração no serviço do Power BI](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>Método Um para drill down
-Esse método usa os ícones de análise que aparecem nos cantos superiores da própria visualização.
 
-1. No Power BI, abra um relatório no [modo de exibição de Leitura ou no modo de exibição de Edição](service-reading-view-and-editing-view.md). A análise requer uma visualização com uma hierarquia. 
-   
-   Uma hierarquia é mostrada na animação abaixo.  A visualização tem uma hierarquia composta por região, cidade, CEP e nome de cidade. Cada região tem uma ou mais cidades, cada cidade tem um ou mais códigos postais e assim por diante. Por padrão, a visualização exibe somente os dados da região, porque *Região* aparece em primeiro na lista.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Para habilitar o drill down, selecione o ícone de seta no canto superior direito da visualização. Quando o ícone estiver escuro, drill está habilitado. Se você não ativar a análise, a seleção de um elemento visual (como uma barra ou bolha) fará uma filtragem cruzada dos outros gráficos na página do relatório.    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Para fazer drill down de **um campo por vez**, selecione um dos elementos da visualização. Em um gráfico de barras, isso significa clicar em uma das barras. Em um mapa de árvore, isso significa clicar em uma das **folhas**. Observe que o título se altera conforme você faz drill down e drill up novamente. Nessa animação, ele muda de "Total de unidades neste ano por território" para "Total de unidades neste ano por território e cidade" e, em seguida, para "Total de unidades neste ano por Território, Cidade e CEP" para "Total de unidades neste ano por Território, Cidade, CEP e Nome. E para fazer drill up de volta, selecione o ícone **Fazer drill up** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) no canto superior esquerdo da visualização conforme mostrado abaixo.
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. Para fazer drill down de ***todos os campos de uma só vez***, selecione a seta dupla no canto superior esquerdo da visualização.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Para fazer drill up de volta, selecione a seta para cima no canto superior esquerdo da visualização.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>Método Dois para fazer drill down
-Esse método usa a lista suspensa **Explorar** da barra de menus superior do Power BI.
-
-1. No Power BI, abra um relatório no [modo de exibição de Leitura ou no modo de exibição de Edição](service-reading-view-and-editing-view.md). A análise requer uma visualização com uma hierarquia. 
-   
-   Uma hierarquia é mostrada na imagem abaixo.  A visualização tem uma hierarquia composta por região, cidade, CEP e nome de cidade. Cada região tem uma ou mais cidades, cada cidade tem um ou mais códigos postais e assim por diante. Por padrão, a visualização exibe somente os dados da região, porque *Região* aparece em primeiro na lista.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Para habilitar o drill down, selecione uma visualização para torná-la ativa e, na barra de menus superior do Power BI, selecione **Explorar** > **drill down**. O ícone de drill down no canto superior direito da visualização é alterado para uma tela de fundo preta. ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. Uma vez habilitado, faça o drill down de um campo por vez, selecionando uma das folhas do mapa de árvore. Neste exemplo, o território denominado **NC** é selecionado para ver o total de unidades vendidas neste ano, por cidade, na Carolina do Norte.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. Para fazer drill down de todos campos de uma só vez, selecione **Explorar** > **Mostrar Próximo Nível**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. Para fazer drill up, selecione **Explorar** > **Fazer Drill Up**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. Para ver os dados em uso para criar o visual, selecione **Ver dados**. Os dados são exibidos em um painel embaixo do visual. Esse painel permanecerá enquanto você continuar fazendo drill down no visual. Para obter mais informações, consulte [Mostrar dados usados para criar o visual](service-reports-show-data.md).
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>Noções básicas de eixo de hierarquia e grupo de hierarquias
 É possível pensar no eixo de hierarquia e no grupo de hierarquias como os mecanismos que podem ser usados para aumentar e diminuir a granularidade dos dados que você deseja exibir. Todos os dados que podem ser organizados em categorias e subcategorias são qualificados como tendo uma hierarquia. Isso, obviamente, inclui as datas e horas.
 
-É possível criar uma visualização no Power BI para ter uma hierarquia selecionando um ou mais campos de dados a serem adicionados ao contêiner **Eixo** ou ao contêiner **Grupo**, juntamente com os dados que você deseja examinar como campos de dados no contêiner **Valores**. Você saberá se seus dados forem hierárquicos se os ícones de Modo de análise forem exibidos nos cantos superiores esquerdo e direito de sua visualização. 
+É possível criar uma visualização no Power BI para ter uma hierarquia selecionando um ou mais campos de dados a serem adicionados ao contêiner **Eixo** ou ao contêiner **Grupo**, juntamente com os dados que você deseja examinar como campos de dados no contêiner **Valores**. Você saberá se seus dados são hierárquicos se os ícones de *Modo de análise* são exibidos nos cantos superiores esquerdo e direito de sua visualização. 
 
 Essencialmente, é conveniente pensar em dois tipos de dados hierárquicos:
 - Dados de data e hora – se você tiver um campo de dados com um tipo de dados DateTime, já terá os dados hierárquicos. O Power BI cria automaticamente uma hierarquia para qualquer campo de dados cujos valores podem ser analisados em uma estrutura [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx). Só é necessário adicionar um campo DateTime ao contêiner **Eixo** ou **Grupo**.

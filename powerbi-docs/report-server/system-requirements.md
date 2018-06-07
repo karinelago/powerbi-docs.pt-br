@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 2963dbe2a5d1109e4396568624e16bf49d98da10
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34481706"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware e de software para a instalação do Servidor de Relatório do Power BI
 Aqui você encontrará os requisitos mínimos de hardware e de software para instalar e executar o Servidor de Relatório do Power BI.
@@ -57,7 +58,7 @@ O Servidor de Relatório do Power BI instalará valores padrão para definir as 
  Embora o servidor de relatório possa ser instalado em um ambiente que tenha um RODC (Controlador de domínio somente leitura), o Reporting Services precisa acessar um Controlador de Domínio Leitura-Gravação para funcionar adequadamente. Se o Reporting Services só tiver acesso a um RODC, talvez ocorram erros ao tentar administrar o serviço.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Relatórios do Power BI e conexões dinâmicas do Analysis Services
-Você pode usar uma conexão dinâmica em instâncias tabulares ou multidimensionais. Seu servidor do Analysis Services deve ter a versão e a edição adequadas para funcionar adequadamente.
+Você pode usar uma conexão dinâmica em instâncias de tabela ou multidimensionais. Seu servidor do Analysis Services deve ter a versão e a edição corretas para funcionar adequadamente.
 
 | **Versão do servidor** | **SKU necessário** |
 | --- | --- |
@@ -66,8 +67,8 @@ Você pode usar uma conexão dinâmica em instâncias tabulares ou multidimensio
 | 2016 e posterior |SKU Standard ou superior |
 
 ## <a name="next-steps"></a>Próximas etapas
-[Manual do usuário](user-handbook-overview.md)  
-[Manual do administrador](admin-handbook-overview.md)  
+[O que é o Servidor de Relatórios do Power BI?](get-started.md)  
+[Visão geral do administrador](admin-handbook-overview.md)  
 [Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)

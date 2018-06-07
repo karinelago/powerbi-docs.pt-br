@@ -8,15 +8,15 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b9c67b1c493d885b0a1b1a21e27c652afaaa513e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296976"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584106"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Gráficos de dispersão e gráficos de bolhas no Power BI
 Um gráfico de dispersão sempre tem dois eixos de valor para mostrar um conjunto de dados numéricos em um eixo horizontal e outro conjunto de valores numéricos em um eixo vertical. O gráfico exibe pontos na interseção de um valor numérico de x e y, combinando esses valores em pontos de dados individuais. Esses pontos de dados podem ser distribuídos de maneira uniforme ou não pelo eixo horizontal, dependendo dos dados.
@@ -81,7 +81,7 @@ Agora vamos adicionar uma terceira dimensão.
    
     ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
-3. Para definir o número de pontos de dados a serem mostrados em seu gráfico de bolha, na seção **Formato** do painel **Visualizações**, expanda o cartão **Geral** e ajuste o **Volume de Dados**. É possível definir o volume máximo de dados para qualquer número até 10.000 (o padrão é 3500).
+3. Para definir o número de pontos de dados a serem mostrados em seu gráfico de bolha, na seção **Formato** do painel **Visualizações**, expanda o cartão **Geral** e ajuste o **Volume de Dados**. É possível definir o volume máximo de dados para qualquer número até 10.000. Para garantir um bom desempenho ao definir os números mais altos, faça um teste antes. 
 
     ![Volume de Dados](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 

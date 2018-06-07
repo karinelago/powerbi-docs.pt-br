@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721376"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Faça um tour pelo painel Filtros do relatório
 Este artigo oferece uma visão mais detalhada do painel Filtros do relatório. Você verá o painel no [Modo de Exibição de Edição e no Modo de Exibição de Leitura do serviço Power BI](service-reading-view-and-editing-view.md) e no [Modo de Exibição de Relatório do Power BI Desktop](desktop-report-view.md).
@@ -22,7 +23,7 @@ Este artigo oferece uma visão mais detalhada do painel Filtros do relatório. V
 Há muitas maneiras diferentes de filtrar dados no Power BI. Recomendamos que você leia [Sobre filtros e realce](power-bi-reports-filters-and-highlighting.md) primeiro.
 
 ## <a name="working-with-the-report-filters-pane"></a>Trabalhar com o painel de Filtros do relatório
-No Power BI Desktop, os relatórios são abertos no modo de exibição de Relatório. No serviço do Power BI, os relatórios podem ser abertos no [modo de exibição de Edição ou no modo de exibição de Leitura](service-reading-view-and-editing-view.md). No modo de exibição de Edição e no modo de exibição de Relatório do Power BI Desktop, os proprietários podem [adicionar filtros a um relatório](power-bi-report-add-filter.md), os quais são salvos com ele. As pessoas que visualizam o relatório no Modo de Exibição de Leitura podem interagir com os filtros, mas não podem adicionar novos filtros ao relatório.
+No Power BI Desktop, os relatórios são abertos no modo de exibição de Relatório. No serviço do Power BI, os relatórios podem ser abertos no [modo de exibição de Edição ou no modo de exibição de Leitura](service-reading-view-and-editing-view.md). No modo de exibição de Edição e no modo de exibição de Relatório do Power BI Desktop, os proprietários podem [adicionar filtros a um relatório](power-bi-report-add-filter.md), os quais são salvos com ele. As pessoas que veem o relatório no Modo de Exibição de Leitura podem interagir com os filtros e salvar suas alterações, mas não podem adicionar novos filtros ao relatório.
 
 No Serviço do Power BI, relatórios retêm as alterações feitas no painel Filtros e essas alterações são repassadas para a versão móvel do relatório. Para redefinir o painel Filtro para os padrões do criador, selecione **Redefinir para padrão** na barra de menus superior.     
 

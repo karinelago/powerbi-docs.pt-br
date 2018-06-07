@@ -1,23 +1,20 @@
 ---
 title: O que é Power BI?
 description: Visão geral do Power BI e de como as partes diferentes se encaixam – Power BI Desktop, serviço do Power BI, Power BI Mobile, Servidor de Relatórios.
-services: powerbi
 author: mihart
 manager: kfile
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: overview
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.component: powerbi-service
-ms.date: 05/07/2018
+ms.topic: overview
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bc997d2ac2c1346bbeac5e01c2bdb5910d42b8b0
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: b91c7b4bc96ea5b3f1e4a8db844ef6d9987c9b38
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584175"
 ---
 # <a name="what-is-power-bi"></a>O que é Power BI?
 O **Power BI** é uma coleção de serviços de software, aplicativos e conectores que trabalham juntos para transformar suas fontes de dados não relacionadas em informações coerentes, visualmente envolventes e interativas. Quer seus dados sejam uma simples planilha do Excel ou uma coleção de data warehouses híbridos baseados em nuvem e locais, o **Power BI** permite que você se conecte facilmente às suas fontes de dados, visualize (ou descubra) o que é importante e compartilhe isso com qualquer pessoa ou com quem você quiser.
@@ -59,4 +56,4 @@ Crie, implante e gerencie os relatórios paginados, móveis e do Power BI localm
 O Servidor de Relatórios do Power BI é uma solução que você implanta atrás do firewall e, em seguida, fornece relatórios para os usuários corretos de diferentes maneiras, seja exibindo-os em um navegador da Web, em um dispositivo móvel ou como um email. E, como o Servidor de Relatórios do Power BI é compatível com o Power BI na nuvem, você pode ir para a nuvem quando estiver pronto. 
 
 ## <a name="next-steps"></a>Próximas etapas
-[Entrar e se conectar a um serviço](/power-bi/service-tutorial-connect-to-github.md)
+[Entre, obtenha alguns dados e aprenda a usar o serviço do Power BI](service-the-new-power-bi-experience.md)

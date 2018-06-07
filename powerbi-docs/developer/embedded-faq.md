@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34289730"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721008"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -102,6 +102,9 @@ O Power BI Embedded continuará a usar o Azure AD para autenticação do usuári
 A autenticação e a autorização dos usuários do aplicativo serão implementadas pelo ISV, que poderá implementar uma autenticação própria para seus aplicativos.
 
 Se você já tiver um locatário do Azure AD, será possível usar o diretório existente ou criar um novo locatário do Azure AD para a segurança do conteúdo do aplicativo inserido.
+
+Para obter o token do AAD, é possível usar uma das Bibliotecas de Autenticação do Azure Active Directory. Bibliotecas de cliente estão disponíveis para várias plataformas.
+https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Qual a diferença entre o Power BI Embedded e os serviços do Azure?
 
@@ -205,6 +208,31 @@ Alguns deles são:
 * Todas as fontes de dados do PBI têm suporte, em contraste com as 2 fontes de dados da **Coleção de Espaços de Trabalho do Power BI**. 
 * Novos recursos como P e R, Atualizar, indicadores, inserção de bloco e de dashboard, menu personalizado, etc. só têm suporte na solução **Power BI Embedded**.
 * Modelo de cobrança por capacidade.
+
+## <a name="onboarding-experience-tool-for-embedding"></a>Ferramenta de experiência de integração para inserção
+
+### <a name="what-is-the-onboarding-experience-tool"></a>O que é a Ferramenta de experiência de integração?
+
+A [Ferramenta de experiência de integração](https://aka.ms/embedsetup) permite iniciar rapidamente e baixar um aplicativo de exemplo para começar a inserção com o Power BI.
+
+### <a name="which-solution-should-i-choose"></a>Qual solução devo escolher?
+
+* A [inserção para clientes](embedding.md#embedding-for-your-customers) fornece a capacidade de inserir os dashboards e relatórios para usuários que não têm uma conta do Power BI. Execute a solução [Inserir para clientes](https://aka.ms/embedsetup/AppOwnsData).
+* A [inserção para a organização](embedding.md#embedding-for-your-organization) permite que você estenda o serviço do Power BI. Execute a solução [Inserir para a organização](https://aka.ms/embedsetup/UserOwnsData).
+
+### <a name="ive-downloaded-the-sample-app-which-solution-do-i-choose"></a>Baixei o aplicativo de exemplo. Qual solução devo escolher?
+
+Se você estiver trabalhando com a experiência **Inserir para clientes**, salve e descompacte o arquivo *PowerBI-Developer-Samples.zip*. Em seguida, abra a pasta *PowerBI-Developer-Samples-master\App Owns Data* e execute o arquivo *PowerBIEmbedded_AppOwnsData.sln*.
+
+Se você estiver trabalhando com a experiência **Inserir para a organização**, salve e descompacte o arquivo *PowerBI-Developer-Samples.zip*. Abra a pasta *PowerBI-Developer-Samples-master\User Owns Data\integrate-report-web-app* e execute o arquivo *pbi-saas-embed-report.sln*.
+
+### <a name="how-can-i-edit-my-registered-application"></a>Como posso editar meu aplicativo registrado?
+
+Você pode aprender a editar aplicativos registrados no AAD [aqui](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application).
+
+### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>Como editar meu perfil do usuário os dados no Power BI?
+
+Você pode aprender a editar os dados do Power BI [aqui](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
 
 Para saber mais, veja [Solução de problemas de seu aplicativo inserido](embedded-troubleshoot.md)
 

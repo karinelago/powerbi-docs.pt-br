@@ -7,14 +7,14 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 12/11/2017
+ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295665"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482120"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Log de alterações para o Servidor de Relatório do Power BI
 
@@ -145,8 +145,8 @@ Para obter informações detalhadas sobre os novos recursos, consulte [Novidades
 
 ## <a name="next-steps"></a>Próximas etapas
 
-[Manual do usuário](user-handbook-overview.md)  
-[Manual do administrador](admin-handbook-overview.md)  
+[O que é o Servidor de Relatórios do Power BI?](get-started.md)
+[Visão geral do administrador](admin-handbook-overview.md)  
 [Instalar o Servidor de Relatório do Power BI](install-report-server.md)  
 [Instalar o Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Baixar o SSDT (SQL Server Data Tools)](http://go.microsoft.com/fwlink/?LinkID=616714)

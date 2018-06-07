@@ -24,3 +24,6 @@ Você pode forçar o gateway para se comunicar com o Barramento de Serviço do A
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Erro: falha ao adicionar usuário ao grupo.  (-2147463168   PBIEgwService   Usuários de Log de Desempenho)
 Você poderá receber esse erro se estiver tentando instalar o gateway em um controlador de domínio. Não há suporte para a implantação em um controlador de domínio. Você precisará implantar o gateway em um computador que não seja um controlador de domínio.
 
+### <a name="installation-fails"></a>Falha na instalação
+Você poderá encontrar falhas na instalação se o software antivírus do computador de instalação estiver desatualizado. Você pode atualizar a instalação do antivírus ou desabilitá-lo apenas até a instalação do gateway ser concluída e habilitá-lo novamente.
+

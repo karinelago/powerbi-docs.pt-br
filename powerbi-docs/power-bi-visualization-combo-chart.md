@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9288c44194a7eabebfa9888b1bca0023a54950e8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6cc9b9cafe2b3efdb8e51e89c203e2cb123e909a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293572"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584267"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráfico de combinação no Power BI
 No Power BI, um gráfico de combinação é uma visualização única que combina um gráfico de linhas e um gráfico de colunas. Combinando os 2 gráficos em um permite você faça uma comparação rápida dos dados.
@@ -105,6 +105,7 @@ Daqui, talvez você queira:
 
 * [Adicione o gráfico de combinação como um bloco do dashboard](service-dashboard-tiles.md).
 * [Salve o relatório](service-report-save.md).
+* [Tornar o relatório mais acessível para pessoas com deficiências](desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Realce cruzado e filtragem cruzada
 

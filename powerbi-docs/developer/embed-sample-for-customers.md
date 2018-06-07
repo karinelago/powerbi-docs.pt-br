@@ -3,18 +3,18 @@ title: Inserir conteúdo do Power BI em um aplicativo para seus clientes
 description: Aprenda a integrar ou inserir um dashboard, um bloco ou um relatório em um aplicativo Web usando as APIs do Power BI para seus clientes.
 author: markingmyname
 ms.author: maghan
-ms.date: 05/07/2018
+ms.date: 05/25/2018
 ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: dd46617f5a3b1445c597656148e4068ef3cfed92
-ms.sourcegitcommit: aa8045e42b979206c600bce4a8d17de1f0620462
+ms.openlocfilehash: ae683dfbeb7b3848575ab766c33b695eb823d497
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/22/2018
-ms.locfileid: "34445223"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721031"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: inserir um relatório, um dashboard ou um bloco do Power BI em um aplicativo para seus clientes
 Com o **Power BI Embedded no Azure**, você pode inserir relatórios, painéis ou blocos em um aplicativo usando **app owns data**. **App owns data** representa um aplicativo que usa o Power BI como sua plataforma de análise incorporada. Normalmente, esse é um cenário de **desenvolvedor ISV**. Como **desenvolvedor ISV**, você pode criar conteúdo do Power BI que exibe relatórios, painéis ou blocos em um aplicativo totalmente integrado e interativo, sem precisar que os usuários do aplicativo tenham uma licença do Power BI, ou até mesmo saibam que o Power BI está ativado nos bastidores. Este tutorial demonstra como integrar um relatório em um aplicativo usando o SDK do .NET do **Power BI** com a API JavaScript do **Power BI** ao usar o **Power BI Embedded no Azure** para clientes com **app owns data**.
@@ -36,6 +36,9 @@ Para começar, você precisará de uma conta do **Power BI Pro**, que será sua 
 
 Antes de começar a inserir relatórios, painéis ou blocos em seu aplicativo, você precisará verificar se o ambiente está configurado para permitir a inserção. Como parte da instalação, será necessário fazer o seguinte.
 
+Você pode examinar a [Ferramenta de experiência de integração](https://aka.ms/embedsetup/AppOwnsData) para iniciar rapidamente e baixar um aplicativo de exemplo que ajuda a criar um ambiente e a inserir um relatório.
+
+No entanto, se você optar por configurar o ambiente manualmente, você poderá continuar abaixo.
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registrar um aplicativo no Azure AD (Azure Active Directory)
 
 Registre seu aplicativo no Azure Active Directory para permitir que ele tenha acesso às APIs REST do Power BI. Isso permite que você estabeleça uma identidade para seu aplicativo e especifique permissões para recursos REST do Power BI.

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: aa16cdb9391a406b2e093f551b86dda51ee1dcfa
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722783"
 ---
 # <a name="power-bi-premium---what-is-it"></a>Power BI Premium – o que é?
 O Power BI Premium fornece recursos dedicados à execução de serviço do Power BI para sua organização ou equipe, oferecendo desempenho mais confiável e volumes de dados maiores. O Premium também permite a ampla distribuição de conteúdo sem a necessidade de adquirir licenças de usuário para visualizadores.
@@ -58,7 +59,7 @@ Por padrão, o espaço de trabalho estará na capacidade compartilhada. Isso inc
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Nós de capacidade Premium
-O Power BI Premium está disponível em configurações de nó com diferentes capacidades de v-core. Para obter mais informações sobre custo e ofertas específicas de SKU, consulte [Power BI pricing (Preços do Power BI)](https://powerbi.microsoft.com/pricing/). Também está disponível uma [calculadora de custos](https://powerbi.microsoft.com/calculator/). Para obter informações sobre planejamento de capacidade de análise inserida, consulte [Planning a Power BI Enterprise Deployment whitepaper (Planejando um white paper de implantação do Power BI Enterprise)](https://aka.ms/pbienterprisedeploy).
+O Power BI Premium está disponível em configurações de nó com diferentes capacidades de v-core. Para obter mais informações sobre custo e ofertas específicas de SKU, confira [Preços do Power BI](https://powerbi.microsoft.com/pricing/). Também está disponível uma [calculadora de custos](https://powerbi.microsoft.com/calculator/). Para obter informações sobre planejamento de capacidade de análise inserida, consulte [Planning a Power BI Enterprise Deployment whitepaper (Planejando um white paper de implantação do Power BI Enterprise)](https://aka.ms/pbienterprisedeploy).
 
 * Os nós P podem ser usados para implantações inseridas ou de serviço
 * Os nós EM podem ser usados apenas para implantações inseridas

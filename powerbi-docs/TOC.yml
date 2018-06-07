@@ -234,6 +234,8 @@
                   href: service-dashboard-featured.md
                 - name: Central de Notificação Unificada do Power BI
                   href: service-notification-center.md
+                - name: Temas de dashboard
+                  href: service-dashboard-themes.md
             - name: Relatórios
               items:
                 - name: Altere como um gráfico é classificado em um relatório do Power BI
@@ -572,6 +574,8 @@
               href: desktop-import-excel-workbooks.md
             - name: Conectar-se a interfaces genéricas que usam dados
               href: desktop-connect-using-generic-interfaces.md
+            - name: Conectar-se ao Adobe Analytics
+              href: desktop-connect-adobe-analytics.md
             - name: Conectar-se a um banco de dados Oracle
               href: desktop-connect-oracle-database.md
             - name: Execução de scripts do R no Power BI Desktop
@@ -616,8 +620,6 @@
               href: desktop-directquery-sap-hana.md
             - name: Configuração Pressupor integridade referencial no Power BI Desktop
               href: desktop-assume-referential-integrity.md
-            - name: DirectQuery para bancos de dados Oracle e Teradata
-              href: desktop-directquery-for-oracle-teradata.md
             - name: Usar o conector do SAP BW no Power BI Desktop (Versão prévia)
               href: desktop-sap-bw-connector.md
             - name: Usar os links do OneDrive for Business no Power BI Desktop
@@ -788,6 +790,8 @@
           href: desktop-send-smile-privacy-statement.md
         - name: Acessibilidade nos relatórios do Power BI
           href: desktop-accessibility.md
+        - name: Gerenciar o formulário de entrada do Power BI Desktop
+          href: desktop-admin-sign-in-form.md
 - name: Aplicativos móveis do Power BI
   items:
     - name: Visão geral

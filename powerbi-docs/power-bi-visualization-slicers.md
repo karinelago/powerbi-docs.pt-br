@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297344"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721491"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentação de Dados no Power BI
 Seus leitores de relatório devem poder examinar as métricas gerais de vendas, mas também realçar o desempenho de cada gerente regional individual e em diferentes períodos. Você poderia criar relatórios separados ou gráficos comparativos, ou então usar segmentação. Uma segmentação é uma forma alternativa de filtragem que restringe a parte do conjunto de dados que é mostrada em outras visualizações em um relatório. 
@@ -43,6 +43,13 @@ As segmentações do Power BI têm as seguintes limitações:
 ## <a name="create-slicers"></a>Criar segmentações
 
 Para criar uma segmentação, selecione o ícone de segmentação e escolha o campo de dados a ser filtrado (ou então, arraste-os para a caixa **Campos** no painel **Visualizações**), selecione ou arraste o campo de dados primeiramente para criar uma visualização e escolha o ícone de segmentação para transformar a visualização em uma segmentação. Tipos de dados diferentes criam tipos diferentes de segmentação, com efeitos e opções também diferentes. 
+
+Na primeira vez que você alterar um relatório, o botão para **Redefinir para padrão** acenderá. Este é um lembrete de que você fez uma alteração nas configurações originais do relatório. Se você sair do relatório, essa alteração será salva (persistirá). Ao retornar ao relatório, você não terá que fatiá-lo novamente.  No entanto, se você deseja redefinir o relatório para as configurações padrão do autor, selecione o botão **Redefinir para padrão** na barra de menus superior.
+
+![Botão Redefinir para padrão](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Se o botão **Redefinir para padrão** permanecer desabilitado, isso significará que o autor do relatório desabilitou esse recurso ou que o relatório contém um visual personalizado. Basta passar o mouse sobre o botão para ler a dica de ferramenta e obter uma explicação. 
 
 **Para criar uma segmentação para filtrar os dados por gerente regional**
 

@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 37f4e06aee41b8741dd3a1a1a52e3237fbd893a3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 22eb44048d8a4f681d8d112ce3fdb5a841d0511e
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293244"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584221"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Trabalhar com tabelas em relatórios e painéis do Power BI
 Uma tabela é uma grade que contém dados relacionados em uma série de lógica de linhas e colunas. Ela também pode conter cabeçalhos e linhas de totais. As tabelas funcionam bem com comparações quantitativas em que você observa muitos valores de uma única categoria. Por exemplo, esta tabela exibe 5 medidas diferentes para a **Categoria**.
@@ -119,6 +119,9 @@ Com a formatação condicional para tabelas, você pode especificar as cores da 
 Às vezes, o Power BI vai truncar um título de coluna em um relatório e em um painel. Para mostrar todo o nome da coluna, passe o mouse sobre o espaço à direita do título para revelar as setas duplas, selecionar e arrastar.
 
 ![](media/power-bi-visualization-tables/resizetable.gif)
+
+## <a name="considerations-and-troubleshooting"></a>Considerações e solução de problemas
+* Ao aplicar a formatação de coluna, só é possível escolher uma opção de alinhamento por coluna: Auto, Esquerda, Centro, Direita. Normalmente, uma coluna contém todo o texto ou todos os números, e não uma combinação. Nos casos em que uma coluna contiver números e texto, **Auto** será alinhado à esquerda para texto e à direita para números. Esse comportamento é compatível com idiomas que a leitura ocorre da esquerda para a direita.   
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

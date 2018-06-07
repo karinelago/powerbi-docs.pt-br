@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721169"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Usar Temas de Relatório no Power BI Desktop (Visualização)
 Com **Temas de Relatório** você pode aplicar um tema de cor ao relatório inteiro, como as cores da empresa, uma coloração sazonal ou qualquer outro tema de cor que você queira aplicar. Quando você aplicar um **Tema de Relatório**, todos os visuais no relatório passarão a usar as cores do tema selecionado (aplicam-se algumas exceções que serão descritas posteriormente neste artigo).
@@ -54,7 +55,7 @@ Esse arquivo JSON tem as seguintes linhas necessários:
 
 * **name** – esse é o nome do tema, que é o único campo obrigatório
 * **dataColors** – uma lista de códigos hexadecimais de cores a serem usados para dados nos visuais do Power BI Desktop. A lista pode conter quantas cores forem desejadas
-* **background**, **foreground** e **tableAccent** – esses valores são as cores que devem ser usadas em visuais de **tabela** e **matriz**. A maneira como você usa essas cores depende do estilo específico de tabela ou matriz aplicado. Os visuais de **tabela** e de **matriz** aplicam esses estilos por padrão.
+* **background**, **foreground** e **tableAccent** – esses valores são as cores que devem ser aplicadas em diversos tipos de visuais. O **foreground** aplica-se ao texto da caixa de texto, o texto de meta de KPI, o texto de cartão de várias linhas, o texto do valor do cartão, o texto explicativo medidor, o texto do elemento de segmentação vertical e o texto dos valores e do total de **tabela** e **matriz**. O **background** aplica-se ao preenchimento do botão e à tela de fundo do rótulo do gráfico de combinação. A maneira em que essas cores são usadas depende do estilo específico do visual aplicado. Os visuais de **tabela** e de **matriz** aplicam esses estilos por padrão.
 
 Para aplicar um estilo em um visual de **tabela** ou **matriz**, selecione o visual e no painel **Visualizações**, selecione a seção **Formato** e, em seguida, expanda **Estilo da matriz** e selecione um estilo na lista suspensa **Estilo**.
 

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294906"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721813"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Criar um relatório paginado para o Servidor de Relatórios do Power BI
 Como o nome sugere, relatórios paginados podem ser executados em muitas páginas. Eles são dispostos em um formato fixo e oferecem personalização precisa. Relatórios paginados são arquivos .rdl.
@@ -94,7 +94,7 @@ Quando seu relatório estiver pronto, salve-o no Servidor de Relatórios do Powe
 Há muitos recursos excelentes para criar relatórios no Construtor de Relatórios e no Report Designer no SQL Server Data Tools. Os tutoriais do Construtor de Relatórios são um bom lugar para começar.
 
 * [Tutoriais do Construtor de Relatórios](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Manual do usuário do Servidor de Relatório do Power BI](user-handbook-overview.md)  
+* [O que é o Servidor de Relatórios do Power BI?](get-started.md)  
 
 Mais perguntas? [Experimente perguntar à Comunidade do Power BI](https://community.powerbi.com/)
 

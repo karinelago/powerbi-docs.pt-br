@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553555"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Inserir com Web Part de Relatório no SharePoint Online
 
@@ -142,7 +143,9 @@ Entre em contato com o proprietário da página do SharePoint Online para ajudá
 
 * Você pode encontrar problemas se usar o Internet Explorer 10. Você pode examinar o [suporte dos navegadores para o Power BI](service-browser-support.md) e para o [Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-* A web part do Power BI não está disponível em [nuvens nacionais](https://powerbi.microsoft.com/en-us/clouds/). 
+* A web part do Power BI não está disponível em [nuvens soberanas](https://powerbi.microsoft.com/en-us/clouds/).
+
+* O servidor clássico do SharePoint não é compatível com essa web part.
 
 ## <a name="next-steps"></a>Próximas etapas
 

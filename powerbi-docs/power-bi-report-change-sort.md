@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561783"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Altere como um gráfico é classificado em um relatório do Power BI
 Em um relatório do Power BI, você pode classificar a maioria das visualizações em ordem alfabética pelos nomes das categorias no gráfico, ou pelos valores numéricos de cada categoria. Por exemplo, este gráfico é classificado por nome de loja.
@@ -29,6 +30,13 @@ Em um relatório do Power BI, você pode classificar a maioria das visualizaçõ
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **OBSERVAÇÃO**: nem todos os visuais podem ser classificados.  Por exemplo, os seguintes visuais não podem ser classificados: Mapa de Árvore, Mapa, Mapa Coroplético, Dispersão, Medidor, Cartão, Cartão de Múltiplas Linhas e Cascata.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>Salvar as alterações feitas na ordem de classificação
+Os relatórios do Power BI retêm os filtros, divisões, classificações e outras alterações de exibição de dados que você fizer. Portanto, se você sair de um relatório e retornar mais tarde, suas alterações serão salvas.  Se você quiser reverter as alterações para as configurações do autor do relatório, selecione **Redefinir para padrão** na barra de menus superior. 
+
+![classificação persistente](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+Se, no entanto, o botão **Redefinir para padrão** estiver esmaecido, significará que o autor do relatório desabilitou a funcionalidade de salvar (persistir) as alterações.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Classificando o uso de outros critérios

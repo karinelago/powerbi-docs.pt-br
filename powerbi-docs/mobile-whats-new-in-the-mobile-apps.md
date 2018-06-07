@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 05/21/2018
 ms.author: maggies
-ms.openlocfilehash: 5bd38c7973a4820b98e6591a12a8950987759b93
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 0e4401499ab54707970b928366c67a9dcf7d587a
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34482166"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novidades em aplicativos móveis para o Power BI
 Para informações sobre “Novidades” relacionadas, consulte:
@@ -21,6 +22,12 @@ Para informações sobre “Novidades” relacionadas, consulte:
 * [Blog da equipe do Power BI para os aplicativos móveis](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novidades no Power BI Desktop](desktop-latest-update.md)  
 * [Novidades no serviço do Power BI](service-whats-new.md)  
+
+## <a name="may-2018"></a>Mai 2018
+
+### <a name="configure-power-bi-ios-mobile-apps-for-report-servers-remotely"></a>Configurar aplicativos móveis do Power BI iOS para servidores de relatório remotamente
+
+Seu administrador de TI agora pode usar uma ferramenta MDM para configurar o acesso do aplicativo móvel do Power BI iOS a um servidor de relatório. Confira [Configurar o acesso do aplicativo móvel do Power BI iOS a um servidor de relatório remotamente](report-server/configure-powerbi-mobile-apps-remote.md) para obter detalhes.
 
 ## <a name="april-2018"></a>Abril de 2018
 

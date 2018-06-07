@@ -11,16 +11,17 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fb1344bea9256c63e3f8e34581fcabe7f5136f90
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689704"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de dados no serviço do Power BI
 Defina alertas para notificá-lo quando os dados em seus dashboards forem alterados além dos limites definidos por você. 
 
-Os alertas só podem ser definidos em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em visuais criados de conjuntos de dados de streaming que foram fixados de um relatório para um dashboard, mas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**. 
+Será possível definir alertas em blocos se você tiver uma licença do Power BI Pro ou se um dashboard tiver sido compartilhado com você em uma [capacidade Premium](service-premium.md). Os alertas só podem ser definidos em blocos fixos de visuais de relatório e apenas em medidores, KPIs e cartões. Os alertas podem ser definidos em visuais criados de conjuntos de dados de streaming que foram fixados de um relatório para um dashboard, mas não podem ser definidos em blocos de streaming criados diretamente no dashboard usando **Adicionar bloco** > **Dados de streaming personalizados**. 
 
 Apenas você poderá ver os alertas que definir, mesmo se compartilhar seu dashboard. Os alertas de dados são totalmente sincronizados nas plataformas; defina e exiba alertas de dados [nos aplicativos móveis do Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) e no serviço do Power BI. Eles não estão disponíveis no Power BI Desktop. Os alertas podem até mesmo ser [automatizados e integrados com o Microsoft Flow](https://flow.microsoft.com) - [experimente por conta própria](service-flow-integration.md).
 
