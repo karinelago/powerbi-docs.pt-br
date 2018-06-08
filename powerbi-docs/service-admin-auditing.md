@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 04dc755eb7d575aa8438b4a5000ad40549c6220f
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bcf012d94dedfd912479c3e51e0de388b177c294
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297068"
+ms.locfileid: "34755014"
 ---
 # <a name="using-auditing-within-your-organization"></a>Usando a auditoria dentro da sua organização
 
 Saiba como você pode usar a auditoria com o Power BI para monitorar e investigar as ações executadas. Você pode usar a Central de Segurança e Conformidade ou usar o PowerShell.
 
-Saber quem está executando uma ação em qual item em seu locatário do Power BI pode ser essencial para ajudar a organização a atender seus requisitos, como gerenciamento de registros e conformidade regulamentar.
+Saber quem está executando uma ação em qual item em seu locatário do Power BI pode ser essencial para ajudar a organização a atender seus requisitos, como gerenciamento de registros e conformidade regulamentar. Você pode usar a auditoria do Power BI para auditar as ações executadas pelos usuários, como "Exibir Relatório" e "Exibir Dashboard”. Você não pode usar a auditoria para auditar permissões. 
 
 Você pode filtrar os dados de auditoria por intervalo de datas, usuário, dashboard, tipo de relatório, conjunto de dados e tipo de atividade. Você também pode baixar as atividades em um arquivo csv (valores separados por vírgula) para analisar offline.
 
@@ -29,18 +29,18 @@ Você pode filtrar os dados de auditoria por intervalo de datas, usuário, dashb
 Você deve atender a esses requisitos para acessar logs de auditoria:
 
 - Para acessar a seção de auditoria do Centro de Conformidade e Segurança do Office 365, você deve ter uma licença do Exchange Online (incluída nas assinaturas do Office 365 Enterprise E3 e E5).
-- Você deve ser um administrador global ou ter uma função de administrador do Exchange que fornece acesso ao log de auditoria. 
 
-  As funções de administrador do Exchange são controladas por meio do centro de administração do Exchange. Para obter mais informações, veja [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
+- Você deve ser um administrador global ou ter uma função de administrador do Exchange que fornece acesso ao log de auditoria. As funções de administrador do Exchange são controladas por meio do centro de administração do Exchange. Para obter mais informações, veja [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692(v=exchg.150).aspx).
 
 - Se você tiver acesso ao log de auditoria, mas não for um administrador global ou administrador de serviço do Power BI, você não terá acesso ao portal de administração do Power BI. Nesse caso, você deve obter um link direto para o Centro de Segurança e Conformidade do Office 365.
 
-> [!NOTE]
-> Para exibir logs de auditoria para o Power BI em seu locatário, você precisará de pelo menos uma licença de caixa de correio do Exchange em seu locatário.
+- Para exibir logs de auditoria para o Power BI em seu locatário, você precisará de pelo menos uma licença de caixa de correio do Exchange em seu locatário.
 
 ## <a name="accessing-your-audit-logs"></a>Acesso a logs de auditoria
 
 Para auditar os logs do Power BI, visite o Centro de Conformidade e Segurança do O365.
+
+Pode haver um atraso de até 48 horas entre a habilitação da auditoria e a possibilidade de exibir dados de auditoria. Se os dados não forem exibidos imediatamente, verifique os logs de auditoria mais tarde. Pode haver um atraso semelhante entre a obtenção da permissão para exibir os logs de auditoria e a possibilidade de acessá-los.
 
 1. Selecione o **ícone de engrenagem** no canto superior direito.
 
@@ -56,8 +56,7 @@ Para auditar os logs do Power BI, visite o Centro de Conformidade e Segurança d
 
 Como alternativa, você pode navegar até [Office 365 | Segurança e Conformidade](https://protection.office.com/#/unifiedauditlog).
 
-> [!NOTE]
-> Para fornecer acesso ao log de auditoria a contas que não são de administrador, você precisará atribuir permissões no Centro de Administração do Exchange Online. Por exemplo, você pode atribuir um usuário a um grupo de função existente, como o gerenciamento de organização, ou você pode criar um novo grupo de função com a função de Logs de Auditoria. Para obter mais informações, veja [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
+Para fornecer acesso ao log de auditoria a contas que não são de administrador, você precisará atribuir permissões no Centro de Administração do Exchange Online. Por exemplo, você pode atribuir um usuário a um grupo de função existente, como o gerenciamento de organização, ou você pode criar um novo grupo de função com a função de Logs de Auditoria. Para obter mais informações, veja [Permissões no Exchange Online](https://technet.microsoft.com/library/jj200692\(v=exchg.150\).aspx).
 
 ## <a name="search-only-power-bi-activities"></a>Pesquisar somente as atividades do Power BI
 

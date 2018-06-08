@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722990"
+ms.locfileid: "34755060"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solução de problemas do gateway de dados local
 Este artigo aborda alguns problemas comuns que você poderá encontrar ao usar o **gateway de dados local**.
@@ -149,6 +149,9 @@ Você precisará trabalhar com seus administradores de domínio para verificar a
 **Não é possível ver as fontes de dados do gateway de dados na experiência "Obter Dados" do Analysis Services por meio do serviço do Power BI**
 
 Confira se sua conta está listada na guia **Usuários** da fonte de dados na configuração do gateway. Se não tiver acesso ao gateway, verifique com o administrador do gateway e solicite a verificação. Somente as contas na lista **Usuários** verão a fonte de dados relacionada na lista do Analysis Services.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Erro: você não tem nenhum gateway instalado ou configurado para as fontes de dados neste conjunto de dados
+Verifique se você adicionou uma ou mais fontes de dados para o gateway, conforme está descrito em [Adicionar uma fonte de dados](service-gateway-manage.md#add-a-data-source). Se o gateway não aparecer no portal de administração em **Gerenciar gateways**, tente limpar o cache do navegador ou sair do serviço e entrar novamente.
 
 ## <a name="datasets"></a>Conjuntos de dados
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Erro: não há espaço suficiente para esta linha.

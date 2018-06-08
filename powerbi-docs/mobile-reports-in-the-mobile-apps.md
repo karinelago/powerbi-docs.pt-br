@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297666"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799408"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Explorar relatórios nos aplicativos móveis do Power BI
 Aplica-se a:
@@ -81,25 +81,30 @@ Quando você seleciona um valor em um visual, ele não filtra os outros visuais.
    ![Classificar um visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Para inverter a ordem de classificação, toque nas reticências (**...**) novamente e, depois, toque no mesmo nome de campo novamente.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Fazer drill down em um iPad ou tablet
-Se um autor de relatório tiver adicionado a funcionalidade de drill down a um visual, em um iPad ou tablet, você poderá fazer drill down em um visual para ver os valores que compõem uma parte dele. Você [adiciona o drill down em um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço do Power BI. 
+## <a name="drill-down-and-up-in-a-visual"></a>Fazer drill down e up em um visual
+Se o autor de um relatório tiver adicionado a funcionalidade de drill down a um visual, você poderá fazer drill down no visual para ver os valores que compõem uma parte dele. Você [adiciona o drill down em um visual](power-bi-visualization-drill-down.md) no Power BI Desktop ou no serviço do Power BI. 
 
-> [!NOTE]
-> Atualmente, o drill down não funciona em mapas no iPad ou em tablets.
-> 
-> 
+* Toque em um ponto de dados em um visual para exibir sua dica de ferramenta. Se ele tiver drill down, a parte inferior da dica de ferramenta terá setas que podem ser tocadas. 
+  
+  ![Fazer drill down em um visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Toque em um visual. Se ele tiver setas para cima e para baixo nos cantos superiores ![Ícones de Drill up e Drill down](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png), então você poderá fazer drill down. Para fazer drill down em um valor, toque na seta no canto superior direito e, em seguida, toque em um valor do visual &#151; nesse caso, na bolha FD-04 azul-escura.
+* Para fazer drill up, toque na seta para cima na dica de ferramenta.
   
-  ![Fazer drill down em um visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Para fazer drill up novamente, toque na seta para cima no canto superior esquerdo.
-  
-  ![Fazer drill up](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Fazer drill up](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Voltar para Meu Espaço de Trabalho
-* Toque na seta ao lado do nome do relatório > toque em **Meu Espaço de Trabalho**.
-  
-  ![Retornar para a parte superior](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* Você também pode fazer drill down em todos os pontos de dados em um visual. Abra-o no modo de foco, toque no ícone Explorar e, em seguida, escolha mostrar todos os próximos níveis ou expanda para mostrar o nível atual e o próximo.
+
+   ![Fazer drill down em todos no Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Fazer drill down de uma página para outra
+
+Com o *detalhamento*, quando você toca em uma parte específica de um visual, o Power BI leva a uma página diferente no relatório, filtrada com o valor tocado. O autor de um relatório pode definir uma ou mais opções de detalhamento, cada uma levando a uma página diferente. Nesse caso, você pode escolher para qual delas deseja exibir o detalhamento. No exemplo a seguir, ao tocar o valor no medidor, você pode escolher entre o detalhamento de **gasto por área de negócios** ou de **planejamento por área de negócios**.
+
+![Relatório detalhado do Power BI Mobile](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Quando você faz o detalhamento, o botão Voltar retorna à página anterior do relatório.
+
+Veja como [Adicionar o detalhamento no Power BI Desktop](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Próximas etapas
 * [Exibir e interagir com relatórios do Power BI otimizados para seu telefone](mobile-apps-view-phone-report.md)

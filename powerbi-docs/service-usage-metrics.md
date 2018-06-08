@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584313"
+ms.locfileid: "34755244"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso de dashboards e relatórios
 Se você cria dashboards e relatórios, as métricas de uso ajudam a compreender seus impactos. Quando executa as métricas de uso de um dashboard ou de um relatório, você descobre como esses dashboards e relatórios estão sendo usados em sua organização – o que está sendo usado, por quem e para que finalidade.  
 
-As métricas de uso acompanharão o uso de relatórios que são inseridos no SharePoint Online. Elas também acompanharão a inserção de dashboards e relatórios por meio dos fluxos “o usuário possui as credenciais” e “o aplicativo possui as credenciais”. As métricas de uso não acompanharão o uso de relatórios inseridos por meio do recurso [Publicar na Web](service-publish-to-web.md).
+  > **Observação**: as métricas de uso acompanharão o uso dos relatórios inseridos no SharePoint Online. No entanto, as métricas de uso não acompanharão a inserção de dashboards e relatórios por meio do fluxo das "próprias credenciais do usuário" ou das "próprias credenciais do aplicativo". As métricas de uso também não acompanharão o uso de relatórios inseridos por meio de [publicação na Web](service-publish-to-web.md).
 
 Esses relatórios de métricas de uso são somente leitura. No entanto, você pode personalizar um relatório de métricas de uso usando "Salvar como". Isso cria um novo conjunto de dados e converte o relatório somente leitura em um relatório completo do Power BI que você pode editar. O relatório personalizado contém não apenas as métricas do dashboard ou relatório selecionado mas, removendo o filtro padrão, agora você tem acesso às métricas de uso de todos os dashboards ou todos os relatórios no espaço de trabalho selecionado.
 

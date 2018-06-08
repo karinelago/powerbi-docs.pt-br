@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584290"
+ms.locfileid: "34755129"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administração do Power BI
 
@@ -92,7 +92,7 @@ Quando você clicar em **Ir para o Centro de Administração do O365**, vá dire
 
 ## <a name="audit-logs"></a>Logs de auditoria
 
-A terceira guia, no portal de administração, é **Logs de auditoria**. Os logs estão localizados no Centro de Conformidade e Segurança do Office 365. Esta seção permite acessar rapidamente essa área no Office 365. 
+A terceira guia, no portal de administração, é **Logs de auditoria**. Os logs estão localizados no Centro de Conformidade e Segurança do Office 365. Esta seção permite acessar rapidamente essa área no Office 365.
 
 Para obter mais informações sobre logs de auditoria, consulte [Auditoria do Power BI em sua organização](service-admin-auditing.md)
 
@@ -227,8 +227,6 @@ Os usuários na organização podem usar a visualização dos Mapas do ArcGIS pa
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Habilitar visuais personalizados para toda a organização
 Os usuários na organização podem interagir com e compartilhar elementos visuais personalizados. [Saiba mais](power-bi-custom-visuals.md)
 
-![Configurações visuais personalizadas](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > Essa configuração se aplica a toda a organização e não pode ser limitada a grupos específicos.
 
@@ -247,7 +245,7 @@ Os usuários na organização podem interagir e compartilhar elementos visuais c
 
 Os usuários na organização podem usar a auditoria para monitorar as ações executadas no Power BI por outros usuários na organização. [Saiba mais](service-admin-auditing.md)
 
-Essa configuração deve ser habilitada para que as entradas de log de auditoria sejam registradas.
+Essa configuração deve ser habilitada para que as entradas de log de auditoria sejam registradas. Pode haver um atraso de até 48 horas entre a habilitação da auditoria e a possibilidade de exibir dados de auditoria. Se os dados não forem exibidos imediatamente, verifique os logs de auditoria mais tarde. Pode haver um atraso semelhante entre a obtenção da permissão para exibir os logs de auditoria e a possibilidade de acessá-los.
 
 > [!NOTE]
 > Essa configuração se aplica a toda a organização e não pode ser limitada a grupos específicos.
