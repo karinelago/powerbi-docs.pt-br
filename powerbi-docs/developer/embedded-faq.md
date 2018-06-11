@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d7baa305c514d084f6390754d516b238794bcdbf
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3e1b3b59fff26242e662d90365a6b8acc98259e6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721008"
+ms.locfileid: "34754922"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Perguntas frequentes sobre o Power BI Embedded
 
@@ -103,8 +103,7 @@ A autenticação e a autorização dos usuários do aplicativo serão implementa
 
 Se você já tiver um locatário do Azure AD, será possível usar o diretório existente ou criar um novo locatário do Azure AD para a segurança do conteúdo do aplicativo inserido.
 
-Para obter o token do AAD, é possível usar uma das Bibliotecas de Autenticação do Azure Active Directory. Bibliotecas de cliente estão disponíveis para várias plataformas.
-https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries
+Para obter um token do AAD, você pode usar uma das bibliotecas de autenticação do Azure Active Directory – https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Bibliotecas de cliente estão disponíveis para várias plataformas.
 
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>Qual a diferença entre o Power BI Embedded e os serviços do Azure?
 

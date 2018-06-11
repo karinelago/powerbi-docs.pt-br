@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722579"
+ms.locfileid: "34755152"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Gerenciar um Power BI Gateway
 
-Depois que você [instalar um gateway de dados do Power BI](service-gateway-install.md), pode gerenciá-lo por meio da área **Gerenciar gateways** do serviço do Power BI, no aplicativo do gateway em seu computador local e com scripts do PowerShell. Este artigo concentra-se no serviço do Power BI. Se você acabou de instalar um gateway, é recomendável [adicionar uma fonte de dados](#add-a-data-source) e, em seguida, [adicionar usuários](#add-users-to-a-data-source) para que eles possam acessar a fonte de dados.
+Depois de [instalar um gateway de dados do Power BI](service-gateway-install.md), você poderá gerenciá-lo com base em seus requisitos. Neste tópico, você aprenderá como adicionar e remover fontes de dados e usuários, reiniciar um gateway e também migrar, restaurar, assumir e remover um gateway. 
+
+É possível gerenciar um gateway por meio da área **Gerenciar gateways** do serviço do Power BI, no aplicativo do gateway em seu computador local e com scripts do PowerShell. Este artigo concentra-se no serviço do Power BI. 
+
+Se você acabou de instalar um gateway, é recomendável [adicionar uma fonte de dados](#add-a-data-source) e, em seguida, [adicionar usuários](#add-users-to-a-data-source) para que eles possam acessar a fonte de dados.
 
 
 ## <a name="manage-data-sources"></a>Gerenciar fontes de dados
 
-O Power BI oferece suporte a várias fontes de dados no local, e cada uma tem seus próprios requisitos. Neste exemplo, mostraremos como adicionar o SQL Server como uma fonte de dados, mas as etapas são semelhantes para outras fontes de dados.
+O Power BI oferece suporte a várias fontes de dados no local, e cada uma tem seus próprios requisitos. Um gateway pode ser usado para uma única fonte de dados ou para várias fontes de dados. Neste exemplo, mostraremos como adicionar o SQL Server como uma fonte de dados, mas as etapas são semelhantes para outras fontes de dados.
 
 
 ### <a name="add-a-data-source"></a>Adicionar uma fonte de dados
@@ -113,6 +117,14 @@ Quando os administradores usam o item do menu **Gerenciar gateways** encontrado 
 
 Todas as novas solicitações de **Atualização Agendada** e operações de DirectQuery são automaticamente direcionadas para a instância primária de um cluster de gateways específico. Se a instância do gateway primário não estiver online, a solicitação é encaminhada para outra instância de gateway no cluster.
 
+
+## <a name="share-a-gateway"></a>Compartilhar um gateway
+
+Não é possível *compartilhar* um gateway em si, mas você pode adicionar administradores ao gateway e adicionar usuários às fontes de dados do gateway. 
+
+Depois de instalar um gateway, por padrão, você passa a ser o administrador desse gateway. Como mostrado anteriormente, você pode adicionar outras pessoas como administradores. Esses administradores podem adicionar fontes de dados, além de configurar e remover o gateway.
+
+Você também pode atribuir usuários às fontes de dados que você cria em cada um de seus gateways. Assim, os usuários podem usar essas fontes de dados para atualizar os relatórios do Power BI. No entanto, eles não podem alterar essas fontes de dados nem as configurações do gateway.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Migrar, restaurar ou assumir o controle de um gateway
 
