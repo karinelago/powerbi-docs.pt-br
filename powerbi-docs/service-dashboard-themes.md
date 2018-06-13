@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722510"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813792"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usar temas de dashboard no serviço do Power BI
 Com **Temas do dashboard**, é possível aplicar um tema de cor ao dashboard inteiro, como as cores da empresa, uma coloração sazonal ou qualquer outro tema de cor que você queira aplicar. Quando você aplicar um **Tema do dashboard**, todos os visuais no dashboard passarão a usar as cores do tema selecionado (aplicam-se algumas exceções que serão descritas posteriormente neste artigo).
 
 ![dashboard de exemplo com tema](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Alterar as cores dos visuais do relatório no dashboard não os afetará. Além disso, quando você fixar blocos de um relatório que já tenha um [tema de relatório](/desktop-report-themes.md), você terá a opção de manter o tema atual ou usar o tema do dashboard.
+Alterar as cores dos visuais do relatório no dashboard não os afetará. Além disso, quando você fixar blocos de um relatório que já tenha um [tema de relatório](desktop-report-themes.md), você terá a opção de manter o tema atual ou usar o tema do dashboard.
 
 
 ## <a name="prerequisites"></a>Pré-requisitos
