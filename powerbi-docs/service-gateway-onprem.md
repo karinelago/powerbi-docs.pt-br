@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 06/05/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c91e257d79e9d16fa5a7a58b696d58aefaaaaf92
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722806"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812803"
 ---
 # <a name="on-premises-data-gateway"></a>Gateway de dados local
 
@@ -47,7 +47,9 @@ Você pode usar uma conexão dinâmica em instâncias de tabela ou multidimensio
 [!INCLUDE [gateway-onprem-datasources-include](./includes/gateway-onprem-datasources-include.md)]
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Baixar e instalar o Gateway de dados local
-Para baixar o gateway, selecione **Gateway de Dados** no menu Downloads. Baixe o [Gateway de dados local](http://go.microsoft.com/fwlink/?LinkID=820925).
+Para baixar o gateway, selecione **Gateway de Dados** no menu Downloads. Baixe o [Gateway de dados local](http://go.microsoft.com/fwlink/?LinkID=820925). 
+
+Observe que a atualização do gateway de dados local é realizada reinstalando o gateway, conforme descrito nesta seção. Ao atualizar o gateway (reinstalando-o), as configurações do gateways existentes são mantidas.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 
@@ -56,9 +58,8 @@ Para baixar o gateway, selecione **Gateway de Dados** no menu Downloads. Baixe o
 
 ## <a name="install-the-gateway-in-personal-mode"></a>Instalar o gateway no modo pessoal
 > [!NOTE]
-> O modo pessoal só funcionará com o Power BI.
-> 
-> 
+> A versão pessoal do gateway somente funciona com o Power BI.
+
 
 Depois que o gateway pessoal for instalado, você precisará iniciar o **Assistente de Configuração do Power BI Gateway – Personal**.
 

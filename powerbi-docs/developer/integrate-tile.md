@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288304"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813769"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integrar um bloco em um aplicativo (o usuário possui dados)
 Saiba como integrar ou inserir um bloco em um aplicativo Web usando chamadas à API REST, junto com a API JavaScript do Power BI durante a inserção para a organização.
@@ -28,7 +28,7 @@ Para começar este passo a passo, você precisará de uma conta do **Power BI**.
 > 
 > 
 
-Para integrar um bloco em um aplicativo Web, use a API REST do **Power BI**, ou o SDK do C# do Power BI, e um **token de acesso** de autorização do Azure AD (Active Directory) para obter um bloco. Em seguida, carregue o bloco usando o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, consulte [Visão geral da API REST do Power BI](https://msdn.microsoft.com/library/dn877544.aspx) e a [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar um bloco em um aplicativo Web, use a API REST do **Power BI**, ou o SDK do C# do Power BI, e um **token de acesso** de autorização do Azure AD (Active Directory) para obter um bloco. Em seguida, carregue o bloco usando o mesmo token de acesso. A API do **Power BI** fornece acesso programático a determinados recursos do **Power BI**. Para obter mais informações, confira [Visão geral da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/) e a [API JavaScript do Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Baixe o exemplo
 Este artigo mostra o código usado no [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) no GitHub. Para acompanhar esse passo a passo, baixe a amostra.
@@ -44,12 +44,12 @@ Se você baixou o [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-
 No aplicativo, primeiro você precisará obter um **token de acesso** do Azure AD antes de poder fazer chamadas à API REST do Power BI. Para obter mais informações, consulte [Autenticar usuários e obter um token de acesso do Azure AD para o aplicativo do Power BI](get-azuread-access-token.md).
 
 ## <a name="step-3---get-a-tile"></a>Etapa 3 – Obter um bloco
-Para obter um bloco do **Power BI**, use a operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx), que obtém uma lista de blocos do **Power BI** de determinado dashboard. Na lista de blocos, obtenha uma ID de bloco e a URL de inserção.
+Para obter um bloco do **Power BI**, use a operação [Obter Blocos](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles), que obtém uma lista de blocos do **Power BI** de determinado dashboard. Na lista de blocos, obtenha uma ID de bloco e a URL de inserção.
 
 Uma ID de dashboard precisará ser recuperada primeiro antes que você possa obter o bloco. Para obter informações sobre como recuperar um dashboard, consulte [Integrar um dashboard em um aplicativo (o usuário possui dados)](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Obter blocos usando um token de acesso
-Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx). A operação [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx) retorna uma lista de blocos. É possível obter um bloco individual na lista de blocos. Veja abaixo um método completo do C# para obter um bloco. 
+Com o **token de acesso** recuperado na [etapa 2](#step-2-get-an-access-token-from-azure-ad), chame a operação [Obter Blocos](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). A operação [Obter Blocos](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) retorna uma lista de blocos. É possível obter um bloco individual na lista de blocos. Veja abaixo um método completo do C# para obter um bloco. 
 
 Para fazer a chamada à API REST, você deve incluir um cabeçalho *Autorização* no formato *Portador {token de acesso}*.
 
@@ -216,7 +216,7 @@ Se você baixou e executou o [integrate-tile-web-app](https://github.com/Microso
 ![Bloco inserido no aplicativo Web](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Trabalhando com grupos (espaços de trabalho de aplicativo)
-Para inserir um bloco de um grupo (espaço de trabalho de aplicativo), obtenha a lista de todos os blocos disponíveis no dashboard do grupo usando a chamada à API REST a seguir. Para obter mais informações sobre essa chamada à API REST, consulte [Obter Blocos](https://msdn.microsoft.com/library/mt465741.aspx). Você precisará ter permissão no grupo à solicitação para retornar os resultados.
+Para inserir um bloco de um grupo (espaço de trabalho de aplicativo), obtenha a lista de todos os blocos disponíveis no dashboard do grupo usando a chamada à API REST a seguir. Para obter mais informações sobre essa chamada à API REST, consulte [Obter Blocos](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles). Você precisará ter permissão no grupo à solicitação para retornar os resultados.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

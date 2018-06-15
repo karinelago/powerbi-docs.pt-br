@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813654"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Criar e gerenciar relações no Power BI Desktop
 Quando você importa várias tabelas, é provável que você realize algumas análises usando dados de todas essas tabelas. Relações entre essas tabelas são necessárias para calcular os resultados com precisão e exibir as informações corretas em seus relatórios. O Power BI Desktop torna fácil a criação dessas relações. Na verdade, na maioria dos casos, você não precisará fazer nada - o recurso de Detecção Automática pode fazer isso por você. No entanto, em alguns casos, talvez você precise criar relações por conta própria, ou talvez seja necessário fazer algumas alterações em uma relação. De qualquer modo, é importante compreender as relações no Power BI Desktop e compreender como criá-las e editá-las.
@@ -35,6 +36,16 @@ Na guia **Página Inicial**, clique em **Gerenciar Relações** \> **Detectar Au
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 Por padrão, o Power BI Desktop configurará automaticamente a Cardinalidade (direção), Direção do filtro cruzado e Propriedades ativas para sua nova relação; no entanto, você pode alterá-las se necessário. Para obter mais informações, consulte a seção Noções básicas sobre opções adicionais posteriormente neste artigo.
+
+Observe que aparecerá um erro informando que *Uma das colunas precisa ter valores exclusivos* se nenhuma das tabelas selecionadas para a relação tiver valores exclusivos. Pelo menos uma tabela em uma relação *precisa* ter uma lista distinta e exclusiva de valores de chave, que é um requisito comum para todas as tecnologias de banco de dados relacional. 
+
+Se você encontrar esse erro, haverá duas maneiras de corrigir o problema:
+
+* Use "Remover Linhas Duplicadas" para criar uma coluna com valores exclusivos. A desvantagem dessa abordagem é que você perderá informações quando as linhas duplicadas forem removidas e, geralmente, há um bom motivo para que uma chave (linha) esteja duplicada.
+* Adicione uma tabela intermediária composta pela lista de valores de chave distintos no modelo, que, em seguida, será vinculado às duas colunas originais na relação.
+
+Para obter mais informações, confira a [postagem no blog](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) que aborda isso detalhadamente.
+
 
 ## <a name="edit-a-relationship"></a>Editar uma relação
 1. Na guia **Página Inicial** , clique em **Gerenciar Relações**.

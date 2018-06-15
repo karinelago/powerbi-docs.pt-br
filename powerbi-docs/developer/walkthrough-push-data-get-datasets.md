@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287614"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813217"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Etapa 4: Obter um conjunto de dados para adicionar linhas em uma tabela do Power BI
 Este artigo faz parte do passo a passo para [enviar dados por push a um conjunto de dados](walkthrough-push-data.md).
 
-Na **etapa 3**, [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md), de Enviar dados por push a um conjunto de dados, você chamou a operação [Criar Conjunto de Dados](https://msdn.microsoft.com/library/mt203562.aspx) para criar um conjunto de dados no Power BI. Nesta etapa, você usa a operação [Obter Conjuntos de Dados](https://msdn.microsoft.com/library/mt203567.aspx) e o Newtonsoft.Json para obter uma ID de conjunto de dados. Você pode usar a ID do conjunto de dados na etapa 4 para adicionar linhas a um conjunto de dados. 
+Na **etapa 3**, [Criar um conjunto de dados no Power BI](walkthrough-push-data-create-dataset.md), de Enviar dados por push a um conjunto de dados, você chamou a operação [Criar Conjunto de Dados](https://docs.microsoft.com/rest/api/power-bi/datasets) para criar um conjunto de dados no Power BI. Nesta etapa, você usa a operação [Obter Conjuntos de Dados](https://docs.microsoft.com/rest/api/power-bi/getdatasets) e o Newtonsoft.Json para obter uma ID de conjunto de dados. Você pode usar a ID do conjunto de dados na etapa 4 para adicionar linhas a um conjunto de dados. 
 
-Para enviar dados por push para um conjunto de dados do Power BI, você precisa fazer referência à tabela no conjunto de dados. Para fazer referência a uma tabela em um conjunto de dados, é necessário primeiro obter uma **ID do Conjunto de Dados**. Você obtém uma **ID de Conjunto de Dados** usando a operação [Obter Conjunto de Dados](https://msdn.microsoft.com/library/mt203567.aspx). A operação **Obter Conjunto de Dados** retorna uma cadeia de caracteres JSON que contém uma lista de todos os conjuntos de dados no Power BI. A maneira recomendada para desserializar uma cadeia de caracteres JSON é com o [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Para enviar dados por push para um conjunto de dados do Power BI, você precisa fazer referência à tabela no conjunto de dados. Para fazer referência a uma tabela em um conjunto de dados, é necessário primeiro obter uma **ID do Conjunto de Dados**. É possível obter uma **ID do conjunto de dados** usando a operação [Obter Conjunto de Dados por ID](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid). A operação **Obter Conjunto de Dados por ID** retorna uma cadeia de caracteres JSON que contém uma lista de todos os conjuntos de dados no Power BI. A maneira recomendada para desserializar uma cadeia de caracteres JSON é com o [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
 Veja como obter um conjunto de dados.
 
@@ -267,10 +267,10 @@ Apresentamos abaixo a [listagem de código completa](#code).
 ## <a name="next-steps"></a>Próximas etapas
 [Adicionar linhas a uma tabela do Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Obter conjuntos de dados](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Obter conjuntos de dados](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Enviar dados por push ao Power BI](walkthrough-push-data.md)  
 [Visão geral da API REST do Power BI](overview-of-power-bi-rest-api.md)  
-[Referência da API REST do Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referência da API REST do Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 Mais perguntas? [Experimente a Comunidade do Power BI](http://community.powerbi.com/)
 

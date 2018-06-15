@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301770"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar visuais personalizados no AppSource
 Saiba como você pode publicar seu visual personalizado no AppSource para que outros possam descobrir e usá-lo. Office
@@ -25,7 +26,7 @@ Depois de criar seu visual personalizado, talvez você queira publicá-lo no App
 O que é o AppSource? De forma simples, é o lugar para encontrar aplicativos SaaS e suplementos para os seus produtos e serviços da Microsoft. O [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta milhões de usuários do Office 365, Dynamics 365, Cortana Intelligence, e outros, a soluções que os ajudam a realizar seu trabalho com mais eficiência, perspicácia ou harmonia do que antes.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparando-se para enviar seu visual personalizado
-Após terminar de codificar e testar seu visual personalizado e o empacotado em um arquivo pbiviz, você também deverá ter o seguinte pronto para envio.
+Depois que você terminar de codificar e testar seu visual personalizado e empacotá-lo em um arquivo pbiviz, o seguinte também estará pronto para ser enviado.
 
 | Item | Necessário | Descrição |
 | --- | --- | --- |

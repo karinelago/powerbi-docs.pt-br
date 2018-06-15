@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: fa142a34da003328ef509c319faf24d556023440
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34720801"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813148"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solucionando problemas do aplicativo inserido
 
@@ -108,7 +108,7 @@ Por motivos diferentes, pode haver falha em GenerateToken com a identidade em vi
 
 Para verificar qual é o problema, tente as opções a seguir.
 
-* Execute a operação [get dataset](https://msdn.microsoft.com/library/mt784653.aspx). A propriedade IsEffectiveIdentityRequired é verdadeira?
+* Execute [get dataset](https://docs.microsoft.com/rest/api/power-bi/datasets). A propriedade IsEffectiveIdentityRequired é verdadeira?
 * O nome de usuário é obrigatório para qualquer EffectiveIdentity.
 * Se a propriedade IsEffectiveIdentityRolesRequired for verdadeira, a Função será necessária.
 * A DatasetId é obrigatória para qualquer EffectiveIdentity.
