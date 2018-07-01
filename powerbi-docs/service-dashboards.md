@@ -48,7 +48,7 @@ Os [relatórios](service-reports.md) costumam ser confundidos com dashboards, po
 | Fontes de dados |Um ou mais relatórios e um ou mais conjuntos de dados por dashboard |Um único conjunto de dados por relatório |
 | Disponível no Power BI Desktop |Não |Sim, pode criar e exibir relatórios na área de trabalho |
 | Fixação |Pode fixar visualizações existentes (blocos) somente do dashboard atual a outros dashboards |Pode fixar visualizações (como blocos) a qualquer um dos seus dashboards. Pode fixar páginas de relatório inteiras a qualquer um dos seus dashboards. |
-| Assinatura |Não é possível assinar um dashboard |É possível assinar páginas de relatório |
+| Assinatura | É possível assinar um dashboard |É possível assinar páginas de relatório |
 | Filtragem |Não é possível filtrar ou fatiar |Diferentes maneiras de filtrar, realçar e fatiar |
 | Definir alertas |Pode criar alertas para enviar por email quando determinadas condições forem atendidas |Não |
 | Recurso |Pode definir um dashboard como o dashboard "em destaque" |Não é possível criar um relatório em destaque |
